@@ -882,9 +882,9 @@ function showFam(g) {
     <div class="fam-credits">${escapeHtml(g.credits)}</div>
     <div class="fam-meta"><span><strong>Time</strong> · ${escapeHtml(g.duration)}</span><span><strong>Players</strong> · ${escapeHtml(g.players)}</span></div>
     <div class="fam-intro">${escapeHtml(g.intro)}</div>
-    <div class="fam-equipment"><div class="fam-equipment-label">What you need</div><ul>${g.equipment.map((e) => `<li>${escapeHtml(e)}</li>`).join("")}</ul></div>
+    <div class="fam-equipment"><div class="fam-equipment-label">What you need</div><ul>${g.equipment.map((e) => `<li>${escapeHtml(e).replace(/https:\/\/[^\s,;)]+/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`)}</li>`).join("")}</ul></div>
     <div class="fam-equipment-label">How to play</div>
-    <div class="fam-steps">${g.steps.map((s) => `<div class="fam-step"><div class="fam-step-svg">${s.svg || ""}</div><div>
+    <div class="fam-steps">${g.steps.map((s) => `<div class="fam-step${s.svg ? "" : " plain"}">${s.svg ? `<div class="fam-step-svg">${s.svg}</div>` : ""}<div>
       <div class="fam-step-num">Step ${s.n}</div><div class="fam-step-title">${escapeHtml(s.title)}</div><div class="fam-step-body">${escapeHtml(s.body)}</div></div></div>`).join("")}</div>
     <div class="fam-notice"><div class="fam-notice-label">After playing, talk about</div><ul>${g.what_to_notice.map((n) => `<li>${escapeHtml(n)}</li>`).join("")}</ul></div>`;
   wrap.appendChild(card);

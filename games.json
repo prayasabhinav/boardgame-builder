@@ -10414,8 +10414,8 @@
   "duration": "until someone reaches 25 points",
   "players": "2–4 players",
   "equipment": [
-   "the board, printed from the game's board file: 3 columns by 8 rows of squares; play on the red rows with 2 players, add the green rows for 3, and the blue row for 4; the yellow squares double a circle's score",
-   "the pieces, printed from the game's pieces file and cut out: for each player, 8 quarter circles, two each of crosshatched (1 point), dotted (2), plain (3) and black (4)",
+   "the board, printed from https://github.com/prayas/3quarters/raw/main/board.pdf : 3 columns by 8 rows of squares; play on the red rows with 2 players, add the green rows for 3, and the blue row for 4; the yellow squares double a circle's score",
+   "the pieces, printed from https://github.com/prayas/3quarters/raw/main/pieces.pdf and cut out: for each player, 8 quarter circles, two each of crosshatched (1 point), dotted (2), plain (3) and black (4)",
    "a four-sided die (d4)",
    "a phone to time each move"
   ],
@@ -10494,7 +10494,7 @@
   "duration": "a few minutes a round",
   "players": "2–4 players",
   "equipment": [
-   "48 cards: print them from the game's cards file, or write them on paper: green +1 (6 cards), +2 (12), +3 (6); red −1, −2 and −3 (2 each); black ±4, ±5, ±6 and ±7 (4 each); one 'On the house' card and one 'Double order' card",
+   "48 cards: print them from https://github.com/prayas/AON/raw/main/releases/cards.pdf (one card to a page) with the back from https://github.com/prayas/AON/raw/main/releases/card-back.pdf , or write them on paper: green +1 (6 cards), +2 (12), +3 (6); red −1, −2 and −3 (2 each); black ±4, ±5, ±6 and ±7 (4 each); one 'On the house' card and one 'Double order' card",
    "paper to keep scores"
   ],
   "intro": "Each player tries to complete a 12-slice pizza by adding or removing slices. In this simple arithmetic game, all age-groups can have quick fun. Adding or subtracting pizza slices feels like the tussle for resources that we face in life. This tussle can be won by individuals who wait and watch — with alertness, foresight and luck. Winning too early, gives less points (as the number of cards in the play space decide the points).",
