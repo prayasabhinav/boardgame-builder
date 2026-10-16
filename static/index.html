@@ -43,6 +43,7 @@
         <a href="#" class="k-header-link" id="howItWorksLink">How it works</a>
         <a href="https://boardgame-wiki.blevn.xyz" class="k-header-link" target="_blank" rel="noopener" title="Every entry the feedback is made from, and the checks people have recorded">Wiki</a>
         <a href="https://github.com/prayasabhinav/boardgame-builder" class="k-header-link" target="_blank" rel="noopener" title="Source code on GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+        <a href="#" class="k-header-link" id="knownGamesLink" title="Play a known game with things at hand, then watch it and answer questions about it">Known games</a>
         <a href="#" class="k-header-link" id="saveGameLink" title="Download this design as a Markdown file you can open again later">Save game</a>
         <a href="#" class="k-header-link" id="openGameLink" title="Open a design saved earlier">Open game</a>
         <input type="file" id="openGameInput" accept=".md,text/markdown,text/plain" hidden />
@@ -118,14 +119,89 @@
           <li><strong>Press Iterate.</strong> The tool looks up what your blocks tend to do together in a list prepared in advance, and says what is taking shape. Nothing is generated while you play.</li>
           <li><strong>Change something and press Iterate again.</strong> Each press is one turn. When you are done, press <em>Mark complete</em> for a closing summary.</li>
         </ol>
+        <p class="onboarding-note"><em>Known games</em> in the header has short games to play with things at hand, then watch and answer questions about. <em>Test parts</em> beside the feedback has quick tests of one block at a time.</p>
         <p class="onboarding-note">Press <strong>?</strong> on any block to see what it means. Your design stays in this browser; <em>Save game</em> downloads it as a file you can open again later, and <em>Start fresh</em> clears it.</p>
         <button class="k-btn-primary onboarding-start" id="onboardingStart" type="button">Start designing</button>
       </div>
     </div>
 
-    <!-- RIGHT: feedback -->
+    <!-- Questions asked when a block is placed -->
+    <div class="config-modal" id="configModal" hidden>
+      <div class="config-modal-backdrop" id="configModalBackdrop"></div>
+      <div class="config-modal-card" role="dialog" aria-modal="true" aria-labelledby="configModalTitle">
+        <button class="config-modal-close" id="configModalClose" type="button" aria-label="Close">×</button>
+        <div class="config-modal-head">
+          <div class="config-modal-eyebrow">How does this block work in your game?</div>
+          <h3 class="config-modal-title" id="configModalTitle">—</h3>
+        </div>
+        <div class="config-modal-body" id="configModalBody"></div>
+        <div class="config-modal-foot">
+          <div class="config-preview">Answer any you can. You can change them later from the line under the block.</div>
+          <button class="k-btn-primary" id="configDoneBtn" type="button">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Known games: play one with things at hand, then watch it and answer -->
+    <div class="phase-overlay" id="gamesOverlay" hidden>
+      <div class="phase-shell">
+        <div class="phase-actions games-nav">
+          <button class="k-btn-outline" id="gamesListBtn" type="button" hidden>← All games</button>
+          <button class="k-btn-outline" id="gamesCloseBtn" type="button">Back to designing</button>
+        </div>
+        <div id="gamesList">
+          <div class="phase-eyebrow">Known games</div>
+          <h1 class="phase-title">Play a known game, then watch it</h1>
+          <p class="phase-intro">Each takes 5 to 10 minutes with paper, dice, coins or cards. Play it to feel what one kind of block does, then watch it played and answer a few questions about it.</p>
+          <div class="games-grid" id="gamesGrid"></div>
+        </div>
+        <div id="famCardWrap" hidden></div>
+        <div class="phase-actions" id="famActions" hidden>
+          <button class="k-btn-primary" id="famWatchBtn" type="button">Watch it and answer</button>
+        </div>
+        <div class="analysis-stage" id="analysisStage" hidden>
+          <div class="anim-wrap">
+            <svg id="analysisAnim" viewBox="0 0 600 280" preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="anim-narration" id="animNarration"></div>
+            <div class="anim-controls">
+              <button class="k-btn-primary" id="animPlayBtn" type="button">▶ Play</button>
+              <button class="k-btn-outline" id="animReplayBtn" type="button" hidden>Replay</button>
+              <span class="anim-counter" id="animCounter">0 / 0</span>
+            </div>
+          </div>
+          <div id="mcqBlock" hidden>
+            <h3 class="mcq-heading">Questions about what you watched</h3>
+            <div class="mcq-list" id="mcqList"></div>
+            <div class="phase-actions">
+              <button class="k-btn-primary" id="mcqSubmit" type="button">Check my answers</button>
+              <div class="analysis-result" id="analysisResult"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: feedback and part tests -->
     <aside class="feedback-panel" id="feedbackPanel">
 
+      <div class="panel-tabs">
+        <button class="panel-tab active" data-tab="feedback" type="button">Feedback</button>
+        <button class="panel-tab" data-tab="tests" type="button">Test parts</button>
+      </div>
+
+      <div data-panel="tests" class="panel-pane" hidden>
+        <div class="feedback-header">
+          <span class="region-eyebrow">Test one part</span>
+          <h2 class="region-title">Try a part before the whole game</h2>
+          <p class="region-hint">Each test plays one block, or two together, for a few minutes with things at hand. Say how it felt; your notes are kept with the design and go into the closing summary.</p>
+        </div>
+        <div class="feedback-scroll">
+          <div id="testsEmpty" class="tests-empty">Put blocks on the canvas. Tests for them appear here.</div>
+          <div id="testsList"></div>
+        </div>
+      </div>
+
+      <div data-panel="feedback" class="panel-pane">
       <div class="feedback-header">
         <span class="region-eyebrow">Stages 2 & 3 · Feedback</span>
         <h2 class="region-title">What your game tends to be</h2>
@@ -139,6 +215,8 @@
             <p>Each press is one turn of design. The tool reads the canvas, looks up what those blocks tend to do together, and tells you what's taking shape.</p>
           </div>
         </div>
+      </div>
+
       </div>
 
       <div class="feedback-actions" id="feedbackActions">

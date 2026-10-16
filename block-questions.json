@@ -1,0 +1,783 @@
+{
+ "push-your-luck": [
+  {
+   "key": "stakes",
+   "label": "How much can players lose if they push too far?",
+   "options": [
+    {
+     "v": "small",
+     "n": "Small",
+     "d": "only this turn's gain — light, plays fast"
+    },
+    {
+     "v": "medium",
+     "n": "Medium",
+     "d": "accumulated progress — decisions matter more"
+    },
+    {
+     "v": "big",
+     "n": "Big",
+     "d": "your whole position — slow, dramatic"
+    }
+   ]
+  },
+  {
+   "key": "timing",
+   "label": "When can players push their luck?",
+   "options": [
+    {
+     "v": "optional",
+     "n": "Optional",
+     "d": "player chooses — the gamble is the choice"
+    },
+    {
+     "v": "forced",
+     "n": "Forced",
+     "d": "the board makes you push — tension from being trapped"
+    },
+    {
+     "v": "scheduled",
+     "n": "Scheduled",
+     "d": "only at certain moments — a rhythm of risk"
+    }
+   ]
+  },
+  {
+   "key": "resolution",
+   "label": "How is the gamble resolved?",
+   "options": [
+    {
+     "v": "dice",
+     "n": "Dice",
+     "d": "visible, dramatic, easy to learn"
+    },
+    {
+     "v": "cards",
+     "n": "Drawing cards",
+     "d": "slower, lets players track odds"
+    },
+    {
+     "v": "reveal",
+     "n": "Hidden reveal",
+     "d": "surprises, asymmetric knowledge"
+    }
+   ]
+  }
+ ],
+ "worker-placement": [
+  {
+   "key": "scale",
+   "label": "How many action spots are there?",
+   "options": [
+    {
+     "v": "small",
+     "n": "Small",
+     "d": "3–4 spots — sparse, every choice matters"
+    },
+    {
+     "v": "medium",
+     "n": "Medium",
+     "d": "10–15 spots — room to plan"
+    },
+    {
+     "v": "large",
+     "n": "Large",
+     "d": "board-sized — many strategies"
+    }
+   ]
+  },
+  {
+   "key": "conflict",
+   "label": "How do spots interact?",
+   "options": [
+    {
+     "v": "block",
+     "n": "Spots block each other",
+     "d": "competition for spots is the point"
+    },
+    {
+     "v": "shared",
+     "n": "Spots are shared",
+     "d": "more peaceful, less tactical"
+    },
+    {
+     "v": "fight",
+     "n": "Spots fight back",
+     "d": "taking a spot costs you something"
+    }
+   ]
+  },
+  {
+   "key": "purpose",
+   "label": "What do workers do?",
+   "options": [
+    {
+     "v": "gather",
+     "n": "Gather resources",
+     "d": "collect things to spend later"
+    },
+    {
+     "v": "score",
+     "n": "Score points directly",
+     "d": "actions = points"
+    },
+    {
+     "v": "unlock",
+     "n": "Unlock other actions",
+     "d": "open up more options"
+    }
+   ]
+  }
+ ],
+ "roll-and-move": [
+  {
+   "key": "path",
+   "label": "What does the path look like?",
+   "options": [
+    {
+     "v": "linear",
+     "n": "Linear",
+     "d": "a straight track with a start and an end"
+    },
+    {
+     "v": "loop",
+     "n": "Loop",
+     "d": "a circular path — never ends"
+    },
+    {
+     "v": "branching",
+     "n": "Branching",
+     "d": "choices at junctions"
+    }
+   ]
+  },
+  {
+   "key": "events",
+   "label": "What happens when you land?",
+   "options": [
+    {
+     "v": "none",
+     "n": "Nothing special",
+     "d": "just move"
+    },
+    {
+     "v": "some",
+     "n": "Some squares trigger events",
+     "d": "snakes, ladders, surprises"
+    },
+    {
+     "v": "all",
+     "n": "Every square does something",
+     "d": "Monopoly-style"
+    }
+   ]
+  }
+ ],
+ "drafting": [
+  {
+   "key": "format",
+   "label": "How does the draft work?",
+   "options": [
+    {
+     "v": "snake",
+     "n": "Snake draft",
+     "d": "order reverses each round"
+    },
+    {
+     "v": "passing",
+     "n": "Pass cards around",
+     "d": "everyone picks one, passes the rest"
+    },
+    {
+     "v": "open",
+     "n": "Open market",
+     "d": "first come, first served from a row"
+    }
+   ]
+  }
+ ],
+ "bidding": [
+  {
+   "key": "currency",
+   "label": "What do players bid with?",
+   "options": [
+    {
+     "v": "money",
+     "n": "Money or points",
+     "d": "a clear, visible cost"
+    },
+    {
+     "v": "resources",
+     "n": "Game resources",
+     "d": "trade things you'd otherwise use"
+    },
+    {
+     "v": "position",
+     "n": "Position or moves",
+     "d": "give up something less obvious"
+    }
+   ]
+  }
+ ],
+ "area-control": [
+  {
+   "key": "scoring",
+   "label": "When does territory score?",
+   "options": [
+    {
+     "v": "continuous",
+     "n": "Continuously",
+     "d": "earn points each turn for what you hold"
+    },
+    {
+     "v": "snapshots",
+     "n": "At checkpoints",
+     "d": "score at specific moments"
+    },
+    {
+     "v": "endgame",
+     "n": "Only at the end",
+     "d": "the late game decides"
+    }
+   ]
+  }
+ ],
+ "hand-management": [
+  {
+   "key": "hand-size",
+   "label": "How big are players' hands?",
+   "options": [
+    {
+     "v": "tight",
+     "n": "Tight (3–5 cards)",
+     "d": "every card matters"
+    },
+    {
+     "v": "medium",
+     "n": "Medium (5–8)",
+     "d": "options, some flexibility"
+    },
+    {
+     "v": "wide",
+     "n": "Wide (8+)",
+     "d": "lots of choice; harder to plan"
+    }
+   ]
+  }
+ ],
+ "set-collection": [
+  {
+   "key": "set-type",
+   "label": "What makes a set?",
+   "options": [
+    {
+     "v": "matching",
+     "n": "Matching items",
+     "d": "all the same colour, type, etc."
+    },
+    {
+     "v": "running",
+     "n": "A run or sequence",
+     "d": "1–2–3, like Rummy"
+    },
+    {
+     "v": "diverse",
+     "n": "One of each",
+     "d": "no two alike"
+    }
+   ]
+  }
+ ],
+ "tile-placement": [
+  {
+   "key": "rules",
+   "label": "How are tiles placed?",
+   "options": [
+    {
+     "v": "free",
+     "n": "Anywhere",
+     "d": "place wherever you want"
+    },
+    {
+     "v": "matching",
+     "n": "Must match neighbours",
+     "d": "edges or colours align"
+    },
+    {
+     "v": "constrained",
+     "n": "Strict rules",
+     "d": "specific patterns required"
+    }
+   ]
+  }
+ ],
+ "race-to-finish": [
+  {
+   "key": "length",
+   "label": "How long is the race?",
+   "options": [
+    {
+     "v": "short",
+     "n": "Short",
+     "d": "5–10 minutes — quick game"
+    },
+    {
+     "v": "medium",
+     "n": "Medium",
+     "d": "15–25 minutes"
+    },
+    {
+     "v": "long",
+     "n": "Long",
+     "d": "45+ minutes — long arc"
+    }
+   ]
+  },
+  {
+   "key": "comeback",
+   "label": "Can losers catch up?",
+   "options": [
+    {
+     "v": "none",
+     "n": "No catch-up",
+     "d": "if you fall behind, you stay behind"
+    },
+    {
+     "v": "some",
+     "n": "Some catch-up",
+     "d": "events can help laggards"
+    },
+    {
+     "v": "strong",
+     "n": "Strong catch-up",
+     "d": "the leader gets slowed; bunched finishes"
+    }
+   ]
+  }
+ ],
+ "most-points": [
+  {
+   "key": "sources",
+   "label": "Where do points come from?",
+   "options": [
+    {
+     "v": "single",
+     "n": "One main thing",
+     "d": "do that thing well to win"
+    },
+    {
+     "v": "several",
+     "n": "Several different things",
+     "d": "many strategies viable"
+    }
+   ]
+  },
+  {
+   "key": "visibility",
+   "label": "Are points visible to everyone?",
+   "options": [
+    {
+     "v": "visible",
+     "n": "Visible throughout",
+     "d": "you know who's winning"
+    },
+    {
+     "v": "hidden",
+     "n": "Hidden until the end",
+     "d": "big reveal moment"
+    }
+   ]
+  },
+  {
+   "key": "endgame",
+   "label": "How does the game end?",
+   "options": [
+    {
+     "v": "target",
+     "n": "First to a target",
+     "d": "race to N points"
+    },
+    {
+     "v": "timed",
+     "n": "Most after fixed time",
+     "d": "clock or rounds run out"
+    }
+   ]
+  }
+ ],
+ "cooperative-survival": [
+  {
+   "key": "failure",
+   "label": "What happens when the team makes a mistake?",
+   "options": [
+    {
+     "v": "instant",
+     "n": "One mistake ends it",
+     "d": "high stakes, dramatic"
+    },
+    {
+     "v": "accumulating",
+     "n": "Mistakes pile up",
+     "d": "3 strikes, forgiving"
+    },
+    {
+     "v": "timer",
+     "n": "Time runs down",
+     "d": "clock pressure"
+    }
+   ]
+  }
+ ],
+ "fully-cooperative": [
+  {
+   "key": "communication",
+   "label": "Can players talk freely?",
+   "options": [
+    {
+     "v": "full",
+     "n": "Yes, talk about anything",
+     "d": "open table-talk"
+    },
+    {
+     "v": "restricted",
+     "n": "Yes, but not specifics",
+     "d": "like Hanabi — no naming cards"
+    },
+    {
+     "v": "silent",
+     "n": "Only through actions",
+     "d": "deduce from each other's moves"
+    }
+   ]
+  },
+  {
+   "key": "roles",
+   "label": "Do players have different roles?",
+   "options": [
+    {
+     "v": "same",
+     "n": "Same abilities",
+     "d": "everyone does the same things"
+    },
+    {
+     "v": "different",
+     "n": "Different roles",
+     "d": "each player specialises"
+    }
+   ]
+  }
+ ],
+ "direct-confrontation": [
+  {
+   "key": "form",
+   "label": "How do players confront each other?",
+   "options": [
+    {
+     "v": "take",
+     "n": "Take from another",
+     "d": "steal a piece, claim a spot"
+    },
+    {
+     "v": "block",
+     "n": "Block their plans",
+     "d": "prevent moves, deny resources"
+    },
+    {
+     "v": "hurt",
+     "n": "Damage their position",
+     "d": "reduce score, set them back"
+    }
+   ]
+  },
+  {
+   "key": "defence",
+   "label": "Can the targeted player respond?",
+   "options": [
+    {
+     "v": "defend",
+     "n": "Yes, they can defend",
+     "d": "blocking moves are possible"
+    },
+    {
+     "v": "retaliate",
+     "n": "They can retaliate later",
+     "d": "escalation cycles"
+    },
+    {
+     "v": "none",
+     "n": "No, they can only watch",
+     "d": "feels rough; high drama"
+    }
+   ]
+  }
+ ],
+ "solo-in-parallel": [
+  {
+   "key": "interaction",
+   "label": "Do players' games touch at all?",
+   "options": [
+    {
+     "v": "none",
+     "n": "Not at all",
+     "d": "completely parallel"
+    },
+    {
+     "v": "end",
+     "n": "Only at the end",
+     "d": "compare results when finished"
+    },
+    {
+     "v": "some",
+     "n": "Sometimes",
+     "d": "occasional moments of interaction"
+    }
+   ]
+  }
+ ],
+ "team-vs-team": [
+  {
+   "key": "team-size",
+   "label": "How big are the teams?",
+   "options": [
+    {
+     "v": "pairs",
+     "n": "Pairs (2v2)",
+     "d": "intimate, every move counts"
+    },
+    {
+     "v": "small",
+     "n": "Small (3v3)",
+     "d": "balanced talk and action"
+    },
+    {
+     "v": "large",
+     "n": "Large (4+)",
+     "d": "lots of voices, harder to coordinate"
+    }
+   ]
+  }
+ ],
+ "traitor": [
+  {
+   "key": "knowledge",
+   "label": "Does the traitor know they're the traitor?",
+   "options": [
+    {
+     "v": "yes",
+     "n": "Yes, from the start",
+     "d": "they're acting from turn 1"
+    },
+    {
+     "v": "later",
+     "n": "They learn partway",
+     "d": "twist mid-game"
+    },
+    {
+     "v": "maybe",
+     "n": "Even they aren't sure",
+     "d": "memory loss, hidden roles flip"
+    }
+   ]
+  }
+ ],
+ "mostly-chance": [
+  {
+   "key": "control",
+   "label": "Do players have any control?",
+   "options": [
+    {
+     "v": "none",
+     "n": "Almost none",
+     "d": "watch and roll"
+    },
+    {
+     "v": "timing",
+     "n": "Only when to act",
+     "d": "choose moments"
+    },
+    {
+     "v": "choice",
+     "n": "Small choices",
+     "d": "pick which die, when to play"
+    }
+   ]
+  }
+ ],
+ "chance-with-mitigation": [
+  {
+   "key": "mitigation",
+   "label": "How can players soften bad luck?",
+   "options": [
+    {
+     "v": "trade",
+     "n": "Trade or convert",
+     "d": "swap unwanted resources"
+    },
+    {
+     "v": "reroll",
+     "n": "Reroll or redraw",
+     "d": "second chances"
+    },
+    {
+     "v": "plan",
+     "n": "Plan around it",
+     "d": "flexible strategies"
+    }
+   ]
+  }
+ ],
+ "mostly-skill": [
+  {
+   "key": "skill-type",
+   "label": "What kind of skill matters most?",
+   "options": [
+    {
+     "v": "thinking",
+     "n": "Thinking ahead",
+     "d": "planning, strategy"
+    },
+    {
+     "v": "execution",
+     "n": "Physical execution",
+     "d": "aim, timing, dexterity"
+    },
+    {
+     "v": "reading",
+     "n": "Reading opponents",
+     "d": "bluffing, predicting"
+    }
+   ]
+  }
+ ],
+ "fantasy": [
+  {
+   "key": "role",
+   "label": "What does the theme do?",
+   "options": [
+    {
+     "v": "decoration",
+     "n": "Sets the mood",
+     "d": "art and names, but rules don't change"
+    },
+    {
+     "v": "integration",
+     "n": "Shapes how mechanics feel",
+     "d": "rules and theme fit together"
+    },
+    {
+     "v": "constraint",
+     "n": "Forces in-character choices",
+     "d": "theme decides what you can do"
+    }
+   ]
+  },
+  {
+   "key": "tone",
+   "label": "What's the tone?",
+   "options": [
+    {
+     "v": "serious",
+     "n": "Serious",
+     "d": "epic, weighty"
+    },
+    {
+     "v": "playful",
+     "n": "Playful",
+     "d": "silly, lighthearted"
+    },
+    {
+     "v": "dark",
+     "n": "Dark",
+     "d": "horror, grim"
+    }
+   ]
+  }
+ ],
+ "science-fiction": [
+  {
+   "key": "role",
+   "label": "What does the theme do?",
+   "options": [
+    {
+     "v": "decoration",
+     "n": "Sets the mood",
+     "d": "sleek aesthetic"
+    },
+    {
+     "v": "integration",
+     "n": "Shapes how mechanics feel",
+     "d": "resource flow as fuel/power"
+    },
+    {
+     "v": "constraint",
+     "n": "Forces in-character choices",
+     "d": "play as captain, AI, etc."
+    }
+   ]
+  }
+ ],
+ "everyday-life": [
+  {
+   "key": "role",
+   "label": "What does the theme do?",
+   "options": [
+    {
+     "v": "decoration",
+     "n": "Sets the mood",
+     "d": "familiar setting"
+    },
+    {
+     "v": "integration",
+     "n": "Shapes how mechanics feel",
+     "d": "economic, social, narrative"
+    },
+    {
+     "v": "constraint",
+     "n": "Forces in-character choices",
+     "d": "role-play element"
+    }
+   ]
+  }
+ ],
+ "hidden-hands": [
+  {
+   "key": "reveal",
+   "label": "How is hidden info revealed?",
+   "options": [
+    {
+     "v": "end",
+     "n": "At the end of the game",
+     "d": "big reveal moment"
+    },
+    {
+     "v": "play",
+     "n": "When you play it",
+     "d": "gradual reveal as cards are used"
+    },
+    {
+     "v": "trigger",
+     "n": "Triggered by events",
+     "d": "specific moments force reveals"
+    }
+   ]
+  }
+ ],
+ "hidden-identity": [
+  {
+   "key": "who",
+   "label": "Who has hidden identities?",
+   "options": [
+    {
+     "v": "some",
+     "n": "Only some players",
+     "d": "traitors among loyal"
+    },
+    {
+     "v": "all",
+     "n": "All players",
+     "d": "everyone has a secret"
+    }
+   ]
+  }
+ ]
+}

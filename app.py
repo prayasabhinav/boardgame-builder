@@ -1,7 +1,9 @@
 """FastAPI local server for boardgameBuilder.
 
-Runs on localhost. Serves the frontend and exposes three endpoints:
-- GET  /palette   — palette data for the frontend (dimensions + feelings)
+Runs on localhost. Serves the frontend and exposes these endpoints:
+- GET  /palette   — palette data for the frontend (dimensions + feelings, each block with its questions)
+- GET  /tests     — short tests of one part of a game, and of two parts together
+- GET  /games     — known games to play with things at hand, then watch and answer questions about
 - POST /narrate   — stage 2 + 3 for one turn
 - POST /complete  — stage 3 final summary for Mark complete
 """
@@ -17,7 +19,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from rules import compute_diff, match_kb
-from templates import build_template_output, render_summary, render_turn
+from templates import build_template_output, display, render_summary, render_turn
 from palette import DIMENSIONS, FEELINGS
 from block_meta import meta_for
 
@@ -27,7 +29,7 @@ def _enrich(blocks: list) -> list:
     out = []
     for b in blocks:
         meta = meta_for(b["id"])
-        out.append({**b, "description": meta["description"], "svg": meta["svg"]})
+        out.append({**b, "description": meta["description"], "svg": meta["svg"], "questions": QUESTIONS.get(b["id"], [])})
     return out
 
 
@@ -59,6 +61,32 @@ for fb in KB["feeling_blocks"]:
     fb["opposed_by"] = fb["opposed_by"] + links["opposed_by"]
 
 
+# Carried from the April 2026 demo on 16 October 2026: questions asked when a block is placed, short tests of one part, and known games
+QUESTIONS = json.loads((ROOT / "block-questions.json").read_text(encoding="utf-8"))
+PART_TESTS = json.loads((ROOT / "part-tests.json").read_text(encoding="utf-8"))
+GAMES = json.loads((ROOT / "games.json").read_text(encoding="utf-8"))
+
+
+def own_choices(canvas: dict) -> str:
+    """The designers' answers to the block questions and their notes from the part tests, said back in fixed words."""
+    said = []
+    for block, picked in canvas["answers"].items():
+        names = [o["n"].lower() for q in QUESTIONS.get(block, []) for o in q["options"] if picked.get(q["key"]) == o["v"]]
+        if names:
+            said.append(f"{display(block)} works like this: {', '.join(names)}")
+    out = [f"You said {'; '.join(said)}."] if said else []
+    titles = {"+".join(t["blocks"]): t["title"] for t in PART_TESTS["pairs"]} | {b: t["title"] for b, t in PART_TESTS["tests"].items()}
+    for key, report in canvas["tests"].items():
+        bits = [f"it felt {', '.join(report['feelings'])}"] if report.get("feelings") else []
+        if report.get("match"):
+            bits.append(f"it matched what you wanted: {report['match']}")
+        if report.get("note"):
+            bits.append(f"one thing you would change: {report['note']}")
+        if bits and key in titles:
+            out.append(f"When you tested {titles[key]}, {'; '.join(bits)}.")
+    return " ".join(out)
+
+
 # --- FastAPI ---------------------------------------------------------------
 
 app = FastAPI(title="boardgameBuilder")
@@ -75,6 +103,8 @@ app.add_middleware(
 class CanvasState(BaseModel):
     mechanics: list[str] = []
     feelings: list[str] = []
+    answers: dict[str, dict[str, str]] = {}  # block id -> question key -> chosen option
+    tests: dict[str, dict] = {}              # test key -> {feelings, match, note}
 
 
 class TurnRequest(BaseModel):
@@ -85,6 +115,16 @@ class TurnRequest(BaseModel):
 @app.get("/palette")
 def get_palette():
     return _palette_payload()
+
+
+@app.get("/tests")
+def get_tests():
+    return PART_TESTS
+
+
+@app.get("/games")
+def get_games():
+    return GAMES
 
 
 @app.post("/narrate")
@@ -113,8 +153,9 @@ def complete(req: TurnRequest):
     matches = match_kb(canvas, KB)
     template_output = build_template_output(matches, canvas, diff)
 
+    choices = own_choices(canvas)
     return {
-        "narration": render_summary(template_output, canvas),
+        "narration": render_summary(template_output, canvas) + (f"\n\n{choices}" if choices else ""),
         "source": "empty" if template_output["mode"] == "empty" else "knowledge-base",
         "matches": matches,
     }

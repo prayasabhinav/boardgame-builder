@@ -1,0 +1,198 @@
+{
+ "tests": {
+  "push-your-luck": {
+   "title": "The dice push",
+   "time": "6 min",
+   "rules": "Roll a die. Each roll = 1 point. After each roll, decide: bank (keep what you have, end your turn) or push (roll again). If you roll a 1, you bust and lose all unbanked points. Three rounds.",
+   "feeling_options": [
+    "exciting",
+    "tense",
+    "boring",
+    "frustrating",
+    "lucky"
+   ]
+  },
+  "fully-cooperative": {
+   "title": "Back-to-back drawing",
+   "time": "5 min",
+   "rules": "Two students sit back-to-back. One has a simple drawing on paper. The other has a blank sheet and a pen. The first describes the drawing in words; the second tries to draw it. No looking. No questions about specific shapes — only positions.",
+   "feeling_options": [
+    "together",
+    "silly",
+    "frustrating",
+    "clever",
+    "tense"
+   ]
+  },
+  "semi-cooperative": {
+   "title": "Trust until the last turn",
+   "time": "7 min",
+   "rules": "Three players build one tower of books or blocks, ten levels high. Before you start, each draws a slip; one slip says 'saboteur'. Everyone builds together until level 8. From then on the saboteur tries to topple the tower without being seen, and the others try to finish it and name the saboteur.",
+   "feeling_options": [
+    "together",
+    "tense",
+    "sneaky",
+    "betrayed",
+    "clever"
+   ]
+  },
+  "worker-placement": {
+   "title": "The blocking grid",
+   "time": "6 min",
+   "rules": "A 2×3 grid drawn on paper. Two players, alternating turns, place a token on one open spot. Each placed token blocks that spot. Whoever places the token completing a row scores 1 point. Three rounds.",
+   "feeling_options": [
+    "thoughtful",
+    "unfair",
+    "clever",
+    "fast",
+    "tense"
+   ]
+  },
+  "hidden-hands": {
+   "title": "The asymmetry test",
+   "time": "5 min",
+   "rules": "Two players. Each gets 5 cards visible only to themselves. Each turn, both reveal one card. Highest wins the round. After 5 rounds, compare. The hidden information was the game.",
+   "feeling_options": [
+    "clever",
+    "sneaky",
+    "tense",
+    "lucky"
+   ]
+  },
+  "hidden-identity": {
+   "title": "The mole",
+   "time": "5 min",
+   "rules": "Five players draw a card secretly. One says 'mole', the others say 'team'. Players take turns asking each other one question. After everyone has asked, the team votes who the mole is. Mole wins if not voted out.",
+   "feeling_options": [
+    "clever",
+    "sneaky",
+    "tense",
+    "silly"
+   ]
+  },
+  "direct-confrontation": {
+   "title": "Take and defend",
+   "time": "5 min",
+   "rules": "Each player has 5 visible tokens. On your turn, take one of an opponent's tokens. They can defend if they have a 'shield' card (each player has 2). Whoever has the most tokens after 3 rounds wins.",
+   "feeling_options": [
+    "unfair",
+    "clever",
+    "tense",
+    "frustrating"
+   ]
+  },
+  "drafting": {
+   "title": "Pick and pass",
+   "time": "5 min",
+   "rules": "Deal each player 5 cards. Look at your hand, pick one, pass the rest left. Repeat until cards run out. The set you collect scores. Cards that combine score more.",
+   "feeling_options": [
+    "thoughtful",
+    "clever",
+    "tense",
+    "lucky"
+   ]
+  },
+  "bidding": {
+   "title": "The auction",
+   "time": "5 min",
+   "rules": "Each player starts with 10 tokens. Items appear one at a time. Players bid; highest bidder pays and takes the item. Some items are worth more than others. After 5 items, whoever has the most-valuable collection wins.",
+   "feeling_options": [
+    "tense",
+    "clever",
+    "frustrating",
+    "thoughtful"
+   ]
+  },
+  "race-to-finish": {
+   "title": "Race against the dice",
+   "time": "5 min",
+   "rules": "A path of 20 squares. Two players. On your turn, roll a die and move that many. First to the end wins. (You'll feel how chance shapes a race when most of the game is just rolls.)",
+   "feeling_options": [
+    "lucky",
+    "frustrating",
+    "fast",
+    "boring"
+   ]
+  },
+  "most-points": {
+   "title": "Score sources",
+   "time": "5 min",
+   "rules": "Each player has 10 turns. Each turn, choose: take 2 points (easy) or roll a die for 0–6 points (risky). After 10 turns, highest score wins. Test how a points-only game shapes choices.",
+   "feeling_options": [
+    "thoughtful",
+    "lucky",
+    "tense",
+    "boring"
+   ]
+  },
+  "team-vs-team": {
+   "title": "The team puzzle",
+   "time": "6 min",
+   "rules": "Form two teams of two. Each team gets a different word. One person from each team gives clues to their teammate. First team to guess wins. Two rounds.",
+   "feeling_options": [
+    "together",
+    "fast",
+    "clever",
+    "frustrating"
+   ]
+  },
+  "traitor": {
+   "title": "Werewolf in 5",
+   "time": "7 min",
+   "rules": "Five players. One is the wolf, four are villagers. Each night, wolf chooses a villager to eliminate. Each day, all alive players discuss and vote out one suspect. Game ends when wolf is voted out (villagers win) or only one villager remains (wolf wins). Two rounds.",
+   "feeling_options": [
+    "sneaky",
+    "tense",
+    "silly",
+    "betrayed"
+   ]
+  }
+ },
+ "pairs": [
+  {
+   "blocks": [
+    "push-your-luck",
+    "fully-cooperative"
+   ],
+   "title": "Push-luck + cooperative together",
+   "time": "7 min",
+   "rules": "One player rolls. The team shares the gain or the bust. Players can advise the roller — but no specific numbers. After every push, the team must agree to continue or stop. Three rounds. Watch where the two mechanics fit together and where they fight each other.",
+   "feeling_options": [
+    "together",
+    "tense",
+    "funny",
+    "unfair"
+   ]
+  },
+  {
+   "blocks": [
+    "hidden-hands",
+    "fully-cooperative"
+   ],
+   "title": "Hidden hands + cooperative",
+   "time": "6 min",
+   "rules": "A team of 3 must reach a shared goal. Each player holds 3 cards no one else can see. They can talk — but cannot say what's in their hand. They can only describe it indirectly. (Like Hanabi.)",
+   "feeling_options": [
+    "together",
+    "frustrating",
+    "clever",
+    "tense"
+   ]
+  },
+  {
+   "blocks": [
+    "worker-placement",
+    "direct-confrontation"
+   ],
+   "title": "Workers + blocking",
+   "time": "6 min",
+   "rules": "Two players, 4×3 grid. Place workers; once a spot is taken, the other player cannot use it that round. Some spots also let you remove an opponent's worker. Three rounds.",
+   "feeling_options": [
+    "thoughtful",
+    "unfair",
+    "tense",
+    "clever"
+   ]
+  }
+ ]
+}

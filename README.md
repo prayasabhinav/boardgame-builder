@@ -28,16 +28,17 @@ A small browser tool for designing a board game by putting blocks together and r
 4. [Simulation blocks for serious games](#simulation-blocks-for-serious-games)
 5. [How the feedback is made](#how-the-feedback-is-made)
 6. [Example games](#example-games)
-7. [Run it on your own machine](#run-it-on-your-own-machine)
-8. [Run it with Docker](#run-it-with-docker)
-9. [Changing the knowledge base](#changing-the-knowledge-base)
-10. [The wiki](#the-wiki)
-11. [Checks](#checks)
-12. [Files](#files)
-13. [Privacy](#privacy)
-14. [Status and how to help](#status-and-how-to-help)
-15. [References](#references)
-16. [Licence](#licence)
+7. [Known games, part tests and block questions](#known-games-part-tests-and-block-questions)
+8. [Run it on your own machine](#run-it-on-your-own-machine)
+9. [Run it with Docker](#run-it-with-docker)
+10. [Changing the knowledge base](#changing-the-knowledge-base)
+11. [The wiki](#the-wiki)
+12. [Checks](#checks)
+13. [Files](#files)
+14. [Privacy](#privacy)
+15. [Status and how to help](#status-and-how-to-help)
+16. [References](#references)
+17. [Licence](#licence)
 
 ---
 
@@ -58,7 +59,9 @@ You change a block, press Iterate again and see what moved. **Mark complete** wr
 3. **Core mechanic** and **Simulation** take as many blocks as you like. Every other slot takes one, and a new block replaces the old one.
 4. Press **Iterate**. Each press is one turn of design; the panel keeps the history.
 5. Press the **?** on any block for a short description and a drawing.
-6. Press **Mark complete** for the summary. **Start fresh** in the header clears everything.
+6. When a block has questions about how it works in your game, they open as you drop it; answer any you can, and change them later from the line under the block.
+7. **Test parts**, beside the feedback, has short tests of one block, or two together, to play with things at hand; say how each felt.
+8. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Start fresh** in the header clears everything.
 
 Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file: the feelings, the blocks and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
 
@@ -126,6 +129,16 @@ Example games appear at the end of the feedback ("Games that do something like t
 
 In October 2026 every example game in the curated pairs and triads was checked against its full BoardGameGeek tag list. A game was removed when it lacks a mechanism it was named for, using tags BoardGameGeek applies reliably, or when a *full information* claim met a hidden-information tag or rule. 26 games were removed this way, each with its reason kept in the entry's `exemplars_removed`; one (Skull) is kept and marked in `exemplars_unconfirmed`; 60 of the 66 entries still name at least one game. The rule is in `drafted/bgg_check.py`, the tags in `drafted/bgg-tags.json` and every verdict in `drafted/bgg-verdicts.json`.
 
+## Known games, part tests and block questions
+
+Three things carried over on 16 October 2026 from an April 2026 prototype of this tool, edited before use:
+
+- **Known games** in the header lists ten short games to play with paper, dice, coins or cards, such as Pig, a small Hanabi, a paper auction and charades. Each has illustrated steps, things to talk about afterwards, and an animation of the game being played, followed by questions. Questions about what happened are marked right or wrong; questions about what a designer would change have no right answer and are left to talk about. Nothing is locked: designing works whether or not a game has been played. The games are in `games.json`. Their rules, animations and answers were checked against each other, not against a published rulebook; several came over with scores that did not add up or rules the animation contradicted, and were corrected.
+- **Test parts** holds a short test for thirteen blocks, and three tests of two blocks together, in `part-tests.json`. What players say about a test (how it felt, whether it matched what they wanted, one thing they would change) is kept with the design.
+- **Block questions**, in `block-questions.json`, ask how 25 of the blocks work in this game: how much a bust costs in push your luck, how big the hands are in hand management. The answers are the designers' own. The closing summary says them back, with the test notes, in fixed words; they add no knowledge-base claim and change none of the feedback.
+
+All three are kept in the saved Markdown file, and none of them uses a model.
+
 ## Run it on your own machine
 
 You need Python 3.10 or newer.
@@ -184,7 +197,7 @@ python check.py
 
 | File | What it is |
 |---|---|
-| `app.py` | The FastAPI server: serves the page, `/palette`, `/narrate` and `/complete` |
+| `app.py` | The FastAPI server: serves the page, `/palette`, `/tests`, `/games`, `/narrate` and `/complete` |
 | `rules.py` | Matches a canvas against the knowledge base |
 | `templates.py` | Turns the matches into the feedback paragraph and the closing summary |
 | `bridges.py` | The fixed joining phrases between knowledge-base sentences |
@@ -196,6 +209,7 @@ python check.py
 | `wiki/` | The public wiki of the knowledge base, and `pull.py`, which carries approved proposals into it |
 | `wiki-applied.json` | The wiki proposals already carried into the knowledge base (made by `wiki/pull.py`) |
 | `check.py` | The coverage check |
+| `games.json`, `part-tests.json`, `block-questions.json` | The known games, the part tests and the block questions |
 | `mechanics-shortlist.md`, `feeling-blocks.md` | Reference notes on the mechanic and feeling blocks |
 | `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css`, and `og.png`, the link-preview card |
 | `docs/` | The screenshot, and `make_og.py`, which draws `static/og.png` from it |
