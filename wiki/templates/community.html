@@ -38,6 +38,12 @@
 {% endfor %}
 </ul>
 
+<h2>Names on the about page</h2>
+<p class="aside">The about page names the editors switched on above, and anyone whose name is typed here, for an editor who has agreed but not signed in yet. Only the name is kept.</p>
+{% if typed_names %}<ul class="rows">{% for n in typed_names %}<li class="row"><strong>{{ n.name }}</strong>
+  <form method="post" action="/community/named-name" class="inline"><input type="hidden" name="name" value="{{ n.name }}"><input type="hidden" name="action" value="remove"><button class="quiet">Remove</button></form></li>{% endfor %}</ul>{% endif %}
+<form method="post" action="/community/named-name"><input type="hidden" name="action" value="add"><input name="name" placeholder="Name as it should appear" required maxlength="80"> <button>Add name</button></form>
+
 {% if settings_editors %}
 <h2>Editors set in the server settings</h2>
 <p class="aside">These accounts become editors the first time they sign in, and then appear above, where they can be removed. Changing this list needs the server's settings.</p>

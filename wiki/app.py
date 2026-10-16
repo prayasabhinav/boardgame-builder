@@ -95,6 +95,8 @@ with sqlite3.connect(DB_PATH) as db:
     # named: when an owner set this editor to be named on the about page, which they do once the editor has agreed
     if "named" not in [c[1] for c in db.execute("PRAGMA table_info(editors)")]:
         db.execute("ALTER TABLE editors ADD COLUMN named TEXT")
+    # Names an owner typed in to show on the about page, for editors who have not signed in yet; no account is stored with them
+    db.execute("CREATE TABLE IF NOT EXISTS named_people (name TEXT PRIMARY KEY, added TEXT NOT NULL)")
     db.execute("""CREATE TABLE IF NOT EXISTS applications (
         id INTEGER PRIMARY KEY, user_id TEXT NOT NULL, statement TEXT NOT NULL, created TEXT NOT NULL,
         status TEXT NOT NULL DEFAULT 'pending', decided TEXT, reason TEXT)""")
@@ -274,7 +276,8 @@ async def home(request: Request):
 async def about(request: Request):
     named = query("""SELECT p.name FROM editors e JOIN people p ON p.user_id = e.user_id
                      WHERE e.named IS NOT NULL AND e.removed IS NULL ORDER BY e.named""")
-    return page(request, "about.html", named=[n["name"] for n in named])
+    typed = query("SELECT name FROM named_people ORDER BY added")
+    return page(request, "about.html", named=list(dict.fromkeys(n["name"] for n in named + typed)))
 
 
 @app.get("/e/{key:path}")
@@ -520,6 +523,7 @@ async def community(request: Request):
     applications = query("""SELECT a.*, p.name, p.handle FROM applications a JOIN people p ON p.user_id = a.user_id
                             ORDER BY a.status = 'pending' DESC, a.id DESC""")
     return page(request, "community.html", people=people, applications=applications,
+                typed_names=query("SELECT name FROM named_people ORDER BY added"),
                 settings_editors=sorted(ADMINS - OWNERS))
 
 
@@ -541,6 +545,19 @@ async def set_editor(request: Request, user_id: str = Form(...), action: str = F
 async def set_named(request: Request, user_id: str = Form(...), named: str = Form(...)):
     owner_only(request)
     execute("UPDATE editors SET named = ? WHERE user_id = ? AND removed IS NULL", now() if named == "yes" else None, user_id)
+    return RedirectResponse("/community", status_code=303)
+
+
+@app.post("/community/named-name")
+async def set_named_name(request: Request, name: str = Form(...), action: str = Form(...)):
+    owner_only(request)
+    name = " ".join(name.split())[:80]
+    if not name or action not in ("add", "remove"):
+        raise HTTPException(400)
+    if action == "add":
+        execute("INSERT OR IGNORE INTO named_people (name, added) VALUES (?, ?)", name, now())
+    else:
+        execute("DELETE FROM named_people WHERE name = ?", name)
     return RedirectResponse("/community", status_code=303)
 
 
