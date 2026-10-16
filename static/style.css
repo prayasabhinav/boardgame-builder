@@ -79,14 +79,19 @@ body {
   background: color-mix(in srgb, var(--bg) 60%, transparent);
 }
 
-.k-header-link {
+/* a.k-header-link matches the base stylesheet's selector, so these win; the base grey on the dark bar was unreadable */
+.k-header-link, a.k-header-link {
   font-family: var(--font-label);
   font-size: 12.5px;
-  color: var(--light3);
+  color: #D5DADB;
   text-decoration: none;
   letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
-.k-header-link:hover { color: var(--light); }
+.k-header-link:hover, a.k-header-link:hover { color: #FFFFFF; }
+.k-header-link svg { width: 15px; height: 15px; fill: currentColor; }
 
 /* ── Main layout ────────────────────────────────────────────────── */
 
