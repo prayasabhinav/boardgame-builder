@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.9.1 — 16 October 2026
+
+- The two buttons at the top of the known games, *All games* and *Back to designing*, are the same size.
+
 ## 0.9.0 — 16 October 2026
 
 - 25 more known games, chosen because each shows a design idea the others don't: Eleusis and Mao (rules you discover), Nomic (rules you change), The Mind (playing in silence), Exquisite Corpse and Consequences (made blind, no winner), Racetrack, Sprouts and Paper soccer (drawing the board), Hex, Sim, Chomp, Kayles, Quantum tic-tac-toe, Ultimate tic-tac-toe and Mū Tōrere (abstract strategy), Aadu Puli Attam (two unequal sides), Moksha Patam, the Royal Game of Ur and Senet (old race games, two of them sacred), Kemps (a secret signal), Liar's Dice, Cuttle, Mendikot (trick-taking) and Penney's game (a fair-looking bet that isn't). 47 in all. The new ones have no animation yet.

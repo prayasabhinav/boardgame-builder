@@ -1620,4 +1620,4 @@ button.slot-config:disabled { cursor: default; }
 .mcq-discuss { display: block; margin-top: 4px; color: var(--ink3); font-size: 14px; }
 .config-modal-foot .config-preview { color: var(--ink2); font-family: var(--font-body); font-size: 14px; }
 .mcq-feedback.show:not(.correct):not(.wrong) { background: var(--surface-inner); color: var(--ink2); border-left: 3px solid var(--ink3); }
-.games-nav .k-btn-outline { padding: 8px 18px; }
+.games-nav .k-btn-outline { height: 38px; padding: 0 18px; font-family: var(--font-label); font-size: 14px; }
