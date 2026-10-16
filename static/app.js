@@ -22,19 +22,22 @@ const state = {
 
 // ── Persistence ────────────────────────────────────────────────────
 
+function snapshot() {
+  return {
+    mechanics: state.mechanics,
+    chosenFeelings: state.chosenFeelings,
+    previousMechanics: state.previousMechanics,
+    previousFeelings: state.previousFeelings,
+    turnNumber: state.turnNumber,
+    locked: state.locked,
+    turnHistory: state.turnHistory,
+    savedAt: new Date().toISOString(),
+  };
+}
+
 function saveState() {
   try {
-    const snapshot = {
-      mechanics: state.mechanics,
-      chosenFeelings: state.chosenFeelings,
-      previousMechanics: state.previousMechanics,
-      previousFeelings: state.previousFeelings,
-      turnNumber: state.turnNumber,
-      locked: state.locked,
-      turnHistory: state.turnHistory,
-      savedAt: new Date().toISOString(),
-    };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot()));
   } catch (err) {
     console.warn("Could not save state:", err);
   }
@@ -676,6 +679,58 @@ function escapeHtml(s) {
   return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+// ── Save and open as Markdown ─────────────────────────────────────
+// The file reads as a record of the game, and ends with the saved state as JSON, which is what Open game reads back.
+
+function displayOf(blockId) {
+  for (const d of state.dimensions) {
+    const b = d.blocks.find((x) => x.id === blockId);
+    if (b) return b.display;
+  }
+  return (state.feelings.find((f) => f.id === blockId) || {}).display || blockId;
+}
+
+function onSaveGame() {
+  const lines = ["# A board game designed in boardgameBuilder", "",
+    `Saved ${new Date().toLocaleString("en-GB", { day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit" })}. To carry on, open ${location.origin} and choose Open game.`, "",
+    "## What we want our game to feel like", ""];
+  lines.push(...(state.chosenFeelings.length ? state.chosenFeelings.map((f) => `- ${displayOf(f)}`) : ["Nothing chosen yet."]), "", "## Our game", "");
+  const rows = state.dimensions.filter((d) => state.mechanics[d.id])
+    .map((d) => `- ${d.display}: ${[].concat(state.mechanics[d.id]).map(displayOf).join("; ")}`);
+  lines.push(...(rows.length ? rows : ["No blocks yet."]), "");
+  if (state.turnHistory.length) {
+    lines.push("## Feedback", "");
+    for (const e of state.turnHistory) lines.push(`### ${e.kind === "complete" ? "Final, your game" : `Turn ${e.turn}`}`, "", e.narration, "");
+  }
+  lines.push("## Saved state", "", "boardgameBuilder reads this part back when the file is opened.", "", "```json", JSON.stringify(snapshot()), "```", "");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([lines.join("\n")], { type: "text/markdown" }));
+  a.download = "boardgame-design.md";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+async function onOpenGame(e) {
+  const file = e.target.files[0];
+  e.target.value = "";
+  if (!file) return;
+  const found = (await file.text()).match(/```json\n([\s\S]*?)\n```\s*$/);
+  let saved = null;
+  try { saved = found && JSON.parse(found[1]); } catch (_) {}
+  if (!saved || typeof saved !== "object") {
+    appendSystemMessage(`${file.name} is not a game saved from boardgameBuilder, so nothing was opened.`);
+    return;
+  }
+  if ((flattenMechanics(state.mechanics).length || state.chosenFeelings.length) && !confirm("Replace the design on screen with the one in this file?")) return;
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+  } catch (_) {
+    appendSystemMessage("This browser is not letting the page store anything, so the file could not be opened.");
+    return;
+  }
+  window.location.reload();
+}
+
 // ── Start fresh ───────────────────────────────────────────────────
 
 function onStartFresh() {
@@ -705,6 +760,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   setupFeelingsDropZone();
   document.getElementById("iterateBtn").addEventListener("click", onIterate);
   document.getElementById("completeBtn").addEventListener("click", onComplete);
+  document.getElementById("saveGameLink").addEventListener("click", (e) => { e.preventDefault(); onSaveGame(); });
+  document.getElementById("openGameLink").addEventListener("click", (e) => { e.preventDefault(); document.getElementById("openGameInput").click(); });
+  document.getElementById("openGameInput").addEventListener("change", onOpenGame);
   document.getElementById("startFreshLink").addEventListener("click", (e) => {
     e.preventDefault();
     onStartFresh();

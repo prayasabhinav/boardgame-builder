@@ -60,7 +60,7 @@ You change a block, press Iterate again and see what moved. **Mark complete** wr
 5. Press the **?** on any block for a short description and a drawing.
 6. Press **Mark complete** for the summary. **Start fresh** in the header clears everything.
 
-Your design is kept in your browser, so a refresh does not lose it. The steps also open on a first visit, and **How it works** in the header shows them again.
+Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file: the feelings, the blocks and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
 
 It works for one person on a laptop and for a group around one big screen.
 
@@ -205,7 +205,7 @@ python check.py
 
 ## Privacy
 
-There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
+There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage, and a saved game is a file on your own computer that the server never sees. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
 
 ## Status and how to help
 
