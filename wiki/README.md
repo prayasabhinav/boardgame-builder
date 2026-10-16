@@ -101,6 +101,7 @@ docker run -p 8080:80 -v wiki-data:/app/data --env-file .env boardgame-wiki
 | `corpus.py` | Reads the tool's knowledge base into one list of entries, each with a stable key |
 | `pull.py` | Carries approved proposals into the tool's files |
 | `templates/`, `static/wiki.css` | The pages, in the tool's own look |
+| `static/og.png` | The card shown when a link to the wiki is shared |
 | `start.sh` | Runs it on this machine |
 | `Dockerfile`, `make-caprover-tar.sh` | The container build |
 
