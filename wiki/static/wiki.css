@@ -17,7 +17,7 @@ a { color: var(--accent-dark); }
 a:hover { color: var(--accent); }
 
 .top { background: var(--bg); border-bottom: 1px solid var(--border-dark); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; }
-.top-inner { max-width: 54rem; margin: 0 auto; padding: 0.6rem 1rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
+.top-inner { max-width: 76rem; margin: 0 auto; padding: 0.6rem 1rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
 .name { font: 600 1.15rem var(--font-display); color: var(--light); text-decoration: none; }
 .name span { color: var(--accent); font-weight: 400; }
 .find { flex: 1 1 12rem; }

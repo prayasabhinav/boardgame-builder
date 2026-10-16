@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.9.2 — 16 October 2026
+
+- The wiki's top bar is wide enough for its links on one row when signed in.
+
 ## 0.9.1 — 16 October 2026
 
 - The two buttons at the top of the known games, *All games* and *Back to designing*, are the same size.
