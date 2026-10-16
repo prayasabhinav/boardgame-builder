@@ -92,6 +92,9 @@ with sqlite3.connect(DB_PATH) as db:
         user_id TEXT PRIMARY KEY, name TEXT NOT NULL, handle TEXT NOT NULL, first_signed_in TEXT NOT NULL)""")
     db.execute("""CREATE TABLE IF NOT EXISTS editors (
         user_id TEXT PRIMARY KEY, how TEXT NOT NULL, added TEXT NOT NULL, added_by TEXT NOT NULL, removed TEXT)""")
+    # named: when an owner set this editor to be named on the about page, which they do once the editor has agreed
+    if "named" not in [c[1] for c in db.execute("PRAGMA table_info(editors)")]:
+        db.execute("ALTER TABLE editors ADD COLUMN named TEXT")
     db.execute("""CREATE TABLE IF NOT EXISTS applications (
         id INTEGER PRIMARY KEY, user_id TEXT NOT NULL, statement TEXT NOT NULL, created TEXT NOT NULL,
         status TEXT NOT NULL DEFAULT 'pending', decided TEXT, reason TEXT)""")
@@ -269,7 +272,9 @@ async def home(request: Request):
 
 @app.get("/about")
 async def about(request: Request):
-    return page(request, "about.html")
+    named = query("""SELECT p.name FROM editors e JOIN people p ON p.user_id = e.user_id
+                     WHERE e.named IS NOT NULL AND e.removed IS NULL ORDER BY e.named""")
+    return page(request, "about.html", named=[n["name"] for n in named])
 
 
 @app.get("/e/{key:path}")
@@ -510,7 +515,7 @@ def owner_only(request):
 @app.get("/community")
 async def community(request: Request):
     owner_only(request)
-    people = query("""SELECT p.*, e.how, e.added, e.removed FROM people p LEFT JOIN editors e ON e.user_id = p.user_id
+    people = query("""SELECT p.*, e.how, e.added, e.removed, e.named FROM people p LEFT JOIN editors e ON e.user_id = p.user_id
                       ORDER BY p.name COLLATE NOCASE""")
     applications = query("""SELECT a.*, p.name, p.handle FROM applications a JOIN people p ON p.user_id = a.user_id
                             ORDER BY a.status = 'pending' DESC, a.id DESC""")
@@ -529,6 +534,13 @@ async def set_editor(request: Request, user_id: str = Form(...), action: str = F
                    added_by = excluded.added_by, removed = NULL""", user_id, now(), owner["id"])
     elif user_id != owner["id"]:
         execute("UPDATE editors SET removed = ? WHERE user_id = ?", now(), user_id)
+    return RedirectResponse("/community", status_code=303)
+
+
+@app.post("/community/named")
+async def set_named(request: Request, user_id: str = Form(...), named: str = Form(...)):
+    owner_only(request)
+    execute("UPDATE editors SET named = ? WHERE user_id = ? AND removed IS NULL", now() if named == "yes" else None, user_id)
     return RedirectResponse("/community", status_code=303)
 
 

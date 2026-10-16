@@ -34,7 +34,7 @@ The marks in the lists follow one rule: where every record of a kind on an entry
 
 Editors can also hide a record that is spam or abuse; the reason shows in its place.
 
-Anyone signed in can apply to join the editors. Owners see a **Community** page: the applications, to accept or decline with a reason the applicant reads, and everyone who has signed in, where an owner makes or removes an editor. Editor rights are read afresh on every request, so a change applies at once.
+Anyone signed in can apply to join the editors. Owners see a **Community** page: the applications, to accept or decline with a reason the applicant reads, and everyone who has signed in, where an owner makes or removes an editor. Editor rights are read afresh on every request, so a change applies at once. The wiki names no editor by default; an owner can set an editor to be named on the about page, once that editor has agreed. Who decided a particular proposal is never shown.
 
 ## Applying to be an editor
 

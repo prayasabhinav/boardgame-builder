@@ -2,7 +2,7 @@
 {% block title %}Community · boardgameBuilder wiki{% endblock %}
 {% block main %}
 <h1>Community</h1>
-<p class="aside">Only owners see this page. Editors approve and reject proposals and can hide a record; owners also add and remove editors and decide applications. Nothing here is public, and no editor's name is shown on the wiki.</p>
+<p class="aside">Only owners see this page. Editors approve and reject proposals and can hide a record; owners also add and remove editors and decide applications. Nothing here is public. An editor's name appears on the wiki's about page only when an owner sets it here, which they do once that editor has agreed; who decided a proposal is never shown.</p>
 
 <h2>Applications to join the editors</h2>
 {% for a in applications %}
@@ -27,6 +27,7 @@
   <li class="row">
     <strong>{{ p.name }}</strong>{% if p.handle %} <a href="https://github.com/{{ p.handle }}">@{{ p.handle }}</a>{% else %} <span class="aside">Google account</span>{% endif %}
     {% if p.how and not p.removed %}<span class="mark holds">editor</span>
+      <form method="post" action="/community/named" class="inline"><input type="hidden" name="user_id" value="{{ p.user_id }}"><input type="hidden" name="named" value="{{ 'no' if p.named else 'yes' }}"><button class="quiet">{{ 'Stop naming publicly' if p.named else 'Name publicly' }}</button></form>{% if p.named %} <span class="aside">named on the about page</span>{% endif %}
       {% if p.user_id != user.id %}<form method="post" action="/community/editor" class="inline"><input type="hidden" name="user_id" value="{{ p.user_id }}"><input type="hidden" name="action" value="remove"><button class="quiet">Remove as editor</button></form>{% endif %}
     {% else %}
       <form method="post" action="/community/editor" class="inline"><input type="hidden" name="user_id" value="{{ p.user_id }}"><input type="hidden" name="action" value="add"><button class="quiet">Make editor</button></form>
