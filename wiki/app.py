@@ -7,7 +7,7 @@ for a person, and it never changes the knowledge base: folding a record back int
 hand, in the tool's own files.
 
 Anyone signed in can also propose a change to an existing entry, or a new entry (a triad, a conflict, a
-block or a feeling). A proposal stays private to its author and the editors until an editor approves it.
+block or a feeling), or a known game as a Markdown file in the shape known_games.py reads and writes. A proposal stays private to its author and the editors until an editor approves it.
 An approved change shows on the entry at once, with the earlier text kept; an approved new entry appears
 marked "proposed". Who approved it is kept but never shown or exported. pull.py carries approved
 proposals into the tool's own files.
@@ -33,8 +33,8 @@ from urllib.parse import quote
 
 import markdown
 from authlib.integrations.starlette_client import OAuth, OAuthError
-from fastapi import FastAPI, Form, HTTPException, Request
-from fastapi.responses import JSONResponse, RedirectResponse
+from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
+from fastapi.responses import JSONResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from starlette.middleware.sessions import SessionMiddleware
@@ -61,6 +61,7 @@ STATUS_WORDS = {
     "drafted-20261016-unreviewed": "written on 16 October 2026 and not yet reviewed",
     "proposed-approved": "proposed by someone using the wiki and approved by an editor; not yet in the tool",
     "wiki-approved": "proposed on the wiki, approved by an editor, and added to the tool",
+    "known-game": "a known game in the tool, to play with things at hand",
 }
 PROPOSAL_KINDS = {
     "triad": "A triad: what three blocks tend to produce together",
@@ -97,6 +98,9 @@ with sqlite3.connect(DB_PATH) as db:
         db.execute("ALTER TABLE editors ADD COLUMN named TEXT")
     # Names an owner typed in to show on the about page, for editors who have not signed in yet; no account is stored with them
     db.execute("CREATE TABLE IF NOT EXISTS named_people (name TEXT PRIMARY KEY, added TEXT NOT NULL)")
+    # body: the Markdown file of a proposed game, kept whole so the tool can read it with known_games.from_markdown
+    if "body" not in [c[1] for c in db.execute("PRAGMA table_info(proposals)")]:
+        db.execute("ALTER TABLE proposals ADD COLUMN body TEXT")
     db.execute("""CREATE TABLE IF NOT EXISTS applications (
         id INTEGER PRIMARY KEY, user_id TEXT NOT NULL, statement TEXT NOT NULL, created TEXT NOT NULL,
         status TEXT NOT NULL DEFAULT 'pending', decided TEXT, reason TEXT)""")
@@ -127,6 +131,13 @@ def lines(text):
 
 def proposal_entry(p):
     els = json.loads(p["elements"])
+    if p["kind"] == "game":
+        g = corpus.from_markdown(p["body"])[0]
+        e = {"key": p["key"], "kind": "game", "title": g["title"], "source": "proposed", "status": "proposed-approved",
+             "elements": els, "text": g["intro"], "game": g, "checks": [],
+             "proposal": {k: p[k] for k in ("user_name", "user_handle", "evidence", "created", "decided")}}
+        e["search"] = " ".join([e["title"], e["text"]]).lower()
+        return e
     if p["kind"] in ("triad", "conflict"):
         title = (" + " if p["kind"] == "triad" else " against ").join(C["display"][b] for b in els)
     else:
@@ -146,7 +157,10 @@ def apply_edit(p):
     if not e:
         return
     e.setdefault("tool_text", entry_text(e))
-    if e["kind"] == "link":
+    if e["kind"] == "game":
+        e["game"] = corpus.from_markdown(p["body"])[0]
+        e.update(title=e["game"]["title"], text=e["game"]["intro"])
+    elif e["kind"] == "link":
         e["judgement"] = p["judgement"]
         e["text"] = corpus.link_text(*e["elements"], p["judgement"], C["display"])
     else:
@@ -179,7 +193,7 @@ app.add_middleware(SessionMiddleware, secret_key=os.environ["SECRET_KEY"], same_
                    https_only=os.environ.get("HTTPS_ONLY") == "1", max_age=60 * 60 * 24 * 30)
 app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
 templates = Jinja2Templates(directory=HERE / "templates")
-templates.env.globals.update(C=C, KINDS=corpus.KINDS, PLURAL=corpus.PLURAL, PROPOSAL_KINDS=PROPOSAL_KINDS, JUDGEMENTS=JUDGEMENTS, RECORD_KINDS=RECORD_KINDS, FINDINGS=FINDINGS,
+templates.env.globals.update(DIMENSIONS=corpus.palette.DIMENSIONS, C=C, KINDS=corpus.KINDS, PLURAL=corpus.PLURAL, PROPOSAL_KINDS=PROPOSAL_KINDS, JUDGEMENTS=JUDGEMENTS, RECORD_KINDS=RECORD_KINDS, FINDINGS=FINDINGS,
                              STATUS_WORDS=STATUS_WORDS)
 templates.env.filters["day"] = lambda iso: datetime.fromisoformat(iso).strftime("%-d %b %Y")
 
@@ -401,6 +415,8 @@ async def edit_form(request: Request, key: str):
     e = ENTRIES.get(key)
     if not e:
         raise HTTPException(404)
+    if e["kind"] == "game":
+        return RedirectResponse("/propose-game", status_code=303)
     if not current(request):
         raise HTTPException(403, "Sign in to propose a change.")
     form = dict(text=e["text"], pros="\n".join(e.get("pros", [])), cons="\n".join(e.get("cons", [])),
@@ -438,6 +454,70 @@ async def edit(request: Request, key: str, text: str = Form(""), pros: str = For
                       user_id, user_name, user_handle, judgement, created) VALUES (?,'edit',?,'','',?,?,?,?,?,?,?,?,?,?)""",
                    (key, json.dumps(e["elements"]), text, pros.strip(), cons.strip(), games.strip(), evidence,
                     user["id"], user["name"], user["handle"], judgement, now()))
+    return RedirectResponse("/proposals", status_code=303)
+
+
+GAME_TEMPLATE = {
+    "title": "Name of the game — a few words on what it does", "parent_game": "where it comes from: a folk game, a published game, or your own",
+    "players": "2–4 players", "duration": "5–10 min", "credits": "who made it, as far as anyone knows; Traditional if nobody does",
+    "intro": "Two or three sentences on what playing it is like.", "equipment": ["what you need, one thing per line"],
+    "steps": [{"n": 1, "title": "Set up", "body": "What to lay out, and who starts."}, {"n": 2, "title": "A turn", "body": "What a player does on their turn."},
+              {"n": 3, "title": "The end", "body": "When it ends, who wins, and what happens on a tie."}],
+    "what_to_notice": ["a question to talk about after playing"], "sources": ["a link to where the rules are written down, if they are"],
+    "design": {"core-mechanic": ["push-your-luck"], "victory-condition": "race-to-finish"}}
+
+
+def game_slug(title):
+    return re.sub(r"[^a-z0-9]+", "-", title.split(" — ")[0].lower()).strip("-")[:60]
+
+
+@app.get("/games/{gid}.md")
+async def game_file(gid: str):
+    """A known game as a file: Open game in the tool puts its blocks on the canvas, and Propose a game takes it back."""
+    if gid == "template":
+        g = GAME_TEMPLATE
+    else:
+        e = ENTRIES.get(f"game:{gid}")
+        if not e:
+            raise HTTPException(404)
+        g = e["game"]
+    return Response(corpus.to_markdown(g, C["version"]), media_type="text/markdown; charset=utf-8",
+                    headers={"Content-Disposition": f'attachment; filename="{gid}.md"'})
+
+
+@app.get("/propose-game")
+async def propose_game_form(request: Request):
+    if not current(request):
+        raise HTTPException(403, "Sign in to propose a game.")
+    return page(request, "propose_game.html", error="", pasted="", evidence="")
+
+
+@app.post("/propose-game")
+async def propose_game(request: Request, file: UploadFile | None = File(None), pasted: str = Form(""), evidence: str = Form(...)):
+    user = current(request)
+    if not user:
+        raise HTTPException(403, "Sign in to propose a game.")
+    body = (await file.read(60_001)).decode("utf-8", "replace") if file and file.filename else pasted
+    body, evidence = body.strip(), evidence.strip()
+    g, problem = corpus.from_markdown(body)
+    error = "Choose a file or paste one." if not body else (f"The file could not be read: {problem}." if problem else "")
+    key = f"game:{game_slug(g['title'])}"
+    if not error and len(body) > 60_000:
+        error = "The file is longer than 60,000 characters."
+    if not error and g["title"] == GAME_TEMPLATE["title"]:
+        error = "The file is still the template. Write your game into it first."
+    if not error:
+        error = text_problem(g["intro"], "\n".join(g["what_to_notice"]), "", "", evidence)
+    if not error and query("SELECT id FROM proposals WHERE key = ? AND status = 'pending'", key):
+        error = "A proposal for a game with that name is already waiting for an editor."
+    if error:
+        return page(request, "propose_game.html", error=error, pasted=body, evidence=evidence)
+    kind = "edit" if key in ENTRIES else "game"
+    blocks = [b for v in g["design"].values() for b in (v if isinstance(v, list) else [v])]
+    with sqlite3.connect(DB_PATH) as db:
+        db.execute("""INSERT INTO proposals (key, kind, elements, grp, name, text, pros, cons, games, evidence,
+                      user_id, user_name, user_handle, judgement, created, body) VALUES (?,?,?,'',?,?,'','','',?,?,?,?,'',?,?)""",
+                   (key, kind, json.dumps(blocks), g["title"], g["intro"], evidence, user["id"], user["name"], user["handle"], now(), body))
     return RedirectResponse("/proposals", status_code=303)
 
 
@@ -620,7 +700,7 @@ async def export():
         " user_handle, created, withdrawn, hidden, hidden_reason FROM records ORDER BY id"),
         "approved_proposals": query(
         "SELECT id, key, kind, elements, grp, name, text, pros, cons, games, evidence, user_id, user_name,"
-        " user_handle, judgement, created, decided FROM proposals WHERE status = 'approved' ORDER BY id")})
+        " user_handle, judgement, created, decided, body FROM proposals WHERE status = 'approved' ORDER BY id")})
 
 
 if __name__ == "__main__":

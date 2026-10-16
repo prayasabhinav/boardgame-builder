@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Propose a game · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<article class="note">
+  <h1>Propose a game</h1>
+  <p>A known game is a short game people can play with things at hand: paper, dice, coins, a deck of cards, or nothing. Each one is a Markdown file in one shape, the same file the tool and this wiki hand out. To propose a new game, start from the <a href="/games/template.md" download>blank file</a> or from <a href="/list/game">any known game's file</a>, write your game into it, and send it here. To propose a change to a known game, download its file, change it, and send it back with the same name.</p>
+  <p>Write enough for someone who has never seen the game to play it: what to lay out, who starts, what a turn is, how it ends, who wins, and what happens on a tie.</p>
+  <p class="aside">An editor reads each proposal. Until then only you and the editors can see it. If it is approved, it appears on the wiki under your name, marked as proposed, and it reaches the tool the next time approved proposals are carried in, without an animation at first.</p>
+</article>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form class="add propose" method="post" action="/propose-game" enctype="multipart/form-data">
+  <label class="block">The file <input type="file" name="file" accept=".md,text/markdown,text/plain"></label>
+  <label class="block">Or paste it here
+    <textarea name="pasted" rows="12" maxlength="60000">{{ pasted }}</textarea></label>
+  <label class="block">How you know the rules
+    <textarea name="evidence" required maxlength="4000" rows="3" placeholder="Where the rules are written down, or when and with whom you played it.">{{ evidence }}</textarea></label>
+  <details>
+    <summary>The groups and blocks a file can name under Its blocks</summary>
+    <p class="aside">One line per group, such as <code>- Core mechanic: push your luck; dexterity</code>. Core mechanic and Simulation take several blocks, separated by semicolons; every other group takes one.</p>
+    <ul>{% for d in DIMENSIONS %}<li><strong>{{ d.display }}</strong>: {% for b in d.blocks %}{{ b.display }}{% if not loop.last %}; {% endif %}{% endfor %}</li>{% endfor %}</ul>
+  </details>
+  <p class="aside">It will be shown under the name {{ user.name }}{% if user.handle %} and the link to @{{ user.handle }}{% endif %}.</p>
+  <button>Send the game</button>
+</form>
+{% endblock %}

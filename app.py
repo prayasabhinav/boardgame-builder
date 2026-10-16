@@ -4,6 +4,7 @@ Runs on localhost. Serves the frontend and exposes these endpoints:
 - GET  /palette   — palette data for the frontend (dimensions + feelings, each block with its questions)
 - GET  /tests     — short tests of one part of a game, and of two parts together
 - GET  /games     — known games to play with things at hand, then watch and answer questions about
+- GET  /games/{id}.md — one known game as a Markdown file that Open game loads as a starting design
 - POST /narrate   — stage 2 + 3 for one turn
 - POST /complete  — stage 3 final summary for Mark complete
 """
@@ -12,9 +13,9 @@ import json
 import os
 from pathlib import Path
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -22,6 +23,7 @@ from rules import compute_diff, match_kb
 from templates import build_template_output, display, render_summary, render_turn
 from palette import DIMENSIONS, FEELINGS
 from block_meta import meta_for
+from known_games import to_markdown
 
 
 def _enrich(blocks: list) -> list:
@@ -65,6 +67,7 @@ for fb in KB["feeling_blocks"]:
 QUESTIONS = json.loads((ROOT / "block-questions.json").read_text(encoding="utf-8"))
 PART_TESTS = json.loads((ROOT / "part-tests.json").read_text(encoding="utf-8"))
 GAMES = json.loads((ROOT / "games.json").read_text(encoding="utf-8"))
+VERSION = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
 
 
 def own_choices(canvas: dict) -> str:
@@ -127,6 +130,16 @@ def get_games():
     return GAMES
 
 
+@app.get("/games/{game_id}.md")
+def game_file(game_id: str):
+    """The game's rules, then its blocks, then a saved state in the same shape Save game writes, so Open game loads it."""
+    g = next((x for x in GAMES if x["id"] == game_id), None)
+    if not g:
+        raise HTTPException(404)
+    return Response(to_markdown(g, VERSION), media_type="text/markdown; charset=utf-8",
+                    headers={"Content-Disposition": f'attachment; filename="{game_id}.md"'})
+
+
 @app.post("/narrate")
 def narrate(req: TurnRequest):
     canvas = req.canvas.model_dump()
@@ -167,7 +180,7 @@ def root():
     # Stamp the newest static file's time onto the script and stylesheet links, so a browser never keeps an old copy after a change
     stamp = int(max(f.stat().st_mtime for f in STATIC_DIR.iterdir()))
     html = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
-    return HTMLResponse(html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"'))
+    return HTMLResponse(html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"').replace("__VERSION__", VERSION))
 
 
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")

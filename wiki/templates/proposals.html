@@ -5,7 +5,7 @@
 <p class="aside">{% if user.admin %}Waiting proposals come first. Approving one puts it on the wiki as a proposed entry; rejecting one needs a reason, which its author reads here.{% else %}Only you and the editors can see these until one is approved. <a href="/propose">Propose another</a>.{% endif %}</p>
 {% for p in rows %}
 <div class="record{% if p.status != 'pending' %} gone{% endif %}">
-  <p class="who"><strong>{{ 'A change' if p.kind == 'edit' else PROPOSAL_KINDS[p.kind].split(':')[0] }}</strong>{% if p.kind == 'edit' %}: <a href="/e/{{ p.key|urlencode }}">{{ p.entry.title if p.entry else p.key }}</a>{% elif p.blocks %}: {{ p.blocks|join(' + ' if p.kind == 'triad' else ' against ') }}{% elif p.name %}: {{ p.name }}{% endif %}
+  <p class="who"><strong>{{ 'A change' if p.kind == 'edit' else ('A known game' if p.kind == 'game' else PROPOSAL_KINDS[p.kind].split(':')[0]) }}</strong>{% if p.kind == 'edit' %}: <a href="/e/{{ p.key|urlencode }}">{{ p.entry.title if p.entry else p.key }}</a>{% elif p.blocks %}: {{ p.blocks|join(' + ' if p.kind == 'triad' else ' against ') }}{% elif p.name %}: {{ p.name }}{% endif %}
     · {{ p.user_name }}{% if p.user_handle %} @{{ p.user_handle }}{% endif %} · {{ p.created|day }}
     · <span class="mark {{ 'holds' if p.status == 'approved' else ('does-not-hold' if p.status == 'rejected' else 'partly-holds') }}">{{ 'waiting' if p.status == 'pending' else p.status }}</span>
     {% if p.status == 'approved' and p.kind != 'edit' %} · <a href="/e/{{ p.key|urlencode }}">its entry</a>{% endif %}</p>
@@ -13,6 +13,7 @@
   {% if p.pros %}<p class="suggest"><span>Brings:</span> {{ p.pros }}</p>{% endif %}
   {% if p.cons %}<p class="suggest"><span>Costs:</span> {{ p.cons }}</p>{% endif %}
   {% if p.games %}<p class="suggest"><span>Games:</span> {{ p.games }}</p>{% endif %}
+  {% if p.body %}<details><summary>The file sent</summary><pre class="was">{{ p.body }}</pre></details>{% endif %}
   <p class="suggest"><span>How they know:</span> {{ p.evidence }}</p>
   {% if p.status == 'rejected' %}<p class="aside">Not approved: {{ p.reason }}</p>{% endif %}
   {% if user.admin and p.status == 'pending' %}

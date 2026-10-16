@@ -1,6 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
+[![Version](https://img.shields.io/badge/version-0.5.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -135,7 +136,7 @@ In October 2026 every example game in the curated pairs and triads was checked a
 
 Three things carried over on 16 October 2026 from an April 2026 prototype of this tool, edited before use:
 
-- **Known games** in the header lists ten short games to play with paper, dice, coins or cards, such as Pig, a small Hanabi, a paper auction and charades. Each has illustrated steps, things to talk about afterwards, and an animation of the game being played, followed by questions. Questions about what happened are marked right or wrong; questions about what a designer would change have no right answer and are left to talk about. Nothing is locked: designing works whether or not a game has been played. The games are in `games.json`. Their rules, animations and answers were checked against each other, not against a published rulebook; several came over with scores that did not add up or rules the animation contradicted, and were corrected.
+- **Known games** in the header lists 38 short games to play with paper, dice, coins, cards or nothing: ten made for the April prototype (Pig, a small Hanabi, a paper auction, charades and others), 26 classic and traditional games (among them Nim, Raja Mantri Chor Sipahi, Antakshari, Chidiya Ud, Hand cricket, Gulaam Chor, Satte pe Satta, Dots and Boxes, Cheat and Set), and two games of mine, All or Nothing and 3 Quarters. Each has its credits (who made it where that is on record, *Traditional* where nobody is, and what this version changes), illustrated steps that say who starts, how it ends and what happens on a tie, things to talk about afterwards, and the blocks it is made of. Most also have an animation of the game being played, followed by questions: questions about what happened are marked right or wrong; questions about what a designer would change have no right answer and are left to talk about. **Download as a design** gives the game as a Markdown file, and **Open game** puts its blocks on the canvas to design from. Nothing is locked: designing works whether or not a game has been played. The games are in `games.json`, and `known_games.py` writes and reads their files. The rules of the classic games follow the sources listed with each; each game's blocks were checked against its BoardGameGeek tags where it has an entry (`drafted/bgg_check.py`). Anyone signed in to the wiki can propose a new game as a file in the same shape.
 - **Test parts** holds a short test for thirteen blocks, and three tests of two blocks together, in `part-tests.json`. What players say about a test (how it felt, whether it matched what they wanted, one thing they would change) is kept with the design.
 - **Block questions**, in `block-questions.json`, ask how 25 of the blocks work in this game: how much a bust costs in push your luck, how big the hands are in hand management. The answers are the designers' own. The closing summary says them back, with the test notes, in fixed words; they add no knowledge-base claim and change none of the feedback.
 
@@ -193,13 +194,13 @@ Every entry in the knowledge base is also on a public wiki, https://boardgame-wi
 python check.py
 ```
 
-`check.py` builds every possible two-block canvas (2,924 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (43,860 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base or the blocks.
+`check.py` builds every possible two-block canvas (2,924 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (43,860 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version.
 
 ## Files
 
 | File | What it is |
 |---|---|
-| `app.py` | The FastAPI server: serves the page, `/palette`, `/tests`, `/games`, `/narrate` and `/complete` |
+| `app.py` | The FastAPI server: serves the page, `/palette`, `/tests`, `/games`, `/games/<id>.md`, `/narrate` and `/complete` |
 | `rules.py` | Matches a canvas against the knowledge base |
 | `templates.py` | Turns the matches into the feedback paragraph and the closing summary |
 | `bridges.py` | The fixed joining phrases between knowledge-base sentences |
@@ -210,8 +211,10 @@ python check.py
 | `drafted/` | Plain-text sources for the drafted entries, the build script, and the BoardGameGeek check |
 | `wiki/` | The public wiki of the knowledge base, and `pull.py`, which carries approved proposals into it |
 | `wiki-applied.json` | The wiki proposals already carried into the knowledge base (made by `wiki/pull.py`) |
-| `check.py` | The coverage check |
+| `check.py` | The coverage check, the known games' blocks and answers, and that the version, the changelog and the badge agree |
 | `games.json`, `part-tests.json`, `block-questions.json` | The known games, the part tests and the block questions |
+| `known_games.py` | A known game as a Markdown file and back: the download, Open game, and the wiki's Propose a game all use it |
+| `VERSION`, `CHANGELOG.md` | The version, shown in the header and written into every game file, and what changed in each one |
 | `mechanics-shortlist.md`, `feeling-blocks.md` | Reference notes on the mechanic and feeling blocks |
 | `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css`, and `og.png`, the link-preview card |
 | `docs/` | The screenshot, and `make_og.py`, which draws `static/og.png` from it |

@@ -2,7 +2,8 @@
 
 The mapping below is the rule: a block is confirmed when the game carries one of its tags, absent when it carries none,
 and 'not checkable' when BoardGameGeek has no tag for that block. A claim is false only when a checkable block is absent,
-or when full information meets a hidden-information tag. Usage: python drafted/bgg_check.py drafted/bgg-tags.json   (writes drafted/bgg-verdicts.json)
+or when full information meets a hidden-information tag. The known games' designs in games.json are checked the same way, against their 'bgg' entry.
+Usage: python drafted/bgg_check.py drafted/bgg-tags.json   (writes drafted/bgg-verdicts.json)
 """
 import json, sys
 
@@ -42,26 +43,36 @@ ONLY_CONFIRMS = {"direct-confrontation", "race-to-finish", "mostly-chance"}
 
 cache = json.load(open(sys.argv[1]))
 kb = json.load(open("interactions.json"))
+
+
+def check(kind, elements, game, status=None):
+    c = cache[game]
+    tags = set(c["mechanisms"]) | set(c["categories"])
+    verdicts = {}
+    for el in elements:
+        if el == "full-information":
+            hidden = sorted(tags & HIDDEN)
+            verdicts[el] = f"contradicted ({', '.join(hidden)})" if hidden else "not checkable"
+        elif el in TAGS:
+            hit = sorted(tags & TAGS[el])
+            verdicts[el] = f"confirmed ({', '.join(hit)})" if hit else ("not checkable" if el in ONLY_CONFIRMS else "absent")
+        else:
+            verdicts[el] = "not checkable"
+    false = [el for el, v in verdicts.items() if v == "absent" or v.startswith("contradicted")]
+    result = "false" if false else ("confirmed" if all(v.startswith("confirmed") for v in verdicts.values()) else "partly checkable, nothing against it")
+    return {"kind": kind, "elements": elements, "game": game, "status": status,
+            "result": result, "verdicts": verdicts, "bgg": f"https://boardgamegeek.com/boardgame/{c['id']}"}
+
+
 rows = []
 for kind in ("pairs", "triads"):
     for e in kb[kind]:
         for g in e.get("exemplars", []):
-            c = cache[g]
-            tags = set(c["mechanisms"]) | set(c["categories"])
-            verdicts = {}
-            for el in e["elements"]:
-                if el == "full-information":
-                    hidden = sorted(tags & HIDDEN)
-                    verdicts[el] = f"contradicted ({', '.join(hidden)})" if hidden else "not checkable"
-                elif el in TAGS:
-                    hit = sorted(tags & TAGS[el])
-                    verdicts[el] = f"confirmed ({', '.join(hit)})" if hit else ("not checkable" if el in ONLY_CONFIRMS else "absent")
-                else:
-                    verdicts[el] = "not checkable"
-            false = [el for el, v in verdicts.items() if v == "absent" or v.startswith("contradicted")]
-            result = "false" if false else ("confirmed" if all(v.startswith("confirmed") for v in verdicts.values()) else "partly checkable, nothing against it")
-            rows.append({"kind": kind[:-1], "elements": e["elements"], "game": g, "status": e.get("verification_status"),
-                         "result": result, "verdicts": verdicts, "bgg": f"https://boardgamegeek.com/boardgame/{c['id']}"})
+            rows.append(check(kind[:-1], e["elements"], g, e.get("verification_status")))
+for g in json.load(open("games.json")):
+    if "bgg" in g:
+        blocks = [b for v in g["design"].values() for b in (v if isinstance(v, list) else [v])]
+        rows.append(check("known game", blocks, g["bgg"]))
 json.dump(rows, open("drafted/bgg-verdicts.json", "w"), indent=1, ensure_ascii=False)
 from collections import Counter
 print(Counter(r["result"] for r in rows))

@@ -3,9 +3,11 @@
 1. Every possible two-block canvas gets at least one sentence from the knowledge base (a pair, triad or theme line).
    Larger canvases always contain such a pair, so this covers them too.
 2. Every feeling, picked with any two-block canvas, is said: supported, pulled away from, or neither.
-Exits 1 and names the first gaps if either fails.
+3. Every known game's design uses real blocks (a list only where the group takes several), and every marked question's answer is one of its options.
+4. VERSION, the newest entry in CHANGELOG.md and the version badge in README.md agree.
+Exits 1 and names the first gaps if any fails.
 """
-import itertools, sys
+import itertools, re, sys
 
 import app, palette, rules, templates
 
@@ -28,6 +30,17 @@ for mech in canvases:
 
 print(f"two-block canvases: {len(canvases)} | without knowledge-base text: {len(no_text)}")
 print(f"feeling with two-block canvas: {len(canvases) * len(feelings)} | feeling not said: {len(silent)}")
-if no_text or silent:
-    print("first gaps:", no_text[:5], silent[:5])
+bad_games = []
+for g in app.GAMES:
+    for d, picked in g["design"].items():
+        if any(dim.get(b) != d for b in (picked if isinstance(picked, list) else [picked])) or isinstance(picked, list) != (d in stacks):
+            bad_games.append((g["id"], d))
+    bad_games += [(g["id"], q["id"]) for q in g["questions"] if q["answer"] is not None and not 0 <= q["answer"] < len(q["options"])]
+print(f"known games: {len(app.GAMES)} | with a bad block or answer: {len(bad_games)}")
+newest = re.search(r"^## (\S+)", open("CHANGELOG.md", encoding="utf-8").read(), re.M).group(1)
+badge = f"version-{app.VERSION}-" in open("README.md", encoding="utf-8").read()
+version_ok = newest == app.VERSION and badge
+print(f"version {app.VERSION} | newest changelog entry {newest} | README badge {'matches' if badge else 'missing or different'}")
+if no_text or silent or bad_games or not version_ok:
+    print("first gaps:", no_text[:5], silent[:5], bad_games[:5])
     sys.exit(1)

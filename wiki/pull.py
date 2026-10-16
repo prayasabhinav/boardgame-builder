@@ -4,7 +4,9 @@
     python drafted/build.py && python check.py
 
 then read the diff before deploying. It changes pairs, triads, conflicts, theme lines, feeling and block
-descriptions, and feeling-and-block judgements, and adds new triads and conflicts. A new block or feeling
+descriptions, and feeling-and-block judgements, and adds new triads, conflicts and known games. A new game goes
+into games.json without an animation or questions, so the tool offers it to play and to open as a design; a
+change to a game already there is listed for doing by hand, since its animation may need redrawing. A new block or feeling
 needs a drawing, a display name and pair entries, so it is listed for doing by hand. A drafted pair stays
 drafted when it is changed: moving it into the curated part is a separate decision. The ids of proposals
 already carried in are kept in wiki-applied.json, so running it again changes nothing twice.
@@ -15,8 +17,12 @@ import sys
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, ".")
+from known_games import from_markdown, teaches  # noqa: E402
+
 DONE = Path("wiki-applied.json")
 KB = Path("interactions.json")
+GAMES = Path("games.json")
 STATUS = "wiki-approved"
 
 
@@ -74,10 +80,27 @@ def set_link(kb, feeling, block, judgement):
         fb["supported_by" if judgement == "supports" else "opposed_by"].append(block)
 
 
+def add_game(p):
+    g, problem = from_markdown(p["body"])
+    games = json.loads(GAMES.read_text(encoding="utf-8"))
+    gid = p["key"].split(":", 1)[1]
+    if problem or any(x["id"] == gid for x in games):
+        return f"a new game, '{p['name']}': {problem or 'a game with that id is already in games.json'}"
+    games.append({"id": gid, "title": g["title"], "parent_game": g["parent_game"],
+                  "credits": f"{g['credits']} Proposed on the wiki by {p['user_name']}.", "teaches": teaches(g["design"]),
+                  "design": g["design"], "duration": g["duration"], "players": g["players"], "equipment": g["equipment"],
+                  "intro": g["intro"], "steps": g["steps"], "what_to_notice": g["what_to_notice"],
+                  "animation_type": "", "animation": [], "questions": [], "sources": g["sources"]})
+    GAMES.write_text(json.dumps(games, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    return ""
+
+
 def apply(p, kb):
     """Returns '' when applied, or why it was left for doing by hand."""
     els, kind = json.loads(p["elements"]), p["kind"]
     pros, cons, games = lines(p["pros"]), lines(p["cons"]), lines(p["games"])
+    if kind == "game":
+        return add_game(p)
     if kind in ("block", "feeling"):
         return f"a new {kind}, '{p['name']}': add it to palette.py and block_meta.py, with a drawing and its pairs"
     if kind in ("triad", "conflict"):
@@ -88,6 +111,8 @@ def apply(p, kb):
             kb["conflicts"].append({"elements": els, "note": p["text"], "student_note": p["text"]})
         return ""
     target = p["key"].split(":", 1)[0]
+    if target == "game":
+        return f"a change to the game {p['key']}: replace its entry in games.json by hand and check its animation still matches"
     same = set(els)
     if target in ("pair", "triad"):
         for e in kb[target + "s"]:

@@ -33,6 +33,7 @@
         <a href="/about">How checking works</a>
         {% if user %}
           <a href="/propose">Propose an entry</a>
+          <a href="/propose-game">Propose a game</a>
           <a href="/proposals">{{ 'Proposals' if user.admin else 'My proposals' }}</a>
           {% if user.owner %}<a href="/community">Community</a>{% elif not user.admin %}<a href="/apply">Join the editors</a>{% endif %}
           <span class="me">{{ user.name }}</span> <a href="/logout">Sign out</a>

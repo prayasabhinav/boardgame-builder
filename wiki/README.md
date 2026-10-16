@@ -17,6 +17,7 @@ Every entry the tool's feedback is made from, read straight from the tool's own 
 | Conflicts | `interactions.json` | 5 |
 | Theme lines | `interactions-drafted.json` | 12 |
 | Feeling and block judgements | both | 1,200 |
+| Known games, with their rules, credits and blocks | `games.json` | 38 |
 
 Pairs and triads also show the BoardGameGeek check of their example games (`drafted/bgg-verdicts.json`) and the games removed after it. The two working notes, `mechanics-shortlist.md` and `feeling-blocks.md`, are on it too.
 
@@ -27,6 +28,7 @@ Anyone can read everything. Signing in, with GitHub or Google, lets a person:
 - **Add a record** to an entry: *verified* (checked against a source) or *validated* (tried with people at a table), what they found (*holds*, *partly holds*, *does not hold*), how they know, and a suggested wording if they have one. Records appear at once, under the person's name, with the entry's text as it stood. A person can withdraw their own record; it stays visible as withdrawn.
 - **Propose a change** to an entry: new wording, different example games, or a different judgement for a feeling and a block.
 - **Propose a new entry**: a triad, a conflict, a block or a feeling.
+- **Propose a game**: a known game, sent as a Markdown file in the shape the tool's **Download as a design** writes (`known_games.py` reads and writes it; `/games/template.md` is a blank one to start from). A file for a game already there proposes a change to it. The file is kept whole with the proposal, and an editor sees it as sent.
 
 A proposal stays private to its author and the editors until an editor approves or rejects it. A rejection carries a reason the author reads. An approved change shows on the entry at once, with the text the tool still has kept readable until the tool catches up; an approved new entry appears marked *proposed*. Who approved a proposal is stored and never shown or exported. Proposals using verdict words (good, bad, best, should, must and the like) are refused before an editor sees them, because the tool's build refuses them too.
 
@@ -49,7 +51,7 @@ python wiki/pull.py https://address-of-your-wiki
 python drafted/build.py && python check.py
 ```
 
-`pull.py` reads the wiki's export and applies every approved proposal it has not applied before: changes to pairs, triads, conflicts, theme lines, feeling and block descriptions and feeling-and-block judgements, and new triads and conflicts. It writes `interactions.json` in its existing layout, so a change shows as a small diff, and keeps the ids it has applied in `wiki-applied.json`. A drafted pair stays drafted when it is changed. A new block or feeling needs a drawing, a display name and pair entries, so the script lists it for doing by hand. Read the diff, then redeploy the tool and the wiki.
+`pull.py` reads the wiki's export and applies every approved proposal it has not applied before: changes to pairs, triads, conflicts, theme lines, feeling and block descriptions and feeling-and-block judgements, and new triads and conflicts. An approved new game is added to `games.json` without an animation or questions, so the tool offers it to play and to download; a change to a game already there is listed for doing by hand, since its animation may need redrawing. It writes `interactions.json` in its existing layout, so a change shows as a small diff, and keeps the ids it has applied in `wiki-applied.json`. A drafted pair stays drafted when it is changed. A new block or feeling needs a drawing, a display name and pair entries, so the script lists it for doing by hand. Read the diff, then redeploy the tool and the wiki.
 
 ## Every record, for anyone
 
@@ -97,8 +99,8 @@ docker run -p 8080:80 -v wiki-data:/app/data --env-file .env boardgame-wiki
 
 | File | What it is |
 |---|---|
-| `app.py` | The server: pages, sign-in, records, proposals, editors and applications, the export |
-| `corpus.py` | Reads the tool's knowledge base into one list of entries, each with a stable key |
+| `app.py` | The server: pages, sign-in, records, proposals (games included, with their files), editors and applications, the export |
+| `corpus.py` | Reads the tool's knowledge base and known games into one list of entries, each with a stable key; game files are written and read by the tool's `known_games.py` |
 | `pull.py` | Carries approved proposals into the tool's files |
 | `templates/`, `static/wiki.css` | The pages, in the tool's own look |
 | `static/og.png` | The card shown when a link to the wiki is shared |

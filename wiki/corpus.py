@@ -8,6 +8,7 @@ what a check is recorded against:
   pair:<a>+<b>          a two-block entry              triad:<a>+<b>+<c>    a three-block entry
   conflict:<a>+<b>      a clash between two blocks     theme:<id>           a theme line
   link:<feeling>:<id>   whether a block supports a feeling, works against it, or neither
+  game:<id>             a known game: rules to play with things at hand, and the blocks it is made of
 """
 import json
 import os
@@ -19,6 +20,7 @@ sys.path.insert(0, str(CORPUS_DIR))
 
 import palette  # noqa: E402
 from block_meta import meta_for  # noqa: E402
+from known_games import from_markdown, to_markdown  # noqa: E402,F401  (used by the wiki through this module)
 
 KINDS = {
     "block": "Block",
@@ -28,9 +30,10 @@ KINDS = {
     "conflict": "Conflict",
     "theme": "Theme line",
     "link": "Feeling and block",
+    "game": "Known game",
 }
 PLURAL = {"block": "Blocks", "feeling": "Feelings", "pair": "Pairs", "triad": "Triads", "conflict": "Conflicts",
-          "theme": "Theme lines", "link": "Feelings and blocks"}
+          "theme": "Theme lines", "link": "Feelings and blocks", "game": "Known games"}
 
 
 def _load(name):
@@ -117,6 +120,11 @@ def load():
             add(f"link:{f}:{b}", "link", f"{display.get(f, f)} · {display[b]}", source, status,
                 elements=[f, b], judgement=judgement, text=link_text(f, b, judgement, display))
 
+    for g in _load("games.json"):
+        add(f"game:{g['id']}", "game", g["title"], "curated", "known-game", text=g["intro"], game=g,
+            elements=[b for v in g["design"].values() for b in (v if isinstance(v, list) else [v])],
+            checks=[v for v in verdicts if v["kind"] == "known game" and v["game"] == g.get("bgg")])
+
     for e in entries.values():
         e["search"] = " ".join([e["title"], e["text"], *e.get("pros", []), *e.get("cons", [])]).lower()
 
@@ -125,4 +133,4 @@ def load():
         notes[name.removesuffix(".md")] = {"title": title, "markdown": (CORPUS_DIR / name).read_text(encoding="utf-8")}
 
     return {"entries": entries, "groups": groups, "display": display, "notes": notes,
-            "feelings": [f["id"] for f in palette.FEELINGS]}
+            "feelings": [f["id"] for f in palette.FEELINGS], "version": (CORPUS_DIR / "VERSION").read_text().strip()}

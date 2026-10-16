@@ -11,6 +11,9 @@
    - Three-state symbols ●◐○ used where semantic
    ═══════════════════════════════════════════════════════════════ */
 
+/* Classes that set display (.phase-actions is flex) would otherwise show an element marked hidden */
+[hidden] { display: none !important; }
+
 html, body { height: 100%; }
 
 body {
@@ -1380,6 +1383,7 @@ body {
   border-top: 1px solid var(--surface-border);
 }
 .fam-step:first-child { border-top: none; padding-top: 0; }
+.fam-credits { font-size: 13px; color: var(--ink3); margin-top: 4px; }
 .fam-step-svg {
   background: var(--surface-inner);
   border-radius: 4px;

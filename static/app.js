@@ -879,14 +879,17 @@ function showFam(g) {
   card.className = "fam-card";
   card.innerHTML = `<div class="fam-card-tag">Shows · ${escapeHtml(g.teaches.replace(/-/g, " "))}</div>
     <h2>${escapeHtml(g.title)}</h2><div class="fam-parent">from ${escapeHtml(g.parent_game)}</div>
+    <div class="fam-credits">${escapeHtml(g.credits)}</div>
     <div class="fam-meta"><span><strong>Time</strong> · ${escapeHtml(g.duration)}</span><span><strong>Players</strong> · ${escapeHtml(g.players)}</span></div>
     <div class="fam-intro">${escapeHtml(g.intro)}</div>
     <div class="fam-equipment"><div class="fam-equipment-label">What you need</div><ul>${g.equipment.map((e) => `<li>${escapeHtml(e)}</li>`).join("")}</ul></div>
     <div class="fam-equipment-label">How to play</div>
-    <div class="fam-steps">${g.steps.map((s) => `<div class="fam-step"><div class="fam-step-svg">${s.svg}</div><div>
+    <div class="fam-steps">${g.steps.map((s) => `<div class="fam-step"><div class="fam-step-svg">${s.svg || ""}</div><div>
       <div class="fam-step-num">Step ${s.n}</div><div class="fam-step-title">${escapeHtml(s.title)}</div><div class="fam-step-body">${escapeHtml(s.body)}</div></div></div>`).join("")}</div>
     <div class="fam-notice"><div class="fam-notice-label">After playing, talk about</div><ul>${g.what_to_notice.map((n) => `<li>${escapeHtml(n)}</li>`).join("")}</ul></div>`;
   wrap.appendChild(card);
+  document.getElementById("famDownload").href = `/games/${g.id}.md`;
+  document.getElementById("famWatchBtn").hidden = !g.animation.length;
   showGamesView("play");
 }
 
@@ -1053,7 +1056,7 @@ function renderDiceScene(svg, scene, make, W, H) {
   // BUST overlay
   if (scene.outcome === "bust") {
     make("rect", { x: W / 2 - 60, y: 80, width: 120, height: 80, fill: "#C75B39", opacity: 0.92, rx: 4 });
-    make("text", { x: W / 2, y: 130, "text-anchor": "middle", "font-family": "Fraunces", "font-size": 26, "font-weight": 600, fill: "white", "letter-spacing": "0.08em" }).textContent = "BUST";
+    make("text", { x: W / 2, y: 130, "text-anchor": "middle", "font-family": "Fraunces", "font-size": 26, "font-weight": 600, fill: "white", "letter-spacing": "0.08em" }).textContent = scene.outcome_label || "BUST";
   }
   if (scene.outcome === "win") {
     make("text", { x: W / 2, y: 245, "text-anchor": "middle", "font-family": "IBM Plex Mono", "font-size": 12, fill: "#C75B39", "letter-spacing": "0.1em" }).textContent = "GAME OVER · WINNER ABOVE";
@@ -1227,7 +1230,7 @@ function renderCardsScene(svg, scene, make, W, H) {
   const actors = scene.actors || [];
   // Place actors in 4 quadrants
   const positions = [[120, 60], [W - 120, 60], [120, H - 60], [W - 120, H - 60]];
-  const colourMap = { r: "#C75B39", b: "#3A6E8F", g: "#7A8B3F", y: "#D9883D", wild: "#9C5B9F" };
+  const colourMap = { r: "#C75B39", b: "#3A6E8F", g: "#7A8B3F", y: "#D9883D", k: "#2D3127", wild: "#9C5B9F" };
 
   actors.forEach((a, i) => {
     const [x, y] = positions[i] || [W / 2, H / 2];

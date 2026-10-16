@@ -2146,5 +2146,299 @@
    366161,
    290448
   ]
+ },
+ "Nim": {
+  "id": 11753,
+  "bgg_name": "Nim",
+  "year": "0",
+  "mechanisms": [],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   11753
+  ]
+ },
+ "Old Maid": {
+  "id": 10799,
+  "bgg_name": "Old Maid",
+  "year": "1874",
+  "mechanisms": [
+   "Hand Management",
+   "Hot Potato",
+   "Set Collection"
+  ],
+  "categories": [
+   "Animals",
+   "Bluffing",
+   "Card Game",
+   "Children's Game",
+   "Comic Book / Strip",
+   "Novel-based",
+   "Sports"
+  ],
+  "other_ids": [
+   10799
+  ]
+ },
+ "Fan Tan": {
+  "id": 18399,
+  "bgg_name": "Fan Tan",
+  "year": "0",
+  "mechanisms": [
+   "Hand Management",
+   "Melding and Splaying",
+   "Ordering"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   18399
+  ]
+ },
+ "Boxes": {
+  "id": 17106,
+  "bgg_name": "Boxes",
+  "year": "1889",
+  "mechanisms": [
+   "Enclosure",
+   "Paper-and-Pencil"
+  ],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   17106
+  ]
+ },
+ "Battleship": {
+  "id": 2425,
+  "bgg_name": "Battleship",
+  "year": "1931",
+  "mechanisms": [
+   "Deduction",
+   "Paper-and-Pencil",
+   "Secret Unit Deployment"
+  ],
+  "categories": [
+   "Children's Game",
+   "Nautical",
+   "Wargame"
+  ],
+  "other_ids": [
+   2425
+  ]
+ },
+ "Bulls & Cows": {
+  "id": 152641,
+  "bgg_name": "Bulls & Cows",
+  "year": "0",
+  "mechanisms": [
+   "Communication Limits",
+   "Deduction",
+   "Paper-and-Pencil"
+  ],
+  "categories": [
+   "Abstract Strategy",
+   "Deduction"
+  ],
+  "other_ids": [
+   152641
+  ]
+ },
+ "Go Fish": {
+  "id": 7682,
+  "bgg_name": "Go Fish",
+  "year": "0",
+  "mechanisms": [
+   "Memory",
+   "Set Collection"
+  ],
+  "categories": [
+   "Card Game",
+   "Children's Game",
+   "Deduction",
+   "Memory"
+  ],
+  "other_ids": [
+   7682
+  ]
+ },
+ "Cheat": {
+  "id": 15832,
+  "bgg_name": "Cheat",
+  "year": "0",
+  "mechanisms": [
+   "Memory"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Memory"
+  ],
+  "other_ids": [
+   15832
+  ]
+ },
+ "Snap": {
+  "id": 17003,
+  "bgg_name": "Snap",
+  "year": "1866",
+  "mechanisms": [
+   "Pattern Recognition",
+   "Real-Time"
+  ],
+  "categories": [
+   "Card Game",
+   "Children's Game",
+   "Movies / TV / Radio theme",
+   "Novel-based"
+  ],
+  "other_ids": [
+   17003
+  ]
+ },
+ "20 Questions": {
+  "id": 3377,
+  "bgg_name": "20 Questions",
+  "year": "1988",
+  "mechanisms": [],
+  "categories": [
+   "Deduction",
+   "Party Game",
+   "Trivia"
+  ],
+  "other_ids": [
+   3377
+  ]
+ },
+ "Hangman": {
+  "id": 5314,
+  "bgg_name": "Hangman",
+  "year": "1894",
+  "mechanisms": [
+   "Deduction",
+   "Paper-and-Pencil",
+   "Spelling"
+  ],
+  "categories": [
+   "Word Game"
+  ],
+  "other_ids": [
+   5314
+  ]
+ },
+ "Spoons": {
+  "id": 1692,
+  "bgg_name": "Spoons",
+  "year": "1972",
+  "mechanisms": [
+   "Player Elimination",
+   "Set Collection",
+   "Simultaneous Action Selection"
+  ],
+  "categories": [
+   "Action / Dexterity",
+   "Animals",
+   "Card Game",
+   "Children's Game",
+   "Real-time"
+  ],
+  "other_ids": [
+   1692
+  ]
+ },
+ "Tic-Tac-Toe": {
+  "id": 11901,
+  "bgg_name": "Tic-Tac-Toe",
+  "year": "-1300",
+  "mechanisms": [
+   "Paper-and-Pencil",
+   "Pattern Building",
+   "Square Grid"
+  ],
+  "categories": [
+   "Abstract Strategy",
+   "Children's Game"
+  ],
+  "other_ids": [
+   11901
+  ]
+ },
+ "Werewolf": {
+  "id": 925,
+  "bgg_name": "Werewolf",
+  "year": "1986",
+  "mechanisms": [
+   "Hidden Roles",
+   "Negotiation",
+   "Player Elimination",
+   "Role Playing",
+   "Roles with Asymmetric Information",
+   "Team-Based Game",
+   "Traitor Game",
+   "Variable Player Powers",
+   "Voting"
+  ],
+  "categories": [
+   "Bluffing",
+   "Deduction",
+   "Horror",
+   "Murder / Mystery",
+   "Negotiation",
+   "Party Game"
+  ],
+  "other_ids": [
+   925
+  ]
+ },
+ "Pig": {
+  "id": 161130,
+  "bgg_name": "Pig",
+  "year": "1945",
+  "mechanisms": [
+   "Push Your Luck"
+  ],
+  "categories": [
+   "Dice"
+  ],
+  "other_ids": [
+   161130
+  ]
+ },
+ "Charades": {
+  "id": 5122,
+  "bgg_name": "Charades",
+  "year": "1550",
+  "mechanisms": [
+   "Acting",
+   "Communication Limits"
+  ],
+  "categories": [
+   "Deduction",
+   "Movies / TV / Radio theme",
+   "Party Game"
+  ],
+  "other_ids": [
+   5122
+  ]
+ },
+ "SET": {
+  "id": 1198,
+  "bgg_name": "SET",
+  "year": "1988",
+  "mechanisms": [
+   "Pattern Recognition",
+   "Real-Time",
+   "Speed Matching"
+  ],
+  "categories": [
+   "Card Game",
+   "Puzzle"
+  ],
+  "other_ids": [
+   1198
+  ]
  }
 }
