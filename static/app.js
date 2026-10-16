@@ -232,7 +232,7 @@ function createBlock(id, display, dim, { inSlot = false, meta = null } = {}) {
   infoBtn.addEventListener("click", (e) => {
     e.stopPropagation();
     e.preventDefault();
-    openBlockModal(id, dim);
+    go(`blocks/${id}`);
   });
   // Stop drag from initiating on the info button
   infoBtn.addEventListener("mousedown", (e) => e.stopPropagation());
@@ -835,6 +835,37 @@ function showTab(name) {
   if (name === "tests") renderTests();
 }
 
+// ── Addresses: every view has its own, so it can be linked, reloaded and reached with Back ──
+// #games, #games/<id>, #games/<id>/watch, #how-it-works, #blocks/<id>, #tests
+
+function go(hash) {
+  location.hash = hash;
+}
+
+function leave() {
+  history.pushState(null, "", location.pathname + location.search);
+  route();
+}
+
+async function route() {
+  const [view, id, sub] = decodeURIComponent(location.hash.replace(/^#\/?/, "")).split("/");
+  document.getElementById("blockModal").hidden = true;
+  document.getElementById("onboarding").hidden = true;
+  if (view !== "games") closeGames();
+  showTab(view === "tests" ? "tests" : "feedback");
+  if (view === "how-it-works") openOnboarding();
+  if (view === "blocks") {
+    const dim = state.dimensions.find((d) => d.blocks.some((b) => b.id === id));
+    if (dim) openBlockModal(id, dim.id);
+  }
+  if (view === "games") {
+    await openGames();
+    const g = id && GAMES.find((x) => x.id === id);
+    if (g) showFam(g);
+    if (g && sub === "watch" && g.animation.length) showWatch();
+  }
+}
+
 // ── Known games: play one, then watch it and answer ──────────────
 // Ten short games from the April 2026 demo, their rules, animations and answers checked against each other on 16 October 2026.
 // Questions about what a designer would change have no right answer; they are asked and talked about, never marked.
@@ -844,8 +875,12 @@ const CREDIT_ROWS = [["by", "Made by"], ["rules", "Rules from"], ["version", "Th
 
 // Escaped text with its web addresses, written with or without https://, turned into links
 function linkify(text) {
-  return escapeHtml(text).replace(/(https:\/\/|\bgithub\.com\/)[^\s,;)]+/g,
-    (u) => `<a href="${u.startsWith("https://") ? u : "https://" + u}" target="_blank" rel="noopener">${u.replace(/^https:\/\//, "")}</a>`);
+  return escapeHtml(text).replace(/(https:\/\/|\bgithub\.com\/)[^\s,;]+/g, (u) => {
+    let tail = "";
+    // A closing bracket ends the address only when the address has no opening one to match it
+    while (/[.)]$/.test(u) && (u.endsWith(".") || (u.match(/\(/g) || []).length < (u.match(/\)/g) || []).length)) { tail = u.slice(-1) + tail; u = u.slice(0, -1); }
+    return `<a href="${u.startsWith("https://") ? u : "https://" + u}" target="_blank" rel="noopener">${u.replace(/^https:\/\//, "")}</a>${tail}`;
+  });
 }
 
 function creditsHtml(g) {
@@ -865,8 +900,10 @@ async function openGames() {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "game-pick";
-    b.innerHTML = `<strong>${escapeHtml(g.title)}</strong><span>${escapeHtml(g.duration)} · ${escapeHtml(g.players)}</span><span>from ${escapeHtml(g.parent_game)}</span>`;
-    b.addEventListener("click", () => showFam(g));
+    b.innerHTML = `<strong>${escapeHtml(g.title)}</strong>
+      <span class="game-pick-meta"><span><em>Time</em> ${escapeHtml(g.duration)}</span><span><em>Players</em> ${escapeHtml(g.players.replace(/ players?$/, ""))}</span></span>
+      <span class="game-pick-from">from ${escapeHtml(g.parent_game)}</span>`;
+    b.addEventListener("click", () => go(`games/${g.id}`));
     grid.appendChild(b);
   }
 }
@@ -1369,17 +1406,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   setupFeelingsDropZone();
   document.getElementById("iterateBtn").addEventListener("click", onIterate);
   document.getElementById("completeBtn").addEventListener("click", onComplete);
-  document.getElementById("knownGamesLink").addEventListener("click", (e) => { e.preventDefault(); openGames(); });
-  document.getElementById("gamesCloseBtn").addEventListener("click", closeGames);
-  document.getElementById("gamesListBtn").addEventListener("click", () => showGamesView("list"));
-  document.getElementById("famWatchBtn").addEventListener("click", showWatch);
+  document.getElementById("gamesCloseBtn").addEventListener("click", leave);
+  document.getElementById("famWatchBtn").addEventListener("click", () => go(`games/${analysisState.data.id}/watch`));
   document.getElementById("animPlayBtn").addEventListener("click", playAnalysis);
   document.getElementById("animReplayBtn").addEventListener("click", playAnalysis);
   document.getElementById("mcqSubmit").addEventListener("click", checkMCQs);
   for (const id of ["configDoneBtn", "configModalClose", "configModalBackdrop"]) {
     document.getElementById(id).addEventListener("click", closeQuestions);
   }
-  document.querySelectorAll(".panel-tab").forEach((t) => t.addEventListener("click", () => showTab(t.dataset.tab)));
+  document.querySelectorAll(".panel-tab").forEach((t) => t.addEventListener("click", () => (t.dataset.tab === "tests" ? go("tests") : leave())));
   document.getElementById("saveGameLink").addEventListener("click", (e) => { e.preventDefault(); onSaveGame(); });
   document.getElementById("openGameLink").addEventListener("click", (e) => { e.preventDefault(); document.getElementById("openGameInput").click(); });
   document.getElementById("openGameInput").addEventListener("change", onOpenGame);
@@ -1389,19 +1424,20 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   // Block modal handlers
-  document.getElementById("blockModalClose").addEventListener("click", closeBlockModal);
-  document.getElementById("blockModalBackdrop").addEventListener("click", closeBlockModal);
+  document.getElementById("blockModalClose").addEventListener("click", leave);
+  document.getElementById("blockModalBackdrop").addEventListener("click", leave);
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { closeBlockModal(); closeOnboarding(); closeQuestions(); closeGames(); }
+    if (e.key !== "Escape") return;
+    closeQuestions();
+    if (location.hash === "#how-it-works") closeOnboarding();
+    if (location.hash) leave();
   });
 
   // Onboarding handlers
-  document.getElementById("howItWorksLink").addEventListener("click", (e) => {
-    e.preventDefault();
-    openOnboarding();
-  });
   for (const id of ["onboardingClose", "onboardingBackdrop", "onboardingStart"]) {
-    document.getElementById(id).addEventListener("click", closeOnboarding);
+    document.getElementById(id).addEventListener("click", () => { closeOnboarding(); leave(); });
   }
-  if (!seenOnboarding()) openOnboarding();
+  if (!seenOnboarding() && !location.hash) history.replaceState(null, "", "#how-it-works");
+  window.addEventListener("hashchange", route);
+  route();
 });

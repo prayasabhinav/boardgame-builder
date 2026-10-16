@@ -1600,7 +1600,10 @@ button.slot-config:disabled { cursor: default; }
 .games-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 12px; margin-top: 18px; }
 .game-pick { display: flex; flex-direction: column; gap: 4px; text-align: left; padding: 14px 16px; background: white; border: 1px solid var(--surface-border); border-radius: 6px; cursor: pointer; font-family: var(--font-body); color: var(--ink); }
 .game-pick strong { font-family: var(--font-display); font-size: 17px; font-weight: 600; }
-.game-pick span { font-size: 13px; color: var(--ink3); }
+.game-pick-meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 2px; }
+.game-pick-meta > span { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.04em; color: var(--ink); background: var(--surface-inner); border-radius: 3px; padding: 3px 7px; }
+.game-pick-meta em { font-style: normal; color: var(--ink3); text-transform: uppercase; letter-spacing: 0.08em; margin-right: 4px; }
+.game-pick-from { font-size: 13px; font-style: italic; color: var(--ink3); line-height: 1.45; }
 .game-pick:hover { border-color: var(--accent); }
 .mcq-heading { font-family: var(--font-display); font-size: 18px; font-weight: 600; margin: 18px 0 12px; }
 .mcq-discuss { display: block; margin-top: 4px; color: var(--ink3); font-size: 14px; }

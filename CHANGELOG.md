@@ -4,6 +4,12 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.7.0 — 16 October 2026
+
+- Every view has its own address, so it can be linked, reloaded and reached with Back: `#games` for the known games, `#games/<id>` for one game, `#games/<id>/watch` to watch it, `#how-it-works`, `#blocks/<id>` for a block's description, and `#tests` for the part tests.
+- The known games list sets each game's time and players apart from where it comes from.
+- Source links that end in a bracket, such as Wikipedia's, now open the right page.
+
 ## 0.6.0 — 16 October 2026
 
 - Credits on every known game are now labelled rows (made by, rules from, this version, sources) with links, on the card, in the game file and on the wiki. A game file in the earlier one-line form still reads.
