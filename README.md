@@ -190,7 +190,8 @@ python check.py
 | `drafted/` | Plain-text sources for the drafted entries, the build script, and the BoardGameGeek check |
 | `check.py` | The coverage check |
 | `mechanics-shortlist.md`, `feeling-blocks.md` | Reference notes on the mechanic and feeling blocks |
-| `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css` |
+| `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css`, and `og.png`, the link-preview card |
+| `docs/` | The screenshot, and `make_og.py`, which draws `static/og.png` from it |
 | `start.sh` | One-command start on macOS or Linux |
 | `Dockerfile`, `captain-definition` | Container build |
 | `requirements.txt` | fastapi, uvicorn, pydantic |
