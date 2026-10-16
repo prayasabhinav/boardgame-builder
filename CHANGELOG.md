@@ -7,6 +7,7 @@ To add an entry: raise `VERSION` (the middle number for something people can use
 ## 0.9.2 — 16 October 2026
 
 - The wiki's top bar is wide enough for its links on one row when signed in.
+- The wiki's list of known games shows what each game shows a designer, without the *curated* badge.
 
 ## 0.9.1 — 16 October 2026
 

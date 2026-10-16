@@ -12,8 +12,8 @@
 {% macro row(e, states) -%}
 <li class="row">
   <a href="/e/{{ e.key|urlencode }}">{{ e.title }}</a>
-  <span class="src {{ e.source }}">{{ e.source }}</span>
+  {% if e.kind != 'game' %}<span class="src {{ e.source }}">{{ e.source }}</span>{% endif %}
   {{ marks(e.key, states) }}
-  <p>{{ e.text }}</p>
+  <p>{{ e.game.lesson if e.kind == 'game' else e.text }}</p>
 </li>
 {%- endmacro %}
