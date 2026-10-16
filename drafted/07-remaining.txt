@@ -1,0 +1,107 @@
+race-to-finish+full-information | Everyone can see exactly how close each player is to the finish. | Clear and fair. | Tense near the end. | Little surprise. | Leaders can be easy to block.
+race-to-finish+hidden-hands | Players race to the end using secret cards that can speed them up or slow others. | Surprise moves. | Tense finish. | Hard to plan around. | Can feel unfair.
+race-to-finish+hidden-identity | Players race, but some are secretly on a side that wins differently. | Mystery in the race. | Tense. | Confusing for some. | Hard to read.
+race-to-finish+deduction | The race is to be first to work out a hidden answer. | Detective race. | Clever thinking. | Fast thinkers can pull away. | Hard for some.
+race-to-finish+bluffing | Players can pretend to be further behind or ahead than they are. | Mind games. | Surprising finishes. | Hard to read. | Can feel tense.
+most-points+hidden-hands | Players score from cards others cannot see, so the winner is a surprise. | Tense reveal at the end. | Mystery. | Hard to plan around others. | Little sense of who is ahead.
+most-points+hidden-identity | Players score points while secretly on hidden sides that score differently. | Mystery. | Surprising endings. | Confusing for some. | Hard to read.
+most-points+deduction | Working out hidden facts earns you points. | Detective scoring. | Clever thinking. | Hard for some. | Scoring can take time.
+most-points+bluffing | Players can hide or fake how many points they have. | Mind games. | Surprising endings. | Hard to read. | Can feel tense.
+last-standing+full-information | Everyone sees who is close to being knocked out. | Clear and fair. | Tense near the end. | Weak players get targeted. | Can feel harsh.
+last-standing+hidden-hands | Players use secret cards to survive or knock others out. | Surprise moves. | Tense. | Players out early wait. | Can feel unfair.
+last-standing+hidden-identity | Players try to stay in while working out who is on which side. | Mystery and tension. | Dramatic reveals. | Players out early wait. | Can upset people.
+last-standing+deduction | Players are knocked out by being found out or by guessing wrong. | Detective tension. | Clever thinking. | Players out early wait. | Hard for some.
+last-standing+bluffing | Players bluff to avoid being targeted until one is left. | Mind games. | Tense. | Players out early wait. | Lies can upset people.
+cooperative-survival+full-information | The team can see every danger and plan together openly. | Clear teamwork. | Fair. | One player can direct the rest. | Little surprise.
+cooperative-survival+hidden-identity | The team tries to survive, but some players secretly hold a hidden role. | Suspicion inside teamwork. | Tense. | Hard to read. | Accusations can upset people.
+cooperative-survival+deduction | The team survives by working out hidden facts together. | Shared detective work. | Clever thinking. | One player can solve it. | Slow.
+cooperative-survival+bluffing | Players on the same team can bluff, which makes trust harder. | Mind games. | Tense. | Bluffing can hurt teamwork. | Confusing.
+shared-objective+full-information | The team sees everything and plans its shared goal openly. | Clear teamwork. | Fair. | One player can direct. | Little surprise.
+shared-objective+hidden-hands | The team works towards a goal but each player's cards are secret. | Careful hints. | Clever teamwork. | Hard to plan. | Misunderstandings happen.
+shared-objective+hidden-identity | The team works towards a goal while some hold hidden roles. | Suspicion. | Mystery. | Hard to read. | Can upset people.
+shared-objective+deduction | The shared goal is to work out a hidden answer together. | Group detective work. | Clever. | One player can solve it. | Slow.
+shared-objective+bluffing | Players bluff while still trying to reach a shared goal. | Mind games. | Surprising. | Bluffs can hurt the team. | Confusing.
+hidden-personal-goal+hidden-identity | Players have secret goals and secret roles at the same time. | Lots of mystery. | Clever guessing. | Very hard to read. | Confusing for new players.
+hidden-personal-goal+deduction | Players try to work out each other's secret goals. | Detective fun. | Clever thinking. | Hard for some. | Slow.
+hidden-personal-goal+bluffing | Players bluff to hide their secret goals. | Mind games. | Clever misdirection. | Hard to read. | Can feel tense.
+narrative-completion+full-information | The whole story so far is visible to everyone. | Clear and shared. | Creative. | Little surprise. | Strong voices can take over.
+narrative-completion+hidden-hands | Players add to a story using secret cards. | Surprising twists. | Creative. | Hard to plan. | Story can feel random.
+narrative-completion+hidden-identity | Players tell a story while secretly playing hidden characters. | Dramatic reveals. | Mystery. | Confusing for some. | Hard to follow.
+narrative-completion+deduction | The story ends when players work out a hidden answer. | Mystery story. | Clever thinking. | Hard for some. | Slow.
+narrative-completion+bluffing | Players can bluff about what happens in the story. | Funny twists. | Mind games. | Hard to follow. | Can upset people.
+solo-in-parallel+mostly-chance | Everyone plays their own luck side by side. | Light and calm. | Anyone can win. | Little contact. | Luck decides everything.
+solo-in-parallel+chance-with-mitigation | Everyone faces their own luck but can plan to soften it. | Calm with choices. | Fair. | Little contact. | More rules.
+solo-in-parallel+skill-with-luck-tempering | Everyone plans their own game, with a little luck. | Calm and thoughtful. | Skill shows. | Little contact. | Experienced players tend to win.
+solo-in-parallel+mostly-skill | Everyone plans their own game with no luck. | Pure puzzle. | Clear skill. | Little contact. | Slow for some.
+direct-confrontation+mostly-chance | Fights are decided mostly by dice or cards. | Surprising swings. | Anyone can win. | Losing feels random. | Little planning.
+direct-confrontation+chance-with-mitigation | Fights use luck, but you can plan to improve your odds. | Luck with control. | Tense. | More rules. | Bonuses can feel unfair.
+direct-confrontation+skill-with-luck-tempering | Fights are mostly decided by planning, with a little luck. | Skill shows. | Some surprise. | Experienced players tend to win. | Can feel harsh.
+direct-confrontation+mostly-skill | Fights are decided by planning alone. | Clear skill. | Deep strategy. | Can feel harsh. | Slow.
+indirect-via-board+mostly-chance | Luck decides where you can go and what you block. | Light. | Anyone can win. | Little control. | Blocks feel random.
+indirect-via-board+chance-with-mitigation | Luck shapes your moves, but you can plan around it. | Luck with control. | Clever blocks. | More rules. | Slow.
+indirect-via-board+skill-with-luck-tempering | Careful planning shapes the board, with a little luck. | Skill shows. | Clever blocks. | Experienced players tend to win. | Slow.
+indirect-via-board+mostly-skill | Every move on the shared board is planned. | Deep strategy. | Clear skill. | Slow. | Little surprise.
+fully-cooperative+mostly-chance | The team plays together against luck. | Shared hope. | Easy. | Few choices. | Results feel random.
+fully-cooperative+chance-with-mitigation | The team faces random events but can plan to soften them. | Teamwork against luck. | Interesting choices. | One player can direct. | More rules.
+fully-cooperative+skill-with-luck-tempering | The team plans together, with some random surprises. | Teamwork pays off. | Some surprise. | One player can direct. | Slow.
+fully-cooperative+mostly-skill | The team solves the game together by planning alone. | Deep teamwork. | Clear reasons. | One player can solve it. | Slow.
+semi-cooperative+mostly-chance | Players help each other, but luck decides who comes out ahead. | Light. | Anyone can win. | Few choices. | Results feel random.
+semi-cooperative+chance-with-mitigation | Luck shapes the game, but players can plan their help and their own gains. | Interesting choices. | Tense. | Hard to balance. | More rules.
+semi-cooperative+skill-with-luck-tempering | Careful choices about helping and winning matter most. | Clever play. | Some surprise. | Hard to balance. | Experienced players tend to win.
+semi-cooperative+mostly-skill | Everything depends on choosing when to help and when to win. | Deep choices. | Clear skill. | Hard to balance. | Slow.
+team-vs-team+mostly-chance | Two teams play, but luck decides most of the result. | Team cheers. | Anyone can win. | Few choices. | Results feel random.
+team-vs-team+chance-with-mitigation | Teams face luck but can plan to soften it. | Team planning. | Tense. | More rules. | One player can take over.
+team-vs-team+skill-with-luck-tempering | Team planning matters most, with a little luck. | Teamwork pays off. | Some surprise. | One player can take over. | Experienced teams tend to win.
+team-vs-team+mostly-skill | Teams win by planning alone. | Deep teamwork. | Clear contest. | One player can take over. | Slow.
+traitor+mostly-chance | Luck shapes the game, which gives the traitor cover. | Every setback could be luck or sabotage. | Light. | Hard to find the traitor. | Results feel random.
+traitor+chance-with-mitigation | Luck gives the traitor some cover, but careful play can reveal them. | Tense. | Clever play. | Hard to read. | More rules.
+traitor+skill-with-luck-tempering | Careful play matters most, so odd moves stand out. | Clever detective work. | Tense. | Traitor can be found quickly. | Experienced players tend to win.
+traitor+mostly-skill | With no luck, every odd move points to the traitor. | Pure detective play. | Clear reasons. | Hard to be the traitor. | Slow.
+solo-in-parallel+full-information | Everyone plays their own game in full view of everyone else. | Calm and fair. | Easy to compare. | Little contact. | Little surprise.
+solo-in-parallel+hidden-hands | Everyone plays their own game with secret cards. | Mystery about others. | Calm. | Little contact. | Hard to tell who is ahead.
+solo-in-parallel+hidden-identity | Everyone plays alone while secretly holding a hidden role. | Mystery. | Calm. | Roles can feel unimportant. | Little contact.
+solo-in-parallel+deduction | Everyone works alone to solve the same hidden puzzle. | Detective race. | Calm. | Little contact. | Fast thinkers win.
+solo-in-parallel+bluffing | Players play alone but can bluff about how they are doing. | Mind games. | Funny moments. | Little contact. | Bluffs can feel pointless.
+direct-confrontation+full-information | Players fight in full view, so every attack is planned openly. | Clear and fair. | Deep strategy. | Little surprise. | Can feel harsh.
+direct-confrontation+hidden-identity | Players attack each other without being sure who is on which side. | Mystery. | Dramatic. | Hard to read. | Can upset people.
+direct-confrontation+deduction | Players work out hidden facts to choose whom to attack. | Detective battles. | Clever thinking. | Hard for some. | Can feel harsh.
+indirect-via-board+full-information | Everyone sees the whole board, so blocks are planned openly. | Clear and fair. | Clever blocking. | Little surprise. | Slow.
+indirect-via-board+hidden-hands | Players use secret cards to change a shared board. | Surprise moves. | Clever. | Hard to plan. | Effects can be hard to see.
+indirect-via-board+hidden-identity | Players move on a shared board while secretly on hidden sides. | Moves hint at roles. | Mystery. | Hard to read. | Confusing.
+indirect-via-board+deduction | The shared board holds clues to a hidden answer. | Detective board. | Clever. | Hard for some. | Slow.
+indirect-via-board+bluffing | Players can move to mislead others about their plans. | Mind games. | Clever. | Hard to read. | Can feel tense.
+fully-cooperative+hidden-identity | The team plays together, but a hidden role means someone is not what they seem. | Suspicion inside teamwork. | Dramatic. | Hard to read. | Can upset people.
+fully-cooperative+deduction | The team works out a hidden answer together. | Group detective work. | Clever. | One player can solve it. | Slow.
+fully-cooperative+bluffing | Teammates can bluff, which makes trust harder inside the team. | Funny moments. | Mind games. | Bluffs can hurt teamwork. | Confusing.
+semi-cooperative+full-information | Everyone sees what others have, so helping and competing are open. | Fair. | Clear choices. | Little surprise. | Selfish moves are easy to spot.
+semi-cooperative+hidden-hands | Players help the group while keeping their own cards secret. | Mystery. | Tense choices. | Hard to trust. | Hard to plan.
+semi-cooperative+hidden-identity | Players help the group while secretly on hidden sides. | Suspicion. | Mystery. | Hard to read. | Can upset people.
+semi-cooperative+deduction | Players work out hidden facts that help the group and themselves. | Clever. | Detective work. | Hard for some. | Slow.
+semi-cooperative+bluffing | Players bluff about how much they are helping. | Mind games. | Tense. | Hard to trust. | Can upset people.
+team-vs-team+full-information | Two teams play in full view of each other. | Clear contest. | Fair. | Little surprise. | One player can take over.
+team-vs-team+hidden-hands | Teams play with secret cards, hinting to each other. | Clever hints. | Team play. | Misunderstandings happen. | Hard to plan.
+team-vs-team+deduction | Teams race to work out a hidden answer first. | Detective contest. | Team talk. | One player can solve it. | Slow.
+team-vs-team+bluffing | Teams bluff each other about their plans. | Mind games. | Team fun. | Hard to read. | Can feel tense.
+traitor+full-information | Everything is visible, so the traitor has to act very carefully. | Tense. | Clever play. | Hard to be the traitor. | Traitor can be found quickly.
+traitor+hidden-hands | Secret cards give the traitor places to hide. | Suspicion. | Tense. | Hard to find the traitor. | Accusations can upset people.
+traitor+deduction | Players work out who the traitor is from clues. | Detective fun. | Dramatic reveals. | Hard for some. | Accusations can upset people.
+traitor+bluffing | The traitor bluffs to hide, and others bluff to trap them. | Mind games. | Dramatic. | Hard to read. | Lies can upset people.
+mostly-chance+full-information | Luck decides most things, and everyone can see what happens. | Clear and light. | Anyone can win. | Few choices. | Little mystery.
+mostly-chance+hidden-hands | Luck decides most things, and players hold secret cards. | Light mystery. | Anyone can win. | Few choices. | Hard to plan.
+mostly-chance+hidden-identity | Luck shapes the game while players hold secret roles. | Light mystery. | Anyone can win. | Roles can feel unimportant. | Hard to read.
+mostly-chance+deduction | Random clues come out, and players try to work out a hidden answer. | Light detective fun. | Anyone can solve it. | Lucky clues decide a lot. | Hard to plan.
+mostly-chance+bluffing | Luck decides results, and players bluff about what they got. | Funny moments. | Light. | Hard to check bluffs. | Little planning.
+chance-with-mitigation+full-information | Luck plays a part, but everything is visible so players can plan around it. | Fair. | Interesting choices. | More rules. | Little mystery.
+chance-with-mitigation+hidden-hands | Luck plays a part, and secret cards help you soften it. | Clever plans. | Surprise. | Hard to plan around others. | More rules.
+chance-with-mitigation+hidden-identity | Luck plays a part while players hold secret roles. | Mystery with control. | Tense. | Hard to read. | More rules.
+chance-with-mitigation+deduction | Random clues appear, but players can choose which to look at. | Clever detective work. | Some luck. | Hard for some. | More rules.
+chance-with-mitigation+bluffing | Luck plays a part, and players bluff about what they got. | Mind games. | Some control. | Hard to read. | More rules.
+skill-with-luck-tempering+full-information | Planning matters most, everything is visible, and a little luck keeps it fresh. | Fair. | Skill shows. | Experienced players tend to win. | Slow.
+skill-with-luck-tempering+hidden-hands | Careful play with secret cards and a little luck. | Clever plans. | Some surprise. | Experienced players tend to win. | Hard to plan around others.
+skill-with-luck-tempering+hidden-identity | Careful play matters, with secret roles and a little luck. | Clever detective work. | Mystery. | Hard to read. | Experienced players tend to win.
+skill-with-luck-tempering+deduction | Careful thinking solves the puzzle, with a little luck in the clues. | Clever detective work. | Some surprise. | Hard for some. | Slow.
+skill-with-luck-tempering+bluffing | Clever bluffing matters most, with a little luck. | Mind games. | Skill shows. | Hard to read. | Experienced players tend to win.
+mostly-skill+hidden-hands | No luck, but players keep their cards secret. | Deep mystery. | Clear skill. | Slow. | Hard for new players.
+mostly-skill+hidden-identity | No luck, so secret roles show through choices alone. | Detective play. | Clear skill. | Hard to hide a role. | Slow.
+mostly-skill+deduction | Solving the hidden answer depends on careful thinking alone. | Pure detective work. | Clear skill. | Hard for some. | Slow.
+mostly-skill+bluffing | No luck, so winning depends on reading and fooling others. | Mind games. | Clear skill. | Hard for some. | Can feel tense.

@@ -1,0 +1,74 @@
+race-to-finish+solo-in-parallel | Everyone races along their own track, and the first to finish wins. | Clear and simple. | No one can knock you back. | Little contact. | Leaders can pull far ahead.
+race-to-finish+direct-confrontation | Players race to the end while attacking each other to slow them down. | Exciting chases. | Leaders get targeted. | Being attacked often can sting. | Can feel mean.
+race-to-finish+indirect-via-board | Players race and can block paths or take shortcuts others wanted. | Clever blocking. | Close races. | Blocks can feel unfair. | Hard to see effects.
+race-to-finish+fully-cooperative | The whole team races together to reach the finish before time runs out. | Shared excitement. | Everyone cheers. | One player can direct the rest. | Losing feels shared.
+race-to-finish+semi-cooperative | Players help each other along but only the first to finish wins. | Helping and racing. | Tense choices. | Hard to know when to stop helping. | Can feel confusing.
+race-to-finish+team-vs-team | Two teams race each other to the finish. | Team cheers. | Clear contest. | One player can take over. | A slow team can lose hope.
+race-to-finish+traitor | The team races to finish, but a traitor secretly slows them down. | Every delay raises suspicion. | Tense. | Hard to prove anything. | Accusations can upset people.
+most-points+solo-in-parallel | Everyone scores on their own, and the highest score wins. | Calm and fair. | Many ways to score. | Little contact. | Hard to tell who is ahead.
+most-points+direct-confrontation | Players attack each other to take points while scoring their own. | Exciting swings. | Leaders get targeted. | Being attacked can sting. | Can feel mean.
+most-points+indirect-via-board | Players score points from a shared board, taking spots others wanted. | Quiet competition. | Clever choices. | Effects can be hard to see. | Blocking can feel unkind.
+most-points+fully-cooperative | The team scores points together and tries to beat a target. | Shared goal. | Everyone contributes. | One player can direct the rest. | Little tension between players.
+most-points+semi-cooperative | Players help a group goal but the one with the most points wins. | Helping and competing. | Tense choices. | Selfish play can sink the group. | Hard to balance.
+most-points+team-vs-team | Teams add up their points, and the higher team wins. | Team planning. | Clear contest. | One player can take over. | Adding points can take time.
+most-points+traitor | The team scores points, but a traitor tries to keep the score low. | Low scores raise suspicion. | Tense. | Hard to prove anything. | Arguments can start.
+last-standing+solo-in-parallel | Everyone tries to survive on their own, and the last one still in wins. | Tense near the end. | No one attacks you. | Players out early wait. | Little contact.
+last-standing+indirect-via-board | Players take space on a shared board until others have nowhere left to go. | Clever squeezing. | Tense near the end. | Players out early wait. | Can feel harsh.
+last-standing+fully-cooperative | The team tries to keep everyone in, but there can be no single last one standing. | Shared struggle. | Clear danger. | The goals pull against each other. | Confusing for some.
+last-standing+semi-cooperative | Players help each other survive until the end, when only one can remain. | Alliances and betrayal. | Tense ending. | Betrayal can upset people. | Players out early wait.
+last-standing+team-vs-team | Two teams fight until one team has no one left. | Team battles. | Clear contest. | Players out early wait. | Can feel harsh.
+last-standing+traitor | Players try to stay in, while a hidden traitor knocks them out. | Suspicion grows as players fall. | Tense. | Players out early wait. | Accusations can upset people.
+cooperative-survival+solo-in-parallel | Each player survives their own danger, and the group wins only if all survive. | Shared stakes. | Everyone has a role. | Little helping. | One player's failure ends it for all.
+cooperative-survival+direct-confrontation | The team survives together, but players can also attack each other. | Tense choices. | Surprising moments. | The goals pull against each other. | Can feel confusing.
+cooperative-survival+indirect-via-board | The team survives together, but one player's moves can make it harder for others. | Careful planning. | Everyone matters. | Mistakes hurt everyone. | Hard to see effects.
+cooperative-survival+semi-cooperative | Players survive together, but one may come out ahead at the end. | Helping and competing. | Tense ending. | Selfish moves can sink the group. | Hard to balance.
+cooperative-survival+team-vs-team | Two teams each try to survive, and the team that lasts longer wins. | Team struggle. | Clear contest. | One player can take over. | Can be long.
+cooperative-survival+traitor | The team tries to survive while a hidden traitor works for the danger. | Constant suspicion. | Tense and exciting. | Hard to prove anything. | Accusations can upset people.
+shared-objective+solo-in-parallel | Each player works alone on their part of a shared goal. | Clear roles. | Calm. | Little helping. | One slow part can hold everyone back.
+shared-objective+direct-confrontation | Players share a goal but can still fight each other along the way. | Tense. | Surprising moments. | The goals pull against each other. | Can feel confusing.
+shared-objective+indirect-via-board | Players share a goal, but their moves can get in each other's way. | Careful planning. | Clever play. | Hard to see effects. | Frustrating blocks.
+shared-objective+semi-cooperative | Players share a goal, but one player also earns the most along the way. | Helping and competing. | Tense choices. | Selfish play can sink the group. | Hard to balance.
+shared-objective+team-vs-team | Two teams each race to complete their own shared goal. | Team planning. | Clear contest. | One player can take over. | Can be slow.
+shared-objective+traitor | The team works towards a goal while a hidden traitor tries to stop it. | Suspicion everywhere. | Tense. | Hard to prove anything. | Accusations can upset people.
+hidden-personal-goal+solo-in-parallel | Each player works quietly towards their own secret goal. | Mystery. | Calm. | Little contact. | Hard to tell who is ahead.
+hidden-personal-goal+direct-confrontation | Players fight each other while each has a secret goal. | Surprising attacks. | Mystery. | Hard to know who to target. | Can feel mean.
+hidden-personal-goal+indirect-via-board | Players move on a shared board, each secretly needing certain spots. | Clever guessing. | Quiet blocking. | Hard to read. | Frustrating blocks.
+hidden-personal-goal+fully-cooperative | The team shares one goal, but each player also has a secret aim. | Mystery inside teamwork. | Interesting choices. | Secret aims can clash. | Confusing for some.
+hidden-personal-goal+semi-cooperative | Players help a group goal while each secretly pursues their own. | Clever choices. | Mystery. | Hard to trust. | Can feel confusing.
+hidden-personal-goal+team-vs-team | Teams compete, but each player also has a secret goal. | Mystery. | Team play. | Secret goals can hurt the team. | Confusing.
+hidden-personal-goal+traitor | Players chase secret goals while a traitor works against everyone. | Mystery on mystery. | Tense. | Very hard to read. | Confusing for new players.
+narrative-completion+solo-in-parallel | Each player completes their own story. | Calm and creative. | Personal. | Little contact. | Hard to compare.
+narrative-completion+direct-confrontation | Players fight while a story unfolds, and the game ends when the story does. | Dramatic moments. | Story and battle together. | Story can take a back seat. | Can feel mean.
+narrative-completion+indirect-via-board | Players move on a shared board that tells a story as it fills. | The board becomes a tale. | Quiet competition. | Story can feel thin. | Hard to see effects.
+narrative-completion+fully-cooperative | The team tells a story together until it reaches its ending. | Creative teamwork. | Everyone contributes. | Strong voices can take over. | Little tension.
+narrative-completion+semi-cooperative | Players build a shared story but each wants their character to come out on top. | Creative and competitive. | Interesting choices. | Arguments about the story. | Hard to balance.
+narrative-completion+team-vs-team | Each team pushes the story towards its own ending. | Creative contest. | Team talk. | Strong voices can take over. | Story can feel forced.
+narrative-completion+traitor | The team builds a story while a traitor tries to give it a different ending. | Dramatic twists. | Suspicion. | Hard to prove anything. | Can upset people.
+race-to-finish+mostly-chance | Dice or cards decide how far you go in a race to the end. | Anyone can win. | Quick and light. | Few choices. | Luck decides everything.
+race-to-finish+chance-with-mitigation | Luck moves you along, but you have ways to speed up or fix a poor roll. | Luck with control. | Interesting choices. | More rules. | Fixes can run out.
+race-to-finish+skill-with-luck-tempering | Planning how you move matters most in the race, with a little luck. | Skill with surprise. | Clear goal. | Experienced players tend to win. | Slower turns.
+race-to-finish+mostly-skill | The race is won by planning every move carefully. | Clear reasons for winning. | Deep planning. | Slow for some. | Little surprise.
+most-points+mostly-chance | Points come mostly from lucky draws or rolls. | Anyone can win. | Light. | Few real choices. | Luck decides a lot.
+most-points+chance-with-mitigation | Luck brings points, but you can plan to soften it. | Luck with control. | Interesting choices. | More rules. | Planning can feel small.
+most-points+skill-with-luck-tempering | Careful planning earns most points, with a little luck. | Skill shows. | Some surprise. | Experienced players tend to win. | Scoring can take time.
+most-points+mostly-skill | Points come from planning alone. | Clear skill. | Deep play. | Slow for some. | Little surprise.
+last-standing+mostly-chance | Luck decides who gets knocked out. | Anyone can survive. | Tense. | Players out early wait. | Losing feels random.
+last-standing+chance-with-mitigation | Luck can knock you out, but you have ways to protect yourself. | Luck with control. | Tense. | Players out early wait. | More rules.
+last-standing+skill-with-luck-tempering | Careful play keeps you in, with a little luck. | Skill matters. | Some surprise. | Players out early wait. | Experienced players tend to last.
+last-standing+mostly-skill | Staying in depends on planning alone. | Clear skill. | Tense. | Players out early wait. | Can feel harsh.
+cooperative-survival+mostly-chance | Luck decides whether the team survives. | Shared hope. | Easy to play. | Few choices. | Losing feels random.
+cooperative-survival+chance-with-mitigation | Random dangers arrive, but the team can plan to soften them. | Teamwork against luck. | Tense. | Planning can feel small. | More rules.
+cooperative-survival+skill-with-luck-tempering | The team survives by planning well, with some random danger. | Teamwork pays off. | Some surprise. | One player can direct. | Hard for new players.
+cooperative-survival+mostly-skill | The team survives by careful planning alone. | Deep teamwork. | Clear reasons. | Slow. | One player can solve it.
+shared-objective+mostly-chance | Luck decides whether the shared goal is met. | Shared hope. | Easy. | Few choices. | Results feel random.
+shared-objective+chance-with-mitigation | Luck shapes progress, but the team can plan around it. | Teamwork against luck. | Interesting choices. | More rules. | Planning can feel small.
+shared-objective+skill-with-luck-tempering | The team reaches its goal mostly by planning, with a little luck. | Teamwork pays off. | Some surprise. | One player can direct. | Slow.
+shared-objective+mostly-skill | The team reaches its goal by planning alone. | Deep teamwork. | Clear reasons. | Slow. | One player can solve it.
+hidden-personal-goal+mostly-chance | Luck decides whether you reach your secret goal. | Mystery. | Light. | Few choices. | Results feel random.
+hidden-personal-goal+chance-with-mitigation | Luck shapes your progress, but you can plan towards your secret goal. | Mystery with control. | Interesting choices. | More rules. | Hard to read.
+hidden-personal-goal+skill-with-luck-tempering | Careful play gets you to your secret goal, with a little luck. | Clever play. | Mystery. | Experienced players tend to win. | Hard to read.
+hidden-personal-goal+mostly-skill | Reaching your secret goal depends on planning alone. | Deep play. | Mystery. | Slow. | Hard to read.
+narrative-completion+mostly-chance | Random events shape how the story ends. | Surprising stories. | Light. | Few choices. | Endings feel random.
+narrative-completion+chance-with-mitigation | Random events shape the story, but players can steer it. | Surprise with control. | Creative. | More rules. | Steering can feel small.
+narrative-completion+skill-with-luck-tempering | Players steer the story with careful choices and a little luck. | Creative planning. | Some surprise. | Experienced players tend to steer. | Slow.
+narrative-completion+mostly-skill | The story follows players' choices alone. | Creative control. | Clear reasons. | Slow. | Little surprise.

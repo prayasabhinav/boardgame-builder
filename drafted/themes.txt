@@ -1,0 +1,8 @@
+abstract | The abstract theme gives the game no story or setting, just shapes, colours and moves, so the rules are the whole experience.
+historical | The historical theme sets the game in a real time and place from the past, so the moves can stand for real events.
+fantasy | The fantasy theme brings dragons, magic or quests, so the same moves can feel like an adventure.
+science-fiction | The science-fiction theme sets the game in space or the future, so the same moves can feel like exploring or inventing.
+everyday-life | The everyday-life theme uses places players already know, like a market or a school, so the rules are easier to picture.
+absurd | The absurd theme makes the setting silly on purpose, so players can laugh at their own moves.
+educational | The educational theme ties the game to something to learn, so playing also teaches a fact or a skill.
+real-world-issue | The real-world-issue theme connects the game to a problem people face today, so the moves can start a conversation.

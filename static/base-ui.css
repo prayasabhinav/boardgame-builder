@@ -1,0 +1,1037 @@
+/* ═══════════════════════════════════════════════════════════════
+   Base UI styles
+   Shared base styles for the page.
+
+   Usage:
+     <body class="k" data-theme="coherence">
+
+   Fonts (load before this stylesheet):
+     Fraunces, Source Serif 4, IBM Plex Sans, IBM Plex Mono
+
+   Reference: ui-system/reference.html
+   ═══════════════════════════════════════════════════════════════ */
+
+
+/* ── Reset ──────────────────────────────────────────────────────── */
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar { display: none; }
+
+
+/* ── Base tokens ────────────────────────────────────────────────── */
+
+.k {
+  /* Accent — default terracotta 
+     NOTE: Accent colours fail WCAG AA on both --bg and --surface at mid-tone.
+     This is a known design constraint. Accent is used for interactive affordance
+     (buttons, borders, fills) not as text on a contrasting background.
+     Exception: accent as text on --surface passes AA for large text (3:1 threshold). */
+  --accent: #C75B39;
+  --accent-hover: #B04D2E;
+  --accent-bg: rgba(199, 91, 57, 0.12);
+
+  /* Dark surfaces */
+  --bg: #2D3436;
+  --border-dark: #4A4543;
+
+  /* Light surfaces */
+  --surface: #F7F3ED;
+  --surface-border: #e5e2df;
+  --surface-inner: #EFEBE4;
+
+  /* Ink — text on light backgrounds */
+  --ink: #2D3436;
+  --ink2: #4A4A48;
+  --ink3: #6b6560;
+
+  /* Light — text on dark backgrounds
+     NOTE: --light3 (#6b6560) and --light2 (#9A8F85) are intentional design values
+     confirmed in the Week 6 task spec. They do not meet WCAG AA (4.5:1) on --bg.
+     This is a known exception: these tokens are used for decorative/secondary text
+     (wordmark, footer tagline, muted labels) where the design prioritises warmth
+     over strict contrast. Primary content always uses --light (#F7F3ED) at 11.47:1. */
+  --light: #F7F3ED;
+  --light2: #9A8F85;
+  --light3: #6b6560;
+
+  /* Score system */
+  --score-track: #D5D5D5;
+  --score-fill: #B2A898;
+
+  /* Three-state system */
+  --state-solid: #3D7A4A;
+  --state-examine: #A0823B;
+
+  /* Typography stacks */
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Source Serif 4', serif;
+  --font-label: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--light);
+  background: var(--bg);
+}
+
+.k a { color: var(--accent); text-decoration: none; }
+.k a:hover { text-decoration: underline; }
+.k input, .k textarea { font: inherit; color: inherit; }
+.k button { font: inherit; }
+
+
+/* ── Typography ─────────────────────────────────────────────────── */
+
+.k-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.k-sub {
+  font-family: var(--font-body);
+  font-size: 22px;
+  line-height: 1.6;
+  color: var(--light2);
+}
+
+/* k-sub on light surface (inside cards, gate) */
+.k-card .k-sub,
+.k-gate-card .k-sub { color: var(--ink3); }
+
+.k-tagline {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.k-lbl {
+  font-family: var(--font-label);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Label colour adapts to surface */
+.k-lbl { color: var(--light2); }
+.k-card .k-lbl { color: var(--ink3); }
+
+
+/* ── Page-level rhythm ───────────────────────────────────────────── */
+
+/* Vertical spacing between block-level siblings at page level */
+.k-container > * + *,
+.k > .k-card + .k-card,
+.k > .k-card + .k-error,
+.k > .k-card + .k-notice,
+.k > .k-error + .k-notice,
+.k > .k-notice + .k-card,
+.k > .k-container > * + * {
+  margin-top: 24px;
+}
+
+/* Button gap inside cards */
+.k-card > .k-btn-primary,
+.k-card > .k-btn-outline,
+.k-card > .k-btn-ghost {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+
+/* ── Container ──────────────────────────────────────────────────── */
+
+.k-container { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
+
+
+/* ── Header ─────────────────────────────────────────────────────── */
+
+.k-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 16px 24px;
+  background: color-mix(in srgb, var(--bg) 97%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.k-header-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Tool identity: logo + name as one unit (left) */
+.k-tool-identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.k-tool-identity:hover { text-decoration: none; }
+
+.k-tool-logo {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+.k-tool-name {
+  font-family: var(--font-label);
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--light);
+  letter-spacing: -0.01em;
+}
+
+/* Right section */
+.k-header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.k-header-user {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--light2);
+}
+
+.k-header-link, a.k-header-link {
+  font-family: var(--font-label);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--light3);
+  transition: color 0.2s;
+}
+.k-header-link:hover, a.k-header-link:hover { color: var(--light2); text-decoration: none; }
+
+/* wordmark in header */
+.k-wordmark {
+  font-family: var(--font-label);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--light3);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.k-wordmark:hover { color: var(--light2); text-decoration: none; }
+
+
+/* ── Gate (registration) ────────────────────────────────────────── */
+
+.k-gate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 40px 24px;
+  width: 100%;
+}
+
+.k-gate-card {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 8px;
+  padding: 48px 48px;
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+  color: var(--ink);
+}
+
+.k-gate-card .k-title { margin-bottom: 8px; font-size: 28px; }
+.k-gate-card .k-sub { margin-bottom: 28px; font-size: 16px; color: var(--ink3); }
+
+
+/* ── Forms ───────────────────────────────────────────────────────── */
+
+.k-form-group {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.k-form-label {
+  font-family: var(--font-label);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.k-form-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: var(--font-label);
+  font-size: 14px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+}
+.k-form-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+
+/* ── Buttons ─────────────────────────────────────────────────────── */
+
+.k-btn-primary {
+  font-family: var(--font-label);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 13px 31px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-block;
+  text-align: center;
+  background: var(--accent);
+  color: #fff;
+}
+.k-btn-primary:hover { background: var(--accent-hover); text-decoration: none; }
+.k-btn-primary:disabled {
+  background: #636060;   /* clearly muted, visible on --bg at 2.04:1 */
+  color: var(--light);   /* #F7F3ED at 5.63:1 on this bg — readable */
+  cursor: not-allowed;
+  opacity: 0.55;         /* additional visual muting without losing shape */
+}
+
+/* Outline — default dark bg context */
+.k-btn-outline {
+  font-family: var(--font-label);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 24px;
+  border: 1px solid var(--border-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: transparent;
+  color: var(--light2);
+}
+.k-btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Outline — light surface context (inside cards, gate) */
+.k-card .k-btn-outline,
+.k-gate-card .k-btn-outline {
+  border-color: var(--surface-border);
+  color: var(--ink3);
+}
+.k-card .k-btn-outline:hover,
+.k-gate-card .k-btn-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Ghost — dark bg context (default)
+   NOTE: --light2 (#9A8F85) does not meet WCAG AA on --bg.
+   Same intentional exception as --light3. Ghost is a low-priority
+   action (Cancel, Skip) — not primary content. */
+.k-btn-ghost {
+  font-family: var(--font-label);
+  font-size: 13px;
+  background: none;
+  border: none;
+  color: var(--light2);
+  cursor: pointer;
+  padding: 4px 10px;
+}
+.k-btn-ghost:hover { color: var(--light); }
+
+/* Ghost — light surface context (inside cards, gate) */
+.k-card .k-btn-ghost,
+.k-gate-card .k-btn-ghost {
+  color: var(--ink3);
+}
+.k-card .k-btn-ghost:hover,
+.k-gate-card .k-btn-ghost:hover {
+  color: var(--ink);
+}
+
+
+/* ── Card ────────────────────────────────────────────────────────── */
+
+.k-card {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 8px;
+  padding: 32px;
+  color: var(--ink);
+}
+
+
+/* ── Echo (user input display) ───────────────────────────────────── */
+
+.k-echo {
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+  padding: 16px 20px;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink2);
+  margin-bottom: 20px;
+}
+
+
+/* ── Verdict ─────────────────────────────────────────────────────── */
+
+.k-verdict { margin-bottom: 20px; margin-top: 4px; }
+
+.k-verdict-heading {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+
+/* ── Scores ──────────────────────────────────────────────────────── */
+
+.k-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.k-score {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.k-score-dim {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink3);
+  width: 120px;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.k-score-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--score-track);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.k-score-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: var(--score-fill);
+  transition: width 0.4s ease;
+}
+
+.k-score-fill-accent {
+  background: var(--accent);
+}
+
+.k-score-val {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink2);
+  width: 40px;
+  flex-shrink: 0;
+}
+
+
+/* ── Narrative ───────────────────────────────────────────────────── */
+
+.k-narrative {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+}
+
+.k-narrative-bar {
+  width: 4px;
+  flex-shrink: 0;
+  background: var(--accent);
+  border-radius: 2px;
+  margin-right: 20px;
+}
+
+.k-narrative-body {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--ink);
+  flex: 1;
+  min-width: 0;
+}
+
+.k-narrative-body p { margin-bottom: 12px; }
+.k-narrative-body p:last-child { margin-bottom: 0; }
+.k-narrative-body p:first-child { font-weight: 600; }
+
+
+/* ── Chips ────────────────────────────────────────────────────────── */
+
+.k-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.k-chip {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 3px 10px;
+  background: white;
+  border: 1px solid var(--surface-border);
+  border-radius: 3.5px;
+  color: var(--ink2);
+}
+
+.k-chip-accent {
+  background: var(--accent-bg);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+
+/* ── Behind the Curtain ──────────────────────────────────────────── */
+
+.k-curtain-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 24px;
+  margin-top: 28px;
+  border-top: 1px solid var(--surface-border);
+  cursor: pointer;
+  user-select: none;
+}
+
+.k-curtain-text {
+  font-family: var(--font-label);
+  font-size: 13px;
+  color: var(--ink3);
+}
+
+/* Toggle pill — 31×17px, rx 8.5 per wireframe */
+.k-pill {
+  width: 31px;
+  height: 17px;
+  border-radius: 8.5px;
+  border: 1px solid var(--surface-border);
+  background: var(--surface-inner);
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.k-pill-dot {
+  position: absolute;
+  top: 2.5px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--surface-border);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.k-curtain-row[aria-expanded="true"] .k-pill {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.k-curtain-row[aria-expanded="true"] .k-pill-dot {
+  transform: translateX(13px);
+  background: #fff;
+}
+
+
+/* ── Pipeline (Q/R/L layers) ─────────────────────────────────────── */
+
+.k-pipeline {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.k-pipeline.open {
+  max-height: 2000px;
+  opacity: 1;
+}
+
+.k-pipeline-head {
+  font-family: var(--font-label);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin: 20px 0 16px;
+}
+
+.k-layer {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  position: relative;
+}
+
+.k-layer + .k-layer { border-top: 1px solid var(--surface-border); }
+
+/* Rounded rectangle Q/R/L marker — 25×28px, rx 3.5 per wireframe spec */
+.k-layer-mark {
+  width: 25px;
+  height: 28px;
+  border-radius: 3.5px;
+  border: 1.5px solid var(--ink3);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-label);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--ink3);
+}
+
+/* Vertical connector line between markers */
+.k-layer:not(:last-child) .k-layer-mark::after {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 44px;
+  width: 1.5px;
+  height: calc(100% - 44px);
+  background: var(--surface-border);
+}
+
+.k-layer-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.k-layer-name {
+  font-family: var(--font-label);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 3px;
+}
+
+.k-layer-desc {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink3);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+
+/* ── Loading ─────────────────────────────────────────────────────── */
+/*
+   Required markup for accessibility:
+   <div class="k-loading" role="status" aria-live="polite" aria-label="Loading">
+     <div class="k-loading-label">Analysing</div>
+     <div class="k-loading-bar" aria-hidden="true"></div>
+   </div>
+
+   - role="status" + aria-live="polite" announces the label to screen readers
+   - aria-hidden on the bar removes the decorative animation from the a11y tree
+   - k-loading-label must contain meaningful text (not empty)
+   - animation alone is not sufficient — label is required
+*/
+
+.k-loading {
+  text-align: center;
+}
+
+.k-loading-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light3);
+  margin-bottom: 12px;
+}
+
+.k-loading-bar {
+  width: 200px;
+  height: 2px;
+  background: var(--border-dark);
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.k-loading-bar::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 28%;
+  background: var(--accent);
+  animation: k-sweep 1.6s ease-in-out infinite;
+}
+
+@keyframes k-sweep {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(460%); }
+}
+
+/* Skeleton placeholders */
+.k-skel {
+  background: linear-gradient(90deg, var(--surface-inner) 25%, var(--surface) 50%, var(--surface-inner) 75%);
+  background-size: 200% 100%;
+  animation: k-shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes k-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+
+/* ── Error ────────────────────────────────────────────────────────── */
+
+.k-error {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-bg);
+  padding: 14px 18px;
+  text-align: left;
+  font-family: var(--font-label);
+  font-size: 13px;
+  color: var(--ink2);
+  line-height: 1.5;
+  border-radius: 0 4px 4px 0;
+}
+.k-error strong { color: var(--accent); font-weight: 500; }
+
+/* Notice (informational, accent-coloured) */
+.k-notice {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-bg);
+  padding: 14px 18px;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--ink2);
+  line-height: 1.6;
+  border-radius: 0 4px 4px 0;
+}
+.k-notice strong { color: var(--accent); font-weight: 600; }
+
+/* Error/notice on dark background (outside a card) */
+.k > .k-error, .k > .k-notice,
+.k > .k-container > .k-error,
+.k > .k-container > .k-notice {
+  color: var(--light);
+  background: rgba(255,255,255,0.06);
+}
+
+
+/* ── Three-state symbols ─────────────────────────────────────────── */
+
+.k-state-solid {
+  color: var(--state-solid);
+}
+.k-state-solid::before { content: '●'; }
+
+.k-state-examine {
+  color: var(--state-examine);
+}
+.k-state-examine::before { content: '◐'; }
+
+.k-state-attention {
+  color: var(--accent);
+}
+.k-state-attention::before { content: '○'; }
+
+
+/* ── Footer ──────────────────────────────────────────────────────── */
+
+.k-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--border-dark);
+  text-align: center;
+}
+
+.k-footer-mark {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.k-footer-mark:hover { text-decoration: none; }
+
+.k-footer-tagline {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 12px;
+  color: var(--light3);
+  margin-bottom: 4px;
+}
+
+.k-footer-link {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--light2);
+}
+.k-footer-link:hover { color: var(--light); text-decoration: none; }
+
+
+/* ── Themes ──────────────────────────────────────────────────────── */
+
+/* Coherence — Teal */
+[data-theme="coherence"] {
+  --accent: #3B82A0;
+  --accent-hover: #2E6A84;
+  --accent-bg: rgba(59, 130, 160, 0.12);
+}
+
+/* Play Shape — Forest green */
+[data-theme="playshape"] {
+  --accent: #4A8C5C;
+  --accent-hover: #3A7249;
+  --accent-bg: rgba(74, 140, 92, 0.12);
+}
+
+/* Fragment Mapper — Deep warm gold */
+[data-theme="fragment"] {
+  --accent: #8C6E3C;
+  --accent-hover: #7A5C2E;
+  --accent-bg: rgba(140, 110, 60, 0.12);
+}
+
+
+
+/* ── Dark surface mode ───────────────────────────────────────────── */
+/*
+   Dark mode flips card surfaces from warm cream to dark slate.
+   The page background (--bg) stays the same — dark mode affects
+   components only (cards, gate, inputs, chips, scores).
+
+   WHAT CHANGES in .k-dark:
+     --surface        #F7F3ED → #252B2D  card/gate background
+     --surface-border #e5e2df → #3a4042  card borders, dividers
+     --surface-inner  #EFEBE4 → #1e2426  echo box, nested surfaces
+     --ink            #2D3436 → #F7F3ED  primary text on cards
+     --ink2           #4A4A48 → #A8A49F  secondary text on cards
+     --ink3           #6b6560 → #7A7672  muted/label text on cards
+     --accent-bg      12% tint → 15% tint  slightly more visible on dark
+     --score-track    #D5D5D5 → #3a4042  score bar background
+     --score-fill     #B2A898 → #5a5652  score bar default fill
+
+   WHAT DOES NOT CHANGE in .k-dark:
+     --bg, --border-dark       page background and header border
+     --light, --light2, --light3  already dark-bg text tokens
+     --accent, --accent-hover  theme accent colour
+     All theme overrides still apply normally
+
+   CONTRAST in dark mode:
+     --ink  on --surface:  12.99:1  WCAG AA pass
+     --ink2 on --surface:   5.80:1  WCAG AA pass
+     --ink3 on --surface:   3.19:1  below AA — decorative use only
+                                     (labels, pipeline heads, muted text)
+
+   USAGE — body level (all components dark):
+     <body class="k k-dark" data-theme="coherence">
+
+   USAGE — component level (one card dark, rest light):
+     <div class="k-card k-dark"> ... </div>
+
+   TOGGLING — add/remove k-dark class with JS:
+     document.body.classList.toggle('k-dark')
+*/
+.k-dark {
+  --surface:        #252B2D;
+  --surface-border: #3a4042;
+  --surface-inner:  #1e2426;
+  --ink:            #F7F3ED;
+  --ink2:           #A8A49F;
+  --ink3:           #7A7672;
+  --accent-bg:      rgba(199, 91, 57, 0.15);
+  --score-track:    #3a4042;
+  --score-fill:     #5a5652;
+}
+
+/* Re-scope accent-bg per theme in dark mode */
+.k-dark[data-theme="coherence"],
+[data-theme="coherence"] .k-dark {
+  --accent-bg: rgba(59, 130, 160, 0.15);
+}
+.k-dark[data-theme="playshape"],
+[data-theme="playshape"] .k-dark {
+  --accent-bg: rgba(74, 140, 92, 0.15);
+}
+.k-dark[data-theme="fragment"],
+[data-theme="fragment"] .k-dark {
+  --accent-bg: rgba(140, 110, 60, 0.15);
+}
+
+/* Chips on dark surface — no white bg */
+.k-dark .k-chip {
+  background: var(--surface-inner);
+  border-color: var(--surface-border);
+  color: var(--ink2);
+}
+
+/* Score track on dark surface */
+.k-dark .k-score-bar {
+  background: var(--score-track);
+}
+
+/* Form inputs on dark surface */
+.k-dark .k-form-input {
+  background: var(--surface-inner);
+  border-color: var(--surface-border);
+  color: var(--ink);
+}
+.k-dark .k-form-input::placeholder {
+  color: var(--ink3);
+}
+.k-dark .k-form-input:focus {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
+
+/* ── Missing component states ────────────────────────────────────── */
+
+/* Narrative — streaming (text arriving, cursor pulse) */
+.k-narrative-streaming .k-narrative-body::after {
+  content: '▋';
+  display: inline-block;
+  color: var(--accent);
+  animation: k-cursor 0.9s step-end infinite;
+  margin-left: 2px;
+}
+
+@keyframes k-cursor {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* Narrative — empty (no result yet, placeholder bar) */
+.k-narrative-empty .k-narrative-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.k-narrative-empty .k-narrative-body::before,
+.k-narrative-empty .k-narrative-body::after {
+  content: '';
+  display: block;
+  height: 14px;
+  border-radius: 3px;
+  background: var(--surface-inner);
+}
+
+.k-narrative-empty .k-narrative-body::before { width: 80%; }
+.k-narrative-empty .k-narrative-body::after  { width: 55%; }
+
+/* Form input — error state */
+.k-form-input-error {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+.k-form-input-error:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.k-form-error-msg {
+  font-family: var(--font-label);
+  font-size: 11px;
+  color: var(--accent);
+  margin-top: 5px;
+  display: block;
+}
+
+/* Form input — disabled state */
+.k-form-input:disabled,
+.k-form-input[disabled] {
+  background: var(--surface-inner);
+  color: var(--ink3);
+  border-color: var(--surface-border);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Button — loading state
+   Required markup:
+     <button class="k-btn-primary k-btn-loading" aria-busy="true" aria-label="Loading">
+       Submit
+     </button>
+   - aria-busy="true" tells screen readers the button is processing
+   - aria-label overrides the now-hidden button text for screen readers
+   - color:transparent hides the text visually but keeps it in the DOM
+   - The spinner (::after) is purely decorative — aria alone communicates state
+*/
+.k-btn-primary.k-btn-loading {
+  position: relative;
+  color: transparent;
+  pointer-events: none;
+  cursor: default;
+}
+
+.k-btn-primary.k-btn-loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border: 2px solid rgba(255,255,255,0.35);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: k-spin 0.7s linear infinite;
+}
+
+@keyframes k-spin {
+  to { transform: rotate(360deg); }
+}
+
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+
+@media (max-width: 640px) {
+  .k-container { padding: 20px 16px 48px; }
+  .k-gate-card { padding: 32px 20px; max-width: 100%; }
+  .k-card { padding: 20px; }
+  .k-title { font-size: 26px; }
+  .k-sub { font-size: 18px; }
+  .k-narrative-body { font-size: 16px; }
+  .k-score-dim { width: 80px; font-size: 10px; }
+  .k-loading-bar { width: 100%; max-width: 200px; }
+  .k-header { padding: 12px 16px; }
+  .k-header-user { display: none; }
+}

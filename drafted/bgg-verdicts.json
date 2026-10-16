@@ -1,0 +1,1892 @@
+[
+ {
+  "kind": "pair",
+  "elements": [
+   "push-your-luck",
+   "direct-confrontation"
+  ],
+  "game": "Can't Stop",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "direct-confrontation": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/41"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "push-your-luck",
+   "direct-confrontation"
+  ],
+  "game": "King of Tokyo",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "direct-confrontation": "confirmed (Fighting, King of the Hill, Player Elimination, Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/70323"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "push-your-luck",
+   "fully-cooperative"
+  ],
+  "game": "Nemo's War",
+  "status": "exa-bgg-checked-20261016",
+  "result": "confirmed",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/187617"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "direct-confrontation"
+  ],
+  "game": "Lords of Waterdeep",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "direct-confrontation": "confirmed (Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/110327"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "direct-confrontation"
+  ],
+  "game": "Caverna: Cave vs Cave",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "direct-confrontation": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/220520"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "solo-in-parallel"
+  ],
+  "game": "Dune: Imperium",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "solo-in-parallel": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/316554"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "solo-in-parallel"
+  ],
+  "game": "Architects of the West Kingdom",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "solo-in-parallel": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/236457"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "drafting",
+   "direct-confrontation"
+  ],
+  "game": "7 Wonders Duel",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drafting": "confirmed (Open Drafting)",
+   "direct-confrontation": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/173346"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "drafting",
+   "direct-confrontation"
+  ],
+  "game": "Innovation",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "drafting": "absent",
+   "direct-confrontation": "confirmed (Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/63888"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "area-control",
+   "direct-confrontation"
+  ],
+  "game": "Risk",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "area-control": "confirmed (Area Majority / Influence)",
+   "direct-confrontation": "confirmed (Area Majority / Influence, Player Elimination, Wargame)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/181"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "area-control",
+   "direct-confrontation"
+  ],
+  "game": "Blood Rage",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "area-control": "confirmed (Area Majority / Influence)",
+   "direct-confrontation": "confirmed (Area Majority / Influence, Fighting, Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/170216"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "area-control",
+   "indirect-via-board"
+  ],
+  "game": "El Grande",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "area-control": "confirmed (Area Majority / Influence)",
+   "indirect-via-board": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/93"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "area-control",
+   "indirect-via-board"
+  ],
+  "game": "Small World",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "area-control": "confirmed (Area Majority / Influence)",
+   "indirect-via-board": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/40692"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "trick-taking",
+   "fully-cooperative"
+  ],
+  "game": "The Crew: The Quest for Planet Nine",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "trick-taking": "confirmed (Trick-taking)",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/284083"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "trick-taking",
+   "fully-cooperative"
+  ],
+  "game": "Sky Team",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "trick-taking": "absent",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/373106"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "trick-taking",
+   "team-vs-team"
+  ],
+  "game": "Bridge",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "trick-taking": "confirmed (Trick-taking)",
+   "team-vs-team": "confirmed (Team-Based Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/2181"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "trick-taking",
+   "team-vs-team"
+  ],
+  "game": "Euchre",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "trick-taking": "confirmed (Trick-taking)",
+   "team-vs-team": "confirmed (Team-Based Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/6901"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "roll-and-move",
+   "race-to-finish"
+  ],
+  "game": "Sorry!",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "roll-and-move": "confirmed (Roll / Spin and Move)",
+   "race-to-finish": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/2407"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "roll-and-move",
+   "race-to-finish"
+  ],
+  "game": "Ludo",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "roll-and-move": "confirmed (Roll / Spin and Move)",
+   "race-to-finish": "confirmed (Race)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/2136"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "drafting",
+   "most-points"
+  ],
+  "game": "7 Wonders",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drafting": "confirmed (Closed Drafting)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/68448"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "drafting",
+   "most-points"
+  ],
+  "game": "Sushi Go!",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drafting": "confirmed (Closed Drafting)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/133473"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "most-points"
+  ],
+  "game": "Agricola",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/31260"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "most-points"
+  ],
+  "game": "Lords of Waterdeep",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/110327"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "set-collection",
+   "most-points"
+  ],
+  "game": "Ticket to Ride",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "set-collection": "confirmed (Set Collection)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/9209"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "set-collection",
+   "most-points"
+  ],
+  "game": "Coloretto",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "set-collection": "confirmed (Set Collection)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/5782"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "tile-placement",
+   "most-points"
+  ],
+  "game": "Carcassonne",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "tile-placement": "confirmed (Tile Placement)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/822"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "tile-placement",
+   "most-points"
+  ],
+  "game": "Azul",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "tile-placement": "confirmed (Tile Placement)",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/230802"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "area-control",
+   "last-standing"
+  ],
+  "game": "Risk",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "area-control": "confirmed (Area Majority / Influence)",
+   "last-standing": "confirmed (Player Elimination)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/181"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "area-control",
+   "last-standing"
+  ],
+  "game": "Blood Rage",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "area-control": "confirmed (Area Majority / Influence)",
+   "last-standing": "absent"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/170216"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "push-your-luck",
+   "mostly-chance"
+  ],
+  "game": "Can't Stop",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "mostly-chance": "confirmed (Dice Rolling, Push Your Luck)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/41"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "push-your-luck",
+   "mostly-chance"
+  ],
+  "game": "Incan Gold",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "mostly-chance": "confirmed (Push Your Luck)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/15512"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "mostly-skill"
+  ],
+  "game": "Stone Age",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "mostly-skill": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/34635"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "mostly-skill"
+  ],
+  "game": "Caverna",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "mostly-skill": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/102794"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "drafting",
+   "skill-with-luck-tempering"
+  ],
+  "game": "Point Salad",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drafting": "confirmed (Open Drafting)",
+   "skill-with-luck-tempering": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/274960"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "drafting",
+   "skill-with-luck-tempering"
+  ],
+  "game": "7 Wonders Duel",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drafting": "confirmed (Open Drafting)",
+   "skill-with-luck-tempering": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/173346"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hand-management",
+   "chance-with-mitigation"
+  ],
+  "game": "Dominion",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "chance-with-mitigation": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/36218"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hand-management",
+   "chance-with-mitigation"
+  ],
+  "game": "Race for the Galaxy",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "chance-with-mitigation": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/28143"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "hidden-hands"
+  ],
+  "game": "Hanabi",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/98778"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "hidden-hands"
+  ],
+  "game": "The Crew",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/284083"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "full-information"
+  ],
+  "game": "Pandemic",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/30549"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "full-information"
+  ],
+  "game": "Forbidden Island",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/65244"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "traitor",
+   "hidden-identity"
+  ],
+  "game": "Dead of Winter",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "traitor": "confirmed (Traitor Game)",
+   "hidden-identity": "confirmed (Traitor Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/150376"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "traitor",
+   "hidden-identity"
+  ],
+  "game": "Battlestar Galactica",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "traitor": "confirmed (Traitor Game)",
+   "hidden-identity": "confirmed (Hidden Roles, Traitor Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/37111"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "direct-confrontation",
+   "bluffing"
+  ],
+  "game": "Skull",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "direct-confrontation": "confirmed (Player Elimination)",
+   "bluffing": "confirmed (Bluffing)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/92415"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "direct-confrontation",
+   "bluffing"
+  ],
+  "game": "Coup",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "direct-confrontation": "confirmed (Player Elimination, Take That)",
+   "bluffing": "confirmed (Bluffing)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/131357"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "direct-confrontation",
+   "hidden-hands"
+  ],
+  "game": "Munchkin",
+  "status": "exa-bgg-checked-20261016",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "direct-confrontation": "confirmed (Fighting, Take That)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/1927"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "team-vs-team",
+   "hidden-identity"
+  ],
+  "game": "Secret Hitler",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "team-vs-team": "confirmed (Team-Based Game)",
+   "hidden-identity": "confirmed (Hidden Roles, Traitor Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/188834"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "team-vs-team",
+   "hidden-identity"
+  ],
+  "game": "Blood on the Clocktower",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "team-vs-team": "confirmed (Team-Based Game)",
+   "hidden-identity": "confirmed (Hidden Roles, Traitor Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/240980"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "cooperative-survival"
+  ],
+  "game": "Spirit Island",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "cooperative-survival": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/162886"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "cooperative-survival"
+  ],
+  "game": "Gloomhaven",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "cooperative-survival": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/174430"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "shared-objective"
+  ],
+  "game": "Pandemic",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "shared-objective": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/30549"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "fully-cooperative",
+   "shared-objective"
+  ],
+  "game": "Forbidden Desert",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "shared-objective": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/136063"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "direct-confrontation",
+   "last-standing"
+  ],
+  "game": "King of Tokyo",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "direct-confrontation": "confirmed (Fighting, King of the Hill, Player Elimination, Take That)",
+   "last-standing": "confirmed (Player Elimination)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/70323"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "direct-confrontation",
+   "last-standing"
+  ],
+  "game": "Bang! The Dice Game",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "direct-confrontation": "confirmed (Fighting, Player Elimination)",
+   "last-standing": "confirmed (Player Elimination)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/143741"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "traitor",
+   "semi-cooperative"
+  ],
+  "game": "Dead of Winter",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "traitor": "confirmed (Traitor Game)",
+   "semi-cooperative": "confirmed (Semi-Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/150376"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "traitor",
+   "semi-cooperative"
+  ],
+  "game": "Shadows Over Camelot",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "traitor": "confirmed (Traitor Game)",
+   "semi-cooperative": "confirmed (Semi-Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/15062"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hand-management",
+   "hidden-hands"
+  ],
+  "game": "Race for the Galaxy",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/28143"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hand-management",
+   "hidden-hands"
+  ],
+  "game": "Magic: The Gathering",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/463"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "bidding",
+   "hidden-hands"
+  ],
+  "game": "For Sale",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "bidding": "confirmed (Auction / Bidding, Auction: Sealed Bid, Auction: Turn Order Until Pass, Selection Order Bid)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/172"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "bidding",
+   "hidden-hands"
+  ],
+  "game": "High Society",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "bidding": "confirmed (Auction / Bidding, Auction: Turn Order Until Pass, Constrained Bidding)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/220"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "bidding",
+   "full-information"
+  ],
+  "game": "Ra",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "bidding": "confirmed (Auction / Bidding, Auction: Once Around, Closed Economy Auction, Constrained Bidding)",
+   "full-information": "contradicted (Hidden Victory Points)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/12"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "bidding",
+   "full-information"
+  ],
+  "game": "Modern Art",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "bidding": "confirmed (Auction / Bidding, Auction: English, Auction: Once Around, Auction: Sealed Bid, Auction: Turn Order Until Pass)",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/118"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "deduction",
+   "trick-taking"
+  ],
+  "game": "The Crew: Mission Deep Sea",
+  "status": "exa-bgg-checked-20261016",
+  "result": "confirmed",
+  "verdicts": {
+   "deduction": "confirmed (Deduction)",
+   "trick-taking": "confirmed (Trick-taking)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/324856"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "deduction",
+   "trick-taking"
+  ],
+  "game": "Inside Job",
+  "status": "exa-bgg-checked-20261016",
+  "result": "confirmed",
+  "verdicts": {
+   "deduction": "confirmed (Deduction)",
+   "trick-taking": "confirmed (Trick-taking)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/324914"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "bluffing",
+   "push-your-luck"
+  ],
+  "game": "Skull",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "bluffing": "confirmed (Bluffing)",
+   "push-your-luck": "absent"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/92415"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "bluffing",
+   "push-your-luck"
+  ],
+  "game": "Diamant",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "bluffing": "confirmed (Bluffing)",
+   "push-your-luck": "confirmed (Push Your Luck)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/15512"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "bluffing",
+   "bidding"
+  ],
+  "game": "Ra",
+  "status": "exa-bgg-checked-20261016",
+  "result": "false",
+  "verdicts": {
+   "bluffing": "absent",
+   "bidding": "confirmed (Auction / Bidding, Auction: Once Around, Closed Economy Auction, Constrained Bidding)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/12"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "set-collection",
+   "hidden-hands"
+  ],
+  "game": "Bohnanza",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "set-collection": "confirmed (Set Collection)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/11"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "set-collection",
+   "hidden-hands"
+  ],
+  "game": "No Thanks!",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "set-collection": "confirmed (Set Collection)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/12942"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "tile-placement",
+   "full-information"
+  ],
+  "game": "Carcassonne",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "tile-placement": "confirmed (Tile Placement)",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/822"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "tile-placement",
+   "full-information"
+  ],
+  "game": "Azul",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "tile-placement": "confirmed (Tile Placement)",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/230802"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hidden-personal-goal",
+   "hidden-hands"
+  ],
+  "game": "Takenoko",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hidden-personal-goal": "not checkable",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/70919"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hidden-personal-goal",
+   "hidden-hands"
+  ],
+  "game": "Hidden Leaders",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hidden-personal-goal": "not checkable",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/320718"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hidden-personal-goal",
+   "full-information"
+  ],
+  "game": "Ticket to Ride",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hidden-personal-goal": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/9209"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hidden-personal-goal",
+   "full-information"
+  ],
+  "game": "Suburbia",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hidden-personal-goal": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/123260"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "cooperative-survival",
+   "hidden-hands"
+  ],
+  "game": "Pandemic",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "cooperative-survival": "confirmed (Cooperative Game)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/30549"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "cooperative-survival",
+   "hidden-hands"
+  ],
+  "game": "Ghost Stories",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "cooperative-survival": "confirmed (Cooperative Game)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/37046"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "most-points",
+   "full-information"
+  ],
+  "game": "Agricola",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "most-points": "not checkable",
+   "full-information": "contradicted (Closed Drafting)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/31260"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "most-points",
+   "full-information"
+  ],
+  "game": "Catan",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "most-points": "not checkable",
+   "full-information": "contradicted (Hidden Victory Points)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/13"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "mostly-skill",
+   "full-information"
+  ],
+  "game": "Chess",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/171"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "mostly-skill",
+   "full-information"
+  ],
+  "game": "Go",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/188"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "negotiation",
+   "fully-cooperative"
+  ],
+  "game": "Pandemic",
+  "status": "exa-bgg-checked-20261016",
+  "result": "confirmed",
+  "verdicts": {
+   "negotiation": "confirmed (Trading)",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/30549"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "negotiation",
+   "direct-confrontation"
+  ],
+  "game": "Catan",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "negotiation": "confirmed (Negotiation, Trading)",
+   "direct-confrontation": "confirmed (Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/13"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "negotiation",
+   "direct-confrontation"
+  ],
+  "game": "Blood Rage",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "negotiation": "absent",
+   "direct-confrontation": "confirmed (Area Majority / Influence, Fighting, Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/170216"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "push-your-luck",
+   "race-to-finish"
+  ],
+  "game": "Can't Stop",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "race-to-finish": "confirmed (Race)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/41"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "push-your-luck",
+   "race-to-finish"
+  ],
+  "game": "Quacks of Quedlinburg",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "race-to-finish": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/244521"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "fully-cooperative"
+  ],
+  "game": "Viticulture World",
+  "status": "exa-bgg-checked-20261016",
+  "result": "confirmed",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement, Worker Placement, Different Worker Types)",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/360226"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "worker-placement",
+   "fully-cooperative"
+  ],
+  "game": "Pandemic",
+  "status": "exa-bgg-checked-20261016",
+  "result": "false",
+  "verdicts": {
+   "worker-placement": "absent",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/30549"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hand-management",
+   "fully-cooperative"
+  ],
+  "game": "Pandemic",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/30549"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "hand-management",
+   "fully-cooperative"
+  ],
+  "game": "Arkham Horror: The Card Game",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "fully-cooperative": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/205637"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "trick-taking",
+   "mostly-skill"
+  ],
+  "game": "Skat",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "trick-taking": "confirmed (Trick-taking)",
+   "mostly-skill": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/6819"
+ },
+ {
+  "kind": "pair",
+  "elements": [
+   "trick-taking",
+   "mostly-skill"
+  ],
+  "game": "The Crew: Mission Deep Sea",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "trick-taking": "confirmed (Trick-taking)",
+   "mostly-skill": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/324856"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "push-your-luck",
+   "race-to-finish",
+   "direct-confrontation"
+  ],
+  "game": "Incan Gold",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "race-to-finish": "not checkable",
+   "direct-confrontation": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/15512"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "push-your-luck",
+   "race-to-finish",
+   "direct-confrontation"
+  ],
+  "game": "King of Tokyo",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "push-your-luck": "confirmed (Push Your Luck)",
+   "race-to-finish": "not checkable",
+   "direct-confrontation": "confirmed (Fighting, King of the Hill, Player Elimination, Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/70323"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "worker-placement",
+   "most-points",
+   "full-information"
+  ],
+  "game": "Agricola",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "most-points": "not checkable",
+   "full-information": "contradicted (Closed Drafting)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/31260"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "worker-placement",
+   "most-points",
+   "full-information"
+  ],
+  "game": "Caverna",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "worker-placement": "confirmed (Worker Placement)",
+   "most-points": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/102794"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "fully-cooperative",
+   "hidden-hands",
+   "cooperative-survival"
+  ],
+  "game": "Pandemic",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "hidden-hands": "not checkable",
+   "cooperative-survival": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/30549"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "fully-cooperative",
+   "hidden-hands",
+   "cooperative-survival"
+  ],
+  "game": "Forbidden Island",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "hidden-hands": "not checkable",
+   "cooperative-survival": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/65244"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "traitor",
+   "hidden-identity",
+   "semi-cooperative"
+  ],
+  "game": "Dead of Winter",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "traitor": "confirmed (Traitor Game)",
+   "hidden-identity": "confirmed (Traitor Game)",
+   "semi-cooperative": "confirmed (Semi-Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/150376"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "traitor",
+   "hidden-identity",
+   "semi-cooperative"
+  ],
+  "game": "Battlestar Galactica",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "traitor": "confirmed (Traitor Game)",
+   "hidden-identity": "confirmed (Hidden Roles, Traitor Game)",
+   "semi-cooperative": "confirmed (Semi-Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/37111"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "area-control",
+   "last-standing",
+   "direct-confrontation"
+  ],
+  "game": "King of Tokyo",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "area-control": "confirmed (King of the Hill)",
+   "last-standing": "confirmed (Player Elimination)",
+   "direct-confrontation": "confirmed (Fighting, King of the Hill, Player Elimination, Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/70323"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "area-control",
+   "last-standing",
+   "direct-confrontation"
+  ],
+  "game": "Blood Rage",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "area-control": "confirmed (Area Majority / Influence)",
+   "last-standing": "absent",
+   "direct-confrontation": "confirmed (Area Majority / Influence, Fighting, Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/170216"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "drafting",
+   "most-points",
+   "set-collection"
+  ],
+  "game": "7 Wonders",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drafting": "confirmed (Closed Drafting)",
+   "most-points": "not checkable",
+   "set-collection": "confirmed (Set Collection)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/68448"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "drafting",
+   "most-points",
+   "set-collection"
+  ],
+  "game": "Sushi Go!",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drafting": "confirmed (Closed Drafting)",
+   "most-points": "not checkable",
+   "set-collection": "confirmed (Set Collection)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/133473"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "roll-and-move",
+   "race-to-finish",
+   "mostly-chance"
+  ],
+  "game": "Sorry!",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "roll-and-move": "confirmed (Roll / Spin and Move)",
+   "race-to-finish": "not checkable",
+   "mostly-chance": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/2407"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "roll-and-move",
+   "race-to-finish",
+   "mostly-chance"
+  ],
+  "game": "Chutes and Ladders",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "roll-and-move": "confirmed (Roll / Spin and Move)",
+   "race-to-finish": "confirmed (Race)",
+   "mostly-chance": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/5432"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "tile-placement",
+   "most-points",
+   "full-information"
+  ],
+  "game": "Carcassonne",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "tile-placement": "confirmed (Tile Placement)",
+   "most-points": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/822"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "tile-placement",
+   "most-points",
+   "full-information"
+  ],
+  "game": "Azul",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "tile-placement": "confirmed (Tile Placement)",
+   "most-points": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/230802"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "hand-management",
+   "hidden-hands",
+   "direct-confrontation"
+  ],
+  "game": "Cosmic Encounter",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "hidden-hands": "not checkable",
+   "direct-confrontation": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/15"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "hand-management",
+   "hidden-hands",
+   "direct-confrontation"
+  ],
+  "game": "Bang!",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "hidden-hands": "not checkable",
+   "direct-confrontation": "confirmed (Fighting, Player Elimination, Take That)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/3955"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "deduction",
+   "hidden-identity",
+   "traitor"
+  ],
+  "game": "Blood on the Clocktower",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "deduction": "confirmed (Deduction)",
+   "hidden-identity": "confirmed (Hidden Roles, Traitor Game)",
+   "traitor": "confirmed (Traitor Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/240980"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "deduction",
+   "hidden-identity",
+   "traitor"
+  ],
+  "game": "Saboteur",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "deduction": "confirmed (Deduction)",
+   "hidden-identity": "confirmed (Hidden Roles, Traitor Game)",
+   "traitor": "confirmed (Traitor Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/9220"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "bidding",
+   "hidden-hands",
+   "most-points"
+  ],
+  "game": "For Sale",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "bidding": "confirmed (Auction / Bidding, Auction: Sealed Bid, Auction: Turn Order Until Pass, Selection Order Bid)",
+   "hidden-hands": "not checkable",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/172"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "bidding",
+   "hidden-hands",
+   "most-points"
+  ],
+  "game": "Ra",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "bidding": "confirmed (Auction / Bidding, Auction: Once Around, Closed Economy Auction, Constrained Bidding)",
+   "hidden-hands": "not checkable",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/12"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "trick-taking",
+   "team-vs-team",
+   "hidden-hands"
+  ],
+  "game": "Skull King",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "trick-taking": "confirmed (Trick-taking)",
+   "team-vs-team": "absent",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/150145"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "trick-taking",
+   "team-vs-team",
+   "hidden-hands"
+  ],
+  "game": "Bridge",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "trick-taking": "confirmed (Trick-taking)",
+   "team-vs-team": "confirmed (Team-Based Game)",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/2181"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "negotiation",
+   "direct-confrontation",
+   "area-control"
+  ],
+  "game": "Diplomacy",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "negotiation": "confirmed (Negotiation)",
+   "direct-confrontation": "confirmed (Area Majority / Influence, Player Elimination, Wargame)",
+   "area-control": "confirmed (Area Majority / Influence)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/483"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "negotiation",
+   "direct-confrontation",
+   "area-control"
+  ],
+  "game": "Rex: Final Days of an Empire",
+  "status": "perplexity-bgg-verified",
+  "result": "confirmed",
+  "verdicts": {
+   "negotiation": "confirmed (Negotiation)",
+   "direct-confrontation": "confirmed (Area Majority / Influence, Fighting)",
+   "area-control": "confirmed (Area Majority / Influence)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/104363"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "push-your-luck",
+   "fully-cooperative",
+   "cooperative-survival"
+  ],
+  "game": "Ghost Stories",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "push-your-luck": "absent",
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "cooperative-survival": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/37046"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "push-your-luck",
+   "fully-cooperative",
+   "cooperative-survival"
+  ],
+  "game": "Flash Point: Fire Rescue",
+  "status": "perplexity-bgg-verified",
+  "result": "false",
+  "verdicts": {
+   "push-your-luck": "absent",
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "cooperative-survival": "confirmed (Cooperative Game)"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/100901"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "mostly-skill",
+   "full-information",
+   "most-points"
+  ],
+  "game": "Ticket to Ride: Europe",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/14996"
+ },
+ {
+  "kind": "triad",
+  "elements": [
+   "mostly-skill",
+   "full-information",
+   "most-points"
+  ],
+  "game": "Power Grid",
+  "status": "perplexity-bgg-verified",
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable",
+   "most-points": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/2651"
+ }
+]

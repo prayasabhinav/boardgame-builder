@@ -1,0 +1,43 @@
+roll-and-move+mostly-chance | The dice decide almost everything: how far you go and what happens when you land. | Anyone can win, even first-time players. | Quick and light. | Few choices to make. | Losing can feel out of your hands.
+roll-and-move+chance-with-mitigation | You roll to move, but you have ways to change or reroll a poor result. | Luck with a safety net. | Small choices add up. | The safety net can run out. | More rules than a plain roll.
+roll-and-move+skill-with-luck-tempering | You choose where to go, and a dice roll only nudges the result a little. | Planning matters more than luck. | Surprises still happen. | The dice can feel like an extra step. | Experienced players tend to win.
+roll-and-move+mostly-skill | You choose how far to move from a fixed set of options, with little luck involved. | Every move is your decision. | Clear to see why someone won. | Can feel slow. | New players may lose a lot.
+drafting+mostly-chance | Cards come out at random and you pick quickly, so luck shapes most of what you get. | Light and quick. | Anyone can do well. | Choices can feel small. | Luck decides a lot.
+drafting+chance-with-mitigation | Cards come out at random, but you can swap or discard to fix a weak pick. | Luck with ways to recover. | Interesting choices. | More steps each round. | Fixing picks can slow turns.
+drafting+mostly-skill | Everyone sees all the cards and picks carefully, so planning decides the game. | Thoughtful choices. | Skill shows clearly. | Can be slow. | New players can struggle.
+bidding+mostly-chance | Prizes are revealed at random and bids are quick, so luck shapes the result. | Light and exciting. | Anyone can win. | Bidding can feel random. | Little planning pays off.
+bidding+chance-with-mitigation | Prizes come out at random, but you can save money or pass to wait for a later prize. | Luck with control. | Patience is rewarded. | Waiting too long can cost you. | Some players may never bid.
+bidding+skill-with-luck-tempering | Careful bidding matters most, with a little luck in what comes up for auction. | Skill with surprises. | Reading other players pays off. | Some maths involved. | Experienced players tend to win.
+bidding+mostly-skill | Everyone knows what is for sale and bids carefully; reading others decides the game. | Clever bidding. | Skill shows clearly. | Lots of thinking. | Can feel tense for some.
+push-your-luck+chance-with-mitigation | You take risks, but you have ways to protect yourself if things go wrong. | Bold play with a safety net. | Interesting choices. | Safety nets can make risks feel smaller. | More rules to learn.
+push-your-luck+skill-with-luck-tempering | You can work out the odds, and judging when to stop matters more than luck. | Clever risk-taking. | Skill pays off over time. | Luck still bites sometimes. | Thinking about odds can feel like maths.
+push-your-luck+mostly-skill | Risks are mostly about reading the situation, not dice, so careful judgement wins. | Clear reasons for each choice. | Clever timing pays off. | Less of the wild luck people enjoy here. | Can feel slow.
+area-control+mostly-chance | Dice or cards decide who wins fights over areas. | Surprising swings. | Anyone can win a fight. | Plans can fall apart. | Losing can feel random.
+area-control+chance-with-mitigation | Fights over areas use dice, but you can add bonuses or reroll. | Luck with ways to plan. | Interesting choices. | More rules. | Bonuses can feel unfair.
+area-control+skill-with-luck-tempering | Fights over areas are mostly decided by planning, with a little luck. | Clever moves win. | Some surprise. | Experienced players tend to win. | Slow turns.
+area-control+mostly-skill | No dice: areas are won by planning and placing carefully. | Clear reasons for winning. | Deep strategy. | Slow for new players. | Can feel serious.
+worker-placement+mostly-chance | Which action spaces open each round is decided by chance. | Every round is different. | Light and quick. | Plans can fall apart. | Luck decides a lot.
+worker-placement+chance-with-mitigation | Random events change the actions, but you can plan around them. | Surprises with control. | Clever planning pays off. | Events can feel unfair. | More rules.
+worker-placement+skill-with-luck-tempering | Planning your workers matters most, with a little chance in what comes up. | Thoughtful play with surprises. | Plans usually work. | Experienced players tend to win. | Slow turns.
+pattern-building+mostly-chance | The pieces you get are random, so luck shapes your pattern. | Light and relaxed. | Anyone can do well. | Plans can fall apart. | Little control.
+pattern-building+chance-with-mitigation | Pieces come out at random, but you can store or swap them. | Luck with control. | Clever choices. | More rules. | Swapping can slow things.
+pattern-building+skill-with-luck-tempering | You plan your pattern carefully, with a little luck in what pieces appear. | Thoughtful puzzles. | Some surprise. | Experienced players tend to win. | Quiet turns.
+pattern-building+mostly-skill | All pieces are known, so building the pattern is pure planning. | Deep puzzles. | Clear skill. | Slow for some. | Little surprise.
+hand-management+mostly-chance | You draw cards at random and play what you can. | Light and quick. | Anyone can win. | Few real choices. | Luck decides a lot.
+hand-management+skill-with-luck-tempering | You draw at random but plan carefully what to keep and play. | Clever planning. | Some surprise. | Weak draws still hurt. | Experienced players tend to win.
+hand-management+mostly-skill | You know what cards are coming and plan each play carefully. | Deep planning. | Skill shows clearly. | Slow for some. | Little surprise.
+trick-taking+mostly-chance | The cards you are dealt decide most of the tricks you win. | Light and quick. | Anyone can win. | Weak hands feel hopeless. | Little control.
+trick-taking+chance-with-mitigation | The deal is random, but you can pass or swap cards to improve your hand. | Luck with control. | Clever swaps. | More rules. | Passing can slow things.
+trick-taking+skill-with-luck-tempering | Careful card play matters most, though the deal still matters a little. | Skill shows over time. | Some surprise. | Experienced players tend to win. | Takes practice.
+negotiation+mostly-chance | Random events decide what everyone has to trade. | Surprising trades. | Light and social. | Deals can feel pointless. | Luck decides a lot.
+negotiation+chance-with-mitigation | Random events shape the game, but clever deals can make up for unlucky events. | Talking can save you. | Interesting choices. | Strong talkers may win too often. | Talks can be slow.
+negotiation+skill-with-luck-tempering | Clever deals matter most, with a little luck in what comes up. | Skillful talking pays off. | Some surprise. | Quiet players can lose out. | Talks can be long.
+negotiation+mostly-skill | Everything depends on the deals players make. | Lots of talking. | Skill at persuading shows. | Quiet players can lose out. | Can feel tense.
+set-collection+mostly-chance | Cards come at random, so luck decides who finishes sets. | Light and quick. | Anyone can win. | Plans can fall apart. | Little control.
+set-collection+chance-with-mitigation | Cards come at random, but you can trade or swap to finish sets. | Luck with control. | Clever choices. | More rules. | Swapping can slow things.
+set-collection+skill-with-luck-tempering | Planning which sets to collect matters most, with a little luck. | Thoughtful play. | Some surprise. | Experienced players tend to win. | Quiet turns.
+set-collection+mostly-skill | All cards are visible, so collecting is pure planning. | Deep choices. | Skill shows clearly. | Slow for some. | Little surprise.
+tile-placement+mostly-chance | You draw tiles at random and place them where you can. | Light and relaxed. | Anyone can do well. | Plans can fall apart. | Little control.
+tile-placement+chance-with-mitigation | Tiles come at random, but you can choose from a few or save one. | Luck with control. | Clever placements. | More rules. | Choosing can slow things.
+tile-placement+skill-with-luck-tempering | Placing tiles well matters most, with a little luck in which tiles appear. | Thoughtful building. | Some surprise. | Experienced players tend to win. | Quiet turns.
+tile-placement+mostly-skill | All tiles are known, so placing them is pure planning. | Deep puzzles. | Skill shows clearly. | Slow for some. | Little surprise.

@@ -1,0 +1,50 @@
+roll-and-move+full-information | Everyone can see the whole board and every piece as players roll and move. | Easy to follow. | Nothing is hidden, so younger players feel safe. | Little mystery. | The dice still decide most things.
+roll-and-move+hidden-hands | You roll to move and also hold secret cards that change what happens. | Secret cards add surprise. | A little planning on top of luck. | Hard to know what others can do. | More to track.
+roll-and-move+hidden-identity | Players roll to move, each secretly playing a role others do not know. | Guessing roles adds mystery to a simple game. | Easy rules with a twist. | Few ways to reveal or hide a role. | Dice can make roles feel unimportant.
+roll-and-move+deduction | As you move around the board you collect clues to work out a hidden answer. | Moving feels like searching. | Clear goal. | Dice can slow down your search. | One lucky player can solve it fast.
+roll-and-move+bluffing | Players roll to move and can claim to have rolled something they did not. | Lots of laughing and calling out. | Simple rules with a twist. | Bluffs can be hard to check. | Some players dislike being lied to.
+drafting+full-information | All the cards on offer are face up, so everyone sees what others might take. | Clear and fair. | Planning ahead pays off. | Can be slow. | Little surprise.
+drafting+hidden-hands | You pick cards and keep them hidden, so others can only guess what you have. | Mystery about what others are building. | Clever secret plans. | Hard to block others. | Can feel quiet.
+drafting+hidden-identity | Players pick cards while secretly working for a hidden side. | Every pick can hint at a role. | Mystery and planning. | Hard to read for new players. | Roles can feel disconnected from picks.
+drafting+deduction | The cards people pick or pass give clues to a hidden answer. | Watching picks becomes detective work. | Clever thinking. | Hard for new players. | Slow turns.
+drafting+bluffing | Players pick cards and can pretend to want different things than they do. | Fun mind games. | Clever misdirection. | Hard to read for some. | Can feel tense.
+bidding+hidden-identity | Players bid while secretly playing a hidden role. | Bids hint at who people are. | Tense guessing. | Hard to read. | Roles can confuse auctions.
+bidding+deduction | Bids give clues to what others know or need, and you work out a hidden answer. | Clever thinking. | Every bid tells you something. | Hard for new players. | Slow turns.
+push-your-luck+full-information | Everyone can see exactly what is at risk before deciding whether to push on. | Clear choices. | Fair for all. | Less surprise. | Careful players may always stop.
+push-your-luck+hidden-hands | You push your luck with cards only you can see. | Others guess how risky you are being. | Tense secrets. | Hard to know if someone is about to bust. | Can feel lonely.
+push-your-luck+hidden-identity | Players push their luck while secretly on different sides. | Risky moves can hint at roles. | Tense and exciting. | Confusing for some. | Luck can hide roles too well.
+push-your-luck+deduction | Each risk you take reveals a clue about a hidden answer. | Risk and detective work together. | Exciting reveals. | Bust turns can lose clues. | Two things to think about.
+area-control+full-information | Everyone can see every piece and area, so planning is open. | Fair and clear. | Deep strategy. | Slow turns. | Little surprise.
+area-control+hidden-hands | Players fight over areas using secret cards that change battles. | Surprise attacks. | Clever secret plans. | Hard to plan around. | Can feel unfair.
+area-control+hidden-identity | Players fight over areas, but some secretly work for a hidden side. | Mystery in every move. | Tense. | Hard to read. | Roles can confuse battles.
+area-control+deduction | Holding areas reveals clues to a hidden answer. | The map becomes a puzzle. | Clever play. | Two goals to track. | Slow turns.
+area-control+bluffing | Players can hide or fake their strength in an area. | Fun mind games. | Clever surprises. | Bluffs can upset people. | Hard to read for some.
+worker-placement+full-information | All action spaces and resources are visible to everyone. | Clear and fair. | Deep planning. | Slow turns. | Little surprise.
+worker-placement+hidden-hands | Players place workers and hold secret cards that change actions. | Surprise moves. | Clever secret plans. | Hard to plan around others. | More to track.
+worker-placement+hidden-identity | Players place workers while secretly working for a hidden side. | Placements hint at roles. | Mystery. | Hard to read. | Roles can feel disconnected.
+worker-placement+bluffing | Players can place workers to mislead others about their plans. | Clever misdirection. | Mind games. | Hard to read for some. | Can feel tense.
+pattern-building+full-information | Everyone sees every piece and pattern on the table. | Fair puzzle. | Clear planning. | Slow for some. | Little surprise.
+pattern-building+hidden-hands | You build your pattern with pieces others cannot see. | Mystery about others' progress. | Calm secret building. | Hard to block others. | Little interaction.
+pattern-building+hidden-identity | Players build patterns while secretly working for a hidden side. | Patterns can hint at roles. | Mystery. | Confusing for some. | Roles can feel disconnected.
+pattern-building+deduction | The pattern on the table holds clues to a hidden answer. | Puzzle-solving. | Clever thinking. | Hard for some. | Slow turns.
+pattern-building+bluffing | Players can pretend to be building a different pattern than they are. | Mind games. | Clever surprises. | Hard to read. | Can feel tense.
+hand-management+hidden-identity | Players manage hidden cards while secretly on a hidden side. | Card choices hint at roles. | Mystery. | Hard to read. | More to track.
+hand-management+deduction | The cards people play give clues to a hidden answer. | Detective card play. | Clever thinking. | Hard for new players. | Slow turns.
+hand-management+bluffing | Players can play cards to suggest they hold something they do not. | Mind games. | Clever timing. | Hard to read for some. | Can feel tense.
+trick-taking+full-information | Everyone's cards are visible, so every trick can be planned. | Clear puzzles. | Skill shows. | Slow. | Little surprise.
+trick-taking+hidden-hands | Players hold secret cards and try to win tricks. | Classic mystery of card play. | Clever guessing. | Weak hands feel hopeless. | Hard to plan.
+trick-taking+hidden-identity | Players win tricks while secretly on hidden teams. | Guessing partners. | Tense. | Confusing for some. | Hard to read.
+trick-taking+bluffing | Players can play cards to mislead others about their hand. | Mind games. | Clever play. | Hard to read for some. | Can feel tense.
+negotiation+full-information | Everyone sees what everyone has, so deals are made in the open. | Fair deals. | Lots of talking. | Little surprise. | Strong talkers may win too often.
+negotiation+hidden-hands | Players make deals while hiding what they really have. | Clever deals. | Mystery. | Hard to trust. | Deals can be confusing.
+negotiation+hidden-identity | Players make deals while secretly on hidden sides. | Every deal hints at roles. | Tense talking. | Hard to trust anyone. | Can upset people.
+negotiation+deduction | Deals give clues to a hidden answer. | Talking becomes detective work. | Clever thinking. | Quiet players can lose out. | Slow turns.
+negotiation+bluffing | Players can lie in deals and try to spot others' lies. | Lively and funny. | Clever talk. | Lies can upset people. | Hard for some.
+set-collection+full-information | Everyone can see all collected cards. | Fair and clear. | Planning pays off. | Little surprise. | Slow for some.
+set-collection+hidden-identity | Players collect sets while secretly on a hidden side. | Collections hint at roles. | Mystery. | Confusing for some. | Roles can feel disconnected.
+set-collection+deduction | The sets people collect give clues to a hidden answer. | Detective collecting. | Clever thinking. | Hard for new players. | Slow turns.
+set-collection+bluffing | Players can pretend to collect one set while building another. | Mind games. | Clever misdirection. | Hard to read. | Can feel tense.
+tile-placement+hidden-hands | Players place tiles from a secret hand. | Surprise placements. | Clever plans. | Hard to plan around others. | More to track.
+tile-placement+hidden-identity | Players build a map while secretly on hidden sides. | Placements hint at roles. | Mystery. | Hard to read. | Roles can feel disconnected.
+tile-placement+deduction | The growing map reveals clues to a hidden answer. | Map as puzzle. | Clever thinking. | Hard for some. | Slow turns.
+tile-placement+bluffing | Players can place tiles to mislead others about their goals. | Mind games. | Clever misdirection. | Hard to read. | Can feel tense.

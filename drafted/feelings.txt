@@ -1,0 +1,15 @@
+excited | + bidding, area-control, last-standing, team-vs-team, bluffing, traitor, roll-and-move, chance-with-mitigation, fantasy, absurd | - pattern-building, set-collection, debrief
+clever | + worker-placement, pattern-building, tile-placement, set-collection, area-control, trick-taking, skill-with-luck-tempering, full-information, model-a-system, try-a-rule, delayed-effects, abstract | - roll-and-move
+silly | + absurd, roll-and-move, bluffing, negotiation, traitor | - mostly-skill, pattern-building, tile-placement, real-world-issue
+tense | + race-to-finish, hidden-identity, traitor, bluffing, bidding, area-control, mostly-chance, shared-resource, delayed-effects | - solo-in-parallel, everyday-life
+together | + team-vs-team, negotiation, shared-resource, debrief | - solo-in-parallel, hidden-personal-goal, bluffing, hidden-identity
+sneaky | + deduction, hidden-personal-goal, semi-cooperative, negotiation, bidding | - shared-objective, solo-in-parallel
+lucky | + roll-and-move, chance-with-mitigation | - worker-placement, negotiation, pattern-building, skill-with-luck-tempering
+in charge | + negotiation, tile-placement, hand-management, mostly-skill, skill-with-luck-tempering, model-a-system, try-a-rule, stakeholder-roles | - roll-and-move, push-your-luck
+surprised | + mostly-chance, push-your-luck, roll-and-move, delayed-effects, deduction | - worker-placement, pattern-building
+thoughtful | + pattern-building, tile-placement, deduction, set-collection, skill-with-luck-tempering, full-information, model-a-system, try-a-rule, delayed-effects, debrief, historical, educational, real-world-issue | - push-your-luck, roll-and-move
+fast | + roll-and-move, push-your-luck, mostly-chance, set-collection | - deduction, mostly-skill, model-a-system, stakeholder-roles
+unfair-in-a-fun-way | + mostly-chance, roll-and-move, bluffing, bidding, absurd | - cooperative-survival, mostly-skill, shared-resource
+careful | + mostly-skill, skill-with-luck-tempering, worker-placement, pattern-building, tile-placement, full-information, shared-resource, delayed-effects | - roll-and-move
+daring | + mostly-chance, race-to-finish, direct-confrontation, area-control, negotiation | - mostly-skill, pattern-building
+friendly | + solo-in-parallel, cooperative-survival, everyday-life, debrief | - bluffing, hidden-identity, area-control

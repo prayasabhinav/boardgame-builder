@@ -1,0 +1,120 @@
+delayed-effects+roll-and-move | You roll to move, and some spaces you land on now cause events several turns later. | Shows that today's move has a later cost. | Surprising moments. | Hard to link cause and effect with dice. | Players may forget what caused what.
+delayed-effects+drafting | Cards you pick now only take effect a few rounds later. | Picking means thinking ahead. | Clear lesson about waiting. | Hard to judge picks early. | New players can feel lost.
+delayed-effects+bidding | What you win in an auction pays off, or costs you, only later. | Shows that a price is not the whole story. | Thoughtful bids. | Hard to value things that arrive later. | Can feel slow.
+delayed-effects+push-your-luck | Pushing your luck now builds up risk that arrives later. | Shows how risks pile up quietly. | Tense. | The delay can make losses feel random. | Hard to see the link.
+delayed-effects+area-control | Taking an area now changes what that area produces several rounds later. | Shows long-term effects on land. | Planning matters. | Hard to track. | Slow.
+delayed-effects+worker-placement | Workers placed now finish their jobs in later rounds. | Shows that work takes time. | Planning ahead pays off. | Hard for new players. | Slow turns.
+delayed-effects+pattern-building | The pattern you build only shows its full effect a few rounds later. | Patience is part of the game. | Satisfying when it pays off. | Early rounds can feel slow. | Hard to tell who is ahead.
+delayed-effects+hand-management | Cards you play now set off effects in later rounds. | Timing matters. | Clever planning. | Many effects to track. | Hard for some.
+delayed-effects+trick-taking | Tricks you win now bring rewards or costs in later hands. | Each hand matters beyond itself. | Thoughtful play. | Hard to keep track. | Can feel confusing.
+delayed-effects+negotiation | Deals made now only come due later. | Shows that promises have a future cost. | Lots of talking. | Players can forget deals. | Arguments when deals come due.
+delayed-effects+set-collection | Sets you collect now pay out only after a few rounds. | Patience pays off. | Clear goal. | Hard to judge early choices. | Slow start.
+delayed-effects+tile-placement | Tiles you place now change the board later, as things grow or wear out. | Shows change over time. | Visual. | Hard to track. | Slow.
+delayed-effects+race-to-finish | Choices made early in the race speed you up or slow you down near the end. | Early planning matters. | Tense finish. | Players may not see why they lost. | Hard to recover.
+delayed-effects+most-points | Points from many choices only arrive at the end. | Shows long-term thinking. | Surprising final scores. | Hard to tell who is ahead. | Slow.
+delayed-effects+last-standing | Choices made early decide who drops out later. | Shows how early choices matter. | Tense. | Players out early wait. | Hard to see why you lost.
+delayed-effects+cooperative-survival | The team's early choices decide whether it survives later. | Shows long-term consequences together. | Teamwork. | Hard to recover from early mistakes. | Collapse can feel sudden.
+delayed-effects+shared-objective | The group's shared goal depends on choices whose effects come later. | Planning together. | Clear lesson. | Little tension. | Slow.
+delayed-effects+hidden-personal-goal | Your secret goal depends on effects that only show later. | Mystery over time. | Clever planning. | Hard to read. | Slow.
+delayed-effects+narrative-completion | The story shows the late results of choices made early. | Memorable endings. | Clear cause and effect. | Early turns can feel quiet. | The end can feel set.
+delayed-effects+solo-in-parallel | Each player sees the late effects of their own choices side by side. | Easy to compare. | Calm. | Little contact. | Slow.
+delayed-effects+direct-confrontation | Attacks made now do their damage later. | Surprising twists. | Shows hidden costs of conflict. | Can feel unfair. | Hard to track.
+delayed-effects+indirect-via-board | One player's choices change the board for others several rounds later. | Shows knock-on effects over time. | Quiet links. | Hard to see. | Slow.
+delayed-effects+fully-cooperative | The team plans together for effects that arrive later. | Shared long-term thinking. | Teamwork. | One player can direct. | Slow.
+delayed-effects+semi-cooperative | Selfish choices now harm the group later. | Shows the pull between now and later. | Tense. | Hard to balance. | Slow.
+delayed-effects+team-vs-team | Each team's early choices decide how it does later. | Team planning. | Clear contest. | One player can take over. | Slow.
+delayed-effects+traitor | The traitor's choices only cause trouble later, so they are hard to spot. | Suspicion grows over time. | Tense. | Hard to prove anything. | Accusations can upset people.
+delayed-effects+mostly-chance | Random events arrive later from causes players cannot see. | Shows how uncertain the future is. | Light. | Few choices. | Feels random.
+delayed-effects+chance-with-mitigation | Later events are partly random, but players can prepare now. | Shows the value of preparing. | Interesting choices. | More rules. | Slow.
+delayed-effects+skill-with-luck-tempering | Careful choices now shape later rounds, with a little chance. | Planning pays off. | Some surprise. | Experienced players tend to win. | Slow.
+delayed-effects+mostly-skill | Later rounds follow from earlier choices with no luck. | Clear cause and effect. | Deep planning. | Slow. | Hard to recover from mistakes.
+delayed-effects+full-information | Everyone can see what effects are on their way. | Easy to plan. | Fair. | Little surprise. | Slow.
+delayed-effects+hidden-hands | Players hold secret cards whose effects arrive later. | Surprise later on. | Mystery. | Hard to plan. | Can feel unfair.
+delayed-effects+hidden-identity | Hidden roles show themselves through effects that arrive later. | Suspicion over time. | Dramatic reveals. | Hard to read. | Slow.
+delayed-effects+deduction | Players work out what caused an effect from clues left earlier. | Detective work across time. | Clever. | Hard for some. | Slow.
+delayed-effects+bluffing | Players can pretend a later effect is coming when it is not. | Mind games. | Surprising. | Hard to check. | Can upset people.
+try-a-rule+roll-and-move | Players agree a new rule, then roll and move to see what it changes. | Simple way to test a rule. | Easy. | Dice can hide the rule's effect. | Hard to compare.
+try-a-rule+drafting | Players agree a rule about picking, then see who it helps. | Shows how rules shape fairness. | Lots of talking. | Hard to judge after one round. | Slow.
+try-a-rule+bidding | Players agree a rule for the auction, such as a price limit, and see what it changes. | Shows how rules shape markets. | Clear effects. | Rich players can still win. | Slow.
+try-a-rule+push-your-luck | Players agree a rule limiting how far anyone can push. | Shows how rules can prevent collapse. | Clear lesson. | Less excitement. | Arguments about the rule.
+try-a-rule+area-control | Players agree a rule about how land is shared, then play on. | Shows how rules change who holds what. | Lots of talking. | Hard to enforce. | Slow.
+try-a-rule+worker-placement | Players agree a rule about who can use which action spaces. | Shows how access rules matter. | Clear effects. | Slow. | Arguments.
+try-a-rule+pattern-building | Players agree a rule about which pieces can be used, then see what changes. | Clear test. | Calm. | Effects can be small. | Slow.
+try-a-rule+hand-management | Players agree a rule about when cards can be played. | Shows how timing rules matter. | Clever. | Hard to track. | Slow.
+try-a-rule+trick-taking | Players agree a new rule for tricks and see how play changes. | Familiar play with a twist. | Quick to test. | Effects can be small. | Hard to compare.
+try-a-rule+negotiation | Players negotiate a new rule, then live with it. | Shows how rules are made together. | Lots of talking. | Loud players can shape the rule. | Slow.
+try-a-rule+set-collection | Players agree a rule about sharing cards, then see who benefits. | Clear effects. | Calm. | Hard to judge quickly. | Slow.
+try-a-rule+tile-placement | Players agree a rule about where tiles can go, then build. | Visible effects on the map. | Clear test. | Slow. | Arguments.
+try-a-rule+race-to-finish | Players agree a rule that changes the race, then see who it helps. | Clear test. | Exciting. | One race may not show much. | Leaders can resist.
+try-a-rule+most-points | Players agree a rule that changes scoring, then compare results. | Shows how rules shape winners. | Clear comparison. | Slow. | Arguments.
+try-a-rule+last-standing | Players agree a rule meant to keep more people in, then see if it works. | Shows how rules protect people. | Clear test. | Players out early wait. | Can feel harsh.
+try-a-rule+cooperative-survival | The team agrees a rule to help everyone survive, then tests it. | Shows rules as shared tools. | Teamwork. | One player can decide the rule. | Slow.
+try-a-rule+shared-objective | The group agrees a rule to reach its goal and tests it. | Clear shared test. | Lots of talking. | Little tension. | Slow.
+try-a-rule+hidden-personal-goal | Players agree a rule while each has a secret reason to want it. | Shows hidden interests behind rules. | Mystery. | Hard to agree. | Confusing.
+try-a-rule+narrative-completion | The story changes after players agree a new rule. | Memorable. | Clear effects. | Story can feel set. | Slow.
+try-a-rule+solo-in-parallel | Each player tests a different rule side by side. | Easy comparison. | Calm. | Little contact. | Hard to compare fairly.
+try-a-rule+direct-confrontation | Players agree a rule to limit fighting, then see if it holds. | Shows how rules reduce conflict. | Dramatic. | Rules can be broken. | Arguments.
+try-a-rule+indirect-via-board | Players agree a rule that changes how moves affect each other. | Shows hidden effects of rules. | Quiet. | Hard to see effects. | Slow.
+try-a-rule+fully-cooperative | The team agrees and tests rules together. | Shared rule-making. | Teamwork. | One player can decide. | Slow.
+try-a-rule+semi-cooperative | Players agree a rule that helps the group but may cost each player. | Shows the pull between self and group. | Tense. | Hard to agree. | Slow.
+try-a-rule+team-vs-team | Each team proposes a rule, and both are tested. | Clear contest. | Team talk. | Arguments. | Slow.
+try-a-rule+traitor | Players agree a rule while a traitor tries to make it fail. | Suspicion. | Tense. | Hard to tell a weak rule from sabotage. | Accusations can upset people.
+try-a-rule+mostly-chance | Players test a rule, but luck makes its effect hard to see. | Shows why one try is not enough. | Light. | Results can mislead. | Few choices.
+try-a-rule+chance-with-mitigation | Players test a rule meant to soften unlucky events. | Shows rules as protection. | Clear lesson. | More rules. | Slow.
+try-a-rule+skill-with-luck-tempering | Players test a rule where choices matter most. | Clear effects. | Some surprise. | Experienced players tend to win. | Slow.
+try-a-rule+mostly-skill | Players test a rule with no luck, so its effect is easy to see. | Clear cause and effect. | Fair test. | Slow. | Little surprise.
+try-a-rule+full-information | Everyone sees exactly what the new rule changes. | Open discussion. | Fair. | Little surprise. | Slow.
+try-a-rule+hidden-hands | Players test a rule while keeping their own position secret. | Shows that rules work under uncertainty. | Mystery. | Hard to judge. | Can feel unfair.
+try-a-rule+hidden-identity | Players test a rule while secretly on hidden sides. | Suspicion. | Mystery. | Hard to read. | Confusing.
+try-a-rule+deduction | Players work out a hidden rule from what happens when they play. | Detective work. | Satisfying. | Hard for some. | Slow.
+try-a-rule+bluffing | Players can pretend to follow a rule while breaking it. | Shows why rules need checking. | Mind games. | Lies can upset people. | Hard to check.
+debrief+roll-and-move | After a simple race of rolls, players talk about what the game was like and what it means. | Easy to talk about. | Anyone can join in. | Little to discuss. | Hard to link to a real problem.
+debrief+drafting | After play, players talk about why they picked what they picked. | Shows choices clearly. | Thoughtful. | Players may not remember picks. | Slow.
+debrief+bidding | After play, players talk about how they decided what things were worth. | Shows value judgements. | Lively. | Some may feel embarrassed. | Slow.
+debrief+push-your-luck | After play, players talk about when they chose to stop and why. | Shows attitudes to risk. | Lively. | Losers may feel sore. | Slow.
+debrief+area-control | After play, players talk about who held what and how that felt. | Shows power and space. | Lively. | Fights can carry over. | Slow.
+debrief+worker-placement | After play, players talk about where they sent workers and why. | Shows planning. | Thoughtful. | Can feel like a review. | Slow.
+debrief+pattern-building | After play, players compare patterns and what they were aiming for. | Shows different approaches. | Calm. | Little to discuss. | Slow.
+debrief+hand-management | After play, players talk about when they played their cards. | Shows timing. | Thoughtful. | Hard to remember. | Slow.
+debrief+trick-taking | After play, players talk about how tricks were won and lost. | Shows reasoning. | Quick. | Little to link to a real problem. | Can feel like a review.
+debrief+negotiation | After play, players talk about the deals they made and broke. | Shows trust and bargaining. | Lively. | Hurt feelings can come up. | Needs care.
+debrief+set-collection | After play, players talk about what they collected and why. | Shows needs. | Calm. | Little to discuss. | Slow.
+debrief+tile-placement | After play, players look at the map they built together and talk about it. | Visual reminder. | Lively. | Slow. | Some may dominate.
+debrief+race-to-finish | After the race, players talk about what helped and slowed them. | Shows causes. | Lively. | Losers may feel sore. | Slow.
+debrief+most-points | After play, players talk about how points were earned. | Shows strategy. | Thoughtful. | Can focus only on winning. | Slow.
+debrief+last-standing | After play, players talk about why people dropped out. | Shows who gets left out. | Thoughtful. | Can feel sore. | Needs care.
+debrief+cooperative-survival | After play, the team talks about what kept it going or made it fail. | Shared reflection. | Teamwork. | Blame can come up. | Slow.
+debrief+shared-objective | After play, the group talks about how it reached its goal. | Shared reflection. | Calm. | Little tension to discuss. | Slow.
+debrief+hidden-personal-goal | After play, players reveal their secret goals and talk about them. | Surprising reveals. | Lively. | Some may feel tricked. | Slow.
+debrief+narrative-completion | After play, players retell the story and compare it with real life. | Memorable. | Easy to talk about. | Story can hide the problem. | Slow.
+debrief+solo-in-parallel | After play, players compare what each of them did. | Easy comparison. | Calm. | Little shared experience. | Slow.
+debrief+direct-confrontation | After play, players talk about the fights and how they felt. | Honest reflection. | Lively. | Hurt feelings can come up. | Needs care.
+debrief+indirect-via-board | After play, players talk about how their moves affected each other. | Shows hidden effects. | Thoughtful. | Hard to remember. | Slow.
+debrief+fully-cooperative | After play, the team talks about how it worked together. | Shared reflection. | Calm. | One voice can dominate. | Slow.
+debrief+semi-cooperative | After play, players talk about when they helped and when they did not. | Honest reflection. | Lively. | Some may feel judged. | Needs care.
+debrief+team-vs-team | After play, both teams talk about their plans. | Shows two sides. | Lively. | Rivalry can carry over. | Slow.
+debrief+traitor | After play, the traitor is revealed and everyone talks about the clues. | Dramatic. | Lively. | Some may feel tricked. | Needs care.
+debrief+mostly-chance | After play, players talk about how much was luck. | Shows uncertainty. | Light. | Little to discuss. | Can feel pointless.
+debrief+chance-with-mitigation | After play, players talk about how they handled luck. | Shows preparation. | Thoughtful. | Slow. | Hard to remember.
+debrief+skill-with-luck-tempering | After play, players talk about their choices and a few lucky moments. | Shows reasoning. | Thoughtful. | Slow. | Can feel like a review.
+debrief+mostly-skill | After play, players talk through every choice. | Clear reasoning. | Deep. | Slow. | Losers may feel judged.
+debrief+full-information | After play, players look back at the whole board together. | Easy to discuss. | Fair. | Little surprise. | Slow.
+debrief+hidden-hands | After play, players reveal their cards and talk about them. | Surprising reveals. | Lively. | Slow. | Hard to remember.
+debrief+hidden-identity | After play, players reveal roles and talk about what they suspected. | Dramatic. | Lively. | Some may feel tricked. | Needs care.
+debrief+deduction | After play, players talk about how they reasoned. | Shows thinking. | Thoughtful. | Slow. | Some may feel slow.
+debrief+bluffing | After play, players admit their bluffs and talk about trust. | Lively. | Honest. | Some may feel tricked. | Needs care.
+model-a-system+stakeholder-roles | Each player plays a real group inside a model of the system those groups share. | Shows a system from many sides. | Clear roles. | Many rules to explain. | Slow.
+model-a-system+shared-resource | The model shows one shared resource and how everyone's use changes it. | Clear cause and effect. | Easy to discuss. | Can feel like a lesson. | Little surprise.
+model-a-system+delayed-effects | The model shows how choices now change the system later. | Shows long-term effects. | Memorable. | Hard to track. | Slow.
+model-a-system+try-a-rule | Players change a rule of the model and watch how the system responds. | Clear test of ideas. | Lots of talking. | Slow. | Effects can be small.
+model-a-system+debrief | After playing in the model, players compare it with the real system. | Links game and life. | Thoughtful. | Needs time. | Some may find it like a lesson.
+stakeholder-roles+shared-resource | Different real groups share one limited resource. | Shows competing claims. | Lots of talking. | Weaker groups can lose out. | Arguments.
+stakeholder-roles+delayed-effects | Each group's choices affect other groups later. | Shows effects across time and people. | Thoughtful. | Hard to track. | Slow.
+stakeholder-roles+try-a-rule | Groups propose and test a rule from their own point of view. | Shows rules seen from different sides. | Lively. | Loud groups can win. | Slow.
+stakeholder-roles+debrief | After play, players talk about what it was like to be their group. | Builds understanding. | Thoughtful. | Some may stay in role. | Needs time.
+shared-resource+delayed-effects | Taking from the shared resource now shows its effect later. | Shows why problems arrive late. | Memorable. | Hard to see in time. | Collapse can feel sudden.
+shared-resource+try-a-rule | Players agree a rule for sharing the resource and see if it holds. | Shows rules as shared tools. | Lots of talking. | Rules can be broken. | Slow.
+shared-resource+debrief | After play, players talk about why the resource lasted or ran out. | Clear lesson. | Thoughtful. | Blame can come up. | Needs care.
+delayed-effects+try-a-rule | Players test a rule whose effect only shows later. | Shows patience in testing ideas. | Thoughtful. | Hard to judge quickly. | Slow.
+delayed-effects+debrief | After play, players trace late effects back to earlier choices. | Clear cause and effect. | Thoughtful. | Hard to remember. | Slow.
+try-a-rule+debrief | After play, players talk about whether the rule they tried did what they hoped. | Shows how to judge a rule. | Thoughtful. | Needs time. | Some may feel judged.

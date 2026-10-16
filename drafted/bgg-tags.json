@@ -1,0 +1,2150 @@
+{
+ "7 Wonders": {
+  "id": 68448,
+  "bgg_name": "7 Wonders",
+  "year": "2010",
+  "mechanisms": [
+   "Closed Drafting",
+   "End Game Bonuses",
+   "Hand Management",
+   "Melding and Splaying",
+   "Multi-Use Cards",
+   "Neighbor Scope",
+   "Once-Per-Game Abilities",
+   "Score-and-Reset Game",
+   "Set Collection",
+   "Simultaneous Action Selection",
+   "Tags",
+   "Tech Trees / Tech Tracks",
+   "Variable Player Powers",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Ancient",
+   "Card Game",
+   "City Building",
+   "Civilization",
+   "Economic"
+  ],
+  "other_ids": [
+   68448,
+   316377
+  ]
+ },
+ "7 Wonders Duel": {
+  "id": 173346,
+  "bgg_name": "7 Wonders Duel",
+  "year": "2015",
+  "mechanisms": [
+   "End Game Bonuses",
+   "Income",
+   "Melding and Splaying",
+   "Modular Board",
+   "Multi-Use Cards",
+   "Once-Per-Game Abilities",
+   "Open Drafting",
+   "Score-and-Reset Game",
+   "Set Collection",
+   "Sudden Death Ending",
+   "Tags",
+   "Tech Trees / Tech Tracks",
+   "Track Movement",
+   "Tug of War",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Ancient",
+   "Card Game",
+   "City Building",
+   "Civilization",
+   "Economic"
+  ],
+  "other_ids": [
+   173346,
+   173346
+  ]
+ },
+ "Agricola": {
+  "id": 31260,
+  "bgg_name": "Agricola",
+  "year": "2007",
+  "mechanisms": [
+   "Automatic Resource Growth",
+   "Closed Drafting",
+   "Enclosure",
+   "Increase Value of Unchosen Resources",
+   "Solo / Solitaire Game",
+   "Turn Order: Claim Action",
+   "Worker Placement"
+  ],
+  "categories": [
+   "Animals",
+   "Economic",
+   "Farming"
+  ],
+  "other_ids": [
+   200680,
+   440147,
+   205418,
+   38641
+  ]
+ },
+ "Architects of the West Kingdom": {
+  "id": 236457,
+  "bgg_name": "Architects of the West Kingdom",
+  "year": "2018",
+  "mechanisms": [
+   "Area Movement",
+   "Contracts",
+   "End Game Bonuses",
+   "Events",
+   "Kill Steal",
+   "Loans",
+   "Open Drafting",
+   "Solo / Solitaire Game",
+   "Static Capture",
+   "Tags",
+   "Take That",
+   "Track Movement",
+   "Variable Player Powers",
+   "Variable Set-up",
+   "Worker Placement"
+  ],
+  "categories": [
+   "City Building",
+   "Economic",
+   "Medieval"
+  ],
+  "other_ids": [
+   236457,
+   236457,
+   236457
+  ]
+ },
+ "Arkham Horror: The Card Game": {
+  "id": 205637,
+  "bgg_name": "Arkham Horror: The Card Game",
+  "year": "2016",
+  "mechanisms": [
+   "Action Points",
+   "Area Movement",
+   "Communication Limits",
+   "Cooperative Game",
+   "Deck Construction",
+   "Events",
+   "Hand Management",
+   "Map Deformation",
+   "Modular Board",
+   "Player Elimination",
+   "Push Your Luck",
+   "Role Playing",
+   "Scenario / Mission / Campaign Game",
+   "Solo / Solitaire Game",
+   "Stat Check Resolution",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Adventure",
+   "Card Game",
+   "Collectible Components",
+   "Exploration",
+   "Horror",
+   "Novel-based"
+  ],
+  "other_ids": [
+   463126,
+   359609,
+   205637
+  ]
+ },
+ "Azul": {
+  "id": 230802,
+  "bgg_name": "Azul",
+  "year": "2017",
+  "mechanisms": [
+   "End Game Bonuses",
+   "Grid Coverage",
+   "Open Drafting",
+   "Pattern Building",
+   "Set Collection",
+   "Square Grid",
+   "Tile Placement",
+   "Turn Order: Claim Action"
+  ],
+  "categories": [
+   "Abstract Strategy",
+   "Renaissance"
+  ],
+  "other_ids": [
+   230802
+  ]
+ },
+ "Bang!": {
+  "id": 3955,
+  "bgg_name": "BANG!",
+  "year": "2002",
+  "mechanisms": [
+   "Hand Management",
+   "Hidden Roles",
+   "Hot Potato",
+   "Kill Steal",
+   "Player Elimination",
+   "Take That",
+   "Team-Based Game",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "American West",
+   "Bluffing",
+   "Card Game",
+   "Deduction",
+   "Fighting"
+  ],
+  "other_ids": [
+   3955,
+   143741,
+   128666
+  ]
+ },
+ "Bang! The Dice Game": {
+  "id": 143741,
+  "bgg_name": "BANG! The Dice Game",
+  "year": "2013",
+  "mechanisms": [
+   "Dice Rolling",
+   "Die Icon Resolution",
+   "Hidden Roles",
+   "Player Elimination",
+   "Push Your Luck",
+   "Re-rolling and Locking",
+   "Team-Based Game",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "American West",
+   "Bluffing",
+   "Deduction",
+   "Dice",
+   "Fighting",
+   "Party Game"
+  ],
+  "other_ids": [
+   283717
+  ]
+ },
+ "Battlestar Galactica": {
+  "id": 37111,
+  "bgg_name": "Battlestar Galactica: The Board Game",
+  "year": "2008",
+  "mechanisms": [
+   "Area Movement",
+   "Cooperative Game",
+   "Dice Rolling",
+   "Hand Management",
+   "Hidden Roles",
+   "Once-Per-Game Abilities",
+   "Role Playing",
+   "Semi-Cooperative Game",
+   "Team-Based Game",
+   "Traitor Game",
+   "Variable Player Powers",
+   "Variable Set-up",
+   "Voting"
+  ],
+  "categories": [
+   "Bluffing",
+   "Deduction",
+   "Movies / TV / Radio theme",
+   "Negotiation",
+   "Science Fiction",
+   "Space Exploration"
+  ],
+  "other_ids": [
+   2688,
+   6768,
+   43539,
+   85905
+  ]
+ },
+ "Betrayal at House on the Hill": {
+  "id": 10547,
+  "bgg_name": "Betrayal at House on the Hill",
+  "year": "2004",
+  "mechanisms": [
+   "Dice Rolling",
+   "Map Addition",
+   "Modular Board",
+   "Player Elimination",
+   "Role Playing",
+   "Storytelling",
+   "Team-Based Game",
+   "Traitor Game",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Adventure",
+   "Exploration",
+   "Horror"
+  ],
+  "other_ids": [
+   10547,
+   358504,
+   10547
+  ]
+ },
+ "Blood Rage": {
+  "id": 170216,
+  "bgg_name": "Blood Rage",
+  "year": "2015",
+  "mechanisms": [
+   "Action Points",
+   "Area Majority / Influence",
+   "Area Movement",
+   "Card Play Conflict Resolution",
+   "Closed Drafting",
+   "Contracts",
+   "Hand Management",
+   "Interrupts",
+   "Map Reduction",
+   "Memory",
+   "Simultaneous Action Selection",
+   "Take That",
+   "Turn Order: Progressive"
+  ],
+  "categories": [
+   "Fantasy",
+   "Fighting",
+   "Miniatures",
+   "Mythology"
+  ],
+  "other_ids": [
+   170216,
+   452690,
+   170216
+  ]
+ },
+ "Blood on the Clocktower": {
+  "id": 240980,
+  "bgg_name": "Blood on the Clocktower",
+  "year": "2022",
+  "mechanisms": [
+   "Betting and Bluffing",
+   "Deduction",
+   "Hidden Roles",
+   "Negotiation",
+   "Prisoner's Dilemma",
+   "Rock-Paper-Scissors",
+   "Roles with Asymmetric Information",
+   "Team-Based Game",
+   "Traitor Game",
+   "Variable Player Powers",
+   "Voting"
+  ],
+  "categories": [
+   "Bluffing",
+   "Deduction",
+   "Murder / Mystery",
+   "Party Game"
+  ],
+  "other_ids": [
+   240980,
+   240980
+  ]
+ },
+ "Bohnanza": {
+  "id": 11,
+  "bgg_name": "Bohnanza",
+  "year": "1997",
+  "mechanisms": [
+   "Hand Management",
+   "Multi-Use Cards",
+   "Negotiation",
+   "Resource Queue",
+   "Set Collection",
+   "Trading"
+  ],
+  "categories": [
+   "Card Game",
+   "Farming",
+   "Negotiation"
+  ],
+  "other_ids": [
+   351605,
+   11
+  ]
+ },
+ "Bridge": {
+  "id": 2181,
+  "bgg_name": "Bridge",
+  "year": "1925",
+  "mechanisms": [
+   "Communication Limits",
+   "Hand Management",
+   "Predictive Bid",
+   "Score-and-Reset Game",
+   "Team-Based Game",
+   "Trick-taking",
+   "Turn Order: Claim Action",
+   "Turn Order: Progressive"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   10312,
+   2181,
+   14034
+  ]
+ },
+ "Can't Stop": {
+  "id": 41,
+  "bgg_name": "Can't Stop",
+  "year": "1980",
+  "mechanisms": [
+   "Dice Rolling",
+   "Push Your Luck",
+   "Race",
+   "Roll / Spin and Move",
+   "Track Movement"
+  ],
+  "categories": [
+   "Dice",
+   "Number"
+  ],
+  "other_ids": [
+   41,
+   41
+  ]
+ },
+ "Carcassonne": {
+  "id": 822,
+  "bgg_name": "Carcassonne",
+  "year": "2000",
+  "mechanisms": [
+   "Area Majority / Influence",
+   "Enclosure",
+   "Kill Steal",
+   "Map Addition",
+   "Pattern Building",
+   "Square Grid",
+   "Tile Placement"
+  ],
+  "categories": [
+   "Medieval",
+   "Territory Building"
+  ],
+  "other_ids": [
+   822
+  ]
+ },
+ "Catan": {
+  "id": 13,
+  "bgg_name": "Catan",
+  "year": "1995",
+  "mechanisms": [
+   "Chaining",
+   "Dice Rolling",
+   "Hand Management",
+   "Hexagon Grid",
+   "Hidden Victory Points",
+   "Income",
+   "Market",
+   "Modular Board",
+   "Negotiation",
+   "Network and Route Building",
+   "Race",
+   "Random Production",
+   "Take That",
+   "Trading",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Economic",
+   "Negotiation"
+  ],
+  "other_ids": [
+   152959,
+   13,
+   13
+  ]
+ },
+ "Caverna": {
+  "id": 102794,
+  "bgg_name": "Caverna: The Cave Farmers",
+  "year": "2013",
+  "mechanisms": [
+   "Automatic Resource Growth",
+   "Increase Value of Unchosen Resources",
+   "Solo / Solitaire Game",
+   "Tile Placement",
+   "Turn Order: Claim Action",
+   "Worker Placement"
+  ],
+  "categories": [
+   "Animals",
+   "Economic",
+   "Fantasy",
+   "Farming"
+  ],
+  "other_ids": [
+   102794,
+   220520
+  ]
+ },
+ "Caverna: Cave vs Cave": {
+  "id": 220520,
+  "bgg_name": "Caverna: Cave vs Cave",
+  "year": "2017",
+  "mechanisms": [
+   "Tile Placement",
+   "Worker Placement"
+  ],
+  "categories": [
+   "Economic",
+   "Fantasy",
+   "Farming"
+  ],
+  "other_ids": [
+   330021,
+   258647
+  ]
+ },
+ "Chess": {
+  "id": 171,
+  "bgg_name": "Chess",
+  "year": "1475",
+  "mechanisms": [
+   "Grid Movement",
+   "Once-Per-Game Abilities",
+   "Pattern Movement",
+   "Square Grid",
+   "Static Capture",
+   "Sudden Death Ending"
+  ],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   171,
+   171,
+   171
+  ]
+ },
+ "Chutes and Ladders": {
+  "id": 5432,
+  "bgg_name": "Chutes and Ladders",
+  "year": "-200",
+  "mechanisms": [
+   "Events",
+   "Lose a Turn",
+   "Race",
+   "Roll / Spin and Move",
+   "Track Movement"
+  ],
+  "categories": [
+   "Animals",
+   "Children's Game",
+   "Movies / TV / Radio theme",
+   "World War II"
+  ],
+  "other_ids": [
+   5432,
+   5432,
+   13672
+  ]
+ },
+ "Coloretto": {
+  "id": 5782,
+  "bgg_name": "Coloretto",
+  "year": "2003",
+  "mechanisms": [
+   "Open Drafting",
+   "Push Your Luck",
+   "Set Collection",
+   "Turn Order: Pass Order"
+  ],
+  "categories": [
+   "Animals",
+   "Card Game"
+  ],
+  "other_ids": [
+   5782,
+   22652,
+   12614
+  ]
+ },
+ "Cosmic Encounter": {
+  "id": 15,
+  "bgg_name": "Cosmic Encounter",
+  "year": "1977",
+  "mechanisms": [
+   "Alliances",
+   "Hand Management",
+   "Negotiation",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Bluffing",
+   "Negotiation",
+   "Science Fiction"
+  ],
+  "other_ids": [
+   39463,
+   313010,
+   40529
+  ]
+ },
+ "Coup": {
+  "id": 131357,
+  "bgg_name": "Coup",
+  "year": "2012",
+  "mechanisms": [
+   "Betting and Bluffing",
+   "Hidden Roles",
+   "Memory",
+   "Player Elimination",
+   "Take That",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Deduction",
+   "Party Game",
+   "Political"
+  ],
+  "other_ids": [
+   131357,
+   158408,
+   1653,
+   2088
+  ]
+ },
+ "Dead of Winter": {
+  "id": 150376,
+  "bgg_name": "Dead of Winter: A Crossroads Game",
+  "year": "2014",
+  "mechanisms": [
+   "Action Points",
+   "Area Movement",
+   "Dice Rolling",
+   "Hand Management",
+   "Narrative Choice / Paragraph",
+   "Push Your Luck",
+   "Scenario / Mission / Campaign Game",
+   "Semi-Cooperative Game",
+   "Storytelling",
+   "Trading",
+   "Traitor Game",
+   "Turn Order: Progressive",
+   "Variable Player Powers",
+   "Voting"
+  ],
+  "categories": [
+   "Bluffing",
+   "Deduction",
+   "Horror",
+   "Science Fiction",
+   "Zombies"
+  ],
+  "other_ids": [
+   176601,
+   193037,
+   150376
+  ]
+ },
+ "Diamant": {
+  "id": 15512,
+  "bgg_name": "Diamant",
+  "year": "2005",
+  "mechanisms": [
+   "Move Through Deck",
+   "Push Your Luck",
+   "Simultaneous Action Selection"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Exploration"
+  ],
+  "other_ids": []
+ },
+ "Diplomacy": {
+  "id": 483,
+  "bgg_name": "Diplomacy",
+  "year": "1959",
+  "mechanisms": [
+   "Area Majority / Influence",
+   "Area Movement",
+   "Negotiation",
+   "Player Elimination",
+   "Prisoner's Dilemma",
+   "Simulation",
+   "Simultaneous Action Selection"
+  ],
+  "categories": [
+   "Bluffing",
+   "Negotiation",
+   "Political",
+   "Post-Napoleonic",
+   "Wargame"
+  ],
+  "other_ids": [
+   483,
+   483
+  ]
+ },
+ "Dominion": {
+  "id": 36218,
+  "bgg_name": "Dominion",
+  "year": "2008",
+  "mechanisms": [
+   "Deck, Bag, and Pool Building",
+   "Delayed Purchase",
+   "Hand Management",
+   "Open Drafting",
+   "Take That",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Card Game",
+   "Medieval"
+  ],
+  "other_ids": [
+   209418
+  ]
+ },
+ "Dune: Imperium": {
+  "id": 316554,
+  "bgg_name": "Dune: Imperium",
+  "year": "2020",
+  "mechanisms": [
+   "Card Play Conflict Resolution",
+   "Deck, Bag, and Pool Building",
+   "Delayed Purchase",
+   "Force Commitment",
+   "Increase Value of Unchosen Resources",
+   "Multi-Use Cards",
+   "Open Drafting",
+   "Ownership",
+   "Race",
+   "Solo / Solitaire Game",
+   "Tags",
+   "Take That",
+   "Turn Order: Progressive",
+   "Variable Player Powers",
+   "Worker Placement"
+  ],
+  "categories": [
+   "Movies / TV / Radio theme",
+   "Novel-based",
+   "Political",
+   "Science Fiction"
+  ],
+  "other_ids": [
+   316554,
+   316554,
+   316554,
+   397598
+  ]
+ },
+ "El Grande": {
+  "id": 93,
+  "bgg_name": "El Grande",
+  "year": "1995",
+  "mechanisms": [
+   "Action Drafting",
+   "Area Majority / Influence",
+   "Auction / Bidding",
+   "Hand Management",
+   "Open Drafting",
+   "Selection Order Bid",
+   "Simultaneous Action Selection",
+   "Take That",
+   "Turn Order: Auction"
+  ],
+  "categories": [
+   "Medieval"
+  ],
+  "other_ids": [
+   93,
+   147170,
+   93
+  ]
+ },
+ "Euchre": {
+  "id": 6901,
+  "bgg_name": "Euchre",
+  "year": "1848",
+  "mechanisms": [
+   "Team-Based Game",
+   "Trick-taking"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   6901,
+   6901
+  ]
+ },
+ "Flash Point: Fire Rescue": {
+  "id": 100901,
+  "bgg_name": "Flash Point: Fire Rescue",
+  "year": "2011",
+  "mechanisms": [
+   "Action Points",
+   "Cooperative Game",
+   "Dice Rolling",
+   "Grid Movement",
+   "Pick-up and Deliver",
+   "Simulation",
+   "Solo / Solitaire Game",
+   "Square Grid",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Adventure"
+  ],
+  "other_ids": [
+   100901,
+   100901
+  ]
+ },
+ "For Sale": {
+  "id": 172,
+  "bgg_name": "For Sale",
+  "year": "1997",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Auction: Sealed Bid",
+   "Auction: Turn Order Until Pass",
+   "Hand Management",
+   "Selection Order Bid"
+  ],
+  "categories": [
+   "Card Game",
+   "Economic"
+  ],
+  "other_ids": [
+   318709,
+   318710
+  ]
+ },
+ "Forbidden Desert": {
+  "id": 136063,
+  "bgg_name": "Forbidden Desert",
+  "year": "2013",
+  "mechanisms": [
+   "Action Points",
+   "Bias",
+   "Cooperative Game",
+   "Grid Movement",
+   "Hand Management",
+   "Map Deformation",
+   "Modular Board",
+   "Pick-up and Deliver",
+   "Solo / Solitaire Game",
+   "Square Grid",
+   "Tile Placement",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Adventure",
+   "Fantasy",
+   "Science Fiction"
+  ],
+  "other_ids": [
+   136063
+  ]
+ },
+ "Forbidden Island": {
+  "id": 65244,
+  "bgg_name": "Forbidden Island",
+  "year": "2010",
+  "mechanisms": [
+   "Action Points",
+   "Cooperative Game",
+   "Events",
+   "Grid Movement",
+   "Hand Management",
+   "Map Reduction",
+   "Modular Board",
+   "Pick-up and Deliver",
+   "Set Collection",
+   "Solo / Solitaire Game",
+   "Square Grid",
+   "Tile Placement",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Adventure",
+   "Fantasy",
+   "Science Fiction"
+  ],
+  "other_ids": [
+   65244,
+   65244,
+   65244,
+   65244
+  ]
+ },
+ "Ghost Stories": {
+  "id": 37046,
+  "bgg_name": "Ghost Stories",
+  "year": "2008",
+  "mechanisms": [
+   "Cooperative Game",
+   "Dice Rolling",
+   "Grid Movement",
+   "Modular Board",
+   "Move Through Deck",
+   "Solo / Solitaire Game",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Fantasy",
+   "Fighting",
+   "Horror",
+   "Mythology"
+  ],
+  "other_ids": [
+   37046,
+   37046,
+   37046
+  ]
+ },
+ "Gizmos": {
+  "id": 246192,
+  "bgg_name": "Gizmos",
+  "year": "2018",
+  "mechanisms": [
+   "Action Queue",
+   "Contracts",
+   "Open Drafting",
+   "Race"
+  ],
+  "categories": [
+   "Card Game",
+   "Science Fiction"
+  ],
+  "other_ids": []
+ },
+ "Gloomhaven": {
+  "id": 174430,
+  "bgg_name": "Gloomhaven",
+  "year": "2017",
+  "mechanisms": [
+   "Action Queue",
+   "Action Retrieval",
+   "Campaign / Battle Card Driven",
+   "Card Play Conflict Resolution",
+   "Communication Limits",
+   "Cooperative Game",
+   "Critical Hits and Failures",
+   "Deck Construction",
+   "Grid Movement",
+   "Hand Management",
+   "Hexagon Grid",
+   "Legacy Game",
+   "Line of Sight",
+   "Modular Board",
+   "Movement Points",
+   "Multi-Use Cards",
+   "Multiple Maps",
+   "Narrative Choice / Paragraph",
+   "Once-Per-Game Abilities",
+   "Player Elimination",
+   "Role Playing",
+   "Scenario / Mission / Campaign Game",
+   "Simultaneous Action Selection",
+   "Solo / Solitaire Game",
+   "Storytelling",
+   "Tags",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Adventure",
+   "Exploration",
+   "Fantasy",
+   "Fighting",
+   "Miniatures"
+  ],
+  "other_ids": [
+   390478,
+   174430
+  ]
+ },
+ "Go": {
+  "id": 188,
+  "bgg_name": "Go",
+  "year": "-2200",
+  "mechanisms": [
+   "Area Majority / Influence",
+   "Chaining",
+   "Enclosure",
+   "Pattern Building",
+   "Pattern Recognition",
+   "Square Grid"
+  ],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   188
+  ]
+ },
+ "Hanabi": {
+  "id": 98778,
+  "bgg_name": "Hanabi",
+  "year": "2010",
+  "mechanisms": [
+   "Communication Limits",
+   "Cooperative Game",
+   "Hand Management",
+   "Memory",
+   "Ordering",
+   "Set Collection"
+  ],
+  "categories": [
+   "Card Game",
+   "Deduction",
+   "Memory"
+  ],
+  "other_ids": [
+   98778,
+   290357
+  ]
+ },
+ "Hidden Leaders": {
+  "id": 320718,
+  "bgg_name": "Hidden Leaders",
+  "year": "2022",
+  "mechanisms": [
+   "Betting and Bluffing",
+   "Deduction",
+   "Hand Management",
+   "Hidden Roles",
+   "Open Drafting",
+   "Secret Unit Deployment",
+   "Tags",
+   "Take That",
+   "Track Movement",
+   "Tug of War"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Deduction",
+   "Fantasy",
+   "Party Game"
+  ],
+  "other_ids": [
+   359527,
+   320718
+  ]
+ },
+ "High Society": {
+  "id": 220,
+  "bgg_name": "High Society",
+  "year": "1995",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Auction: Turn Order Until Pass",
+   "Constrained Bidding",
+   "Hand Management"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   220
+  ]
+ },
+ "Incan Gold": {
+  "id": 15512,
+  "bgg_name": "Diamant",
+  "year": "2005",
+  "mechanisms": [
+   "Move Through Deck",
+   "Push Your Luck",
+   "Simultaneous Action Selection"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Exploration"
+  ],
+  "other_ids": [
+   15512,
+   419391
+  ]
+ },
+ "Innovation": {
+  "id": 63888,
+  "bgg_name": "Innovation",
+  "year": "2010",
+  "mechanisms": [
+   "Follow",
+   "Hand Management",
+   "Layering",
+   "Melding and Splaying",
+   "Sudden Death Ending",
+   "Tags",
+   "Take That",
+   "Tech Trees / Tech Tracks"
+  ],
+  "categories": [
+   "Card Game",
+   "Civilization"
+  ],
+  "other_ids": [
+   388367,
+   185257
+  ]
+ },
+ "Inside Job": {
+  "id": 324914,
+  "bgg_name": "Inside Job",
+  "year": "2022",
+  "mechanisms": [
+   "Communication Limits",
+   "Deduction",
+   "Hand Management",
+   "Hidden Roles",
+   "Semi-Cooperative Game",
+   "Team-Based Game",
+   "Traitor Game",
+   "Trick-taking",
+   "Variable Player Powers",
+   "Voting"
+  ],
+  "categories": [
+   "Card Game",
+   "Spies / Secret Agents"
+  ],
+  "other_ids": [
+   324914
+  ]
+ },
+ "King of Tokyo": {
+  "id": 70323,
+  "bgg_name": "King of Tokyo",
+  "year": "2011",
+  "mechanisms": [
+   "Dice Rolling",
+   "Die Icon Resolution",
+   "King of the Hill",
+   "Open Drafting",
+   "Player Elimination",
+   "Push Your Luck",
+   "Re-rolling and Locking",
+   "Take That"
+  ],
+  "categories": [
+   "Dice",
+   "Fighting",
+   "Movies / TV / Radio theme",
+   "Science Fiction"
+  ],
+  "other_ids": [
+   70323
+  ]
+ },
+ "Lords of Scotland": {
+  "id": 67888,
+  "bgg_name": "Lords of Scotland",
+  "year": "2010",
+  "mechanisms": [
+   "Hand Management"
+  ],
+  "categories": [
+   "Card Game",
+   "Fighting",
+   "Medieval"
+  ],
+  "other_ids": [
+   67888
+  ]
+ },
+ "Lords of Waterdeep": {
+  "id": 110327,
+  "bgg_name": "Lords of Waterdeep",
+  "year": "2012",
+  "mechanisms": [
+   "Contracts",
+   "Hidden Roles",
+   "Increase Value of Unchosen Resources",
+   "Ownership",
+   "Set Collection",
+   "Take That",
+   "Turn Order: Claim Action",
+   "Worker Placement"
+  ],
+  "categories": [
+   "City Building",
+   "Fantasy"
+  ],
+  "other_ids": [
+   110327
+  ]
+ },
+ "Love Letter": {
+  "id": 277085,
+  "bgg_name": "Love Letter",
+  "year": "2019",
+  "mechanisms": [
+   "Deduction",
+   "Hand Management",
+   "Player Elimination",
+   "Score-and-Reset Game",
+   "Take That"
+  ],
+  "categories": [
+   "Card Game",
+   "Deduction",
+   "Renaissance"
+  ],
+  "other_ids": [
+   129622,
+   277085,
+   196326
+  ]
+ },
+ "Ludo": {
+  "id": 2136,
+  "bgg_name": "Pachisi (BoardGameGeek's entry for Ludo)",
+  "year": "400",
+  "pinned": true,
+  "mechanisms": [
+   "Dice Rolling",
+   "Race",
+   "Roll / Spin and Move",
+   "Static Capture",
+   "Take That",
+   "Team-Based Game",
+   "Track Movement"
+  ],
+  "categories": [
+   "Children's Game"
+  ]
+ },
+ "Magic: The Gathering": {
+  "id": 463,
+  "bgg_name": "Magic: The Gathering",
+  "year": "1993",
+  "mechanisms": [
+   "Betting and Bluffing",
+   "Closed Drafting",
+   "Deck Construction",
+   "Hand Management",
+   "Income",
+   "Interrupts",
+   "Player Elimination",
+   "Tags",
+   "Take That"
+  ],
+  "categories": [
+   "Card Game",
+   "Collectible Components",
+   "Fantasy",
+   "Fighting"
+  ],
+  "other_ids": [
+   353507,
+   463,
+   463
+  ]
+ },
+ "Modern Art": {
+  "id": 118,
+  "bgg_name": "Modern Art",
+  "year": "1992",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Auction: English",
+   "Auction: Once Around",
+   "Auction: Sealed Bid",
+   "Auction: Turn Order Until Pass",
+   "Commodity Speculation",
+   "Hand Management",
+   "Victory Points as a Resource"
+  ],
+  "categories": [
+   "Card Game",
+   "Economic"
+  ],
+  "other_ids": [
+   118
+  ]
+ },
+ "Munchkin": {
+  "id": 1927,
+  "bgg_name": "Munchkin",
+  "year": "2001",
+  "mechanisms": [
+   "Hand Management",
+   "Race",
+   "Take That",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Card Game",
+   "Fantasy",
+   "Fighting",
+   "Humor"
+  ],
+  "other_ids": [
+   29678,
+   463285
+  ]
+ },
+ "Mystery of the Abbey": {
+  "id": 915,
+  "bgg_name": "Mystery of the Abbey",
+  "year": "1995",
+  "mechanisms": [
+   "Area Movement",
+   "Deduction",
+   "Dice Rolling",
+   "Events",
+   "Hand Management",
+   "Paper-and-Pencil",
+   "Set Collection"
+  ],
+  "categories": [
+   "Deduction",
+   "Medieval",
+   "Murder / Mystery",
+   "Religious"
+  ],
+  "other_ids": [
+   153912,
+   915
+  ]
+ },
+ "Nemo's War": {
+  "id": 187617,
+  "bgg_name": "Nemo's War (Second Edition)",
+  "year": "2017",
+  "pinned": true,
+  "mechanisms": [
+   "Action Points",
+   "Area Majority / Influence",
+   "Cooperative Game",
+   "Dice Rolling",
+   "Point to Point Movement",
+   "Push Your Luck",
+   "Simulation",
+   "Solo / Solitaire Game",
+   "Stat Check Resolution"
+  ],
+  "categories": [
+   "Adventure",
+   "Exploration",
+   "Nautical",
+   "Novel-based",
+   "Science Fiction",
+   "Travel",
+   "Wargame"
+  ]
+ },
+ "No Thanks!": {
+  "id": 12942,
+  "bgg_name": "No Thanks!",
+  "year": "2004",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Closed Economy Auction",
+   "Push Your Luck",
+   "Score-and-Reset Game",
+   "Set Collection"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   12942
+  ]
+ },
+ "Pandemic": {
+  "id": 30549,
+  "bgg_name": "Pandemic",
+  "year": "2008",
+  "mechanisms": [
+   "Action Points",
+   "Chaining",
+   "Contracts",
+   "Cooperative Game",
+   "Events",
+   "Hand Management",
+   "Multi-Use Cards",
+   "Point to Point Movement",
+   "Set Collection",
+   "Simulation",
+   "Solo / Solitaire Game",
+   "Tags",
+   "Trading",
+   "Variable Player Powers",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Medical",
+   "Travel"
+  ],
+  "other_ids": []
+ },
+ "Point Salad": {
+  "id": 274960,
+  "bgg_name": "Point Salad",
+  "year": "2019",
+  "mechanisms": [
+   "Contracts",
+   "End Game Bonuses",
+   "Open Drafting",
+   "Set Collection"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   189133
+  ]
+ },
+ "Power Grid": {
+  "id": 2651,
+  "bgg_name": "Power Grid",
+  "year": "2004",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Auction: Turn Order Until Pass",
+   "Catch the Leader",
+   "Income",
+   "Market",
+   "Network and Route Building",
+   "Turn Order: Stat-Based",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Economic",
+   "Industry / Manufacturing"
+  ],
+  "other_ids": [
+   2651
+  ]
+ },
+ "Quacks of Quedlinburg": {
+  "id": 244521,
+  "bgg_name": "Quacks",
+  "year": "2018",
+  "mechanisms": [
+   "Catch the Leader",
+   "Deck, Bag, and Pool Building",
+   "Delayed Purchase",
+   "Dice Rolling",
+   "Die Icon Resolution",
+   "Events",
+   "Neighbor Scope",
+   "Push Your Luck",
+   "Score-and-Reset Game",
+   "Simultaneous Action Selection",
+   "Track Movement",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Fantasy"
+  ],
+  "other_ids": [
+   244521
+  ]
+ },
+ "Ra": {
+  "id": 12,
+  "bgg_name": "Ra",
+  "year": "1999",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Auction: Once Around",
+   "Closed Economy Auction",
+   "Constrained Bidding",
+   "Hidden Victory Points",
+   "Push Your Luck",
+   "Set Collection"
+  ],
+  "categories": [
+   "Ancient",
+   "Mythology"
+  ],
+  "other_ids": [
+   12,
+   12
+  ]
+ },
+ "Race for the Galaxy": {
+  "id": 28143,
+  "bgg_name": "Race for the Galaxy",
+  "year": "2007",
+  "mechanisms": [
+   "End Game Bonuses",
+   "Follow",
+   "Hand Management",
+   "Income",
+   "Market",
+   "Multi-Use Cards",
+   "Simultaneous Action Selection",
+   "Tags",
+   "Variable Phase Order"
+  ],
+  "categories": [
+   "Card Game",
+   "Civilization",
+   "Economic",
+   "Science Fiction",
+   "Space Exploration"
+  ],
+  "other_ids": [
+   28143
+  ]
+ },
+ "Rex: Final Days of an Empire": {
+  "id": 104363,
+  "bgg_name": "Rex: Final Days of an Empire",
+  "year": "2012",
+  "mechanisms": [
+   "Alliances",
+   "Area Majority / Influence",
+   "Auction / Bidding",
+   "Force Commitment",
+   "Hand Management",
+   "Point to Point Movement",
+   "Team-Based Game",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Civil War",
+   "Fighting",
+   "Negotiation",
+   "Political",
+   "Science Fiction"
+  ],
+  "other_ids": [
+   104363
+  ]
+ },
+ "Risk": {
+  "id": 181,
+  "bgg_name": "Risk",
+  "year": "1959",
+  "mechanisms": [
+   "Area Majority / Influence",
+   "Area Movement",
+   "Dice Rolling",
+   "Hand Management",
+   "Income",
+   "Player Elimination",
+   "Point to Point Movement",
+   "Set Collection",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Territory Building",
+   "Wargame"
+  ],
+  "other_ids": [
+   37198,
+   181,
+   1829
+  ]
+ },
+ "Saboteur": {
+  "id": 9220,
+  "bgg_name": "Saboteur",
+  "year": "2004",
+  "mechanisms": [
+   "Hand Management",
+   "Hidden Roles",
+   "Hidden Victory Points",
+   "Map Addition",
+   "Network and Route Building",
+   "Score-and-Reset Game",
+   "Take That",
+   "Traitor Game"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Deduction",
+   "Exploration",
+   "Fantasy",
+   "Party Game"
+  ],
+  "other_ids": [
+   406322,
+   9220,
+   9220,
+   9220
+  ]
+ },
+ "Scythe": {
+  "id": 169786,
+  "bgg_name": "Scythe",
+  "year": "2016",
+  "mechanisms": [
+   "Area Majority / Influence",
+   "Card Play Conflict Resolution",
+   "Contracts",
+   "End Game Bonuses",
+   "Force Commitment",
+   "Grid Movement",
+   "Hexagon Grid",
+   "King of the Hill",
+   "Movement Points",
+   "Narrative Choice / Paragraph",
+   "Solo / Solitaire Game",
+   "Take That",
+   "Tech Trees / Tech Tracks",
+   "Variable Player Powers",
+   "Variable Set-up",
+   "Victory Points as a Resource",
+   "Zone of Control"
+  ],
+  "categories": [
+   "Economic",
+   "Fighting",
+   "Science Fiction",
+   "Territory Building"
+  ],
+  "other_ids": [
+   169786,
+   169786,
+   169786
+  ]
+ },
+ "Secret Hitler": {
+  "id": 188834,
+  "bgg_name": "Secret Hitler",
+  "year": "2016",
+  "mechanisms": [
+   "Hidden Roles",
+   "Player Elimination",
+   "Team-Based Game",
+   "Traitor Game",
+   "Voting"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Deduction",
+   "Humor",
+   "Party Game",
+   "Political",
+   "Print & Play",
+   "Spies / Secret Agents"
+  ],
+  "other_ids": [
+   188834,
+   188834
+  ]
+ },
+ "Shadows Over Camelot": {
+  "id": 15062,
+  "bgg_name": "Shadows over Camelot",
+  "year": "2005",
+  "mechanisms": [
+   "Communication Limits",
+   "Cooperative Game",
+   "Dice Rolling",
+   "Hand Management",
+   "Player Elimination",
+   "Semi-Cooperative Game",
+   "Set Collection",
+   "Sudden Death Ending",
+   "Take That",
+   "Team-Based Game",
+   "Trading",
+   "Traitor Game",
+   "Tug of War",
+   "Variable Player Powers"
+  ],
+  "categories": [
+   "Adventure",
+   "Bluffing",
+   "Deduction",
+   "Fantasy",
+   "Medieval",
+   "Mythology"
+  ],
+  "other_ids": [
+   15062,
+   15062,
+   129904
+  ]
+ },
+ "Skat": {
+  "id": 6819,
+  "bgg_name": "Skat",
+  "year": "1810",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Auction: Once Around",
+   "Communication Limits",
+   "Team-Based Game",
+   "Trick-taking"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   34486,
+   6819
+  ]
+ },
+ "Skull": {
+  "id": 92415,
+  "bgg_name": "Skull",
+  "year": "2011",
+  "mechanisms": [
+   "Auction / Bidding",
+   "Auction: Turn Order Until Pass",
+   "Bids As Wagers",
+   "Hand Management",
+   "Player Elimination",
+   "Predictive Bid"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Party Game"
+  ],
+  "other_ids": [
+   92415,
+   92415,
+   92415
+  ]
+ },
+ "Skull King": {
+  "id": 150145,
+  "bgg_name": "Skull King",
+  "year": "2013",
+  "mechanisms": [
+   "Hand Management",
+   "Predictive Bid",
+   "Rock-Paper-Scissors",
+   "Trick-taking"
+  ],
+  "categories": [
+   "Card Game",
+   "Nautical",
+   "Pirates"
+  ],
+  "other_ids": []
+ },
+ "Sky Team": {
+  "id": 373106,
+  "bgg_name": "Sky Team",
+  "year": "2023",
+  "mechanisms": [
+   "Communication Limits",
+   "Cooperative Game",
+   "Dice Rolling",
+   "Scenario / Mission / Campaign Game",
+   "Turn Order: Progressive",
+   "Variable Player Powers",
+   "Variable Set-up",
+   "Worker Placement with Dice Workers"
+  ],
+  "categories": [
+   "Aviation / Flight",
+   "Dice"
+  ],
+  "other_ids": [
+   373106,
+   373106
+  ]
+ },
+ "Small World": {
+  "id": 40692,
+  "bgg_name": "Small World",
+  "year": "2009",
+  "mechanisms": [
+   "Area Majority / Influence",
+   "Area Movement",
+   "Dice Rolling",
+   "Hidden Victory Points",
+   "Increase Value of Unchosen Resources",
+   "Variable Player Powers",
+   "Variable Set-up",
+   "Victory Points as a Resource"
+  ],
+  "categories": [
+   "Fantasy",
+   "Fighting",
+   "Territory Building"
+  ],
+  "other_ids": [
+   140135,
+   40692
+  ]
+ },
+ "Sorry!": {
+  "id": 2407,
+  "bgg_name": "Sorry!",
+  "year": "1929",
+  "mechanisms": [
+   "Roll / Spin and Move",
+   "Take That"
+  ],
+  "categories": [
+   "Children's Game"
+  ],
+  "other_ids": [
+   313121,
+   2407,
+   2407
+  ]
+ },
+ "Spirit Island": {
+  "id": 162886,
+  "bgg_name": "Spirit Island",
+  "year": "2017",
+  "mechanisms": [
+   "Action Retrieval",
+   "Area Majority / Influence",
+   "Automatic Resource Growth",
+   "Campaign / Battle Card Driven",
+   "Cooperative Game",
+   "Deck, Bag, and Pool Building",
+   "Hand Management",
+   "Modular Board",
+   "Solo / Solitaire Game",
+   "Tags",
+   "Variable Player Powers",
+   "Variable Set-up"
+  ],
+  "categories": [
+   "Environmental",
+   "Fantasy",
+   "Mythology",
+   "Territory Building"
+  ],
+  "other_ids": [
+   162886,
+   193065,
+   162886
+  ]
+ },
+ "Stone Age": {
+  "id": 34635,
+  "bgg_name": "Stone Age",
+  "year": "2008",
+  "mechanisms": [
+   "Action Retrieval",
+   "Contracts",
+   "Dice Rolling",
+   "End Game Bonuses",
+   "Increase Value of Unchosen Resources",
+   "Set Collection",
+   "Turn Order: Progressive",
+   "Worker Placement"
+  ],
+  "categories": [
+   "Dice",
+   "Economic",
+   "Prehistoric"
+  ],
+  "other_ids": [
+   34635,
+   260678,
+   107576
+  ]
+ },
+ "Suburbia": {
+  "id": 123260,
+  "bgg_name": "Suburbia",
+  "year": "2012",
+  "mechanisms": [
+   "Auction: Dutch",
+   "Catch the Leader",
+   "End Game Bonuses",
+   "Hexagon Grid",
+   "Income",
+   "Open Drafting",
+   "Set Collection",
+   "Solo / Solitaire Game",
+   "Tile Placement"
+  ],
+  "categories": [
+   "City Building",
+   "Economic"
+  ],
+  "other_ids": [
+   267367,
+   123260,
+   145196
+  ]
+ },
+ "Sushi Go!": {
+  "id": 133473,
+  "bgg_name": "Sushi Go!",
+  "year": "2013",
+  "mechanisms": [
+   "Closed Drafting",
+   "End Game Bonuses",
+   "Hand Management",
+   "Score-and-Reset Game",
+   "Set Collection",
+   "Simultaneous Action Selection"
+  ],
+  "categories": [
+   "Card Game",
+   "Party Game"
+  ],
+  "other_ids": [
+   133473,
+   133473
+  ]
+ },
+ "Takenoko": {
+  "id": 70919,
+  "bgg_name": "Takenoko",
+  "year": "2011",
+  "mechanisms": [
+   "Action Points",
+   "Contracts",
+   "Dice Rolling",
+   "Die Icon Resolution",
+   "End Game Bonuses",
+   "Grid Movement",
+   "Hexagon Grid",
+   "Modular Board",
+   "Network and Route Building",
+   "Pattern Building",
+   "Race",
+   "Set Collection",
+   "Tags",
+   "Tile Placement"
+  ],
+  "categories": [
+   "Animals",
+   "Environmental",
+   "Farming",
+   "Territory Building"
+  ],
+  "other_ids": [
+   70919,
+   70919,
+   70919
+  ]
+ },
+ "The Crew": {
+  "id": 284083,
+  "bgg_name": "The Crew: The Quest for Planet Nine",
+  "year": "2019",
+  "mechanisms": [
+   "Communication Limits",
+   "Cooperative Game",
+   "Deduction",
+   "Hand Management",
+   "Scenario / Mission / Campaign Game",
+   "Trick-taking"
+  ],
+  "categories": [
+   "Card Game",
+   "Science Fiction",
+   "Space Exploration"
+  ],
+  "other_ids": [
+   324856,
+   462192,
+   406299,
+   307204
+  ]
+ },
+ "The Crew: Mission Deep Sea": {
+  "id": 324856,
+  "bgg_name": "The Crew: Mission Deep Sea",
+  "year": "2021",
+  "mechanisms": [
+   "Communication Limits",
+   "Cooperative Game",
+   "Deduction",
+   "Hand Management",
+   "Scenario / Mission / Campaign Game",
+   "Trick-taking"
+  ],
+  "categories": [
+   "Adventure",
+   "Card Game",
+   "Mythology",
+   "Nautical"
+  ],
+  "other_ids": [
+   324856,
+   324856,
+   324856
+  ]
+ },
+ "The Crew: The Quest for Planet Nine": {
+  "id": 284083,
+  "bgg_name": "The Crew: The Quest for Planet Nine",
+  "year": "2019",
+  "mechanisms": [
+   "Communication Limits",
+   "Cooperative Game",
+   "Deduction",
+   "Hand Management",
+   "Scenario / Mission / Campaign Game",
+   "Trick-taking"
+  ],
+  "categories": [
+   "Card Game",
+   "Science Fiction",
+   "Space Exploration"
+  ],
+  "other_ids": [
+   284083,
+   284083,
+   284083
+  ]
+ },
+ "The Resistance": {
+  "id": 41114,
+  "bgg_name": "The Resistance",
+  "year": "2009",
+  "mechanisms": [
+   "Hidden Roles",
+   "Memory",
+   "Roles with Asymmetric Information",
+   "Simultaneous Action Selection",
+   "Team-Based Game",
+   "Traitor Game",
+   "Voting"
+  ],
+  "categories": [
+   "Bluffing",
+   "Card Game",
+   "Deduction",
+   "Negotiation",
+   "Party Game",
+   "Print & Play",
+   "Science Fiction",
+   "Spies / Secret Agents"
+  ],
+  "other_ids": [
+   41114,
+   41114,
+   41114
+  ]
+ },
+ "Ticket to Ride": {
+  "id": 9209,
+  "bgg_name": "Ticket to Ride",
+  "year": "2004",
+  "mechanisms": [
+   "Connections",
+   "Contracts",
+   "End Game Bonuses",
+   "Hand Management",
+   "Network and Route Building",
+   "Open Drafting",
+   "Push Your Luck",
+   "Set Collection"
+  ],
+  "categories": [
+   "Trains"
+  ],
+  "other_ids": []
+ },
+ "Ticket to Ride: Europe": {
+  "id": 14996,
+  "bgg_name": "Ticket to Ride: Europe",
+  "year": "2005",
+  "mechanisms": [
+   "Connections",
+   "Contracts",
+   "End Game Bonuses",
+   "Hand Management",
+   "Network and Route Building",
+   "Open Drafting",
+   "Push Your Luck",
+   "Set Collection"
+  ],
+  "categories": [
+   "Trains"
+  ],
+  "other_ids": [
+   329841,
+   14996
+  ]
+ },
+ "Vaccine": {
+  "id": 304865,
+  "bgg_name": "VACCINE",
+  "year": "2020",
+  "mechanisms": [
+   "Memory",
+   "Pattern Recognition",
+   "Tile Placement"
+  ],
+  "categories": [
+   "Deduction",
+   "Educational",
+   "Medical",
+   "Print & Play"
+  ],
+  "other_ids": [
+   380680,
+   142854
+  ]
+ },
+ "Viticulture World": {
+  "id": 360226,
+  "bgg_name": "Viticulture World: Cooperative Expansion",
+  "year": "2022",
+  "mechanisms": [
+   "Contracts",
+   "Cooperative Game",
+   "Solo / Solitaire Game",
+   "Turn Order: Auction",
+   "Victory Points as a Resource",
+   "Worker Placement",
+   "Worker Placement, Different Worker Types"
+  ],
+  "categories": [
+   "Expansion for Base-game",
+   "Economic",
+   "Farming"
+  ],
+  "other_ids": [
+   360226,
+   360226
+  ]
+ },
+ "Wingspan": {
+  "id": 266192,
+  "bgg_name": "Wingspan",
+  "year": "2019",
+  "mechanisms": [
+   "Action Queue",
+   "Dice Rolling",
+   "End Game Bonuses",
+   "Hand Management",
+   "Open Drafting",
+   "Set Collection",
+   "Solo / Solitaire Game",
+   "Turn Order: Progressive"
+  ],
+  "categories": [
+   "Animals",
+   "Card Game",
+   "Educational",
+   "Environmental"
+  ],
+  "other_ids": [
+   266192,
+   266192,
+   366161,
+   290448
+  ]
+ }
+}

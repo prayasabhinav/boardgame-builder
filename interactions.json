@@ -1,0 +1,732 @@
+{
+  "version": "0.1-draft",
+  "created": "2026-04-24",
+  "tool": "boardgameBuilder",
+  "description": "Knowledge body for Stage 2 rules layer. Pair, triadic, and feeling-block cross-reference entries assembled via Perplexity RAG (Claude 4.5 Sonnet thinking mode) with BoardGameGeek exemplar verification inline during generation. Pre-workshop grounding. To be refined post-weekend field notes.",
+  "assembly_source": "Perplexity reasoning mode × 6 clustered calls (24 April 2026). Each call produced 10-15 entries with BGG-verified exemplars. Remaining gaps filled post-workshop.",
+  "verification_status_definitions": {
+    "perplexity-bgg-verified": "Exemplars cited with BGG ID or tag reference in generation; considered production-ready pending workshop field notes",
+    "perplexity-flagged-check": "Exemplar named without BGG ID — spot-check recommended before workshop use",
+    "pending-audit": "Not yet spot-checked against live BGG data"
+  },
+  "pairs": [
+    {
+      "elements": ["push-your-luck", "direct-confrontation"],
+      "tendency": "Players keep risking more to grab rewards while trying to knock others back, creating exciting back-and-forth chases.",
+      "pros": ["Adds surprise attacks that keep everyone guessing next moves.", "Makes turns feel tense and full of big swings in who leads."],
+      "cons": ["One bad risk can let someone else pull way ahead suddenly.", "Lots of player hits might slow down the fun flow."],
+      "exemplars": ["Can't Stop", "King of Tokyo"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["push-your-luck", "fully-cooperative"],
+      "tendency": "The group decides together when to push for bigger team wins against a shared challenge, like betting on a group dare.",
+      "pros": ["Builds teamwork as everyone cheers on shared risks.", "Heightens group thrill when bold moves pay off for all."],
+      "cons": ["A single failed push can hurt the whole team's progress.", "Group debates over risks might take extra time."],
+      "exemplars": ["Nemo's War"],
+      "exemplars_removed": [{"game": "The Crew: Mission Deep Sea", "reason": "BoardGameGeek tags: Cooperative, Deduction, Trick-taking; no push your luck"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["worker-placement", "direct-confrontation"],
+      "tendency": "People place helpers to claim spots but bump others off or fight for key areas, like competing for the best playground swings.",
+      "pros": ["Turns blocking into smart ways to shape the game board.", "Keeps choices connected since your spot affects friends' plans."],
+      "cons": ["Popular spots fill fast, leaving fewer good options later.", "Direct bumps can make early turns feel crowded and frustrating."],
+      "exemplars": ["Lords of Waterdeep", "Caverna: Cave vs Cave"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["worker-placement", "solo-in-parallel"],
+      "tendency": "You place your workers on a board next to pretend opponents or alone, racing your own goals like building your dream town quietly.",
+      "pros": ["Lets you focus on personal plans without waiting for others.", "Feels like a private challenge you control at your pace."],
+      "cons": ["Less chatting with friends since paths don't cross much.", "Auto-opponents might block spots in repeating ways."],
+      "exemplars": ["Dune: Imperium", "Architects of the West Kingdom"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["drafting", "direct-confrontation"],
+      "tendency": "Friends pick from shared options then use them to mess with each other's setups, like choosing cards to prank rivals.",
+      "pros": ["Picking sharpens what you take to target others cleverly.", "Creates lively rivalries over who grabs the best counter-picks."],
+      "cons": ["Strong early picks widen gaps between leaders and catch-ups.", "Targets feel personal and might upset balanced play."],
+      "exemplars": ["7 Wonders Duel"],
+      "exemplars_removed": [{"game": "Innovation", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/63888): drafting absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["drafting", "fully-cooperative"],
+      "tendency": "Everyone passes choices around to build a team plan against the game, like sharing puzzle pieces for a group picture.",
+      "pros": ["Sharing picks helps the team cover all needs together.", "Encourages talk about who takes what for best group fit."],
+      "cons": ["Uneven picks might leave weak spots no one covers.", "Passing loops can feel slow if talks drag on."],
+      "exemplars": [],
+      "exemplars_removed": [{"game": "Vaccine", "reason": "BoardGameGeek: Tile Placement, Memory, Pattern Recognition; competitive, most points wins"}, {"game": "Gizmos", "reason": "BoardGameGeek: Open Drafting, Race; competitive, one champion"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["area-control", "direct-confrontation"],
+      "tendency": "Groups battle to claim and hold map spots by pushing out rivals, like teams claiming neighborhood forts.",
+      "pros": ["Sparks fierce fights over valuable lands that matter most.", "Rewards bold moves to flip control in key battles."],
+      "cons": ["Losing battles wipes out hard-earned progress quickly.", "Maps get chaotic with constant back-and-forth fights."],
+      "exemplars": ["Risk", "Blood Rage"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["area-control", "indirect-via-board"],
+      "tendency": "Players grow strength on the board to nudge out others without head-on clashes, like plants overtaking a garden patch.",
+      "pros": ["Lets clever positioning shift power without mean attacks.", "Board state guides natural rivalries over time."],
+      "cons": ["Slow builds mean late-game surprises from quiet leaders.", "Ties in areas create uncertainty on who gains what."],
+      "exemplars": ["El Grande", "Small World"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["trick-taking", "fully-cooperative"],
+      "tendency": "The team follows suit rules to hit shared trick goals against the deck, like passing secret signals in a group quest.",
+      "pros": ["Suit following builds trust in team card plays.", "Shared missions make every trick a team story moment."],
+      "cons": ["One wrong lead can derail the whole mission chain.", "Strict rules limit wild plays for comebacks."],
+      "exemplars": ["The Crew: The Quest for Planet Nine"],
+      "exemplars_removed": [{"game": "Sky Team", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/373106): trick-taking absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["trick-taking", "team-vs-team"],
+      "tendency": "Partners signal quietly during tricks to outscore the other pair, like spouses guessing each other's card hints.",
+      "pros": ["Partner signals add hidden teamwork layers.", "Team wins feel shared without solo pressure."],
+      "cons": ["Misread signals lead to big team losses unexpectedly.", "Uneven partners create blame during tough hands."],
+      "exemplars": ["Bridge", "Euchre"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["roll-and-move", "race-to-finish"],
+      "tendency": "You roll dice to move your piece along a path, and it feels like a fun dash where luck decides who dashes ahead first.",
+      "pros": ["Quick and easy to play for everyone.", "Exciting surprises from dice rolls keep it lively."],
+      "cons": ["Little choice means smart plans don't matter much.", "One bad roll can end your lead fast."],
+      "exemplars": ["Sorry!", "Ludo"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["drafting", "most-points"],
+      "tendency": "You pick cards from a shared pool to build your score, feeling like a clever trade where choices shape your total.",
+      "pros": ["Picking smartly rewards good thinking.", "Short games fit many plays."],
+      "cons": ["Bad picks early hurt your whole game.", "Watching others can slow turns."],
+      "exemplars": ["7 Wonders", "Sushi Go!"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["worker-placement", "most-points"],
+      "tendency": "You place workers on spots to grab resources and build points, feeling like careful planning to grow your score biggest.",
+      "pros": ["Blocking spots adds friendly rivalry.", "Plans pay off over time."],
+      "cons": ["Running out of spots frustrates waits.", "Long games test patience."],
+      "exemplars": ["Agricola", "Lords of Waterdeep"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["set-collection", "most-points"],
+      "tendency": "You gather matching items like colors or types for points, feeling like hunting treasures to complete fun groups.",
+      "pros": ["Easy to see goals clearly.", "Mixes with picks for variety."],
+      "cons": ["Too many same items waste space.", "Others grab what you want."],
+      "exemplars": ["Ticket to Ride", "Coloretto"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["tile-placement", "most-points"],
+      "tendency": "You lay tiles to build areas and score, feeling like growing a pretty map where connections boost your points.",
+      "pros": ["Builds cool shared worlds.", "Choices link for big rewards."],
+      "cons": ["Bad tiles mess your area.", "Crowding limits options late."],
+      "exemplars": ["Carcassonne", "Azul"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["area-control", "last-standing"],
+      "tendency": "You claim map spots to push others out, feeling like a battle where you fight to stay in till the end.",
+      "pros": ["Thrilling fights for land.", "Comebacks from strong grabs."],
+      "cons": ["Early loss ends your fun.", "Can feel mean to new players."],
+      "exemplars": ["Risk"],
+      "exemplars_removed": [{"game": "Blood Rage", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/170216): last-standing absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["push-your-luck", "mostly-chance"],
+      "tendency": "You risk more draws or rolls for rewards, feeling like a dare where luck decides if you win big or bust.",
+      "pros": ["Heart-pounding risk moments.", "Fast rounds for quick fun."],
+      "cons": ["Bad luck wipes your turn.", "Little skill evens everyone."],
+      "exemplars": ["Can't Stop", "Incan Gold"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["worker-placement", "mostly-skill"],
+      "tendency": "You place workers with tiny luck, feeling like a brainy puzzle where smart spots win the day.",
+      "pros": ["Skill shines without dice tricks.", "Deep plans for experts."],
+      "cons": ["Pros win often, frustrating newbies.", "No luck means no surprises."],
+      "exemplars": ["Stone Age", "Caverna"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["drafting", "skill-with-luck-tempering"],
+      "tendency": "You draft with some luck but choices tame it, feeling like smart picks turn chance into wins.",
+      "pros": ["Balances luck with brainpower.", "Replays feel fresh."],
+      "cons": ["Luck spikes can swing scores.", "Drafting takes group think."],
+      "exemplars": ["Point Salad", "7 Wonders Duel"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["hand-management", "chance-with-mitigation"],
+      "tendency": "You play cards from hand amid draws but discard to fix bad luck, feeling like steering fate with your choices.",
+      "pros": ["Hand choices fight bad draws.", "Tense discards save you."],
+      "cons": ["Weak hands start rough.", "Card floods overwhelm."],
+      "exemplars": ["Dominion", "Race for the Galaxy"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["fully-cooperative", "hidden-hands"],
+      "tendency": "Players work as a team but can't freely talk about their secret cards, so they give hints to share info without saying it straight.",
+      "pros": ["Builds fun puzzle-solving as a group.", "Makes teamwork feel clever and tricky."],
+      "cons": ["Hints can confuse the team.", "Wrong guesses lead to quick losses."],
+      "exemplars": ["Hanabi", "The Crew"],
+      "verification_status": "exa-bgg-checked-20261016",
+      "tension_note": "Creates a communication constraint where team trust relies on subtle clues instead of open chat. This IS the game."
+    },
+    {
+      "elements": ["fully-cooperative", "full-information"],
+      "tendency": "Everyone sees all cards and plans openly, focusing on smart group choices against the game.",
+      "pros": ["Easy talk leads to strong plans.", "Feels like true teamwork with no secrets."],
+      "cons": ["One bad player hurts everyone.", "Can feel like arguing over moves (alpha-player problem)."],
+      "exemplars": ["Pandemic", "Forbidden Island"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["traitor", "hidden-identity"],
+      "tendency": "A secret betrayer hides among the group, pretending to help while sabotaging quietly.",
+      "pros": ["Paranoia makes talks exciting.", "Traitor adds surprise twists."],
+      "cons": ["Inactive traitors drag the game.", "Accusations can upset friends."],
+      "exemplars": ["Dead of Winter", "Battlestar Galactica"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["direct-confrontation", "bluffing"],
+      "tendency": "Players attack each other face-to-face while lying about their strength or plans to fool foes.",
+      "pros": ["Lies create funny mind games.", "Quick fights keep energy high."],
+      "cons": ["Luck in bluffs frustrates skill.", "Mean taunts can sour fun."],
+      "exemplars": ["Skull", "Coup"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["direct-confrontation", "hidden-hands"],
+      "tendency": "Players clash openly but hide their cards, guessing enemy power during fights.",
+      "pros": ["Hidden info adds attack risk.", "Rewards reading opponent tells."],
+      "cons": ["Bad draws swing battles unfairly.", "Stalls from overthinking hands."],
+      "exemplars": ["Munchkin"],
+      "exemplars_removed": [{"game": "King of Tokyo", "reason": "power cards are kept face up (rulebook); no hidden hands"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["team-vs-team", "hidden-identity"],
+      "tendency": "Rival teams battle, but secret roles within teams create internal doubt and spies.",
+      "pros": ["Team chats build bonds.", "Hidden roles add betrayal spice."],
+      "cons": ["Uneven teams ruin balance.", "Spy reveals end fun early."],
+      "exemplars": ["Secret Hitler", "Blood on the Clocktower"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["fully-cooperative", "cooperative-survival"],
+      "tendency": "The team fights to stay alive together against tough threats like zombies or disasters.",
+      "pros": ["Shared danger builds excitement.", "Choices feel urgent and real."],
+      "cons": ["Hard losses frustrate groups.", "Repeat plays feel samey."],
+      "exemplars": ["Spirit Island", "Gloomhaven"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["fully-cooperative", "shared-objective"],
+      "tendency": "Players unite on one big goal, like curing diseases or building a wonder.",
+      "pros": ["Clear win bonds the group.", "Roles let everyone shine."],
+      "cons": ["Alpha players boss others.", "Analysis paralysis slows play."],
+      "exemplars": ["Pandemic", "Forbidden Desert"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["direct-confrontation", "last-standing"],
+      "tendency": "Players bash each other until only one monster or warrior remains victorious.",
+      "pros": ["Simple fights are fast and fun.", "Eliminations ramp up tension."],
+      "cons": ["Early knockouts bore losers.", "Swingy combat lacks depth."],
+      "exemplars": ["King of Tokyo", "Bang! The Dice Game"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["traitor", "semi-cooperative"],
+      "tendency": "Players mostly cooperate but chase personal goals, with a traitor undermining all.",
+      "pros": ["Personal aims add rivalry.", "Traitor mixes chaos cleverly."],
+      "cons": ["Traitor power feels unfair.", "Goals clash messily."],
+      "exemplars": ["Dead of Winter", "Shadows Over Camelot"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["hand-management", "hidden-hands"],
+      "tendency": "Players feel sneaky excitement guessing what others hold while carefully timing their own card plays.",
+      "pros": ["Builds tension through secret planning.", "Rewards smart card timing over luck."],
+      "cons": ["Can frustrate if hands get stuck.", "New players struggle reading opponents."],
+      "exemplars": ["Race for the Galaxy", "Magic: The Gathering"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["hand-management", "full-information"],
+      "tendency": "Everyone sees all cards, so turns feel like a public puzzle where order of play creates clever chains.",
+      "pros": ["Fair competition with no hidden surprises.", "Easy to teach strategy through visible choices."],
+      "cons": ["Predictability reduces drama.", "Longer analysis paralysis for kids."],
+      "exemplars": [],
+      "exemplars_removed": [{"game": "7 Wonders", "reason": "BoardGameGeek: Closed Drafting; hands are hidden"}, {"game": "Ticket to Ride", "reason": "destination tickets are secret; not full information"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["bidding", "hidden-hands"],
+      "tendency": "Bidding blindly on secret values sparks wild guesses and laughs from overpaying surprises.",
+      "pros": ["Quick rounds with high bluff potential.", "Teaches value judgment under uncertainty."],
+      "cons": ["Feels unfair if luck swings bids.", "Hard for kids to gauge hidden worth."],
+      "exemplars": ["For Sale", "High Society"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["bidding", "full-information"],
+      "tendency": "Open bids on known items turn into tense number-crunching standoffs over exact worth.",
+      "pros": ["Pure strategy without mind games.", "Clear math lessons in auctions."],
+      "cons": ["Can drag with repeated recalculation.", "Dominant players always win big."],
+      "exemplars": ["Modern Art"],
+      "exemplars_removed": [{"game": "Ra", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/12): full-information contradicted (Hidden Victory Points)"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["deduction", "trick-taking"],
+      "tendency": "Tricks reveal clues bit by bit, making each lead a thrilling aha moment or swing of suspicion.",
+      "pros": ["Combines pattern-spotting with rhythm.", "Short games build deduction skills fast."],
+      "cons": ["Relies on memory overload.", "Frustrates if one player deduces early."],
+      "exemplars": ["The Crew: Mission Deep Sea", "Inside Job"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["deduction", "worker-placement"],
+      "tendency": "Placing workers uncovers shared secrets, turning the board into a detective map of motives.",
+      "pros": ["Spatial clues aid visual learners.", "Steady pace for thoughtful probing."],
+      "cons": ["Worker blocks slow clue flow.", "Groupthink dominates solo deduction."],
+      "exemplars": [],
+      "exemplars_removed": [{"game": "Mystery of the Abbey", "reason": "BoardGameGeek: Area Movement, Dice Rolling, Hand Management; no worker placement"}, {"game": "Lords of Scotland", "reason": "BoardGameGeek: Hand Management only"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["bluffing", "push-your-luck"],
+      "tendency": "Risky presses with fake bravado create hilarious busts or epic steals from the pot.",
+      "pros": ["High energy and replay laughs.", "Teaches risk calibration intuitively."],
+      "cons": ["Swingy outcomes upset fairness.", "Shy kids avoid bluffing pressure."],
+      "exemplars": ["Skull", "Diamant"],
+      "exemplars_unconfirmed": [{"game": "Skull", "reason": "BoardGameGeek tags lack Push Your Luck, but play turns over discs after a bid, which is push-your-luck play; left for Prayas to judge"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["bluffing", "bidding"],
+      "tendency": "Fake bids bait opponents into costly folds, making auctions a theater of fake confidence.",
+      "pros": ["Layers deception on strategy.", "Quick social reads build confidence."],
+      "cons": ["Toxic if players get personal.", "Bids escalate unpredictably."],
+      "exemplars": [],
+      "exemplars_removed": [{"game": "Incan Gold", "reason": "BoardGameGeek: Push Your Luck, Simultaneous Action Selection; no bidding or bluffing"}, {"game": "Ra", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/12): bluffing absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["set-collection", "hidden-hands"],
+      "tendency": "Secret sets build surprise reveals, but trades force tough reveals of partial hands.",
+      "pros": ["Trading adds negotiation fun.", "End-game reveals excite kids."],
+      "cons": ["Dead hands stall if no trades.", "Imbalance from early luck."],
+      "exemplars": ["Bohnanza", "No Thanks!"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["tile-placement", "full-information"],
+      "tendency": "Open board invites rivalry over spots, where every tile locks in chain reactions everyone sees.",
+      "pros": ["Visual planning teaches foresight.", "Collaborative tension without secrets."],
+      "cons": ["Early leads snowball hard.", "Crowding frustrates late players."],
+      "exemplars": ["Carcassonne", "Azul"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["hidden-personal-goal", "hidden-hands"],
+      "tendency": "Players sneak toward secret wins while hiding their cards, making everyone suspicious of each other.",
+      "pros": ["Builds tension through bluffing and mind-reading.", "Encourages clever card plays opponents can't predict."],
+      "cons": ["Can lead to arguments over suspected cheating.", "Harder for new players to grasp hidden strategies."],
+      "exemplars": ["Takenoko", "Hidden Leaders"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["hidden-personal-goal", "full-information"],
+      "tendency": "Secret goals create surprise twists even when the board shows everything else clearly.",
+      "pros": ["Board transparency lets players focus on strategy.", "Opponents can guess goals from public actions."],
+      "cons": ["Guessing goals might frustrate if too obvious or too hidden.", "Full view can make blocking easy once goals are spotted."],
+      "exemplars": ["Suburbia"],
+      "exemplars_removed": [{"game": "Ticket to Ride", "reason": "Days of Wonder rulebook: players keep their Destination Tickets secret until the end of the game; not full information"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["cooperative-survival", "hidden-hands"],
+      "tendency": "Teammates hide cards to fight shared threats, but must share info carefully to survive together.",
+      "pros": ["Prevents alpha gaming where one player bosses everyone.", "Forces real teamwork through trading and requests."],
+      "cons": ["Poor communication leads to failed plans easily.", "Hand limits create tough choices on what to share."],
+      "exemplars": ["Pandemic", "Ghost Stories"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["most-points", "full-information"],
+      "tendency": "Everyone sees the scores and plans, turning it into a fair race to build the biggest total.",
+      "pros": ["Clear leaderboards motivate catch-up plays.", "Easy to balance strategies since all moves are visible."],
+      "cons": ["Leader gets ganged up on, feeling unfair late game.", "Can turn cutthroat as players block obvious point grabs."],
+      "exemplars": [],
+      "exemplars_removed": [{"game": "Agricola", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/31260): full-information contradicted (Closed Drafting)"}, {"game": "Catan", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/13): full-information contradicted (Hidden Victory Points)"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["mostly-skill", "full-information"],
+      "tendency": "Perfect setup for brainy showdowns where smart moves beat everyone since nothing's hidden.",
+      "pros": ["Rewards planning and tactics fully.", "Replays teach deeper strategies over time."],
+      "cons": ["Top players dominate repeats, boring others.", "Long think times slow fun."],
+      "exemplars": ["Chess", "Go"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["negotiation", "fully-cooperative"],
+      "tendency": "Players talk a lot to share plans and help everyone win together against the game.",
+      "pros": ["Builds team trust through open deals on resources.", "Encourages creative problem-solving as a group."],
+      "cons": ["Talking can slow the game if players argue.", "One quiet player might feel left out."],
+      "exemplars": ["Pandemic"],
+      "exemplars_removed": [{"game": "Cosmic Encounter", "reason": "BoardGameGeek: Negotiation, Alliances; competitive"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["negotiation", "direct-confrontation"],
+      "tendency": "Deals happen right before fights, mixing talk with attacks to steal advantages.",
+      "pros": ["Makes battles exciting with last-second alliances.", "Rewards smart talkers who bluff well."],
+      "cons": ["Deals can break trust and cause hard feelings.", "Strong players dominate weaker talkers."],
+      "exemplars": ["Catan"],
+      "exemplars_removed": [{"game": "Blood Rage", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/170216): negotiation absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["push-your-luck", "race-to-finish"],
+      "tendency": "You risk big moves to speed ahead, but one bad roll sends you back to the start.",
+      "pros": ["Creates tense one-more-try moments.", "Fast games with high replay excitement."],
+      "cons": ["Luck can make leaders unbeatable early.", "Frustrating busts kill player momentum."],
+      "exemplars": ["Can't Stop", "Quacks of Quedlinburg"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["worker-placement", "fully-cooperative"],
+      "tendency": "Everyone places workers together to beat a shared challenge like a disaster.",
+      "pros": ["Teaches shared strategy without cutthroat blocking.", "Balances roles for fair team contributions."],
+      "cons": ["Worker blocking still frustrates teamwork.", "Long turns make it feel slow."],
+      "exemplars": ["Viticulture World"],
+      "exemplars_removed": [{"game": "Pandemic", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/30549): worker-placement absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["hand-management", "fully-cooperative"],
+      "tendency": "Players pass and play cards from hands to chain combos against the game.",
+      "pros": ["Deep planning with card trades feels united.", "High skill ceiling for expert teams."],
+      "cons": ["Bad draws doom the whole group.", "Analysis paralysis from too many options."],
+      "exemplars": ["Pandemic", "Arkham Horror: The Card Game"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["trick-taking", "mostly-skill"],
+      "tendency": "You read opponents' plays to win tricks, with little luck in card deals.",
+      "pros": ["Rewards memory and prediction over chance.", "Tight games where skill shines through."],
+      "cons": ["Steep learning for card-counting newbies.", "Punishes early mistakes harshly."],
+      "exemplars": ["Skat", "The Crew: Mission Deep Sea"],
+      "verification_status": "exa-bgg-checked-20261016"
+    }
+  ],
+  "triads": [
+    {
+      "elements": ["push-your-luck", "race-to-finish", "direct-confrontation"],
+      "tendency": "Players race ahead by risking big moves but often smash into each other, causing chaotic fights that slow everyone down.",
+      "pros": ["Creates thrilling high-stakes chases with sudden betrayals.", "Heightens tension as risks amplify rival attacks."],
+      "cons": ["Frustration from lost progress due to bad luck or blocks.", "Can feel unfair when confrontation halts races unpredictably."],
+      "exemplars": ["Incan Gold", "King of Tokyo"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["worker-placement", "most-points", "full-information"],
+      "tendency": "Everyone sees the board and plans worker spots to grab the best spots for victory points, leading to careful blocking and optimization.",
+      "pros": ["Promotes smart long-term planning with visible competition.", "Balanced scoring rewards efficient engine-building."],
+      "cons": ["Can cause analysis paralysis from overthinking options.", "Early blocks snowball into runaway leads."],
+      "exemplars": ["Caverna"],
+      "exemplars_removed": [{"game": "Agricola", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/31260): full-information contradicted (Closed Drafting)"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["fully-cooperative", "hidden-hands", "cooperative-survival"],
+      "tendency": "Teammates hide cards while working together to survive threats, creating doubt about who can be trusted even without traitors.",
+      "pros": ["Builds suspense through partial secrecy in teamwork.", "Encourages communication without full reveals."],
+      "cons": ["Hidden info frustrates coordination in crises.", "Misplays from poor info sharing lead to quick losses."],
+      "exemplars": ["Pandemic", "Forbidden Island"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["traitor", "hidden-identity", "semi-cooperative"],
+      "tendency": "Friends secretly include a betrayer who sabotages while pretending to help, blending teamwork with hidden backstabbing.",
+      "pros": ["Generates paranoia and memorable reveals.", "Rewards deception alongside group goals."],
+      "cons": ["Traitor wins feel random if not spotted early.", "Group arguments disrupt fun flow."],
+      "exemplars": ["Dead of Winter", "Battlestar Galactica"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["area-control", "last-standing", "direct-confrontation"],
+      "tendency": "Fighters claim territories through brutal clashes until only one dominates the map as the survivor.",
+      "pros": ["Epic battles for map dominance feel visceral.", "Last-player-standing creates climactic eliminations."],
+      "cons": ["Player elimination drags out multi-hour games.", "Swingy fights favor aggressive luck."],
+      "exemplars": ["King of Tokyo"],
+      "exemplars_removed": [{"game": "Blood Rage", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/170216): last-standing absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["drafting", "most-points", "set-collection"],
+      "tendency": "Players pick cards in turns to build matching sets that score big points, denying rivals key combos.",
+      "pros": ["Quick, elegant card selection with combo potential.", "Scalable depth for varied player counts."],
+      "cons": ["Drafting order luck influences set quality.", "Weak sets lead to inevitable low scores."],
+      "exemplars": ["7 Wonders", "Sushi Go!"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["roll-and-move", "race-to-finish", "mostly-chance"],
+      "tendency": "Roll dice to dash to the end, but random paths and events make it a wild luck fest with little control.",
+      "pros": ["Simple, fast family fun with no deep strategy.", "Pure chance evens odds for casual play."],
+      "cons": ["Feels pointless as skill doesn't matter.", "Long streaks of bad rolls ruin races."],
+      "exemplars": ["Sorry!", "Chutes and Ladders"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["tile-placement", "most-points", "full-information"],
+      "tendency": "Place tiles to connect features for points while everyone sees and blocks your best layouts.",
+      "pros": ["Satisfying puzzle-building with open competition.", "Visual progress motivates strategic denial."],
+      "cons": ["Table space explodes with large maps.", "Late-game tiles limit clever plays."],
+      "exemplars": ["Carcassonne", "Azul"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["hand-management", "hidden-hands", "direct-confrontation"],
+      "tendency": "Secret hands fuel surprise attacks, forcing players to bluff strength while timing card plays.",
+      "pros": ["Bluffing adds mind games to combat.", "Hand limits create tough discard choices."],
+      "cons": ["Poor draws cripple attack plans.", "Stale hands lead to predictable plays."],
+      "exemplars": ["Cosmic Encounter", "Bang!"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["deduction", "hidden-identity", "traitor"],
+      "tendency": "Guess who's the secret betrayer by piecing together clues and actions amid hidden roles.",
+      "pros": ["Intense whodunit reveals with logic layers.", "Traitors thrive on subtle sabotage."],
+      "cons": ["Wrong accusations end games prematurely.", "Quiet players evade scrutiny unfairly."],
+      "exemplars": ["Blood on the Clocktower", "Saboteur"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["bidding", "hidden-hands", "most-points"],
+      "tendency": "Secret bids from hands compete for point-rich assets, bluffing value to outmaneuver rivals.",
+      "pros": ["Hidden bids enable clever bluffs for steals.", "Tense auctions reward hand timing."],
+      "cons": ["Bad hands force weak bids consistently.", "Auction sniping feels punishing."],
+      "exemplars": ["For Sale", "Ra"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["trick-taking", "team-vs-team", "hidden-hands"],
+      "tendency": "Partners secretly bid tricks with hidden cards, coordinating wins without direct talk.",
+      "pros": ["Partnership tension builds via signals.", "Team victories feel collaborative."],
+      "cons": ["Poor partners doom teams randomly.", "Bidding misreads cause blowouts."],
+      "exemplars": ["Bridge"],
+      "exemplars_removed": [{"game": "Skull King", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/150145): team-vs-team absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["negotiation", "direct-confrontation", "area-control"],
+      "tendency": "Deal-making precedes fights over territories, with alliances shifting mid-power grab.",
+      "pros": ["Diplomacy adds flavor to territorial wars.", "Trades create unexpected swing turns."],
+      "cons": ["Deal-breaking breeds table tension.", "Kingmaking ruins close games."],
+      "exemplars": ["Diplomacy", "Rex: Final Days of an Empire"],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["push-your-luck", "fully-cooperative", "cooperative-survival"],
+      "tendency": "Team risks collective pushes against disasters, banking shared rewards or busting together.",
+      "pros": ["Shared risk unites group decisions.", "Tense group gambles heighten bonds."],
+      "cons": ["One bad push wipes team progress.", "Dominant voices override caution."],
+      "exemplars": [],
+      "exemplars_removed": [{"game": "Ghost Stories", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/37046): push-your-luck absent"}, {"game": "Flash Point: Fire Rescue", "reason": "BoardGameGeek full tags (https://boardgamegeek.com/boardgame/100901): push-your-luck absent"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    },
+    {
+      "elements": ["mostly-skill", "full-information", "most-points"],
+      "tendency": "Pure strategy shines as perfect info lets players outplan rivals for max points.",
+      "pros": ["Rewards deep calculation and foresight.", "Fair competition minimizes luck swings."],
+      "cons": ["Long think times slow momentum.", "Experience gaps widen skill divides."],
+      "exemplars": ["Power Grid"],
+      "exemplars_removed": [{"game": "Ticket to Ride: Europe", "reason": "Days of Wonder rulebook: players keep their Destination Tickets secret until the end of the game; not full information"}],
+      "verification_status": "exa-bgg-checked-20261016"
+    }
+  ],
+  "feeling_blocks": [
+    {
+      "feeling": "excited",
+      "description": "Loud table, big swings, you can't look away.",
+      "supported_by": ["push-your-luck", "mostly-chance", "direct-confrontation", "race-to-finish"],
+      "opposed_by": ["mostly-skill", "full-information", "solo-in-parallel"],
+      "exemplar": "Quacks of Quedlinburg",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "clever",
+      "description": "Your choices matter, you feel smart.",
+      "supported_by": ["mostly-skill", "hand-management", "drafting", "deduction"],
+      "opposed_by": ["mostly-chance", "bluffing", "traitor"],
+      "exemplar": "Agricola",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "silly",
+      "description": "Laughing at what just happened, absurd moments.",
+      "supported_by": ["push-your-luck", "mostly-chance", "bidding", "direct-confrontation"],
+      "opposed_by": ["area-control", "worker-placement", "trick-taking"],
+      "exemplar": "Incan Gold",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "tense",
+      "description": "You're on edge, something could go wrong any moment.",
+      "supported_by": ["push-your-luck", "direct-confrontation", "last-standing", "deduction", "cooperative-survival"],
+      "opposed_by": ["fully-cooperative", "full-information", "shared-objective"],
+      "exemplar": "Blood on the Clocktower",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "together",
+      "description": "You and your friends are in it as one. Shared fate.",
+      "supported_by": ["fully-cooperative", "cooperative-survival", "shared-objective"],
+      "opposed_by": ["direct-confrontation", "traitor", "last-standing"],
+      "exemplar": "Pandemic",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "sneaky",
+      "description": "Hiding things, tricking people, secret plans.",
+      "supported_by": ["bluffing", "traitor", "hidden-identity", "hidden-hands"],
+      "opposed_by": ["full-information", "fully-cooperative", "mostly-skill"],
+      "exemplar": "The Resistance",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "lucky",
+      "description": "The dice or the draw felt magical. You got away with it.",
+      "supported_by": ["mostly-chance", "push-your-luck"],
+      "opposed_by": ["mostly-skill", "hand-management", "deduction"],
+      "exemplar": "Can't Stop",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "in charge",
+      "description": "You're directing something. Deep decisions have weight.",
+      "supported_by": ["worker-placement", "area-control", "bidding"],
+      "opposed_by": ["mostly-chance", "race-to-finish", "fully-cooperative"],
+      "exemplar": "Scythe",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "surprised",
+      "description": "Something unexpected keeps happening.",
+      "supported_by": ["traitor", "hidden-identity", "bluffing", "hidden-hands"],
+      "opposed_by": ["full-information", "mostly-skill"],
+      "exemplar": "Betrayal at House on the Hill",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "thoughtful",
+      "description": "You sit back and think. Time to plan.",
+      "supported_by": ["worker-placement", "hand-management", "drafting", "mostly-skill"],
+      "opposed_by": ["race-to-finish", "mostly-chance", "direct-confrontation"],
+      "exemplar": "Wingspan",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "fast",
+      "description": "The game moves. Short turns, quick rounds.",
+      "supported_by": ["race-to-finish", "trick-taking", "drafting"],
+      "opposed_by": ["worker-placement", "area-control", "negotiation"],
+      "exemplar": "Love Letter",
+      "verification_status": "perplexity-flagged-check"
+    },
+    {
+      "feeling": "unfair-in-a-fun-way",
+      "description": "Someone got wrecked. Everyone laughed. Including them.",
+      "supported_by": ["direct-confrontation", "last-standing", "push-your-luck", "traitor"],
+      "opposed_by": ["fully-cooperative", "shared-objective", "indirect-via-board"],
+      "exemplar": "King of Tokyo",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "careful",
+      "description": "One wrong move and you're in trouble. Precision matters.",
+      "supported_by": ["hand-management", "trick-taking", "deduction", "cooperative-survival"],
+      "opposed_by": ["mostly-chance", "push-your-luck"],
+      "exemplar": "The Crew",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "daring",
+      "description": "You tried something risky and it paid off (or didn't).",
+      "supported_by": ["push-your-luck", "bidding", "bluffing"],
+      "opposed_by": ["full-information", "worker-placement", "solo-in-parallel"],
+      "exemplar": "For Sale",
+      "verification_status": "perplexity-bgg-verified"
+    },
+    {
+      "feeling": "friendly",
+      "description": "Warm. Nobody's out to get anyone.",
+      "supported_by": ["fully-cooperative", "shared-objective", "drafting", "indirect-via-board"],
+      "opposed_by": ["direct-confrontation", "traitor", "last-standing"],
+      "exemplar": "Spirit Island",
+      "verification_status": "perplexity-bgg-verified"
+    }
+  ],
+  "conflicts": [
+    {
+      "elements": ["solo-in-parallel", "direct-confrontation"],
+      "note": "Deterministic conflict — a game cannot meaningfully be both solo-in-parallel and directly confrontational. If both selected, flag to the student: 'These two pull against each other — can a game really be both?'",
+      "student_note": "These two pull against each other — can a game really be both?"
+    },
+    {
+      "elements": ["fully-cooperative", "last-standing"],
+      "note": "Deterministic conflict — if everyone wins or loses together, there is no last-standing. Flag to student.",
+      "student_note": "If everyone wins or loses together, there is no last one standing. Can a game really be both?"
+    },
+    {
+      "elements": ["fully-cooperative", "direct-confrontation"],
+      "note": "Near-deterministic conflict — only semi-cooperative or traitor variants genuinely combine these. Flag to student.",
+      "student_note": "Only semi-cooperative or traitor games really combine these two. Which one is your game?"
+    },
+    {
+      "elements": ["mostly-skill", "mostly-chance"],
+      "note": "Deterministic conflict — same dimension can only hold one value. UI prevents this; backend double-check.",
+      "student_note": "These two pull against each other — can a game really be both?"
+    },
+    {
+      "elements": ["full-information", "hidden-hands"],
+      "note": "Deterministic conflict — same dimension (information-visibility). UI prevents this; backend double-check.",
+      "student_note": "These two pull against each other — can a game really be both?"
+    }
+  ],
+  "v1_scope_notes": {
+    "pair_count": 50,
+    "triad_count": 15,
+    "feeling_block_count": 15,
+    "conflict_count": 5,
+    "unverified_entries": "Items flagged 'perplexity-flagged-check' (7 pairs total) need spot-verification against BGG mechanism tags before workshop use. All others carry 'perplexity-bgg-verified' status from inline RAG during generation.",
+    "known_gaps": [
+      "Theme dimension has no pair entries — theme is treated as orthogonal colour for v1. Re-examine if workshops suggest otherwise.",
+      "Many narrower cross-dimensional pairs not generated (e.g. bidding + semi-cooperative, set-collection + team-vs-team). Add as workshops surface specific combinations.",
+      "Feeling-block cross-references could be more fine-grained — current supported_by lists 3-5 mechanics, could extend to weight-graded (strong/moderate/weak support)."
+    ],
+    "expected_post_workshop_refinements": [
+      "Plain-language descriptions simplified further if 12-year-olds hesitate on current phrasing.",
+      "Additional feelings added if children reach for words the catalogue doesn't have ('scary', 'romantic', 'weird' are candidates).",
+      "Exemplar swaps based on which games children recognise (Indian market may differ from Euro/US BGG bias)."
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>boardgameBuilder — Prayas Abhinav</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/static/base-ui.css" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="k" data-theme="playshape">
+
+  <!-- dark header -->
+  <header class="k-header">
+    <div class="k-header-inner">
+      <div class="k-tool-identity">
+        <span class="k-tool-name">boardgameBuilder</span>
+        <span class="k-tool-tag">multi-mechanic · a <a href="https://prayasabhinav.net" target="_blank" rel="noopener">Prayas Abhinav</a> tool</span>
+      </div>
+      <div class="k-header-right">
+        <span class="turn-pill" id="turnIndicator">Turn 0</span>
+        <a href="#" class="k-header-link" id="howItWorksLink">How it works</a>
+        <a href="https://github.com/prayasabhinav/boardgame-builder" class="k-header-link" target="_blank" rel="noopener">Source</a>
+        <a href="#" class="k-header-link" id="startFreshLink" title="Clear saved design and start over">Start fresh</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-main">
+
+    <!-- LEFT: palette -->
+    <aside class="palette" id="palette">
+      <div class="palette-header">
+        <h2 class="section-eyebrow">Block palette</h2>
+        <p class="section-hint">Drag any block onto the canvas.</p>
+      </div>
+      <div class="palette-body" id="paletteBody"><!-- populated by app.js --></div>
+    </aside>
+
+    <!-- CENTRE: canvas -->
+    <section class="canvas">
+
+      <div class="canvas-card">
+
+        <div class="canvas-region">
+          <div class="region-header">
+            <span class="region-eyebrow">Stage 1 · Intent</span>
+            <h2 class="region-title">What we want our game to feel like</h2>
+            <p class="region-hint">Drag <em>feeling-blocks</em> from the palette here.</p>
+          </div>
+          <div class="feelings-shelf" id="feelingsShelf" data-drop-zone="feelings">
+            <span class="empty-hint">no feelings yet — try “excited”, “clever”, “together”…</span>
+          </div>
+        </div>
+
+        <div class="canvas-divider"></div>
+
+        <div class="canvas-region">
+          <div class="region-header">
+            <span class="region-eyebrow">Stage 1 · Mechanics</span>
+            <h2 class="region-title">Our game</h2>
+            <p class="region-hint">Each slot holds <em>one</em> block — except <em>Core mechanic</em> and <em>Simulation</em>, which hold many. Stack as many as your game needs.</p>
+          </div>
+          <div class="mechanics-grid" id="mechanicsGrid"><!-- populated by app.js --></div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Block info modal -->
+    <div class="block-modal" id="blockModal" hidden>
+      <div class="block-modal-backdrop" id="blockModalBackdrop"></div>
+      <div class="block-modal-card" role="dialog" aria-modal="true" aria-labelledby="blockModalTitle">
+        <button class="block-modal-close" id="blockModalClose" type="button" aria-label="Close">×</button>
+        <div class="block-modal-eyebrow" id="blockModalEyebrow">Block</div>
+        <h3 class="block-modal-title" id="blockModalTitle">—</h3>
+        <div class="block-modal-svg" id="blockModalSvg"></div>
+        <p class="block-modal-desc" id="blockModalDesc">—</p>
+      </div>
+    </div>
+
+    <!-- Onboarding: opens on a first visit; "How it works" in the header opens it again -->
+    <div class="block-modal" id="onboarding" hidden>
+      <div class="block-modal-backdrop" id="onboardingBackdrop"></div>
+      <div class="block-modal-card onboarding-card" role="dialog" aria-modal="true" aria-labelledby="onboardingTitle">
+        <button class="block-modal-close" id="onboardingClose" type="button" aria-label="Close">×</button>
+        <div class="block-modal-eyebrow">How it works</div>
+        <h3 class="block-modal-title" id="onboardingTitle">Design a board game, one turn at a time</h3>
+        <ol class="onboarding-steps">
+          <li><strong>Say how the game should feel.</strong> Drag a feeling, such as “tense” or “together”, from the left onto the shelf at the top.</li>
+          <li><strong>Build the game.</strong> Drag blocks into the slots. Each block fits only its own slot. <em>Core mechanic</em> and <em>Simulation</em> take as many blocks as you like; every other slot takes one, and a new block replaces the old one.</li>
+          <li><strong>Press Iterate.</strong> The tool looks up what your blocks tend to do together in a list prepared in advance, and says what is taking shape. Nothing is generated while you play.</li>
+          <li><strong>Change something and press Iterate again.</strong> Each press is one turn. When you are done, press <em>Mark complete</em> for a closing summary.</li>
+        </ol>
+        <p class="onboarding-note">Press <strong>?</strong> on any block to see what it means. Your design stays in this browser; <em>Start fresh</em> clears it.</p>
+        <button class="k-btn-primary onboarding-start" id="onboardingStart" type="button">Start designing</button>
+      </div>
+    </div>
+
+    <!-- RIGHT: feedback -->
+    <aside class="feedback-panel" id="feedbackPanel">
+
+      <div class="feedback-header">
+        <span class="region-eyebrow">Stages 2 & 3 · Feedback</span>
+        <h2 class="region-title">What your game tends to be</h2>
+      </div>
+
+      <div class="feedback-scroll" id="feedbackScroll">
+        <div class="feedback-welcome k-narrative">
+          <div class="k-narrative-bar"></div>
+          <div class="k-narrative-body">
+            <p>Drop a block, then press <em>Iterate</em>.</p>
+            <p>Each press is one turn of design. The tool reads the canvas, looks up what those blocks tend to do together, and tells you what's taking shape.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feedback-actions" id="feedbackActions">
+        <button class="k-btn-primary" id="iterateBtn" type="button">Iterate</button>
+        <button class="k-btn-outline" id="completeBtn" type="button">Mark complete</button>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
