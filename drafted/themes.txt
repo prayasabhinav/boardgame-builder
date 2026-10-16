@@ -9,3 +9,4 @@ real-world-issue | The real-world-issue theme connects the game to a problem peo
 poetic | The poetic theme makes the game short and a little strange, so the moves ask players to notice something rather than to win it.
 ritual-or-sacred | The ritual-or-sacred theme turns the board into a path towards something holy, so each move can feel like a step in a practice.
 mortality-and-loss | The mortality-and-loss theme ties the game to time running out or someone being lost, so the moves can carry weight beyond the table.
+war-and-conquest | The war-and-conquest theme sets the game among armies and borders, so the moves can stand for taking and holding ground.

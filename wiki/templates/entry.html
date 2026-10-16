@@ -8,6 +8,7 @@
   <p class="meta"><span class="src {{ e.source }}">{{ e.source }}</span> {{ STATUS_WORDS.get(e.status, e.status) }} {{ marks(e.key, states) }}</p>
   {% if e.svg %}<div class="drawing">{{ e.svg|safe }}</div>{% endif %}
   {% if e.group %}<p class="aside">In the group {{ e.group }}.</p>{% endif %}
+  {% if e.credit %}<p class="aside">Idea from {{ e.credit }}.</p>{% endif %}
   {% if e.edits %}<p class="aside">Changed on the wiki: {% for x in e.edits %}by {{ x.user_name }}{% if x.user_handle %} (@{{ x.user_handle }}){% endif %}, approved {{ x.decided|day }} ({{ x.evidence }}){% if not loop.last %}; {% endif %}{% endfor %}.{% if e.tool_text != current %} The tool still has the earlier text.{% endif %}</p>
   {% if e.tool_text != current %}<details><summary>The text the tool has now</summary><pre class="was">{{ e.tool_text }}</pre></details>{% endif %}{% endif %}
   {% if e.proposal %}<p class="aside">Proposed by {{ e.proposal.user_name }}{% if e.proposal.user_handle %} (<a href="https://github.com/{{ e.proposal.user_handle }}">@{{ e.proposal.user_handle }}</a>){% endif %} on {{ e.proposal.created|day }} and approved on {{ e.proposal.decided|day }}. It is not in the tool yet. How they know: {{ e.proposal.evidence }}</p>{% endif %}

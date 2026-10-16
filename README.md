@@ -7,8 +7,8 @@
 [![No AI at runtime](https://img.shields.io/badge/AI%20at%20runtime-none-555555?style=flat-square)](#how-the-feedback-is-made)
 [![No analytics](https://img.shields.io/badge/analytics-none-555555?style=flat-square)](#privacy)
 [![No login](https://img.shields.io/badge/login-none-555555?style=flat-square)](https://boardgame.blevn.xyz)
-[![Blocks](https://img.shields.io/badge/blocks-66%20%2B%2015%20feelings-c75b39?style=flat-square)](#the-blocks)
-[![Coverage](https://img.shields.io/badge/two--block%20combinations%20with%20feedback-1973%20of%201973-c75b39?style=flat-square)](#checks)
+[![Blocks](https://img.shields.io/badge/blocks-80%20%2B%2015%20feelings-c75b39?style=flat-square)](#the-blocks)
+[![Coverage](https://img.shields.io/badge/two--block%20combinations%20with%20feedback-2924%20of%202924-c75b39?style=flat-square)](#checks)
 [![Example games](https://img.shields.io/badge/example%20games-checked%20against%20BoardGameGeek-ff5100?style=flat-square)](#example-games)
 [![Docker](https://img.shields.io/badge/docker-ready-2496ed?style=flat-square&logo=docker&logoColor=white)](#run-it-with-docker)
 
@@ -71,13 +71,15 @@ It works for one person on a laptop and for a group around one big screen.
 
 | Group | Blocks | Slot holds |
 |---|---|---|
-| Core mechanic | roll and move, drafting, bidding, push your luck, area control, worker placement, pattern building, hand management, trick-taking, negotiation, set collection, tile placement, call and response, playing in silence, change the rules | many |
-| Victory condition | race to finish, most points, last standing, cooperative survival, shared objective, hidden personal goal, narrative completion, no objective, set your own goal, one loser | one |
-| Player interaction | solo in parallel, direct confrontation, indirect via board, fully cooperative, semi-cooperative, team vs team, traitor, playing by letter, absent player | one |
-| Chance or skill | mostly chance, chance with mitigation, skill with luck, mostly skill, chance read as a sign, attunement | one |
-| Theme | abstract, historical, fantasy, science fiction, everyday life, absurd, educational, real-world issue, poetic, ritual or sacred, mortality and loss | one |
-| Information visibility | full information, hidden hands, hidden identity, deduction, bluffing, rules you discover, one knows, cannot say | one |
-| Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, real-time span | many |
+| Core mechanic | roll and move, drafting, bidding, push your luck, area control, worker placement, pattern building, hand management, trick-taking, negotiation, set collection, tile placement, call and response, playing in silence, change the rules, role-play, dexterity, drawing the map | many |
+| Victory condition | race to finish, most points, last standing, cooperative survival, shared objective, hidden personal goal, narrative completion, no objective, set your own goal, one loser, keep the game going, cannot be won | one |
+| Player interaction | solo in parallel, direct confrontation, indirect via board, fully cooperative, semi-cooperative, team vs team, traitor, playing by letter, absent player, game master, public game | one |
+| Chance or skill | mostly chance, chance with mitigation, skill with luck, mostly skill, chance read as a sign, attunement, dice tell the story | one |
+| Theme | abstract, historical, fantasy, science fiction, everyday life, absurd, educational, real-world issue, poetic, ritual or sacred, mortality and loss, war and conquest | one |
+| Information visibility | full information, hidden hands, hidden identity, deduction, bluffing, rules you discover, one knows, cannot say, map revealed as you go | one |
+| Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, real-time span, rules make an argument, stakes outside the game, points stand for values, rehearse a future | many |
+
+Fourteen of the blocks, from role-play to rehearse a future, come from ideas of Dhruv Jani's; the wiki credits him on each of their entries.
 
 **Feelings (15):** excited, clever, silly, tense, together, sneaky, lucky, in charge, surprised, thoughtful, fast, unfair in a fun way, careful, daring, friendly.
 
@@ -119,7 +121,7 @@ The judgement (which blocks work together, what they tend to produce, what clash
 The knowledge base has two parts:
 
 - **`interactions.json`, the curated part:** 51 pairs, 15 triads, 5 conflicts and 15 feelings, each with a tendency, pros, cons and, where checked, example games. It was assembled in April 2026 with Perplexity search and BoardGameGeek, then checked again in October 2026 (see [Example games](#example-games)).
-- **`interactions-drafted.json`, the drafted part:** 1,318 more pairs so that every combination of blocks has an entry, a line for each of the 11 themes, and a judgement for every feeling against every block (supports, works against, or neither). Every drafted entry is marked `drafted-20261016-unreviewed`, names no games, and loads after the curated ones, so a curated entry is always found first.
+- **`interactions-drafted.json`, the drafted part:** 2,058 more pairs so that every combination of blocks has an entry, a line for each of the 12 themes, and a judgement for every feeling against every block (supports, works against, or neither). Every drafted entry is marked `drafted-20261016-unreviewed`, names no games, and loads after the curated ones, so a curated entry is always found first.
 
 Themes are treated as colour, not mechanics: each theme has one line about what it adds, and themes are not paired with other blocks.
 
@@ -191,7 +193,7 @@ Every entry in the knowledge base is also on a public wiki, https://boardgame-wi
 python check.py
 ```
 
-`check.py` builds every possible two-block canvas (1,973 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (29,595 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base or the blocks.
+`check.py` builds every possible two-block canvas (2,924 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (43,860 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base or the blocks.
 
 ## Files
 

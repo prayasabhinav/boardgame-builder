@@ -1,0 +1,168 @@
+stakes-outside-the-game+roll-and-move | Players roll and move, and some spaces carry a real-life consequence, such as doing a chore. | Every roll feels real. | Lively. | Luck decides real consequences. | Some players feel uneasy.
+stakes-outside-the-game+drafting | What players pick has a real-life use, such as choosing tasks for the week. | Picks matter beyond the table. | Players think hard. | Real stakes can cause arguments. | Some feel pressured.
+stakes-outside-the-game+bidding | Players bid with something real, such as time they promise to give. | Bids feel serious. | Players learn what others value. | Promises can be broken. | Some feel pressured.
+stakes-outside-the-game+push-your-luck | Pushing your luck risks something real, such as a forfeit performed in front of others. | Tense and lively. | Daring moments. | Forfeits can upset. | Careful players hold back.
+stakes-outside-the-game+area-control | Areas on the board stand for real places people use, such as desks in a shared studio. | Play feels urgent. | Players care about the outcome. | Real disputes can start. | Needs care.
+stakes-outside-the-game+worker-placement | Placing a worker commits the player to a real task. | Planning feels real. | Players think about time. | Real commitments can pile up. | Some feel stretched.
+stakes-outside-the-game+pattern-building | The pattern players build becomes something real, such as a seating plan. | Making feels meaningful. | Players care. | Disagreements carry over. | Some feel pressured.
+stakes-outside-the-game+hand-management | Cards in hand stand for real favours players can call on later. | Saving a card feels weighty. | Players think ahead. | Favours can be forgotten. | Some feel obliged.
+stakes-outside-the-game+trick-taking | Tricks are played for something small but real, such as who makes the tea. | A familiar game gets weight. | Lively. | Losers can feel annoyed. | Arguments.
+stakes-outside-the-game+negotiation | Deals made in the game are kept outside it. | Talk feels serious. | Players learn about trust. | Broken deals hurt friendships. | Some avoid deals.
+stakes-outside-the-game+set-collection | Collected sets turn into something real, such as a shared snack. | Collecting has a reward. | Light. | Some feel left out. | Arguments over sharing.
+stakes-outside-the-game+tile-placement | The map players build is used for a real plan, such as a garden layout. | Play shapes something real. | Players care. | Disagreements carry over. | Pressure to get it right.
+stakes-outside-the-game+call-and-response | What players say to each other in the game can touch real feelings. | Honest moments. | Players connect. | Feelings can be hurt. | Some hold back.
+stakes-outside-the-game+playing-in-silence | Silent play leaves real feelings unspoken until afterwards. | Strong moments. | Players reflect. | Feelings can linger. | Hard to talk about.
+stakes-outside-the-game+change-the-rules | Rules changed in the game become rules for the group, such as studio rules. | Play shapes real life. | Players feel heard. | Real rules can be contested. | Needs care.
+stakes-outside-the-game+race-to-finish | The race decides something real, such as who chooses the next game. | Lively. | Clear stakes. | Losers can feel annoyed. | Pressure.
+stakes-outside-the-game+most-points | Points decide something real, such as a small prize. | Players try hard. | Lively. | Losers feel the loss. | Can turn competitive.
+stakes-outside-the-game+last-standing | Being knocked out carries a real consequence. | Tense. | Lively. | Some feel embarrassed. | Can feel harsh.
+stakes-outside-the-game+cooperative-survival | The group wins or loses something real together. | Shared stakes. | Players support each other. | Losing can sting. | Pressure on weaker players.
+stakes-outside-the-game+shared-objective | The shared goal is something real, such as raising money for a cause. | Play has purpose. | Players feel useful. | Pressure to succeed. | Can feel like work.
+stakes-outside-the-game+hidden-personal-goal | Secret goals are real wishes players hold. | Honest moments. | Players learn about each other. | Some feel exposed. | Needs care.
+stakes-outside-the-game+narrative-completion | The story told in the game is about the players' real lives. | Personal stories. | Players connect. | Feelings can be raw. | Some feel exposed.
+stakes-outside-the-game+no-objective | Nothing is won, but what happens still carries into how players feel about each other. | Gentle and honest. | Players connect. | Feelings can linger. | Hard to tell what it was for.
+stakes-outside-the-game+set-your-own-goal | Players set real goals for themselves through the game. | Personal growth. | Players reflect. | Some feel pressured. | Hard to follow up.
+stakes-outside-the-game+one-loser | The one player who loses carries a real consequence. | Tense. | Others are safe. | The loser can feel singled out. | Can feel harsh.
+stakes-outside-the-game+solo-in-parallel | Each player plays for something real in their own life. | Personal. | Calm. | Little sharing. | Hard to support each other.
+stakes-outside-the-game+direct-confrontation | Clashes in the game can turn into real tension between players. | Strong feelings. | Lively. | Friendships can suffer. | Needs care.
+stakes-outside-the-game+indirect-via-board | What players do to the board affects each other's real situation. | Players notice effects. | Thoughtful. | Hidden harm can upset. | Hard to trace.
+stakes-outside-the-game+fully-cooperative | The group works together on something that matters in real life. | Shared purpose. | Warm teamwork. | Pressure to succeed. | Can feel like work.
+stakes-outside-the-game+semi-cooperative | Players cooperate on something real while each keeps their own interest. | Honest about self-interest. | Lively. | Trust can break. | Real disputes.
+stakes-outside-the-game+team-vs-team | Teams compete for something real. | Team spirit. | Lively. | Real rivalries can form. | Losers feel it.
+stakes-outside-the-game+traitor | Betrayal in the game can feel real afterwards. | Strong drama. | Players reflect. | Hurt feelings. | Some feel unsafe.
+stakes-outside-the-game+playing-by-letter | Letters exchanged in the game carry real feelings and plans. | Personal. | Slow and thoughtful. | Feelings can be misread. | Hard to take back.
+stakes-outside-the-game+absent-player | Players play for someone real who is not there, such as a friend far away. | Play feels caring. | Players think of others. | Can feel heavy. | Some find it sad.
+stakes-outside-the-game+mostly-chance | Luck decides a real consequence. | Nobody is blamed. | Lively. | Unlucky players feel it. | Can feel unfair.
+stakes-outside-the-game+chance-with-mitigation | Luck brings a real consequence, but players can soften it. | Some control. | Lively. | Real stakes stay. | Pressure.
+stakes-outside-the-game+skill-with-luck-tempering | Skill mostly decides something real, with a little luck. | Effort pays off. | Lively. | Skilled players gain. | Others feel it.
+stakes-outside-the-game+mostly-skill | Skill alone decides something real. | Clear and fair to watch. | Players try hard. | Pressure on everyone. | Practised players gain.
+stakes-outside-the-game+chance-read-as-a-sign | Signs are read as advice about players' real lives. | Personal and curious. | Players reflect. | Some take it too seriously. | Can feel heavy.
+stakes-outside-the-game+attunement | Staying in step in the game builds real trust between players. | Players grow close. | Warm. | Hard to explain. | Some feel left out.
+stakes-outside-the-game+full-information | Everything at stake is open, so everyone knows what each player risks. | Honest. | Clear. | Some feel exposed. | Pressure.
+stakes-outside-the-game+hidden-hands | Players hide what they are really risking. | Tense. | Players guess. | Hidden stakes can surprise. | Trust can break.
+stakes-outside-the-game+hidden-identity | Hidden roles stand for real positions people hold. | Strong drama. | Players reflect. | Some feel exposed. | Needs care.
+stakes-outside-the-game+deduction | Players work out something real about each other from play. | Curious. | Players learn. | Some feel exposed. | Can intrude.
+stakes-outside-the-game+bluffing | Lies told in the game can feel real afterwards. | Lively. | Players reflect on trust. | Hurt feelings. | Some avoid it.
+stakes-outside-the-game+rules-you-discover | Players learn a hidden rule that also applies in their real situation. | Strong moments of realisation. | Players reflect. | Can feel tricked. | Needs care.
+stakes-outside-the-game+one-knows-cannot-say | One player knows something real and cannot say it in the game. | Tense and honest. | Players read closely. | Feelings can be raw. | Some feel exposed.
+stakes-outside-the-game+model-a-system | A model of a real system the players are part of, such as their own college. | Players see their own situation. | Strong talk. | Can feel uncomfortable. | Needs care.
+stakes-outside-the-game+stakeholder-roles | Players play the roles they hold in real life, or the roles of people they deal with. | Players see from other sides. | Strong talk. | Real tensions surface. | Needs care.
+stakes-outside-the-game+shared-resource | The shared resource is real, such as the group's shared time or money. | A clear real lesson. | Players think about sharing. | Real disputes can start. | Some feel blamed.
+stakes-outside-the-game+delayed-effects | Choices in the game have real effects later. | Players think ahead. | Serious. | Hard to trace. | Regret can come late.
+stakes-outside-the-game+try-a-rule | Players try a rule in the game before using it in real life. | A safe test. | Players learn. | The test may not match real life. | Hard to judge.
+stakes-outside-the-game+debrief | After a game with real stakes, players talk about what it meant for them. | Rich talk. | Players support each other. | Feelings can be raw. | Needs care.
+stakes-outside-the-game+irreversible-change | Real consequences of the game cannot be undone. | Serious play. | Players think hard. | Regret stays. | Some feel unsafe.
+stakes-outside-the-game+real-time-span | The game runs over real days, and its stakes run with it. | Play feels part of life. | Something to return to. | Pressure over time. | Hard to step away.
+stakes-outside-the-game+points-stand-for-values | Points stand for something real players care about, and losing them feels real. | Players feel what counting does. | Strong talk. | Some feel judged. | Needs care.
+stakes-outside-the-game+rehearse-a-future | Players practise a real change they are about to make, such as a new way of sharing work. | A safe space to try. | Players prepare together. | Real worries surface. | Hard to judge.
+points-stand-for-values+roll-and-move | Spaces give points for things like kindness or rest, and players notice which spaces they aim for. | Players think about what counts. | Light. | Luck decides points. | The point can be missed.
+points-stand-for-values+drafting | Cards worth points stand for values, and players notice which ones they take. | Players reflect on choices. | Thoughtful. | Players chase high points. | Can feel preachy.
+points-stand-for-values+bidding | Players bid for values turned into points, such as friendship or money. | Players see what they pay for. | Strong talk. | Uncomfortable. | Can feel preachy.
+points-stand-for-values+push-your-luck | Players risk points that stand for something real, such as health. | Players feel risk to what matters. | Thoughtful. | Can feel heavy. | Players chase points anyway.
+points-stand-for-values+area-control | Areas score points that stand for things like community, not only size. | Players notice what holding means. | Thoughtful. | Players may chase size anyway. | Subtle.
+points-stand-for-values+worker-placement | Actions earn points that stand for things like care or wages, and players notice the gap. | Players see what work is valued. | Strong talk. | Frustrating. | Can feel preachy.
+points-stand-for-values+pattern-building | Patterns earn points that stand for qualities, such as balance or beauty. | Players think about what they value. | Calm. | Hard to score fairly. | Subtle.
+points-stand-for-values+hand-management | Cards worth points stand for values, and players choose which to spend. | Players notice what they give up. | Thoughtful. | Players chase points. | Can feel preachy.
+points-stand-for-values+trick-taking | Tricks are worth points that stand for values, so winning a trick means choosing one. | A familiar game gets weight. | Thoughtful. | Card players may resist. | Subtle.
+points-stand-for-values+negotiation | Players trade points that stand for values, such as trading honesty for money. | Players see what they trade away. | Strong talk. | Uncomfortable. | Arguments.
+points-stand-for-values+set-collection | Sets of values score points, and players notice which sets they ignore. | Players reflect. | Thoughtful. | Players chase sets anyway. | Subtle.
+points-stand-for-values+tile-placement | Tiles score points that stand for qualities of a place, such as quiet or trees. | Players think about places. | Thoughtful. | Hard to score fairly. | Subtle.
+points-stand-for-values+call-and-response | Answers earn points for qualities like kindness, and players notice how scoring changes what they say. | Players notice scoring's effect. | Strong talk. | Talk can feel forced. | Some resist.
+points-stand-for-values+playing-in-silence | Points for silent acts of help, counted quietly, show what scoring does to care. | Players reflect. | Thoughtful. | Hard to count fairly. | Subtle.
+points-stand-for-values+change-the-rules | Players change what earns points, and see how their behaviour changes. | Players see scoring's power. | Strong talk. | Rules can pile up. | Confusing.
+points-stand-for-values+race-to-finish | Racing earns points, and players notice what they skip in the rush. | Players see what speed costs. | Thoughtful. | Players chase speed anyway. | Subtle.
+points-stand-for-values+most-points | The most points wins, and players see what they gave up to get them. | Players notice what scoring rewards. | Strong talk. | Players chase points anyway. | The point can be missed.
+points-stand-for-values+last-standing | Points stand for wellbeing, and running out knocks a player out. | Players feel what is at stake. | Thoughtful. | Can feel heavy. | Players out early wait.
+points-stand-for-values+cooperative-survival | The group shares points that stand for its health. | Players care for the group. | Thoughtful. | Hard to score fairly. | Pressure.
+points-stand-for-values+shared-objective | The group aims for a score that stands for a shared value. | Players think about shared goals. | Teamwork. | The score can replace the value. | Subtle.
+points-stand-for-values+hidden-personal-goal | Each player secretly scores a different value, revealed at the end. | Players see different values. | Strong talk. | Hard to follow. | Subtle.
+points-stand-for-values+narrative-completion | The story ends with a score, and players talk about what the score missed. | Players reflect on the story. | Thoughtful. | The score can feel flat. | Subtle.
+points-stand-for-values+no-objective | Points are counted but nobody wins, so players see the points for what they are. | Players notice scoring's pull. | Thoughtful. | Some see no point. | Subtle.
+points-stand-for-values+set-your-own-goal | Each player decides what their points stand for. | Personal. | Players reflect. | Hard to compare. | Subtle.
+points-stand-for-values+one-loser | The player with the fewest points loses, and players notice what the count left out. | Players feel judged by a number. | Strong talk. | The loser can feel singled out. | Can feel harsh.
+points-stand-for-values+solo-in-parallel | Each player scores their own values side by side. | Personal reflection. | Calm. | Little interaction. | Players compare quietly.
+points-stand-for-values+direct-confrontation | Players take points from each other, and notice what taking a value means. | Players feel the cost. | Strong talk. | Upsetting. | Arguments.
+points-stand-for-values+indirect-via-board | What one player does changes others' points without them choosing. | Players see hidden effects. | Thoughtful. | Frustrating. | Hard to trace.
+points-stand-for-values+fully-cooperative | The group scores together and talks about whether the score shows what they did. | Shared reflection. | Teamwork. | The score can feel flat. | Subtle.
+points-stand-for-values+semi-cooperative | Players share a score but each keeps a private one too. | Players feel the tension. | Strong talk. | Trust can break. | Hard to follow.
+points-stand-for-values+team-vs-team | Teams compete on scores that stand for values. | Lively. | Strong talk. | Teams chase points. | Can feel preachy.
+points-stand-for-values+traitor | A traitor secretly scores against the group's values. | Suspicion. | Strong talk. | Confusing. | Upsetting.
+points-stand-for-values+playing-by-letter | Players keep score of values over weeks of letters. | Slow reflection. | Personal. | Easy to forget. | Scores drift.
+points-stand-for-values+absent-player | Players score values on behalf of someone who is not there. | Players think of others. | Thoughtful. | Hard to score for someone else. | Can feel heavy.
+points-stand-for-values+mostly-chance | Luck decides points that stand for real values. | Players notice how luck shapes what counts. | Thoughtful. | Frustrating. | Little control.
+points-stand-for-values+chance-with-mitigation | Luck gives points, and players choose which values to protect. | Players feel choices. | Thoughtful. | Hard to balance. | Subtle.
+points-stand-for-values+skill-with-luck-tempering | Skill earns most points, with a little luck, and players ask whether the points show merit. | Players argue about merit. | Thoughtful. | Skilled players gain. | Subtle.
+points-stand-for-values+mostly-skill | Only skill earns points, and players ask what skill the points really measure. | Players think about measurement. | Strong talk. | Practised players gain. | Subtle.
+points-stand-for-values+chance-read-as-a-sign | Signs give points, and players talk about what they stand for. | Curious. | Thoughtful. | Signs feel vague. | Subtle.
+points-stand-for-values+attunement | Points reward staying in step, and players notice what scoring does to it. | Players reflect. | Thoughtful. | Hard to score. | Subtle.
+points-stand-for-values+full-information | All scores are visible, and players notice how seeing them changes play. | Players see comparison's effect. | Strong talk. | Pressure. | Some feel judged.
+points-stand-for-values+hidden-hands | Scores are hidden until the end, and players notice how that changes what they do. | Players reflect on hidden measures. | Thoughtful. | Surprises at the end. | Subtle.
+points-stand-for-values+hidden-identity | Players secretly score different values, and guess what others are aiming for. | Players see hidden priorities. | Lively. | Hard to follow. | Confusing.
+points-stand-for-values+deduction | Players work out what the points really stand for from how they are given. | Puzzling and thoughtful. | Players reflect. | Slow. | Subtle.
+points-stand-for-values+bluffing | Players claim scores for values that may not be true. | Players see how easily scores are faked. | Lively. | Uncomfortable. | Honest players lose.
+points-stand-for-values+rules-you-discover | A hidden rule decides what scores, and players learn it by noticing what is rewarded. | Players feel hidden measures. | Strong talk. | Frustrating. | Slow.
+points-stand-for-values+one-knows-cannot-say | One player knows what the points truly measure and can only hint. | Tense. | Players think. | Frustrating. | Subtle.
+points-stand-for-values+model-a-system | A model of a real system scores things the way a real institution does, such as marks or ratings. | Players see what measures do. | Strong talk. | Can feel uncomfortable. | Lessons can be missed.
+points-stand-for-values+stakeholder-roles | Each role is scored differently, showing how measures favour some roles. | Players see unequal measures. | Strong talk. | Frustrating for some. | Arguments.
+points-stand-for-values+shared-resource | Points reward taking from a shared resource, and players notice the cost. | Players see what scoring encourages. | Strong talk. | The resource can run out. | Players may blame each other.
+points-stand-for-values+delayed-effects | Points earned now cost something later, and players notice the trade. | Players think ahead. | Thoughtful. | Hard to trace. | Regret comes late.
+points-stand-for-values+try-a-rule | Players change what earns points and see how play changes. | Players see scoring's power. | Clear tests. | Hard to judge. | Slow.
+points-stand-for-values+debrief | After play, players talk about what they did for points that they would not do otherwise. | Rich talk. | Players reflect. | Some feel exposed. | Talk can wander.
+points-stand-for-values+irreversible-change | Points earned are recorded permanently, so scores follow players into later games. | Players feel a lasting record. | Thoughtful. | Pressure. | Mistakes stay.
+points-stand-for-values+real-time-span | Points for real values are counted daily over weeks. | Players see habits form. | Thoughtful. | Can feel like tracking. | Easy to forget.
+points-stand-for-values+rehearse-a-future | Players try a future where different things earn points. | Players imagine new values. | Hopeful talk. | The future can feel vague. | Hard to score.
+rehearse-a-future+roll-and-move | Players move through a future world, and each space shows a part of life there. | Players picture the future step by step. | Easy to play. | Luck decides what they see. | Little to decide.
+rehearse-a-future+drafting | Players pick parts of a future they would like to try, such as shared kitchens. | Players shape the future. | Thoughtful. | Popular parts get taken. | Slow.
+rehearse-a-future+bidding | Players bid for parts of a future, showing what they would give for it. | Players see what they value. | Strong talk. | Can feel abstract. | Rich players gain.
+rehearse-a-future+push-your-luck | Players try bold changes in a future world, with some risk of failure. | Daring imagining. | Lively. | Failures can discourage. | Careful players hold back.
+rehearse-a-future+area-control | Players imagine how space would be shared in a future town. | Players think about space. | Strong talk. | Arguments over space. | Can feel abstract.
+rehearse-a-future+worker-placement | Players try out how work would be shared in a future world. | Players picture new work. | Thoughtful. | Hard to picture. | Slow.
+rehearse-a-future+pattern-building | Players build the shape of a future place together. | Creative. | Hopeful. | Disagreements. | Hard to finish.
+rehearse-a-future+hand-management | Cards in hand are ideas for the future, played when the moment fits. | Players think ahead. | Thoughtful. | Hard to judge timing. | Slow.
+rehearse-a-future+trick-taking | Each trick decides a small question about the future. | Light. | Familiar. | Can feel random. | The future can feel vague.
+rehearse-a-future+negotiation | Players negotiate how a future would work, as people would in real planning. | Lively talk. | Players hear each other. | Talks can drag. | Loud voices dominate.
+rehearse-a-future+set-collection | Players gather what a future needs, such as skills or tools. | Players think about needs. | Clear aims. | Luck decides finds. | Subtle.
+rehearse-a-future+tile-placement | Players lay tiles to build a future place. | A future grows on the table. | Creative. | Tiles may not fit. | Slow.
+rehearse-a-future+call-and-response | Players take turns adding to a picture of the future. | A shared vision. | Players listen. | One voice can lead. | Shy players hold back.
+rehearse-a-future+playing-in-silence | Players live in a future world without speaking, showing it through action. | Striking. | Players watch. | Hard to understand. | Some feel lost.
+rehearse-a-future+change-the-rules | Players change the rules of the future world as they live in it. | The future can be reshaped. | Lively. | Rules pile up. | Confusing.
+rehearse-a-future+race-to-finish | Players race to reach a future goal. | Clear aim. | Lively. | Racing rushes the imagining. | Subtle lost.
+rehearse-a-future+most-points | Players score for what they build in the future world. | Clear aims. | Lively. | Points can replace imagining. | Subtle.
+rehearse-a-future+last-standing | Players drop out as their future plans fail, until one remains. | Tense. | Thoughtful. | Players out early wait. | Can feel bleak.
+rehearse-a-future+cooperative-survival | The group tries to make a future work together, against what threatens it. | Shared purpose. | Hopeful. | Losing can discourage. | Pressure.
+rehearse-a-future+shared-objective | The group works toward one picture of the future. | Shared vision. | Teamwork. | Disagreements. | Hard to finish.
+rehearse-a-future+hidden-personal-goal | Each player secretly wants something different from the future. | Hidden wishes. | Strong talk. | Hard to follow. | Goals clash.
+rehearse-a-future+narrative-completion | The game tells the story of a future until it reaches a chosen ending. | A story of change. | Hopeful. | Endings can feel forced. | Hard to finish.
+rehearse-a-future+no-objective | Players live in a future world with no winner, to see how it feels. | Calm imagining. | Hopeful. | Some lose interest. | Hard to know when to stop.
+rehearse-a-future+set-your-own-goal | Each player decides what they want to try in the future world. | Personal. | Thoughtful. | Hard to compare. | Goals can clash.
+rehearse-a-future+one-loser | Players try a future until one player's plan fails. | Tense. | Others safe. | The loser feels singled out. | Can feel bleak.
+rehearse-a-future+solo-in-parallel | Each player imagines their own future beside the others. | Personal. | Calm. | Little sharing. | Futures never meet.
+rehearse-a-future+direct-confrontation | Players with different futures clash over which will happen. | Lively debate. | Strong talk. | Arguments can heat up. | Some feel unheard.
+rehearse-a-future+indirect-via-board | What one player builds in the future affects others. | Players notice effects. | Thoughtful. | Effects feel unfair. | Hard to trace.
+rehearse-a-future+fully-cooperative | The whole group practises a future way of living together. | Warm teamwork. | Hopeful. | One player can lead. | Little tension.
+rehearse-a-future+semi-cooperative | Players build a future together while each keeps a private interest. | Honest about interests. | Strong talk. | Trust can break. | Hard to follow.
+rehearse-a-future+team-vs-team | Teams each rehearse a different future and compare. | Lively comparison. | Strong talk. | Rivalry can harden. | Hard to judge.
+rehearse-a-future+traitor | One player secretly works against the future the group is building. | Suspicion. | Strong talk. | Upsetting. | Confusing.
+rehearse-a-future+playing-by-letter | Players write letters as if from the future to each other. | Personal and imaginative. | Slow. | Long waits. | Players drift.
+rehearse-a-future+absent-player | Players imagine the future for someone not there, such as their children. | Thoughtful. | Players think of others. | Can feel heavy. | Hard to imagine.
+rehearse-a-future+mostly-chance | Luck decides what happens in the future world. | Players face surprises. | Light. | Little control. | Can feel random.
+rehearse-a-future+chance-with-mitigation | Luck brings future events, and players choose how to respond. | Players practise responding. | Thoughtful. | Unlucky events discourage. | Slow.
+rehearse-a-future+skill-with-luck-tempering | Players plan the future, with a little luck testing their plans. | Plans tested. | Thoughtful. | Planners dominate. | The luck can feel tacked on.
+rehearse-a-future+mostly-skill | Only players' choices shape the future world. | Players own the future. | Thoughtful. | Planners dominate. | Slow.
+rehearse-a-future+chance-read-as-a-sign | Signs are read as hints about the future. | Curious. | Players imagine. | Signs feel vague. | Subtle.
+rehearse-a-future+attunement | Players imagine a future by sensing what the group wants. | Shared feeling. | Hopeful. | Some voices missed. | Hard to explain.
+rehearse-a-future+full-information | Everything about the future world is open to all. | Clear. | Players plan together. | Little surprise. | Can feel flat.
+rehearse-a-future+hidden-hands | Players hold secret plans for the future, revealed in turn. | Surprises. | Players guess. | Hard to plan together. | Plans clash.
+rehearse-a-future+hidden-identity | Some players secretly come from a different future. | Mystery. | Lively. | Confusing. | Hard to follow.
+rehearse-a-future+deduction | Players work out what a future world is like from clues. | Puzzling. | Imaginative. | Clues unclear. | Slow.
+rehearse-a-future+bluffing | Players claim what the future will hold, and others decide whether to believe them. | Lively talk. | Imaginative. | Arguments. | Hard to check.
+rehearse-a-future+rules-you-discover | Players discover the hidden rules of a future world by living in it. | Discovery. | Thoughtful. | Frustrating. | Slow.
+rehearse-a-future+one-knows-cannot-say | One player knows how the future turns out and can only hint. | Tense. | Imaginative. | Hints mislead. | The knower feels stuck.
+rehearse-a-future+model-a-system | Players try a new version of a real system, such as a different way of sharing water. | Players test change safely. | Strong talk. | The model can be simplistic. | Lessons can be missed.
+rehearse-a-future+stakeholder-roles | Each role imagines how a future change would affect them. | Players hear many views. | Strong talk. | Some roles lose out. | Arguments.
+rehearse-a-future+shared-resource | Players try a new way of sharing a resource and see whether it lasts. | A safe test. | Clear lesson. | The resource can run out. | Players may blame each other.
+rehearse-a-future+delayed-effects | A future change shows its effects only later in the game. | Players think long term. | Surprises. | Hard to trace. | Slow.
+rehearse-a-future+try-a-rule | Players try one future rule and play on to see what it changes. | Clear tests. | Players learn. | Hard to judge. | Slow.
+rehearse-a-future+debrief | After rehearsing a future, players talk about what they would keep or change. | Rich talk. | Players imagine together. | Can feel abstract. | Talk can wander.
+rehearse-a-future+irreversible-change | Choices made in the future world stay for every later game. | The future grows a history. | Choices feel serious. | Mistakes stay. | New players inherit others' futures.
+rehearse-a-future+real-time-span | Players live a future way of doing things for real days or weeks. | Players feel the future in daily life. | Something to return to. | Hard to keep up. | Players drift.

@@ -1,0 +1,106 @@
+public-game+roll-and-move | A large board is drawn in a public place, and anyone passing can roll and take a turn. | Easy for strangers to join. | Lively and open. | Hard to keep track of who is playing. | Crowds can slow turns.
+public-game+drafting | Passers-by pick from a shared display of cards or objects set out in public. | Strangers make choices together. | Players see what others take. | Items can go missing. | Hard to keep order.
+public-game+bidding | Passers-by bid for something small, such as a chalk drawing, with tokens they are given. | Lively public auctions. | Strangers learn what others value. | Hard to manage tokens. | Loud bidders dominate.
+public-game+push-your-luck | Passers-by try a risky challenge and decide whether to keep going while others watch. | Crowds cheer. | Exciting moments. | Some feel pressured. | Failing in public stings.
+public-game+area-control | People claim parts of a public space with chalk or markers. | The space itself becomes the board. | Lively. | Claims can upset people who use the space. | Hard to keep fair.
+public-game+worker-placement | Passers-by place a token on one of several action spots chalked on the ground. | Easy to join. | Visible choices. | Tokens can be moved by others. | Hard to keep track.
+public-game+pattern-building | Passers-by add to a shared pattern, such as a chalk mosaic. | A shared creation. | Anyone can add. | The pattern can be spoiled. | Hard to plan.
+public-game+hand-management | Passers-by receive a few cards and play them before moving on. | Quick to join. | Light play. | Cards get lost. | Little planning.
+public-game+trick-taking | A simple card game set up in public, with anyone joining for a hand. | Familiar to many. | Social. | Rules vary between people. | Arguments over rules.
+public-game+negotiation | Passers-by make deals with each other as part of the game. | Strangers talk. | Lively. | Some people avoid talking. | Deals can turn awkward.
+public-game+set-collection | Players collect items placed around a public space, such as stamps at stalls. | Players explore the space. | Light and fun. | Items run out. | Hard to keep fair.
+public-game+tile-placement | Passers-by add tiles to a growing map laid on the ground. | A shared map grows. | Anyone can add. | Tiles get kicked. | Hard to plan.
+public-game+call-and-response | Passers-by answer each other in a chain, such as a sung or chalked chain of words. | Strangers connect. | Lively. | Shy people hold back. | Chains break as people leave.
+public-game+playing-in-silence | A silent game in a public place, where passers-by join without a word. | Striking and calm. | Easy to join. | Hard to explain the rules. | People may not notice it.
+public-game+change-the-rules | Passers-by can change one rule as they join, so the game keeps shifting. | A game shaped by many. | Lively. | Rules can become messy. | Newcomers confused.
+public-game+race-to-finish | Passers-by race along a course drawn in a public place. | Fast and lively. | Easy to understand. | Safety in crowds. | Fast players dominate.
+public-game+most-points | A public game where each player's score is chalked up for others to try to beat. | Strangers compete. | Clear aims. | Scores are hard to check. | Some feel exposed.
+public-game+last-standing | Players drop out one by one in a public game until one is left. | Crowds watch. | Tense. | Players out early leave. | Some feel embarrassed.
+public-game+cooperative-survival | Passers-by work together to keep something going, such as a public challenge. | Strangers cooperate. | Warm feeling. | Hard to coordinate. | People drift away.
+public-game+shared-objective | Passers-by help reach one shared goal, such as filling a chalk wall. | A shared achievement. | Anyone can help. | Hard to know when it is done. | Some may spoil it.
+public-game+hidden-personal-goal | Each passer-by gets a secret aim card and plays toward it. | Hidden reasons in a crowd. | Fun to guess. | Hard to explain. | Hard to finish.
+public-game+narrative-completion | Passers-by add to a story told in a public place until it ends. | A story by many voices. | Surprising. | The story can drift. | Hard to finish.
+public-game+no-objective | A public game with no winner, where people play and move on. | Easy and relaxed. | Anyone can join. | Some may not see the point. | Hard to sustain.
+public-game+set-your-own-goal | Passers-by decide their own aim in an open public game. | Personal and light. | Easy to join. | Hard to compare. | Little structure.
+public-game+one-loser | A public game played until one person is caught or out, as in many street games. | Familiar and lively. | Others are safe. | The one caught can feel picked on. | Hard to keep fair.
+public-game+mostly-chance | Passers-by spin or roll to see what happens, with little to decide. | Easy for anyone. | Quick. | Little to think about. | Can feel random.
+public-game+chance-with-mitigation | Passers-by draw a chance card and choose how to use it. | Quick choices. | Easy to join. | Some draws feel unfair. | Little depth.
+public-game+skill-with-luck-tempering | A public game of skill with a little luck, so newcomers have a chance. | Fair to strangers. | Lively. | Regulars dominate. | The luck can feel tacked on.
+public-game+mostly-skill | A public game of skill, where regulars and newcomers face each other. | Clear contests. | Players improve. | Newcomers lose to regulars. | Can feel unwelcoming.
+public-game+chance-read-as-a-sign | Passers-by throw a sign and read it, as at a fortune stall. | Playful and curious. | Easy to join. | Signs feel vague. | Some people take it too seriously.
+public-game+attunement | Strangers try to act together without planning, such as clapping in time. | Moments of shared feeling. | Striking. | Hard to explain. | People drift away.
+public-game+dice-tell-the-story | Passers-by roll on a table chalked on the ground to see what happens to them in a story. | Surprising and light. | Easy to join. | Odd results. | Hard to sustain a story.
+public-game+full-information | Everything about the public game is visible to anyone passing. | Easy to understand. | Open. | Little surprise. | Crowds may crowd the board.
+public-game+hidden-hands | Passers-by hold a hidden card for a short game before passing it on. | Quick surprises. | Easy to join. | Cards get lost. | Hard to keep fair.
+public-game+hidden-identity | Some passers-by are secretly given a role, and others try to find them in the crowd. | Exciting in a crowd. | Lively. | Strangers can feel suspected. | Hard to manage.
+public-game+deduction | Clues are placed around a public space for passers-by to solve. | Players explore the place. | Satisfying. | Clues get moved. | Hard to finish.
+public-game+bluffing | Passers-by bluff each other in a quick public game. | Funny. | Lively. | Strangers may feel tricked. | Some avoid it.
+public-game+rules-you-discover | Passers-by learn the rules by watching and being told no, as in many street games. | Learning by joining. | Familiar. | Newcomers feel shut out. | Rules can be unclear.
+public-game+one-knows-cannot-say | One person knows the answer and can only hint to passers-by. | Lively guessing. | Easy to join. | Hints can mislead. | The hinter tires.
+public-game+map-revealed-as-you-go | A public space is explored step by step, with parts revealed as players reach them. | Players see the place anew. | Exciting. | Hard to set up. | Weather can spoil it.
+public-game+model-a-system | A public game models a real system of the place, such as how a market's stalls share space. | People see their own place as a system. | Strong talk. | Some may feel lectured. | Hard to explain quickly.
+public-game+stakeholder-roles | Passers-by each take a role from the place, such as a vendor or a commuter. | People hear other views. | Thoughtful. | Roles can feel forced. | Hard to sustain.
+public-game+shared-resource | Passers-by share a limited supply, such as chalk or tokens, and see what happens. | A clear lesson about sharing. | Lively. | Some take too much. | Hard to manage.
+public-game+delayed-effects | What earlier passers-by did changes the game for later ones. | A game that carries history. | Players see others' marks. | Later players inherit problems. | Hard to trace.
+public-game+try-a-rule | A new rule is tried in a public game to see how strangers respond. | Real reactions. | Clear test. | Hard to judge. | Strangers may ignore it.
+public-game+debrief | After a public game, players and onlookers talk about what happened. | Strangers talk. | Rich views. | People leave quickly. | Hard to gather.
+public-game+irreversible-change | What players do leaves a lasting mark on the public place, such as a painted wall. | The place keeps the game. | Players feel part of something. | Permission is needed. | Marks cannot be undone.
+public-game+real-time-span | A public game runs over days, and people add to it whenever they pass. | Something to return to. | A living game. | Hard to maintain. | Weather and wear.
+public-game+rules-make-an-argument | The rules of a public game make a point about the place, such as who gets to use it. | People feel the point on their own street. | Strong talk. | Some may object. | Can feel preachy.
+public-game+stakes-outside-the-game | A public game affects the people who use the place, such as blocking a path. | Play feels real. | Talk about the place. | Some people are inconvenienced. | Permission is needed.
+public-game+points-stand-for-values | A public game scores something real, such as kindness to strangers, and people notice what counting does. | People think about measuring. | Thoughtful. | Hard to score fairly. | The point can be missed.
+public-game+rehearse-a-future | A public game lets people try a different way of using the place, such as a car-free street. | People feel a possible future. | Hopeful. | Permission is needed. | Hard to sustain.
+dice-tell-the-story+roll-and-move | You roll to move, and a second roll on a table says what happens where you land. | Every space brings a surprise. | Easy to play. | Two rolls slow turns. | Little to decide.
+dice-tell-the-story+drafting | A roll on a table decides which cards appear in the row for players to pick. | Surprising choices. | Players react. | Rows can be dull. | Little planning.
+dice-tell-the-story+bidding | A roll decides what goes up for auction next. | Surprising auctions. | Lively. | Some items feel random. | Bidding slows play.
+dice-tell-the-story+push-your-luck | Players keep rolling on a table for more of the story, but some results end their turn. | Exciting turns. | Stories grow. | One roll undoes a lot. | Careful players stop early.
+dice-tell-the-story+area-control | Rolls decide events in each area, such as a storm or a festival. | Areas feel alive. | Players adapt. | Luck can ruin plans. | Hard to plan.
+dice-tell-the-story+worker-placement | A roll on a table decides what each action space offers this round. | Every round differs. | Players adapt. | Plans can fail. | Slow.
+dice-tell-the-story+pattern-building | Rolls decide what pieces players receive to build their pattern. | Surprises. | Puzzle-like. | Unlucky rolls can block patterns. | Little control.
+dice-tell-the-story+hand-management | Rolls add story cards to players' hands, and players choose when to play them. | Story and choice together. | Lively. | Hands can be weak. | Slow.
+dice-tell-the-story+trick-taking | A roll before each hand decides an event that changes how tricks work. | Each hand feels different. | Surprises. | Hard for card players. | Rules change often.
+dice-tell-the-story+negotiation | Rolls bring events, and players negotiate how to respond. | Lively talk. | Stories grow. | Talks can drag. | Loud players dominate.
+dice-tell-the-story+set-collection | Rolls on a table decide what items players find for their sets. | Surprises. | Collecting has a story. | Luck decides sets. | Little control.
+dice-tell-the-story+tile-placement | Rolls decide what each new tile holds, and players place it. | A world full of surprises. | Story grows with the map. | Odd results. | Slow.
+dice-tell-the-story+call-and-response | A roll sets up a moment, and players answer it with their own lines. | Story grows from chance and talk. | Lively. | Odd rolls can stall. | Shy players hold back.
+dice-tell-the-story+playing-in-silence | Rolls decide what happens, and players react without speaking. | Strange and quiet. | Players watch closely. | Hard to share a story. | Meanings can be missed.
+dice-tell-the-story+change-the-rules | Some results on the table change the rules of the game. | Surprising rule changes. | Lively. | Rules can pile up. | Confusing.
+dice-tell-the-story+race-to-finish | Rolls on a table bring events that help or hinder each racer. | Lively races. | Surprises. | Luck decides a lot. | Hard to plan.
+dice-tell-the-story+most-points | Rolls on tables bring events that give or take points. | Surprises. | Lively. | Luck decides scores. | Little control.
+dice-tell-the-story+last-standing | Rolls bring dangers that knock players out until one remains. | Tense. | Surprises. | Players out early wait. | Little control.
+dice-tell-the-story+cooperative-survival | Rolls on tables bring dangers the group faces together. | Shared tension. | Story grows. | Unlucky streaks end the game. | Little control.
+dice-tell-the-story+shared-objective | Rolls bring events on the way to a shared goal. | Stories grow. | Teamwork. | Luck can delay the goal. | Can feel random.
+dice-tell-the-story+hidden-personal-goal | Rolls bring events that each player reads in light of their secret aim. | Hidden reasons. | Lively. | Hard to follow. | Luck can block aims.
+dice-tell-the-story+narrative-completion | Rolls on tables build a story until it reaches its end. | A story from chance. | Surprising endings. | Stories can wander. | Hard to finish.
+dice-tell-the-story+no-objective | Players roll on tables and enjoy the story that comes out, with no winner. | Relaxed and surprising. | Easy to play. | Some lose interest. | Hard to know when to stop.
+dice-tell-the-story+set-your-own-goal | Each player decides what they want from the story the dice tell. | Personal. | Light. | Hard to compare. | Luck decides a lot.
+dice-tell-the-story+one-loser | Rolls bring trouble until one player is caught by it. | Tense. | Others are safe. | The loser can feel unlucky. | Little control.
+dice-tell-the-story+solo-in-parallel | Each player rolls their own story beside the others. | Personal stories. | No waiting. | Little interaction. | Stories never meet.
+dice-tell-the-story+direct-confrontation | Rolls decide the outcome of clashes between players. | Exciting fights. | Nobody blamed. | Luck decides fights. | Can feel unfair.
+dice-tell-the-story+indirect-via-board | Rolls change the shared world, affecting all players. | Shared surprises. | Players adapt. | Hard to plan. | Effects can feel random.
+dice-tell-the-story+fully-cooperative | The group faces whatever the dice bring together. | Shared stories. | Teamwork. | Unlucky rolls hits everyone. | Little control.
+dice-tell-the-story+semi-cooperative | Rolls bring events the group faces, with each player gaining differently. | Mixed motives. | Lively. | Trust can break. | Hard to follow.
+dice-tell-the-story+team-vs-team | Rolls bring events to each team in turn. | Lively rivalry. | Surprises. | Luck favours one team. | Hard to plan.
+dice-tell-the-story+traitor | Rolls bring events, and a traitor uses them to hide their actions. | Suspicion. | Surprises. | Hard to tell luck from sabotage. | Confusing.
+dice-tell-the-story+playing-by-letter | Players roll and write each other the result as the next part of a story. | Slow, surprising stories. | Letters carry voice. | Long waits. | Stories drift.
+dice-tell-the-story+absent-player | Rolls stand in for an absent character's choices. | The absent character feels present. | Surprises. | The absent character feels random. | Little meaning.
+dice-tell-the-story+full-information | All tables and results are open, so everyone sees what could happen. | Players can plan around chance. | Clear. | Little mystery. | Slow.
+dice-tell-the-story+hidden-hands | Players keep some results secret until they choose to reveal them. | Surprises. | Players guess. | Hard to plan. | Secrets can be forgotten.
+dice-tell-the-story+hidden-identity | Rolls bring events that hint at who is hiding a role. | Suspicion grows. | Lively. | Hard to follow. | Luck can expose people.
+dice-tell-the-story+deduction | Rolls reveal clues to a mystery a little at a time. | Stories with puzzles. | Satisfying. | Clues come slowly. | Luck decides pace.
+dice-tell-the-story+bluffing | Players roll in secret and claim what the table said. | Lively bluffing. | Funny. | Hard to check. | Honest players doubted.
+dice-tell-the-story+rules-you-discover | Players learn what each table result means by seeing what happens. | Discovery. | Surprises. | Confusing at first. | Slow.
+dice-tell-the-story+one-knows-cannot-say | One player sees the table results and can only hint at what they mean. | Tense hints. | Lively. | Hints mislead. | The hinter feels stuck.
+dice-tell-the-story+map-revealed-as-you-go | Rolls decide what each newly explored area holds. | Exploration with surprises. | Lively. | Odd results. | Slow.
+dice-tell-the-story+model-a-system | Rolls stand for the chance events of a real system, such as a monsoon's strength. | Players feel uncertainty. | A clear link to real life. | Luck can feel unfair. | Lessons can be missed.
+dice-tell-the-story+stakeholder-roles | Rolls bring events, and each role responds as they would. | Players hear different views. | Thoughtful. | Luck hits some roles harder. | Slow.
+dice-tell-the-story+shared-resource | Rolls decide how much of a shared resource returns each round. | Players feel uncertain supply. | Clear lesson. | Luck can ruin sharing. | Players may stop planning.
+dice-tell-the-story+delayed-effects | Rolls now decide events that arrive later. | Players think ahead. | Surprises. | Hard to trace. | Little control.
+dice-tell-the-story+try-a-rule | Players try a new table to see what kind of stories it makes. | Clear tests. | Creative. | Hard to judge. | Slow.
+dice-tell-the-story+debrief | After the story, players talk about which events mattered and why. | Rich talk. | Players reflect. | Luck can dominate talk. | Talk can wander.
+dice-tell-the-story+irreversible-change | Results on the tables are crossed off once used, so the story never repeats. | Every game is new. | The game wears into a history. | The tables run out. | Mistakes stay.
+dice-tell-the-story+real-time-span | One roll a day adds to a story that runs for weeks. | A slow story. | Something to look forward to. | Easy to forget. | Stories drift.
+dice-tell-the-story+rules-make-an-argument | What is on the tables makes a point, such as which events are common for whom. | Players feel the argument through chance. | Strong talk. | The point can feel forced. | Players may resist.
+dice-tell-the-story+stakes-outside-the-game | Some results carry into real life, such as a forfeit to perform. | Play feels real. | Lively. | Forfeits can upset. | Some feel unsafe.
+dice-tell-the-story+points-stand-for-values | Rolls decide points that stand for something real, and players notice how chance shapes what counts. | Players think about luck and measurement. | Thoughtful. | The point can be missed. | Players chase points.
+dice-tell-the-story+rehearse-a-future | Rolls bring events in a world that does not exist yet, and players practise responding. | A safe way to try. | Imagining together. | Odd results break the mood. | The future can feel vague.

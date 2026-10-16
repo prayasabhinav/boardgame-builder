@@ -1,0 +1,105 @@
+cannot-be-won+roll-and-move | Players roll and move toward a finish they can never reach, as the track keeps sending them back. | Players notice what they expected. | Funny at first, then thoughtful. | Some players feel cheated. | Little to decide.
+cannot-be-won+drafting | Players pick cards toward a goal that the deck never allows them to complete. | Players see the limit slowly. | Thoughtful. | Frustrating. | Some players quit early.
+cannot-be-won+bidding | Players bid for a prize that is always taken away at the end. | Players think about why they wanted it. | Strong talk afterwards. | Spending feels wasted. | Some players feel tricked.
+cannot-be-won+push-your-luck | Players push their luck, but the game always busts them in the end. | Tension with a twist. | Players think about risk. | Some feel cheated. | Can feel pointless.
+cannot-be-won+area-control | Players try to hold land that is always taken back by the game. | Players feel what holding costs. | Thoughtful. | Frustrating. | Little sense of progress.
+cannot-be-won+worker-placement | Workers are placed, but the game takes away the rewards each round. | Players feel effort without return. | Strong talk afterwards. | Some find it bleak. | Hard to stay engaged.
+cannot-be-won+pattern-building | Players build a pattern that the game always breaks before it is finished. | Players notice their wish to finish. | Thoughtful. | Frustrating. | Can feel pointless.
+cannot-be-won+hand-management | Players manage cards that never add up to a win. | Players think about why they keep trying. | Strong talk. | Frustrating. | Some quit.
+cannot-be-won+trick-taking | Tricks are dealt so that no player can win the hand. | A familiar game turned strange. | Players notice the rules. | Card players may feel cheated. | Little to decide.
+cannot-be-won+negotiation | Players make deals toward a goal that no deal can reach. | Lively talk with a hard truth. | Players think about promises. | Frustrating. | Arguments.
+cannot-be-won+set-collection | Players collect toward a set that the deck does not contain. | Players discover the gap. | Thoughtful. | Frustrating. | Some feel tricked.
+cannot-be-won+tile-placement | Players place tiles toward a finished map that the tiles can never make. | Players notice the limit. | Thoughtful. | Frustrating. | Slow.
+cannot-be-won+call-and-response | Players answer each other in a chain that is made to break. | Players notice when it breaks. | Thoughtful. | Frustrating. | Some feel tricked.
+cannot-be-won+playing-in-silence | Players try silently to do something the game will not let them do. | Strange and quiet. | Players feel the limit. | Lonely. | Hard to explain.
+cannot-be-won+change-the-rules | Players change the rules to try to win, but the game always changes them back. | Players feel what they cannot control. | Strong talk. | Frustrating. | Confusing.
+cannot-be-won+solo-in-parallel | Each player plays alone against a game nobody can win. | Calm, thoughtful. | No comparison. | Little interaction. | Can feel bleak.
+cannot-be-won+direct-confrontation | Players fight each other, but nobody can ever come out on top. | Players see conflict without victory. | Strong talk. | Frustrating. | Can feel pointless.
+cannot-be-won+indirect-via-board | Players change the board, but every change is undone by the game. | Players feel futility. | Thoughtful. | Frustrating. | Little sense of progress.
+cannot-be-won+fully-cooperative | The group works together against a game that cannot be beaten. | Players see how they meet loss together. | Warm and heavy. | Some find it bleak. | Hard to stay motivated.
+cannot-be-won+semi-cooperative | Players work together and apart toward a goal nobody can reach. | Players see what they do when winning is impossible. | Strong talk. | Trust can break. | Frustrating.
+cannot-be-won+team-vs-team | Teams compete, but the game makes sure neither can win. | Players notice their wish to win. | Thoughtful. | Frustrating. | Teams may argue.
+cannot-be-won+traitor | Players search for a traitor, but the game cannot be won either way. | Suspicion without payoff. | Strong talk. | Frustrating. | Confusing.
+cannot-be-won+playing-by-letter | Players write to each other toward a goal that never arrives. | Slow and thoughtful. | Letters carry feeling. | Players may stop writing. | Long waits.
+cannot-be-won+absent-player | Players try to reach someone who is not there, and never can. | A quiet, sad feeling. | Thoughtful. | Some find it heavy. | Little to do.
+cannot-be-won+game-master | One player runs a world that the others can never defeat, and the story is how they face it. | Rich, heavy scenes. | Players think about what matters. | The game master can feel like the enemy. | Some players feel cheated.
+cannot-be-won+public-game | A public game that nobody can win, and passers-by find out by trying. | Surprising for strangers. | Talk among people who tried. | Strangers may feel tricked. | Hard to explain.
+cannot-be-won+mostly-chance | Luck decides every turn, and the dice are made so nobody can win. | Players notice how they trust luck. | Thoughtful. | Frustrating. | Little to decide.
+cannot-be-won+chance-with-mitigation | Players soften unlucky draws, but the game is made so it always wins. | Players feel effort against odds. | Thoughtful. | Frustrating. | Some quit.
+cannot-be-won+skill-with-luck-tempering | Skill helps, but the game is made so nobody wins. | Players see the limits of skill. | Strong talk. | Skilled players feel cheated. | Can feel pointless.
+cannot-be-won+mostly-skill | No amount of skill can win. | Players think about why they try. | Thoughtful. | Frustrating. | Some quit.
+cannot-be-won+chance-read-as-a-sign | Signs are thrown and read, but none points to a way to win. | A quiet, reflective mood. | Players think about meaning. | Can feel bleak. | Signs feel vague.
+cannot-be-won+attunement | Players try to act as one, but the game always pulls them apart. | Players feel how hard being in step is. | Thoughtful. | Frustrating. | Hard to explain.
+cannot-be-won+dice-tell-the-story | Rolls on tables tell a story that always ends in loss for the characters. | A tragic story. | Players think about fate. | Some find it bleak. | Little control.
+cannot-be-won+full-information | Everyone can see from the start that nobody can win, and plays anyway. | Players think about why they play. | Strong talk. | Some see no point. | Little tension.
+cannot-be-won+hidden-hands | Hidden cards make players hope, but no hand can win. | Hope and its loss. | Thoughtful. | Frustrating. | Some feel tricked.
+cannot-be-won+hidden-identity | Some players have hidden roles, but no side can win. | Suspicion with no payoff. | Strong talk. | Frustrating. | Confusing.
+cannot-be-won+deduction | Players work out the mystery and discover there was no way to win. | A twist at the end. | Strong talk. | Some feel tricked. | Hard to enjoy again.
+cannot-be-won+bluffing | Players bluff toward a win that does not exist. | Funny and strange. | Players notice what they chase. | Frustrating. | Little sense of progress.
+cannot-be-won+rules-you-discover | Players discover a hidden rule that means nobody can win. | A big reveal. | Strong talk. | Some feel cheated. | Hard to play again.
+cannot-be-won+one-knows-cannot-say | One player knows nobody can win and can only hint at it. | Tense and strange. | Players read closely. | Frustrating. | The knowing player feels stuck.
+cannot-be-won+map-revealed-as-you-go | Players explore a map that never reveals a way out. | Discovery with dread. | Thoughtful. | Frustrating. | Can feel bleak.
+cannot-be-won+model-a-system | A model of a real system shows a problem no single player can solve. | Players feel how big some problems are. | Strong talk. | Can feel hopeless. | Lessons can be missed.
+cannot-be-won+stakeholder-roles | Each role tries to get what they need, but the system lets nobody succeed. | Players see a system that fails everyone. | Strong talk. | Some find it bleak. | Roles may blame each other.
+cannot-be-won+shared-resource | Players share a resource that always runs out, whatever they do. | Players feel limits. | Strong talk. | Can feel hopeless. | Players may blame each other.
+cannot-be-won+delayed-effects | Effects arrive later that always undo what players built. | Players think about long-term loss. | Thoughtful. | Frustrating. | Hard to trace causes.
+cannot-be-won+try-a-rule | Players try new rules to make the game winnable, and see which come closest. | Players test ideas. | Lively. | Some rules break the game. | Hard to judge.
+cannot-be-won+debrief | After a game nobody could win, players talk about why they kept trying. | Rich talk. | Players learn about themselves. | Some feel frustrated. | Talk can be heavy.
+cannot-be-won+irreversible-change | Each failed game leaves a permanent mark, so the losses build up. | The game keeps a record of loss. | Thoughtful. | Can feel heavy. | Some find it bleak.
+cannot-be-won+real-time-span | Players keep trying over weeks at something that cannot be done. | Slow and thoughtful. | Players reflect over time. | Easy to give up. | Long.
+cannot-be-won+rules-make-an-argument | The impossibility is the argument, such as a system nobody can beat alone. | Players feel the point strongly. | Strong talk. | Some resist the message. | Can feel preachy.
+cannot-be-won+stakes-outside-the-game | Playing a game nobody can win leaves real feelings behind. | Play feels serious. | Players connect. | Feelings can linger. | Some feel unsafe.
+cannot-be-won+points-stand-for-values | Points can never add up to a win, and players notice what the points were standing for. | Players think about measuring. | Thoughtful talk. | Frustrating. | The point can be missed.
+cannot-be-won+rehearse-a-future | Players practise living with something that cannot be fixed, such as a changing climate. | A safe space for hard things. | Players imagine together. | Can feel heavy. | The future can feel vague.
+game-master+roll-and-move | One player runs the world while the others roll and move, describing what they find on each space. | Spaces come alive. | Easy to start. | A lot rests on one person. | Players may wait.
+game-master+drafting | The game master lays out choices, and players pick from them in turn. | The world offers options. | Players feel heard. | The game master shapes every choice. | Slow.
+game-master+bidding | Players bid for what the game master offers, such as help from a character. | The world has prices. | Lively scenes. | The game master can favour some. | Bidding slows play.
+game-master+push-your-luck | The game master asks each player whether to press on, and describes what happens. | Tense scenes. | Players feel daring. | The game master can seem cruel. | Careful players may stop early.
+game-master+area-control | Players claim places, and the game master decides how the world reacts. | A living map. | Players feel their claims matter. | Rulings can seem unfair. | A lot rests on one person.
+game-master+worker-placement | The game master runs the places workers visit, describing what happens at each. | Actions feel alive. | Players plan. | Slow. | A lot to track.
+game-master+pattern-building | The game master sets the shape players are building toward and describes progress. | A guided build. | Calm. | Little player freedom. | Can feel directed.
+game-master+hand-management | Players hold cards, and the game master describes what each card does in the story. | Cards come alive. | Players plan their moments. | Rulings can vary. | Slow.
+game-master+trick-taking | The game master narrates each trick as a contest in the story. | A familiar game gets a story. | Lively. | The narration can slow play. | Card players may not want it.
+game-master+negotiation | Players negotiate with characters the game master plays. | Rich scenes. | Players learn the world. | The game master holds the cards. | Talks can run long.
+game-master+set-collection | Players collect items the game master places in the world. | Collecting has a story. | Players explore. | The game master decides what appears. | Can feel directed.
+game-master+tile-placement | The game master places tiles as players explore, revealing the world. | A world that unfolds. | Surprises. | Slow. | A lot rests on one person.
+game-master+call-and-response | The game master describes, players answer, and the game master answers them. | Scenes grow naturally. | Players feel heard. | One voice leads. | Shy players may stay quiet.
+game-master+playing-in-silence | The game master runs the world without words, using cards or gestures. | Strange and striking. | Players watch closely. | Meanings can be misread. | Slow.
+game-master+change-the-rules | The game master can change the rules as the story needs. | A flexible world. | Surprises. | Players may feel the rules are unfair. | Hard to follow.
+game-master+race-to-finish | The game master runs a race, describing obstacles as players hurry. | Lively. | Clear goal. | The game master can favour some. | Racing can rush the story.
+game-master+most-points | The game master awards points for what players do. | Clear aims. | Players try things. | Points can feel arbitrary. | Players may play for points.
+game-master+last-standing | The game master runs a world where characters fall one by one. | Tense. | Every scene matters. | Players out early wait. | The game master can seem cruel.
+game-master+cooperative-survival | The game master runs a danger the players survive together. | Shared tension. | Teamwork. | The game master can feel like the enemy. | A lot rests on one person.
+game-master+shared-objective | The game master sets a goal the players pursue together. | Clear purpose. | Teamwork. | Players may feel led. | Little freedom.
+game-master+hidden-personal-goal | The game master gives each player a secret want to pursue. | Hidden reasons. | Rich scenes. | Hard to track. | The game master juggles a lot.
+game-master+narrative-completion | The game master guides the story until it reaches an ending, as in tabletop role-playing games. | A story with a shape. | Satisfying endings. | Players may feel led. | Some stories never finish.
+game-master+no-objective | The game master runs a world with no goal, and players simply live in it. | Free play. | Rich scenes. | Some players drift. | Hard to know when to stop.
+game-master+set-your-own-goal | Each player tells the game master what they want, and the world responds. | Personal stories. | Players feel heard. | Hard for the game master. | Goals can clash.
+game-master+one-loser | The game master runs the world until one character falls. | Tense scenes. | Others are safe. | The game master can seem to pick on one. | Players may gang up.
+game-master+mostly-chance | The game master rolls dice for what happens and describes the result. | Surprises. | The game master is not blamed. | Little player control. | Can feel random.
+game-master+chance-with-mitigation | Dice decide, and the game master lets players soften outcomes with choices. | Some control. | Lively. | Rulings can vary. | Slow.
+game-master+skill-with-luck-tempering | Players' choices decide most things, with a little luck the game master rolls. | Clever play pays off. | Surprises. | Rulings can feel unfair. | A lot rests on one person.
+game-master+mostly-skill | The game master decides outcomes from what players say and do, with no dice. | Players' ideas matter. | Rich scenes. | Rulings can feel unfair. | Persuasive players dominate.
+game-master+chance-read-as-a-sign | The game master reads thrown signs as omens in the story. | A mysterious world. | Players wonder. | Signs feel vague. | Players may feel led.
+game-master+attunement | The game master senses what the players want and shapes the world to it. | Scenes feel right. | Players feel heard. | Hard to do. | Some players are missed.
+game-master+dice-tell-the-story | The game master rolls on tables and describes what the dice bring. | Surprises for the game master too. | Lively. | Odd results can break the mood. | Slow.
+game-master+full-information | The game master shares everything about the world openly. | Players can plan. | Clear. | Little mystery. | Less drama.
+game-master+hidden-hands | Players hold secrets the game master does not know. | The game master is surprised too. | Lively. | Hard to plan the world. | Secrets can break the story.
+game-master+hidden-identity | The game master gives some players secret roles. | Suspicion. | Big reveals. | Hard to run. | Confusing.
+game-master+deduction | The game master hides a mystery and gives clues as players explore. | A story with a puzzle. | Satisfying when solved. | Clues can be missed. | The game master may need to hint.
+game-master+bluffing | Players lie to characters the game master plays, and the game master decides who believes them. | Funny and tense. | Acting matters. | Rulings can feel unfair. | Arguments.
+game-master+rules-you-discover | The game master knows the world's hidden laws, and players learn them by trying. | A mysterious world. | Discovery is fun. | Being told no can frustrate. | Slow.
+game-master+one-knows-cannot-say | The game master knows the answer and can only hint through the world. | Tense hints. | Players read closely. | Hints can mislead. | Slow.
+game-master+map-revealed-as-you-go | The game master reveals the map as players explore it. | Exploration feels real. | Surprises. | Slow. | A lot rests on one person.
+game-master+model-a-system | The game master runs a model of a real system, such as a city's water, and players act within it. | Players feel the system respond. | A clear link to real life. | The game master needs to know the system. | Lessons can be missed.
+game-master+stakeholder-roles | The game master runs a situation, and each player plays a real role in it. | Players hear other views. | Thoughtful. | Roles can slip into stereotypes. | A lot rests on one person.
+game-master+shared-resource | The game master tracks a shared resource and tells players how their taking affects it. | Players feel consequences. | Clear. | The game master can seem harsh. | Players may blame the game master.
+game-master+delayed-effects | The game master brings back players' earlier choices later in the story. | Choices feel heavy. | Surprises. | Hard to track. | Players may forget causes.
+game-master+try-a-rule | The game master introduces a new rule mid-story and players see what it changes. | Clear tests. | Surprises. | Players may feel the rules shift unfairly. | Hard to judge.
+game-master+debrief | After the session, the game master and players step out and talk about what happened. | Rich talk. | Players learn from choices. | Feelings can linger. | The game master may defend choices.
+game-master+irreversible-change | The game master records what players change, and it stays for every later session. | A world with history. | Choices feel serious. | Mistakes stay. | New players inherit others' choices.
+game-master+real-time-span | The game master runs a world where each real day is a day in the story. | A slow, living world. | Something to return to. | Hard to keep everyone in. | A lot of work for one person.
+game-master+rules-make-an-argument | The game master runs rules that make a point about the world, and players feel it from inside. | Players feel the argument. | Strong talk. | Players may feel led. | Can feel preachy.
+game-master+stakes-outside-the-game | What the game master asks of players can touch real feelings, so the group sets limits first. | Play feels serious. | Players feel cared for. | Feelings can linger. | The game master holds a lot of trust.
+game-master+points-stand-for-values | The game master awards points for things like kindness, and players notice what the points do. | Players think about measuring. | Thoughtful talk. | Points can feel arbitrary. | Players chase points.
+game-master+rehearse-a-future | The game master runs a world that does not exist yet, and players try living in it. | Imagining together. | Hopeful scenes. | The future can feel vague. | Players may feel led.

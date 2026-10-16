@@ -1,0 +1,118 @@
+drawing-the-map+roll-and-move | You roll to move, and when you reach the edge of the map you draw the next stretch of land. | The path grows as players travel. | Each journey looks different. | Rolls can send players into empty, undrawn areas. | Drawing can slow the movement.
+drawing-the-map+drafting | Players pick land features from a shared row and draw them onto the shared map. | Picks shape the world. | Players see what others want to make. | The feature you need may be taken. | Picking and drawing both take time.
+drawing-the-map+bidding | Players bid for the right to draw the next part of the map. | Making the world has a price. | Players learn what places matter to others. | Rich players draw most of the map. | Bidding slows the drawing.
+drawing-the-map+push-your-luck | Players keep drawing more of the map, but a drawn danger can end their turn. | Every stroke is a small risk. | Exciting reveals. | One danger can undo a turn. | Careful players draw little.
+drawing-the-map+area-control | Players draw the land and then claim parts of what they drew. | The map and its owners grow together. | Clear reasons to draw. | Players draw only what helps them. | Arguments over borders.
+drawing-the-map+worker-placement | Workers can only go to places someone has drawn, so the map decides the actions. | The world opens new choices. | Drawing has purpose. | Undrawn areas leave workers idle. | Hard to plan ahead.
+drawing-the-map+pattern-building | Players draw the map to make shapes that score, such as a ring of forests. | Creative and puzzle-like. | Satisfying maps. | Shapes can clash. | Neat drawers gain.
+drawing-the-map+hand-management | Cards in hand say what you can draw next, and you choose when to play them. | Saving a card for the right place feels clever. | The map reflects choices. | A poor hand limits drawing. | Many cards to track.
+drawing-the-map+trick-taking | Winning a trick lets you draw a feature on the shared map. | Card play makes the world. | Familiar play with a twist. | Strong card players shape the map. | Drawing breaks the card rhythm.
+drawing-the-map+negotiation | Players make deals about what gets drawn where. | Lively talk about the world. | Players learn what others imagine. | Deals can take long. | Quiet players' places vanish.
+drawing-the-map+set-collection | Players collect sets of places they have drawn, such as three rivers. | Drawing has a goal. | Clear reasons to draw. | Luck in what you may draw. | The map turns into a checklist.
+drawing-the-map+tile-placement | Players place blank tiles and draw what is on each, building a map together. | A world made by hand. | Each tile is a small creation. | Drawings can clash at edges. | Slow.
+drawing-the-map+call-and-response | Each player draws something that answers what the last player drew, such as a bridge after a river. | The map grows as a conversation. | Players react to each other. | A player can ignore the last drawing. | Hard to plan.
+drawing-the-map+playing-in-silence | Players draw the map together without speaking, reading each other's lines. | Quiet and absorbing. | Surprising worlds. | Meanings can be misread. | Some players feel unsure.
+drawing-the-map+change-the-rules | Drawing certain places changes the rules, such as a castle that adds a law. | The world shapes its own laws. | Lively. | Rules can pile up. | Hard to track.
+drawing-the-map+race-to-finish | Players race to draw a route from one side of the map to the other. | Clear goal. | Drawing becomes tense. | Players block each other's routes. | Messy maps.
+drawing-the-map+most-points | Players score points for what they draw, such as each village or road. | Clear aims. | Lively drawing. | Players draw for points, not for the world. | Scoring can be argued over.
+drawing-the-map+last-standing | Players draw dangers onto the map that push others out, until one remains. | Tense drawing. | Clear stakes. | Players who are out wait. | Can feel mean.
+drawing-the-map+cooperative-survival | Players draw the map together while a danger spreads across it. | Shared effort. | Tense and creative. | Losing erases the world. | Strong players direct the drawing.
+drawing-the-map+shared-objective | Players draw one map toward a shared goal, such as a town that feeds everyone. | Calm teamwork. | A shared world at the end. | Disagreements over what to draw. | Hard to know when it is done.
+drawing-the-map+hidden-personal-goal | Each player secretly wants the map to include something, and draws toward it. | Hidden reasons in every line. | Guessing is fun. | Goals can clash. | Hard to follow.
+drawing-the-map+narrative-completion | The map tells a story, and the game ends when the story's journey is drawn. | A map with a tale. | Satisfying endings. | Stories can stall. | Hard to finish.
+drawing-the-map+no-objective | Players draw a world together with no winner, and look at it at the end. | Calm and creative. | A shared picture. | Some players miss a goal. | Hard to know when to stop.
+drawing-the-map+set-your-own-goal | Each player decides what they want to add to the world. | Personal and creative. | Players reflect on what they made. | Hard to compare. | Goals can clash.
+drawing-the-map+one-loser | Players draw the map until one player's land is cut off, and that player loses. | Tense drawing. | Others stay safe. | The loser can feel targeted. | Players may gang up.
+drawing-the-map+keep-the-game-going | The map grows over many sessions, with no end planned. | A world with a long history. | Players return to add more. | The map can get crowded. | Hard to keep people coming back.
+drawing-the-map+cannot-be-won | The map is drawn toward something that cannot be stopped, such as rising water. | Thoughtful and heavy. | Players think about loss. | Some find it bleak. | Hard to feel progress.
+drawing-the-map+solo-in-parallel | Each player draws their own map beside the others. | Calm and personal. | No arguments. | Little interaction. | Maps never meet.
+drawing-the-map+direct-confrontation | Players draw over or into each other's land. | Lively clashes. | Drawing becomes conflict. | Erasing others' work can upset. | Messy maps.
+drawing-the-map+indirect-via-board | What one player draws changes what others can do, such as a river blocking a road. | Effects spread across the map. | Thoughtful. | Effects can feel unfair. | Hard to plan.
+drawing-the-map+fully-cooperative | The whole group draws one map against a threat from the game. | Shared creation. | Teamwork. | One player can dominate the drawing. | Losing erases the map.
+drawing-the-map+semi-cooperative | Players draw a shared world while each tries to get more for themselves. | Mixed motives. | Lively. | Trust can break. | Hard to follow.
+drawing-the-map+team-vs-team | Teams draw rival parts of one map. | Team spirit. | Clear sides. | Borders cause arguments. | One team can crowd the other.
+drawing-the-map+traitor | One player secretly draws things that will harm the group's world. | Every line is suspicious. | Big reveals. | Honest drawings look suspicious. | Hard to prove anything.
+drawing-the-map+playing-by-letter | Players post the map to each other, each adding a part before sending it on. | A slow, shared world. | Each arrival brings new land. | The map can be lost. | Long waits.
+drawing-the-map+absent-player | Players continue a map started by someone who is not there. | A world with a history. | Players read old marks. | Hard to know what was meant. | Old marks can block new ideas.
+drawing-the-map+game-master | One player draws the world as the others explore and describe where they go. | The world answers the players. | Rich exploring. | A lot rests on one person. | Players may wait.
+drawing-the-map+public-game | The map is drawn in chalk or on a wall in a public place, and passers-by add to it. | Anyone can add. | Surprising additions. | Hard to keep a shape. | Some marks may be unwelcome.
+drawing-the-map+mostly-chance | Dice decide what gets drawn where. | Surprising worlds. | Nobody is blamed. | Little choice. | Maps can feel random.
+drawing-the-map+chance-with-mitigation | Dice suggest what to draw, and players choose where it goes. | Luck and choice together. | Some control. | Some rolls fit nowhere. | Slow.
+drawing-the-map+skill-with-luck-tempering | Players draw with care, and a little luck decides some features. | Thoughtful worlds. | Surprises keep it fresh. | Skilled planners dominate. | The luck can feel tacked on.
+drawing-the-map+mostly-skill | Players plan and draw the map with no chance at all. | Deep planning. | Players own every line. | Planners dominate. | Slow.
+drawing-the-map+chance-read-as-a-sign | A thrown sign is read as what the land holds next. | A mysterious world. | Players interpret together. | Signs feel vague. | Hard to plan.
+drawing-the-map+attunement | Players draw together by sensing where the others will draw. | Flowing, shared maps. | Players grow close. | Clashes happen. | Hard to explain.
+drawing-the-map+dice-tell-the-story | Rolls on tables decide what players find, and they draw it on the map. | Surprising lands. | Story and map together. | Odd results can clash. | Slow.
+drawing-the-map+full-information | The whole map is always visible to everyone. | Easy to plan. | Clear. | Little surprise. | Long thinking turns.
+drawing-the-map+hidden-hands | Players hold secret cards about what they will draw. | Surprises when drawn. | Guessing is fun. | Hard to plan together. | Drawings can clash.
+drawing-the-map+hidden-identity | Some players secretly draw for a hidden side. | Suspicion in every line. | Big reveals. | Confusing. | Hard to follow.
+drawing-the-map+deduction | Players work out a hidden fact from how the map is drawn, such as where treasure lies. | Puzzling maps. | Clues in the land. | Clues can be unclear. | Hard to follow.
+drawing-the-map+bluffing | Players claim what they have drawn means, and others decide whether to believe them. | Lively talk. | Funny claims. | Hard to check. | Arguments.
+drawing-the-map+rules-you-discover | A secret rule decides which drawings are allowed, and players learn it by drawing. | Puzzling and creative. | Discovery is fun. | Erased drawings frustrate. | Slow.
+drawing-the-map+one-knows-cannot-say | One player knows how the map has to look and can only hint as others draw. | Hints guide the world. | Satisfying when it matches. | Hints mislead. | The hinter feels stuck.
+drawing-the-map+map-revealed-as-you-go | Players draw each area only as they reach it, so the world appears as they explore. | Discovery and making together. | Every step is new. | Slow. | Hard to plan.
+drawing-the-map+model-a-system | Players draw a real place, such as their neighbourhood, and mark how things flow through it. | Players see their own world as a system. | A clear link to real life. | The map can get crowded. | Lessons can be missed.
+drawing-the-map+stakeholder-roles | Each role draws the map as they see it, and the maps are compared. | Players see different views of one place. | Thoughtful talk. | Some roles draw less. | Maps can clash.
+drawing-the-map+shared-resource | Players draw where a shared resource is, and how much each takes from it. | Players see sharing on the map. | Clear lesson. | The resource can run out. | Players may blame each other.
+drawing-the-map+delayed-effects | What players draw now changes the land later, such as a dam that floods the valley. | Players think ahead. | Surprises later. | Hard to trace causes. | Mistakes show late.
+drawing-the-map+try-a-rule | Players try a new rule for drawing, such as no borders, and see what world appears. | Fresh worlds. | Clear tests. | Hard to judge. | Some rules feel strange.
+drawing-the-map+debrief | After drawing, players talk about what their map says about what they value. | Rich talk. | Players learn from the map. | Some feel exposed. | Talk can wander.
+drawing-the-map+irreversible-change | Lines on the map are never erased, so each game's world carries into the next. | A world with history. | Choices feel serious. | Mistakes stay. | New players inherit others' choices.
+drawing-the-map+real-time-span | Players add to the map once a day, and it grows over weeks. | A slow, shared world. | Something to return to. | Easy to forget. | Hard to keep in step.
+drawing-the-map+rules-make-an-argument | The rules for what can be drawn say something, such as roads only to cities. | Players see the argument in the map. | Strong talk. | The point can feel forced. | Players may resist.
+drawing-the-map+stakes-outside-the-game | The map is of a real place, and what players draw may be shown to the people who live there. | Drawing feels serious. | Players care about accuracy. | Real stakes can worry players. | Some places are sensitive.
+drawing-the-map+points-stand-for-values | Places on the map earn points, and players notice which places the scoring ignores. | Players see what scoring leaves out. | Thoughtful talk. | Players chase points anyway. | The point can be missed.
+drawing-the-map+rehearse-a-future | Players draw a place as they would like it to be, and play in it. | Imagining together. | Hopeful worlds. | The future can feel vague. | Disagreements about the future.
+keep-the-game-going+roll-and-move | Players roll and move around a loop with no finish, keeping the journey going together. | Relaxed and endless. | Easy to join. | Little reason to keep going. | Can feel aimless.
+keep-the-game-going+drafting | Players pick from a row that refills, and the aim is to keep the row from running dry. | Shared care for the game. | Calm picking. | Little tension. | Hard to end.
+keep-the-game-going+bidding | Players bid in a way that keeps everyone able to bid again. | Players watch out for each other. | Thoughtful. | Little contest. | Can feel strange.
+keep-the-game-going+push-your-luck | Players push their luck, but a bust ends the game for everyone, so they push carefully. | Shared tension. | Players think of the group. | One bust ends it all. | Careful play can feel slow.
+keep-the-game-going+area-control | Players hold areas, but nobody may be pushed off entirely, so play continues. | Players balance holding and sharing. | Long games. | Little drama. | Hard to end.
+keep-the-game-going+worker-placement | Players place workers so that everyone always has a space left. | Care for others' turns. | Long play. | Little competition. | Can feel slow.
+keep-the-game-going+pattern-building | Players add to a pattern that never has to be finished. | Calm and creative. | Players return to it. | No sense of completion. | Can feel aimless.
+keep-the-game-going+hand-management | Players play cards so that nobody runs out, keeping the game alive. | Shared planning. | Thoughtful. | Little tension. | Hard to end.
+keep-the-game-going+trick-taking | Tricks are played so that the hand never ends, with players helping each other stay in. | A playful twist on cards. | Players cooperate. | Confusing for card players. | Hard to end.
+keep-the-game-going+negotiation | Players make deals that keep everyone in the game. | Lively, caring talk. | Players watch out for each other. | Deals can drag on. | Little tension.
+keep-the-game-going+set-collection | Collected sets go back into the game, so collecting never ends. | Endless play. | Calm. | No sense of progress. | Can feel aimless.
+keep-the-game-going+tile-placement | The tile map keeps growing, and the aim is to always have somewhere to place the next tile. | A growing world. | Players plan for later. | Little tension. | The map can sprawl.
+keep-the-game-going+call-and-response | Players answer each other to keep a chain going as long as they can. | Shared rhythm. | Players listen closely. | One stumble ends it. | Can feel endless.
+keep-the-game-going+playing-in-silence | Players keep a silent game going as long as they can without breaking it. | Quiet focus. | Players grow close. | Hard to explain endings. | Can feel tense.
+keep-the-game-going+change-the-rules | Players change the rules whenever the game is about to end, to keep it going. | Endless invention. | Players feel ownership. | Rules can pile up. | Hard to follow.
+keep-the-game-going+solo-in-parallel | Each player keeps their own game going side by side. | Calm. | No pressure. | Little interaction. | Easy to drift off.
+keep-the-game-going+direct-confrontation | Players clash, but never so hard that someone leaves the game. | Lively but safe. | Players hold back. | Clashes can feel soft. | Hard to judge limits.
+keep-the-game-going+indirect-via-board | Players change the board so that others always have moves left. | Players think of others. | Long play. | Little tension. | Hard to end.
+keep-the-game-going+fully-cooperative | The whole group works to keep the game going against what would end it. | Shared purpose. | Long runs feel satisfying. | One mistake ends it. | Pressure on everyone.
+keep-the-game-going+semi-cooperative | Players keep the game going together while each gains a little more for themselves. | Mixed motives. | Lively. | Selfish moves can end it. | Trust can wear thin.
+keep-the-game-going+team-vs-team | Teams compete, but neither team is allowed to fall out of the game. | Lively and safe. | Long rivalry. | Little tension. | Hard to end.
+keep-the-game-going+traitor | One player secretly tries to end the game while others keep it going. | Suspicion grows over time. | Tense. | Long games before the reveal. | Hard to find the traitor.
+keep-the-game-going+playing-by-letter | Players write to each other with no end planned, keeping the exchange going. | A long correspondence. | Something to look forward to. | Players may drop out. | Easy to forget.
+keep-the-game-going+absent-player | Players continue a game started by someone else, and pass it on to someone else after. | A game that outlives its players. | A sense of history. | Hard to understand old moves. | Hard to hand on.
+keep-the-game-going+game-master | One player runs a world that keeps going from session to session, as in a long campaign. | A living world. | Players grow attached. | A lot rests on one person. | Hard to keep everyone coming back.
+keep-the-game-going+public-game | A public game keeps going as people come and go, such as a street game played every evening. | Anyone can join at any time. | A game with a life of its own. | Hard to keep track. | Rules can drift.
+keep-the-game-going+mostly-chance | Luck decides each turn, and players keep playing for as long as they like. | Relaxed. | Easy to join and leave. | Little to decide. | Can feel aimless.
+keep-the-game-going+chance-with-mitigation | Luck threatens to end the game, and players use choices to keep it alive. | Tense care. | Players feel useful. | Unlucky streaks still end it. | Can feel long.
+keep-the-game-going+skill-with-luck-tempering | Skill keeps the game alive, with a little luck adding risk. | Clever play matters. | Long runs feel earned. | Skilled players carry the group. | The luck can feel tacked on.
+keep-the-game-going+mostly-skill | Only careful play keeps the game going. | Deep focus. | Satisfying runs. | One mistake ends it. | Pressure on everyone.
+keep-the-game-going+chance-read-as-a-sign | Signs thrown each round tell players how to keep the game going. | A ritual feel. | Players interpret together. | Signs feel vague. | Can feel aimless.
+keep-the-game-going+attunement | Players keep the game going by staying in step with each other. | Players grow close. | Long runs feel special. | One slip ends it. | Hard to explain.
+keep-the-game-going+dice-tell-the-story | Rolls on tables add new events, so the story keeps going. | Endless surprises. | Players react. | The story can sprawl. | Hard to end.
+keep-the-game-going+full-information | Everyone sees everything and works to keep the game alive. | Clear planning. | Shared care. | Little surprise. | Slow.
+keep-the-game-going+hidden-hands | Players hold hidden cards and try to keep the game going without knowing what others hold. | Tense guessing. | Players read each other. | Hard to plan. | Endings can feel sudden.
+keep-the-game-going+hidden-identity | Some players secretly want the game to end. | Suspicion. | Tense. | Long before the reveal. | Hard to follow.
+keep-the-game-going+deduction | Players work out what keeps the game alive from clues. | Puzzling. | Players think together. | Clues can be unclear. | Slow.
+keep-the-game-going+bluffing | Players claim they can keep the game going, and others decide whether to believe them. | Lively. | Funny moments. | Failed claims end the game. | Hard to judge.
+keep-the-game-going+rules-you-discover | Players discover a secret rule about what ends the game, and try to avoid it. | Puzzling. | Discovery is satisfying. | The game may end before the rule is found. | Slow.
+keep-the-game-going+one-knows-cannot-say | One player knows what will end the game and can only hint to avoid it. | Hints feel urgent. | Players read closely. | Hints can mislead. | The hinter feels stuck.
+keep-the-game-going+map-revealed-as-you-go | Players keep exploring a map that never runs out. | Endless discovery. | Something new each time. | The map can sprawl. | Hard to end.
+keep-the-game-going+model-a-system | Players keep a model of a real system running, such as a forest that has to last. | Players feel what keeping things going takes. | A clear link to real life. | Long and slow. | Lessons can be missed.
+keep-the-game-going+stakeholder-roles | Each role tries to keep their part going, and they need each other to continue. | Players see how parts depend on each other. | Thoughtful. | Some roles carry more. | Long.
+keep-the-game-going+shared-resource | Players share a resource and try to make it last as long as possible. | A clear lesson about sharing. | Players hold back. | One greedy turn ends it. | Players may blame each other.
+keep-the-game-going+delayed-effects | Choices made now decide whether the game can keep going later. | Players think long term. | Surprises later. | Hard to trace causes. | Endings come late.
+keep-the-game-going+try-a-rule | Players try a rule to see whether it helps the game keep going. | Clear tests. | Players learn by trying. | Hard to judge. | Slow.
+keep-the-game-going+debrief | After the game finally stops, players talk about what kept it going and what ended it. | Rich talk. | Players learn together. | Long games can blur. | Talk can wander.
+keep-the-game-going+irreversible-change | Every session leaves permanent marks, and the game carries on from them. | A game with a history. | Choices feel serious. | Mistakes stay. | New players inherit others' choices.
+keep-the-game-going+real-time-span | The game runs on real days with no end date. | Something to return to. | A slow rhythm. | Easy to forget. | Players drift away.
+keep-the-game-going+rules-make-an-argument | The rules show what it takes to keep something going, such as care or sharing. | Players feel the point. | Strong talk afterwards. | The point can feel forced. | Players may resist.
+keep-the-game-going+stakes-outside-the-game | Keeping the game going matters outside it, such as a weekly game that keeps friends meeting. | Play feels meaningful. | Players care. | Pressure to show up. | Missed weeks can hurt.
+keep-the-game-going+points-stand-for-values | Points measure how long the group keeps something alive, and players notice what that leaves out. | Players think about measuring care. | Thoughtful talk. | Players chase points. | The point can be missed.
+keep-the-game-going+rehearse-a-future | Players practise keeping a new way of living going over many sessions. | A safe space to try. | Players imagine together. | The future can feel vague. | Long commitment.

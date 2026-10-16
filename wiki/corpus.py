@@ -70,7 +70,7 @@ def load():
     for bid, name in group_of.items():
         meta = meta_for(bid)
         add(f"block:{bid}", "block", display[bid], "curated", "written-for-the-tool",
-            group=name, text=meta["description"], svg=meta["svg"], elements=[bid])
+            group=name, text=meta["description"], svg=meta["svg"], elements=[bid], credit=meta.get("credit"))
 
     for fb in curated["feeling_blocks"]:
         f = fb["feeling"]

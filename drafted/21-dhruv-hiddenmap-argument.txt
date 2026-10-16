@@ -1,0 +1,110 @@
+map-revealed-as-you-go+roll-and-move | You roll to move, and each new space you reach is turned over to show what is there. | Every move is a discovery. | Easy to play. | Little to decide. | Rolls can lead into dead ends.
+map-revealed-as-you-go+drafting | Players pick which unexplored area to reveal next from a shared row of options. | Choosing where to look feels clever. | Players watch what others explore. | Promising areas get taken first. | Slow.
+map-revealed-as-you-go+bidding | Players bid for the right to explore an area first. | Exploring has a price. | Tense guessing about value. | Players pay for empty areas. | Rich players explore most.
+map-revealed-as-you-go+push-your-luck | Players keep exploring further, but a revealed danger can lose what they found. | Exciting reveals. | Every step is a risk. | One danger undoes a lot. | Careful players explore little.
+map-revealed-as-you-go+area-control | Players claim areas as they reveal them. | Discovery leads to ownership. | Exciting races to explore. | Early explorers gain most. | Late players find little left.
+map-revealed-as-you-go+worker-placement | Workers can only go to areas that have been revealed. | The map opens new actions. | Players plan around what is known. | Early turns are limited. | Hard to plan ahead.
+map-revealed-as-you-go+pattern-building | Revealed areas form patterns that score when they connect. | Discovery and puzzle together. | Satisfying links. | Luck decides patterns. | Hard to plan.
+map-revealed-as-you-go+hand-management | Cards in hand let players reveal areas or protect themselves from what they find. | Saving cards for danger feels clever. | Players plan. | Many cards to track. | Slow.
+map-revealed-as-you-go+trick-taking | Winning a trick lets you reveal an area of the map. | Card play drives discovery. | Familiar with a twist. | Strong card players explore most. | Breaks the card rhythm.
+map-revealed-as-you-go+negotiation | Players trade information about what they have seen in hidden areas. | Information becomes currency. | Lively deals. | Players can lie. | Talks can drag.
+map-revealed-as-you-go+set-collection | Players collect items found in revealed areas. | Exploring has a purpose. | Surprises. | Luck decides what is found. | Little control.
+map-revealed-as-you-go+tile-placement | Face-down tiles are placed and turned over when players reach them. | A world that unfolds. | Surprising maps. | Tiles may not fit plans. | Slow.
+map-revealed-as-you-go+call-and-response | Each player reveals an area and the next answers it by choosing where to look next. | Exploration as conversation. | Players react. | Hard to plan. | Slow.
+map-revealed-as-you-go+playing-in-silence | Players explore the hidden map without speaking. | Quiet tension. | Players watch closely. | Hard to coordinate. | Discoveries feel lonely.
+map-revealed-as-you-go+change-the-rules | Some revealed areas change the rules of the game. | Surprising shifts. | Lively. | Rules can pile up. | Confusing.
+map-revealed-as-you-go+race-to-finish | Players race to find a hidden goal on the map. | Exciting search. | Clear aim. | Luck decides who finds it. | Players may feel unlucky.
+map-revealed-as-you-go+most-points | Players score for what they reveal, such as treasure or new land. | Exploring pays. | Surprises. | Luck decides scores. | Players race to explore.
+map-revealed-as-you-go+last-standing | Revealed dangers knock players out until one remains. | Tense exploring. | Every reveal matters. | Players out early wait. | Luck decides a lot.
+map-revealed-as-you-go+cooperative-survival | The group explores together while dangers appear. | Shared tension. | Teamwork. | One reveal can end the game. | Little control.
+map-revealed-as-you-go+shared-objective | The group explores to find something together. | Shared discovery. | Calm teamwork. | Slow searches frustrate. | Some players lead.
+map-revealed-as-you-go+hidden-personal-goal | Each player secretly searches for something different. | Hidden reasons for exploring. | Guessing is fun. | Hard to follow. | Goals can clash.
+map-revealed-as-you-go+narrative-completion | The story unfolds as the map is revealed, ending when the last area is found. | Story and discovery together. | Satisfying endings. | Slow. | Stories can stall.
+map-revealed-as-you-go+no-objective | Players explore the hidden map just to see what is there. | Calm curiosity. | Easy to play. | Some lose interest. | Hard to know when to stop.
+map-revealed-as-you-go+set-your-own-goal | Each player decides what they hope to find. | Personal exploring. | Light. | Hard to compare. | Luck decides.
+map-revealed-as-you-go+one-loser | Players explore until one of them reveals a trap and loses. | Tense reveals. | Others are safe. | The loser feels unlucky. | Little control.
+map-revealed-as-you-go+solo-in-parallel | Each player explores their own hidden map. | Personal discovery. | No waiting. | Little interaction. | Maps never meet.
+map-revealed-as-you-go+direct-confrontation | Players meet each other as they explore, and clash where their paths cross. | Surprise meetings. | Exciting. | Clashes can feel random. | Hard to plan.
+map-revealed-as-you-go+indirect-via-board | What one player reveals changes the options for others. | Shared discovery. | Players notice effects. | Effects can feel unfair. | Hard to plan.
+map-revealed-as-you-go+fully-cooperative | The whole group explores a hidden map against the game. | Shared surprises. | Teamwork. | One player can lead. | Dangers hit everyone.
+map-revealed-as-you-go+semi-cooperative | Players explore together while keeping some finds for themselves. | Mixed motives. | Lively. | Trust can break. | Hard to follow.
+map-revealed-as-you-go+team-vs-team | Teams explore rival parts of a hidden map. | Team spirit. | Exciting races. | Luck can favour one team. | Hard to plan.
+map-revealed-as-you-go+traitor | One player knows the hidden map and secretly leads others into trouble. | Suspicion. | Tense. | Honest guesses look suspicious. | Confusing.
+map-revealed-as-you-go+playing-by-letter | Players write to each other about what they find as they explore. | Slow discovery. | Letters carry wonder. | Long waits. | Players drift.
+map-revealed-as-you-go+absent-player | Players explore a map left by someone who is not there, finding their marks. | A sense of someone before. | Thoughtful. | Hard to read old marks. | Some find it eerie.
+map-revealed-as-you-go+mostly-chance | What is revealed is pure luck. | Surprises. | Nobody is blamed. | Little to decide. | Can feel random.
+map-revealed-as-you-go+chance-with-mitigation | What is revealed is luck, but players choose where to look. | Some control. | Lively. | Unlucky reveals sting. | Slow.
+map-revealed-as-you-go+skill-with-luck-tempering | Players reason about where to explore, with a little luck in what they find. | Clever exploring pays. | Surprises. | Planners dominate. | The luck can feel tacked on.
+map-revealed-as-you-go+mostly-skill | Players work out where things are from clues before revealing them. | Clever exploring. | No luck to blame. | Slow. | Planners dominate.
+map-revealed-as-you-go+chance-read-as-a-sign | Each revealed area is read as a sign of what lies ahead. | A mysterious journey. | Players interpret together. | Signs feel vague. | Hard to plan.
+map-revealed-as-you-go+attunement | Players explore by sensing where the others will go. | Players move as a group. | Calm. | Hard to explain. | Some feel lost.
+map-revealed-as-you-go+model-a-system | Players explore a real system bit by bit, such as the hidden costs of a product. | Players see what is usually hidden. | Strong talk. | Slow. | Lessons can be missed.
+map-revealed-as-you-go+stakeholder-roles | Each role can see a different part of the map, and they share what they know. | Players see how knowledge is split. | Thoughtful. | Some roles see little. | Slow.
+map-revealed-as-you-go+shared-resource | Players search a hidden map for a shared resource and decide how to share it once found. | Discovery and sharing. | Lively. | Some take too much. | Luck decides finds.
+map-revealed-as-you-go+delayed-effects | What players reveal now changes what can be found later. | Players think ahead. | Surprises. | Hard to trace causes. | Slow.
+map-revealed-as-you-go+try-a-rule | Players try a new rule for exploring, such as revealing two areas at once. | Clear tests. | Fresh play. | Hard to judge. | Some rules break the search.
+map-revealed-as-you-go+debrief | After exploring, players talk about what they expected to find and what they found. | Rich talk. | Players reflect. | Talk can wander. | Some feel unlucky.
+map-revealed-as-you-go+irreversible-change | Revealed areas stay revealed for every later game. | The world fills in over time. | A history of exploring. | Later games have less mystery. | Mistakes stay.
+map-revealed-as-you-go+real-time-span | One area is revealed each day, and the world appears over weeks. | A slow unfolding. | Something to look forward to. | Easy to forget. | Slow.
+map-revealed-as-you-go+rules-make-an-argument | What the hidden map holds makes a point, such as who already lives in the land players explore. | Players feel the point on discovering it. | Strong talk. | Can feel preachy. | Players may resist.
+map-revealed-as-you-go+stakes-outside-the-game | The map is of a real place, and exploring it leads players to visit or learn about it. | Play reaches the real world. | Curious. | Some places are sensitive. | Hard to set up.
+map-revealed-as-you-go+points-stand-for-values | Players score for claiming new land, and notice what the scoring says about exploring. | Players think about what counting rewards. | Thoughtful talk. | Players chase points anyway. | The point can be missed.
+map-revealed-as-you-go+rehearse-a-future | Players explore a future world as it is revealed, imagining how to live there. | Imagining together. | Hopeful. | The future can feel vague. | Slow.
+rules-make-an-argument+roll-and-move | The spaces on the track say something, such as some players starting further back. | Players feel the point as they move. | Easy to play. | The point can feel heavy-handed. | Little to decide.
+rules-make-an-argument+drafting | What can be picked, and by whom, makes a point about who gets choices in life. | Players feel the point in their picks. | Strong talk. | Some players feel unfairly limited. | The point can feel forced.
+rules-make-an-argument+bidding | The bidding rules make a point, such as richer players always bidding first. | Players feel inequality. | Strong talk. | Frustrating for some. | Can feel preachy.
+rules-make-an-argument+push-your-luck | Who can afford to take risks is built into the rules. | Players feel how risk differs by position. | Thoughtful. | Some players feel stuck. | The point can feel forced.
+rules-make-an-argument+area-control | The rules for holding land make a point about who gets to own it. | Players feel the argument through the map. | Strong talk. | Some players feel shut out. | Can feel preachy.
+rules-make-an-argument+worker-placement | The action spaces make a point, such as some jobs paying more than others for the same work. | Players feel the point in their plans. | Strong talk. | Frustrating. | Players may resist.
+rules-make-an-argument+pattern-building | The patterns that score make a point, such as neat grids scoring more than winding paths. | Players notice what is rewarded. | Thoughtful. | The point can be missed. | Some find it dull.
+rules-make-an-argument+hand-management | Who gets which cards makes a point about who starts with what. | Players feel unequal starts. | Strong talk. | Frustrating. | Can feel preachy.
+rules-make-an-argument+trick-taking | The trick rules make a point, such as one suit always winning. | A familiar game says something. | Thoughtful. | Card players may resist. | Can feel forced.
+rules-make-an-argument+negotiation | The rules for deals make a point about who has power in a negotiation. | Players feel power in talks. | Strong talk. | Some feel unheard. | Arguments.
+rules-make-an-argument+set-collection | What counts as a set makes a point about what is valued. | Players notice what counts. | Thoughtful. | The point can be missed. | Some find it dull.
+rules-make-an-argument+tile-placement | Where tiles can go makes a point, such as roads only reaching some places. | Players see the argument on the map. | Strong talk. | Can feel forced. | Players may resist.
+rules-make-an-argument+call-and-response | Who is allowed to answer whom makes a point about who gets heard. | Players feel who is heard. | Strong talk. | Some feel unheard. | Can feel preachy.
+rules-make-an-argument+playing-in-silence | The silence itself makes a point, such as people who cannot speak up. | Players feel the point. | Striking. | Uncomfortable. | Hard to explain.
+rules-make-an-argument+change-the-rules | Who is allowed to change the rules makes a point about power. | Players feel who makes rules. | Strong talk. | Frustrating for some. | Arguments.
+rules-make-an-argument+race-to-finish | The race is set so that some start ahead, making a point about head starts in life. | Players feel the point. | Strong talk. | Frustrating. | Some resist.
+rules-make-an-argument+most-points | What earns points makes a point about what a society rewards. | Players notice what counts. | Thoughtful. | Players chase points anyway. | The point can be missed.
+rules-make-an-argument+last-standing | Who gets knocked out first makes a point about who is most at risk. | Players feel the point. | Strong talk. | Upsetting for some. | Can feel preachy.
+rules-make-an-argument+cooperative-survival | The rules show what it takes for a group to survive together. | Players feel the point as a team. | Strong talk. | The point can feel obvious. | Hard to balance.
+rules-make-an-argument+shared-objective | The rules for reaching the goal make a point about how groups succeed. | Players feel the argument. | Thoughtful. | Can feel preachy. | Players may resist.
+rules-make-an-argument+hidden-personal-goal | Secret goals make a point about hidden interests in public life. | Players feel the point on reveal. | Strong talk. | Confusing. | Can feel forced.
+rules-make-an-argument+narrative-completion | The way the story can end makes a point about what endings are possible. | Players feel the argument. | Strong talk. | Some feel led. | Can feel preachy.
+rules-make-an-argument+no-objective | Having no winner makes a point about why people compete. | Players think about winning. | Thoughtful talk. | Some see no point. | Can feel empty.
+rules-make-an-argument+set-your-own-goal | Letting players set their goals makes a point about what success means. | Players reflect. | Thoughtful talk. | Hard to compare. | The point can be missed.
+rules-make-an-argument+one-loser | Who ends up losing makes a point about who carries the cost. | Players feel the point. | Strong talk. | The loser can feel targeted. | Upsetting.
+rules-make-an-argument+solo-in-parallel | Playing alone side by side makes a point about isolation. | Players feel apart. | Thoughtful. | Little interaction. | The point can be missed.
+rules-make-an-argument+direct-confrontation | The rules for attacking make a point about violence and its costs. | Players feel the point. | Strong talk. | Upsetting for some. | Can feel preachy.
+rules-make-an-argument+indirect-via-board | How players affect each other through the board makes a point about hidden harm. | Players notice their effects. | Thoughtful. | Effects can be missed. | Subtle.
+rules-make-an-argument+fully-cooperative | The rules make a point about what people can do together. | Warm and thoughtful. | Strong talk. | Can feel obvious. | Little tension.
+rules-make-an-argument+semi-cooperative | The rules make a point about self-interest inside a group. | Players feel the tension. | Strong talk. | Trust can break. | Hard to follow.
+rules-make-an-argument+team-vs-team | Unequal teams make a point about how sides are formed. | Players feel the point. | Strong talk. | Frustrating for one team. | Arguments.
+rules-make-an-argument+traitor | The traitor's role makes a point about betrayal from inside. | Players feel suspicion. | Strong talk. | Upsetting. | Confusing.
+rules-make-an-argument+playing-by-letter | The slow exchange of letters makes a point about distance and delay. | Players feel the wait. | Thoughtful. | Long. | Players drift.
+rules-make-an-argument+absent-player | The empty seat makes a point about who is left out. | Players feel absence. | Strong talk. | Heavy. | Some find it sad.
+rules-make-an-argument+mostly-chance | Leaving outcomes to luck makes a point about how much of life is chance. | Players feel luck's power. | Strong talk. | Frustrating. | Little to decide.
+rules-make-an-argument+chance-with-mitigation | Who can soften an unlucky draw makes a point about safety nets. | Players feel unequal protection. | Strong talk. | Frustrating. | Can feel preachy.
+rules-make-an-argument+skill-with-luck-tempering | The balance of skill and luck makes a point about merit. | Players argue about merit. | Thoughtful. | The point can be missed. | Hard to balance.
+rules-make-an-argument+mostly-skill | Rewarding only skill makes a point about who gets to practise. | Players think about advantage. | Strong talk. | Practised players dominate. | Can feel unfair.
+rules-make-an-argument+chance-read-as-a-sign | How signs are read makes a point about belief and interpretation. | Players think about meaning. | Thoughtful. | Signs feel vague. | Can feel abstract.
+rules-make-an-argument+attunement | Needing to stay in step makes a point about cooperation without words. | Players feel connection. | Thoughtful. | Hard to explain. | Subtle.
+rules-make-an-argument+full-information | Showing everything makes a point about transparency. | Players feel openness. | Thoughtful. | Little surprise. | Can feel flat.
+rules-make-an-argument+hidden-hands | What players can and cannot see makes a point about unequal information. | Players feel what they do not know. | Strong talk. | Frustrating. | Subtle.
+rules-make-an-argument+hidden-identity | Hidden roles make a point about who people really work for. | Suspicion. | Strong talk. | Confusing. | Upsetting.
+rules-make-an-argument+deduction | What the clues allow players to work out makes a point about evidence. | Players think about proof. | Thoughtful. | Subtle. | Can feel abstract.
+rules-make-an-argument+bluffing | Rewarding lies makes a point about honesty and power. | Players feel the cost of lying. | Strong talk. | Uncomfortable. | Honest players lose.
+rules-make-an-argument+rules-you-discover | Hidden rules make a point about systems newcomers cannot see. | Players feel what being new is like. | Strong talk. | Frustrating. | Slow.
+rules-make-an-argument+one-knows-cannot-say | One player who knows but cannot speak makes a point about silenced knowledge. | Players feel the point. | Strong talk. | Frustrating for the knower. | Subtle.
+rules-make-an-argument+model-a-system | A model of a real system makes its point through how its parts behave. | Players see the system argue. | Strong talk. | The model can be simplistic. | Lessons can be missed.
+rules-make-an-argument+stakeholder-roles | The powers each role has make a point about who decides in real life. | Players feel unequal power. | Strong talk. | Frustrating for weaker roles. | Arguments.
+rules-make-an-argument+shared-resource | How the shared resource behaves makes a point about the commons. | Players feel the point. | Strong talk. | Can feel obvious. | Players may blame each other.
+rules-make-an-argument+delayed-effects | Effects that arrive late make a point about consequences we do not see. | Players feel delayed harm. | Strong talk. | Hard to trace. | Subtle.
+rules-make-an-argument+try-a-rule | Players try changing the rule that makes the argument, to see whether the point still holds. | Players test the argument. | Lively talk. | Hard to judge. | Slow.
+rules-make-an-argument+debrief | After playing, players talk about what the rules were arguing. | Rich talk. | Players find the argument together. | Some disagree. | Talk can run long.
+rules-make-an-argument+irreversible-change | Lasting changes make a point about choices that cannot be undone. | Players feel permanence. | Strong talk. | Heavy. | Mistakes stay.
+rules-make-an-argument+real-time-span | The slow pace of play makes a point about how long change takes. | Players feel time. | Thoughtful. | Long. | Players drift.
+rules-make-an-argument+stakes-outside-the-game | The argument reaches beyond the table, such as a game about a local issue played with people affected by it. | Play feels urgent. | Strong talk. | Upsetting for some. | Needs care.
+rules-make-an-argument+points-stand-for-values | Points that stand for real values make a point about measuring what matters. | Players notice what counting does. | Strong talk. | Players chase points. | The point can be missed.
+rules-make-an-argument+rehearse-a-future | The rules of a future world make an argument for or against it. | Players feel the future's logic. | Strong talk. | Can feel preachy. | The future can feel vague.

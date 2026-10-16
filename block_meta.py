@@ -19,7 +19,7 @@ def svg(inner: str) -> str:
 
 
 # ─────────────────────────────────────────────────────────────────────
-# CORE MECHANICS (15)
+# CORE MECHANICS (18)
 # ─────────────────────────────────────────────────────────────────────
 
 CORE_MECHANICS = {
@@ -83,11 +83,26 @@ CORE_MECHANICS = {
         "description": "On your turn you can change a rule instead of only making a move, so the game you finish is not the game you started. In Nomic, changing the rules is the whole game.",
         "svg": svg(f'<rect x="18" y="10" width="52" height="60" rx="3" {_S}/><path d="M26 22 h36 M26 32 h36 M26 52 h24" {_S}/><path d="M26 45 l6 -6 l6 6 l6 -6 l6 6 l6 -6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M80 64 l18 -32 l8 4 l-18 32 l-9 4 z" {_S}/><path d="M95 37 l8 4" {_S}/><circle cx="82" cy="66" r="2.5" {_FILL} stroke="none"/>'),
     },
+    "role-play": {
+        "description": "You speak and act as a character instead of as yourself, and decide what that character would do. Tabletop role-playing games and live-action role-play (LARP) are built on this.",
+        "svg": svg(f'<path d="M22 22 q28 -12 56 0 q2 28 -28 42 q-30 -14 -28 -42 z" {_S}/><path d="M34 34 q5 -4 10 0 M56 34 q5 -4 10 0" {_S}/><path d="M42 48 q8 6 16 0" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M86 12 h24 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-14 l-6 6 v-6 h-4 a4 4 0 0 1 -4 -4 v-10 a4 4 0 0 1 4 -4 z" {_S}/><circle cx="98" cy="21" r="2.5" {_FILL} stroke="none"/>'),
+        "credit": "Dhruv Jani",
+    },
+    "dexterity": {
+        "description": "Your hands decide what happens: flicking, stacking, balancing or throwing. In Jenga you pull blocks out of a tower without toppling it; in carrom you flick the striker.",
+        "svg": svg(f'<path d="M26 66 h64" {_S}/><rect x="42" y="56" width="34" height="9" rx="1" {_S}/><rect x="42" y="46" width="34" height="9" rx="1" {_S}/><rect x="52" y="36" width="34" height="9" rx="1" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="42" y="26" width="34" height="9" rx="1" {_S}/><rect x="42" y="16" width="34" height="9" rx="1" {_S}/><path d="M104 40 h-14" {_S}/><path d="M96 34 l-6 6 l6 6" {_S}/>'),
+        "credit": "Dhruv Jani",
+    },
+    "drawing-the-map": {
+        "description": "Players draw or build the map as they play, so the world is made by the people in it. In The Quiet Year, a community's map grows week by week on one sheet of paper.",
+        "svg": svg(f'<rect x="12" y="12" width="70" height="56" rx="3" {_S}/><path d="M20 52 q10 -18 22 -10 q10 6 18 -8 q6 -10 14 -4" {_S}/><path d="M26 28 l5 -8 l5 8 z M40 24 l5 -8 l5 8 z" {_S}/><circle cx="62" cy="54" r="3" {_FILL} stroke="none"/><path d="M86 66 l18 -32 l8 4 l-18 32 l-9 4 z" {_S}/><path d="M101 39 l8 4" {_S}/>'),
+        "credit": "Dhruv Jani",
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# VICTORY CONDITIONS (10)
+# VICTORY CONDITIONS (12)
 # ─────────────────────────────────────────────────────────────────────
 
 VICTORY = {
@@ -131,11 +146,21 @@ VICTORY = {
         "description": "Nobody wins. The game goes on until one player loses, and everyone else is simply safe.",
         "svg": svg(f'<circle cx="18" cy="30" r="5" {_S}/><path d="M11 52 l7 -16 l7 16 z" {_S}/><circle cx="40" cy="30" r="5" {_S}/><path d="M33 52 l7 -16 l7 16 z" {_S}/><circle cx="62" cy="30" r="5" {_S}/><path d="M55 52 l7 -16 l7 16 z" {_S}/><circle cx="90" cy="30" r="5" {_FILL} stroke="none"/><path d="M83 52 l7 -16 l7 16 z" {_S}/><rect x="80" y="58" width="20" height="5" rx="1" {_S}/><rect x="82" y="63" width="20" height="5" rx="1" {_S}/><rect x="80" y="68" width="20" height="5" rx="1" {_S}/>'),
     },
+    "keep-the-game-going": {
+        "description": "The aim is to keep the game going, not to end it. Everyone helps play continue, the way a role-playing campaign can run for years. The writer James Carse called these infinite games.",
+        "svg": svg(f'<path d="M60 40 c-10 -18 -38 -18 -38 0 c0 18 28 18 38 0 c10 -18 38 -18 38 0 c0 18 -28 18 -38 0 z" {_S}/><circle cx="22" cy="40" r="4" {_FILL} stroke="none"/><path d="M94 24 l4 6 l-7 1" {_S}/>'),
+        "credit": "Dhruv Jani",
+    },
+    "cannot-be-won": {
+        "description": "The game is made so that nobody can win it, or it pushes back against being played at all. Playing it shows you something by refusing what you expect from a game.",
+        "svg": svg(f'<path d="M44 14 h32 v14 a16 16 0 0 1 -32 0 z" {_S}/><path d="M44 18 h-6 a6 6 0 0 0 6 10 M76 18 h6 a6 6 0 0 1 -6 10" {_S}/><path d="M60 44 v12 M48 64 h24 M52 56 h16" {_S}/><path d="M30 68 L92 10" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'),
+        "credit": "Dhruv Jani",
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# PLAYER INTERACTION (9)
+# PLAYER INTERACTION (11)
 # ─────────────────────────────────────────────────────────────────────
 
 INTERACTION = {
@@ -175,11 +200,21 @@ INTERACTION = {
         "description": "One player is not at the table. It might be someone from long ago, a player from an earlier game, or a ghost who can only give hints. In ancient Egypt, the game Senet came to be linked with the journey after death.",
         "svg": svg(f'<ellipse cx="60" cy="54" rx="30" ry="10" {_S}/><circle cx="60" cy="52" r="3" {_FILL} stroke="none"/><circle cx="20" cy="26" r="6" {_S}/><path d="M10 46 q10 -14 20 0" {_S}/><circle cx="100" cy="26" r="6" {_S} stroke-dasharray="3 4"/><path d="M90 46 q10 -14 20 0" {_S} stroke-dasharray="3 4"/>'),
     },
+    "game-master": {
+        "description": "One player runs the world for everyone else: describing places, playing the people the others meet, and deciding what happens next. The others play their own characters.",
+        "svg": svg(f'<path d="M26 34 l22 -6 l22 6 l22 -6 v24 l-22 6 l-22 -6 l-22 6 z" {_S}/><circle cx="59" cy="16" r="6" {_FILL} stroke="none"/><circle cx="34" cy="66" r="5" {_S}/><circle cx="59" cy="70" r="5" {_S}/><circle cx="84" cy="66" r="5" {_S}/>'),
+        "credit": "Dhruv Jani",
+    },
+    "public-game": {
+        "description": "The game is played in a street, a park or a market, and anyone passing by can join in. Street games like stapu, hopscotch drawn in chalk, work this way.",
+        "svg": svg(f'<rect x="22" y="54" width="14" height="14" {_S}/><rect x="22" y="40" width="14" height="14" {_S}/><rect x="15" y="26" width="14" height="14" {_S}/><rect x="29" y="26" width="14" height="14" {_S}/><rect x="22" y="12" width="14" height="14" {_S}/><circle cx="36" cy="47" r="3" {_FILL} stroke="none"/><circle cx="96" cy="26" r="6" {_S}/><path d="M86 50 l10 -18 l10 18 z" {_S}/><path d="M80 40 q-16 4 -30 6" {_S} stroke-dasharray="3 4"/>'),
+        "credit": "Dhruv Jani",
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# CHANCE-SKILL (6)
+# CHANCE-SKILL (7)
 # ─────────────────────────────────────────────────────────────────────
 
 CHANCE_SKILL = {
@@ -207,11 +242,16 @@ CHANCE_SKILL = {
         "description": "Not luck, and not working it out. You succeed by sensing when the others are about to act, like friends who start to speak at the same moment.",
         "svg": svg(f'<circle cx="24" cy="40" r="11" {_S}/><circle cx="96" cy="40" r="11" {_S}/><path d="M42 30 q6 10 0 20 M50 25 q8 15 0 30 M78 30 q-6 10 0 20 M70 25 q-8 15 0 30" {_S}/><circle cx="60" cy="40" r="3.5" {_FILL} stroke="none"/>'),
     },
+    "dice-tell-the-story": {
+        "description": "A roll of the dice is looked up on a table that says what happens next, such as who you meet on the road. The dice write part of the story, as they do in Dungeons & Dragons.",
+        "svg": svg(f'<rect x="12" y="28" width="24" height="24" rx="3" {_S}/><circle cx="18" cy="34" r="1.6" {_FILL} stroke="none"/><circle cx="30" cy="46" r="1.6" {_FILL} stroke="none"/><circle cx="24" cy="40" r="1.6" {_FILL} stroke="none"/><path d="M40 40 h12" {_S}/><path d="M48 36 l4 4 l-4 4" {_S}/><rect x="58" y="12" width="50" height="56" rx="3" {_S}/><path d="M64 22 h38 M64 32 h38 M64 52 h38 M64 62 h30" {_S}/><rect x="62" y="37" width="42" height="10" rx="2" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'),
+        "credit": "Dhruv Jani",
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# THEME (11)
+# THEME (12)
 # ─────────────────────────────────────────────────────────────────────
 
 THEME = {
@@ -259,11 +299,16 @@ THEME = {
         "description": "The game is about time running out, growing old or losing someone. Playing gives people a way to think about something hard together.",
         "svg": svg(f'<path d="M40 12 h32 M40 68 h32" {_S}/><path d="M44 12 q0 18 12 28 q-12 10 -12 28 M68 12 q0 18 -12 28 q12 10 12 28" {_S}/><path d="M48 66 q8 -10 16 0 z" {_FILL} stroke="none"/><path d="M90 46 q10 -8 16 2 q-10 8 -16 -2 z" {_S}/><path d="M90 46 l16 2" {_S}/><path d="M86 22 q4 10 -2 18" {_S} stroke-dasharray="3 4"/>'),
     },
+    "war-and-conquest": {
+        "description": "Armies, borders and battles. People have long played games in place of fighting, and chess grew out of chaturanga, an Indian game whose pieces were the parts of an army.",
+        "svg": svg(f'<path d="M30 68 v-30 h8 v-6 h8 v6 h8 v-6 h8 v6 h8 v30 z" {_S}/><path d="M52 68 v-12 a6 6 0 0 1 12 0 v12" {_S}/><path d="M58 32 v-20" {_S}/><path d="M58 12 l16 5 l-16 5 z" {_FILL} stroke="none"/><path d="M14 68 h92" {_S}/>'),
+        "credit": "Dhruv Jani",
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# INFORMATION VISIBILITY (7)
+# INFORMATION VISIBILITY (8)
 # ─────────────────────────────────────────────────────────────────────
 
 INFORMATION = {
@@ -294,6 +339,11 @@ INFORMATION = {
     "one-knows-cannot-say": {
         "description": "One player can see the answer but is not allowed to say it. They can only give hints, such as pictures, and the others have to guess. In Mysterium, a ghost gives the players vision cards.",
         "svg": svg(f'<path d="M10 36 q20 -18 40 0 q-20 18 -40 0 z" {_S}/><circle cx="30" cy="36" r="5" {_FILL} stroke="none"/><path d="M54 36 h8" {_S}/><path d="M58 32 l5 4 l-5 4" {_S}/><rect x="68" y="18" width="24" height="36" rx="3" {_S}/><circle cx="80" cy="30" r="4" {_S}/><path d="M72 48 l6 -6 l5 5 l4 -3 l3 4" {_S}/><text x="106" y="46" font-family="serif" font-size="18" text-anchor="middle" fill="#2D3436">?</text>'),
+    },
+    "map-revealed-as-you-go": {
+        "description": "The map starts hidden. Areas are turned over only when a player explores them, so nobody knows what lies ahead until they go there.",
+        "svg": svg(f'<rect x="16" y="14" width="26" height="24" rx="2" {_S}/><path d="M22 32 l5 -10 l5 10 z" {_S}/><rect x="46" y="14" width="26" height="24" rx="2" {_S}/><path d="M50 28 q4 -4 9 0 q5 4 9 0" {_S}/><rect x="76" y="14" width="26" height="24" rx="2" {_S} stroke-dasharray="3 4"/><rect x="16" y="42" width="26" height="24" rx="2" {_S} stroke-dasharray="3 4"/><rect x="46" y="42" width="26" height="24" rx="2" {_S} stroke-dasharray="3 4"/><rect x="76" y="42" width="26" height="24" rx="2" {_S} stroke-dasharray="3 4"/><circle cx="59" cy="54" r="3" {_FILL} stroke="none"/>'),
+        "credit": "Dhruv Jani",
     },
 }
 
@@ -367,7 +417,7 @@ FEELINGS_META = {
 
 
 # ─────────────────────────────────────────────────────────────────────
-# SIMULATION (8) — added 16 October 2026
+# SIMULATION (12) — added 16 October 2026
 # ─────────────────────────────────────────────────────────────────────
 
 SIMULATION = {
@@ -402,6 +452,26 @@ SIMULATION = {
     "real-time-span": {
         "description": "The game runs on real days or weeks, not turns. You might make one move each morning, so waiting is part of playing.",
         "svg": svg(f'<rect x="14" y="16" width="54" height="50" rx="3" {_S}/><path d="M14 28 h54 M28 11 v9 M54 11 v9" {_S}/><path d="M22 36 l6 6 M28 36 l-6 6 M36 36 l6 6 M42 36 l-6 6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="53" cy="39" r="2" {_FILL} stroke="none"/><circle cx="25" cy="54" r="2" fill="#2D3436"/><circle cx="39" cy="54" r="2" fill="#2D3436"/><circle cx="53" cy="54" r="2" fill="#2D3436"/><circle cx="94" cy="26" r="8" {_S}/><path d="M94 12 v4 M94 36 v4 M80 26 h4 M104 26 h4" {_S}/><path d="M100 50 a10 10 0 1 1 -10 16 a8 8 0 0 0 10 -16 z" {_S}/>'),
+    },
+    "rules-make-an-argument": {
+        "description": "The rules themselves make a point about the world. If a game about a city rewards only building roads, the game is saying something about cities. The writer Ian Bogost calls this procedural rhetoric.",
+        "svg": svg(f'<rect x="18" y="12" width="46" height="56" rx="3" {_S}/><path d="M26 24 h30 M26 34 h30 M26 44 h22" {_S}/><path d="M68 40 h12" {_S}/><path d="M76 36 l4 4 l-4 4" {_S}/><path d="M86 22 h22 a4 4 0 0 1 4 4 v16 a4 4 0 0 1 -4 4 h-12 l-6 6 v-6 h-4 a4 4 0 0 1 -4 -4 v-16 a4 4 0 0 1 4 -4 z" {_S}/><path d="M97 28 v8" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="97" cy="41" r="1.8" {_FILL} stroke="none"/>'),
+        "credit": "Dhruv Jani",
+    },
+    "stakes-outside-the-game": {
+        "description": "What happens in the game carries into real life: real money, a real promise, a friendship tested. The line around a game is thinner than it looks.",
+        "svg": svg(f'<circle cx="46" cy="40" r="28" {_S} stroke-dasharray="3 4"/><circle cx="38" cy="36" r="4" {_S}/><circle cx="52" cy="48" r="4" {_S}/><circle cx="76" cy="34" r="4" {_FILL} stroke="none"/><path d="M80 36 q12 6 18 18" {_S}/><path d="M92 52 l6 3 l1 -7" {_S}/><path d="M96 60 l8 -7 l8 7 v8 h-16 z" {_S}/>'),
+        "credit": "Dhruv Jani",
+    },
+    "points-stand-for-values": {
+        "description": "The game turns something that matters, like health or kindness, into points, and players start chasing the points instead. It shows what happens when a number replaces what it was meant to measure.",
+        "svg": svg(f'<path d="M30 58 q-20 -14 -16 -28 q4 -10 16 -4 q12 -6 16 4 q4 14 -16 28 z" {_S}/><path d="M52 40 h14" {_S}/><path d="M62 36 l4 4 l-4 4" {_S}/><rect x="72" y="26" width="36" height="28" rx="3" {_S}/><text x="90" y="46" font-family="serif" font-size="16" text-anchor="middle" {_FILL} stroke="none">10</text>'),
+        "credit": "Dhruv Jani",
+    },
+    "rehearse-a-future": {
+        "description": "Players practise a way of living or working that does not exist yet, such as a village that shares everything, to see how it might feel before anyone tries it for real.",
+        "svg": svg(f'<path d="M14 66 h92" {_S}/><path d="M22 66 v-18 l12 -10 l12 10 v18" {_S} stroke-dasharray="3 4"/><path d="M52 66 v-22 l12 -10 l12 10 v22" {_S} stroke-dasharray="3 4"/><path d="M82 66 v-16 l10 -8 l10 8 v16" {_S} stroke-dasharray="3 4"/><circle cx="92" cy="20" r="7" {_FILL} stroke="none"/><path d="M92 6 v4 M106 20 h-4 M80 20 h-4" {_S}/>'),
+        "credit": "Dhruv Jani",
     },
 }
 

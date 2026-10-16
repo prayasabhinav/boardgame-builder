@@ -27,6 +27,9 @@ DIMENSIONS = [
             {"id": "call-and-response", "display": "call and response"},
             {"id": "playing-in-silence", "display": "playing in silence"},
             {"id": "change-the-rules", "display": "change the rules"},
+            {"id": "role-play", "display": "role-play"},
+            {"id": "dexterity", "display": "dexterity"},
+            {"id": "drawing-the-map", "display": "drawing the map"},
         ],
     },
     {
@@ -46,6 +49,8 @@ DIMENSIONS = [
             {"id": "no-objective", "display": "no objective"},
             {"id": "set-your-own-goal", "display": "set your own goal"},
             {"id": "one-loser", "display": "one loser"},
+            {"id": "keep-the-game-going", "display": "keep the game going"},
+            {"id": "cannot-be-won", "display": "cannot be won"},
         ],
     },
     {
@@ -64,6 +69,8 @@ DIMENSIONS = [
             {"id": "traitor", "display": "traitor"},
             {"id": "playing-by-letter", "display": "playing by letter"},
             {"id": "absent-player", "display": "absent player"},
+            {"id": "game-master", "display": "game master"},
+            {"id": "public-game", "display": "public game"},
         ],
     },
     {
@@ -79,6 +86,7 @@ DIMENSIONS = [
             {"id": "mostly-skill", "display": "mostly skill"},
             {"id": "chance-read-as-a-sign", "display": "chance read as a sign"},
             {"id": "attunement", "display": "attunement"},
+            {"id": "dice-tell-the-story", "display": "dice tell the story"},
         ],
     },
     {
@@ -99,6 +107,7 @@ DIMENSIONS = [
             {"id": "poetic", "display": "poetic"},
             {"id": "ritual-or-sacred", "display": "ritual or sacred"},
             {"id": "mortality-and-loss", "display": "mortality and loss"},
+            {"id": "war-and-conquest", "display": "war and conquest"},
         ],
     },
     {
@@ -115,6 +124,7 @@ DIMENSIONS = [
             {"id": "bluffing", "display": "bluffing"},
             {"id": "rules-you-discover", "display": "rules you discover"},
             {"id": "one-knows-cannot-say", "display": "one knows, cannot say"},
+            {"id": "map-revealed-as-you-go", "display": "map revealed as you go"},
         ],
     },
     {
@@ -133,6 +143,10 @@ DIMENSIONS = [
             {"id": "debrief", "display": "debrief"},
             {"id": "irreversible-change", "display": "irreversible change"},
             {"id": "real-time-span", "display": "real-time span"},
+            {"id": "rules-make-an-argument", "display": "rules make an argument"},
+            {"id": "stakes-outside-the-game", "display": "stakes outside the game"},
+            {"id": "points-stand-for-values", "display": "points stand for values"},
+            {"id": "rehearse-a-future", "display": "rehearse a future"},
         ],
     },
 ]
