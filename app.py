@@ -15,7 +15,7 @@ from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse, Response
+from fastapi.responses import HTMLResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -127,7 +127,7 @@ def get_tests():
 
 @app.get("/games")
 def get_games():
-    return GAMES
+    return JSONResponse(GAMES, headers={"Cache-Control": "no-cache"})
 
 
 @app.get("/games/{game_id}.md")
@@ -180,7 +180,9 @@ def root():
     # Stamp the newest static file's time onto the script and stylesheet links, so a browser never keeps an old copy after a change
     stamp = int(max(f.stat().st_mtime for f in STATIC_DIR.iterdir()))
     html = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
-    return HTMLResponse(html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"').replace("__VERSION__", VERSION))
+    # no-cache: a browser asks again before reusing the page, so a reload never shows a page from before a deploy
+    page = html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"').replace("__VERSION__", VERSION)
+    return HTMLResponse(page, headers={"Cache-Control": "no-cache"})
 
 
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")

@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.5.0-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.6.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)

@@ -4,6 +4,13 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.6.0 — 16 October 2026
+
+- Credits on every known game are now labelled rows (made by, rules from, this version, sources) with links, on the card, in the game file and on the wiki. A game file in the earlier one-line form still reads.
+- 3 Quarters and All or Nothing now link to their new home, github.com/prayasabhinav/games; the account that first held them can no longer be signed in to.
+- Each game card has **Download as a design (.md)** at the top, and the Known games introduction says how to get the file.
+- The page and the game list are sent with `Cache-Control: no-cache`, so reloading never shows a page from before a deploy.
+
 ## 0.5.0 — 16 October 2026
 
 Known games:

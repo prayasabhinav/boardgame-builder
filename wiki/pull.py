@@ -87,7 +87,7 @@ def add_game(p):
     if problem or any(x["id"] == gid for x in games):
         return f"a new game, '{p['name']}': {problem or 'a game with that id is already in games.json'}"
     games.append({"id": gid, "title": g["title"], "parent_game": g["parent_game"],
-                  "credits": f"{g['credits']} Proposed on the wiki by {p['user_name']}.", "teaches": teaches(g["design"]),
+                  "credits": {**g["credits"], "added": f"Proposed on the wiki by {p['user_name']}"}, "teaches": teaches(g["design"]),
                   "design": g["design"], "duration": g["duration"], "players": g["players"], "equipment": g["equipment"],
                   "intro": g["intro"], "steps": g["steps"], "what_to_notice": g["what_to_notice"],
                   "animation_type": "", "animation": [], "questions": [], "sources": g["sources"]})

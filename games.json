@@ -3,7 +3,10 @@
   "id": "pig",
   "title": "Pig — the dice push",
   "parent_game": "Pig, a folk dice game",
-  "credits": "Folk dice game, first described in print by John Scarne in 1945. Played here to 20 rather than 100.",
+  "credits": {
+   "by": "Folk game; first described in print by John Scarne, 1945",
+   "version": "Played to 20 rather than 100"
+  },
   "teaches": "push-your-luck",
   "design": {
    "core-mechanic": [
@@ -295,7 +298,10 @@
   "id": "mini-hanabi",
   "title": "Three-card Hanabi — hidden hands and clues",
   "parent_game": "Hanabi (a famous cooperative card game)",
-  "credits": "Hanabi was designed by Antoine Bauza and published in 2010. This is a homemade cut-down with three colours and three players.",
+  "credits": {
+   "by": "Antoine Bauza, published 2010 as Hanabi",
+   "version": "A homemade cut-down: three colours, three players"
+  },
   "teaches": "hidden-hands + cooperative + restricted-communication",
   "design": {
    "core-mechanic": [
@@ -696,7 +702,9 @@
   "id": "blocking-grid",
   "title": "The blocking grid — workers fight for spots",
   "parent_game": "Simplified worker placement (like in Stone Age)",
-  "credits": "Made for this tool, as a short exercise in worker placement, the mechanism of games such as Stone Age.",
+  "credits": {
+   "by": "Made for this tool, as a short exercise in worker placement, the mechanism of games such as Stone Age"
+  },
   "teaches": "worker-placement + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -1004,7 +1012,10 @@
   "id": "tic-tac-toe-plus",
   "title": "Tic-tac-toe Plus — the bigger grid",
   "parent_game": "Tic-tac-toe (5×5 variant)",
-  "credits": "Traditional. Tic-tac-toe on a 5 by 5 grid, four in a row.",
+  "credits": {
+   "by": "Traditional",
+   "version": "Tic-tac-toe on a 5 by 5 grid, four in a row"
+  },
   "teaches": "pattern-building + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -1427,7 +1438,9 @@
   "id": "memory-match",
   "title": "Memory match — find the pairs",
   "parent_game": "Memory / Concentration (a classic kids' card game)",
-  "credits": "Traditional, also known as Memory or Concentration.",
+  "credits": {
+   "by": "Traditional, also known as Memory or Concentration"
+  },
   "teaches": "set-collection + hidden-information",
   "design": {
    "core-mechanic": [
@@ -1784,7 +1797,10 @@
   "id": "werewolf-5",
   "title": "Werewolf-5 — find the traitor",
   "parent_game": "Werewolf / Mafia / Among Us",
-  "credits": "Created as Mafia by Dmitry Davidoff in 1986, and also played as Werewolf. This is a five-player cut-down.",
+  "credits": {
+   "by": "Dmitry Davidoff, 1986, as Mafia; also played as Werewolf",
+   "version": "A five-player cut-down"
+  },
   "teaches": "traitor + hidden-identity + deduction",
   "design": {
    "player-interaction": "traitor",
@@ -2006,7 +2022,9 @@
   "id": "paper-auction",
   "title": "Paper auction — bid for the prize",
   "parent_game": "Auction / bidding games (For Sale, High Society)",
-  "credits": "Made for this tool, after the bidding in games such as For Sale and High Society.",
+  "credits": {
+   "by": "Made for this tool, after the bidding in games such as For Sale and High Society"
+  },
   "teaches": "bidding + most-points + chance-with-mitigation",
   "design": {
    "core-mechanic": [
@@ -2256,7 +2274,9 @@
   "id": "pick-and-pass",
   "title": "Pick-and-pass — the drafting game",
   "parent_game": "7 Wonders / Sushi Go (drafting card games)",
-  "credits": "Made for this tool, after the drafting in games such as 7 Wonders and Sushi Go.",
+  "credits": {
+   "by": "Made for this tool, after the drafting in games such as 7 Wonders and Sushi Go"
+  },
   "teaches": "drafting + hand-management + set-collection",
   "design": {
    "core-mechanic": [
@@ -2516,7 +2536,9 @@
   "id": "last-card-out",
   "title": "Last-card-out — race to empty your hand",
   "parent_game": "UNO (simplified)",
-  "credits": "A cut-down of the colour-or-number matching games, the family Uno belongs to.",
+  "credits": {
+   "by": "A cut-down of the colour-or-number matching games, the family Uno belongs to"
+  },
   "teaches": "hand-management + race-to-finish",
   "design": {
    "core-mechanic": [
@@ -2801,7 +2823,9 @@
   "id": "charades",
   "title": "Charades — silent storytelling",
   "parent_game": "Charades / Pictionary (the classic acting game)",
-  "credits": "Traditional parlour game.",
+  "credits": {
+   "by": "Traditional parlour game"
+  },
   "teaches": "fully-cooperative + restricted-communication + narrative-completion",
   "design": {
    "core-mechanic": [
@@ -3009,7 +3033,9 @@
   "id": "nim",
   "title": "Nim — take the last stone",
   "parent_game": "Nim, an old strategy game for two",
-  "credits": "Traditional. The name was coined by Charles L. Bouton, who worked out its theory in 1901.",
+  "credits": {
+   "by": "Traditional; named by Charles L. Bouton, who worked out its theory in 1901"
+  },
   "teaches": "full-information",
   "design": {
    "chance-skill": "mostly-skill",
@@ -3359,7 +3385,10 @@
   "id": "raja-mantri-chor-sipahi",
   "title": "Raja Mantri Chor Sipahi — find the thief",
   "parent_game": "Raja Mantri Chor Sipahi, a chit game played across India",
-  "credits": "Traditional. Rules as recorded by Seema Periwal and Ravi Poovaiah for D'Source, IDC, IIT Bombay.",
+  "credits": {
+   "by": "Traditional",
+   "rules": "As recorded by Seema Periwal and Ravi Poovaiah for D'Source, IDC, IIT Bombay"
+  },
   "teaches": "hidden-identity + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -3603,7 +3632,10 @@
   "id": "name-place-animal-thing",
   "title": "Name Place Animal Thing — one letter, four words",
   "parent_game": "Name Place Animal Thing, a pen-and-paper word game played in Indian schools",
-  "credits": "Traditional. The scoring (10 for an answer only you wrote, 5 for a shared one) is the commonly published one.",
+  "credits": {
+   "by": "Traditional",
+   "rules": "Scoring as commonly published: 10 for an answer only you wrote, 5 for a shared one"
+  },
   "teaches": "solo-in-parallel + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -3856,7 +3888,9 @@
   "id": "antakshari",
   "title": "Antakshari — sing from the last letter",
   "parent_game": "Antakshari, a singing game played across India",
-  "credits": "Traditional, played across India.",
+  "credits": {
+   "by": "Traditional, played across India"
+  },
   "teaches": "call-and-response + team-vs-team + most-points",
   "design": {
    "core-mechanic": [
@@ -4104,7 +4138,10 @@
   "id": "chidiya-ud",
   "title": "Chidiya Ud — does it fly?",
   "parent_game": "Chidiya Ud (fly, bird), a finger game played across India",
-  "credits": "Traditional. Rules as recorded by Seema Periwal and Ravi Poovaiah for D'Source, IDC, IIT Bombay.",
+  "credits": {
+   "by": "Traditional",
+   "rules": "As recorded by Seema Periwal and Ravi Poovaiah for D'Source, IDC, IIT Bombay"
+  },
   "teaches": "call-and-response + full-information + last-standing",
   "design": {
    "core-mechanic": [
@@ -4355,7 +4392,9 @@
   "id": "pen-fight",
   "title": "Pen fight — flick it off the desk",
   "parent_game": "Pen fight, a desk game from Indian classrooms",
-  "credits": "Traditional classroom game.",
+  "credits": {
+   "by": "Traditional classroom game"
+  },
   "teaches": "dexterity + full-information + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -4694,7 +4733,9 @@
   "id": "hand-cricket",
   "title": "Hand cricket — runs on your fingers",
   "parent_game": "Hand cricket, played across India",
-  "credits": "Traditional.",
+  "credits": {
+   "by": "Traditional"
+  },
   "teaches": "most-points",
   "design": {
    "victory-condition": "most-points",
@@ -4973,7 +5014,10 @@
   "id": "gulaam-chor",
   "title": "Gulaam Chor — don't be left with the Jack",
   "parent_game": "Gulaam Chor (Jack Thief), an Indian card game related to Old Maid",
-  "credits": "Traditional. This version uses 24 cards so that it fits in ten minutes.",
+  "credits": {
+   "by": "Traditional",
+   "version": "24 cards, so that it fits in ten minutes"
+  },
   "teaches": "set-collection + hidden-hands + one-loser",
   "design": {
    "core-mechanic": [
@@ -5224,7 +5268,10 @@
   "id": "satte-pe-satta",
   "title": "Satte pe Satta — build out from the sevens",
   "parent_game": "Satte pe Satta (Badam Satti), an Indian card game related to Sevens",
-  "credits": "Traditional. This version uses the 4 to 10 of each suit, 28 cards.",
+  "credits": {
+   "by": "Traditional",
+   "version": "Only the 4 to 10 of each suit, 28 cards"
+  },
   "teaches": "hand-management + hidden-hands + indirect-via-board",
   "design": {
    "core-mechanic": [
@@ -5671,7 +5718,9 @@
   "id": "dots-and-boxes",
   "title": "Dots and Boxes — close the square",
   "parent_game": "Dots and Boxes, a pencil-and-paper game first published in 1889",
-  "credits": "First published by the French mathematician Édouard Lucas in the 19th century, as la pipopipette.",
+  "credits": {
+   "by": "Édouard Lucas, French mathematician; first published in the 19th century as la pipopipette"
+  },
   "teaches": "full-information + indirect-via-board + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -5953,7 +6002,10 @@
   "id": "paper-battleship",
   "title": "Battleship on paper — find the hidden fleet",
   "parent_game": "Battleship, the pencil-and-paper game",
-  "credits": "Traditional pencil-and-paper game. This version uses a 6 by 6 grid and three ships.",
+  "credits": {
+   "by": "Traditional pencil-and-paper game",
+   "version": "A 6 by 6 grid and three ships"
+  },
   "teaches": "deduction + direct-confrontation + race-to-finish",
   "design": {
    "victory-condition": "race-to-finish",
@@ -6411,7 +6463,9 @@
   "id": "bulls-and-cows",
   "title": "Bulls and Cows — crack the code",
   "parent_game": "Bulls and Cows, the pencil-and-paper game Mastermind was based on",
-  "credits": "Traditional.",
+  "credits": {
+   "by": "Traditional"
+  },
   "teaches": "deduction + solo-in-parallel + race-to-finish",
   "design": {
    "victory-condition": "race-to-finish",
@@ -6693,7 +6747,10 @@
   "id": "go-fish",
   "title": "Go Fish — ask for what you need",
   "parent_game": "Go Fish, a children's card game",
-  "credits": "Traditional. This version uses Ace to 6 of each suit, 24 cards.",
+  "credits": {
+   "by": "Traditional",
+   "version": "Ace to 6 of each suit, 24 cards"
+  },
   "teaches": "set-collection + hidden-hands + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -6997,7 +7054,10 @@
   "id": "cheat",
   "title": "Cheat — play face down, lie if you like",
   "parent_game": "Cheat (also called Bluff), a card game",
-  "credits": "Traditional. This version uses Ace to 8 of each suit, 32 cards.",
+  "credits": {
+   "by": "Traditional",
+   "version": "Ace to 8 of each suit, 32 cards"
+  },
   "teaches": "bluffing + direct-confrontation + race-to-finish",
   "design": {
    "victory-condition": "race-to-finish",
@@ -7254,7 +7314,9 @@
   "id": "snap",
   "title": "Snap — spot the match first",
   "parent_game": "Snap, a children's card game",
-  "credits": "Traditional; it may be a simpler form of the older Snip Snap Snorem.",
+  "credits": {
+   "by": "Traditional; perhaps a simpler form of the older Snip Snap Snorem"
+  },
   "teaches": "full-information + direct-confrontation + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -7454,7 +7516,9 @@
   "id": "twenty-questions",
   "title": "Twenty Questions — yes or no",
   "parent_game": "Twenty Questions, a parlour game",
-  "credits": "Traditional parlour game.",
+  "credits": {
+   "by": "Traditional parlour game"
+  },
   "teaches": "deduction + race-to-finish",
   "design": {
    "victory-condition": "race-to-finish",
@@ -7677,7 +7741,9 @@
   "id": "hangman",
   "title": "Hangman — guess the word letter by letter",
   "parent_game": "Hangman, a pencil-and-paper word game",
-  "credits": "Traditional.",
+  "credits": {
+   "by": "Traditional"
+  },
   "teaches": "deduction",
   "design": {
    "chance-skill": "mostly-skill",
@@ -7934,7 +8000,10 @@
   "id": "spoons",
   "title": "Spoons — grab a coin when someone makes four",
   "parent_game": "Spoons, a party card game, played here with coins",
-  "credits": "Traditional. Coins take the place of spoons, a substitute Pagat lists.",
+  "credits": {
+   "by": "Traditional",
+   "version": "Coins in place of spoons, a substitute Pagat lists"
+  },
   "teaches": "set-collection + dexterity + hidden-hands",
   "design": {
    "core-mechanic": [
@@ -8276,7 +8345,9 @@
   "id": "telephone",
   "title": "Telephone — whisper it along",
   "parent_game": "Telephone, a party game",
-  "credits": "Traditional.",
+  "credits": {
+   "by": "Traditional"
+  },
   "teaches": "fully-cooperative + no-objective",
   "design": {
    "victory-condition": "no-objective",
@@ -8515,7 +8586,9 @@
   "id": "fizz-buzz",
   "title": "Fizz Buzz — count, but not by 3 or 5",
   "parent_game": "Fizz Buzz, a counting game",
-  "credits": "Traditional.",
+  "credits": {
+   "by": "Traditional"
+  },
   "teaches": "call-and-response + full-information + last-standing",
   "design": {
    "core-mechanic": [
@@ -8786,7 +8859,9 @@
   "id": "two-truths-and-a-lie",
   "title": "Two Truths and a Lie — spot the false one",
   "parent_game": "Two Truths and a Lie, a get-to-know-you game",
-  "credits": "Traditional icebreaker.",
+  "credits": {
+   "by": "Traditional icebreaker"
+  },
   "teaches": "bluffing + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -9013,7 +9088,9 @@
   "id": "ghost",
   "title": "Ghost — add a letter, don't finish the word",
   "parent_game": "Ghost, a spoken word game",
-  "credits": "Traditional.",
+  "credits": {
+   "by": "Traditional"
+  },
   "teaches": "call-and-response + bluffing + last-standing",
   "design": {
    "core-mechanic": [
@@ -9263,7 +9340,10 @@
   "id": "cram",
   "title": "Cram — the last domino wins",
   "parent_game": "Cram, a pencil-and-paper game",
-  "credits": "Traditional; popularised by Martin Gardner in Scientific American. This version uses a 4 by 4 grid.",
+  "credits": {
+   "by": "Traditional; popularised by Martin Gardner in Scientific American",
+   "version": "A 4 by 4 grid"
+  },
   "teaches": "tile-placement + full-information + indirect-via-board",
   "design": {
    "core-mechanic": [
@@ -9546,7 +9626,9 @@
   "id": "sos",
   "title": "SOS — write S or O, make SOS",
   "parent_game": "SOS, a pencil-and-paper game",
-  "credits": "Traditional.",
+  "credits": {
+   "by": "Traditional"
+  },
   "teaches": "pattern-building + full-information + indirect-via-board",
   "design": {
    "core-mechanic": [
@@ -9848,7 +9930,10 @@
   "id": "three-mens-morris",
   "title": "Three Men's Morris — three in a row, then move",
   "parent_game": "Three Men's Morris, an old game related to tic-tac-toe",
-  "credits": "Traditional. The board is the one recorded by the US National Park Service.",
+  "credits": {
+   "by": "Traditional",
+   "rules": "The board as recorded by the US National Park Service"
+  },
   "teaches": "pattern-building + full-information + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -10132,7 +10217,10 @@
   "id": "set",
   "title": "Set — three that all match or all differ",
   "parent_game": "SET, a card game designed by Marsha J. Falco",
-  "credits": "Designed by Marsha J. Falco in 1974 and published by Set Enterprises. This homemade version leaves out shading, so it has 27 cards instead of 81.",
+  "credits": {
+   "by": "Marsha J. Falco, 1974; published by Set Enterprises",
+   "version": "Homemade and without shading: 27 cards instead of 81"
+  },
   "teaches": "full-information + indirect-via-board + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -10398,7 +10486,10 @@
   "id": "3-quarters",
   "title": "3 Quarters — complete the three-quarter circle",
   "parent_game": "3 Quarters, a board game by Prayas Abhinav",
-  "credits": "Designed by Prayas Abhinav in 2022 as a warm-up game for students. The rules, board and pieces are at github.com/prayas/3quarters, under Creative Commons Attribution 4.0.",
+  "credits": {
+   "by": "Prayas Abhinav, 2022, as a warm-up game for students",
+   "rules": "Rules, board and pieces at github.com/prayasabhinav/games, under Creative Commons Attribution 4.0"
+  },
   "teaches": "pattern-building + tile-placement + full-information",
   "design": {
    "core-mechanic": [
@@ -10411,11 +10502,11 @@
    "information": "full-information",
    "theme": "abstract"
   },
-  "duration": "until someone reaches 25 points",
+  "duration": "play to 25 points",
   "players": "2–4 players",
   "equipment": [
-   "the board, printed from https://github.com/prayas/3quarters/raw/main/board.pdf : 3 columns by 8 rows of squares; play on the red rows with 2 players, add the green rows for 3, and the blue row for 4; the yellow squares double a circle's score",
-   "the pieces, printed from https://github.com/prayas/3quarters/raw/main/pieces.pdf and cut out: for each player, 8 quarter circles, two each of crosshatched (1 point), dotted (2), plain (3) and black (4)",
+   "the board, printed from https://github.com/prayasabhinav/games/raw/main/3-quarters/3-quarters-board.pdf : 3 columns by 8 rows of squares; play on the red rows with 2 players, add the green rows for 3, and the blue row for 4; the yellow squares double a circle's score",
+   "the pieces, printed from https://github.com/prayasabhinav/games/raw/main/3-quarters/3-quarters-pieces.pdf and cut out: for each player, 8 quarter circles, two each of crosshatched (1 point), dotted (2), plain (3) and black (4)",
    "a four-sided die (d4)",
    "a phone to time each move"
   ],
@@ -10471,14 +10562,17 @@
   "animation": [],
   "questions": [],
   "sources": [
-   "https://github.com/prayas/3quarters"
+   "https://github.com/prayasabhinav/games/tree/main/3-quarters"
   ]
  },
  {
   "id": "all-or-nothing",
   "title": "All or Nothing — play a slice, win a pizza",
   "parent_game": "All or Nothing, a card game by Prayas Abhinav",
-  "credits": "Designed by Prayas Abhinav. The cards, rules and box were made in 2020, and the rules and print files were published at github.com/prayas/AON in 2022.",
+  "credits": {
+   "by": "Prayas Abhinav; cards, rules and box made in 2020",
+   "rules": "Rules and print files at github.com/prayasabhinav/games"
+  },
   "teaches": "hand-management + push-your-luck + hidden-hands",
   "design": {
    "core-mechanic": [
@@ -10494,7 +10588,7 @@
   "duration": "a few minutes a round",
   "players": "2–4 players",
   "equipment": [
-   "48 cards: print them from https://github.com/prayas/AON/raw/main/releases/cards.pdf (one card to a page) with the back from https://github.com/prayas/AON/raw/main/releases/card-back.pdf , or write them on paper: green +1 (6 cards), +2 (12), +3 (6); red −1, −2 and −3 (2 each); black ±4, ±5, ±6 and ±7 (4 each); one 'On the house' card and one 'Double order' card",
+   "48 cards: print them from https://github.com/prayasabhinav/games/raw/main/all-or-nothing/print/all-or-nothing-cards.pdf (one card to a page) with the back from https://github.com/prayasabhinav/games/raw/main/all-or-nothing/print/all-or-nothing-card-back.pdf , or write them on paper: green +1 (6 cards), +2 (12), +3 (6); red −1, −2 and −3 (2 each); black ±4, ±5, ±6 and ±7 (4 each); one 'On the house' card and one 'Double order' card",
    "paper to keep scores"
   ],
   "intro": "Each player tries to complete a 12-slice pizza by adding or removing slices. In this simple arithmetic game, all age-groups can have quick fun. Adding or subtracting pizza slices feels like the tussle for resources that we face in life. This tussle can be won by individuals who wait and watch — with alertness, foresight and luck. Winning too early, gives less points (as the number of cards in the play space decide the points).",
@@ -10873,7 +10967,7 @@
    }
   ],
   "sources": [
-   "https://github.com/prayas/AON"
+   "https://github.com/prayasabhinav/games/tree/main/all-or-nothing"
   ]
  }
 ]

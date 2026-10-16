@@ -4,7 +4,7 @@ The tool hands out these files (Download as a design) and Open game reads the sa
 hands out the same files and takes new games as files in the same shape, so one format serves both. The parts:
 
     # Title
-    - From: ...    - Players: ...    - Time: ...    - Credits: ...
+    - From: ...    - Players: ...    - Time: ...    - Made by: ...    (- Rules from: ...    - This version: ...)
     a paragraph or two about the game
     ## What you need / ## How to play (1. **Step.** what to do) / ## After playing, talk about
     ## Where the rules are written down (optional) / ## Its blocks (- Group: block; block)
@@ -15,7 +15,9 @@ import re
 
 from palette import DIMENSIONS
 
-META = {"from": "parent_game", "players": "players", "time": "duration", "credits": "credits"}
+META = {"from": "parent_game", "players": "players", "time": "duration"}
+# Credits are rows: who made the game, where its rules were taken from, what this version changes, and how it was added
+CREDITS = {"by": "Made by", "rules": "Rules from", "version": "This version", "added": "Added"}
 SECTIONS = {"what you need": "equipment", "how to play": "steps", "after playing, talk about": "what_to_notice",
             "where the rules are written down": "sources", "its blocks": "blocks", "saved state": None}
 BLOCK = {d["id"]: {b["id"]: b["display"] for b in d["blocks"]} for d in DIMENSIONS}
@@ -23,7 +25,7 @@ BLOCK = {d["id"]: {b["id"]: b["display"] for b in d["blocks"]} for d in DIMENSIO
 
 def to_markdown(g, version):
     lines = [f"# {g['title']}", "", f"- From: {g['parent_game']}", f"- Players: {g['players']}", f"- Time: {g['duration']}",
-             f"- Credits: {g['credits']}", "",
+             *[f"- {label}: {g['credits'][k]}" for k, label in CREDITS.items() if g["credits"].get(k)], "",
              f"Made with boardgameBuilder {version}. To design from it, open boardgameBuilder and choose Open game: "
              "its blocks go on the canvas, and the feelings are left for you to pick.", "",
              g["intro"], "", "## What you need", "", *[f"- {e}" for e in g["equipment"]], "", "## How to play", "",
@@ -51,7 +53,8 @@ def teaches(design):
 
 def from_markdown(text):
     """Returns (game, problem). The game has no id, animation or questions; problem is '' when the file reads."""
-    g = {"title": "", "intro": "", "equipment": [], "steps": [], "what_to_notice": [], "sources": [], "design": {}}
+    g = {"title": "", "intro": "", "equipment": [], "steps": [], "what_to_notice": [], "sources": [], "design": {}, "credits": {}}
+    credit_keys = {label.lower(): k for k, label in CREDITS.items()} | {"credits": "by"}
     section, intro, problems = "", [], []
     for raw in text.replace("\r\n", "\n").split("\n"):
         line = raw.strip()
@@ -64,9 +67,12 @@ def from_markdown(text):
         elif section == "saved state" or not line:
             continue
         elif not section:
-            m = re.match(r"- (\w+): (.+)", line)
-            if m and m.group(1).lower() in META:
-                g[META[m.group(1).lower()]] = m.group(2).strip()
+            m = re.match(r"- ([A-Za-z ]+): (.+)", line)
+            key = m.group(1).strip().lower() if m else ""
+            if key in META:
+                g[META[key]] = m.group(2).strip()
+            elif key in credit_keys:
+                g["credits"][credit_keys[key]] = m.group(2).strip()
             elif not line.startswith("Made with boardgameBuilder"):
                 intro.append(line)
         elif SECTIONS[section] == "steps":
@@ -81,7 +87,7 @@ def from_markdown(text):
             g[SECTIONS[section]].append(line[2:].strip())
     g["intro"] = " ".join(intro)
     missing = [label for label, ok in (("a title", g["title"]), ("From", g.get("parent_game")), ("Players", g.get("players")),
-                                       ("Time", g.get("duration")), ("Credits", g.get("credits")), ("a paragraph about the game", g["intro"]),
+                                       ("Time", g.get("duration")), ("Made by", g["credits"].get("by")), ("a paragraph about the game", g["intro"]),
                                        ("What you need", g["equipment"]), ("at least two steps", len(g["steps"]) > 1),
                                        ("After playing, talk about", g["what_to_notice"]), ("Its blocks", g["design"])) if not ok]
     if missing:

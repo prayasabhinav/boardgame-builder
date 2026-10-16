@@ -459,7 +459,8 @@ async def edit(request: Request, key: str, text: str = Form(""), pros: str = For
 
 GAME_TEMPLATE = {
     "title": "Name of the game — a few words on what it does", "parent_game": "where it comes from: a folk game, a published game, or your own",
-    "players": "2–4 players", "duration": "5–10 min", "credits": "who made it, as far as anyone knows; Traditional if nobody does",
+    "players": "2–4 players", "duration": "5–10 min", "credits": {"by": "who made it, as far as anyone knows; Traditional if nobody does",
+                "rules": "where the rules are written down, if they are", "version": "what this version changes from the usual one, if anything"},
     "intro": "Two or three sentences on what playing it is like.", "equipment": ["what you need, one thing per line"],
     "steps": [{"n": 1, "title": "Set up", "body": "What to lay out, and who starts."}, {"n": 2, "title": "A turn", "body": "What a player does on their turn."},
               {"n": 3, "title": "The end", "body": "When it ends, who wins, and what happens on a tie."}],

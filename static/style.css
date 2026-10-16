@@ -1384,7 +1384,12 @@ body {
 }
 .fam-step:first-child { border-top: none; padding-top: 0; }
 .fam-step.plain { grid-template-columns: 1fr; }
-.fam-credits { font-size: 13px; color: var(--ink3); margin-top: 4px; }
+.fam-credits { margin: 14px 0 18px; padding: 12px 16px; border-left: 3px solid var(--accent); background: var(--surface-inner); border-radius: 0 4px 4px 0; }
+.fam-credits dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 6px 0 0; font-size: 14px; line-height: 1.45; }
+.fam-credits dt { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink3); padding-top: 2px; }
+.fam-credits dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+@media (max-width: 560px) { .fam-credits dl { grid-template-columns: 1fr; gap: 2px; } .fam-credits dd { margin-bottom: 8px; } }
+.fam-download { display: inline-block; margin-top: 10px; font-family: var(--font-label); font-size: 14px; color: var(--accent); }
 .fam-step-svg {
   background: var(--surface-inner);
   border-radius: 4px;

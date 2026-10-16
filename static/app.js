@@ -840,6 +840,19 @@ function showTab(name) {
 // Questions about what a designer would change have no right answer; they are asked and talked about, never marked.
 
 let GAMES = null;
+const CREDIT_ROWS = [["by", "Made by"], ["rules", "Rules from"], ["version", "This version"], ["added", "Added"]];
+
+// Escaped text with its web addresses, written with or without https://, turned into links
+function linkify(text) {
+  return escapeHtml(text).replace(/(https:\/\/|\bgithub\.com\/)[^\s,;)]+/g,
+    (u) => `<a href="${u.startsWith("https://") ? u : "https://" + u}" target="_blank" rel="noopener">${u.replace(/^https:\/\//, "")}</a>`);
+}
+
+function creditsHtml(g) {
+  const rows = CREDIT_ROWS.filter(([k]) => g.credits[k]).map(([k, label]) => `<dt>${label}</dt><dd>${linkify(g.credits[k])}</dd>`);
+  if ((g.sources || []).length) rows.push(`<dt>Sources</dt><dd>${g.sources.map(linkify).join("<br>")}</dd>`);
+  return `<div class="fam-credits"><div class="fam-equipment-label">Credits</div><dl>${rows.join("")}</dl></div>`;
+}
 const analysisState = { data: null, selectedAnswers: {} };
 
 async function openGames() {
@@ -879,10 +892,11 @@ function showFam(g) {
   card.className = "fam-card";
   card.innerHTML = `<div class="fam-card-tag">Shows · ${escapeHtml(g.teaches.replace(/-/g, " "))}</div>
     <h2>${escapeHtml(g.title)}</h2><div class="fam-parent">from ${escapeHtml(g.parent_game)}</div>
-    <div class="fam-credits">${escapeHtml(g.credits)}</div>
+    <a class="fam-download" href="/games/${encodeURIComponent(g.id)}.md" download>Download as a design (.md)</a>
     <div class="fam-meta"><span><strong>Time</strong> · ${escapeHtml(g.duration)}</span><span><strong>Players</strong> · ${escapeHtml(g.players)}</span></div>
     <div class="fam-intro">${escapeHtml(g.intro)}</div>
-    <div class="fam-equipment"><div class="fam-equipment-label">What you need</div><ul>${g.equipment.map((e) => `<li>${escapeHtml(e).replace(/https:\/\/[^\s,;)]+/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`)}</li>`).join("")}</ul></div>
+    ${creditsHtml(g)}
+    <div class="fam-equipment"><div class="fam-equipment-label">What you need</div><ul>${g.equipment.map((e) => `<li>${linkify(e)}</li>`).join("")}</ul></div>
     <div class="fam-equipment-label">How to play</div>
     <div class="fam-steps">${g.steps.map((s) => `<div class="fam-step${s.svg ? "" : " plain"}">${s.svg ? `<div class="fam-step-svg">${s.svg}</div>` : ""}<div>
       <div class="fam-step-num">Step ${s.n}</div><div class="fam-step-title">${escapeHtml(s.title)}</div><div class="fam-step-body">${escapeHtml(s.body)}</div></div></div>`).join("")}</div>

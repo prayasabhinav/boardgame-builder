@@ -117,3 +117,7 @@ footer p { margin: 0.2rem 0; }
 pre.was { white-space: pre-wrap; font: 0.85rem var(--font-mono); background: var(--surface-inner); padding: 0.6rem; border-radius: 4px; }
 .row form.inline { display: inline-block; margin-left: 0.5rem; }
 .name-form input { display: inline-block; width: 22rem; max-width: 100%; margin: 0 0.5rem 0.5rem 0; vertical-align: middle; }
+
+.credits { display: grid; grid-template-columns: max-content 1fr; gap: 0.3rem 1rem; font: 0.95rem var(--font-ui); }
+.credits dt { color: var(--ink3, #6B6960); }
+.credits dd { margin: 0; }

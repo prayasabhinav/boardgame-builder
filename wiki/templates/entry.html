@@ -16,7 +16,8 @@
   <p class="text">{{ e.text }}</p>
   {% if e.kind == 'game' %}{% set g = e.game %}
   <p class="aside">From {{ g.parent_game }} · {{ g.players }} · {{ g.duration }}</p>
-  <p class="aside">Credits: {{ g.credits }}</p>
+  <h3>Credits</h3>
+  <dl class="credits">{% for k, label in [('by', 'Made by'), ('rules', 'Rules from'), ('version', 'This version'), ('added', 'Added')] if g.credits[k] %}<dt>{{ label }}</dt><dd>{{ g.credits[k] }}</dd>{% endfor %}</dl>
   <h3>What you need</h3>
   <ul>{% for x in g.equipment %}<li>{{ x }}</li>{% endfor %}</ul>
   <h3>How to play</h3>
