@@ -1,0 +1,69 @@
+# Carries proposals approved on the wiki into the knowledge base, checks the result, and deploys the tool and the wiki.
+#
+# Every half hour, or by hand: wiki/pull.py applies newly approved proposals, drafted/build.py rebuilds the drafted entries, check.py confirms every combination still has feedback, and only then is the change committed and deployed. A push to main (a change made by hand) is checked and deployed the same way. If a check fails, nothing is committed or deployed, and GitHub shows the run as failed.
+#
+# Settings, none of them in this file: the repository variables WIKI_URL (without it the workflow does nothing, so a fork stays quiet), CAPROVER_URL, TOOL_APP and WIKI_APP, and the secrets TOOL_APP_TOKEN and WIKI_APP_TOKEN, each app's deploy token.
+name: wiki sync
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Deploy even if nothing changed
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wiki-sync
+
+jobs:
+  sync:
+    if: vars.WIKI_URL != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Apply approved proposals
+        if: github.event_name != 'push'
+        run: python wiki/pull.py "${{ vars.WIKI_URL }}" | tee pull.log
+
+      - name: Build the drafted entries and check every combination
+        run: python drafted/build.py && python check.py
+
+      - name: Commit what changed
+        id: commit
+        if: github.event_name != 'push'
+        run: |
+          git add interactions.json interactions-drafted.json drafted block_meta.py wiki-applied.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -q -m "Carry approved wiki proposals into the knowledge base" -m "$(cat pull.log)"
+            git push -q
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy the tool and the wiki
+        if: github.event_name == 'push' || steps.commit.outputs.changed == 'true' || inputs.deploy
+        env:
+          CAPROVER_URL: ${{ vars.CAPROVER_URL }}
+        run: |
+          tar -cf tool.tar Dockerfile captain-definition requirements.txt app.py block_meta.py bridges.py palette.py rules.py templates.py interactions.json interactions-drafted.json static
+          wiki/make-caprover-tar.sh
+          npx --yes caprover@2.4.4 deploy --caproverUrl "$CAPROVER_URL" --appName "${{ vars.TOOL_APP }}" --appToken "${{ secrets.TOOL_APP_TOKEN }}" --tarFile tool.tar
+          npx --yes caprover@2.4.4 deploy --caproverUrl "$CAPROVER_URL" --appName "${{ vars.WIKI_APP }}" --appToken "${{ secrets.WIKI_APP_TOKEN }}" --tarFile wiki/wiki.tar

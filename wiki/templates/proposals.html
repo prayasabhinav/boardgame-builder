@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Proposals · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<h1>{{ 'Proposals' if user.admin else 'My proposals' }}</h1>
+<p class="aside">{% if user.admin %}Waiting proposals come first. Approving one puts it on the wiki as a proposed entry; rejecting one needs a reason, which its author reads here.{% else %}Only you and the editors can see these until one is approved. <a href="/propose">Propose another</a>.{% endif %}</p>
+{% for p in rows %}
+<div class="record{% if p.status != 'pending' %} gone{% endif %}">
+  <p class="who"><strong>{{ 'A change' if p.kind == 'edit' else PROPOSAL_KINDS[p.kind].split(':')[0] }}</strong>{% if p.kind == 'edit' %}: <a href="/e/{{ p.key|urlencode }}">{{ p.entry.title if p.entry else p.key }}</a>{% elif p.blocks %}: {{ p.blocks|join(' + ' if p.kind == 'triad' else ' against ') }}{% elif p.name %}: {{ p.name }}{% endif %}
+    · {{ p.user_name }}{% if p.user_handle %} @{{ p.user_handle }}{% endif %} · {{ p.created|day }}
+    · <span class="mark {{ 'holds' if p.status == 'approved' else ('does-not-hold' if p.status == 'rejected' else 'partly-holds') }}">{{ 'waiting' if p.status == 'pending' else p.status }}</span>
+    {% if p.status == 'approved' and p.kind != 'edit' %} · <a href="/e/{{ p.key|urlencode }}">its entry</a>{% endif %}</p>
+  <p class="evidence">{{ p.text }}</p>
+  {% if p.pros %}<p class="suggest"><span>Brings:</span> {{ p.pros }}</p>{% endif %}
+  {% if p.cons %}<p class="suggest"><span>Costs:</span> {{ p.cons }}</p>{% endif %}
+  {% if p.games %}<p class="suggest"><span>Games:</span> {{ p.games }}</p>{% endif %}
+  <p class="suggest"><span>How they know:</span> {{ p.evidence }}</p>
+  {% if p.status == 'rejected' %}<p class="aside">Not approved: {{ p.reason }}</p>{% endif %}
+  {% if user.admin and p.status == 'pending' %}
+  <form method="post" action="/p/{{ p.id }}/approve"><button>Approve</button></form>
+  <form method="post" action="/p/{{ p.id }}/reject" class="hide"><input name="reason" required placeholder="Why not (its author reads this)"><button class="quiet">Reject</button></form>
+  {% endif %}
+</div>
+{% else %}
+<p class="aside">No proposals yet.</p>
+{% endfor %}
+{% endblock %}

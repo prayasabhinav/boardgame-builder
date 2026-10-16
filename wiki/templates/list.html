@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "marks.html" import row %}
+{% block title %}{{ PLURAL[kind] if kind else 'Find' }} · boardgameBuilder wiki{% endblock %}
+{% block main %}
+{% if kind %}
+<h1>{{ PLURAL[kind] }}</h1>
+<p class="filters">
+  <a href="/list/{{ kind }}"{% if not source and not state %} class="on"{% endif %}>all</a>
+  {% if kind in ('pair', 'link') %}<a href="/list/{{ kind }}?source=curated"{% if source == 'curated' %} class="on"{% endif %}>curated</a>
+  <a href="/list/{{ kind }}?source=drafted"{% if source == 'drafted' %} class="on"{% endif %}>drafted</a>{% endif %}
+  <a href="/list/{{ kind }}?state=none"{% if state == 'none' %} class="on"{% endif %}>nobody has checked yet</a>
+</p>
+{% else %}
+<h1>Entries with “{{ q }}”</h1>
+{% endif %}
+<p class="aside">{{ rows|length }} entries, in the order the knowledge base holds them.</p>
+<ul class="rows">{% for e in rows %}{{ row(e, states) }}{% endfor %}</ul>
+{% endblock %}

@@ -1,0 +1,118 @@
+/* boardgameBuilder wiki: the tool's own palette and type (dark header, cream page, the tool's green accent). */
+:root {
+  --accent: #4A8C5C; --accent-dark: #3A7249; --accent-bg: rgba(74, 140, 92, 0.12);
+  --bg: #2D3436; --border-dark: #4A4543;
+  --surface: #F7F3ED; --surface-inner: #EFEBE4; --line: #e0dbd4;
+  --ink: #2D3436; --ink2: #4A4A48; --ink3: #6b6560; --light: #F7F3ED;
+  --green: #2e6b3c; --amber: #8a5a00; --red: #a3352a;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-ui: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface); color: var(--ink); font: 17px/1.6 var(--font-body); }
+a { color: var(--accent-dark); }
+a:hover { color: var(--accent); }
+
+.top { background: var(--bg); border-bottom: 1px solid var(--border-dark); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; }
+.top-inner { max-width: 72rem; margin: 0 auto; padding: 0.6rem 1rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
+.name { font: 600 1.15rem var(--font-display); color: var(--light); text-decoration: none; }
+.name span { color: var(--accent); font-weight: 400; }
+.find { flex: 1 1 12rem; }
+.find input { width: 100%; font: 0.95rem var(--font-ui); padding: 0.4rem 0.7rem; border-radius: 6px; border: 1px solid var(--border-dark); background: #3a4245; color: var(--light); }
+.top nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; align-items: center; font: 0.9rem var(--font-ui); }
+.top nav a, .me { color: #d9d2c9; text-decoration: none; }
+.top nav a:hover { color: var(--light); text-decoration: underline; }
+.top nav .signin { color: var(--light); border: 1px solid var(--accent); border-radius: 6px; padding: 0.2rem 0.6rem; }
+
+main { max-width: 72rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.25; }
+h1 { font-size: 2rem; margin: 0 0 0.6rem; }
+h2 { font-size: 1.4rem; margin: 2.4rem 0 0.8rem; border-top: 1px solid var(--line); padding-top: 1.2rem; }
+h3 { font-size: 1.05rem; margin: 1.2rem 0 0.4rem; }
+.intro { max-width: 46rem; }
+.intro p { font-size: 1.08rem; }
+.aside, .crumb { color: var(--ink3); font-size: 0.95rem; }
+.crumb { font-family: var(--font-ui); margin: 0 0 0.4rem; }
+.cta { margin-top: 1.2rem; }
+.signin.big { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font: 500 1rem var(--font-ui); padding: 0.55rem 1rem; border-radius: 8px; margin: 0 0.4rem 0.4rem 0; }
+.signin.big:hover { background: var(--accent-dark); color: #fff; }
+
+.kinds { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.6rem; }
+.kinds li { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 0.7rem 0.9rem; font-family: var(--font-ui); }
+.kinds li > a:first-child { font-weight: 500; font-size: 1.05rem; }
+.kinds span { color: var(--ink3); font-family: var(--font-mono); font-size: 0.85rem; margin-left: 0.3rem; }
+.kinds .sub { display: block; font-size: 0.85rem; }
+.group { margin-bottom: 1.4rem; }
+.group h3 { margin-bottom: 0; }
+.group .aside { margin: 0 0 0.4rem; }
+.chips { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chips li { background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; font: 0.92rem var(--font-ui); }
+
+.mark { display: inline-block; font: 0.72rem var(--font-mono); padding: 0.05rem 0.45rem; border-radius: 4px; margin-left: 0.3rem; vertical-align: 0.1em; background: var(--surface-inner); color: var(--ink3); }
+.mark.holds { background: #e2efe4; color: var(--green); }
+.mark.partly-holds, .mark.records-differ { background: #f6ead2; color: var(--amber); }
+.mark.does-not-hold { background: #f6dcd8; color: var(--red); }
+.src { font: 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink3); margin-left: 0.4rem; }
+.src.drafted { color: var(--accent-dark); }
+
+.filters { font-family: var(--font-ui); display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.filters a { text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: 0.15rem 0.6rem; background: #fff; }
+.filters a.on { background: var(--bg); color: var(--light); border-color: var(--bg); }
+.rows { list-style: none; padding: 0; }
+.row { border-bottom: 1px solid var(--line); padding: 0.6rem 0; }
+.row > a { font: 500 1rem var(--font-ui); }
+.row p { margin: 0.2rem 0 0; color: var(--ink2); font-size: 0.97rem; }
+
+.entry { max-width: 46rem; }
+.entry .meta { font: 0.9rem var(--font-ui); color: var(--ink3); }
+.entry .meta .src { margin: 0 0.4rem 0 0; }
+.entry .text { font-size: 1.2rem; margin: 1rem 0; }
+.drawing { width: 12rem; max-width: 100%; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 0.6rem; }
+.drawing svg { display: block; width: 100%; height: auto; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 0 2rem; }
+.two ul { padding-left: 1.1rem; margin: 0; }
+details { margin: 0.6rem 0; font-size: 0.95rem; }
+summary { cursor: pointer; font-family: var(--font-ui); color: var(--accent-dark); }
+.checks li { margin-bottom: 0.3rem; }
+
+.records { max-width: 46rem; }
+.record { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; padding: 0.7rem 1rem; margin-bottom: 0.8rem; }
+.record.gone { border-left-color: var(--line); opacity: 0.75; }
+.record .who { margin: 0; font: 0.9rem var(--font-ui); color: var(--ink2); }
+.record .evidence { margin: 0.4rem 0 0; white-space: pre-wrap; }
+.record .suggest { margin: 0.4rem 0 0; white-space: pre-wrap; color: var(--ink2); }
+.record .suggest span { font: 0.85rem var(--font-ui); color: var(--ink3); }
+.record pre { white-space: pre-wrap; font: 0.85rem var(--font-mono); background: var(--surface-inner); padding: 0.6rem; border-radius: 4px; }
+.record form { display: inline-block; margin: 0.5rem 0.6rem 0 0; }
+.hide input { font: 0.85rem var(--font-ui); padding: 0.25rem 0.5rem; border: 1px solid var(--line); border-radius: 4px; }
+
+.add { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1.4rem; }
+.add h3 { margin-top: 0; }
+fieldset { border: 0; padding: 0; margin: 0 0 0.9rem; }
+legend { font: 500 0.95rem var(--font-ui); margin-bottom: 0.3rem; }
+fieldset label { display: block; font-family: var(--font-ui); font-size: 0.97rem; padding: 0.15rem 0; }
+label.block { display: block; font: 500 0.95rem var(--font-ui); margin-bottom: 0.9rem; }
+textarea { display: block; width: 100%; margin-top: 0.3rem; font: 1rem/1.5 var(--font-body); padding: 0.5rem 0.6rem; border: 1px solid #cfc8bf; border-radius: 6px; background: var(--surface); color: var(--ink); }
+button { font: 500 0.95rem var(--font-ui); background: var(--accent); color: #fff; border: 0; border-radius: 6px; padding: 0.5rem 1rem; cursor: pointer; }
+button:hover { background: var(--accent-dark); }
+button.quiet { background: none; color: var(--accent-dark); border: 1px solid var(--line); padding: 0.2rem 0.6rem; font-size: 0.85rem; }
+
+.note { max-width: 46rem; }
+.note table { border-collapse: collapse; font-size: 0.9rem; display: block; overflow-x: auto; }
+.note th, .note td { border: 1px solid var(--line); padding: 0.3rem 0.5rem; text-align: left; vertical-align: top; }
+
+footer { border-top: 1px solid var(--line); max-width: 72rem; margin: 0 auto; padding: 1rem 1rem calc(1.5rem + env(safe-area-inset-bottom, 0px)); font: 0.88rem var(--font-ui); color: var(--ink3); }
+footer p { margin: 0.2rem 0; }
+
+.error { background: #f6dcd8; color: var(--red); border-radius: 6px; padding: 0.6rem 0.9rem; font-family: var(--font-ui); max-width: 46rem; }
+.propose { max-width: 46rem; }
+.ticks { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; margin-bottom: 0.4rem; }
+.ticks label { font-size: 0.92rem; }
+.propose input[name="name"], .propose select { display: block; margin-top: 0.3rem; font: 1rem var(--font-ui); padding: 0.4rem 0.5rem; border: 1px solid #cfc8bf; border-radius: 6px; background: var(--surface); max-width: 100%; }
+.for-combo .aside { margin: 0.4rem 0 0.1rem; }
+.change { max-width: 46rem; font-family: var(--font-ui); margin-top: 1.4rem; }
+pre.was { white-space: pre-wrap; font: 0.85rem var(--font-mono); background: var(--surface-inner); padding: 0.6rem; border-radius: 4px; }
+.row form.inline { display: inline-block; margin-left: 0.5rem; }

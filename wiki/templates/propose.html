@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Propose an entry · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<article class="note">
+  <h1>Propose an entry</h1>
+  <p>Every pair of blocks already has an entry. If one of them reads wrong, open it and propose a change. Here you can propose something the knowledge base does not have yet: a triad, a conflict, a block or a feeling.</p>
+  <p class="aside">An editor reads each proposal. Until then only you and the editors can see it. If it is approved, it appears on the wiki under your name, marked as proposed, and others can add records to it. It reaches the tool when I next carry approved proposals into it.</p>
+</article>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form class="add propose" method="post" action="/propose">
+  <fieldset>
+    <legend>What you are proposing</legend>
+    {% for k, label in PROPOSAL_KINDS.items() %}<label><input type="radio" name="kind" value="{{ k }}" required{% if form.kind == k %} checked{% endif %}> {{ label }}</label>{% endfor %}
+  </fieldset>
+
+  <fieldset class="for-combo">
+    <legend>For a triad or a conflict: the blocks (three for a triad, two for a conflict; themes are setting, not rules, so they are not combined)</legend>
+    {% for g in C.groups if g.id != 'theme' %}
+    <p class="aside">{{ g.display }}</p>
+    <div class="ticks">{% for b in g.blocks %}<label><input type="checkbox" name="blocks" value="{{ b }}"{% if b in (form.blocks or []) %} checked{% endif %}> {{ C.display[b] }}</label>{% endfor %}</div>
+    {% endfor %}
+  </fieldset>
+
+  <fieldset class="for-new">
+    <legend>For a new block or feeling</legend>
+    <label class="block">Its name <input name="name" maxlength="60" value="{{ form.name or '' }}"></label>
+    <label class="block">For a block, its group
+      <select name="grp"><option value="">choose a group</option>{% for g in C.groups %}<option value="{{ g.id }}"{% if form.grp == g.id %} selected{% endif %}>{{ g.display }}</option>{% endfor %}</select>
+    </label>
+  </fieldset>
+
+  <label class="block">What it says. For a triad, what the three tend to produce; for a conflict, what a designer runs into when the two meet; for a block or feeling, what it means at the table
+    <textarea name="text" required maxlength="4000" rows="3">{{ form.text or '' }}</textarea></label>
+  <label class="block">What it brings, one point per line (optional)
+    <textarea name="pros" maxlength="4000" rows="2">{{ form.pros or '' }}</textarea></label>
+  <label class="block">What it costs, one point per line (optional)
+    <textarea name="cons" maxlength="4000" rows="2">{{ form.cons or '' }}</textarea></label>
+  <label class="block">Example games, one per line (optional; name only games you have checked)
+    <textarea name="games" maxlength="4000" rows="2">{{ form.games or '' }}</textarea></label>
+  <label class="block">How you know
+    <textarea name="evidence" required maxlength="4000" rows="3" placeholder="A source, such as a rulebook or a BoardGameGeek entry, or a game you played and what happened.">{{ form.evidence or '' }}</textarea></label>
+  <p class="aside">It will be shown under the name {{ user.name }}{% if user.handle %} and the link to @{{ user.handle }}{% endif %}.</p>
+  <button>Send the proposal</button>
+</form>
+{% endblock %}

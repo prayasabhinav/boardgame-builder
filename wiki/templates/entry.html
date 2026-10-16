@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% from "marks.html" import marks, row %}
+{% block title %}{{ e.title }} · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<p class="crumb"><a href="/list/{{ e.kind }}">{{ PLURAL[e.kind] }}</a></p>
+<article class="entry">
+  <h1>{{ e.title }}</h1>
+  <p class="meta"><span class="src {{ e.source }}">{{ e.source }}</span> {{ STATUS_WORDS.get(e.status, e.status) }} {{ marks(e.key, states) }}</p>
+  {% if e.svg %}<div class="drawing">{{ e.svg|safe }}</div>{% endif %}
+  {% if e.group %}<p class="aside">In the group {{ e.group }}.</p>{% endif %}
+  {% if e.edits %}<p class="aside">Changed on the wiki: {% for x in e.edits %}by {{ x.user_name }}{% if x.user_handle %} (@{{ x.user_handle }}){% endif %}, approved {{ x.decided|day }} ({{ x.evidence }}){% if not loop.last %}; {% endif %}{% endfor %}.{% if e.tool_text != current %} The tool still has the earlier text.{% endif %}</p>
+  {% if e.tool_text != current %}<details><summary>The text the tool has now</summary><pre class="was">{{ e.tool_text }}</pre></details>{% endif %}{% endif %}
+  {% if e.proposal %}<p class="aside">Proposed by {{ e.proposal.user_name }}{% if e.proposal.user_handle %} (<a href="https://github.com/{{ e.proposal.user_handle }}">@{{ e.proposal.user_handle }}</a>){% endif %} on {{ e.proposal.created|day }} and approved on {{ e.proposal.decided|day }}. It is not in the tool yet. How they know: {{ e.proposal.evidence }}</p>{% endif %}
+
+  <p class="text">{{ e.text }}</p>
+  {% if e.kind == 'link' %}<p class="aside">The tool says this when the feeling {{ C.display.get(e.elements[0], e.elements[0]) }} is picked and {{ C.display[e.elements[1]] }} is on the canvas.</p>{% endif %}
+  {% if e.note %}<p class="aside">Note kept with it: {{ e.note }}</p>{% endif %}
+  {% if e.tension %}<p class="aside">Tension noted: {{ e.tension }}</p>{% endif %}
+
+  {% if e.pros %}
+  <div class="two">
+    <div><h3>What it brings</h3><ul>{% for p in e.pros %}<li>{{ p }}</li>{% endfor %}</ul></div>
+    <div><h3>What it costs</h3><ul>{% for c in e.cons %}<li>{{ c }}</li>{% endfor %}</ul></div>
+  </div>
+  {% endif %}
+
+  {% if e.kind in ('pair', 'triad') %}
+  <h3>Example games</h3>
+  {% if e.exemplars %}
+  <ul>{% for g in e.exemplars %}<li>{{ g }}{% if g in e.unconfirmed %} <span class="aside">(unconfirmed)</span>{% endif %}</li>{% endfor %}</ul>
+  {% else %}<p class="aside">None named. {% if e.source == 'drafted' %}Drafted entries name no games until one has been checked.{% endif %}</p>{% endif %}
+  {% if e.checks %}
+  <details><summary>How the games were checked against BoardGameGeek</summary>
+    <ul class="checks">{% for c in e.checks %}<li><a href="{{ c.bgg }}">{{ c.game }}</a>: {{ c.result }}.{% for b, v in c.verdicts.items() %} {{ C.display.get(b, b) }}: {{ v }}.{% endfor %}</li>{% endfor %}</ul>
+  </details>
+  {% endif %}
+  {% if e.removed %}
+  <details><summary>Games removed after checking</summary>
+    <ul>{% for r in e.removed %}<li>{{ r.game }}: {{ r.reason }}</li>{% endfor %}</ul>
+  </details>
+  {% endif %}
+  {% endif %}
+  {% if e.exemplar %}<p class="aside">Example game named in April 2026: {{ e.exemplar }} (a feeling has no BoardGameGeek tag, so it was not checked).</p>{% endif %}
+</article>
+
+{% if user %}<p class="change"><a href="/edit/{{ e.key|urlencode }}">Propose a change to this entry</a></p>{% endif %}
+
+<section id="records" class="records">
+  <h2>Records</h2>
+  {% for r in records %}
+  <div class="record{% if r.withdrawn or r.hidden %} gone{% endif %}">
+    <p class="who">
+      <strong>{{ r.user_name }}</strong>{% if r.user_handle %} <a href="https://github.com/{{ r.user_handle }}">@{{ r.user_handle }}</a>{% endif %}
+      · {{ r.kind }} · <span class="mark {{ r.finding|replace(' ', '-') }}">{{ r.finding }}</span> · {{ r.created|day }}
+      {% if r.withdrawn %} · withdrawn by its author {{ r.withdrawn|day }}{% endif %}
+    </p>
+    {% if r.hidden %}
+      <p class="aside">Hidden {{ r.hidden|day }}: {{ r.hidden_reason }}</p>
+    {% else %}
+      <p class="evidence">{{ r.evidence }}</p>
+      {% if r.suggestion %}<p class="suggest"><span>Suggested wording:</span> {{ r.suggestion }}</p>{% endif %}
+      {% if r.text_seen != current %}<details><summary>The entry has changed since this record</summary><pre>{{ r.text_seen }}</pre></details>{% endif %}
+      {% if user and user.id == r.user_id and not r.withdrawn %}
+        <form method="post" action="/r/{{ r.id }}/withdraw"><button class="quiet">Withdraw my record</button></form>
+      {% endif %}
+      {% if user and user.admin %}
+        <form method="post" action="/r/{{ r.id }}/hide" class="hide"><input name="reason" required placeholder="Why it is hidden (shown publicly)"><button class="quiet">Hide</button></form>
+      {% endif %}
+    {% endif %}
+  </div>
+  {% else %}
+  <p class="aside">No one has recorded a check on this entry yet.</p>
+  {% endfor %}
+
+  {% if user %}
+  <form class="add" method="post" action="/e/{{ e.key|urlencode }}/record">
+    <h3>Add your record</h3>
+    <fieldset>
+      <legend>What you did</legend>
+      {% for k, label in RECORD_KINDS.items() %}<label><input type="radio" name="kind" value="{{ k }}" required> {{ label }}</label>{% endfor %}
+    </fieldset>
+    <fieldset>
+      <legend>What you found: the entry</legend>
+      {% for f in FINDINGS %}<label><input type="radio" name="finding" value="{{ f }}" required> {{ f }}</label>{% endfor %}
+    </fieldset>
+    <label class="block">How you know
+      <textarea name="evidence" required maxlength="4000" rows="4" placeholder="For a check against a source: the source, such as a rulebook page, a BoardGameGeek entry or a paper. For a try at a table: what you played, with how many people, and what happened."></textarea>
+    </label>
+    <label class="block">Suggested wording, if you would change it (optional)
+      <textarea name="suggestion" maxlength="4000" rows="3"></textarea>
+    </label>
+    <p class="aside">Your record appears here under the name {{ user.name }}{% if user.handle %} and the link to @{{ user.handle }}{% endif %}, with today's date. You can withdraw it later; it stays visible as withdrawn.</p>
+    <button>Add the record</button>
+  </form>
+  {% elif PROVIDERS %}
+  <p class="cta">To add a record or propose a change, {% for p in PROVIDERS %}<a class="signin" href="/login/{{ p }}?next={{ request.url.path|urlencode }}">sign in with {{ 'GitHub' if p == 'github' else 'Google' }}</a>{% if not loop.last %} or {% endif %}{% endfor %}.</p>
+  {% endif %}
+</section>
+
+{% if related %}
+<section>
+  <h2>Entries with {{ e.title }}</h2>
+  <ul class="rows">{% for x in related %}{{ row(x, states) }}{% endfor %}</ul>
+</section>
+{% endif %}
+{% endblock %}

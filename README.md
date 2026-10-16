@@ -14,7 +14,7 @@
 
 A small browser tool for designing a board game by putting blocks together and reading what the combination tends to produce.
 
-**Try it:** https://boardgame.blevn.xyz · **My work:** https://prayasabhinav.net · **Write to me:** me@prayasabhinav.net
+**Try it:** https://boardgame.blevn.xyz · **Check its knowledge base:** https://boardgame-wiki.blevn.xyz · **My work:** https://prayasabhinav.net · **Write to me:** me@prayasabhinav.net
 
 ![boardgameBuilder with feelings, mechanics and Simulation blocks on the canvas and a round of feedback](docs/screenshot.jpg)
 
@@ -31,12 +31,13 @@ A small browser tool for designing a board game by putting blocks together and r
 7. [Run it on your own machine](#run-it-on-your-own-machine)
 8. [Run it with Docker](#run-it-with-docker)
 9. [Changing the knowledge base](#changing-the-knowledge-base)
-10. [Checks](#checks)
-11. [Files](#files)
-12. [Privacy](#privacy)
-13. [Status and how to help](#status-and-how-to-help)
-14. [References](#references)
-15. [Licence](#licence)
+10. [The wiki](#the-wiki)
+11. [Checks](#checks)
+12. [Files](#files)
+13. [Privacy](#privacy)
+14. [Status and how to help](#status-and-how-to-help)
+15. [References](#references)
+16. [Licence](#licence)
 
 ---
 
@@ -167,6 +168,10 @@ Then open http://127.0.0.1:8080. The container listens on port 80, writes nothin
 - **Block descriptions and drawings** (the **?** button): `block_meta.py`.
 - **Groups and blocks:** `palette.py`. A new block needs a description in `block_meta.py`, a display name in `templates.py`, and pair entries so `check.py` still passes.
 
+## The wiki
+
+Every entry in the knowledge base is also on a public wiki, https://boardgame-wiki.blevn.xyz, one page per entry. Anyone can read it. People who sign in with GitHub or Google can record a check under their own name (verified against a source, or validated by trying it with people at a table), propose a change to an entry, or propose a new triad, conflict, block or feeling. Proposals wait for an editor, and anyone can apply to become one from the wiki (sign in, then *Join the editors*). Approved proposals reach this repository and the live tool by themselves: every half hour a GitHub Action runs `wiki/pull.py`, rebuilds the drafted entries, runs `check.py`, and only if the check passes commits the change here and redeploys the tool and the wiki (`.github/workflows/wiki-sync.yml`). A change that breaks the check stops there and goes nowhere. The wiki's code and how to run your own are in [`wiki/`](wiki/README.md).
+
 ## Checks
 
 ```bash
@@ -188,6 +193,8 @@ python check.py
 | `interactions.json` | The curated knowledge base |
 | `interactions-drafted.json` | The drafted knowledge base, built from `drafted/` |
 | `drafted/` | Plain-text sources for the drafted entries, the build script, and the BoardGameGeek check |
+| `wiki/` | The public wiki of the knowledge base, and `pull.py`, which carries approved proposals into it |
+| `wiki-applied.json` | The wiki proposals already carried into the knowledge base (made by `wiki/pull.py`) |
 | `check.py` | The coverage check |
 | `mechanics-shortlist.md`, `feeling-blocks.md` | Reference notes on the mechanic and feeling blocks |
 | `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css`, and `og.png`, the link-preview card |
@@ -198,13 +205,13 @@ python check.py
 
 ## Privacy
 
-There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage. The hosted copy is the same code.
+There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
 
 ## Status and how to help
 
 The tool is new. The curated knowledge base has been checked; much of the drafted part is still a first draft. I would like people to try it and tell me where a reading is wrong, a block is missing, or a game example does not hold: students, teachers, game designers, anyone who has made a game on paper.
 
-Write to me at me@prayasabhinav.net, or open an issue here.
+The easiest way is the [wiki](https://boardgame-wiki.blevn.xyz): open the entry, add a record or propose a change. You can also write to me at me@prayasabhinav.net, or open an issue here.
 
 ## References
 

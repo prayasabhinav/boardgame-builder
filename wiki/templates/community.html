@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Community · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<h1>Community</h1>
+<p class="aside">Only owners see this page. Editors approve and reject proposals and can hide a record; owners also add and remove editors and decide applications. Nothing here is public, and no editor's name is shown on the wiki.</p>
+
+<h2>Applications to join the editors</h2>
+{% for a in applications %}
+<div class="record{% if a.status != 'pending' %} gone{% endif %}">
+  <p class="who"><strong>{{ a.name }}</strong>{% if a.handle %} <a href="https://github.com/{{ a.handle }}">@{{ a.handle }}</a>{% endif %} · {{ a.created|day }}
+    · <span class="mark {{ 'holds' if a.status == 'accepted' else ('does-not-hold' if a.status == 'declined' else 'partly-holds') }}">{{ 'waiting' if a.status == 'pending' else a.status }}</span></p>
+  <p class="evidence">{{ a.statement }}</p>
+  {% if a.status == 'declined' %}<p class="aside">Reason given: {{ a.reason }}</p>{% endif %}
+  {% if a.status == 'pending' %}
+  <form method="post" action="/community/application/{{ a.id }}/accept"><button>Accept as editor</button></form>
+  <form method="post" action="/community/application/{{ a.id }}/decline" class="hide"><input name="reason" required placeholder="Why not (they read this)"><button class="quiet">Decline</button></form>
+  {% endif %}
+</div>
+{% else %}
+<p class="aside">No applications yet. Anyone signed in can apply from “Join the editors” in the top bar.</p>
+{% endfor %}
+
+<h2>Everyone who has signed in</h2>
+<p class="aside">In alphabetical order. An owner cannot remove themselves.</p>
+<ul class="rows">
+{% for p in people %}
+  <li class="row">
+    <strong>{{ p.name }}</strong>{% if p.handle %} <a href="https://github.com/{{ p.handle }}">@{{ p.handle }}</a>{% else %} <span class="aside">Google account</span>{% endif %}
+    {% if p.how and not p.removed %}<span class="mark holds">editor</span>
+      {% if p.user_id != user.id %}<form method="post" action="/community/editor" class="inline"><input type="hidden" name="user_id" value="{{ p.user_id }}"><input type="hidden" name="action" value="remove"><button class="quiet">Remove as editor</button></form>{% endif %}
+    {% else %}
+      <form method="post" action="/community/editor" class="inline"><input type="hidden" name="user_id" value="{{ p.user_id }}"><input type="hidden" name="action" value="add"><button class="quiet">Make editor</button></form>
+      {% if p.removed %}<span class="aside">editor until {{ p.removed|day }}</span>{% endif %}
+    {% endif %}
+    <p class="aside">First signed in {{ p.first_signed_in|day }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+{% if settings_editors %}
+<h2>Editors set in the server settings</h2>
+<p class="aside">These accounts become editors the first time they sign in, and then appear above, where they can be removed. Changing this list needs the server's settings.</p>
+<ul>{% for a in settings_editors %}<li>{{ a }}</li>{% endfor %}</ul>
+{% endif %}
+{% endblock %}

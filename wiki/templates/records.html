@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Records · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<h1>Records</h1>
+<p class="aside">The checks people have recorded, newest first. Every record is also in <a href="/export.json">the export</a>.</p>
+{% for r in rows %}
+<div class="record{% if r.withdrawn %} gone{% endif %}">
+  <p class="who"><a href="/e/{{ r.entry|urlencode }}#records">{{ C.entries[r.entry].title if r.entry in C.entries else r.entry }}</a>
+    · <strong>{{ r.user_name }}</strong>{% if r.user_handle %} @{{ r.user_handle }}{% endif %} · {{ r.kind }}
+    · <span class="mark {{ r.finding|replace(' ', '-') }}">{{ r.finding }}</span> · {{ r.created|day }}{% if r.withdrawn %} · withdrawn{% endif %}</p>
+  <p class="evidence">{{ r.evidence }}</p>
+</div>
+{% else %}
+<p class="aside">No records yet.</p>
+{% endfor %}
+{% endblock %}

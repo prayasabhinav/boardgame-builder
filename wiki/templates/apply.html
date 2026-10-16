@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Join the editors · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<article class="note">
+  <h1>Join the editors</h1>
+  <p>Editors read the proposals people send: changes to entries and new entries. They approve one, or send it back with a reason. They can also hide a record that is spam or abuse. There is no fixed amount of time to it.</p>
+  <p class="aside">I read every application myself. Only you and I see it. Editors are not named on the wiki.</p>
+</article>
+{% for a in mine %}
+<div class="record{% if a.status != 'pending' %} gone{% endif %}">
+  <p class="who">Your application · {{ a.created|day }} · {{ 'waiting' if a.status == 'pending' else a.status }}</p>
+  <p class="evidence">{{ a.statement }}</p>
+  {% if a.status == 'declined' %}<p class="aside">Not this time: {{ a.reason }}</p>{% endif %}
+</div>
+{% endfor %}
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+{% if user.admin %}
+<p class="aside">You are an editor. Waiting proposals are under “Proposals” in the top bar.</p>
+{% elif not (mine and mine[0].status == 'pending') %}
+<form class="add propose" method="post" action="/apply">
+  <label class="block">Why you would like to moderate, and what you know of games (making them, teaching with them, playing them)
+    <textarea name="statement" required maxlength="2000" rows="5"></textarea></label>
+  <button>Send the application</button>
+</form>
+{% endif %}
+{% endblock %}

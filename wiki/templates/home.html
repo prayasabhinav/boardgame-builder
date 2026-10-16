@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% from "marks.html" import marks %}
+{% block main %}
+<section class="intro">
+  <h1>The entries behind boardgameBuilder</h1>
+  <p><a href="https://boardgame.blevn.xyz">boardgameBuilder</a> is a tool for designing a board game by putting blocks together. It does not write its feedback when you ask; it looks it up in the entries below, so the tool can only be as right as they are. A few have been checked against sources; most nobody has checked yet.</p>
+  <p>Anyone can read every entry here. If you sign in, you can add a record to any of them: that you checked it against a source, or that you tried it with people at a table, what you found, and how. Your record stays under your name, beside everyone else's. <a href="/about">How checking works</a>.</p>
+  {% if not user and PROVIDERS %}<p class="cta">{% for p in PROVIDERS %}<a class="signin big" href="/login/{{ p }}">Sign in with {{ 'GitHub' if p == 'github' else 'Google' }}</a> {% endfor %}</p>{% endif %}
+</section>
+
+<section>
+  <h2>The entries</h2>
+  {% set count = {} %}
+  {% for e in C.entries.values() %}{% set _ = count.update({e.kind: count.get(e.kind, 0) + 1}) %}{% endfor %}
+  <ul class="kinds">
+    {% for kind, label in KINDS.items() %}
+    <li><a href="/list/{{ kind }}">{{ PLURAL[kind] }}</a> <span>{{ count[kind] }}</span>
+      <a class="sub" href="/list/{{ kind }}?state=none">See the ones nobody has checked yet →</a></li>
+    {% endfor %}
+  </ul>
+  <p class="aside">Pairs and feeling-and-block entries come in two kinds. <em>Curated</em> entries were assembled in April 2026 and their example games were checked against BoardGameGeek in October. <em>Drafted</em> entries were written on 16 October 2026 so that every combination of blocks says something, and nobody has reviewed them yet.</p>
+</section>
+
+<section>
+  <h2>The blocks</h2>
+  {% for g in C.groups %}
+  <div class="group">
+    <h3>{{ g.display }}</h3>
+    <p class="aside">{{ g.description }}</p>
+    <ul class="chips">
+      {% for b in g.blocks %}<li><a href="/e/block:{{ b }}">{{ C.display[b] }}</a> {% if states.get('block:' ~ b) %}{{ marks('block:' ~ b, states) }}{% endif %}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+  <div class="group">
+    <h3>Feelings</h3>
+    <p class="aside">What the people designing want the game to feel like.</p>
+    <ul class="chips">
+      {% for f in C.feelings %}<li><a href="/e/feeling:{{ f|urlencode }}">{{ C.display[f] }}</a> {% if states.get('feeling:' ~ f) %}{{ marks('feeling:' ~ f, states) }}{% endif %}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Help look after it</h2>
+  <p>Editors read the proposals people send, approve them or send them back with a reason, and hide spam. Anyone can apply to be one: sign in, then choose <em>Join the editors</em> in the top bar and say why you would like to and what you know of games. I read every application. There is no fixed amount of time to it.</p>
+  {% if user and not user.admin %}<p><a href="/apply">Apply to join the editors</a></p>{% endif %}
+</section>
+
+<section>
+  <h2>Working notes</h2>
+  <p class="aside">Two notes written in April 2026 while the blocks were chosen. Some example games named in them were removed from the knowledge base in October after checking.</p>
+  <ul class="kinds">{% for name, n in C.notes.items() %}<li><a href="/notes/{{ name }}">{{ n.title }}</a></li>{% endfor %}</ul>
+</section>
+{% endblock %}

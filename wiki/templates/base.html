@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}boardgameBuilder wiki{% endblock %}</title>
+  <meta name="description" content="Every entry in boardgameBuilder's knowledge base, and the checks people have made on it under their own names.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/wiki.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="name" href="/">boardgameBuilder <span>wiki</span></a>
+      <form class="find" action="/search" method="get" role="search">
+        <input type="search" name="q" value="{{ q or '' }}" placeholder="Find an entry" aria-label="Find an entry">
+      </form>
+      <nav>
+        <a href="/records">Records</a>
+        <a href="/about">How checking works</a>
+        {% if user %}
+          <a href="/propose">Propose an entry</a>
+          <a href="/proposals">{{ 'Proposals' if user.admin else 'My proposals' }}</a>
+          {% if user.owner %}<a href="/community">Community</a>{% elif not user.admin %}<a href="/apply">Join the editors</a>{% endif %}
+          <span class="me">{{ user.name }}</span> <a href="/logout">Sign out</a>
+        {% else %}
+          {% for p in PROVIDERS %}<a class="signin" href="/login/{{ p }}?next={{ request.url.path|urlencode }}">Sign in with {{ 'GitHub' if p == 'github' else 'Google' }}</a>{% endfor %}
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+  <main>
+    {% block main %}{% endblock %}
+  </main>
+  <footer>
+    <p><a href="https://boardgame.blevn.xyz">The tool</a> · <a href="https://github.com/prayasabhinav/boardgame-builder">Its source</a> · <a href="/export.json">Every record, as JSON</a> · No analytics and no counters.</p>
+    <p>A Prayas Abhinav tool · <a href="https://prayasabhinav.net">prayasabhinav.net</a></p>
+  </footer>
+</body>
+</html>

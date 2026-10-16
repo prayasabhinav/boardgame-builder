@@ -1,0 +1,19 @@
+{% macro marks(key, states) -%}
+{%- set s = states.get(key, {}) -%}
+{%- if s -%}
+  {%- for kind in ['verified', 'validated'] if s.get(kind) -%}
+    <span class="mark {{ s[kind]|replace(' ', '-') }}">{{ kind }}: {{ s[kind] }}</span>
+  {%- endfor -%}
+{%- else -%}
+  <span class="mark none">not checked yet</span>
+{%- endif -%}
+{%- endmacro %}
+
+{% macro row(e, states) -%}
+<li class="row">
+  <a href="/e/{{ e.key|urlencode }}">{{ e.title }}</a>
+  <span class="src {{ e.source }}">{{ e.source }}</span>
+  {{ marks(e.key, states) }}
+  <p>{{ e.text }}</p>
+</li>
+{%- endmacro %}

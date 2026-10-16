@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}How checking works · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<article class="note">
+  <h1>How checking works</h1>
+
+  <p>boardgameBuilder says what a combination of blocks tends to produce. Every sentence it says comes from an entry on this wiki. Some were assembled in April 2026, and their example games were checked against BoardGameGeek in October. The rest were drafted on 16 October 2026 so that no combination goes without feedback, and nobody has reviewed those. There are 1,590 entries, too many for one person to check, and one person's check is only one reading. Here anyone can add theirs.</p>
+
+  <h2>Two kinds of record</h2>
+  <p><strong>Verified</strong> means you checked the entry against a source: a game's rulebook, its BoardGameGeek page, a paper, a game you know well. Say which source, so someone else can look at it too.</p>
+  <p><strong>Validated</strong> means you tried it with people at a table. You put the combination into a game, played it, and saw whether it did what the entry says. Say what you played, with how many people, and what happened. You do not need to name anyone.</p>
+  <p>A record says one of three things: the entry <em>holds</em>, <em>partly holds</em> or <em>does not hold</em>. You can add a suggested wording beside it.</p>
+
+  <h2>What happens to a record</h2>
+  <p>It appears on the entry under your name, with the date and the entry's text as it stood when you checked it. If the entry changes later, your record still shows what you checked.</p>
+  <p>A record changes nothing by itself. I read the records, and a drafted entry becomes curated only when I move it. The marks you see in the lists follow one rule: where every record of a kind on an entry gives the same finding, the mark shows that finding; where they differ, it says <em>records differ</em>. No score is worked out for an entry and nothing is counted for a person.</p>
+  <p>You can withdraw your own record. It stays visible, marked as withdrawn, so the history stays readable. An editor can hide a record that is spam or abuse; a hidden record shows the reason in its place.</p>
+
+  <h2>Changing an entry, or adding one</h2>
+  <p>If an entry reads wrong, open it and propose a change: new wording, different example games, or for a feeling and a block, a different judgement. You can also propose an entry the knowledge base does not have: a triad, a conflict, a new block or a new feeling. Say how you know, as for a record.</p>
+  <p>An editor reads every proposal. Until then only you and the editors can see it. An approved change shows on the entry at once, under your name, and the earlier text stays readable. A proposal that is not approved comes back to you with the reason. Approved changes reach the tool when I next carry them into its files.</p>
+  <p>Entries describe what a combination tends to do and leave the judging to the designer, so a proposal with words like <em>good</em>, <em>bad</em>, <em>best</em> or <em>should</em> is sent back before an editor sees it.</p>
+  <p>Anyone signed in can apply to join the editors, from <em>Join the editors</em> in the top bar. I read every application.</p>
+
+  <h2>What is kept</h2>
+  <p>Signing in keeps your name as your account gives it, and your username if you sign in with GitHub. Your email address is not kept. A cookie holds your sign-in for thirty days. The server keeps no log of visits and there are no analytics or counters.</p>
+  <p>Every record can be downloaded by anyone as <a href="/export.json">one JSON file</a>, so the checking does not depend on this server.</p>
+
+  <h2>The source</h2>
+  <p>The wiki and the tool are free software under the AGPL-3.0, at <a href="https://github.com/prayasabhinav/boardgame-builder">github.com/prayasabhinav/boardgame-builder</a>. If you would rather send a correction by mail, write to me at me@prayasabhinav.net.</p>
+</article>
+{% endblock %}

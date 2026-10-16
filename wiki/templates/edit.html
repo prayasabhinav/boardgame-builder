@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Change {{ e.title }} · boardgameBuilder wiki{% endblock %}
+{% block main %}
+<p class="crumb"><a href="/e/{{ e.key|urlencode }}">{{ e.title }}</a></p>
+<article class="note">
+  <h1>Propose a change</h1>
+  <p class="aside">An editor reads each proposal. Until then only you and the editors can see it. If it is approved, the entry shows your change under your name, and the earlier text stays readable. It reaches the tool when I next carry approved changes into it.</p>
+</article>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form class="add propose" method="post" action="/edit/{{ e.key|urlencode }}">
+  {% if e.kind == 'link' %}
+  <fieldset>
+    <legend>{{ C.display[e.elements[1]] }} and the feeling {{ C.display.get(e.elements[0], e.elements[0]) }}</legend>
+    {% for j in JUDGEMENTS %}<label><input type="radio" name="judgement" value="{{ j }}" required{% if form.judgement == j %} checked{% endif %}> {{ C.display[e.elements[1]] }} {{ 'neither supports nor works against' if j == 'neither' else j }} it</label>{% endfor %}
+  </fieldset>
+  {% else %}
+  <label class="block">{{ 'What it tends to produce' if e.kind in ('pair', 'triad') else 'The text' }}
+    <textarea name="text" required maxlength="4000" rows="3">{{ form.text }}</textarea></label>
+  {% if e.kind in ('pair', 'triad') %}
+  <label class="block">What it brings, one point per line{% if e.source == 'drafted' %} (exactly two){% endif %}
+    <textarea name="pros" maxlength="4000" rows="3">{{ form.pros }}</textarea></label>
+  <label class="block">What it costs, one point per line{% if e.source == 'drafted' %} (exactly two){% endif %}
+    <textarea name="cons" maxlength="4000" rows="3">{{ form.cons }}</textarea></label>
+  {% if e.source != 'drafted' %}<label class="block">Example games, one per line (name only games you have checked)
+    <textarea name="games" maxlength="4000" rows="2">{{ form.games }}</textarea></label>{% endif %}
+  {% endif %}
+  {% endif %}
+  <label class="block">Why the change, and how you know
+    <textarea name="evidence" required maxlength="4000" rows="3" placeholder="A source, such as a rulebook or a BoardGameGeek entry, or a game you played and what happened.">{{ form.evidence }}</textarea></label>
+  <p class="aside">It will be shown under the name {{ user.name }}{% if user.handle %} and the link to @{{ user.handle }}{% endif %}.</p>
+  <button>Send the change</button>
+</form>
+{% endblock %}

@@ -1,0 +1,7 @@
+.env
+*.env
+.venv-*/
+data/
+wiki.tar
+__pycache__/
+._*
