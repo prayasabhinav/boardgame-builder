@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.8.0 — 16 October 2026
+
+- I removed sixteen known games as too ordinary to teach much: Antakshari, Name Place Animal Thing, Hangman, Ghost, Telephone, Two Truths and a Lie, Twenty Questions, Charades, Snap, Fizz Buzz, Chidiya Ud, Hand cricket, Go Fish, Memory match, Tic-tac-toe Plus and Pen fight. 22 remain.
+
 ## 0.7.0 — 16 October 2026
 
 - Every view has its own address, so it can be linked, reloaded and reached with Back: `#games` for the known games, `#games/<id>` for one game, `#games/<id>/watch` to watch it, `#how-it-works`, `#blocks/<id>` for a block's description, and `#tests` for the part tests.
@@ -13,7 +17,7 @@ To add an entry: raise `VERSION` (the middle number for something people can use
 ## 0.6.0 — 16 October 2026
 
 - Credits on every known game are now labelled rows (made by, rules from, this version, sources) with links, on the card, in the game file and on the wiki. A game file in the earlier one-line form still reads.
-- 3 Quarters and All or Nothing now link to their new home, github.com/prayasabhinav/games; the account that first held them can no longer be signed in to.
+- 3 Quarters and All or Nothing now link to their new home, github.com/prayasabhinav/games; I can no longer sign in to the account I first published them under.
 - Each game card has **Download as a design (.md)** at the top, and the Known games introduction says how to get the file.
 - The page and the game list are sent with `Cache-Control: no-cache`, so reloading never shows a page from before a deploy.
 
@@ -21,7 +25,7 @@ To add an entry: raise `VERSION` (the middle number for something people can use
 
 Known games:
 
-- 28 more known games, 38 in all. Classic and traditional games to play with things at hand: Nim, Raja Mantri Chor Sipahi, Name Place Animal Thing, Antakshari, Chidiya Ud, Pen fight, Hand cricket, Gulaam Chor, Satte pe Satta, Dots and Boxes, Battleship on paper, Bulls and Cows, Go Fish, Cheat, Snap, Twenty Questions, Hangman, Spoons, Telephone, Fizz Buzz, Two Truths and a Lie, Ghost, Cram, SOS, Three Men's Morris, and Set (Marsha J. Falco). And two games by Prayas Abhinav: All or Nothing and 3 Quarters.
+- 28 more known games, 38 in all. Classic and traditional games to play with things at hand: Nim, Raja Mantri Chor Sipahi, Name Place Animal Thing, Antakshari, Chidiya Ud, Pen fight, Hand cricket, Gulaam Chor, Satte pe Satta, Dots and Boxes, Battleship on paper, Bulls and Cows, Go Fish, Cheat, Snap, Twenty Questions, Hangman, Spoons, Telephone, Fizz Buzz, Two Truths and a Lie, Ghost, Cram, SOS, Three Men's Morris, and Set (Marsha J. Falco). And two games of mine: All or Nothing and 3 Quarters.
 - The rules of the classic games follow the sources listed with each game, and every game's blocks were checked against its BoardGameGeek tags where it has an entry. Charades no longer claims team vs team, which BoardGameGeek does not tag it with; Set names no core mechanic for the same reason.
 - Every game has credits: who made it where that is on record, *Traditional* where nobody is, and what this version changes from the usual one.
 - Every game's rules now say who starts, how it ends and what happens on a tie, so it can be played from the card. The earlier ten gained rules they lacked: clue tokens in Three-card Hanabi, how the wolf's choice is made known in Werewolf-5, a winner for the blocking grid, wild cards and an empty draw pile in Last-card-out.

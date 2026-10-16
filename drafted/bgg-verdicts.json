@@ -1686,27 +1686,6 @@
  {
   "kind": "known game",
   "elements": [
-   "pattern-building",
-   "direct-confrontation",
-   "mostly-skill",
-   "full-information",
-   "abstract"
-  ],
-  "game": "Tic-Tac-Toe",
-  "status": null,
-  "result": "partly checkable, nothing against it",
-  "verdicts": {
-   "pattern-building": "confirmed (Pattern Building)",
-   "direct-confrontation": "not checkable",
-   "mostly-skill": "not checkable",
-   "full-information": "not checkable",
-   "abstract": "not checkable"
-  },
-  "bgg": "https://boardgamegeek.com/boardgame/11901"
- },
- {
-  "kind": "known game",
-  "elements": [
    "traitor",
    "mostly-skill",
    "hidden-identity",
@@ -1722,25 +1701,6 @@
    "fantasy": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/925"
- },
- {
-  "kind": "known game",
-  "elements": [
-   "playing-in-silence",
-   "most-points",
-   "mostly-skill",
-   "one-knows-cannot-say"
-  ],
-  "game": "Charades",
-  "status": null,
-  "result": "partly checkable, nothing against it",
-  "verdicts": {
-   "playing-in-silence": "not checkable",
-   "most-points": "not checkable",
-   "mostly-skill": "not checkable",
-   "one-knows-cannot-say": "not checkable"
-  },
-  "bgg": "https://boardgamegeek.com/boardgame/5122"
  },
  {
   "kind": "known game",
@@ -1865,27 +1825,6 @@
  {
   "kind": "known game",
   "elements": [
-   "set-collection",
-   "most-points",
-   "direct-confrontation",
-   "chance-with-mitigation",
-   "hidden-hands"
-  ],
-  "game": "Go Fish",
-  "status": null,
-  "result": "partly checkable, nothing against it",
-  "verdicts": {
-   "set-collection": "confirmed (Set Collection)",
-   "most-points": "not checkable",
-   "direct-confrontation": "not checkable",
-   "chance-with-mitigation": "not checkable",
-   "hidden-hands": "not checkable"
-  },
-  "bgg": "https://boardgamegeek.com/boardgame/7682"
- },
- {
-  "kind": "known game",
-  "elements": [
    "race-to-finish",
    "direct-confrontation",
    "bluffing"
@@ -1899,59 +1838,6 @@
    "bluffing": "confirmed (Bluffing)"
   },
   "bgg": "https://boardgamegeek.com/boardgame/15832"
- },
- {
-  "kind": "known game",
-  "elements": [
-   "most-points",
-   "direct-confrontation",
-   "mostly-chance",
-   "full-information"
-  ],
-  "game": "Snap",
-  "status": null,
-  "result": "partly checkable, nothing against it",
-  "verdicts": {
-   "most-points": "not checkable",
-   "direct-confrontation": "not checkable",
-   "mostly-chance": "not checkable",
-   "full-information": "not checkable"
-  },
-  "bgg": "https://boardgamegeek.com/boardgame/17003"
- },
- {
-  "kind": "known game",
-  "elements": [
-   "race-to-finish",
-   "mostly-skill",
-   "deduction"
-  ],
-  "game": "20 Questions",
-  "status": null,
-  "result": "partly checkable, nothing against it",
-  "verdicts": {
-   "race-to-finish": "not checkable",
-   "mostly-skill": "not checkable",
-   "deduction": "confirmed (Deduction)"
-  },
-  "bgg": "https://boardgamegeek.com/boardgame/3377"
- },
- {
-  "kind": "known game",
-  "elements": [
-   "mostly-skill",
-   "deduction",
-   "educational"
-  ],
-  "game": "Hangman",
-  "status": null,
-  "result": "partly checkable, nothing against it",
-  "verdicts": {
-   "mostly-skill": "not checkable",
-   "deduction": "confirmed (Deduction)",
-   "educational": "not checkable"
-  },
-  "bgg": "https://boardgamegeek.com/boardgame/5314"
  },
  {
   "kind": "known game",
