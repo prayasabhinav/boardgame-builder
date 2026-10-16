@@ -641,6 +641,8 @@ body {
 
 /* ── Buttons (base button primitives) ─────────────────────────── */
 
+.feedback-actions > .k-btn-primary,
+.feedback-actions > .k-btn-outline { flex: 1; }
 .feedback-actions {
   display: flex;
   gap: 8px;
@@ -651,7 +653,12 @@ body {
 
 .k-btn-primary,
 .k-btn-outline {
-  flex: 1;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  line-height: 1.2;
   padding: 11px 18px;
   font-family: var(--font-label);
   font-size: 13.5px;
@@ -1384,6 +1391,8 @@ body {
 }
 .fam-step:first-child { border-top: none; padding-top: 0; }
 .fam-step.plain { grid-template-columns: 1fr; }
+.fam-lesson { margin: 16px 0; padding: 14px 18px; background: white; border: 1px solid var(--accent); border-radius: 6px; }
+.fam-lesson p { margin: 6px 0 0; font-size: 16px; line-height: 1.5; color: var(--ink); }
 .fam-credits { margin: 14px 0 18px; padding: 12px 16px; border-left: 3px solid var(--accent); background: var(--surface-inner); border-radius: 0 4px 4px 0; }
 .fam-credits dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 6px 0 0; font-size: 14px; line-height: 1.45; }
 .fam-credits dt { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink3); padding-top: 2px; }
@@ -1594,7 +1603,9 @@ body {
 .analysis-result.failed { color: #C75B39; }
 .feedback-panel > .panel-pane { flex: 1; display: flex; flex-direction: column; min-height: 0; }
 .feedback-panel > .panel-pane[hidden] { display: none; }
-button.slot-config { display: block; border: 1px dashed var(--accent); background: transparent; cursor: pointer; text-align: left; font: 500 10.5px/1.4 var(--font-mono); letter-spacing: 0.05em; color: var(--accent); }
+.slot-item { display: inline-flex; align-items: stretch; gap: 6px; max-width: 100%; }
+button.slot-config { display: inline-block; margin: 0; padding: 0 10px; height: 32px; line-height: 30px; max-width: 16rem; border: 1px dashed var(--accent); border-radius: 4px; background: transparent; cursor: pointer; font-family: var(--font-mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.05em; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+button.slot-config:hover:not(:disabled) { background: var(--accent-bg, rgba(74, 140, 92, 0.1)); border-style: solid; }
 button.slot-config:disabled { cursor: default; }
 .games-nav { justify-content: space-between; margin: 0 0 18px; }
 .games-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 12px; margin-top: 18px; }
@@ -1609,4 +1620,4 @@ button.slot-config:disabled { cursor: default; }
 .mcq-discuss { display: block; margin-top: 4px; color: var(--ink3); font-size: 14px; }
 .config-modal-foot .config-preview { color: var(--ink2); font-family: var(--font-body); font-size: 14px; }
 .mcq-feedback.show:not(.correct):not(.wrong) { background: var(--surface-inner); color: var(--ink2); border-left: 3px solid var(--ink3); }
-.games-nav button { flex: 0 0 auto; width: auto; padding: 8px 18px; font-size: 15px; }
+.games-nav .k-btn-outline { padding: 8px 18px; }

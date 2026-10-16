@@ -5,7 +5,7 @@
 <p class="crumb"><a href="/list/{{ e.kind }}">{{ PLURAL[e.kind] }}</a></p>
 <article class="entry">
   <h1>{{ e.title }}</h1>
-  <p class="meta"><span class="src {{ e.source }}">{{ e.source }}</span> {{ STATUS_WORDS.get(e.status, e.status) }} {{ marks(e.key, states) }}</p>
+  <p class="meta">{% if e.kind != 'game' %}<span class="src {{ e.source }}">{{ e.source }}</span> {{ STATUS_WORDS.get(e.status, e.status) }} {% endif %}{{ marks(e.key, states) }}</p>
   {% if e.svg %}<div class="drawing">{{ e.svg|safe }}</div>{% endif %}
   {% if e.group %}<p class="aside">In the group {{ e.group }}.</p>{% endif %}
   {% if e.credit %}<p class="aside">Idea from {{ e.credit }}.</p>{% endif %}
@@ -15,23 +15,25 @@
 
   <p class="text">{{ e.text }}</p>
   {% if e.kind == 'game' %}{% set g = e.game %}
-  <p class="aside">From {{ g.parent_game }} · {{ g.players }} · {{ g.duration }}</p>
+  <ul class="gamemeta"><li><span>Time</span>{{ g.duration }}</li><li><span>Players</span>{{ g.players }}</li></ul>
+  <p class="aside">From {{ g.parent_game }}.</p>
+  <h3>What it shows a designer</h3>
+  <p class="lesson">{{ g.lesson }}</p>
   <h3>Credits</h3>
-  <dl class="credits">{% for k, label in [('by', 'Made by'), ('rules', 'Rules from'), ('version', 'This version'), ('added', 'Added')] if g.credits[k] %}<dt>{{ label }}</dt><dd>{{ g.credits[k] }}</dd>{% endfor %}</dl>
+  <dl class="credits">{% for k, label in [('by', 'Made by'), ('rules', 'Rules from'), ('version', 'This version'), ('added', 'Added')] if g.credits[k] %}<dt>{{ label }}</dt><dd>{{ g.credits[k] }}</dd>{% endfor %}{% if g.sources %}<dt>Sources</dt><dd>{% for u in g.sources %}<a href="{{ u }}">{{ u.split('//', 1)[-1] }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</dd>{% endif %}</dl>
   <h3>What you need</h3>
-  <ul>{% for x in g.equipment %}<li>{{ x }}</li>{% endfor %}</ul>
+  <div class="panel"><ul>{% for x in g.equipment %}<li>{{ x }}</li>{% endfor %}</ul></div>
   <h3>How to play</h3>
-  <ol>{% for s in g.steps %}<li><strong>{{ s.title }}{% if s.title[-1] not in '?!.' %}.{% endif %}</strong> {{ s.body }}</li>{% endfor %}</ol>
+  <div class="panel"><ol>{% for s in g.steps %}<li><strong>{{ s.title }}{% if s.title[-1] not in '?!.' %}.{% endif %}</strong> {{ s.body }}</li>{% endfor %}</ol></div>
   <h3>After playing, talk about</h3>
-  <ul>{% for x in g.what_to_notice %}<li>{{ x }}</li>{% endfor %}</ul>
+  <div class="panel"><ul>{% for x in g.what_to_notice %}<li>{{ x }}</li>{% endfor %}</ul></div>
   <h3>Its blocks</h3>
   <ul class="chips">{% for b in e.elements %}<li><a href="/e/block:{{ b }}">{{ C.display[b] }}</a></li>{% endfor %}</ul>
-  {% if g.sources %}<h3>Where the rules are written down</h3>
-  <ul>{% for u in g.sources %}<li><a href="{{ u }}">{{ u }}</a></li>{% endfor %}</ul>{% endif %}
   {% if e.checks %}<details><summary>How its blocks were checked against BoardGameGeek</summary>
     <ul class="checks">{% for c in e.checks %}<li><a href="{{ c.bgg }}">{{ c.game }}</a>: {{ c.result }}.{% for b, v in c.verdicts.items() %} {{ C.display.get(b, b) }}: {{ v }}.{% endfor %}</li>{% endfor %}</ul>
   </details>{% endif %}
-  <p class="aside"><a href="/games/{{ e.key.split(':', 1)[1] }}.md" download>Download it as a file</a>. In <a href="https://boardgame.blevn.xyz">boardgameBuilder</a>, Open game puts its blocks on the canvas; changed, the same file can come back here from <a href="/propose-game">Propose a game</a>.</p>
+  <a class="download" href="/games/{{ e.key.split(':', 1)[1] }}.md" download>Download it as a design (.md)</a>
+  <p class="aside">In <a href="https://boardgame.blevn.xyz">boardgameBuilder</a>, Open game puts its blocks on the canvas. Changed, the same file can come back here from <a href="/propose-game">Propose a game</a>.</p>
   {% endif %}
   {% if e.kind == 'link' %}<p class="aside">The tool says this when the feeling {{ C.display.get(e.elements[0], e.elements[0]) }} is picked and {{ C.display[e.elements[1]] }} is on the canvas.</p>{% endif %}
   {% if e.note %}<p class="aside">Note kept with it: {{ e.note }}</p>{% endif %}

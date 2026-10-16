@@ -2440,5 +2440,252 @@
   "other_ids": [
    1198
   ]
+ },
+ "Eleusis": {
+  "id": 5217,
+  "bgg_name": "Eleusis",
+  "year": "1956",
+  "mechanisms": [
+   "Induction",
+   "Pattern Recognition"
+  ],
+  "categories": [
+   "Card Game",
+   "Deduction",
+   "Educational"
+  ],
+  "other_ids": [
+   5217
+  ]
+ },
+ "Mao": {
+  "id": 4213,
+  "bgg_name": "Mao",
+  "year": "0",
+  "mechanisms": [
+   "Hand Management",
+   "Induction",
+   "Memory",
+   "Pattern Recognition"
+  ],
+  "categories": [
+   "Card Game",
+   "Humor",
+   "Memory",
+   "Party Game"
+  ],
+  "other_ids": [
+   4213
+  ]
+ },
+ "Nomic": {
+  "id": 14451,
+  "bgg_name": "Nomic",
+  "year": "1982",
+  "mechanisms": [
+   "Dice Rolling",
+   "Paper-and-Pencil",
+   "Voting"
+  ],
+  "categories": [
+   "Negotiation"
+  ],
+  "other_ids": [
+   14451
+  ]
+ },
+ "The Mind": {
+  "id": 244992,
+  "bgg_name": "The Mind",
+  "year": "2018",
+  "mechanisms": [
+   "Communication Limits",
+   "Cooperative Game",
+   "Hand Management"
+  ],
+  "categories": [
+   "Card Game",
+   "Number"
+  ],
+  "other_ids": [
+   244992
+  ]
+ },
+ "Consequences": {
+  "id": 17334,
+  "bgg_name": "Consequences",
+  "year": "1995",
+  "mechanisms": [
+   "Voting"
+  ],
+  "categories": [
+   "Party Game"
+  ],
+  "other_ids": [
+   17334
+  ]
+ },
+ "Racetrack": {
+  "id": 18481,
+  "bgg_name": "Racetrack",
+  "year": "1973",
+  "mechanisms": [
+   "Line Drawing",
+   "Paper-and-Pencil"
+  ],
+  "categories": [
+   "Abstract Strategy",
+   "Racing"
+  ],
+  "other_ids": [
+   18481
+  ]
+ },
+ "Sprouts": {
+  "id": 7378,
+  "bgg_name": "Sprouts",
+  "year": "1967",
+  "mechanisms": [
+   "Paper-and-Pencil"
+  ],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   7378
+  ]
+ },
+ "Hex": {
+  "id": 4112,
+  "bgg_name": "Hex",
+  "year": "1942",
+  "mechanisms": [
+   "Chaining",
+   "Connections",
+   "Hexagon Grid",
+   "I Cut, You Choose"
+  ],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   4112
+  ]
+ },
+ "Paper soccer": {
+  "id": 25432,
+  "bgg_name": "Paper Soccer",
+  "year": "0",
+  "mechanisms": [
+   "Enclosure",
+   "Paper-and-Pencil",
+   "Point to Point Movement"
+  ],
+  "categories": [
+   "Abstract Strategy",
+   "Sports"
+  ],
+  "other_ids": [
+   25432
+  ]
+ },
+ "Mu Torere": {
+  "id": 13657,
+  "bgg_name": "Mu Torere",
+  "year": "0",
+  "mechanisms": [
+   "Point to Point Movement"
+  ],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   13657
+  ]
+ },
+ "Aadu Puli Attam": {
+  "id": 93204,
+  "bgg_name": "Aadu Puli Attam",
+  "year": "1000",
+  "mechanisms": [],
+  "categories": [
+   "Abstract Strategy"
+  ],
+  "other_ids": [
+   93204
+  ]
+ },
+ "The Royal Game of Ur": {
+  "id": 1602,
+  "bgg_name": "The Royal Game of Ur",
+  "year": "-2600",
+  "mechanisms": [
+   "Lose a Turn",
+   "Race",
+   "Roll / Spin and Move",
+   "Square Grid",
+   "Static Capture"
+  ],
+  "categories": [
+   "Abstract Strategy",
+   "Dice"
+  ],
+  "other_ids": [
+   1602
+  ]
+ },
+ "Senet": {
+  "id": 2399,
+  "bgg_name": "Senet",
+  "year": "-3500",
+  "mechanisms": [
+   "Dice Rolling",
+   "Lose a Turn",
+   "Race",
+   "Roll / Spin and Move",
+   "Static Capture",
+   "Track Movement"
+  ],
+  "categories": [
+   "Abstract Strategy",
+   "Religious"
+  ],
+  "other_ids": [
+   2399
+  ]
+ },
+ "Kemps": {
+  "id": 10716,
+  "bgg_name": "Kemps",
+  "year": "0",
+  "mechanisms": [
+   "Set Collection",
+   "Simultaneous Action Selection",
+   "Team-Based Game"
+  ],
+  "categories": [
+   "Card Game",
+   "Real-time"
+  ],
+  "other_ids": [
+   10716
+  ]
+ },
+ "Cuttle": {
+  "id": 115370,
+  "bgg_name": "Cuttle",
+  "year": "0",
+  "mechanisms": [
+   "Hand Management",
+   "Multi-Use Cards",
+   "Race",
+   "Take That"
+  ],
+  "categories": [
+   "Card Game"
+  ],
+  "other_ids": [
+   115370
+  ]
  }
 }

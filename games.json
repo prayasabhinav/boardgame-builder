@@ -7,6 +7,7 @@
    "by": "Folk game; first described in print by John Scarne, 1945",
    "version": "Played to 20 rather than 100"
   },
+  "lesson": "Push your luck in its plainest form: after every roll, keep what you have or risk it for more. Change one number, the bust or the target, and the whole table plays more boldly or more carefully.",
   "teaches": "push-your-luck",
   "design": {
    "core-mechanic": [
@@ -302,6 +303,7 @@
    "by": "Antoine Bauza, published 2010 as Hanabi",
    "version": "A homemade cut-down: three colours, three players"
   },
+  "lesson": "Hidden hands turned inside out: you see everyone's cards except your own, so the team depends on a few limited clues. It shows how a limit on talking can become the whole game.",
   "teaches": "hidden-hands + cooperative + restricted-communication",
   "design": {
    "core-mechanic": [
@@ -705,6 +707,7 @@
   "credits": {
    "by": "Made for this tool, as a short exercise in worker placement, the mechanism of games such as Stone Age"
   },
+  "lesson": "Worker placement at its smallest: taking a spot denies it to the other player. It shows how turn order and denial create decisions even with no luck at all.",
   "teaches": "worker-placement + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -1016,6 +1019,7 @@
    "by": "Dmitry Davidoff, 1986, as Mafia; also played as Werewolf",
    "version": "A five-player cut-down"
   },
+  "lesson": "A game made almost entirely of what players say about each other. It shows hidden identity, and how a single liar changes every conversation at the table.",
   "teaches": "traitor + hidden-identity + deduction",
   "design": {
    "player-interaction": "traitor",
@@ -1240,6 +1244,7 @@
   "credits": {
    "by": "Made for this tool, after the bidding in games such as For Sale and High Society"
   },
+  "lesson": "Bidding with a budget that never refills: every token spent now is gone later. It shows how players come to price the same prize differently as their money runs down.",
   "teaches": "bidding + most-points + chance-with-mitigation",
   "design": {
    "core-mechanic": [
@@ -1492,6 +1497,7 @@
   "credits": {
    "by": "Made for this tool, after the drafting in games such as 7 Wonders and Sushi Go"
   },
+  "lesson": "Drafting: each card you keep is also a choice about what your neighbour gets. It shows how passing cards along turns every pick into a gift or a block.",
   "teaches": "drafting + hand-management + set-collection",
   "design": {
    "core-mechanic": [
@@ -1754,6 +1760,7 @@
   "credits": {
    "by": "A cut-down of the colour-or-number matching games, the family Uno belongs to"
   },
+  "lesson": "A race where what you hold limits what you can do. It shows hand management, and how one flexible card (the wild) changes every decision around it.",
   "teaches": "hand-management + race-to-finish",
   "design": {
    "core-mechanic": [
@@ -2041,6 +2048,7 @@
   "credits": {
    "by": "Traditional; named by Charles L. Bouton, who worked out its theory in 1901"
   },
+  "lesson": "No luck and nothing hidden, yet the winner is often settled many moves before the end by a pattern the players can't yet see. It shows why designers add uncertainty to a game that can be solved.",
   "teaches": "full-information",
   "design": {
    "chance-skill": "mostly-skill",
@@ -2394,6 +2402,7 @@
    "by": "Traditional",
    "rules": "As recorded by Seema Periwal and Ravi Poovaiah for D'Source, IDC, IIT Bombay"
   },
+  "lesson": "Four hidden roles and one guess: the whole game is reading faces. It shows how little rule a hidden-identity game needs, and how points can give each role a different stake.",
   "teaches": "hidden-identity + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -2641,6 +2650,7 @@
    "by": "Traditional",
    "version": "24 cards, so that it fits in ten minutes"
   },
+  "lesson": "One loser, no winner, and almost no choices, yet real tension, carried by a single card that can never pair. It shows how a game can work on feeling more than decision.",
   "teaches": "set-collection + hidden-hands + one-loser",
   "design": {
    "core-mechanic": [
@@ -2895,6 +2905,7 @@
    "by": "Traditional",
    "version": "Only the 4 to 10 of each suit, 28 cards"
   },
+  "lesson": "Everyone builds the same rows, and holding a card back blocks the others. It shows interaction through a shared board instead of direct attack.",
   "teaches": "hand-management + hidden-hands + indirect-via-board",
   "design": {
    "core-mechanic": [
@@ -3344,6 +3355,7 @@
   "credits": {
    "by": "Édouard Lucas, French mathematician; first published in the 19th century as la pipopipette"
   },
+  "lesson": "A rule that lets you move again after closing a box turns a simple drawing game into one of sacrifice and long chains. It shows how one rule can create deep strategy.",
   "teaches": "full-information + indirect-via-board + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -3629,6 +3641,7 @@
    "by": "Traditional pencil-and-paper game",
    "version": "A 6 by 6 grid and three ships"
   },
+  "lesson": "Each yes-or-no answer narrows where the ships can be. It shows deduction on a hidden map, and how the size of the board sets how much luck there is at the start.",
   "teaches": "deduction + direct-confrontation + race-to-finish",
   "design": {
    "victory-condition": "race-to-finish",
@@ -4089,6 +4102,7 @@
   "credits": {
    "by": "Traditional"
   },
+  "lesson": "Pure deduction from counted clues. It shows how much information a single answer can carry, and how a guess can be made to learn rather than to win.",
   "teaches": "deduction + solo-in-parallel + race-to-finish",
   "design": {
    "victory-condition": "race-to-finish",
@@ -4374,6 +4388,7 @@
    "by": "Traditional",
    "version": "Ace to 8 of each suit, 32 cards"
   },
+  "lesson": "Every claim may be false, and calling a lie costs whoever is wrong. It shows how risk on both sides keeps bluffing honest.",
   "teaches": "bluffing + direct-confrontation + race-to-finish",
   "design": {
    "victory-condition": "race-to-finish",
@@ -4634,6 +4649,7 @@
    "by": "Traditional",
    "version": "Coins in place of spoons, a substitute Pagat lists"
   },
+  "lesson": "A quiet card game that ends in a scramble, with one fewer coin than players. It shows how adding a physical race to a hidden race changes what players watch.",
   "teaches": "set-collection + dexterity + hidden-hands",
   "design": {
    "core-mechanic": [
@@ -4979,6 +4995,7 @@
    "by": "Traditional; popularised by Martin Gardner in Scientific American",
    "version": "A 4 by 4 grid"
   },
+  "lesson": "On boards with even sides the second player always wins by copying. It shows how symmetry can break a game, and how changing the board fixes it.",
   "teaches": "tile-placement + full-information + indirect-via-board",
   "design": {
    "core-mechanic": [
@@ -5264,6 +5281,7 @@
   "credits": {
    "by": "Traditional"
   },
+  "lesson": "Both players write the same letters, so anything you write can help your opponent. It shows how shared pieces create tactics of giving and avoiding.",
   "teaches": "pattern-building + full-information + indirect-via-board",
   "design": {
    "core-mechanic": [
@@ -5569,6 +5587,7 @@
    "by": "Traditional",
    "rules": "The board as recorded by the US National Park Service"
   },
+  "lesson": "Placing pieces, then moving them: a second phase keeps a tic-tac-toe-like game from ending in a draw. It shows phases as a design tool.",
   "teaches": "pattern-building + full-information + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -5856,6 +5875,7 @@
    "by": "Marsha J. Falco, 1974; published by Set Enterprises",
    "version": "Homemade and without shading: 27 cards instead of 81"
   },
+  "lesson": "Everyone looks at the same cards at once, with no turns, so perception wins over planning. It shows simultaneous play, and how a single matching rule can carry a whole game.",
   "teaches": "full-information + indirect-via-board + most-points",
   "design": {
    "victory-condition": "most-points",
@@ -6125,6 +6145,7 @@
    "by": "Prayas Abhinav, 2022, as a warm-up game for students",
    "rules": "Rules, board and pieces at github.com/prayasabhinav/games, under Creative Commons Attribution 4.0"
   },
+  "lesson": "Every piece placed can complete someone else's circle, so each move weighs your gain against what it gives away, under a 20-second clock. It shows interaction through a shared board, and time as pressure.",
   "teaches": "pattern-building + tile-placement + full-information",
   "design": {
    "core-mechanic": [
@@ -6208,6 +6229,7 @@
    "by": "Prayas Abhinav; cards, rules and box made in 2020",
    "rules": "Rules and print files at github.com/prayasabhinav/games"
   },
+  "lesson": "Completing the pizza early scores fewer points, so waiting is rewarded. It shows how one scoring rule can turn a simple arithmetic race into a game of pushing your luck.",
   "teaches": "hand-management + push-your-luck + hidden-hands",
   "design": {
    "core-mechanic": [
@@ -6603,6 +6625,1628 @@
   ],
   "sources": [
    "https://github.com/prayasabhinav/games/tree/main/all-or-nothing"
+  ]
+ },
+ {
+  "id": "eleusis",
+  "title": "Eleusis — guess the dealer's secret rule",
+  "parent_game": "Eleusis, a card game by Robert Abbott",
+  "credits": {
+   "by": "Robert Abbott, 1956",
+   "version": "Close to Eleusis Express, John Golden's short version: 7 cards each, no Prophet, fewest cards wins"
+  },
+  "lesson": "The rules themselves are what you discover. Players learn by testing guesses against right and wrong, which is how a designer learns what a rule does. The Rulemaker also feels the balance: a rule nobody finds is as dull as one everyone finds at once.",
+  "teaches": "rules-you-discover",
+  "design": {
+   "information": "rules-you-discover",
+   "chance-skill": "mostly-skill",
+   "theme": "abstract"
+  },
+  "duration": "10–15 min",
+  "players": "4–7 players",
+  "equipment": [
+   "one standard deck of cards (two if more than five play)",
+   "paper and a pen for the secret rule"
+  ],
+  "intro": "One player writes a secret rule about which card may follow which. Everyone else plays cards and is told only right or wrong. The game is working out the rule from the line of cards that grows on the table.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The rule",
+    "body": "One player is the Rulemaker. They write a secret rule that says whether a card may follow the last correct card, using only suit, number or colour: 'play a card of a different colour', 'alternate odd and even'."
+   },
+   {
+    "n": 2,
+    "title": "Deal",
+    "body": "Deal 7 cards to each other player. The Rulemaker turns one card face up to start the line."
+   },
+   {
+    "n": 3,
+    "title": "Play",
+    "body": "Going clockwise, each player plays one card next to the last correct card. The Rulemaker says right or wrong. A right card stays in the line; a wrong card goes just below the last right card, and the player draws one card."
+   },
+   {
+    "n": 4,
+    "title": "Guess",
+    "body": "After a right play, a player may say what they think the rule is. If it is right, discovery is over; if wrong, they draw a card."
+   },
+   {
+    "n": 5,
+    "title": "End",
+    "body": "The first player to run out of cards ends the round. Fewest cards in hand wins. Then someone else writes a rule."
+   }
+  ],
+  "what_to_notice": [
+   "Which wrong card taught you the most?",
+   "Was the rule too easy, too hard, or about right? What made it so?",
+   "As Rulemaker, how did you choose a rule people could find?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://www.gathering4gardner.org/wp-content/uploads/2020/04/G4G14-EleusisExpress-Instructions.pdf",
+   "https://nhn.ou.edu/~kieran/eleusis.pdf"
+  ],
+  "bgg": "Eleusis"
+ },
+ {
+  "id": "mao",
+  "title": "Mao — the rules nobody will tell you",
+  "parent_game": "Mao, a card game played in many versions",
+  "credits": {
+   "by": "Traditional, with no fixed rules",
+   "version": "A short form: 5 cards each and two or three secret rules"
+  },
+  "lesson": "Hidden rules turn every penalty into evidence. It shows how players build a model of a game from feedback alone, and how much frustration a design can carry before it stops being fun.",
+  "teaches": "hand-management + rules-you-discover + race-to-finish",
+  "design": {
+   "core-mechanic": [
+    "hand-management"
+   ],
+   "victory-condition": "race-to-finish",
+   "information": "rules-you-discover",
+   "chance-skill": "skill-with-luck-tempering"
+  },
+  "duration": "10 min",
+  "players": "3–7 players",
+  "equipment": [
+   "one standard deck of cards"
+  ],
+  "intro": "The dealer knows a few extra rules and nobody else does. Break one and you get a penalty card, with only the name of what you broke. You learn the rules by breaking them.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Before you start",
+    "body": "The dealer chooses two or three secret rules, such as 'say \"have a nice day\" when you play a 7' or 'an Ace skips the next player', and tells nobody. The only rule anyone may say out loud is this one."
+   },
+   {
+    "n": 2,
+    "title": "Deal",
+    "body": "Deal 5 cards each and turn one card face up as the start of the pile."
+   },
+   {
+    "n": 3,
+    "title": "Play",
+    "body": "Going clockwise, play a card that matches the top card by number or suit. If you can't, draw one card."
+   },
+   {
+    "n": 4,
+    "title": "Penalties",
+    "body": "When someone breaks a rule, secret or not, the dealer gives them one card from the deck and names the rule broken, without explaining it: 'Failure to say \"have a nice day\"'."
+   },
+   {
+    "n": 5,
+    "title": "Mao",
+    "body": "Say 'Mao' as you play your last card. The first player to get rid of all their cards wins and becomes the next dealer, and may add one more secret rule."
+   }
+  ],
+  "what_to_notice": [
+   "When did you work out a secret rule, and what gave it away?",
+   "How did it feel to be penalised for a rule you didn't know?",
+   "As dealer, which rule caused the most confusion, and why?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://lynnfieldmao.com/rules/",
+   "https://gamerules.com/rules/mao-card-game/"
+  ],
+  "bgg": "Mao"
+ },
+ {
+  "id": "nomic",
+  "title": "Nomic — change the rules as you play",
+  "parent_game": "Nomic, a game by Peter Suber",
+  "credits": {
+   "by": "Peter Suber, 1982",
+   "version": "A short form: three starting rules, a target of 30 points and two turns each, in place of Suber's full Initial Set of 29 rules and 100 points"
+  },
+  "lesson": "Changing the rules is the move. It makes visible what every designer does between playtests, and shows that every rule serves someone more than others.",
+  "teaches": "change-the-rules + most-points",
+  "design": {
+   "core-mechanic": [
+    "change-the-rules"
+   ],
+   "victory-condition": "most-points",
+   "chance-skill": "chance-with-mitigation",
+   "simulation": [
+    "try-a-rule"
+   ]
+  },
+  "duration": "15 min",
+  "players": "3–6 players",
+  "equipment": [
+   "paper and pens to write the rules down",
+   "one six-sided die",
+   "paper for scores"
+  ],
+  "intro": "In Nomic, a turn is proposing a change to the rules. The group votes, then you roll a die for points. What you are playing at the end may not be the game you started.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Start",
+    "body": "Write the starting rules where everyone can see them: a turn is one proposal, a vote and a die roll; the first to 30 points wins; changes need everyone to agree. Number every rule."
+   },
+   {
+    "n": 2,
+    "title": "Propose",
+    "body": "On your turn, propose one new rule or one change to a rule, in writing. Give it the next number."
+   },
+   {
+    "n": 3,
+    "title": "Vote",
+    "body": "Everyone votes. In the first round a change needs everyone; after that, a simple majority."
+   },
+   {
+    "n": 4,
+    "title": "Roll",
+    "body": "Roll the die and add it to your score."
+   },
+   {
+    "n": 5,
+    "title": "It takes effect",
+    "body": "An adopted change applies at once. When two rules disagree, the lower number wins, unless a rule says otherwise."
+   },
+   {
+    "n": 6,
+    "title": "End",
+    "body": "Stop when someone reaches 30 or after everyone has had two turns. The highest score wins; ties are shared."
+   }
+  ],
+  "what_to_notice": [
+   "Which change made the biggest difference to how the game played?",
+   "Did anyone propose a change only to help themselves? How did the vote respond?",
+   "What would you change first if you played again?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://legacy.earlham.edu/~peters/writing/nomic.htm",
+   "https://legacy.earlham.edu/~peters/nomic.htm"
+  ],
+  "bgg": "Nomic"
+ },
+ {
+  "id": "the-mind",
+  "title": "The Mind — play in order, without a word",
+  "parent_game": "The Mind, a card game by Wolfgang Warsch",
+  "credits": {
+   "by": "Wolfgang Warsch, 2018",
+   "version": "Homemade cards; levels 1 to 4 only, without the published rewards and throwing stars"
+  },
+  "lesson": "With speech removed, the only channel left is timing. Players build a shared rhythm, which shows how a rule that takes something away can make a new kind of play.",
+  "teaches": "playing-in-silence + hidden-hands + fully-cooperative",
+  "design": {
+   "core-mechanic": [
+    "playing-in-silence"
+   ],
+   "victory-condition": "shared-objective",
+   "player-interaction": "fully-cooperative",
+   "chance-skill": "attunement",
+   "information": "hidden-hands"
+  },
+  "duration": "10 min",
+  "players": "2–4 players",
+  "equipment": [
+   "100 paper cards numbered 1 to 100",
+   "coins or paper bits for lives"
+  ],
+  "intro": "Everyone holds numbered cards and the team must play them all onto one pile in rising order. There are no turns, and nobody may speak or signal. You play when you sense it is time.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Set up",
+    "body": "Shuffle the 100 cards. The team has as many lives as there are players."
+   },
+   {
+    "n": 2,
+    "title": "Deal a level",
+    "body": "In level 1, deal one card to each player; in level 2, two cards each; and so on. Look at your own cards only."
+   },
+   {
+    "n": 3,
+    "title": "Play in silence",
+    "body": "Anyone may play their lowest card onto the pile at any moment. No talking and no signals. The pile has to rise: every card higher than the one before."
+   },
+   {
+    "n": 4,
+    "title": "Mistakes",
+    "body": "If someone plays a card while another player still holds a lower one, the team loses a life. Everyone shows and discards their cards lower than the one played, and the level goes on."
+   },
+   {
+    "n": 5,
+    "title": "End",
+    "body": "Clear level 4 and the team wins. Lose the last life and the team loses."
+   }
+  ],
+  "what_to_notice": [
+   "How did you decide when to play a 40?",
+   "Did the group find a shared sense of time? When did it break?",
+   "What happened when someone hesitated?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://themind.gg/rules.pdf"
+  ],
+  "bgg": "The Mind"
+ },
+ {
+  "id": "exquisite-corpse",
+  "title": "Exquisite Corpse — draw a body nobody planned",
+  "parent_game": "Exquisite Corpse, a game of the Surrealist artists",
+  "credits": {
+   "by": "The Surrealists in Paris, around 1925",
+   "version": "Three bands (head, body, legs) instead of four"
+  },
+  "lesson": "Concealment makes collaboration surprising. It shows how hiding information between players can produce something nobody could have made alone, and a game with no winner that people still want to play again.",
+  "teaches": "fully-cooperative + no-objective",
+  "design": {
+   "victory-condition": "no-objective",
+   "player-interaction": "fully-cooperative",
+   "theme": "absurd"
+  },
+  "duration": "10 min",
+  "players": "3–6 players",
+  "equipment": [
+   "a sheet of paper and a pen for each player"
+  ],
+  "intro": "Each sheet is folded into three. You draw a head, fold it away so only the neck lines show, and pass it on. The next person draws a body without seeing the head. Unfolded, the creatures belong to everyone and no one.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Fold",
+    "body": "Fold each sheet into three equal bands."
+   },
+   {
+    "n": 2,
+    "title": "Head",
+    "body": "Everyone draws a head in the top band, with two short lines crossing the fold where the neck goes. Fold the head out of sight and pass the sheet left."
+   },
+   {
+    "n": 3,
+    "title": "Body",
+    "body": "Draw a body joining the neck lines, add lines for the legs, fold it away and pass left again."
+   },
+   {
+    "n": 4,
+    "title": "Legs",
+    "body": "Draw the legs and feet."
+   },
+   {
+    "n": 5,
+    "title": "Reveal",
+    "body": "Unfold all the sheets together. There is no winner."
+   }
+  ],
+  "what_to_notice": [
+   "What did you do with the two lines you were given?",
+   "Which creature surprised its makers most?",
+   "Would it be better or worse if you could peek?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://www.moma.org/magazine/articles/457",
+   "https://www.nationalgalleries.org/sites/default/files/features/pdfs/Make%20Your%20Own%20Exquisite%20Corpse.pdf"
+  ]
+ },
+ {
+  "id": "consequences",
+  "title": "Consequences — a story written blind",
+  "parent_game": "Consequences, a parlour game",
+  "credits": {
+   "by": "Traditional parlour game",
+   "version": "Seven prompts, the Cambridge sequence"
+  },
+  "lesson": "A fixed sequence of prompts is a story's structure; the players only fill it in. It shows how much of a narrative game comes from its frame rather than its players.",
+  "teaches": "no-objective",
+  "design": {
+   "victory-condition": "no-objective",
+   "theme": "absurd"
+  },
+  "duration": "10 min",
+  "players": "3–8 players",
+  "equipment": [
+   "a sheet of paper and a pen for each player"
+  ],
+  "intro": "Everyone writes one line of a story, folds it away and passes it on. Seven lines later, each sheet holds a story none of its writers has read.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The prompts",
+    "body": "Agree the seven prompts: a name, a second name, where they met, what the first said, what the second said, what happened, and what the world said about it."
+   },
+   {
+    "n": 2,
+    "title": "Write and fold",
+    "body": "Everyone writes an answer to the first prompt at the top of their sheet, folds it over so it can't be seen, and passes the sheet left."
+   },
+   {
+    "n": 3,
+    "title": "Keep going",
+    "body": "Answer the next prompt on the sheet you are handed, fold and pass, until all seven are done."
+   },
+   {
+    "n": 4,
+    "title": "Read aloud",
+    "body": "Unfold the sheets and read the stories aloud. There is no winner."
+   }
+  ],
+  "what_to_notice": [
+   "Which line made a story work, or broke it?",
+   "Did the prompts decide the story more than the writers did?",
+   "What prompt would you add?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://tolkien.soc.ucam.org/parlourgames",
+   "http://www.papg.com/show?1TXW="
+  ],
+  "bgg": "Consequences"
+ },
+ {
+  "id": "racetrack",
+  "title": "Racetrack — drive a car on squared paper",
+  "parent_game": "Racetrack, a pencil-and-paper racing game",
+  "credits": {
+   "by": "Unknown, known by the 1960s; rules published by Martin Gardner in 1973"
+  },
+  "lesson": "One rule about momentum makes every move depend on the last. It shows how a simple physical constraint creates planning, risk and a track that the players draw themselves.",
+  "teaches": "drawing-the-map + full-information + indirect-via-board",
+  "design": {
+   "core-mechanic": [
+    "drawing-the-map"
+   ],
+   "victory-condition": "race-to-finish",
+   "player-interaction": "indirect-via-board",
+   "chance-skill": "mostly-skill",
+   "information": "full-information"
+  },
+  "duration": "10–15 min",
+  "players": "2–4 players",
+  "equipment": [
+   "squared paper",
+   "a pen in a different colour for each player"
+  ],
+  "intro": "Each car keeps its speed from one move to the next and can change it by only one square at a time. Taking a bend means braking early. It is the physics of a racing car in a few lines of rule.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Draw the track",
+    "body": "Draw a closed track on squared paper, a few squares wide, with a start line and a finish line."
+   },
+   {
+    "n": 2,
+    "title": "Start",
+    "body": "Each car starts on a grid point on the start line. Your first move is one square in any direction, or none."
+   },
+   {
+    "n": 3,
+    "title": "Move",
+    "body": "Each move repeats your last move, across and up, then changes either part by at most one square. Mark the new point and draw the line to it."
+   },
+   {
+    "n": 4,
+    "title": "Crash",
+    "body": "If your line leaves the track, or ends on another car's point, you are out."
+   },
+   {
+    "n": 5,
+    "title": "Win",
+    "body": "The first car across the finish line wins. Cars that cross on the same turn share the win."
+   }
+  ],
+  "what_to_notice": [
+   "When did you have to start braking for a bend?",
+   "Did anyone crash by going too fast? Could they have seen it coming?",
+   "How would you draw the track to make the race closer?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Racetrack_(game)",
+   "https://www.neeldhara.com/courses/2024/01-mg/07/bookchapter-07.pdf"
+  ],
+  "bgg": "Racetrack"
+ },
+ {
+  "id": "sprouts",
+  "title": "Sprouts — the drawing that ends itself",
+  "parent_game": "Sprouts, a pencil-and-paper game by John Conway and Michael Paterson",
+  "credits": {
+   "by": "John Horton Conway and Michael S. Paterson, Cambridge, 1967"
+  },
+  "lesson": "The board is drawn by the players, and the moves close the board in. It shows how a game can be made of its own map, and how a growing picture can carry the state of a game.",
+  "teaches": "drawing-the-map + full-information + indirect-via-board",
+  "design": {
+   "core-mechanic": [
+    "drawing-the-map"
+   ],
+   "player-interaction": "indirect-via-board",
+   "chance-skill": "mostly-skill",
+   "information": "full-information",
+   "theme": "abstract"
+  },
+  "duration": "5 min a game",
+  "players": "2 players",
+  "equipment": [
+   "paper",
+   "a pen"
+  ],
+  "intro": "Start with three dots. Each move joins two dots with a curve and adds a new dot on it. Lines may never cross, and no dot may have more than three lines. The drawing grows until nobody can move.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Start",
+    "body": "Draw three dots, spread apart. Toss a coin to see who starts."
+   },
+   {
+    "n": 2,
+    "title": "A move",
+    "body": "Draw a curve from one dot to another, or from a dot back to itself, then put a new dot somewhere on that curve."
+   },
+   {
+    "n": 3,
+    "title": "Limits",
+    "body": "A curve may not cross itself, another curve or a dot. No dot may have more than three lines touching it; a loop counts as two, and a new dot starts with two."
+   },
+   {
+    "n": 4,
+    "title": "End",
+    "body": "When a player has no legal move, the game is over. The last player to move wins."
+   },
+   {
+    "n": 5,
+    "title": "Again",
+    "body": "Play a few games, and then try four starting dots."
+   }
+  ],
+  "what_to_notice": [
+   "When could you tell how many moves were left?",
+   "Did the shape of the drawing trap anyone?",
+   "How did the game change with four dots?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sprouts_(game)",
+   "https://encyclopediaofmath.org/wiki/Sprouts"
+  ],
+  "bgg": "Sprouts"
+ },
+ {
+  "id": "hex",
+  "title": "Hex — connect your two sides",
+  "parent_game": "Hex, a game by Piet Hein, found again by John Nash",
+  "credits": {
+   "by": "Piet Hein, 1942; found again independently by John Nash, 1947–49",
+   "version": "A 5 by 5 board, with the swap rule"
+  },
+  "lesson": "Every move is both an attack and a defence, because the same chain that connects one player blocks the other. It shows how a geometric fact can rule out draws, and how the swap rule balances first-player advantage.",
+  "teaches": "full-information + indirect-via-board",
+  "design": {
+   "player-interaction": "indirect-via-board",
+   "chance-skill": "mostly-skill",
+   "information": "full-information",
+   "theme": "abstract"
+  },
+  "duration": "10 min",
+  "players": "2 players",
+  "equipment": [
+   "paper with a 5 by 5 diamond of hexagons drawn on it",
+   "two pens of different colours"
+  ],
+  "intro": "Each player owns two opposite sides of a diamond of hexagons, and tries to join them with a chain of their own colour. One chain always blocks the other, so the game can never be drawn.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The board",
+    "body": "Draw a diamond of hexagons, five along each side. Each player owns a pair of opposite sides."
+   },
+   {
+    "n": 2,
+    "title": "A move",
+    "body": "Take turns colouring one empty hexagon. A coloured hexagon never changes."
+   },
+   {
+    "n": 3,
+    "title": "The swap",
+    "body": "After the first move, the second player may take that hexagon as their own instead of moving, so the first player has no reason to start in the strongest place."
+   },
+   {
+    "n": 4,
+    "title": "Win",
+    "body": "The first to join their two sides with an unbroken chain of their own hexagons wins. Neighbours share an edge."
+   }
+  ],
+  "what_to_notice": [
+   "Why can nobody draw?",
+   "Did you attack or defend more? Is there a difference in Hex?",
+   "What did the swap rule do to the first move?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hex_(board_game)",
+   "https://trmph.com/hexwiki/Rules.html"
+  ],
+  "bgg": "Hex"
+ },
+ {
+  "id": "sim",
+  "title": "Sim — don't make a triangle",
+  "parent_game": "Sim, a pencil-and-paper game by Gustavus Simmons",
+  "credits": {
+   "by": "Gustavus J. Simmons, 1969"
+  },
+  "lesson": "A game about avoiding, not achieving. It shows a misère goal, and a mathematical guarantee: with six dots someone must make a triangle, so the game always ends.",
+  "teaches": "full-information + one-loser",
+  "design": {
+   "victory-condition": "one-loser",
+   "chance-skill": "mostly-skill",
+   "information": "full-information",
+   "theme": "abstract"
+  },
+  "duration": "5 min a game",
+  "players": "2 players",
+  "equipment": [
+   "paper",
+   "two pens of different colours"
+  ],
+  "intro": "Six dots, every pair joined by a line. Players colour lines in turn, and whoever first makes a triangle of their own colour loses. With six dots, a triangle always comes, so somebody must lose.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Draw",
+    "body": "Draw six dots in a circle and join every pair with a light line: fifteen lines in all."
+   },
+   {
+    "n": 2,
+    "title": "A move",
+    "body": "Take turns going over one uncoloured line in your colour."
+   },
+   {
+    "n": 3,
+    "title": "Lose",
+    "body": "If the three lines between any three dots are all your colour, you lose at once. Crossings in the middle are not dots."
+   },
+   {
+    "n": 4,
+    "title": "Again",
+    "body": "Play several games, taking turns to start."
+   }
+  ],
+  "what_to_notice": [
+   "When did you run out of safe lines?",
+   "Is it better to go first or second?",
+   "How does a game where you avoid something feel different from one where you chase it?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://gamescrafters.berkeley.edu/games.php?game=sim",
+   "https://en.wikipedia.org/wiki/Sim_(pencil_game)"
+  ]
+ },
+ {
+  "id": "chomp",
+  "title": "Chomp — don't eat the poisoned square",
+  "parent_game": "Chomp, a game by David Gale",
+  "credits": {
+   "by": "David Gale, described in 1973"
+  },
+  "lesson": "The first player can always win, yet on most bars nobody knows how. It shows the difference between knowing a strategy exists and finding it, which is often where play lives.",
+  "teaches": "full-information + one-loser",
+  "design": {
+   "victory-condition": "one-loser",
+   "chance-skill": "mostly-skill",
+   "information": "full-information",
+   "theme": "abstract"
+  },
+  "duration": "5 min a game",
+  "players": "2 players",
+  "equipment": [
+   "paper with a rectangle of squares, 5 by 6",
+   "a pen"
+  ],
+  "intro": "A chocolate bar of squares, with the bottom-left square poisoned. Each bite takes a square and everything above and to the right of it. Whoever has to take the poisoned square loses.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The bar",
+    "body": "Draw a rectangle of 5 rows by 6 columns. Mark the bottom-left square as poison."
+   },
+   {
+    "n": 2,
+    "title": "A bite",
+    "body": "Take turns choosing any remaining square. Cross it out, along with every square above it and to its right."
+   },
+   {
+    "n": 3,
+    "title": "Lose",
+    "body": "Whoever crosses out the poisoned square loses."
+   },
+   {
+    "n": 4,
+    "title": "Again",
+    "body": "Play a few times, and try a 2 by 6 bar to look for a pattern."
+   }
+  ],
+  "what_to_notice": [
+   "Is going first better here? Why?",
+   "Did you find a shape you wanted to leave your opponent?",
+   "What did the 2 by 6 bar show you?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://pi.math.cornell.edu/~mec/2003-2004/graphtheory/chomp/howtoplaychomp.html",
+   "https://en.wikipedia.org/wiki/Chomp"
+  ]
+ },
+ {
+  "id": "kayles",
+  "title": "Kayles — knock down one pin or two",
+  "parent_game": "Kayles, an old skittles game set out by Henry Dudeney",
+  "credits": {
+   "by": "Henry Dudeney, 1908, from an older game of skittles"
+  },
+  "lesson": "Each move can break one game into several smaller games. It shows how a position can be a sum of separate parts, a way of thinking that helps in designing any game with independent areas.",
+  "teaches": "full-information",
+  "design": {
+   "chance-skill": "mostly-skill",
+   "information": "full-information",
+   "theme": "abstract"
+  },
+  "duration": "5 min a game",
+  "players": "2 players",
+  "equipment": [
+   "12 coins or pebbles in a row"
+  ],
+  "intro": "A row of pins. On each turn you knock down one pin, or two that stood side by side. Whoever knocks down the last pin wins, and every move can split the row into separate games.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Set up",
+    "body": "Lay 12 coins in a straight row, touching."
+   },
+   {
+    "n": 2,
+    "title": "A move",
+    "body": "Take away one coin, or two coins that were next to each other in the original row."
+   },
+   {
+    "n": 3,
+    "title": "Win",
+    "body": "Whoever takes the last coin wins."
+   },
+   {
+    "n": 4,
+    "title": "Again",
+    "body": "Play a few times. Notice what happens when the row splits into two shorter rows."
+   }
+  ],
+  "what_to_notice": [
+   "When did splitting the row help you?",
+   "Could you see an answer for short rows that helped with long ones?",
+   "What does taking from the middle do?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://gamescrafters.berkeley.edu/games.php?game=kayles",
+   "https://en.wikipedia.org/wiki/Kayles"
+  ]
+ },
+ {
+  "id": "quantum-tic-tac-toe",
+  "title": "Quantum tic-tac-toe — marks in two places at once",
+  "parent_game": "Quantum tic-tac-toe, by Allan Goff",
+  "credits": {
+   "by": "Allan Goff, 2002, made to teach quantum physics"
+  },
+  "lesson": "Each move is uncertain until a later moment decides it, and the decision is handed to the opponent. It shows how a game can be built to teach an idea from science, with delayed effects as its main mechanism.",
+  "teaches": "pattern-building + direct-confrontation",
+  "design": {
+   "core-mechanic": [
+    "pattern-building"
+   ],
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "mostly-skill",
+   "theme": "educational",
+   "simulation": [
+    "delayed-effects"
+   ]
+  },
+  "duration": "10–15 min",
+  "players": "2 players",
+  "equipment": [
+   "paper with a 3 by 3 grid, squares numbered 1 to 9",
+   "a pen"
+  ],
+  "intro": "Each move puts your mark in two squares at once, and only later does it settle in one. When the marks form a loop, the other player chooses how it collapses. Tic-tac-toe becomes a game of decisions you don't control.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "A move",
+    "body": "X goes first. On move 1 write X1 small in two different empty squares; on move 2, O writes O2 in two squares; and so on. A square can hold several small marks."
+   },
+   {
+    "n": 2,
+    "title": "Loops",
+    "body": "Think of each move as a line between its two squares. When a move closes a loop of these lines, the loop must collapse."
+   },
+   {
+    "n": 3,
+    "title": "Collapse",
+    "body": "The player who did not close the loop picks one move in the loop and chooses which of its two squares it settles in. That fixes the others: each move in the loop, and any move tied to it, settles in its other square. Settled marks are written large and never move."
+   },
+   {
+    "n": 4,
+    "title": "Last square",
+    "body": "When only one empty square is left, the last move puts both halves in it."
+   },
+   {
+    "n": 5,
+    "title": "Win",
+    "body": "Three settled marks of yours in a line wins. If both players get a line in the same collapse, the line whose highest move number is lower scores 1 and the other 1/2. A full board with no line is a draw."
+   }
+  ],
+  "what_to_notice": [
+   "When did you place a mark to force a loop?",
+   "How did it feel when the other player chose your collapse?",
+   "Did the rules make sense of entanglement for you?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "http://www.cel.edu/Quantum/Tic-Tac-Toe/",
+   "https://doi.org/10.1119/1.2213635"
+  ]
+ },
+ {
+  "id": "ultimate-tic-tac-toe",
+  "title": "Ultimate tic-tac-toe — your move sends them",
+  "parent_game": "Ultimate tic-tac-toe, a recent variant",
+  "credits": {
+   "by": "Unknown; a recent variant of tic-tac-toe"
+  },
+  "lesson": "Each move has two meanings: a mark here and an instruction to the other player. It shows how linking small games turns a solved children's game into one that rewards foresight.",
+  "teaches": "pattern-building + full-information + direct-confrontation",
+  "design": {
+   "core-mechanic": [
+    "pattern-building"
+   ],
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "mostly-skill",
+   "information": "full-information",
+   "theme": "abstract"
+  },
+  "duration": "10–15 min",
+  "players": "2 players",
+  "equipment": [
+   "paper with nine small tic-tac-toe grids, arranged in a large 3 by 3 grid",
+   "a pen"
+  ],
+  "intro": "Nine small games of tic-tac-toe make one large one. Where you play in a small grid decides which small grid your opponent must play in next. Winning a square can mean sending them where they want to go.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The board",
+    "body": "Draw a large 3 by 3 grid with a small 3 by 3 grid inside each of its nine squares."
+   },
+   {
+    "n": 2,
+    "title": "First move",
+    "body": "X plays anywhere."
+   },
+   {
+    "n": 3,
+    "title": "Where next",
+    "body": "The square you played in, within its small grid, names the small grid your opponent must play in next. Top-right square sends them to the top-right grid."
+   },
+   {
+    "n": 4,
+    "title": "Small grids",
+    "body": "Three in a row wins a small grid; it is then closed. A full small grid with no line is also closed. If you are sent to a closed grid, play in any open one."
+   },
+   {
+    "n": 5,
+    "title": "Win",
+    "body": "Win three small grids in a row on the large grid. If every grid closes without that, it is a draw."
+   }
+  ],
+  "what_to_notice": [
+   "When did you give away a small grid to control where your opponent went?",
+   "Did you plan two moves ahead?",
+   "How is this different from playing nine games of tic-tac-toe?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://minimax.dev/docs/ultimate/the-game/",
+   "https://victorz.ca/game/ut3_rules"
+  ]
+ },
+ {
+  "id": "paper-soccer",
+  "title": "Paper soccer — bounce the ball to goal",
+  "parent_game": "Paper soccer, a pen-and-paper game from Poland",
+  "credits": {
+   "by": "Traditional, best known in Poland",
+   "version": "A 10 by 8 field; a trapped player loses"
+  },
+  "lesson": "Every line drawn changes what can be drawn next, and old moves create new ones through bouncing. It shows how a game's history can live on the board and become its strategy.",
+  "teaches": "drawing-the-map + full-information + direct-confrontation",
+  "design": {
+   "core-mechanic": [
+    "drawing-the-map"
+   ],
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "mostly-skill",
+   "information": "full-information"
+  },
+  "duration": "10 min",
+  "players": "2 players",
+  "equipment": [
+   "squared paper",
+   "a pen"
+  ],
+  "intro": "A ball moves one step at a time along the lines of a grid, and every line drawn stays. When the ball lands where lines already meet, it bounces and the same player moves again. The pitch fills with the history of the game.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The pitch",
+    "body": "On squared paper mark a field 10 squares long and 8 wide, with a goal two squares wide in the middle of each short side. The ball starts at the centre point."
+   },
+   {
+    "n": 2,
+    "title": "A move",
+    "body": "Draw a line from the ball to any of the eight points around it, along a square's side or across its diagonal. The ball is now there."
+   },
+   {
+    "n": 3,
+    "title": "Limits",
+    "body": "No line may be drawn twice, and none may run along the edge of the pitch. The ball leaves the pitch only through a goal."
+   },
+   {
+    "n": 4,
+    "title": "Bounce",
+    "body": "If the ball lands on a point that already has a line, or on the edge, the same player moves again."
+   },
+   {
+    "n": 5,
+    "title": "Win",
+    "body": "Get the ball into the other player's goal. An own goal loses. A player who cannot move loses."
+   }
+  ],
+  "what_to_notice": [
+   "When did you set up a chain of bounces?",
+   "How did the old lines change where you could go?",
+   "Did the edges help or hurt?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://paper.soccer/rules/",
+   "https://en.wikipedia.org/wiki/Paper_soccer"
+  ],
+  "bgg": "Paper soccer"
+ },
+ {
+  "id": "mu-torere",
+  "title": "Mū Tōrere — the Māori star game",
+  "parent_game": "Mū Tōrere, a game of the Māori of Aotearoa New Zealand",
+  "credits": {
+   "by": "Traditional Māori game"
+  },
+  "lesson": "A board with a single empty point makes every move a question of who gets stuck. It shows how one restriction, the centre rule, can keep a tiny game from being won at once.",
+  "teaches": "full-information + direct-confrontation",
+  "design": {
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "mostly-skill",
+   "information": "full-information",
+   "theme": "abstract"
+  },
+  "duration": "5–10 min",
+  "players": "2 players",
+  "equipment": [
+   "paper with an eight-pointed star and its centre drawn",
+   "4 coins of one kind and 4 of another"
+  ],
+  "intro": "Eight points round a star and one in the middle. Each player has four pieces and there is only ever one empty point. The game is about not getting stuck.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The board",
+    "body": "Draw eight points in a ring and one in the centre. Join each point to its two neighbours and to the centre."
+   },
+   {
+    "n": 2,
+    "title": "Set up",
+    "body": "Put one player's four pieces on four points next to each other, and the other's on the other four. The centre is empty."
+   },
+   {
+    "n": 3,
+    "title": "A move",
+    "body": "Take turns moving one of your pieces along a line into the empty point. No jumping and no capturing."
+   },
+   {
+    "n": 4,
+    "title": "The centre",
+    "body": "A piece may move into the centre only if it sits next to an opponent's piece on the ring."
+   },
+   {
+    "n": 5,
+    "title": "Win",
+    "body": "You win when your opponent cannot move. If the same position comes three times, call it a draw."
+   }
+  ],
+  "what_to_notice": [
+   "Why does the centre rule exist? What happens without it?",
+   "How quickly can a game be lost?",
+   "What does a board with only one empty space do to play?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://nrich.maths.org/games/mu-torere",
+   "https://en.wikipedia.org/wiki/Mu_torere"
+  ],
+  "bgg": "Mu Torere"
+ },
+ {
+  "id": "aadu-puli-attam",
+  "title": "Aadu Puli Attam — goats against tigers",
+  "parent_game": "Aadu Puli Attam, a goats-and-tigers game from Tamil Nadu",
+  "credits": {
+   "by": "Traditional, Tamil Nadu and South India",
+   "version": "Tigers win on five captures; some sources say they must take all fifteen"
+  },
+  "lesson": "Two sides with different pieces, different moves and different goals. It shows asymmetric design: balance comes from tuning numbers such as goats needed and capture counts, not from giving both sides the same thing.",
+  "teaches": "full-information + direct-confrontation",
+  "design": {
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "mostly-skill",
+   "information": "full-information"
+  },
+  "duration": "10–15 min",
+  "players": "2 players",
+  "equipment": [
+   "paper with the 23-point board drawn: a triangle from one apex, crossed by four rows",
+   "3 tiger pieces and 15 goat pieces (coins or pebbles of two kinds)"
+  ],
+  "intro": "Three tigers hunt fifteen goats. Tigers capture by jumping; goats cannot capture at all, but together they can hem the tigers in. The two sides play by different rules for different goals.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The board",
+    "body": "Draw a point at the top. From it draw four lines fanning down. Cross them with four rows: three rows of six points (the two outer points of each row on side lines) and a bottom row of four. That makes 23 points."
+   },
+   {
+    "n": 2,
+    "title": "Set up",
+    "body": "Put the tigers on the top point and the two points below it nearest the middle. The goats start off the board. Goats move first."
+   },
+   {
+    "n": 3,
+    "title": "Goats place",
+    "body": "Until all 15 are on, a goat's turn is placing one goat on any empty point."
+   },
+   {
+    "n": 4,
+    "title": "Tigers",
+    "body": "A tiger moves one point along a line, or jumps along a line over one goat to the empty point just beyond it, taking that goat. One jump per turn."
+   },
+   {
+    "n": 5,
+    "title": "Goats move",
+    "body": "Once all goats are on, a goat's turn is sliding one goat one point along a line. Goats never jump."
+   },
+   {
+    "n": 6,
+    "title": "Win",
+    "body": "Tigers win when they have taken 5 goats. Goats win when no tiger can move."
+   }
+  ],
+  "what_to_notice": [
+   "Which side felt stronger at the start, and at the end?",
+   "How did the goats protect each other?",
+   "What would change if tigers needed only 3 goats?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://xchess.net/en/aadupuli/rules",
+   "https://threetigers.app/blog/how-to-play-aadu-puli-attam-rules"
+  ],
+  "bgg": "Aadu Puli Attam"
+ },
+ {
+  "id": "moksha-patam",
+  "title": "Moksha Patam — the board that teaches",
+  "parent_game": "Moksha Patam (Gyan Chaupar), the Indian game behind Snakes and Ladders",
+  "credits": {
+   "by": "Traditional, India; the source of Snakes and Ladders",
+   "version": "A 50-square board you draw; historical boards had 72, 84 or more squares, laid out differently"
+  },
+  "lesson": "A game made entirely of chance that still carries a meaning, because every square is labelled. It shows how a board's words can make players read luck as a lesson, and how rules can make an argument.",
+  "teaches": "roll-and-move + solo-in-parallel + race-to-finish",
+  "design": {
+   "core-mechanic": [
+    "roll-and-move"
+   ],
+   "victory-condition": "race-to-finish",
+   "player-interaction": "solo-in-parallel",
+   "chance-skill": "chance-read-as-a-sign",
+   "theme": "ritual-or-sacred",
+   "simulation": [
+    "rules-make-an-argument"
+   ]
+  },
+  "duration": "10–15 min",
+  "players": "2–4 players",
+  "equipment": [
+   "paper with a numbered board of 50 squares, snakes and ladders drawn on it",
+   "one die",
+   "a coin or pebble for each player"
+  ],
+  "intro": "Ladders begin on virtues and snakes on vices. You roll and move, and the board carries you up or down according to what you land on. The dice decide, but the board says why.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The board",
+    "body": "Draw a board of 50 squares in rows of ten, numbered so that the path snakes back and forth from 1 at the bottom to 50 at the top. Draw five ladders and five snakes. At the foot of each ladder write a virtue, such as generosity or patience; at the head of each snake, a vice, such as anger or greed."
+   },
+   {
+    "n": 2,
+    "title": "A turn",
+    "body": "Roll the die and move that many squares along the path."
+   },
+   {
+    "n": 3,
+    "title": "Up and down",
+    "body": "Land at the foot of a ladder and climb to its top. Land on a snake's head and slide to its tail."
+   },
+   {
+    "n": 4,
+    "title": "Finish",
+    "body": "You must land exactly on 50; a roll that would take you past it leaves you where you are."
+   },
+   {
+    "n": 5,
+    "title": "Win",
+    "body": "The first to reach 50 wins."
+   }
+  ],
+  "what_to_notice": [
+   "Which virtues and vices did you choose, and why there?",
+   "Did the words change how it felt to climb or slide?",
+   "Is it a game, a lesson, or both?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Snakes_and_ladders",
+   "https://core.ac.uk/download/269318121.pdf"
+  ]
+ },
+ {
+  "id": "royal-game-of-ur",
+  "title": "The Royal Game of Ur — race through the shared middle",
+  "parent_game": "The Royal Game of Ur, from ancient Mesopotamia",
+  "credits": {
+   "by": "Ancient Mesopotamia, about 2600 BCE; rules reconstructed by Irving Finkel of the British Museum",
+   "version": "Four coins in place of the four-sided dice of the original"
+  },
+  "lesson": "A race with a shared middle, where luck decides the distance and you decide which piece to risk. It shows how a few special squares, the rosettes, shape the whole flow of a game.",
+  "teaches": "roll-and-move + direct-confrontation + race-to-finish",
+  "design": {
+   "core-mechanic": [
+    "roll-and-move"
+   ],
+   "victory-condition": "race-to-finish",
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "chance-with-mitigation",
+   "theme": "historical"
+  },
+  "duration": "15 min",
+  "players": "2 players",
+  "equipment": [
+   "paper with the 20-square board drawn (step 1)",
+   "7 pieces each, of two kinds",
+   "4 coins"
+  ],
+  "intro": "Two races share one road. Each player's pieces run their own short lane, cross a middle lane where they can knock each other off, and leave by their own lane. Rosette squares give another throw and keep a piece safe.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The board",
+    "body": "Draw three rows of eight squares, then rub out the 5th and 6th squares of the top and bottom rows: 20 squares remain. Mark a rosette on the 1st and 7th squares of the top and bottom rows and on the 4th square of the middle row."
+   },
+   {
+    "n": 2,
+    "title": "The path",
+    "body": "Each player uses the outer row nearest them. A piece's path is 14 squares: from the 4th square of your row back to its 1st, then the whole middle row from left to right, then your row's 8th and 7th squares. It leaves the board one step after that."
+   },
+   {
+    "n": 3,
+    "title": "Throw",
+    "body": "Toss four coins. The number of heads is your move; no heads counts as 4."
+   },
+   {
+    "n": 4,
+    "title": "Move",
+    "body": "Bring in a new piece onto that square of its path (a throw of 3 puts it on the 3rd square), or move one piece that many squares. Two of your pieces can't share a square. If no move is possible, you lose the turn."
+   },
+   {
+    "n": 5,
+    "title": "Rosettes and capture",
+    "body": "Landing on a rosette gives another throw, and a piece on a rosette can't be taken. Landing on an opponent's piece in the middle row sends it back off the board to start again."
+   },
+   {
+    "n": 6,
+    "title": "Win",
+    "body": "The first to take all seven pieces off the board, each by an exact throw, wins."
+   }
+  ],
+  "what_to_notice": [
+   "When did you leave a piece on the shared road on purpose?",
+   "How much did the coins decide?",
+   "Why might there be a rosette in the middle of the shared row?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://www.britishmuseum.org/collection/object/W_Rm-III-6-b",
+   "https://csclub.uwaterloo.ca/~pbarfuss/On_the_Rules_for_the_Royal_Game_of_Ur.pdf"
+  ],
+  "bgg": "The Royal Game of Ur"
+ },
+ {
+  "id": "senet",
+  "title": "Senet — the journey across thirty squares",
+  "parent_game": "Senet, from ancient Egypt",
+  "credits": {
+   "by": "Ancient Egypt; rules reconstructed by Timothy Kendall in 1978",
+   "version": "A short teaching version after Kendall's reconstruction: five pieces each, four coins for the throwing sticks, and two special squares"
+  },
+  "lesson": "A game whose rules were lost and had to be reconstructed from boards and texts. It shows that any set of rules is a choice, and how a path, a few special squares and a swap rule can carry meaning about a journey.",
+  "teaches": "roll-and-move + direct-confrontation + race-to-finish",
+  "design": {
+   "core-mechanic": [
+    "roll-and-move"
+   ],
+   "victory-condition": "race-to-finish",
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "chance-with-mitigation",
+   "theme": "mortality-and-loss"
+  },
+  "duration": "15 min",
+  "players": "2 players",
+  "equipment": [
+   "paper with a board of 3 rows of 10 squares",
+   "5 pieces each, of two kinds",
+   "4 coins"
+  ],
+  "intro": "One of the oldest board games known. Its rules are lost; the version played today is a scholar's reconstruction. Pieces travel a winding path of thirty squares, and late in the game came to stand for the soul's journey after death.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The board",
+    "body": "Draw 3 rows of 10 squares. Number the path 1 to 10 along the top row left to right, 11 to 20 back along the middle row, and 21 to 30 along the bottom row. Mark square 15 as the House of Rebirth and square 27 as the Water."
+   },
+   {
+    "n": 2,
+    "title": "Set up",
+    "body": "Place the ten pieces on squares 1 to 10, alternating colours."
+   },
+   {
+    "n": 3,
+    "title": "Throw",
+    "body": "Toss four coins: one, two, three or four heads move that many squares; no heads moves 5."
+   },
+   {
+    "n": 4,
+    "title": "Move",
+    "body": "Move one of your pieces forward by the throw. You can't land on your own piece. Landing on a lone opposing piece swaps the two. Two of an opponent's pieces side by side protect each other: you can't land on either."
+   },
+   {
+    "n": 5,
+    "title": "The Water",
+    "body": "A piece that lands on 27 goes back to the House of Rebirth, square 15."
+   },
+   {
+    "n": 6,
+    "title": "Win",
+    "body": "A piece leaves the board when a throw takes it past 30. The first player to take all five pieces off wins."
+   }
+  ],
+  "what_to_notice": [
+   "How did the swap rule change where you wanted to land?",
+   "Did knowing the board's later meaning change how the Water felt?",
+   "Which rules would you change if you were reconstructing it?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://rammuseum.org.uk/wp-content/uploads/2022/05/Make-and-play-Senet.pdf",
+   "https://en.wikipedia.org/wiki/Senet"
+  ],
+  "bgg": "Senet"
+ },
+ {
+  "id": "kemps",
+  "title": "Kemps — tell your partner without a word",
+  "parent_game": "Kemps, a partnership card game",
+  "credits": {
+   "by": "Traditional"
+  },
+  "lesson": "Information has to cross between partners through a hidden channel, while the other team tries to read it too. It shows how a game can be about communication itself, and how a forbidden channel (speech) pushes play into another.",
+  "teaches": "set-collection + one-knows-cannot-say + team-vs-team",
+  "design": {
+   "core-mechanic": [
+    "set-collection"
+   ],
+   "victory-condition": "one-loser",
+   "player-interaction": "team-vs-team",
+   "information": "one-knows-cannot-say"
+  },
+  "duration": "10 min",
+  "players": "4 players in two teams",
+  "equipment": [
+   "one standard deck of cards",
+   "paper for letters"
+  ],
+  "intro": "Partners agree a secret signal before the game. Cards are swapped at speed from the middle of the table, and when one partner holds four of a kind, the other must notice the signal and call it, before the other team spots it too.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Signals",
+    "body": "Each team goes aside and agrees a silent signal meaning 'I have four of a kind': a gesture or a look. No words. False signals to mislead are allowed."
+   },
+   {
+    "n": 2,
+    "title": "Deal",
+    "body": "Partners sit opposite. Deal four cards to each player and four face up in the middle."
+   },
+   {
+    "n": 3,
+    "title": "Swap",
+    "body": "There are no turns. Anyone may take a card from the middle and put one of theirs in its place, as often as they like. When nobody wants the middle cards, the dealer clears them and deals four new ones."
+   },
+   {
+    "n": 4,
+    "title": "Kemps",
+    "body": "If you think your partner has four of a kind, say 'Kemps'. If they do, the other team takes a letter; if not, your team does."
+   },
+   {
+    "n": 5,
+    "title": "Stop Kemps",
+    "body": "If you think an opponent has four of a kind, say 'Stop Kemps'. If one does, their team takes a letter; if not, yours does."
+   },
+   {
+    "n": 6,
+    "title": "End",
+    "body": "If the deck runs out with no call, nobody takes a letter. A team that collects K-E-M-P-S loses."
+   }
+  ],
+  "what_to_notice": [
+   "What signal did your team choose, and did the others read it?",
+   "How did watching your partner change how you played your own cards?",
+   "Was it harder to collect cards or to read the table?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://www.pagat.com/commerce/kemps.html"
+  ],
+  "bgg": "Kemps"
+ },
+ {
+  "id": "liars-dice",
+  "title": "Liar's Dice — bid on dice you can't see",
+  "parent_game": "Liar's Dice (Dudo, Perudo), a bluffing dice game",
+  "credits": {
+   "by": "Traditional; played across South America as Dudo or Perudo",
+   "version": "Three dice each, paper in place of cups, and no wild ones"
+  },
+  "lesson": "Every bid is a claim you can't check without risking a die. It shows how bluffing works when information is shared but hidden, and how a game tightens as each loss shrinks what you know.",
+  "teaches": "bidding + bluffing + direct-confrontation",
+  "design": {
+   "core-mechanic": [
+    "bidding"
+   ],
+   "victory-condition": "last-standing",
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "chance-with-mitigation",
+   "information": "bluffing"
+  },
+  "duration": "10 min",
+  "players": "2–6 players",
+  "equipment": [
+   "3 dice for each player",
+   "a sheet of paper each, folded to hide your dice"
+  ],
+  "intro": "Everyone rolls in secret. Players take turns raising a bid on how many dice of a face are on the whole table, until someone calls the last bid a lie. Then all dice are shown and someone loses a die.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Roll",
+    "body": "Each player rolls three dice behind a folded paper and looks only at their own."
+   },
+   {
+    "n": 2,
+    "title": "Bid",
+    "body": "The first player bids a number and a face: 'four 3s', meaning there are at least four 3s among all the dice on the table."
+   },
+   {
+    "n": 3,
+    "title": "Raise or call",
+    "body": "Going clockwise, each player either raises the bid (more dice, or the same number of a higher face) or calls 'Liar'."
+   },
+   {
+    "n": 4,
+    "title": "Reveal",
+    "body": "On a call, everyone shows their dice. If there are fewer of that face than the bid, the bidder loses a die; otherwise the caller loses one."
+   },
+   {
+    "n": 5,
+    "title": "Next round",
+    "body": "Everyone rolls again. The player who lost a die starts the bidding."
+   },
+   {
+    "n": 6,
+    "title": "Win",
+    "body": "A player with no dice left is out. The last player with dice wins."
+   }
+  ],
+  "what_to_notice": [
+   "How did you guess what others held from their bids?",
+   "When did you bid on something you didn't have?",
+   "How did the game change as dice ran out?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liar%27s_dice",
+   "https://liarsdice.co/rules/"
+  ]
+ },
+ {
+  "id": "cuttle",
+  "title": "Cuttle — the first fighting card game",
+  "parent_game": "Cuttle, a two-player card game",
+  "credits": {
+   "by": "Traditional, American; rules as kept by the Cuttle community today",
+   "version": "The modern rules, as played on cuttle.cards"
+  },
+  "lesson": "A small deck carrying many card powers, each answering another. It shows how a designer gives every card a role, builds counters into the rules, and makes a race into a fight.",
+  "teaches": "hand-management + hidden-hands + direct-confrontation",
+  "design": {
+   "core-mechanic": [
+    "hand-management"
+   ],
+   "victory-condition": "race-to-finish",
+   "player-interaction": "direct-confrontation",
+   "chance-skill": "skill-with-luck-tempering",
+   "information": "hidden-hands"
+  },
+  "duration": "15 min",
+  "players": "2 players",
+  "equipment": [
+   "one standard deck of cards"
+  ],
+  "intro": "Number cards are points; face cards and some numbers do things. You race to 21 points while scrapping your opponent's cards, stealing them and changing the target. Often called the first combat card game, long before trading card games.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Deal",
+    "body": "Deal 6 cards to the dealer and 5 to the other player, who goes first. The rest is the deck. Hold no more than 8 cards."
+   },
+   {
+    "n": 2,
+    "title": "A turn",
+    "body": "Do one thing: draw a card; play a number card (Ace to 10) to your table as points equal to its number; play it on a smaller point card of your opponent's to scrap both (ties go by suit, clubs lowest, then diamonds, hearts, spades); or play a card for its effect."
+   },
+   {
+    "n": 3,
+    "title": "Royals stay on the table",
+    "body": "King: you need fewer points (21, then 14, 10, 5 and 0 with one, two, three or four Kings). Queen: your other cards can't be targeted. Jack: take one of your opponent's point cards. Eight played as Glasses: your opponent plays with their hand shown."
+   },
+   {
+    "n": 4,
+    "title": "One-off effects",
+    "body": "Play a number card to the scrap pile for its effect. Ace: scrap all point cards. Two: cancel an effect just played, or scrap a royal. Three: take any card from the scrap pile. Four: your opponent discards two at random. Five: discard one, then draw three. Six: scrap all royals. Seven: turn up the top two cards and play one. Nine: put one of your opponent's cards on top of the deck."
+   },
+   {
+    "n": 5,
+    "title": "Win",
+    "body": "Reach your target in points on your table. When the deck is empty you may pass; three passes in a row is a draw."
+   }
+  ],
+  "what_to_notice": [
+   "Which card changed the game most when it was played?",
+   "When did you hold back a Two to answer your opponent?",
+   "Which rule would you remove to make it simpler, and what would be lost?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://www.cuttle.cards/rules",
+   "https://www.pagat.com/combat/cuttle.html"
+  ],
+  "bgg": "Cuttle"
+ },
+ {
+  "id": "mendikot",
+  "title": "Mendikot — win the tens",
+  "parent_game": "Mendikot, a partnership card game of Gujarat and Maharashtra",
+  "credits": {
+   "by": "Traditional, western India",
+   "version": "Open trump, and a match of first to 3 points"
+  },
+  "lesson": "Trick-taking with a single prize: the tens. It shows how a game can strip a big system down to one thing to fight over, and how partnerships form a silent conversation through the cards played.",
+  "teaches": "trick-taking + hidden-hands + team-vs-team",
+  "design": {
+   "core-mechanic": [
+    "trick-taking"
+   ],
+   "victory-condition": "most-points",
+   "player-interaction": "team-vs-team",
+   "chance-skill": "skill-with-luck-tempering",
+   "information": "hidden-hands"
+  },
+  "duration": "15 min",
+  "players": "4 players in two teams",
+  "equipment": [
+   "one standard deck of cards",
+   "paper for points"
+  ],
+  "intro": "A trick-taking game where only the four tens matter. Partners sitting opposite try to capture tens in the tricks they win. Taking all four is a mendikot.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Deal",
+    "body": "Partners sit opposite. Before dealing, show a random card from the shuffled pack: its suit is trump. Put it back, shuffle, and deal all 52 cards, 13 to each player."
+   },
+   {
+    "n": 2,
+    "title": "A trick",
+    "body": "The player to the dealer's right leads any card; play goes anticlockwise. Each player must play a card of the suit led if they can; if not, any card."
+   },
+   {
+    "n": 3,
+    "title": "Who wins a trick",
+    "body": "The highest trump wins; if no trump was played, the highest card of the suit led. The winner takes the four cards and leads the next trick."
+   },
+   {
+    "n": 4,
+    "title": "Score the deal",
+    "body": "After 13 tricks, the team holding three or four tens wins the deal. If the tens split two and two, the team with seven or more tricks wins it."
+   },
+   {
+    "n": 5,
+    "title": "Mendikot",
+    "body": "Winning all four tens is a mendikot and scores 2 points; any other won deal scores 1. The first team to 3 points wins."
+   }
+  ],
+  "what_to_notice": [
+   "When did you play a ten, and when did you hold it back?",
+   "How did you read what your partner held?",
+   "Why might only the tens count?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://www.pagat.com/pointtrk/mendikot.html"
+  ]
+ },
+ {
+  "id": "penneys-game",
+  "title": "Penney's game — the second chooser wins",
+  "parent_game": "Penney's game, a coin game by Walter Penney",
+  "credits": {
+   "by": "Walter Penney, 1969"
+  },
+  "lesson": "A game that looks fair and isn't. It shows how probability can surprise players, and why designers test balance instead of trusting how a rule looks.",
+  "teaches": "full-information",
+  "design": {
+   "chance-skill": "mostly-chance",
+   "information": "full-information",
+   "theme": "educational"
+  },
+  "duration": "5 min",
+  "players": "2 players",
+  "equipment": [
+   "one coin",
+   "paper and a pen"
+  ],
+  "intro": "Each player picks a run of three coin tosses, such as heads-heads-tails. A coin is tossed until one of the runs appears. It looks like a fair bet, but whoever picks second can always choose a run that comes first more often.",
+  "steps": [
+   {
+    "n": 1,
+    "title": "Choose",
+    "body": "The first player names a run of three, like HHT. The second player, having heard it, names a different run of three."
+   },
+   {
+    "n": 2,
+    "title": "Toss",
+    "body": "Toss the coin again and again, writing each result in a line."
+   },
+   {
+    "n": 3,
+    "title": "Win",
+    "body": "Whoever's run appears first in the line, as three tosses in a row, wins the round."
+   },
+   {
+    "n": 4,
+    "title": "The trick",
+    "body": "The second player can always choose well: take the opposite of the first player's middle toss, then add their first two. Against HHT, choose THH."
+   },
+   {
+    "n": 5,
+    "title": "Play",
+    "body": "Play ten rounds, swapping who chooses first, and count the wins."
+   }
+  ],
+  "what_to_notice": [
+   "Did the results look fair or not, before you knew the trick?",
+   "Why does the second player have the advantage?",
+   "Where else might a fair-looking setup hide an advantage?"
+  ],
+  "animation_type": "",
+  "animation": [],
+  "questions": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Penney%27s_game",
+   "https://doi.org/10.2478/rmm-2020-0002"
   ]
  }
 ]

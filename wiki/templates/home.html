@@ -14,8 +14,8 @@
   {% for e in C.entries.values() %}{% set _ = count.update({e.kind: count.get(e.kind, 0) + 1}) %}{% endfor %}
   <ul class="kinds">
     {% for kind, label in KINDS.items() %}
-    <li><a href="/list/{{ kind }}">{{ PLURAL[kind] }}</a> <span>{{ count[kind] }}</span>
-      <a class="sub" href="/list/{{ kind }}?state=none">See the ones nobody has checked yet →</a></li>
+    <li><a href="/list/{{ kind }}">{{ PLURAL[kind] }}</a> <span class="count">{{ count[kind] }}</span>
+      <a class="sub" href="/list/{{ kind }}?state=none">Not checked yet →</a></li>
     {% endfor %}
   </ul>
   <p class="aside">Known games are short games to play with things at hand, each with its rules, credits and the blocks it is made of, and each downloadable as a file the tool opens as a design. Anyone signed in can <a href="/propose-game">propose a game</a> as a file in the same shape.</p>

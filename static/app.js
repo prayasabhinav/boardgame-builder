@@ -349,17 +349,21 @@ function renderMechanicsGrid() {
       for (const fid of filledIds) {
         const block = dim.blocks.find((b) => b.id === fid);
         if (block) {
-          body.appendChild(createBlock(block.id, block.display, dim.id, { inSlot: true }));
+          // A block and its "say how it works" button stay together as one item
+          const item = document.createElement("div");
+          item.className = "slot-item";
+          item.appendChild(createBlock(block.id, block.display, dim.id, { inSlot: true }));
           if ((block.questions || []).length) {
             const how = document.createElement("button");
             how.type = "button";
             how.className = "slot-config";
             how.textContent = answerSummary(block.id) || "say how it works";
-            how.title = `How ${block.display} works in your game`;
+            how.title = answerSummary(block.id) || `How ${block.display} works in your game`;
             how.disabled = state.locked;
             how.addEventListener("click", () => openQuestions(block.id));
-            body.appendChild(how);
+            item.appendChild(how);
           }
+          body.appendChild(item);
         }
       }
       if (multi) {
@@ -932,6 +936,7 @@ function showFam(g) {
     <a class="fam-download" href="/games/${encodeURIComponent(g.id)}.md" download>Download as a design (.md)</a>
     <div class="fam-meta"><span><strong>Time</strong> · ${escapeHtml(g.duration)}</span><span><strong>Players</strong> · ${escapeHtml(g.players)}</span></div>
     <div class="fam-intro">${escapeHtml(g.intro)}</div>
+    <div class="fam-lesson"><div class="fam-equipment-label">What it shows a designer</div><p>${escapeHtml(g.lesson)}</p></div>
     ${creditsHtml(g)}
     <div class="fam-equipment"><div class="fam-equipment-label">What you need</div><ul>${g.equipment.map((e) => `<li>${linkify(e)}</li>`).join("")}</ul></div>
     <div class="fam-equipment-label">How to play</div>

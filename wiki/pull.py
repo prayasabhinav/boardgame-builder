@@ -89,7 +89,7 @@ def add_game(p):
     games.append({"id": gid, "title": g["title"], "parent_game": g["parent_game"],
                   "credits": {**g["credits"], "added": f"Proposed on the wiki by {p['user_name']}"}, "teaches": teaches(g["design"]),
                   "design": g["design"], "duration": g["duration"], "players": g["players"], "equipment": g["equipment"],
-                  "intro": g["intro"], "steps": g["steps"], "what_to_notice": g["what_to_notice"],
+                  "intro": g["intro"], "lesson": g["lesson"], "steps": g["steps"], "what_to_notice": g["what_to_notice"],
                   "animation_type": "", "animation": [], "questions": [], "sources": g["sources"]})
     GAMES.write_text(json.dumps(games, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     return ""

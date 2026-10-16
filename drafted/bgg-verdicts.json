@@ -1882,5 +1882,294 @@
    "abstract": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/1198"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "rules-you-discover",
+   "mostly-skill",
+   "abstract"
+  ],
+  "game": "Eleusis",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "rules-you-discover": "not checkable",
+   "mostly-skill": "not checkable",
+   "abstract": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/5217"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "hand-management",
+   "race-to-finish",
+   "rules-you-discover",
+   "skill-with-luck-tempering"
+  ],
+  "game": "Mao",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "race-to-finish": "not checkable",
+   "rules-you-discover": "not checkable",
+   "skill-with-luck-tempering": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/4213"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "change-the-rules",
+   "most-points",
+   "chance-with-mitigation",
+   "try-a-rule"
+  ],
+  "game": "Nomic",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "change-the-rules": "not checkable",
+   "most-points": "not checkable",
+   "chance-with-mitigation": "not checkable",
+   "try-a-rule": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/14451"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "playing-in-silence",
+   "shared-objective",
+   "fully-cooperative",
+   "attunement",
+   "hidden-hands"
+  ],
+  "game": "The Mind",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "playing-in-silence": "not checkable",
+   "shared-objective": "confirmed (Cooperative Game)",
+   "fully-cooperative": "confirmed (Cooperative Game)",
+   "attunement": "not checkable",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/244992"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "no-objective",
+   "absurd"
+  ],
+  "game": "Consequences",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "no-objective": "not checkable",
+   "absurd": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/17334"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "drawing-the-map",
+   "race-to-finish",
+   "indirect-via-board",
+   "mostly-skill",
+   "full-information"
+  ],
+  "game": "Racetrack",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drawing-the-map": "not checkable",
+   "race-to-finish": "not checkable",
+   "indirect-via-board": "not checkable",
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/18481"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "drawing-the-map",
+   "indirect-via-board",
+   "mostly-skill",
+   "full-information",
+   "abstract"
+  ],
+  "game": "Sprouts",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drawing-the-map": "not checkable",
+   "indirect-via-board": "not checkable",
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable",
+   "abstract": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/7378"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "indirect-via-board",
+   "mostly-skill",
+   "full-information",
+   "abstract"
+  ],
+  "game": "Hex",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "indirect-via-board": "not checkable",
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable",
+   "abstract": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/4112"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "drawing-the-map",
+   "direct-confrontation",
+   "mostly-skill",
+   "full-information"
+  ],
+  "game": "Paper soccer",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "drawing-the-map": "not checkable",
+   "direct-confrontation": "not checkable",
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/25432"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "direct-confrontation",
+   "mostly-skill",
+   "full-information",
+   "abstract"
+  ],
+  "game": "Mu Torere",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "direct-confrontation": "not checkable",
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable",
+   "abstract": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/13657"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "direct-confrontation",
+   "mostly-skill",
+   "full-information"
+  ],
+  "game": "Aadu Puli Attam",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "direct-confrontation": "not checkable",
+   "mostly-skill": "not checkable",
+   "full-information": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/93204"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "roll-and-move",
+   "race-to-finish",
+   "direct-confrontation",
+   "chance-with-mitigation",
+   "historical"
+  ],
+  "game": "The Royal Game of Ur",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "roll-and-move": "confirmed (Roll / Spin and Move)",
+   "race-to-finish": "confirmed (Race)",
+   "direct-confrontation": "not checkable",
+   "chance-with-mitigation": "not checkable",
+   "historical": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/1602"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "roll-and-move",
+   "race-to-finish",
+   "direct-confrontation",
+   "chance-with-mitigation",
+   "mortality-and-loss"
+  ],
+  "game": "Senet",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "roll-and-move": "confirmed (Roll / Spin and Move)",
+   "race-to-finish": "confirmed (Race)",
+   "direct-confrontation": "not checkable",
+   "chance-with-mitigation": "not checkable",
+   "mortality-and-loss": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/2399"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "set-collection",
+   "one-loser",
+   "team-vs-team",
+   "one-knows-cannot-say"
+  ],
+  "game": "Kemps",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "set-collection": "confirmed (Set Collection)",
+   "one-loser": "not checkable",
+   "team-vs-team": "confirmed (Team-Based Game)",
+   "one-knows-cannot-say": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/10716"
+ },
+ {
+  "kind": "known game",
+  "elements": [
+   "hand-management",
+   "race-to-finish",
+   "direct-confrontation",
+   "skill-with-luck-tempering",
+   "hidden-hands"
+  ],
+  "game": "Cuttle",
+  "status": null,
+  "result": "partly checkable, nothing against it",
+  "verdicts": {
+   "hand-management": "confirmed (Hand Management)",
+   "race-to-finish": "confirmed (Race)",
+   "direct-confrontation": "confirmed (Take That)",
+   "skill-with-luck-tempering": "not checkable",
+   "hidden-hands": "not checkable"
+  },
+  "bgg": "https://boardgamegeek.com/boardgame/115370"
  }
 ]
