@@ -111,8 +111,9 @@ footer p { margin: 0.2rem 0; }
 .propose { max-width: 46rem; }
 .ticks { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; margin-bottom: 0.4rem; }
 .ticks label { font-size: 0.92rem; }
-.propose input[name="name"], .propose select { display: block; margin-top: 0.3rem; font: 1rem var(--font-ui); padding: 0.4rem 0.5rem; border: 1px solid #cfc8bf; border-radius: 6px; background: var(--surface); max-width: 100%; }
+.propose input[name="name"], .propose select, .name-form input { display: block; margin-top: 0.3rem; font: 1rem var(--font-ui); padding: 0.4rem 0.5rem; border: 1px solid #cfc8bf; border-radius: 6px; background: var(--surface); max-width: 100%; }
 .for-combo .aside { margin: 0.4rem 0 0.1rem; }
 .change { max-width: 46rem; font-family: var(--font-ui); margin-top: 1.4rem; }
 pre.was { white-space: pre-wrap; font: 0.85rem var(--font-mono); background: var(--surface-inner); padding: 0.6rem; border-radius: 4px; }
 .row form.inline { display: inline-block; margin-left: 0.5rem; }
+.name-form input { display: inline-block; width: 22rem; max-width: 100%; margin: 0 0.5rem 0.5rem 0; vertical-align: middle; }
