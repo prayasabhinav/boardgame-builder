@@ -19,7 +19,7 @@ def svg(inner: str) -> str:
 
 
 # ─────────────────────────────────────────────────────────────────────
-# CORE MECHANICS (12)
+# CORE MECHANICS (15)
 # ─────────────────────────────────────────────────────────────────────
 
 CORE_MECHANICS = {
@@ -71,11 +71,23 @@ CORE_MECHANICS = {
         "description": "You lay tiles down to build a shared map — connecting roads, cities, fields. Like Carcassonne.",
         "svg": svg(f'<rect x="20" y="22" width="22" height="22" {_S} {_TINT}/><rect x="42" y="22" width="22" height="22" {_S}/><rect x="64" y="22" width="22" height="22" {_S} {_TINT}/><rect x="42" y="44" width="22" height="22" {_S}/><rect x="64" y="44" width="22" height="22" {_S} {_TINT}/><path d="M20 33 l22 0 M64 33 l22 0" {_S}/><path d="M53 22 l0 22 M75 44 l0 22" {_S}/><path d="M92 56 l10 -10 l-3 -3 m3 3 l-3 3" {_S}/><rect x="92" y="56" width="14" height="14" stroke="#C75B39" stroke-width="2" stroke-dasharray="3 2" fill="none"/>'),
     },
+    "call-and-response": {
+        "description": "One player says a word or a line, or makes a move, and the next player answers it with one of their own. The game grows like a chain, the way a song can go back and forth between two singers.",
+        "svg": svg(f'<path d="M12 14 h40 a5 5 0 0 1 5 5 v14 a5 5 0 0 1 -5 5 h-26 l-8 7 v-7 h-6 a5 5 0 0 1 -5 -5 v-14 a5 5 0 0 1 5 -5 z" {_S}/><path d="M18 22 h30 M18 29 h18" {_S}/><circle cx="42" cy="29" r="3" {_FILL} stroke="none"/><path d="M60 26 q14 0 14 12" {_S}/><path d="M70 34 l4 5 l4 -5" {_S}/><path d="M66 42 h42 a5 5 0 0 1 5 5 v14 a5 5 0 0 1 -5 5 h-6 v7 l-8 -7 h-28 a5 5 0 0 1 -5 -5 v-14 a5 5 0 0 1 5 -5 z" {_S}/><path d="M72 50 h30 M72 57 h18" {_S}/><circle cx="96" cy="57" r="3" {_FILL} stroke="none"/>'),
+    },
+    "playing-in-silence": {
+        "description": "Nobody may talk. You can only show what you mean by what you play and when you play it. In The Mind, players put numbered cards down in order without saying a word.",
+        "svg": svg(f'<path d="M14 14 h34 a5 5 0 0 1 5 5 v12 a5 5 0 0 1 -5 5 h-22 l-8 7 v-7 h-4 a5 5 0 0 1 -5 -5 v-12 a5 5 0 0 1 5 -5 z" {_S}/><path d="M12 44 L56 10" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="62" y="30" width="20" height="30" rx="3" {_S}/><rect x="88" y="30" width="20" height="30" rx="3" {_S}/><text x="72" y="50" font-family="serif" font-size="11" text-anchor="middle" fill="#2D3436">12</text><text x="98" y="50" font-family="serif" font-size="11" text-anchor="middle" {_FILL} stroke="none">47</text>'),
+    },
+    "change-the-rules": {
+        "description": "On your turn you can change a rule instead of only making a move, so the game you finish is not the game you started. In Nomic, changing the rules is the whole game.",
+        "svg": svg(f'<rect x="18" y="10" width="52" height="60" rx="3" {_S}/><path d="M26 22 h36 M26 32 h36 M26 52 h24" {_S}/><path d="M26 45 l6 -6 l6 6 l6 -6 l6 6 l6 -6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M80 64 l18 -32 l8 4 l-18 32 l-9 4 z" {_S}/><path d="M95 37 l8 4" {_S}/><circle cx="82" cy="66" r="2.5" {_FILL} stroke="none"/>'),
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# VICTORY CONDITIONS (7)
+# VICTORY CONDITIONS (10)
 # ─────────────────────────────────────────────────────────────────────
 
 VICTORY = {
@@ -107,11 +119,23 @@ VICTORY = {
         "description": "You play through a story. The game ends when the story does — happy ending, tragic ending, your choice.",
         "svg": svg(f'<rect x="20" y="22" width="80" height="44" rx="2" {_S} {_TINT}/><line x1="60" y1="22" x2="60" y2="66" {_S}/><line x1="28" y1="32" x2="54" y2="32" {_S}/><line x1="28" y1="40" x2="54" y2="40" {_S}/><line x1="28" y1="48" x2="50" y2="48" {_S}/><line x1="66" y1="32" x2="92" y2="32" {_S}/><line x1="66" y1="40" x2="92" y2="40" {_S}/><line x1="66" y1="48" x2="88" y2="48" {_S}/><text x="92" y="60" font-family="serif" font-size="14" {_FILL} stroke="none">END</text>'),
     },
+    "no-objective": {
+        "description": "The game ends, but nobody wins or loses. You stop and look at what you made or what happened, and talk about it if you like.",
+        "svg": svg(f'<rect x="24" y="46" width="24" height="22" {_S}/><rect x="48" y="46" width="24" height="22" {_S}/><rect x="72" y="46" width="24" height="22" {_S}/><circle cx="36" cy="32" r="5" {_S}/><circle cx="60" cy="32" r="5" {_FILL} stroke="none"/><circle cx="84" cy="32" r="5" {_S}/><path d="M30 46 l6 -9 l6 9 M54 46 l6 -9 l6 9 M78 46 l6 -9 l6 9" {_S}/>'),
+    },
+    "set-your-own-goal": {
+        "description": "Each player decides what doing well means for them, before the game or after it. One player may be happy to save a single piece; another wants to save every one.",
+        "svg": svg(f'<circle cx="68" cy="40" r="24" {_S} stroke-dasharray="3 4"/><circle cx="68" cy="40" r="12" {_S}/><circle cx="68" cy="40" r="3.5" {_FILL} stroke="none"/><path d="M14 70 l16 -28 l7 4 l-16 28 l-8 4 z" {_S}/><path d="M27 47 l7 4" {_S}/><path d="M36 38 q12 -14 24 -14" {_S} stroke-dasharray="3 4"/>'),
+    },
+    "one-loser": {
+        "description": "Nobody wins. The game goes on until one player loses, and everyone else is simply safe.",
+        "svg": svg(f'<circle cx="18" cy="30" r="5" {_S}/><path d="M11 52 l7 -16 l7 16 z" {_S}/><circle cx="40" cy="30" r="5" {_S}/><path d="M33 52 l7 -16 l7 16 z" {_S}/><circle cx="62" cy="30" r="5" {_S}/><path d="M55 52 l7 -16 l7 16 z" {_S}/><circle cx="90" cy="30" r="5" {_FILL} stroke="none"/><path d="M83 52 l7 -16 l7 16 z" {_S}/><rect x="80" y="58" width="20" height="5" rx="1" {_S}/><rect x="82" y="63" width="20" height="5" rx="1" {_S}/><rect x="80" y="68" width="20" height="5" rx="1" {_S}/>'),
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# PLAYER INTERACTION (7)
+# PLAYER INTERACTION (9)
 # ─────────────────────────────────────────────────────────────────────
 
 INTERACTION = {
@@ -143,11 +167,19 @@ INTERACTION = {
         "description": "Most players are on the same team — but one (or more) is secretly playing against everyone else. Can you spot them?",
         "svg": svg(f'<g transform="translate(28 44)"><circle cx="0" cy="-10" r="5" {_S}/><line x1="0" y1="-5" x2="0" y2="14" {_S}/></g><g transform="translate(54 44)"><circle cx="0" cy="-10" r="5" {_S}/><line x1="0" y1="-5" x2="0" y2="14" {_S}/></g><g transform="translate(80 44)"><circle cx="0" cy="-10" r="5" {_S} {_FILL} stroke-width="0"/><line x1="0" y1="-5" x2="0" y2="14" stroke="#C75B39" stroke-width="2"/><path d="M-3 -12 l3 -4 l3 4" stroke="#C75B39" stroke-width="1.5" fill="none"/></g><text x="80" y="20" font-family="serif" font-size="12" text-anchor="middle" {_FILL} stroke="none">?</text>'),
     },
+    "playing-by-letter": {
+        "description": "Players are far apart and take turns by sending letters or messages. One game can last weeks or even a whole year, and waiting for the reply is part of it.",
+        "svg": svg(f'<rect x="10" y="30" width="38" height="26" rx="2" {_S}/><path d="M10 32 l19 14 l19 -14" {_S}/><rect x="72" y="30" width="38" height="26" rx="2" {_S}/><path d="M72 32 l19 14 l19 -14" {_S}/><rect x="100" y="34" width="6" height="7" {_FILL} stroke="none"/><path d="M30 24 q28 -18 54 0" {_S} stroke-dasharray="3 4"/><path d="M78 18 l6 6 l-8 2" {_S}/>'),
+    },
+    "absent-player": {
+        "description": "One player is not at the table. It might be someone from long ago, a player from an earlier game, or a ghost who can only give hints. In ancient Egypt, the game Senet came to be linked with the journey after death.",
+        "svg": svg(f'<ellipse cx="60" cy="54" rx="30" ry="10" {_S}/><circle cx="60" cy="52" r="3" {_FILL} stroke="none"/><circle cx="20" cy="26" r="6" {_S}/><path d="M10 46 q10 -14 20 0" {_S}/><circle cx="100" cy="26" r="6" {_S} stroke-dasharray="3 4"/><path d="M90 46 q10 -14 20 0" {_S} stroke-dasharray="3 4"/>'),
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# CHANCE-SKILL (4)
+# CHANCE-SKILL (6)
 # ─────────────────────────────────────────────────────────────────────
 
 CHANCE_SKILL = {
@@ -167,11 +199,19 @@ CHANCE_SKILL = {
         "description": "Pure brain-work. No dice, no surprises. The smartest player wins. Chess and Go are mostly skill.",
         "svg": svg(f'<g transform="translate(60 38)"><circle cx="0" cy="0" r="20" {_S} {_TINT}/><path d="M-12 -4 q4 -16 12 -8 q8 -8 12 8 q-4 16 -12 10 q-8 6 -12 -10" {_FILL} stroke="none"/><line x1="-12" y1="0" x2="12" y2="0" stroke="#fbe4d8" stroke-width="0.6"/></g>'),
     },
+    "chance-read-as-a-sign": {
+        "description": "The dice or cards are read as a message, not added up as a score. What you throw tells you something to think about. Long ago in India, Tibet and China, people threw dice this way to ask questions.",
+        "svg": svg(f'<rect x="12" y="36" width="24" height="24" rx="3" {_S}/><circle cx="18" cy="42" r="1.6" {_FILL} stroke="none"/><circle cx="30" cy="54" r="1.6" {_FILL} stroke="none"/><circle cx="24" cy="48" r="1.6" {_FILL} stroke="none"/><path d="M40 40 q8 -14 20 -10" {_S} stroke-dasharray="3 4"/><path d="M62 24 q12 -6 22 0 v34 q-10 -6 -22 0 z" {_S}/><path d="M84 24 q12 -6 22 0 v34 q-10 -6 -22 0" {_S}/><path d="M68 34 h10 M68 42 h10 M90 34 h10 M90 42 h6" {_S}/>'),
+    },
+    "attunement": {
+        "description": "Not luck, and not working it out. You succeed by sensing when the others are about to act, like friends who start to speak at the same moment.",
+        "svg": svg(f'<circle cx="24" cy="40" r="11" {_S}/><circle cx="96" cy="40" r="11" {_S}/><path d="M42 30 q6 10 0 20 M50 25 q8 15 0 30 M78 30 q-6 10 0 20 M70 25 q-8 15 0 30" {_S}/><circle cx="60" cy="40" r="3.5" {_FILL} stroke="none"/>'),
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# THEME (8)
+# THEME (11)
 # ─────────────────────────────────────────────────────────────────────
 
 THEME = {
@@ -207,11 +247,23 @@ THEME = {
         "description": "About something happening now — climate, justice, migration. The game makes you think about it.",
         "svg": svg(f'<circle cx="60" cy="40" r="22" {_S} {_TINT}/><path d="M38 40 q22 -16 44 0" {_S}/><path d="M38 40 q22 16 44 0" {_S}/><line x1="60" y1="18" x2="60" y2="62" {_S}/><path d="M44 30 q16 -2 32 0" {_S}/><path d="M44 50 q16 2 32 0" {_S}/><path d="M48 16 l4 -4 m-4 0 l4 4" stroke="#C75B39" stroke-width="2"/>'),
     },
+    "poetic": {
+        "description": "The game works like a poem: short, a little strange, and made to make you notice something ordinary in a new way.",
+        "svg": svg(f'<path d="M16 22 h40 M16 32 h26 M16 42 h46 M16 52 h18" {_S}/><circle cx="40" cy="52" r="3" {_FILL} stroke="none"/><path d="M104 10 q-22 10 -28 40 l-4 18" {_S}/><path d="M104 10 q-4 24 -28 40" {_S}/><path d="M86 30 l8 4" {_S}/>'),
+    },
+    "ritual-or-sacred": {
+        "description": "The board is a path towards something holy, and moving along it is a kind of practice. Snakes and Ladders began in India as gyan chaupar, where the ladders stood for virtues and the snakes for vices.",
+        "svg": svg(f'<path d="M26 70 V22 M40 70 V22 M26 60 h14 M26 48 h14 M26 36 h14 M26 24 h14" {_S}/><path d="M66 22 q12 8 0 16 q-12 8 0 16 q12 8 0 16" {_S}/><circle cx="66" cy="22" r="3.5" {_FILL} stroke="none"/><path d="M84 38 q12 10 24 0 z" {_S}/><path d="M96 34 q-5 -8 0 -16 q5 8 0 16 z" {_FILL} stroke="none"/>'),
+    },
+    "mortality-and-loss": {
+        "description": "The game is about time running out, growing old or losing someone. Playing gives people a way to think about something hard together.",
+        "svg": svg(f'<path d="M40 12 h32 M40 68 h32" {_S}/><path d="M44 12 q0 18 12 28 q-12 10 -12 28 M68 12 q0 18 -12 28 q12 10 12 28" {_S}/><path d="M48 66 q8 -10 16 0 z" {_FILL} stroke="none"/><path d="M90 46 q10 -8 16 2 q-10 8 -16 -2 z" {_S}/><path d="M90 46 l16 2" {_S}/><path d="M86 22 q4 10 -2 18" {_S} stroke-dasharray="3 4"/>'),
+    },
 }
 
 
 # ─────────────────────────────────────────────────────────────────────
-# INFORMATION VISIBILITY (5)
+# INFORMATION VISIBILITY (7)
 # ─────────────────────────────────────────────────────────────────────
 
 INFORMATION = {
@@ -234,6 +286,14 @@ INFORMATION = {
     "bluffing": {
         "description": "Lie about what you have. Pretend you're stronger or weaker than you are. Other players have to guess.",
         "svg": svg(f'<circle cx="60" cy="38" r="20" {_S} {_TINT}/><path d="M52 32 l4 4 M68 32 l-4 4" {_S}/><path d="M50 50 l20 0" {_S} stroke-width="2"/><path d="M44 28 q4 -8 14 -6" {_S}/><path d="M76 28 q-4 -8 -14 -6" {_S}/><circle cx="84" cy="20" r="4" {_FILL} stroke="none"/><text x="84" y="24" font-family="serif" font-size="6" text-anchor="middle" fill="white">!</text>'),
+    },
+    "rules-you-discover": {
+        "description": "One player knows a secret rule. Everyone else finds it out only by breaking it and being told no. In the card game Mao, newcomers learn the rules this way.",
+        "svg": svg(f'<rect x="12" y="16" width="34" height="46" rx="3" {_S}/><text x="29" y="47" font-family="serif" font-size="22" text-anchor="middle" {_FILL} stroke="none">?</text><rect x="66" y="34" width="20" height="30" rx="3" {_S}/><path d="M92 50 q16 -14 0 -30 h-16" {_S}/><path d="M82 15 l-6 5 l6 5" {_S}/>'),
+    },
+    "one-knows-cannot-say": {
+        "description": "One player can see the answer but is not allowed to say it. They can only give hints, such as pictures, and the others have to guess. In Mysterium, a ghost gives the players vision cards.",
+        "svg": svg(f'<path d="M10 36 q20 -18 40 0 q-20 18 -40 0 z" {_S}/><circle cx="30" cy="36" r="5" {_FILL} stroke="none"/><path d="M54 36 h8" {_S}/><path d="M58 32 l5 4 l-5 4" {_S}/><rect x="68" y="18" width="24" height="36" rx="3" {_S}/><circle cx="80" cy="30" r="4" {_S}/><path d="M72 48 l6 -6 l5 5 l4 -3 l3 4" {_S}/><text x="106" y="46" font-family="serif" font-size="18" text-anchor="middle" fill="#2D3436">?</text>'),
     },
 }
 
@@ -307,7 +367,7 @@ FEELINGS_META = {
 
 
 # ─────────────────────────────────────────────────────────────────────
-# SIMULATION (6) — added 16 October 2026
+# SIMULATION (8) — added 16 October 2026
 # ─────────────────────────────────────────────────────────────────────
 
 SIMULATION = {
@@ -334,6 +394,14 @@ SIMULATION = {
     "debrief": {
         "description": "After the game, everyone talks it through: What happened? Why? How is it like the real problem? What would happen if we changed something?",
         "svg": svg(f'<path d="M14 18 h48 a6 6 0 0 1 6 6 v18 a6 6 0 0 1 -6 6 h-30 l-10 8 v-8 h-8 a6 6 0 0 1 -6 -6 v-18 a6 6 0 0 1 6 -6 z" {_S} {_TINT}/><path d="M58 34 h44 a6 6 0 0 1 6 6 v16 a6 6 0 0 1 -6 6 h-6 v8 l-10 -8 h-28 a6 6 0 0 1 -6 -6" {_S}/><text x="38" y="38" font-family="serif" font-size="14" text-anchor="middle" {_FILL} stroke="none">?</text>'),
+    },
+    "irreversible-change": {
+        "description": "What you do changes the game permanently. Cards get torn up, stickers go on the board, and the next game starts where this one ended. Nothing can be undone.",
+        "svg": svg(f'<path d="M18 12 h30 l-4 10 l6 8 l-6 10 l5 10 l-3 20 h-28 z" {_S}/><path d="M62 16 h36 v56 h-34 l3 -20 l-5 -10 l6 -10 l-6 -8 z" {_S}/><path d="M72 32 h18 M72 42 h14" {_S}/><path d="M24 58 l16 -6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'),
+    },
+    "real-time-span": {
+        "description": "The game runs on real days or weeks, not turns. You might make one move each morning, so waiting is part of playing.",
+        "svg": svg(f'<rect x="14" y="16" width="54" height="50" rx="3" {_S}/><path d="M14 28 h54 M28 11 v9 M54 11 v9" {_S}/><path d="M22 36 l6 6 M28 36 l-6 6 M36 36 l6 6 M42 36 l-6 6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="53" cy="39" r="2" {_FILL} stroke="none"/><circle cx="25" cy="54" r="2" fill="#2D3436"/><circle cx="39" cy="54" r="2" fill="#2D3436"/><circle cx="53" cy="54" r="2" fill="#2D3436"/><circle cx="94" cy="26" r="8" {_S}/><path d="M94 12 v4 M94 36 v4 M80 26 h4 M104 26 h4" {_S}/><path d="M100 50 a10 10 0 1 1 -10 16 a8 8 0 0 0 10 -16 z" {_S}/>'),
     },
 }
 

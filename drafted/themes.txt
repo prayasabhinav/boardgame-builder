@@ -6,3 +6,6 @@ everyday-life | The everyday-life theme uses places players already know, like a
 absurd | The absurd theme makes the setting silly on purpose, so players can laugh at their own moves.
 educational | The educational theme ties the game to something to learn, so playing also teaches a fact or a skill.
 real-world-issue | The real-world-issue theme connects the game to a problem people face today, so the moves can start a conversation.
+poetic | The poetic theme makes the game short and a little strange, so the moves ask players to notice something rather than to win it.
+ritual-or-sacred | The ritual-or-sacred theme turns the board into a path towards something holy, so each move can feel like a step in a practice.
+mortality-and-loss | The mortality-and-loss theme ties the game to time running out or someone being lost, so the moves can carry weight beyond the table.

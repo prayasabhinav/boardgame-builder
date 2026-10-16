@@ -24,6 +24,9 @@ DIMENSIONS = [
             {"id": "negotiation", "display": "negotiation"},
             {"id": "set-collection", "display": "set collection"},
             {"id": "tile-placement", "display": "tile placement"},
+            {"id": "call-and-response", "display": "call and response"},
+            {"id": "playing-in-silence", "display": "playing in silence"},
+            {"id": "change-the-rules", "display": "change the rules"},
         ],
     },
     {
@@ -40,6 +43,9 @@ DIMENSIONS = [
             {"id": "shared-objective", "display": "shared objective"},
             {"id": "hidden-personal-goal", "display": "hidden personal goal"},
             {"id": "narrative-completion", "display": "narrative completion"},
+            {"id": "no-objective", "display": "no objective"},
+            {"id": "set-your-own-goal", "display": "set your own goal"},
+            {"id": "one-loser", "display": "one loser"},
         ],
     },
     {
@@ -56,6 +62,8 @@ DIMENSIONS = [
             {"id": "semi-cooperative", "display": "semi-cooperative"},
             {"id": "team-vs-team", "display": "team vs team"},
             {"id": "traitor", "display": "traitor"},
+            {"id": "playing-by-letter", "display": "playing by letter"},
+            {"id": "absent-player", "display": "absent player"},
         ],
     },
     {
@@ -69,6 +77,8 @@ DIMENSIONS = [
             {"id": "chance-with-mitigation", "display": "chance with mitigation"},
             {"id": "skill-with-luck-tempering", "display": "skill with luck"},
             {"id": "mostly-skill", "display": "mostly skill"},
+            {"id": "chance-read-as-a-sign", "display": "chance read as a sign"},
+            {"id": "attunement", "display": "attunement"},
         ],
     },
     {
@@ -86,6 +96,9 @@ DIMENSIONS = [
             {"id": "absurd", "display": "absurd"},
             {"id": "educational", "display": "educational"},
             {"id": "real-world-issue", "display": "real-world issue"},
+            {"id": "poetic", "display": "poetic"},
+            {"id": "ritual-or-sacred", "display": "ritual or sacred"},
+            {"id": "mortality-and-loss", "display": "mortality and loss"},
         ],
     },
     {
@@ -100,6 +113,8 @@ DIMENSIONS = [
             {"id": "hidden-identity", "display": "hidden identity"},
             {"id": "deduction", "display": "deduction"},
             {"id": "bluffing", "display": "bluffing"},
+            {"id": "rules-you-discover", "display": "rules you discover"},
+            {"id": "one-knows-cannot-say", "display": "one knows, cannot say"},
         ],
     },
     {
@@ -116,6 +131,8 @@ DIMENSIONS = [
             {"id": "delayed-effects", "display": "delayed effects"},
             {"id": "try-a-rule", "display": "try a rule"},
             {"id": "debrief", "display": "debrief"},
+            {"id": "irreversible-change", "display": "irreversible change"},
+            {"id": "real-time-span", "display": "real-time span"},
         ],
     },
 ]

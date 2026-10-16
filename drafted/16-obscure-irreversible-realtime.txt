@@ -1,0 +1,83 @@
+irreversible-change+roll-and-move | Where you land can change the board permanently, such as a space you mark that stays marked in every later game. | The board grows a history. | Each roll can matter beyond this game. | Luck can leave marks nobody chose. | Later games inherit chance outcomes.
+irreversible-change+drafting | Cards picked from the shared row are kept or destroyed for later games too, so the deck shrinks and changes over games. | Each pick carries weight. | The deck becomes unique to your group. | A careless pick cannot be undone. | Later games have fewer choices.
+irreversible-change+bidding | Players bid for permanent upgrades that stay for every later game. | Bids feel serious. | Players think long term. | Rich players can lock in an advantage. | Losing a key bid hurts for many games.
+irreversible-change+push-your-luck | Pushing too far leaves a permanent mark, such as a torn card or a scar on your piece. | Every risk feels heavy. | Players think before pushing. | One unlucky push stays forever. | Careful players may never risk.
+irreversible-change+area-control | Areas taken are marked on the board permanently, so later games start from the old borders. | The map carries history. | Players feel ownership. | Early winners stay ahead. | New players inherit old borders.
+irreversible-change+worker-placement | Some actions build things that stay on the board in every later game. | The board grows over time. | Players feel their work lasts. | Old buildings can block new plans. | Hard to start fresh.
+irreversible-change+pattern-building | Finished patterns are stuck on to the board and stay. | Patterns become a record. | Satisfying to see work last. | Space for new patterns shrinks. | Mistakes stay.
+irreversible-change+hand-management | Cards played in certain ways are destroyed, so the deck changes from game to game. | Each card choice feels serious. | Players plan long term. | Useful cards can be lost forever. | Later games feel thinner.
+irreversible-change+trick-taking | Tricks won add permanent marks to cards, changing them for later hands. | Cards gain history. | Familiar play with a twist. | Marks can make the deck uneven. | Hard to track.
+irreversible-change+negotiation | Deals are written into the game permanently, so promises carry into later games. | Deals feel serious. | Trust builds over games. | A poor deal cannot be undone. | Grudges can carry over.
+irreversible-change+set-collection | Completed sets are removed or stickered permanently, changing what can be collected later. | Sets feel like achievements. | The game evolves. | Later players have fewer sets. | Mistakes stay.
+irreversible-change+tile-placement | Tiles placed stay on the map in every later game, so the land grows across sessions. | A shared world grows. | Players feel their choices last. | Old tiles can block new ideas. | The map can become crowded.
+irreversible-change+race-to-finish | Each race leaves permanent changes to the track, so the next race is different. | The track grows a history. | Each race feels new. | Winners may shape the track to suit them. | Hard to start fresh.
+irreversible-change+most-points | Points scored unlock permanent changes, such as new rules or cards, for later games. | Scoring has lasting effects. | Players think long term. | Leaders can lock in advantages. | Later games can feel unbalanced.
+irreversible-change+last-standing | Players knocked out leave a permanent mark on the game, such as a torn card. | Being knocked out matters. | Every elimination is remembered. | Losses stay. | Some players feel uneasy.
+irreversible-change+cooperative-survival | The group's losses and wins change the game permanently, as in legacy games. | Each game matters. | A shared history grows. | Losses cannot be undone. | Later games can become harder.
+irreversible-change+shared-objective | The group works towards a goal across many games, with permanent progress. | Lasting teamwork. | Players see progress build. | Setbacks stay too. | Long commitment.
+irreversible-change+hidden-personal-goal | Each player's secret aim leaves permanent marks that later players discover. | Hidden history in the game. | Discovery across games. | Marks can be confusing. | Old aims can block new ones.
+irreversible-change+narrative-completion | The story is written into the game as it happens, so each session continues the last. | A story that lasts. | Players feel part of something. | Choices cannot be taken back. | Players who miss a session fall behind.
+irreversible-change+solo-in-parallel | Each player permanently changes their own part of the game, side by side. | Personal history grows. | Players see their own progress. | Little contact. | Parts can become uneven.
+irreversible-change+direct-confrontation | Attacks leave permanent damage that carries into later games. | Attacks feel serious. | Players think before attacking. | Grudges carry over. | Some players feel targeted.
+irreversible-change+indirect-via-board | Players change the board permanently and the changes affect everyone later. | Players notice lasting effects. | A shared history grows. | Changes can harm others. | Hard to undo mistakes.
+irreversible-change+fully-cooperative | The group changes the game permanently together, sharing every win and loss. | Shared history. | Teamwork across games. | Losses stay for everyone. | Long commitment.
+irreversible-change+semi-cooperative | Players make permanent changes that help the group but also themselves. | Choices carry hidden motives. | Lively. | Selfish changes stay. | Trust can wear thin.
+irreversible-change+team-vs-team | Teams change the game permanently in their favour. | Team history builds. | Rivalry across games. | One team can lock in an advantage. | Hard to start fresh.
+irreversible-change+traitor | A traitor's sabotage leaves permanent marks, discovered only later. | Hidden history. | Big reveals. | Sabotage stays. | Some players feel betrayed.
+irreversible-change+mostly-chance | Luck decides which permanent changes happen. | Surprising history. | Nobody to blame. | Unlucky changes stay. | Little sense of choice.
+irreversible-change+chance-with-mitigation | Luck brings permanent changes, but players can soften or redirect them. | Some control over history. | Players feel involved. | Some changes still land poorly. | Choices take time.
+irreversible-change+skill-with-luck-tempering | Skilled choices make permanent changes, with a little luck. | Clever play leaves a mark. | Players think long term. | Skilled players shape the game. | Others feel left out.
+irreversible-change+mostly-skill | Permanent changes come only from players' choices. | Players own every change. | Deep planning. | Mistakes stay. | Practised players dominate.
+irreversible-change+full-information | Every permanent change is visible to all. | Easy to follow. | The history is open. | Little mystery. | Players may study the history for long turns.
+irreversible-change+hidden-hands | Players hold cards that may change the game permanently when played. | Each card could change everything. | Surprise. | Hidden changes can feel unfair. | Hard to plan.
+irreversible-change+hidden-identity | Players with hidden roles make permanent changes, revealed later. | Mystery across games. | Big reveals. | Confusing for new players. | Changes may be blamed on the wrong player.
+irreversible-change+deduction | Clues are written into the game permanently, building a mystery across sessions. | A mystery that lasts. | Clues carry over. | Players who miss sessions fall behind. | Long commitment.
+irreversible-change+bluffing | Bluffs that succeed leave permanent marks, so lies become part of the game's history. | Bluffs feel serious. | Lively. | Lies stay. | Some players feel uneasy.
+irreversible-change+model-a-system | Players change a model of a real system permanently, as real choices cannot be undone. | Players feel the weight of decisions. | A clear link to real life. | Mistakes stay. | Some players feel uneasy.
+irreversible-change+stakeholder-roles | Each role makes permanent changes that the other roles have to live with. | Players see lasting effects of choices. | Thoughtful. | Some roles suffer more. | Hard to start fresh.
+irreversible-change+shared-resource | Using up a shared resource is permanent, so later games have less. | A clear lesson about using things up. | Players think about the future. | The resource can be gone forever. | Later players inherit scarcity.
+irreversible-change+delayed-effects | Choices have permanent effects that show only in later games. | Players think long term. | Surprises across games. | Hard to trace causes. | Long commitment.
+irreversible-change+try-a-rule | A rule tried is written in permanently if the group keeps it. | Testing leads to lasting change. | Players feel ownership of the rules. | Poor rules can stay. | The rulebook grows.
+irreversible-change+debrief | After each game, players talk about the permanent changes they made. | Rich talk. | Players reflect on lasting choices. | Some players feel regret. | Talk can run long.
+irreversible-change+real-time-span | The game runs over weeks, and every change made along the way stays. | A slow, lasting game. | Players feel part of something. | Mistakes stay. | Players may drop out.
+real-time-span+roll-and-move | Players roll and move once a day, so a trip around the board takes weeks. | A small daily habit. | Simple to keep up. | Little to decide each day. | Easy to forget.
+real-time-span+drafting | A new card appears in the shared row each day, and players pick slowly. | Something new each day. | Time to think. | The card you want may go overnight. | Slow.
+real-time-span+bidding | Bids are open for a day or a week before they close. | Time to think about value. | Bids feel serious. | Long waits for results. | Players may forget to bid.
+real-time-span+push-your-luck | Players push their luck once a day, deciding each morning whether to go on. | Each day carries a little tension. | Time to think. | The tension can fade. | Slow.
+real-time-span+area-control | Areas change hands slowly over days, with one move per player per day. | Slow, thoughtful strategy. | Time to plan. | Players who miss days fall behind. | Long games.
+real-time-span+worker-placement | Workers take real days to finish their jobs before returning. | Waiting feels real. | Players plan ahead. | Long waits. | Hard to keep track.
+real-time-span+pattern-building | Players add one piece a day to a pattern that grows over weeks. | Calm daily habit. | Satisfying to watch it grow. | Slow. | Easy to forget.
+real-time-span+hand-management | Players draw one card a day and decide when to play it. | Something new each day. | Time to plan. | Slow. | Players may lose cards.
+real-time-span+trick-taking | One trick is played each day, so a hand lasts weeks. | Slow, thoughtful card play. | Time to think about each card. | Very slow. | Hard to keep the rhythm.
+real-time-span+negotiation | Deals are made over days, with time to think between offers. | Thoughtful deals. | Time to reflect. | Deals can go stale. | Slow.
+real-time-span+set-collection | Players collect one item a day towards their sets. | A daily habit. | Something to look forward to. | Slow. | Easy to forget.
+real-time-span+tile-placement | One tile is placed each day, so the map grows over weeks. | Watching a world grow slowly. | Time to think. | Slow. | Players may lose interest.
+real-time-span+race-to-finish | Players race over weeks, one move a day. | Slow tension. | Something to check each day. | Players who miss days fall behind. | Long games.
+real-time-span+most-points | Players score points over weeks, and totals are compared at the end. | Slow and steady. | Daily habit. | Hard to keep up. | Players may lose interest.
+real-time-span+last-standing | Players are knocked out over days until one remains. | Slow tension. | Something to watch. | Players knocked out early wait weeks. | Long games.
+real-time-span+cooperative-survival | The group has to keep something going every day, or it fails. | Shared daily care. | Players check on each other. | One missed day can end it. | Can feel like a chore.
+real-time-span+shared-objective | The group works towards a goal over weeks, a little each day. | Steady teamwork. | Progress builds. | Players may drift. | Long commitment.
+real-time-span+hidden-personal-goal | Each player works on a secret aim over weeks. | Slow mystery. | Something to plan. | Aims can be forgotten. | Hard to follow.
+real-time-span+narrative-completion | The story unfolds day by day until it ends. | Something to look forward to. | Stories grow slowly. | Players may lose the thread. | Long commitment.
+real-time-span+solo-in-parallel | Each player works on their own game a little each day. | Calm, personal habit. | No waiting for others. | Little contact. | Easy to forget.
+real-time-span+direct-confrontation | Players attack each other slowly over days, with time to respond. | Time to plan responses. | Slow tension. | Grudges can build. | Long games.
+real-time-span+indirect-via-board | Players change a shared board over days, and effects spread slowly. | Players watch effects grow. | Thoughtful. | Effects can be missed. | Slow.
+real-time-span+fully-cooperative | The group plays against the game over weeks, a little each day. | Shared daily habit. | Players support each other. | Missed days can hurt everyone. | Long commitment.
+real-time-span+semi-cooperative | Players cooperate over weeks while each keeps a private aim. | Slow tension. | Trust builds or breaks over time. | Hard to follow. | Players may drift.
+real-time-span+team-vs-team | Teams play against each other over weeks. | Team spirit grows. | Rivalry over time. | Teams may lose members. | Long games.
+real-time-span+traitor | A traitor works slowly against the group over weeks. | Slow suspicion. | Big reveal. | Hard to keep everyone engaged. | Long games.
+real-time-span+mostly-chance | Luck decides what happens each day. | Simple daily check. | Nothing to plan. | Little to decide. | Easy to lose interest.
+real-time-span+chance-with-mitigation | Luck brings something each day and players choose how to respond. | Daily choices. | Some control. | Slow. | Easy to forget.
+real-time-span+skill-with-luck-tempering | Players make careful moves each day, with a little luck. | Thoughtful daily play. | Time to plan. | Skilled players pull ahead slowly. | Long games.
+real-time-span+mostly-skill | Players make one carefully thought-out move a day, as in long correspondence games. | Deep thinking. | Time for every move. | Very slow. | Practised players dominate.
+real-time-span+full-information | Everyone can see the whole game at any time and checks in daily. | Easy to follow. | Clear. | Little surprise. | Easy to forget.
+real-time-span+hidden-hands | Players hold hidden cards for days before revealing them. | Long suspense. | Players guess what others hold. | Slow. | Easy to forget cards.
+real-time-span+hidden-identity | Players hide their roles for weeks before the reveal. | Slow mystery. | Big reveal. | Hard to keep up. | Long commitment.
+real-time-span+deduction | Clues arrive day by day, and players work out a hidden fact over weeks. | A slow puzzle. | Something to think about. | Clues can be forgotten. | Very slow.
+real-time-span+bluffing | Players make claims that can be checked only days later. | Long suspense. | Bluffs feel serious. | Slow to resolve. | Players may forget.
+real-time-span+model-a-system | A model of a real system runs over weeks, as real systems change slowly. | Players feel real time. | Thoughtful. | Slow to see effects. | Players may lose interest.
+real-time-span+stakeholder-roles | Each role acts once a day, and the situation develops slowly. | Roles feel real. | Time to think. | Slow. | Roles may drift.
+real-time-span+shared-resource | A shared resource refills slowly each day, and players take from it over weeks. | Players feel how slowly things return. | A clear lesson. | The resource can run out early. | Long games.
+real-time-span+delayed-effects | Effects of choices arrive days or weeks later. | Delays feel real. | Players think long term. | Hard to trace causes. | Very slow.
+real-time-span+try-a-rule | A new rule is tried over weeks to see its slow effects. | Players see long-term effects. | Thoughtful. | Slow to judge. | Players may lose interest.
+real-time-span+debrief | After weeks of play, players meet to talk about what happened. | Rich talk. | Players reflect on a long game. | Early moments are forgotten. | Hard to gather everyone.

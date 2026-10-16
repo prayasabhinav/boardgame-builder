@@ -17,64 +17,7 @@ from typing import Any
 
 # --- Element display mapping ------------------------------------------------
 
-ELEMENT_DISPLAY = {
-    # Core mechanics
-    "roll-and-move": "roll and move",
-    "drafting": "drafting",
-    "bidding": "bidding",
-    "push-your-luck": "push your luck",
-    "area-control": "area control",
-    "worker-placement": "worker placement",
-    "pattern-building": "pattern building",
-    "hand-management": "hand management",
-    "trick-taking": "trick-taking",
-    "negotiation": "negotiation",
-    "set-collection": "set collection",
-    "tile-placement": "tile placement",
-    # Victory conditions
-    "race-to-finish": "race to finish",
-    "most-points": "most points",
-    "last-standing": "last standing",
-    "cooperative-survival": "cooperative survival",
-    "shared-objective": "shared objective",
-    "hidden-personal-goal": "hidden personal goal",
-    "narrative-completion": "narrative completion",
-    # Player interaction
-    "solo-in-parallel": "solo in parallel",
-    "direct-confrontation": "direct confrontation",
-    "indirect-via-board": "indirect via board",
-    "fully-cooperative": "fully cooperative",
-    "semi-cooperative": "semi-cooperative",
-    "team-vs-team": "team vs team",
-    "traitor": "traitor",
-    # Chance-skill
-    "mostly-chance": "mostly chance",
-    "chance-with-mitigation": "chance with mitigation",
-    "skill-with-luck-tempering": "skill with luck tempering",
-    "mostly-skill": "mostly skill",
-    # Theme
-    "abstract": "abstract",
-    "historical": "historical",
-    "fantasy": "fantasy",
-    "science-fiction": "science fiction",
-    "everyday-life": "everyday life",
-    "absurd": "absurd",
-    "educational": "educational",
-    "real-world-issue": "real-world issue",
-    # Information visibility
-    "full-information": "full information",
-    "hidden-hands": "hidden hands",
-    "hidden-identity": "hidden identity",
-    "deduction": "deduction",
-    "bluffing": "bluffing",
-    # Simulation
-    "model-a-system": "model a system",
-    "stakeholder-roles": "stakeholder roles",
-    "shared-resource": "shared resource",
-    "delayed-effects": "delayed effects",
-    "try-a-rule": "try a rule",
-    "debrief": "debrief",
-}
+ELEMENT_DISPLAY = {b["id"]: b["display"] for d in DIMENSIONS for b in d["blocks"]}
 
 
 def display(element_id: str) -> str:

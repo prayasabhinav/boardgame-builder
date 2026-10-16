@@ -2,7 +2,7 @@
 
 A public wiki of boardgameBuilder's whole knowledge base, one page per entry, where people who sign in record the checks they make under their own names and propose changes and new entries.
 
-The tool can only be as right as its entries, and 1,590 entries are too many for one person to check. The wiki is where the checking is shared.
+The tool can only be as right as its entries, and 2,471 entries are too many for one person to check. The wiki is where the checking is shared.
 
 ## What is on it
 
@@ -10,13 +10,13 @@ Every entry the tool's feedback is made from, read straight from the tool's own 
 
 | Kind | From | How many |
 |---|---|---|
-| Blocks, with their drawings | `block_meta.py` | 49 |
+| Blocks, with their drawings | `block_meta.py` | 66 |
 | Feelings | `interactions.json` | 15 |
-| Pairs | `interactions.json` (curated) and `interactions-drafted.json` (drafted) | 763 |
+| Pairs | `interactions.json` (curated) and `interactions-drafted.json` (drafted) | 1,369 |
 | Triads | `interactions.json` | 15 |
 | Conflicts | `interactions.json` | 5 |
-| Theme lines | `interactions-drafted.json` | 8 |
-| Feeling and block judgements | both | 735 |
+| Theme lines | `interactions-drafted.json` | 11 |
+| Feeling and block judgements | both | 990 |
 
 Pairs and triads also show the BoardGameGeek check of their example games (`drafted/bgg-verdicts.json`) and the games removed after it. The two working notes, `mechanics-shortlist.md` and `feeling-blocks.md`, are on it too.
 
