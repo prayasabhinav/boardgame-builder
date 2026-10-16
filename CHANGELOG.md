@@ -6,7 +6,7 @@ To add an entry: raise `VERSION` (the middle number for something people can use
 
 ## 0.8.0 — 16 October 2026
 
-- I removed sixteen known games as too ordinary to teach much: Antakshari, Name Place Animal Thing, Hangman, Ghost, Telephone, Two Truths and a Lie, Twenty Questions, Charades, Snap, Fizz Buzz, Chidiya Ud, Hand cricket, Go Fish, Memory match, Tic-tac-toe Plus and Pen fight. 22 remain.
+- I removed sixteen known games as too ordinary to teach much, among them Charades, Memory match and Tic-tac-toe Plus from the first ten. 22 remain.
 
 ## 0.7.0 — 16 October 2026
 
@@ -25,8 +25,8 @@ To add an entry: raise `VERSION` (the middle number for something people can use
 
 Known games:
 
-- 28 more known games, 38 in all. Classic and traditional games to play with things at hand: Nim, Raja Mantri Chor Sipahi, Name Place Animal Thing, Antakshari, Chidiya Ud, Pen fight, Hand cricket, Gulaam Chor, Satte pe Satta, Dots and Boxes, Battleship on paper, Bulls and Cows, Go Fish, Cheat, Snap, Twenty Questions, Hangman, Spoons, Telephone, Fizz Buzz, Two Truths and a Lie, Ghost, Cram, SOS, Three Men's Morris, and Set (Marsha J. Falco). And two games of mine: All or Nothing and 3 Quarters.
-- The rules of the classic games follow the sources listed with each game, and every game's blocks were checked against its BoardGameGeek tags where it has an entry. Charades no longer claims team vs team, which BoardGameGeek does not tag it with; Set names no core mechanic for the same reason.
+- More known games. Classic and traditional games to play with things at hand: Nim, Raja Mantri Chor Sipahi, Gulaam Chor, Satte pe Satta, Dots and Boxes, Battleship on paper, Bulls and Cows, Cheat, Spoons, Cram, SOS, Three Men's Morris and Set (Marsha J. Falco), and sixteen more, removed in 0.8.0. And two games of mine: All or Nothing and 3 Quarters.
+- The rules of the classic games follow the sources listed with each game, and every game's blocks were checked against its BoardGameGeek tags where it has an entry. Set names no core mechanic, because BoardGameGeek does not tag it with one.
 - Every game has credits: who made it where that is on record, *Traditional* where nobody is, and what this version changes from the usual one.
 - Every game's rules now say who starts, how it ends and what happens on a tie, so it can be played from the card. The earlier ten gained rules they lacked: clue tokens in Three-card Hanabi, how the wolf's choice is made known in Werewolf-5, a winner for the blocking grid, wild cards and an empty draw pile in Last-card-out.
 - **Download as a design** on each game: its rules, credits and blocks as a Markdown file; **Open game** puts its blocks on the canvas.
