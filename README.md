@@ -79,7 +79,7 @@ It works for one person on a laptop and for a group around one big screen.
 | Information visibility | full information, hidden hands, hidden identity, deduction, bluffing, rules you discover, one knows, cannot say, map revealed as you go | one |
 | Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, real-time span, rules make an argument, stakes outside the game, points stand for values, rehearse a future | many |
 
-Fourteen of the blocks, from role-play to rehearse a future, come from ideas of Dhruv Jani's; the wiki credits him on each of their entries.
+Fourteen of the blocks, from role-play to rehearse a future, come from ideas of Dhruv Jani's; the wiki credits him on each of their entries. Where each of the 31 blocks added on 16 October 2026 came from, with references checked against Crossref, is in [`docs/block-sources.md`](docs/block-sources.md).
 
 **Feelings (15):** excited, clever, silly, tense, together, sneaky, lucky, in charge, surprised, thoughtful, fast, unfair in a fun way, careful, daring, friendly.
 
