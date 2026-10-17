@@ -690,6 +690,21 @@ body {
   background: white;
 }
 
+/* One button standard. ".k button { font: inherit }" and ".k a { color }" are more specific than the button classes,
+   so the classes are repeated under .k to win: every button and link-button has the same type, size and height. */
+.k .k-btn-primary,
+.k .k-btn-outline {
+  font-family: var(--font-label);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  min-height: 40px;
+  padding: 0 20px;
+  border-radius: 4px;
+}
+.k a.k-btn-primary { color: white; }
+.k a.k-btn-outline { color: var(--ink); }
+
 .k-btn-primary:disabled,
 .k-btn-outline:disabled {
   opacity: 0.4;
@@ -1620,4 +1635,4 @@ button.slot-config:disabled { cursor: default; }
 .mcq-discuss { display: block; margin-top: 4px; color: var(--ink3); font-size: 14px; }
 .config-modal-foot .config-preview { color: var(--ink2); font-family: var(--font-body); font-size: 14px; }
 .mcq-feedback.show:not(.correct):not(.wrong) { background: var(--surface-inner); color: var(--ink2); border-left: 3px solid var(--ink3); }
-.games-nav .k-btn-outline { height: 38px; padding: 0 18px; font-family: var(--font-label); font-size: 14px; }
+

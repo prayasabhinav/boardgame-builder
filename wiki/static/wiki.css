@@ -17,10 +17,12 @@ a { color: var(--accent-dark); }
 a:hover { color: var(--accent); }
 
 .top { background: var(--bg); border-bottom: 1px solid var(--border-dark); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; }
-.top-inner { max-width: 76rem; margin: 0 auto; padding: 0.6rem 1rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
+.top-inner { max-width: 54rem; margin: 0 auto; padding: 0.6rem 1.25rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
 .name { font: 600 1.15rem var(--font-display); color: var(--light); text-decoration: none; }
 .name span { color: var(--accent); font-weight: 400; }
 .find { flex: 1 1 12rem; }
+/* The links take a row of their own under the name and search, so every row starts on the same edge as the page */
+.top nav { flex-basis: 100%; }
 .find input { width: 100%; font: 0.95rem var(--font-ui); padding: 0.4rem 0.7rem; border-radius: 6px; border: 1px solid var(--border-dark); background: #3a4245; color: var(--light); }
 .top nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; align-items: center; font: 0.9rem var(--font-ui); }
 .top nav a, .me { color: #d9d2c9; text-decoration: none; }
@@ -109,7 +111,7 @@ button.quiet:hover { background: var(--surface-inner); color: var(--accent-dark)
 .note table { border-collapse: collapse; font-size: 0.9rem; display: block; overflow-x: auto; }
 .note th, .note td { border: 1px solid var(--line); padding: 0.3rem 0.5rem; text-align: left; vertical-align: top; }
 
-footer { border-top: 1px solid var(--line); max-width: 54rem; margin: 0 auto; padding: 1rem 1rem calc(1.5rem + env(safe-area-inset-bottom, 0px)); font: 0.88rem var(--font-ui); color: var(--ink3); }
+footer { border-top: 1px solid var(--line); max-width: 54rem; margin: 0 auto; padding: 1rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom, 0px)); font: 0.88rem var(--font-ui); color: var(--ink3); }
 footer p { margin: 0.2rem 0; }
 
 .error { background: #f6dcd8; color: var(--red); border-radius: 6px; padding: 0.6rem 0.9rem; font-family: var(--font-ui); }

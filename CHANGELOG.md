@@ -4,6 +4,11 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.9.3 — 17 October 2026
+
+- Every button in the tool has one type, size and height; *Watch it and answer* had been taking the page's body type, and link-buttons its link colour.
+- The wiki's top bar lines up with the page below it: the name and search on one row, the links on the next, all on the same edge.
+
 ## 0.9.2 — 16 October 2026
 
 - The wiki's top bar is wide enough for its links on one row when signed in.
