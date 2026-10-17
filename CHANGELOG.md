@@ -8,6 +8,7 @@ To add an entry: raise `VERSION` (the middle number for something people can use
 
 - Every button in the tool has one type, size and height; *Watch it and answer* had been taking the page's body type, and link-buttons its link colour.
 - The wiki's top bar lines up with the page below it: the name and search on one row, the links on the next, all on the same edge.
+- The wiki's top bar starts with a link back to the tool.
 
 ## 0.9.2 — 16 October 2026
 

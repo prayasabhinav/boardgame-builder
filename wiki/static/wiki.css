@@ -23,6 +23,7 @@ a:hover { color: var(--accent); }
 .find { flex: 1 1 12rem; }
 /* The links take a row of their own under the name and search, so every row starts on the same edge as the page */
 .top nav { flex-basis: 100%; }
+.top nav .to-tool { color: var(--light); font-weight: 500; margin-right: 0.4rem; }
 .find input { width: 100%; font: 0.95rem var(--font-ui); padding: 0.4rem 0.7rem; border-radius: 6px; border: 1px solid var(--border-dark); background: #3a4245; color: var(--light); }
 .top nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; align-items: center; font: 0.9rem var(--font-ui); }
 .top nav a, .me { color: #d9d2c9; text-decoration: none; }
