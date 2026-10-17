@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.10.5 — 17 October 2026
+
+- The slots that hold several blocks are described as holding as many *different* blocks as a game needs, each once: a block cannot go into the same slot twice, so a slot holds at most every block of its group.
+
 ## 0.10.4 — 17 October 2026
 
 - Every place that says which slots hold several blocks now names the same three, Core mechanic, Timing and Simulation, in the same words. The How it works box and the wiki's form for proposing a game still named only two, from before Timing took several. The tool and the wiki now take the list from the palette, so the text cannot fall behind it again.
