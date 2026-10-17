@@ -168,6 +168,12 @@ DIMENSIONS = [
 ]
 
 
+# What the board game syntax does not describe, said in words so that an exclusion is never only an
+# absence from a list. SYNTAX shows it on the board game syntax's page.
+LEFT_OUT = ("The artwork, the box, the price, the wording of the rules, and how many play: a board game described "
+            "here is only its choice of elements. How a game should feel is kept beside the syntax, not in it: the "
+            "feelings a designer puts on the shelf are not an element type.")
+
 FEELINGS = [
     {"id": "excited", "display": "excited"},
     {"id": "clever", "display": "clever"},
