@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.10.1 — 17 October 2026
+
+- The canvas and the README say that Timing, like Core mechanic and Simulation, holds several blocks.
+
 ## 0.10.0 — 17 October 2026
 
 - A new group of blocks, **Timing**: when and how fast players act. Take turns, everyone at once, no turns, timed turns, real-time span (moved here from Simulation), sedated and accelerated. A design can stack several, such as taking turns against a clock.
