@@ -36,10 +36,12 @@ TAGS = {
     "hidden-identity": {"Hidden Roles", "Traitor Game"},
     "deduction": {"Deduction"},
     "bluffing": {"Bluffing"},
+    "everyone-at-once": {"Simultaneous Action Selection"},
+    "no-turns": {"Real-Time"},
 }
 HIDDEN = {"Hidden Roles", "Closed Drafting", "Hidden Victory Points", "Secret Unit Deployment", "Deduction", "Traitor Game", "Bluffing"}
 # BoardGameGeek applies these unevenly (plainly confrontational games and plain race games often lack them), so a missing tag is no evidence
-ONLY_CONFIRMS = {"direct-confrontation", "race-to-finish", "mostly-chance"}
+ONLY_CONFIRMS = {"direct-confrontation", "race-to-finish", "mostly-chance", "everyone-at-once", "no-turns"}
 
 cache = json.load(open(sys.argv[1]))
 kb = json.load(open("interactions.json"))

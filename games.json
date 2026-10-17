@@ -17,7 +17,10 @@
    "player-interaction": "solo-in-parallel",
    "chance-skill": "chance-with-mitigation",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–7 min",
   "players": "2–4 players (or one big group taking turns)",
@@ -313,7 +316,10 @@
    "player-interaction": "fully-cooperative",
    "chance-skill": "chance-with-mitigation",
    "information": "hidden-hands",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "6–8 min",
   "players": "3 players",
@@ -717,7 +723,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–6 min",
   "players": "2 players",
@@ -1025,7 +1034,10 @@
    "player-interaction": "traitor",
    "chance-skill": "mostly-skill",
    "information": "hidden-identity",
-   "theme": "fantasy"
+   "theme": "fantasy",
+   "timing": [
+    "everyone-at-once"
+   ]
   },
   "duration": "7–10 min",
   "players": "5 players",
@@ -1252,7 +1264,10 @@
    ],
    "victory-condition": "most-points",
    "chance-skill": "chance-with-mitigation",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "everyone-at-once"
+   ]
   },
   "duration": "6–8 min",
   "players": "3–4 players",
@@ -1509,7 +1524,10 @@
    "player-interaction": "solo-in-parallel",
    "chance-skill": "skill-with-luck-tempering",
    "information": "hidden-hands",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "everyone-at-once"
+   ]
   },
   "duration": "6–8 min",
   "players": "3–4 players",
@@ -1769,7 +1787,10 @@
    "victory-condition": "race-to-finish",
    "chance-skill": "chance-with-mitigation",
    "information": "hidden-hands",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–8 min",
   "players": "2–4 players",
@@ -2053,7 +2074,10 @@
   "design": {
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–8 min",
   "players": "2 players",
@@ -2406,7 +2430,10 @@
   "teaches": "hidden-identity + most-points",
   "design": {
    "victory-condition": "most-points",
-   "information": "hidden-identity"
+   "information": "hidden-identity",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–8 min",
   "players": "4 players",
@@ -2658,7 +2685,10 @@
    ],
    "victory-condition": "one-loser",
    "chance-skill": "mostly-chance",
-   "information": "hidden-hands"
+   "information": "hidden-hands",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "6–10 min",
   "players": "3–5 players",
@@ -2914,7 +2944,10 @@
    "victory-condition": "race-to-finish",
    "player-interaction": "indirect-via-board",
    "chance-skill": "chance-with-mitigation",
-   "information": "hidden-hands"
+   "information": "hidden-hands",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "6–10 min",
   "players": "4 players",
@@ -3362,7 +3395,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–8 min",
   "players": "2 players",
@@ -3648,7 +3684,10 @@
    "player-interaction": "direct-confrontation",
    "chance-skill": "skill-with-luck-tempering",
    "information": "deduction",
-   "theme": "war-and-conquest"
+   "theme": "war-and-conquest",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "8–10 min",
   "players": "2 players",
@@ -4109,7 +4148,10 @@
    "player-interaction": "solo-in-parallel",
    "chance-skill": "mostly-skill",
    "information": "deduction",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "8–10 min",
   "players": "2 players",
@@ -4393,7 +4435,10 @@
   "design": {
    "victory-condition": "race-to-finish",
    "player-interaction": "direct-confrontation",
-   "information": "bluffing"
+   "information": "bluffing",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "6–10 min",
   "players": "3–5 players",
@@ -4659,7 +4704,10 @@
    "victory-condition": "one-loser",
    "player-interaction": "direct-confrontation",
    "chance-skill": "chance-with-mitigation",
-   "information": "hidden-hands"
+   "information": "hidden-hands",
+   "timing": [
+    "no-turns"
+   ]
   },
   "duration": "5–8 min",
   "players": "3–6 players",
@@ -5004,7 +5052,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5 min",
   "players": "2 players",
@@ -5291,7 +5342,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–8 min",
   "players": "2 players",
@@ -5596,7 +5650,10 @@
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–8 min",
   "players": "2 players",
@@ -5882,7 +5939,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "no-turns"
+   ]
   },
   "duration": "8–10 min",
   "players": "2–6 players",
@@ -6143,7 +6203,7 @@
   "parent_game": "3 Quarters, a board game by Prayas Abhinav",
   "credits": {
    "by": "Prayas Abhinav, 2022, as a warm-up game for students",
-   "rules": "Rules, board and pieces at github.com/prayasabhinav/games, under Creative Commons Attribution 4.0"
+   "rules": "Rules, board and pieces at github.com/prayasabhinav/games, under Creative Commons Attribution 4.0; where a piece goes, what the die turns and which circles count were settled by the designer in October 2026"
   },
   "lesson": "Every piece placed can complete someone else's circle, so each move weighs your gain against what it gives away, under a 20-second clock. It shows interaction through a shared board, and time as pressure.",
   "teaches": "pattern-building + tile-placement + full-information",
@@ -6156,7 +6216,11 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "chance-with-mitigation",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns",
+    "timed-turns"
+   ]
   },
   "duration": "play to 25 points",
   "players": "2–4 players",
@@ -6170,43 +6234,43 @@
   "steps": [
    {
     "n": 1,
-    "title": "Arrange",
-    "body": "Arrange one (add, rotate or remove) quadrant at a time to complete a 3/4 circle."
+    "title": "Set up",
+    "body": "Play on the red rows with 2 players, add the green rows for 3, and the blue row for 4. Each player takes their eight quarter-circle pieces. Toss a coin to see who starts."
    },
    {
     "n": 2,
-    "title": "A turn",
-    "body": "In a turn each player gets to arrange (add, rotate or remove) one piece. You can turn as many corners as the dice (d4) shows. If the dice show 4, you have to turn full circle."
+    "title": "Pieces",
+    "body": "A piece fills one square and faces one of its four corners. Its pattern sets its points: crosshatched 1, dotted 2, plain 3, black 4."
    },
    {
     "n": 3,
+    "title": "A turn",
+    "body": "Roll the die first. Then arrange one piece: add one of yours to an empty square, turn any piece on the board, yours or another player's, or remove one. A piece you add or turn goes round as many corners as the die shows; a 4 turns it full circle."
+   },
+   {
+    "n": 4,
+    "title": "Three quarters",
+    "body": "Three pieces in three of the four squares around one shared corner, each facing that corner, make a 3/4 circle. All three must have the same pattern. They can belong to anyone."
+   },
+   {
+    "n": 5,
     "title": "Remove",
     "body": "To remove a quadrant, place a quadrant with the same pattern on it. Take both (without adding the points that both pieces have). A player can remove a piece only three times in a game."
    },
    {
-    "n": 4,
-    "title": "Score a circle",
-    "body": "The player who completes the 3/4 circle removes the pieces from the board and takes as many points as the constituent pieces."
-   },
-   {
-    "n": 5,
-    "title": "Yellow squares",
-    "body": "If a 3/4 circle has one of its quadrants on a yellow square, the score is doubled."
-   },
-   {
     "n": 6,
-    "title": "Win",
-    "body": "The player with 25 points first wins."
+    "title": "Score a circle",
+    "body": "The player who completes the 3/4 circle removes the pieces from the board and takes as many points as the constituent pieces. If one of its quadrants is on a yellow square, the score is doubled."
    },
    {
     "n": 7,
     "title": "Keep the board",
-    "body": "Avoid emptying the board — it will give you a penalty of 10 points."
+    "body": "Avoid emptying the board: the player whose move empties it loses 10 points."
    },
    {
     "n": 8,
-    "title": "Twenty seconds",
-    "body": "Each move has to be made in 20 s. Use a mobile to keep time."
+    "title": "Time and the win",
+    "body": "Each move has to be made in 20 s; use a mobile to keep time. The player with 25 points first wins."
    }
   ],
   "what_to_notice": [
@@ -6240,7 +6304,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "chance-with-mitigation",
    "information": "hidden-hands",
-   "theme": "educational"
+   "theme": "educational",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "a few minutes a round",
   "players": "2–4 players",
@@ -6640,7 +6707,10 @@
   "design": {
    "information": "rules-you-discover",
    "chance-skill": "mostly-skill",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10–15 min",
   "players": "4–7 players",
@@ -6706,7 +6776,10 @@
    ],
    "victory-condition": "race-to-finish",
    "information": "rules-you-discover",
-   "chance-skill": "skill-with-luck-tempering"
+   "chance-skill": "skill-with-luck-tempering",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10 min",
   "players": "3–7 players",
@@ -6771,6 +6844,9 @@
    ],
    "victory-condition": "most-points",
    "chance-skill": "chance-with-mitigation",
+   "timing": [
+    "take-turns"
+   ],
    "simulation": [
     "try-a-rule"
    ]
@@ -6846,7 +6922,10 @@
    "victory-condition": "shared-objective",
    "player-interaction": "fully-cooperative",
    "chance-skill": "attunement",
-   "information": "hidden-hands"
+   "information": "hidden-hands",
+   "timing": [
+    "no-turns"
+   ]
   },
   "duration": "10 min",
   "players": "2–4 players",
@@ -6908,7 +6987,10 @@
   "design": {
    "victory-condition": "no-objective",
    "player-interaction": "fully-cooperative",
-   "theme": "absurd"
+   "theme": "absurd",
+   "timing": [
+    "everyone-at-once"
+   ]
   },
   "duration": "10 min",
   "players": "3–6 players",
@@ -6968,7 +7050,10 @@
   "teaches": "no-objective",
   "design": {
    "victory-condition": "no-objective",
-   "theme": "absurd"
+   "theme": "absurd",
+   "timing": [
+    "everyone-at-once"
+   ]
   },
   "duration": "10 min",
   "players": "3–8 players",
@@ -7028,7 +7113,10 @@
    "victory-condition": "race-to-finish",
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
-   "information": "full-information"
+   "information": "full-information",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10–15 min",
   "players": "2–4 players",
@@ -7094,7 +7182,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5 min a game",
   "players": "2 players",
@@ -7158,7 +7249,10 @@
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10 min",
   "players": "2 players",
@@ -7216,7 +7310,10 @@
    "victory-condition": "one-loser",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5 min a game",
   "players": "2 players",
@@ -7273,7 +7370,10 @@
    "victory-condition": "one-loser",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5 min a game",
   "players": "2 players",
@@ -7329,7 +7429,10 @@
   "design": {
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5 min a game",
   "players": "2 players",
@@ -7388,6 +7491,9 @@
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
    "theme": "educational",
+   "timing": [
+    "take-turns"
+   ],
    "simulation": [
     "delayed-effects"
    ]
@@ -7455,7 +7561,10 @@
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10–15 min",
   "players": "2 players",
@@ -7520,7 +7629,10 @@
    ],
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
-   "information": "full-information"
+   "information": "full-information",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10 min",
   "players": "2 players",
@@ -7583,7 +7695,10 @@
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
    "information": "full-information",
-   "theme": "abstract"
+   "theme": "abstract",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5–10 min",
   "players": "2 players",
@@ -7646,7 +7761,10 @@
   "design": {
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
-   "information": "full-information"
+   "information": "full-information",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10–15 min",
   "players": "2 players",
@@ -7719,6 +7837,9 @@
    "player-interaction": "solo-in-parallel",
    "chance-skill": "chance-read-as-a-sign",
    "theme": "ritual-or-sacred",
+   "timing": [
+    "take-turns"
+   ],
    "simulation": [
     "rules-make-an-argument"
    ]
@@ -7788,7 +7909,10 @@
    "victory-condition": "race-to-finish",
    "player-interaction": "direct-confrontation",
    "chance-skill": "chance-with-mitigation",
-   "theme": "historical"
+   "theme": "historical",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "15 min",
   "players": "2 players",
@@ -7861,7 +7985,10 @@
    "victory-condition": "race-to-finish",
    "player-interaction": "direct-confrontation",
    "chance-skill": "chance-with-mitigation",
-   "theme": "mortality-and-loss"
+   "theme": "mortality-and-loss",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "15 min",
   "players": "2 players",
@@ -7932,7 +8059,10 @@
    ],
    "victory-condition": "one-loser",
    "player-interaction": "team-vs-team",
-   "information": "one-knows-cannot-say"
+   "information": "one-knows-cannot-say",
+   "timing": [
+    "no-turns"
+   ]
   },
   "duration": "10 min",
   "players": "4 players in two teams",
@@ -8003,7 +8133,10 @@
    "victory-condition": "last-standing",
    "player-interaction": "direct-confrontation",
    "chance-skill": "chance-with-mitigation",
-   "information": "bluffing"
+   "information": "bluffing",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "10 min",
   "players": "2–6 players",
@@ -8074,7 +8207,10 @@
    "victory-condition": "race-to-finish",
    "player-interaction": "direct-confrontation",
    "chance-skill": "skill-with-luck-tempering",
-   "information": "hidden-hands"
+   "information": "hidden-hands",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "15 min",
   "players": "2 players",
@@ -8140,7 +8276,10 @@
    "victory-condition": "most-points",
    "player-interaction": "team-vs-team",
    "chance-skill": "skill-with-luck-tempering",
-   "information": "hidden-hands"
+   "information": "hidden-hands",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "15 min",
   "players": "4 players in two teams",
@@ -8200,7 +8339,10 @@
   "design": {
    "chance-skill": "mostly-chance",
    "information": "full-information",
-   "theme": "educational"
+   "theme": "educational",
+   "timing": [
+    "take-turns"
+   ]
   },
   "duration": "5 min",
   "players": "2 players",

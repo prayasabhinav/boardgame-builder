@@ -1,0 +1,67 @@
+everyone-at-once+roll-and-move | Everyone rolls and moves at the same moment, so a round passes quickly. | No waiting. | Large groups can play. | Hard to watch every piece. | Moves can be miscounted unseen.
+everyone-at-once+drafting | Everyone picks a card at the same moment and passes the rest, as in 7 Wonders. | No waiting, even with many players. | Every pick is a secret choice. | Hard to watch what others take. | Players can feel rushed.
+everyone-at-once+bidding | Everyone writes a sealed bid and all are revealed together. | No bidding wars, one clean decision. | Surprise at the reveal. | No chance to react to others. | Ties need a rule.
+everyone-at-once+push-your-luck | Everyone decides at once whether to stop or carry on, then all reveal. | Nobody can copy anyone. | Tense shared reveal. | Less drama of watching one player. | Hard to read others.
+everyone-at-once+area-control | Everyone secretly chooses where to place, then all placements are revealed together. | Surprising clashes. | No first-mover advantage. | Results can feel chaotic. | Hard to plan around others.
+everyone-at-once+worker-placement | Everyone picks a spot in secret, and shared picks clash on the reveal. | Guessing what others want. | No turn order advantage. | Clashes need a rule to settle them. | Plans can collapse on the reveal.
+everyone-at-once+pattern-building | Everyone adds to their own pattern at the same time. | Fast rounds. | Calm parallel play. | Little interaction. | Hard to compare progress.
+everyone-at-once+hand-management | Everyone chooses a card from hand at once, then all are shown. | Secret choices carry weight. | No waiting. | No reacting to others' cards. | Ties and clashes need rules.
+everyone-at-once+trick-taking | Everyone plays a card to the trick at the same moment. | Pure guesswork about the others. | Fast tricks. | The skill of following in order disappears. | Results can feel random.
+everyone-at-once+negotiation | Everyone makes offers at the same time, in a noisy open market. | Lively and loud. | Deals happen fast. | Quiet players get drowned out. | Hard to keep track of deals.
+everyone-at-once+set-collection | Everyone chooses what to collect at once, and shared choices clash. | Guessing others' sets. | Fast rounds. | Hard to deny others. | Clashes need rules.
+everyone-at-once+tile-placement | Everyone places a tile at the same time on their own map. | No waiting. | Same tiles, different maps. | Little interaction. | Hard to see others' maps.
+everyone-at-once+call-and-response | Everyone answers the call at once, a chorus rather than a chain. | Loud, shared energy. | No one is on the spot. | Individual answers get lost. | Hard to judge who answered well.
+everyone-at-once+playing-in-silence | Everyone acts at the same moment without speaking. | A strong shared moment. | Silence makes the reveal intense. | Hard to coordinate. | Mistakes are common.
+everyone-at-once+change-the-rules | Everyone proposes a rule change at once and all are revealed together. | Many ideas at once. | No one dominates. | Changes can conflict. | Hard to follow so many changes.
+everyone-at-once+role-play | Everyone acts in character at the same time, like a crowd scene. | Lively and immersive. | No waiting for a spotlight. | Hard to follow every scene. | Quiet characters get lost.
+everyone-at-once+dexterity | Everyone flicks, stacks or throws at the same moment. | Frantic and funny. | No one watches in judgement. | Hard to see who did what. | Collisions and disputes.
+everyone-at-once+drawing-the-map | Everyone draws on their part of the map at the same time. | Fast map building. | Many hands at once. | Parts may not fit together. | Hard to see the whole.
+everyone-at-once+race-to-finish | Everyone moves towards the finish at once, round by round. | No waiting. | Close finishes. | Ties are common. | Hard to track every runner.
+everyone-at-once+most-points | Everyone scores at the same time each round. | Fast scoring. | Fair rhythm. | Hard to react to the leader. | Scores can be miscounted.
+everyone-at-once+last-standing | Everyone acts at once, and several players can go out together. | Dramatic rounds. | No one waits long. | Players can go out together. | Out players wait.
+everyone-at-once+cooperative-survival | The team acts all at once against the threat, without waiting on each other. | Tense, quick rounds. | Everyone acts every round. | Hard to coordinate. | Mistakes add up fast.
+everyone-at-once+shared-objective | Everyone works on the shared goal at the same moment. | Fast progress. | Shared effort is visible. | Players may duplicate work. | Hard to plan together.
+everyone-at-once+hidden-personal-goal | Everyone acts at once towards a secret goal. | Hard to read who wants what. | No one waits. | Little time to read others. | Goals stay hidden too well.
+everyone-at-once+narrative-completion | Everyone writes or adds their part of the story at once, then the parts are joined. | Surprising stories. | No waiting. | Parts may not fit. | Less control over the story.
+everyone-at-once+no-objective | Everyone plays at once with nothing to win, as in Exquisite Corpse. | Relaxed and surprising. | Everyone takes part. | No sense of progress. | Results can be random.
+everyone-at-once+set-your-own-goal | Everyone pursues their own chosen goal at the same time. | Varied, parallel play. | No waiting. | Little connection between players. | Hard to compare.
+everyone-at-once+one-loser | Everyone acts at once, and whoever slips up loses. | Tense shared moment. | Nobody waits. | Losing can feel random. | Hard to see who slipped first.
+everyone-at-once+keep-the-game-going | Everyone acts at once round after round, and the game rolls on. | Steady shared rhythm. | Easy to keep going. | Rounds can blur together. | No arc.
+everyone-at-once+cannot-be-won | Everyone acts at once in a game nobody can win. | Shared experience. | No pressure. | Purpose can feel unclear. | Little tension.
+everyone-at-once+solo-in-parallel | Everyone plays their own game at the same time. | No waiting at all. | Calm and quick. | Little interaction. | Feels like playing alone together.
+everyone-at-once+direct-confrontation | Everyone chooses an attack in secret and all are revealed together. | Surprising clashes. | No first-strike advantage. | Hard to defend. | Chaotic results.
+everyone-at-once+indirect-via-board | Everyone changes the board at once, and the changes collide. | Surprising board states. | No waiting. | Hard to plan. | Collisions need rules.
+everyone-at-once+fully-cooperative | The whole team acts at once without waiting for each other. | Fast teamwork. | Everyone busy. | Hard to coordinate. | Duplicated effort.
+everyone-at-once+semi-cooperative | Everyone decides at once whether to help or betray, revealed together. | Tense reveal. | No one can copy. | Betrayal hurts more. | Hard to build trust.
+everyone-at-once+team-vs-team | Both teams choose at once and reveal together. | Fair, no first move. | Tense reveal. | Hard to react. | Teams talk over each other.
+everyone-at-once+traitor | Everyone votes or acts at the same moment, hiding the traitor's choice among the rest. | Traitor hides easily. | Tense reveals. | Hard to find the traitor. | Clues are thin.
+everyone-at-once+playing-by-letter | Everyone sends a move at the same time each round, and all are opened together. | Fair rounds by post. | Nobody waits on one slow player. | Rounds still take days. | Hard to discuss.
+everyone-at-once+absent-player | Everyone acts at once, and the absent player's action is revealed alongside. | The absent player feels present. | Surprise at the reveal. | Their action can feel arbitrary. | Hard to plan around.
+everyone-at-once+game-master | Everyone tells the game master their action at once, and the master settles them together. | Fast rounds. | Fair to all players. | Heavy work for the master. | Results can surprise.
+everyone-at-once+public-game | Passers-by all join in at once, a crowd moving together. | Lively and inclusive. | Anyone can jump in. | Hard to keep order. | Hard to see results.
+everyone-at-once+mostly-chance | Everyone rolls at once and luck decides. | Quick rounds. | Anyone can win. | Few decisions. | Hard to follow every roll.
+everyone-at-once+chance-with-mitigation | Everyone rolls at once and then softens their luck, all together. | Quick rounds with small decisions. | No waiting. | Hard to see others' choices. | Rushed decisions.
+everyone-at-once+skill-with-luck-tempering | Everyone plans at once with a little luck in each round. | Fast but thoughtful. | No turn order advantage. | Hard to plan around others. | Luck at the reveal.
+everyone-at-once+mostly-skill | Everyone chooses at once in a game of pure skill, reading what others will do. | Mind games. | No first-move advantage. | Guessing others can feel like chance. | Long thinking holds up everyone.
+everyone-at-once+chance-read-as-a-sign | Everyone draws or rolls at once and reads the signs together. | Shared ritual. | Many readings at once. | Readings get lost. | Hard to focus.
+everyone-at-once+attunement | Everyone tries to act at the same moment as the others, sensing the group. | Deep group connection. | Magic when it works. | Frustrating when it fails. | Hard for new groups.
+everyone-at-once+dice-tell-the-story | Everyone rolls at once and the dice tell several stories side by side. | Many stories at once. | No waiting. | Hard to follow. | Stories do not connect.
+everyone-at-once+full-information | Everyone sees everything but chooses in secret at the same time. | Pure reading of others. | No turn advantage. | Can feel like guessing. | Many players means many options to weigh.
+everyone-at-once+hidden-hands | Everyone chooses a card from a hidden hand at once. | Secret, tense reveals. | No waiting. | Hard to read others. | Feels random to new players.
+everyone-at-once+hidden-identity | Everyone acts at once, and hidden roles hide in the crowd. | Roles stay hidden. | Tense reveals. | Few clues. | Hard to deduce.
+everyone-at-once+deduction | Everyone guesses at once, then clues are revealed. | Fair race of minds. | No one copies. | Hard to share reasoning. | Ties need rules.
+everyone-at-once+bluffing | Everyone makes a claim at the same moment, and all are tested. | Many bluffs at once. | Surprising reveals. | Hard to judge each claim. | Chaotic.
+everyone-at-once+rules-you-discover | Everyone tries something at once and learns from all the results. | Fast learning. | Many experiments. | Hard to tell what caused what. | Confusing.
+everyone-at-once+one-knows-cannot-say | The one who knows gives a hint and everyone guesses at once. | Fair guessing. | No copying. | The knower can't adjust to one guesser. | Hard to judge.
+everyone-at-once+map-revealed-as-you-go | Everyone explores at once and the map opens in several places. | Fast discovery. | No waiting. | Hard to follow. | Map fills unevenly.
+everyone-at-once+model-a-system | Everyone acts on the model at once, as people do in a real system. | Closer to how real systems work. | Surprising outcomes. | Hard to trace causes. | Overwhelming.
+everyone-at-once+stakeholder-roles | All stakeholders decide at once, without knowing what the others chose. | Realistic tension. | No role dominates by going first. | Hard to coordinate. | Surprising clashes.
+everyone-at-once+shared-resource | Everyone takes from the shared resource at the same moment, without seeing what others take. | Shows how overuse happens. | Tense reveals. | Resource can collapse suddenly. | Players feel helpless.
+everyone-at-once+delayed-effects | Everyone acts at once, and the combined effects arrive later. | Shows shared consequences. | Hard to blame one player. | Hard to learn from. | Slow feedback.
+everyone-at-once+try-a-rule | Everyone tests a new rule at once and compares results. | Fast testing. | Many results. | Hard to compare. | Messy.
+everyone-at-once+debrief | Everyone writes down what they noticed at once, then shares. | Every view captured. | No one sways others first. | Less discussion. | Can feel like a test.
+everyone-at-once+irreversible-change | Everyone makes a permanent change at the same moment. | Dramatic. | Shared responsibility. | Unpredictable results. | Hard to undo mistakes.
+everyone-at-once+rules-make-an-argument | The rules make their point through everyone acting at once. | Shows how collective choice works. | Clear shared lesson. | Argument can be lost in the noise. | Hard to see.
+everyone-at-once+stakes-outside-the-game | Everyone commits real stakes at the same moment. | Fair and tense. | No one sees others first. | Heavy. | Hard to back out.
+everyone-at-once+points-stand-for-values | Everyone chooses at once which values to trade for points. | Reveals priorities. | No copying. | Hard to discuss. | Can feel judging.
+everyone-at-once+rehearse-a-future | Everyone acts out their part of a future at the same time. | Many perspectives at once. | Lively. | Hard to follow. | Parts may conflict.

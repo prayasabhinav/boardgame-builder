@@ -1645,7 +1645,8 @@
    "solo-in-parallel",
    "chance-with-mitigation",
    "full-information",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Pig",
   "status": null,
@@ -1656,7 +1657,8 @@
    "solo-in-parallel": "not checkable",
    "chance-with-mitigation": "not checkable",
    "full-information": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/161130"
  },
@@ -1668,7 +1670,8 @@
    "fully-cooperative",
    "chance-with-mitigation",
    "hidden-hands",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Hanabi",
   "status": null,
@@ -1679,7 +1682,8 @@
    "fully-cooperative": "confirmed (Cooperative Game)",
    "chance-with-mitigation": "not checkable",
    "hidden-hands": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/98778"
  },
@@ -1689,7 +1693,8 @@
    "traitor",
    "mostly-skill",
    "hidden-identity",
-   "fantasy"
+   "fantasy",
+   "everyone-at-once"
   ],
   "game": "Werewolf",
   "status": null,
@@ -1698,7 +1703,8 @@
    "traitor": "confirmed (Traitor Game)",
    "mostly-skill": "not checkable",
    "hidden-identity": "confirmed (Hidden Roles, Traitor Game)",
-   "fantasy": "not checkable"
+   "fantasy": "not checkable",
+   "everyone-at-once": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/925"
  },
@@ -1707,7 +1713,8 @@
   "elements": [
    "mostly-skill",
    "full-information",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Nim",
   "status": null,
@@ -1715,7 +1722,8 @@
   "verdicts": {
    "mostly-skill": "not checkable",
    "full-information": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/11753"
  },
@@ -1725,7 +1733,8 @@
    "set-collection",
    "one-loser",
    "mostly-chance",
-   "hidden-hands"
+   "hidden-hands",
+   "take-turns"
   ],
   "game": "Old Maid",
   "status": null,
@@ -1734,7 +1743,8 @@
    "set-collection": "confirmed (Set Collection)",
    "one-loser": "not checkable",
    "mostly-chance": "not checkable",
-   "hidden-hands": "not checkable"
+   "hidden-hands": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/10799"
  },
@@ -1745,7 +1755,8 @@
    "race-to-finish",
    "indirect-via-board",
    "chance-with-mitigation",
-   "hidden-hands"
+   "hidden-hands",
+   "take-turns"
   ],
   "game": "Fan Tan",
   "status": null,
@@ -1755,7 +1766,8 @@
    "race-to-finish": "not checkable",
    "indirect-via-board": "not checkable",
    "chance-with-mitigation": "not checkable",
-   "hidden-hands": "not checkable"
+   "hidden-hands": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/18399"
  },
@@ -1766,7 +1778,8 @@
    "indirect-via-board",
    "mostly-skill",
    "full-information",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Boxes",
   "status": null,
@@ -1776,7 +1789,8 @@
    "indirect-via-board": "not checkable",
    "mostly-skill": "not checkable",
    "full-information": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/17106"
  },
@@ -1787,7 +1801,8 @@
    "direct-confrontation",
    "skill-with-luck-tempering",
    "deduction",
-   "war-and-conquest"
+   "war-and-conquest",
+   "take-turns"
   ],
   "game": "Battleship",
   "status": null,
@@ -1797,7 +1812,8 @@
    "direct-confrontation": "confirmed (Wargame)",
    "skill-with-luck-tempering": "not checkable",
    "deduction": "confirmed (Deduction)",
-   "war-and-conquest": "not checkable"
+   "war-and-conquest": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/2425"
  },
@@ -1808,7 +1824,8 @@
    "solo-in-parallel",
    "mostly-skill",
    "deduction",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Bulls & Cows",
   "status": null,
@@ -1818,7 +1835,8 @@
    "solo-in-parallel": "not checkable",
    "mostly-skill": "not checkable",
    "deduction": "confirmed (Deduction)",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/152641"
  },
@@ -1827,7 +1845,8 @@
   "elements": [
    "race-to-finish",
    "direct-confrontation",
-   "bluffing"
+   "bluffing",
+   "take-turns"
   ],
   "game": "Cheat",
   "status": null,
@@ -1835,7 +1854,8 @@
   "verdicts": {
    "race-to-finish": "not checkable",
    "direct-confrontation": "not checkable",
-   "bluffing": "confirmed (Bluffing)"
+   "bluffing": "confirmed (Bluffing)",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/15832"
  },
@@ -1847,7 +1867,8 @@
    "one-loser",
    "direct-confrontation",
    "chance-with-mitigation",
-   "hidden-hands"
+   "hidden-hands",
+   "no-turns"
   ],
   "game": "Spoons",
   "status": null,
@@ -1858,7 +1879,8 @@
    "one-loser": "not checkable",
    "direct-confrontation": "confirmed (Player Elimination)",
    "chance-with-mitigation": "not checkable",
-   "hidden-hands": "not checkable"
+   "hidden-hands": "not checkable",
+   "no-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/1692"
  },
@@ -1869,7 +1891,8 @@
    "indirect-via-board",
    "mostly-skill",
    "full-information",
-   "abstract"
+   "abstract",
+   "no-turns"
   ],
   "game": "SET",
   "status": null,
@@ -1879,7 +1902,8 @@
    "indirect-via-board": "not checkable",
    "mostly-skill": "not checkable",
    "full-information": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "no-turns": "confirmed (Real-Time)"
   },
   "bgg": "https://boardgamegeek.com/boardgame/1198"
  },
@@ -1888,7 +1912,8 @@
   "elements": [
    "rules-you-discover",
    "mostly-skill",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Eleusis",
   "status": null,
@@ -1896,7 +1921,8 @@
   "verdicts": {
    "rules-you-discover": "not checkable",
    "mostly-skill": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/5217"
  },
@@ -1906,7 +1932,8 @@
    "hand-management",
    "race-to-finish",
    "rules-you-discover",
-   "skill-with-luck-tempering"
+   "skill-with-luck-tempering",
+   "take-turns"
   ],
   "game": "Mao",
   "status": null,
@@ -1915,7 +1942,8 @@
    "hand-management": "confirmed (Hand Management)",
    "race-to-finish": "not checkable",
    "rules-you-discover": "not checkable",
-   "skill-with-luck-tempering": "not checkable"
+   "skill-with-luck-tempering": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/4213"
  },
@@ -1925,6 +1953,7 @@
    "change-the-rules",
    "most-points",
    "chance-with-mitigation",
+   "take-turns",
    "try-a-rule"
   ],
   "game": "Nomic",
@@ -1934,6 +1963,7 @@
    "change-the-rules": "not checkable",
    "most-points": "not checkable",
    "chance-with-mitigation": "not checkable",
+   "take-turns": "not checkable",
    "try-a-rule": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/14451"
@@ -1945,7 +1975,8 @@
    "shared-objective",
    "fully-cooperative",
    "attunement",
-   "hidden-hands"
+   "hidden-hands",
+   "no-turns"
   ],
   "game": "The Mind",
   "status": null,
@@ -1955,7 +1986,8 @@
    "shared-objective": "confirmed (Cooperative Game)",
    "fully-cooperative": "confirmed (Cooperative Game)",
    "attunement": "not checkable",
-   "hidden-hands": "not checkable"
+   "hidden-hands": "not checkable",
+   "no-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/244992"
  },
@@ -1963,14 +1995,16 @@
   "kind": "known game",
   "elements": [
    "no-objective",
-   "absurd"
+   "absurd",
+   "everyone-at-once"
   ],
   "game": "Consequences",
   "status": null,
   "result": "partly checkable, nothing against it",
   "verdicts": {
    "no-objective": "not checkable",
-   "absurd": "not checkable"
+   "absurd": "not checkable",
+   "everyone-at-once": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/17334"
  },
@@ -1981,7 +2015,8 @@
    "race-to-finish",
    "indirect-via-board",
    "mostly-skill",
-   "full-information"
+   "full-information",
+   "take-turns"
   ],
   "game": "Racetrack",
   "status": null,
@@ -1991,7 +2026,8 @@
    "race-to-finish": "not checkable",
    "indirect-via-board": "not checkable",
    "mostly-skill": "not checkable",
-   "full-information": "not checkable"
+   "full-information": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/18481"
  },
@@ -2002,7 +2038,8 @@
    "indirect-via-board",
    "mostly-skill",
    "full-information",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Sprouts",
   "status": null,
@@ -2012,7 +2049,8 @@
    "indirect-via-board": "not checkable",
    "mostly-skill": "not checkable",
    "full-information": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/7378"
  },
@@ -2022,7 +2060,8 @@
    "indirect-via-board",
    "mostly-skill",
    "full-information",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Hex",
   "status": null,
@@ -2031,7 +2070,8 @@
    "indirect-via-board": "not checkable",
    "mostly-skill": "not checkable",
    "full-information": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/4112"
  },
@@ -2041,7 +2081,8 @@
    "drawing-the-map",
    "direct-confrontation",
    "mostly-skill",
-   "full-information"
+   "full-information",
+   "take-turns"
   ],
   "game": "Paper soccer",
   "status": null,
@@ -2050,7 +2091,8 @@
    "drawing-the-map": "not checkable",
    "direct-confrontation": "not checkable",
    "mostly-skill": "not checkable",
-   "full-information": "not checkable"
+   "full-information": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/25432"
  },
@@ -2060,7 +2102,8 @@
    "direct-confrontation",
    "mostly-skill",
    "full-information",
-   "abstract"
+   "abstract",
+   "take-turns"
   ],
   "game": "Mu Torere",
   "status": null,
@@ -2069,7 +2112,8 @@
    "direct-confrontation": "not checkable",
    "mostly-skill": "not checkable",
    "full-information": "not checkable",
-   "abstract": "not checkable"
+   "abstract": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/13657"
  },
@@ -2078,7 +2122,8 @@
   "elements": [
    "direct-confrontation",
    "mostly-skill",
-   "full-information"
+   "full-information",
+   "take-turns"
   ],
   "game": "Aadu Puli Attam",
   "status": null,
@@ -2086,7 +2131,8 @@
   "verdicts": {
    "direct-confrontation": "not checkable",
    "mostly-skill": "not checkable",
-   "full-information": "not checkable"
+   "full-information": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/93204"
  },
@@ -2097,7 +2143,8 @@
    "race-to-finish",
    "direct-confrontation",
    "chance-with-mitigation",
-   "historical"
+   "historical",
+   "take-turns"
   ],
   "game": "The Royal Game of Ur",
   "status": null,
@@ -2107,7 +2154,8 @@
    "race-to-finish": "confirmed (Race)",
    "direct-confrontation": "not checkable",
    "chance-with-mitigation": "not checkable",
-   "historical": "not checkable"
+   "historical": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/1602"
  },
@@ -2118,7 +2166,8 @@
    "race-to-finish",
    "direct-confrontation",
    "chance-with-mitigation",
-   "mortality-and-loss"
+   "mortality-and-loss",
+   "take-turns"
   ],
   "game": "Senet",
   "status": null,
@@ -2128,7 +2177,8 @@
    "race-to-finish": "confirmed (Race)",
    "direct-confrontation": "not checkable",
    "chance-with-mitigation": "not checkable",
-   "mortality-and-loss": "not checkable"
+   "mortality-and-loss": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/2399"
  },
@@ -2138,7 +2188,8 @@
    "set-collection",
    "one-loser",
    "team-vs-team",
-   "one-knows-cannot-say"
+   "one-knows-cannot-say",
+   "no-turns"
   ],
   "game": "Kemps",
   "status": null,
@@ -2147,7 +2198,8 @@
    "set-collection": "confirmed (Set Collection)",
    "one-loser": "not checkable",
    "team-vs-team": "confirmed (Team-Based Game)",
-   "one-knows-cannot-say": "not checkable"
+   "one-knows-cannot-say": "not checkable",
+   "no-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/10716"
  },
@@ -2158,7 +2210,8 @@
    "race-to-finish",
    "direct-confrontation",
    "skill-with-luck-tempering",
-   "hidden-hands"
+   "hidden-hands",
+   "take-turns"
   ],
   "game": "Cuttle",
   "status": null,
@@ -2168,7 +2221,8 @@
    "race-to-finish": "confirmed (Race)",
    "direct-confrontation": "confirmed (Take That)",
    "skill-with-luck-tempering": "not checkable",
-   "hidden-hands": "not checkable"
+   "hidden-hands": "not checkable",
+   "take-turns": "not checkable"
   },
   "bgg": "https://boardgamegeek.com/boardgame/115370"
  }

@@ -1,0 +1,67 @@
+accelerated+roll-and-move | Rolls and moves come faster as the game goes on. | Builds excitement. | Strong finish. | Late rolls get careless. | Hard to follow at the end.
+accelerated+drafting | Picks get faster each round, with less time to look. | Rising pressure. | Strong finish. | Late picks rushed. | Slow readers struggle.
+accelerated+bidding | Bidding speeds up as the game goes on. | Rising tension. | Exciting finish. | Rushed late bids. | Chaotic.
+accelerated+push-your-luck | Decisions to push come faster and faster. | Rising tension. | Exciting. | Panic. | Careless pushes.
+accelerated+area-control | Moves on the map come faster as the game goes on. | Exciting end game. | Pressure builds. | Rushed late moves. | Hard to follow.
+accelerated+worker-placement | Placements speed up each round. | Rising pressure. | Exciting. | Rushed. | Mistakes.
+accelerated+pattern-building | Pieces arrive faster and faster, as in Tetris. | Rising excitement. | Clear arc. | Overwhelming. | Mistakes pile up.
+accelerated+hand-management | Cards have to be played faster each round. | Rising tension. | Exciting. | Rushed. | Hand gets forgotten.
+accelerated+trick-taking | Tricks get faster as the hand goes on. | Exciting. | Builds. | Rushed. | Mistakes.
+accelerated+negotiation | Bargaining speeds up as time runs out. | Urgent. | Exciting. | Poor deals. | Chaotic.
+accelerated+set-collection | Collecting speeds up towards the end. | Exciting finish. | Rising pressure. | Rushed. | Missed sets.
+accelerated+tile-placement | Tiles come faster as the game goes on. | Exciting. | Builds. | Messy maps. | Overwhelming.
+accelerated+call-and-response | Calls and answers come faster and faster. | Exciting. | Fun. | Players drop out. | Chaotic.
+accelerated+playing-in-silence | Silent play that speeds up over time. | Tense. | Absorbing. | Overwhelming. | Mistakes.
+accelerated+change-the-rules | Rules change faster as the game goes on. | Lively. | Exciting. | Chaotic. | Hard to keep up.
+accelerated+role-play | Scenes speed up towards a climax. | Dramatic. | Exciting. | Rushed acting. | Hard to follow.
+accelerated+dexterity | Physical moves have to get faster as the game goes on. | Exciting. | Fun. | Fumbles. | Stress.
+accelerated+drawing-the-map | The map has to be drawn faster and faster. | Exciting. | Lively. | Messy. | Rushed.
+accelerated+race-to-finish | A race that speeds up towards the finish. | Thrilling end. | Clear arc. | Speed beats thought. | Slow players fall behind.
+accelerated+most-points | Points come faster towards the end. | Exciting finish. | Comebacks possible. | Early points count for less. | Rushed.
+accelerated+last-standing | Elimination speeds up as the game goes on. | Thrilling. | Short end game. | Chaotic. | Harsh.
+accelerated+cooperative-survival | The threat comes faster and faster. | Rising tension. | Exciting. | Overwhelming. | Panic.
+accelerated+shared-objective | The team has to work faster as time goes on. | Exciting teamwork. | Rising pressure. | Stress. | Rushed.
+accelerated+hidden-personal-goal | Play speeds up while players chase secret goals. | Tense. | Exciting. | Rushed. | Goals slip.
+accelerated+narrative-completion | The story speeds up towards its climax. | Dramatic arc. | Exciting. | Rushed ending. | Hard to follow.
+accelerated+no-objective | Play speeds up with nothing to win. | Lively. | Fun. | Pressure without purpose. | Odd.
+accelerated+set-your-own-goal | Players chase their goals faster as the game goes on. | Exciting. | Lively. | Rushed. | Hard to compare.
+accelerated+one-loser | Play speeds up until someone slips and loses. | Tense. | Clear end. | Stressful. | Harsh.
+accelerated+keep-the-game-going | Play speeds up, yet the aim is to keep going as long as possible. | Tense. | Absorbing. | Exhausting. | Ends in collapse.
+accelerated+cannot-be-won | Play speeds up in a game nobody can win, until it breaks down. | Powerful arc. | Reflective after. | Stressful. | Hard to engage.
+accelerated+solo-in-parallel | Everyone's own game speeds up at the same pace. | Fair. | Exciting. | Little interaction. | Stress.
+accelerated+direct-confrontation | Attacks come faster as the game goes on. | Thrilling. | Exciting. | Chaotic. | Speed beats strategy.
+accelerated+indirect-via-board | Board changes speed up over time. | Lively. | Exciting. | Hard to follow. | Rushed.
+accelerated+fully-cooperative | The team has to act faster and faster together. | Exciting. | Rising teamwork. | Stress. | Mistakes.
+accelerated+semi-cooperative | Choices to help or betray come faster. | Tense. | Exciting. | Rushed trust. | Chaotic.
+accelerated+team-vs-team | Team play speeds up towards the end. | Exciting. | Rising energy. | Chaotic. | Arguments.
+accelerated+traitor | Play speeds up while the traitor hides. | Tense. | Exciting. | Hard to spot. | Rushed.
+accelerated+playing-by-letter | Letters come more often as the game goes on. | Builds. | Exciting. | Hard to keep up. | Drop-outs.
+accelerated+absent-player | The absent player acts more and more often. | Rising presence. | Tense. | Overwhelming. | Odd.
+accelerated+game-master | The game master quickens the pace towards a climax. | Dramatic. | Exciting. | Rushed. | Some get left behind.
+accelerated+public-game | A public game that speeds up as more people join. | Lively. | Exciting. | Chaotic. | Newcomers lost.
+accelerated+mostly-chance | Rolls come faster and faster. | Exciting. | Simple. | Few choices. | Chaos.
+accelerated+chance-with-mitigation | Less and less time to soften unlucky rolls. | Rising tension. | Exciting. | Rushed. | Mistakes.
+accelerated+skill-with-luck-tempering | Planning gets harder as play speeds up. | Exciting. | Builds. | Rushed. | Luck adds stress.
+accelerated+mostly-skill | A game of skill that speeds up as it goes, like blitz chess at the end. | Thrilling. | Rewards quick thought. | Depth suffers. | Stress.
+accelerated+chance-read-as-a-sign | Signs appear faster and faster. | Lively. | Exciting. | Shallow readings. | Rushed.
+accelerated+attunement | Players have to sense each other faster as the game goes on. | Thrilling connection. | Exciting. | Hard. | Breaks down.
+accelerated+dice-tell-the-story | The story speeds up with each roll. | Dramatic. | Exciting. | Rushed. | Hard to follow.
+accelerated+full-information | Everything visible, with less and less time to study it. | Exciting. | Builds. | Depth suffers. | Stress.
+accelerated+hidden-hands | Play from hidden hands speeds up. | Tense. | Exciting. | Mistakes. | Rushed.
+accelerated+hidden-identity | Play speeds up while players hide who they are. | Tense. | Exciting. | Few clues. | Rushed.
+accelerated+deduction | Clues come faster and faster. | Exciting. | Builds. | Rushed reasoning. | Stress.
+accelerated+bluffing | Claims and challenges come faster. | Exciting. | Lively. | Rushed bluffs. | Chaotic.
+accelerated+rules-you-discover | Play speeds up as players learn the rules. | Rewards learning. | Exciting. | Rushed. | Confusing.
+accelerated+one-knows-cannot-say | Hints and guesses speed up. | Exciting. | Fun. | Rushed hints. | Chaotic.
+accelerated+map-revealed-as-you-go | The map opens faster and faster. | Exciting. | Builds. | Overwhelming. | Missed paths.
+accelerated+model-a-system | The modelled system speeds up, as crises do. | Realistic pressure. | Exciting. | Overwhelming. | Stress.
+accelerated+stakeholder-roles | Stakeholders have to decide faster as events speed up. | Realistic. | Tense. | Rushed. | Quiet roles lose.
+accelerated+shared-resource | Demand on the shared resource speeds up. | Shows how depletion speeds up. | Tense. | Collapse. | Harsh lesson.
+accelerated+delayed-effects | Effects arrive faster as the game goes on. | Clear arc. | Exciting. | Overwhelming. | Hard to learn.
+accelerated+try-a-rule | Rule tests speed up. | Fast results. | Exciting. | Rushed. | Shallow.
+accelerated+debrief | A debrief with less time for each person. | Quick. | Focused. | Rushed. | Shallow.
+accelerated+irreversible-change | Permanent changes come faster and faster. | Dramatic. | Exciting. | Regret. | Chaotic.
+accelerated+rules-make-an-argument | The speeding up is part of the point the rules make. | Shows acceleration in the world. | Clear message. | Stressful. | Rushed.
+accelerated+stakes-outside-the-game | Real stakes, decided faster and faster. | Intense. | Exciting. | Stressful. | Rushed.
+accelerated+points-stand-for-values | Value trade-offs come faster as play speeds up. | Shows how speed changes priorities. | Tense. | Rushed. | Values blur.
+accelerated+rehearse-a-future | A future rehearsed at a quickening pace. | Realistic. | Exciting. | Rushed. | Stress.

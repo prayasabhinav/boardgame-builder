@@ -1,15 +1,15 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.9.3-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.10.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![No AI at runtime](https://img.shields.io/badge/AI%20at%20runtime-none-555555?style=flat-square)](#how-the-feedback-is-made)
 [![No analytics](https://img.shields.io/badge/analytics-none-555555?style=flat-square)](#privacy)
 [![No login](https://img.shields.io/badge/login-none-555555?style=flat-square)](https://boardgame.blevn.xyz)
-[![Blocks](https://img.shields.io/badge/blocks-80%20%2B%2015%20feelings-c75b39?style=flat-square)](#the-blocks)
-[![Coverage](https://img.shields.io/badge/two--block%20combinations%20with%20feedback-2924%20of%202924-c75b39?style=flat-square)](#checks)
+[![Blocks](https://img.shields.io/badge/blocks-86%20%2B%2015%20feelings-c75b39?style=flat-square)](#the-blocks)
+[![Coverage](https://img.shields.io/badge/two--block%20combinations%20with%20feedback-3419%20of%203419-c75b39?style=flat-square)](#checks)
 [![Example games](https://img.shields.io/badge/example%20games-checked%20against%20BoardGameGeek-ff5100?style=flat-square)](#example-games)
 [![Docker](https://img.shields.io/badge/docker-ready-2496ed?style=flat-square&logo=docker&logoColor=white)](#run-it-with-docker)
 
@@ -47,7 +47,7 @@ A small browser tool for designing a board game by putting blocks together and r
 
 The screen has three columns.
 
-- **Left: the palette.** Seven groups of blocks for the parts of a game, and a set of feelings.
+- **Left: the palette.** Eight groups of blocks for the parts of a game, and a set of feelings.
 - **Centre: the canvas.** A shelf for the feelings you want the game to have, and one slot for each group of blocks.
 - **Right: the feedback.** Each press of **Iterate** reads the canvas and says what the combination tends to produce, what it brings, its trade-offs, any clash between blocks, whether the blocks serve the feelings you picked, and real games built on something similar where one has been checked.
 
@@ -80,7 +80,8 @@ It works for one person on a laptop and for a group around one big screen.
 | Chance or skill | mostly chance, chance with mitigation, skill with luck, mostly skill, chance read as a sign, attunement, dice tell the story | one |
 | Theme | abstract, historical, fantasy, science fiction, everyday life, absurd, educational, real-world issue, poetic, ritual or sacred, mortality and loss, war and conquest | one |
 | Information visibility | full information, hidden hands, hidden identity, deduction, bluffing, rules you discover, one knows, cannot say, map revealed as you go | one |
-| Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, real-time span, rules make an argument, stakes outside the game, points stand for values, rehearse a future | many |
+| Timing | take turns, everyone at once, no turns, timed turns, real-time span, sedated, accelerated | many |
+| Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, rules make an argument, stakes outside the game, points stand for values, rehearse a future | many |
 
 Fourteen of the blocks, from role-play to rehearse a future, come from ideas of Dhruv Jani's; the wiki credits him on each of their entries. Where each of the 31 blocks added on 16 October 2026 came from, with references checked against Crossref, is in [`docs/block-sources.md`](docs/block-sources.md).
 
@@ -124,7 +125,7 @@ The judgement (which blocks work together, what they tend to produce, what clash
 The knowledge base has two parts:
 
 - **`interactions.json`, the curated part:** 51 pairs, 15 triads, 5 conflicts and 15 feelings, each with a tendency, pros, cons and, where checked, example games. It was assembled in April 2026 with Perplexity search and BoardGameGeek, then checked again in October 2026 (see [Example games](#example-games)).
-- **`interactions-drafted.json`, the drafted part:** 2,058 more pairs so that every combination of blocks has an entry, a line for each of the 12 themes, and a judgement for every feeling against every block (supports, works against, or neither). Every drafted entry is marked `drafted-20261016-unreviewed`, names no games, and loads after the curated ones, so a curated entry is always found first.
+- **`interactions-drafted.json`, the drafted part:** 2,481 more pairs so that every combination of blocks has an entry, a line for each of the 12 themes, and a judgement for every feeling against every block (supports, works against, or neither). Every drafted entry is marked `drafted-20261016-unreviewed`, names no games, and loads after the curated ones, so a curated entry is always found first.
 
 Themes are treated as colour, not mechanics: each theme has one line about what it adds, and themes are not paired with other blocks.
 
@@ -196,7 +197,7 @@ Every entry in the knowledge base is also on a public wiki, https://boardgame-wi
 python check.py
 ```
 
-`check.py` builds every possible two-block canvas (2,924 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (43,860 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version.
+`check.py` builds every possible two-block canvas (3,419 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (51,285 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version.
 
 ## Files
 

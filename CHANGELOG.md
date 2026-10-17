@@ -4,6 +4,15 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.10.0 — 17 October 2026
+
+- A new group of blocks, **Timing**: when and how fast players act. Take turns, everyone at once, no turns, timed turns, real-time span (moved here from Simulation), sedated and accelerated. A design can stack several, such as taking turns against a clock.
+- 423 new drafted pair entries, so every combination with a Timing block has feedback (3,419 two-block canvases, all covered), and every feeling is judged against each new block.
+- Every known game names its Timing. Set is confirmed against BoardGameGeek's "Real-Time" tag.
+- A design saved before this version keeps real-time span: it moves from Simulation to Timing when the design is opened.
+- The April note on feelings named a *timers* block that did not exist; it now names *timed turns*.
+- 3 Quarters' rules now settle where a piece goes, what the die turns, which circles count and who takes the penalty, as I decided them on 17 October 2026.
+
 ## 0.9.3 — 17 October 2026
 
 - Every button in the tool has one type, size and height; *Watch it and answer* had been taking the page's body type, and link-buttons its link colour.

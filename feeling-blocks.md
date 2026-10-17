@@ -25,13 +25,13 @@ Colour family: Red / coral (all feeling-blocks share a colour to visually separa
 | **excited** | Loud table. Big swings. You can't look away. | push-your-luck, direct-confrontation, race, dice | solo-in-parallel, mostly-skill, long turns |
 | **clever** | You feel smart when you play well. Your choices matter. | mostly-skill, hand-management, full-information | mostly-chance, random-draw |
 | **silly** | Laughing at what just happened. Absurd moments. | absurd theme, direct-confrontation, push-your-luck, bluffing | abstract theme, mostly-skill, long turns |
-| **tense** | You're on edge. Something could go wrong any moment. | push-your-luck, hidden-identity, cooperative-survival, timers | full-information, mostly-skill race |
+| **tense** | You're on edge. Something could go wrong any moment. | push-your-luck, hidden-identity, cooperative-survival, timed turns | full-information, mostly-skill race |
 | **together** | You and your friends are in it as one. Shared fate. | fully-cooperative, team-vs-team, shared-objective | direct-confrontation, last-standing, traitor |
 | **sneaky** | Hiding things, tricking people, secret plans. | hidden-hands, hidden-identity, bluffing, traitor | full-information, fully-cooperative |
 | **lucky** | The dice or the draw felt magical. You got away with it. | mostly-chance, push-your-luck, dice-rolling | mostly-skill, full-information |
 | **in charge** | You're directing something. Deep decisions have weight. | worker-placement, area-control, hand-management | roll-and-move, mostly-chance |
 | **surprised** | Something unexpected keeps happening. | hidden-hands, chance-with-mitigation, narrative-completion | full-information, mostly-skill |
-| **thoughtful** | You sit back and think. Time to plan. | mostly-skill, worker-placement, full-information | push-your-luck, direct-confrontation, timers |
+| **thoughtful** | You sit back and think. Time to plan. | mostly-skill, worker-placement, full-information | push-your-luck, direct-confrontation, timed turns |
 | **fast** | The game moves. Short turns, quick rounds. | drafting, trick-taking, roll-and-move, push-your-luck | worker-placement, negotiation |
 | **unfair (in a fun way)** | Someone got wrecked. Everyone laughed. Including them. | direct-confrontation, take-that, traitor, last-standing | fully-cooperative, shared-objective |
 | **careful** | One wrong move and you're in trouble. Precision matters. | cooperative-survival, hidden-hands cooperation, worker-placement | push-your-luck, mostly-chance |
@@ -97,3 +97,5 @@ These are grounding questions, not spec questions. Decide after the workshops.
 ---
 
 *Next: `interactions-draft.json` via clustered Perplexity generation (pending MCP reconnect) or training-knowledge generation flagged as unverified.*
+
+*Note, 17 October 2026: "timers" in the table above named a block that did not exist yet. It became **timed turns**, one of the seven blocks in the Timing group added that day, and the table now uses its name.*

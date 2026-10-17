@@ -1,0 +1,67 @@
+no-turns+roll-and-move | Players roll and move as fast as they can, with no waiting. | Frantic energy. | No one waits. | Easy to cheat by accident. | Hard to follow.
+no-turns+drafting | Players grab cards from a shared pool as fast as they can. | Fast, physical picking. | Quick reactions rewarded. | Slow players get leftovers. | Disputes over who grabbed first.
+no-turns+bidding | Bids are shouted out at any moment until nobody tops them, like an auction room. | Exciting bidding. | Fast rounds. | Loud players dominate. | Hard to hear every bid.
+no-turns+push-your-luck | Players push on whenever they like, racing each other to stop in time. | Racing tension. | No waiting. | Hard to see others. | Panic choices.
+no-turns+area-control | Players place pieces whenever they like, rushing to claim areas. | Fast and frantic. | Rewards quick thinking. | Slow players lose out. | Hard to keep order.
+no-turns+worker-placement | Players grab spots as fast as they can, first hand wins. | Exciting rushes. | Quick decisions. | Disputes over who was first. | Slow players lose every spot.
+no-turns+pattern-building | Players race to complete their patterns at the same time. | Fast and engaging. | Everyone busy. | Hard to check patterns. | Rushed mistakes.
+no-turns+hand-management | Players play from hand whenever they like, as fast as they can. | Lively and fast. | No waiting. | Hard to track plays. | Quick players dominate.
+no-turns+trick-taking | Cards go into the trick as fast as players can throw them. | Chaotic fun. | Very fast. | Order of play is lost. | Arguments.
+no-turns+negotiation | Players bargain with anyone at any moment, in an open market. | Lively trading. | Deals happen anywhere. | Loud players dominate. | Hard to track deals.
+no-turns+set-collection | Players grab and swap cards whenever they like to build sets, as in Spoons. | Fast and physical. | Constant action. | Disputes over grabs. | Slow players lose.
+no-turns+tile-placement | Players race to place tiles on their maps as fast as they can. | Exciting and quick. | Everyone busy. | Messy maps. | Hard to check.
+no-turns+call-and-response | Anyone may answer the call at any moment; the quickest answer counts. | Lively. | Rewards quick wit. | Quiet players get left out. | Answers clash.
+no-turns+playing-in-silence | Players act whenever they sense the moment, without speaking, as in The Mind. | Deep focus. | A shared sense of time. | Very hard at first. | Frustrating mistakes.
+no-turns+change-the-rules | Anyone may change a rule at any moment. | Fast-changing game. | Lively. | Chaotic. | Hard to know the current rules.
+no-turns+role-play | Characters act and speak whenever they like, as in live role-play. | Immersive and natural. | No waiting for a turn. | Loud characters dominate. | Hard to follow every scene.
+no-turns+dexterity | Everyone flicks, stacks or grabs at once, whenever they can. | Frantic and funny. | Physical energy. | Collisions. | Hard to judge.
+no-turns+drawing-the-map | Everyone draws on the map at any moment. | Fast and messy. | Lively. | Lines collide. | Hard to read.
+no-turns+race-to-finish | Players race to finish as fast as they can, in real time. | Exciting. | No waiting. | Speed beats thought. | Slow players have no chance.
+no-turns+most-points | Players score points as fast as they can before time runs out. | Frantic scoring. | Clear goal. | Rushed play. | Speed decides more than choices.
+no-turns+last-standing | Players act whenever they like, knocking each other out in real time. | Thrilling. | Fast elimination. | Chaotic. | Out players wait.
+no-turns+cooperative-survival | The team acts in real time against a threat that keeps coming. | Tense teamwork. | Exciting. | Stressful. | Hard to coordinate.
+no-turns+shared-objective | Everyone works towards the shared goal at their own speed. | Lively teamwork. | Everyone helps. | Disorganised. | Duplicate work.
+no-turns+hidden-personal-goal | Players chase secret goals in real time. | Fast and tense. | Hard to read. | Chaotic. | Little time to watch others.
+no-turns+narrative-completion | Anyone adds to the story at any moment. | Lively story. | Natural flow. | Loud players dominate. | Story can wander.
+no-turns+no-objective | Players do as they like with nothing to win. | Playful and free. | Relaxed. | Can feel aimless. | No shape.
+no-turns+set-your-own-goal | Players chase their own chosen goals at their own speed. | Freedom. | No waiting. | Little interaction. | Hard to compare.
+no-turns+one-loser | Everyone acts at their own speed, and the slowest or the one who slips loses. | Tense. | Fast. | Speed decides. | Harsh on slower players.
+no-turns+keep-the-game-going | Players act whenever they like to keep the game alive. | Flowing play. | Easy to join. | No shape. | Can fizzle.
+no-turns+cannot-be-won | Players act freely in a game that cannot be won. | Freedom to explore. | No pressure. | Aimless. | Hard to engage.
+no-turns+solo-in-parallel | Everyone plays their own game at their own speed. | No waiting. | Calm or fast as you like. | Little interaction. | Feels separate.
+no-turns+direct-confrontation | Players attack whenever they like, in real time. | Thrilling fights. | Quick reactions. | Chaotic. | Speed beats strategy.
+no-turns+indirect-via-board | Players change the board whenever they like. | Lively board. | Fast. | Hard to follow changes. | Collisions.
+no-turns+fully-cooperative | The team acts in real time with no turns. | Energetic teamwork. | Everyone busy. | Hard to coordinate. | Mistakes.
+no-turns+semi-cooperative | Players help or betray at any moment. | Tense. | Fast trust decisions. | Hard to track who did what. | Chaotic.
+no-turns+team-vs-team | Teams act in real time against each other. | Exciting. | Teamwork under pressure. | Chaotic. | Loud teams dominate.
+no-turns+traitor | Everyone acts at once, and the traitor hides in the rush. | Traitor hides easily. | Tense. | Hard to spot the traitor. | Few clues.
+no-turns+playing-by-letter | Players send moves whenever they like, without waiting for replies. | Flexible. | Fits busy lives. | Confusing order of moves. | Hard to follow.
+no-turns+absent-player | The absent player's actions arrive at any moment, unannounced. | Surprising. | Keeps players alert. | Can feel random. | Hard to plan.
+no-turns+game-master | Players act whenever they like and the game master answers on the fly. | Lively story. | Natural flow. | Heavy work for the master. | Some players get more attention.
+no-turns+public-game | Passers-by join and act whenever they like. | Lively. | Open to all. | Chaotic. | Hard to keep track.
+no-turns+mostly-chance | Players roll or draw as fast as they can, and luck decides. | Fast and fun. | Exciting. | Few decisions. | Chaos.
+no-turns+chance-with-mitigation | Players roll as fast as they can and soften unlucky rolls on the fly. | Fast decisions. | Exciting. | Rushed. | Hard to track.
+no-turns+skill-with-luck-tempering | Players act at their own speed with some luck along the way. | Lively. | Rewards quick thinking. | Rushed. | Luck under pressure.
+no-turns+mostly-skill | Players act whenever they like in a game of skill, so speed of thought counts. | Rewards quick thinking. | Exciting. | Slower thinkers struggle. | Hard to follow.
+no-turns+chance-read-as-a-sign | Signs appear at any moment and players read them on the fly. | Lively. | Surprising. | Hard to reflect. | Readings get lost.
+no-turns+attunement | Players act when they sense the moment is right, with no turns to guide them, as in The Mind. | Deep connection. | Rewarding. | Hard for new groups. | Frustrating at first.
+no-turns+dice-tell-the-story | Players roll whenever they like and the story grows in bursts. | Lively. | Surprising. | Hard to follow. | Chaotic story.
+no-turns+full-information | Everything is visible and players race to act on it, as in Set. | Fair speed contest. | Exciting. | Speed matters more than depth. | Slower players lose.
+no-turns+hidden-hands | Players play hidden cards whenever they like. | Fast. | Tense. | Hard to read others. | Chaotic.
+no-turns+hidden-identity | Players act freely while hiding who they are. | Hidden roles blend in. | Tense. | Few clues. | Hard to deduce.
+no-turns+deduction | Players race to solve the puzzle first. | Exciting. | Rewards quick minds. | Slower thinkers lose. | Less reasoning shared.
+no-turns+bluffing | Players claim and challenge at any moment. | Lively. | Fast. | Hard to follow claims. | Chaotic.
+no-turns+rules-you-discover | Players try things whenever they like and learn the rules from the chaos. | Lively learning. | Fast. | Hard to see what caused what. | Confusing.
+no-turns+one-knows-cannot-say | The knower hints and anyone may shout a guess at any moment. | Lively guessing. | Fast. | Loud guessers dominate. | Hard to judge.
+no-turns+map-revealed-as-you-go | Players explore at their own speed and the map opens in many places. | Fast discovery. | Exciting. | Uneven. | Hard to follow.
+no-turns+model-a-system | Players act on the model whenever they like, as in real life. | Realistic. | Lively. | Hard to trace causes. | Chaotic.
+no-turns+stakeholder-roles | Stakeholders act whenever they choose, without a fixed order. | Realistic power dynamics. | Lively. | Loud roles dominate. | Quiet roles lose out.
+no-turns+shared-resource | Everyone takes from the shared resource as fast as they can. | Shows a rush on resources. | Tense. | Resource collapses fast. | Harsh lesson.
+no-turns+delayed-effects | Players act freely and the effects arrive later, all mixed together. | Realistic. | Surprising. | Hard to learn from. | Confusing.
+no-turns+try-a-rule | Players test a rule freely, at their own pace. | Fast experiments. | Lively. | Hard to compare. | Messy.
+no-turns+debrief | Players share reflections whenever they want, in open talk. | Natural conversation. | Lively. | Quiet voices get lost. | Unfocused.
+no-turns+irreversible-change | Players make permanent changes at any moment. | Dramatic. | Fast. | Chaotic. | Regret.
+no-turns+rules-make-an-argument | The rules make their point through free, real-time play. | Realistic. | Lively. | Argument can be lost. | Hard to see.
+no-turns+stakes-outside-the-game | Real stakes, decided in real time. | Intense. | Fast. | Stressful. | Rushed choices with real cost.
+no-turns+points-stand-for-values | Players chase points standing for values as fast as they can. | Shows how pressure changes priorities. | Lively. | Values can blur. | Rushed.
+no-turns+rehearse-a-future | Players act out a future freely, as events might unfold. | Realistic. | Lively. | Hard to follow. | Unfocused.

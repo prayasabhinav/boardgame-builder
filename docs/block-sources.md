@@ -22,7 +22,7 @@ A source here says where an idea came from. It is not a claim that the source en
 - **rules you discover**: card games such as *Mao*, where newcomers learn the rules by breaking them.
 - **one knows, cannot say**: *Mysterium*.
 - **irreversible change**: legacy board games (Katsantonis, 2025).
-- **real-time span**: *The Longing*, a game that runs on real time (Ensslin, Aksay and Richter, 2026).
+- **real-time span**: *The Longing*, a game that runs on real time (Ensslin, Aksay and Richter, 2026). Moved to the Timing group on 17 October 2026.
 
 ## Fourteen blocks from Dhruv Jani's ideas
 
@@ -100,3 +100,14 @@ These surfaced in the searches behind the blocks and have no Crossref record tha
 - Davies, H. (2022). Omikuji: An interactive installation exploring East Asian games of divination.
 - Social ritual and religion in ancient Egyptian board games (2015).
 - A DiGRA paper on lyric games (2020).
+
+## Timing, added 17 October 2026
+
+The Timing group gathers when and how fast players act. I asked whether pace was a missing category, chose the name Timing, and added *sedated* and *accelerated*; *real-time span* moved here from Simulation. The April notes on feelings had already named a block called *timers*, which this group makes real as *timed turns*.
+
+- **take turns**: the turn order of most board games.
+- **everyone at once**: simultaneous action selection, as BoardGameGeek calls it; *7 Wonders*, where every player picks a card at the same moment.
+- **no turns**: real-time play, as BoardGameGeek calls it; *Set*.
+- **timed turns**: *3 Quarters* (Prayas Abhinav, 2022), where every move has 20 seconds.
+- **sedated**: my word for play slowed down on purpose.
+- **accelerated**: my word for play that speeds up as it goes; *Tetris*, where pieces fall faster at every level.

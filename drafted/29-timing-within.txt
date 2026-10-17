@@ -1,0 +1,21 @@
+take-turns+everyone-at-once | Some moments go round the table in order and others are chosen by everyone at once, as in Werewolf's talk and vote. | Each phase has its own rhythm. | Order where it helps, surprise where it counts. | Players have to learn when each applies. | The switch can confuse.
+take-turns+no-turns | The game moves between ordered turns and free-for-all moments. | Calm phases and frantic ones. | Variety of pace. | Hard to explain. | Players miss the change.
+take-turns+timed-turns | Turns go in order, each with a clock. | Keeps every turn moving. | Fair to all. | Pressure on slow players. | The clock can feel like a nag.
+take-turns+real-time-span | Turns go in order, but each one is a day or a week apart. | Time to think. | Fits busy lives. | Very slow. | Players forget the game.
+take-turns+sedated | Turns go in order, slowed down on purpose. | Calm. | Thoughtful. | Slow. | Restless players.
+take-turns+accelerated | Turns go in order but get faster as the game goes on. | Builds excitement. | Clear arc. | Late turns are rushed. | Stress at the end.
+everyone-at-once+no-turns | Some moments everyone reveals together; others are open to whoever is quickest. | Varied pace. | Lively. | Confusing. | Hard to explain.
+everyone-at-once+timed-turns | Everyone chooses at once before the clock runs out. | Fast. | Fair. | Rushed choices. | Stress.
+everyone-at-once+real-time-span | Everyone sends a choice by a set day, and all are revealed together. | Fair rounds over time. | Fits busy lives. | Slow. | Players drift away.
+everyone-at-once+sedated | Everyone chooses at once, after a long pause to think. | Thoughtful. | Calm reveal. | Slow. | Little energy.
+everyone-at-once+accelerated | Everyone chooses at once, with less time each round. | Rising tension. | Exciting reveals. | Rushed. | Mistakes.
+no-turns+timed-turns | Free play within a timed round: act as often as you like until the time is up. | Frantic and bounded. | Clear end to each round. | Chaotic. | Stress.
+no-turns+real-time-span | Players act whenever they like over days or weeks. | Flexible. | Fits busy lives. | Hard to follow. | Uneven play.
+no-turns+sedated | No turns, but everyone moves slowly and deliberately, as in The Mind. | Tense calm. | Deep focus. | Slow. | Hard to start.
+no-turns+accelerated | Free play that speeds up as the game goes on. | Exciting. | Thrilling end. | Chaotic. | Overwhelming.
+timed-turns+real-time-span | Each turn has a real deadline, such as a move by tomorrow. | Keeps the game alive. | Fair. | Players miss deadlines. | Pressure over days.
+timed-turns+sedated | Each turn has a long, generous clock that slows the game down. | Calm. | Time to think. | Slow. | Little pressure.
+timed-turns+accelerated | The clock for each turn gets shorter as the game goes on. | Rising tension. | Clear arc. | Stress. | Rushed end.
+real-time-span+sedated | A game spread over real days and slowed further on purpose. | Deep reflection. | Fits slow living. | Very slow. | Hard to keep going.
+real-time-span+accelerated | A game over real days in which moves come more often as it goes on. | Builds over weeks. | Exciting end. | Hard to keep up. | Drop-outs.
+sedated+accelerated | The game starts slow and calm, then speeds up. | Clear arc from calm to rush. | Strong finish. | Hard to judge the change. | Some prefer one pace.

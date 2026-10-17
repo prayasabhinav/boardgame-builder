@@ -1,0 +1,67 @@
+timed-turns+roll-and-move | Players have a few seconds to roll and move before the turn passes. | Keeps the game moving. | Adds light pressure. | Little time to choose between paths. | Fumbled rolls waste the turn.
+timed-turns+drafting | Each pick has a time limit, so players choose under pressure. | Quick drafts. | Instinct over study. | Rushed picks. | Slow readers struggle.
+timed-turns+bidding | Each bid has to come before the clock runs out. | Tense, fast auctions. | No stalling. | Rushed valuations. | Slow players miss bids.
+timed-turns+push-your-luck | Players decide whether to push before time runs out. | Tense. | Fast decisions. | Panic pushes. | Little time to weigh odds.
+timed-turns+area-control | Each placement has a time limit. | Keeps the map moving. | Pressure on planners. | Rushed, weak moves. | Slow thinkers lose.
+timed-turns+worker-placement | Players have to claim a spot before the timer ends. | Fast rounds. | Pressure. | Missed spots. | Stress for slow players.
+timed-turns+pattern-building | Players add to their patterns under a clock, as in 3 Quarters. | Tense building. | Quick thinking. | Mistakes. | Little planning.
+timed-turns+hand-management | Each card has to be chosen before time runs out. | Fast play. | Pressure on choices. | Rushed choices. | Hand gets forgotten.
+timed-turns+trick-taking | Each card into the trick has a time limit. | Fast tricks. | Tension. | Rushed reading of cards. | Mistakes.
+timed-turns+negotiation | Deals have to be struck before the clock runs out. | Urgent bargaining. | No endless talk. | Poor deals under pressure. | Loud players dominate.
+timed-turns+set-collection | Players have limited time to pick for their sets. | Fast. | Tense. | Rushed picks. | Missed sets.
+timed-turns+tile-placement | Each tile has to be placed before the timer ends. | Keeps play moving. | Pressure. | Messy maps. | Poor placements.
+timed-turns+call-and-response | Each answer has to come within a few seconds, before the others finish counting. | Tense, lively. | Rewards quick wit. | Shy players freeze. | Pressure.
+timed-turns+playing-in-silence | Players act silently within a time limit. | Focused. | Tense silence. | Stressful. | Mistakes.
+timed-turns+change-the-rules | Rule changes have to be proposed within a time limit. | Quick changes. | No long debates. | Poorly thought-out rules. | Rushed.
+timed-turns+role-play | Characters have to act or speak before the time runs out. | Keeps scenes moving. | Energetic. | Rushed acting. | Shallow characters.
+timed-turns+dexterity | Each flick or stack has a few seconds. | Tense. | Fun. | Shaky hands. | Fumbles.
+timed-turns+drawing-the-map | Each addition to the map has a time limit. | Fast maps. | Energy. | Messy drawings. | Rushed.
+timed-turns+race-to-finish | A race where every turn is against the clock. | Exciting. | Fast. | Speed beats thought. | Stress.
+timed-turns+most-points | Players score under time pressure each turn. | Tense. | Fast. | Rushed scoring choices. | Mistakes.
+timed-turns+last-standing | Every turn under the clock, with elimination at stake. | Thrilling. | High stakes. | Stressful. | Harsh.
+timed-turns+cooperative-survival | The team has to act before the timer, against a threat. | Tense teamwork. | Exciting. | Hard to discuss. | Panic.
+timed-turns+shared-objective | The team works to a shared goal under a clock. | Focused. | Exciting. | Rushed plans. | Stress.
+timed-turns+hidden-personal-goal | Players chase secret goals under time pressure. | Tense. | Hard to read. | Rushed. | Goals slip.
+timed-turns+narrative-completion | Each part of the story has to be told in a time limit. | Lively story. | Quick ideas. | Shallow story. | Pressure.
+timed-turns+no-objective | Players act under a clock with nothing to win. | Lively rhythm. | Keeps attention. | Pressure without purpose. | Odd mix.
+timed-turns+set-your-own-goal | Players chase their own goals under a clock. | Focused. | Lively. | Hard to plan. | Stress.
+timed-turns+one-loser | Turns under the clock, and the one who runs out of time loses. | Tense. | Clear loser. | Stressful. | Harsh on slow players.
+timed-turns+keep-the-game-going | A steady clock keeps the game rolling. | Steady pace. | Easy to keep going. | Monotonous. | Pressure never lifts.
+timed-turns+cannot-be-won | Timed turns in a game nobody can win. | Lively. | Reflective after. | Pressure without purpose. | Confusing.
+timed-turns+solo-in-parallel | Everyone plays their own game under the same clock. | Fair. | Calm or tense. | Little interaction. | Stress.
+timed-turns+direct-confrontation | Attacks have to be chosen before the clock runs out. | Tense fights. | Fast. | Rushed attacks. | Mistakes.
+timed-turns+indirect-via-board | Board changes under time pressure. | Lively. | Pressure. | Rushed. | Hard to follow.
+timed-turns+fully-cooperative | The team has to agree and act before time runs out. | Tense. | Focused. | Rushed teamwork. | Stress.
+timed-turns+semi-cooperative | Players choose to help or betray under a clock. | Tense choices. | Fast. | Rushed trust. | Stress.
+timed-turns+team-vs-team | Each team's turn is timed. | Fair. | Tense. | Rushed teamwork. | Arguments.
+timed-turns+traitor | Players act under a clock while the traitor hides. | Tense. | Hard to think. | Few clues. | Rushed.
+timed-turns+playing-by-letter | Each letter has to be sent within a set time, such as a day. | Keeps letters coming. | Fair. | Slow players drop out. | Pressure.
+timed-turns+absent-player | The absent player's turn is timed too, and runs out on its own. | Keeps pace. | Steady. | Can feel mechanical. | Little presence.
+timed-turns+game-master | The game master gives each player a time limit to act. | Keeps scenes moving. | Fair. | Rushed choices. | Pressure on the master.
+timed-turns+public-game | Passers-by each get a few seconds to play. | Fast. | Inclusive. | Rushed. | Confusing for newcomers.
+timed-turns+mostly-chance | Timed turns in a game of luck. | Fast. | Simple. | Clock adds little. | Pointless pressure.
+timed-turns+chance-with-mitigation | Players have a few seconds to soften unlucky rolls. | Tense. | Fast. | Rushed choices. | Missed options.
+timed-turns+skill-with-luck-tempering | Planning under a clock, with a little luck. | Tense. | Rewards quick thinking. | Rushed. | Luck adds stress.
+timed-turns+mostly-skill | A game of skill under a clock, like blitz chess. | Exciting. | Rewards quick thought. | Depth suffers. | Stress.
+timed-turns+chance-read-as-a-sign | Signs have to be read within a time limit. | Lively. | Instinctive readings. | Shallow. | Rushed.
+timed-turns+attunement | Players have to sense each other within a time limit. | Tense connection. | Focus. | Stress breaks attunement. | Hard.
+timed-turns+dice-tell-the-story | Each roll's story has to be told quickly. | Lively. | Quick ideas. | Shallow story. | Pressure.
+timed-turns+full-information | Everything is visible but there is little time to study it. | Exciting. | Rewards quick reading. | Depth suffers. | Stress.
+timed-turns+hidden-hands | Players choose from a hidden hand under time pressure. | Tense. | Fast. | Mistakes. | Rushed.
+timed-turns+hidden-identity | Players act under a clock while hiding who they are. | Tense. | Hard to read. | Rushed. | Few clues.
+timed-turns+deduction | Players have to deduce under a time limit. | Exciting. | Rewards quick minds. | Rushed reasoning. | Stress.
+timed-turns+bluffing | Claims have to be made before time runs out. | Tense. | Fast. | Rushed bluffs. | Easy to spot.
+timed-turns+rules-you-discover | Players experiment under time pressure to find the rules. | Lively. | Fast learning. | Rushed. | Confusing.
+timed-turns+one-knows-cannot-say | Hints and guesses under a time limit. | Tense. | Fun. | Rushed hints. | Stress.
+timed-turns+map-revealed-as-you-go | Each step of exploring is timed. | Tense. | Fast. | Rushed. | Missed paths.
+timed-turns+model-a-system | Players have to act on the model before time runs out, as in a crisis. | Realistic pressure. | Tense. | Rushed choices. | Stress.
+timed-turns+stakeholder-roles | Each stakeholder has a time limit to decide. | Fair. | Realistic. | Rushed. | Quiet roles lose.
+timed-turns+shared-resource | Players have to take from the shared resource quickly. | Tense. | Shows pressure on resources. | Rushed. | Collapse.
+timed-turns+delayed-effects | Quick decisions whose effects arrive later. | Realistic. | Tense. | Rushed. | Hard to learn.
+timed-turns+try-a-rule | Rule tests run under a clock. | Fast tests. | Focused. | Rushed. | Shallow results.
+timed-turns+debrief | Each person has a set time to share afterwards. | Fair. | Everyone heard. | Rushed. | Shallow.
+timed-turns+irreversible-change | Permanent changes made under time pressure. | Dramatic. | Tense. | Regret. | Rushed.
+timed-turns+rules-make-an-argument | The clock is part of the argument the rules make. | Shows how pressure shapes choices. | Clear lesson. | Stressful. | Rushed.
+timed-turns+stakes-outside-the-game | Real stakes, decided against the clock. | Intense. | Focused. | Stressful. | Rushed.
+timed-turns+points-stand-for-values | Value trade-offs made under time pressure. | Shows how haste changes priorities. | Tense. | Rushed. | Values blur.
+timed-turns+rehearse-a-future | Acting out a future under a clock, as in a drill. | Realistic. | Focused. | Rushed. | Stress.

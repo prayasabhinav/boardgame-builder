@@ -65,6 +65,16 @@ function loadState() {
     state.answers = saved.answers && typeof saved.answers === "object" ? saved.answers : {};
     state.tests = saved.tests && typeof saved.tests === "object" ? saved.tests : {};
 
+    // A block that has moved to another group since the design was saved goes with it (real-time span moved to Timing)
+    for (const [dimId, value] of Object.entries(state.mechanics)) {
+      for (const bid of [].concat(value)) {
+        const home = state.dimensions.find((d) => d.blocks.some((b) => b.id === bid));
+        if (home && home.id !== dimId) {
+          state.mechanics[home.id] = home.multi ? [].concat(state.mechanics[home.id] || [], bid) : bid;
+          state.mechanics[dimId] = Array.isArray(value) ? value.filter((x) => x !== bid) : null;
+        }
+      }
+    }
     // Drop mechanics that reference dimensions no longer in the palette;
     // for multi-slots, keep an array; for single-slots, keep a string.
     for (const dimId of Object.keys(state.mechanics)) {
@@ -206,6 +216,7 @@ function dimensionLetter(dimId) {
     "chance-skill": "S",
     "theme": "T",
     "information": "I",
+    "timing": "W",
     "simulation": "M",
   }[dimId] || "·";
 }

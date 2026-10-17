@@ -34986,6 +34986,7197 @@
       ],
       "exemplars": [],
       "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "roll-and-move"
+      ],
+      "tendency": "Each player rolls and moves in order, and the others watch where the piece lands.",
+      "pros": [
+        "Easy to follow at any age.",
+        "Everyone sees each roll happen."
+      ],
+      "cons": [
+        "Long waits between rolls with many players.",
+        "Little to do while others move."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "drafting"
+      ],
+      "tendency": "Players pick one at a time from a shared row, so each pick changes what the next player sees.",
+      "pros": [
+        "Every pick can block the next player.",
+        "Players can read each other's plans."
+      ],
+      "cons": [
+        "Slow with many players.",
+        "The last to pick often gets leftovers."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "bidding"
+      ],
+      "tendency": "Bids go round the table, each raising or passing in order.",
+      "pros": [
+        "Bids build tension as they climb.",
+        "Everyone hears every bid."
+      ],
+      "cons": [
+        "Can drag if nobody passes.",
+        "The first bidder reveals the most."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "push-your-luck"
+      ],
+      "tendency": "One player pushes while the rest watch and cheer or groan.",
+      "pros": [
+        "The table shares each risk.",
+        "Each turn is a small show."
+      ],
+      "cons": [
+        "Others wait with nothing to decide.",
+        "A long lucky streak keeps the rest idle."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "area-control"
+      ],
+      "tendency": "Players place or move one piece at a time, answering each other's moves on the map.",
+      "pros": [
+        "Every move gets a reply.",
+        "Plans unfold step by step."
+      ],
+      "cons": [
+        "The last move in a round can decide an area.",
+        "Turns can stall while players think."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "worker-placement"
+      ],
+      "tendency": "Players take spots one at a time, so the order of turns decides who gets the spot they want.",
+      "pros": [
+        "Going earlier matters.",
+        "Blocking is clear and deliberate."
+      ],
+      "cons": [
+        "Waiting can feel long in big groups.",
+        "Late players get what is left."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "pattern-building"
+      ],
+      "tendency": "Players add one piece at a time to their patterns, watching what others build.",
+      "pros": [
+        "Steady, readable progress.",
+        "Time to plan the next piece."
+      ],
+      "cons": [
+        "Little tension between turns.",
+        "Players may stop watching others."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "hand-management"
+      ],
+      "tendency": "Each player plays from their hand in order, deciding what to hold for later turns.",
+      "pros": [
+        "Time to think about each card.",
+        "The order of play shapes choices."
+      ],
+      "cons": [
+        "Waiting players can lose focus.",
+        "Slow players hold up the table."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "trick-taking"
+      ],
+      "tendency": "Players play one card each in order, and the order of play shapes every trick.",
+      "pros": [
+        "The lead carries real power.",
+        "Later players know more."
+      ],
+      "cons": [
+        "Strict order can feel rigid.",
+        "New players find the sequence hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "negotiation"
+      ],
+      "tendency": "Deals are made on the active player's turn, so everyone else pitches to them.",
+      "pros": [
+        "Clear focus for each deal.",
+        "Every player gets a turn to bargain."
+      ],
+      "cons": [
+        "Players off-turn have little say.",
+        "Talk can run long."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "set-collection"
+      ],
+      "tendency": "Players take one card or piece per turn, building sets in front of each other.",
+      "pros": [
+        "Easy to track who collects what.",
+        "Players can deny each other sets."
+      ],
+      "cons": [
+        "Predictable rhythm.",
+        "Long games of waiting for the right card."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "tile-placement"
+      ],
+      "tendency": "Each player lays one tile, and the shared map grows a step at a time.",
+      "pros": [
+        "Every tile changes the map for the next player.",
+        "Easy to follow."
+      ],
+      "cons": [
+        "Waiting while others study the map.",
+        "Analysis can slow turns."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "call-and-response"
+      ],
+      "tendency": "Each player answers the last one in order, so the chain passes round the table.",
+      "pros": [
+        "Everyone gets a moment.",
+        "The chain is easy to follow."
+      ],
+      "cons": [
+        "Shy players are put on the spot.",
+        "The chain stops if one player stalls."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "playing-in-silence"
+      ],
+      "tendency": "Players act in a fixed order without speaking, reading each move for meaning.",
+      "pros": [
+        "The order gives the silence a shape.",
+        "Each move is watched closely."
+      ],
+      "cons": [
+        "Less tension than acting freely.",
+        "Waiting in silence can feel awkward."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "change-the-rules"
+      ],
+      "tendency": "Each player proposes one rule change on their turn, and the game shifts with every turn.",
+      "pros": [
+        "Everyone gets a turn to change the game.",
+        "Changes come at a pace players can follow."
+      ],
+      "cons": [
+        "Players wait to see their idea tried.",
+        "Early proposers shape the game most."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "role-play"
+      ],
+      "tendency": "Characters speak and act one after another, like scenes in a play.",
+      "pros": [
+        "Each character gets a spotlight.",
+        "Quiet players get their moment."
+      ],
+      "cons": [
+        "Scenes can lose energy between turns.",
+        "Waiting breaks immersion."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "dexterity"
+      ],
+      "tendency": "One player flicks, stacks or throws while everyone else watches.",
+      "pros": [
+        "Each attempt is a small show.",
+        "The table shares the suspense."
+      ],
+      "cons": [
+        "Others wait with hands idle.",
+        "Nervous players feel watched."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "drawing-the-map"
+      ],
+      "tendency": "Players add to the map one at a time, each drawing over what the last one left.",
+      "pros": [
+        "The map grows in readable steps.",
+        "Each addition answers the last."
+      ],
+      "cons": [
+        "Slow when players draw with care.",
+        "Late turns have less room."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "race-to-finish"
+      ],
+      "tendency": "Players move towards the finish in order, so each turn can close the gap or widen it.",
+      "pros": [
+        "Clear sense of who is ahead.",
+        "Catch-up moments are visible."
+      ],
+      "cons": [
+        "The first player can have an edge.",
+        "Leaders pull away while others wait."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "most-points"
+      ],
+      "tendency": "Points are scored turn by turn, and the scores rise in step.",
+      "pros": [
+        "Easy to track the scores.",
+        "Every turn adds something."
+      ],
+      "cons": [
+        "Leaders can be obvious early.",
+        "Players far behind lose interest."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "last-standing"
+      ],
+      "tendency": "Players act in order to knock each other out, and each turn can remove someone.",
+      "pros": [
+        "Each turn has stakes.",
+        "Clear moments of elimination."
+      ],
+      "cons": [
+        "Knocked-out players wait with nothing to do.",
+        "Turn order can decide who survives."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "cooperative-survival"
+      ],
+      "tendency": "The team acts one player at a time against the game's threat.",
+      "pros": [
+        "Each player's turn matters to the team.",
+        "Easy to discuss the next move."
+      ],
+      "cons": [
+        "Loud players can run other players' turns.",
+        "The threat may feel slow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "shared-objective"
+      ],
+      "tendency": "Players take turns adding to a shared goal.",
+      "pros": [
+        "Clear progress after each turn.",
+        "Everyone contributes in order."
+      ],
+      "cons": [
+        "One player may plan for all.",
+        "Slow when every move is discussed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "hidden-personal-goal"
+      ],
+      "tendency": "Players act in order while hiding what each of them is really after.",
+      "pros": [
+        "Each turn can hint at a goal.",
+        "Watching others has a purpose."
+      ],
+      "cons": [
+        "Goals can be guessed from a few turns.",
+        "Slow turns give away intentions."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "narrative-completion"
+      ],
+      "tendency": "The story grows one turn at a time, each player adding the next part.",
+      "pros": [
+        "The story has a clear sequence.",
+        "Everyone shapes the plot."
+      ],
+      "cons": [
+        "The story can lose pace.",
+        "Later players inherit the plot."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "no-objective"
+      ],
+      "tendency": "Players act in order with nothing to win, and the turns give the play a shape.",
+      "pros": [
+        "A calm, steady rhythm.",
+        "Everyone takes part."
+      ],
+      "cons": [
+        "Turns can feel aimless.",
+        "Players may drift away between turns."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "set-your-own-goal"
+      ],
+      "tendency": "Each player pursues a goal they chose, one turn at a time.",
+      "pros": [
+        "Time to work towards your own aim.",
+        "Varied turns as goals differ."
+      ],
+      "cons": [
+        "Hard to compare progress.",
+        "Others' turns can feel irrelevant."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "one-loser"
+      ],
+      "tendency": "Turn by turn, players dodge the one way to lose.",
+      "pros": [
+        "Each turn tightens the tension.",
+        "Clear moment when someone loses."
+      ],
+      "cons": [
+        "The order of turns can decide the loser.",
+        "Waiting players can only watch."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "keep-the-game-going"
+      ],
+      "tendency": "Turns keep coming with no end in sight, and the rhythm itself keeps play alive.",
+      "pros": [
+        "Easy to join and leave between turns.",
+        "The game can run for a long time."
+      ],
+      "cons": [
+        "No end can make turns feel repetitive.",
+        "Players may lose track of why they play."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "cannot-be-won"
+      ],
+      "tendency": "Players take turns in a game nobody can win, and the turns themselves become the point.",
+      "pros": [
+        "Players notice what each turn does.",
+        "Calm, reflective pace."
+      ],
+      "cons": [
+        "Some players wonder why they are playing.",
+        "Turns can feel empty without a goal."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "solo-in-parallel"
+      ],
+      "tendency": "Players take turns but mostly work on their own boards, so others' turns matter little.",
+      "pros": [
+        "Simple and calm.",
+        "Players can plan during others' turns."
+      ],
+      "cons": [
+        "Little reason to watch others.",
+        "Waiting with nothing to react to."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "direct-confrontation"
+      ],
+      "tendency": "Players attack in order, and every turn invites a reply.",
+      "pros": [
+        "Clear exchanges of blows.",
+        "Revenge is easy to plan."
+      ],
+      "cons": [
+        "The first to strike can gain an edge.",
+        "Attacked players wait to answer."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "indirect-via-board"
+      ],
+      "tendency": "Players change the board one turn at a time, and others feel it on their next turn.",
+      "pros": [
+        "Effects are easy to trace.",
+        "Room for planning."
+      ],
+      "cons": [
+        "Subtle moves can be missed.",
+        "Slow players hold up the table."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "fully-cooperative"
+      ],
+      "tendency": "The team acts in order, each turn building on the last.",
+      "pros": [
+        "Easy to plan together.",
+        "Everyone takes part."
+      ],
+      "cons": [
+        "One player can direct everyone's turns.",
+        "Discussion can drag."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "semi-cooperative"
+      ],
+      "tendency": "Players act in order, each choosing on their turn whether to help or hold back.",
+      "pros": [
+        "Each turn tests loyalty.",
+        "Choices are visible to all."
+      ],
+      "cons": [
+        "Selfish moves are easy to spot and punish.",
+        "Turns can stall as players weigh both sides."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "team-vs-team"
+      ],
+      "tendency": "Teams take turns, a player from each side in order.",
+      "pros": [
+        "Clear back and forth between teams.",
+        "Teammates can plan between turns."
+      ],
+      "cons": [
+        "Players wait for the other team.",
+        "A slow team holds up the game."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "traitor"
+      ],
+      "tendency": "Players act in order, and the traitor hides among ordinary turns.",
+      "pros": [
+        "Each turn is a clue.",
+        "Players watch every move."
+      ],
+      "cons": [
+        "A traitor's odd turn can give them away.",
+        "Suspicion can slow every turn."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "playing-by-letter"
+      ],
+      "tendency": "Turns come by letter, one after another, days apart.",
+      "pros": [
+        "Time to think about each move.",
+        "Fits busy lives."
+      ],
+      "cons": [
+        "Very slow progress.",
+        "Players forget the state between letters."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "absent-player"
+      ],
+      "tendency": "The absent player's turn comes round like anyone else's, carried out by the rules or a deck.",
+      "pros": [
+        "The absent player stays part of the order.",
+        "Their turn keeps a steady presence."
+      ],
+      "cons": [
+        "Their turns can feel mechanical.",
+        "Slow when someone has to run them."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "game-master"
+      ],
+      "tendency": "Players take turns acting while the game master answers each one.",
+      "pros": [
+        "Each player gets the master's attention.",
+        "Clear structure for a story."
+      ],
+      "cons": [
+        "Others wait while one player acts.",
+        "The master can tire."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "public-game"
+      ],
+      "tendency": "Passers-by take turns joining in, one move each.",
+      "pros": [
+        "Easy for strangers to step in.",
+        "Each newcomer gets a moment."
+      ],
+      "cons": [
+        "Queues can form.",
+        "Hard to keep track of whose turn it is."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "mostly-chance"
+      ],
+      "tendency": "Turns pass with dice deciding most of what happens.",
+      "pros": [
+        "Simple and quick turns.",
+        "Anyone can win."
+      ],
+      "cons": [
+        "Few choices make waiting dull.",
+        "Players watch rather than decide."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "chance-with-mitigation"
+      ],
+      "tendency": "Each turn brings a roll or draw, and the player decides how to soften it.",
+      "pros": [
+        "Every turn has a small decision.",
+        "Luck feels manageable."
+      ],
+      "cons": [
+        "Thinking about mitigation slows turns.",
+        "Players with more options take longer."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "skill-with-luck-tempering"
+      ],
+      "tendency": "Players plan their turns, with a little luck in each one.",
+      "pros": [
+        "Room to plan between turns.",
+        "Surprises keep it fresh."
+      ],
+      "cons": [
+        "Planning can slow the table.",
+        "Luck can undo a careful turn."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "mostly-skill"
+      ],
+      "tendency": "Each player thinks through their move in turn, like chess.",
+      "pros": [
+        "Deep planning.",
+        "Clear cause and effect."
+      ],
+      "cons": [
+        "Long pauses for thought.",
+        "Waiting players can lose interest."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "chance-read-as-a-sign"
+      ],
+      "tendency": "Each turn's roll or draw is read as a sign, one player at a time.",
+      "pros": [
+        "The table shares each reading.",
+        "A ritual rhythm."
+      ],
+      "cons": [
+        "Slow if each reading is discussed.",
+        "Some players feel little control."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "attunement"
+      ],
+      "tendency": "Players take turns but try to sense each other's intentions.",
+      "pros": [
+        "Players watch each other closely.",
+        "A gentle rhythm."
+      ],
+      "cons": [
+        "A fixed order weakens the sensing.",
+        "Little need to sense when the order is fixed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "dice-tell-the-story"
+      ],
+      "tendency": "Each player rolls in turn and the dice add the next part of the story.",
+      "pros": [
+        "The story grows step by step.",
+        "Everyone adds a part."
+      ],
+      "cons": [
+        "Story pace depends on the dice.",
+        "Long waits for a roll."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "full-information"
+      ],
+      "tendency": "Everything is visible, and players take turns, so every move can be studied.",
+      "pros": [
+        "Deep, fair planning.",
+        "No hidden surprises."
+      ],
+      "cons": [
+        "Players can overthink.",
+        "Long pauses on hard turns."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "hidden-hands"
+      ],
+      "tendency": "Players act in order while hiding their cards, and each move hints at what they hold.",
+      "pros": [
+        "Each turn reveals a little.",
+        "Watching others pays off."
+      ],
+      "cons": [
+        "Slow players give away their hands.",
+        "Waiting can be dull."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "hidden-identity"
+      ],
+      "tendency": "Players take turns while hiding who they are, and every turn is a clue.",
+      "pros": [
+        "Each move can be read.",
+        "Tension builds turn by turn."
+      ],
+      "cons": [
+        "Careful players avoid revealing turns.",
+        "Slow when players hesitate."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "deduction"
+      ],
+      "tendency": "Each turn gives a clue, and players work out the answer in order.",
+      "pros": [
+        "Clear, step-by-step reasoning.",
+        "Everyone sees the same clues."
+      ],
+      "cons": [
+        "The first to solve may win on turn order.",
+        "Thinking can slow the table."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "bluffing"
+      ],
+      "tendency": "Players make claims in turn, and each claim can be challenged.",
+      "pros": [
+        "Each claim invites a reaction.",
+        "Easy to follow who said what."
+      ],
+      "cons": [
+        "Late players learn from earlier claims.",
+        "Bluffs can get predictable."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "rules-you-discover"
+      ],
+      "tendency": "Players learn the rules by trying moves in turn and seeing what happens.",
+      "pros": [
+        "Each turn teaches the whole table.",
+        "Clear experiments."
+      ],
+      "cons": [
+        "Slow to find the rules.",
+        "Late players benefit from earlier mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "one-knows-cannot-say"
+      ],
+      "tendency": "The one who knows gives a hint on their turn, and the others guess in order.",
+      "pros": [
+        "Clear hint-and-guess rhythm.",
+        "Everyone sees each hint."
+      ],
+      "cons": [
+        "Slow if guessers deliberate.",
+        "Order can matter more than skill."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "map-revealed-as-you-go"
+      ],
+      "tendency": "Each turn reveals a little more of the map.",
+      "pros": [
+        "Steady sense of discovery.",
+        "Everyone sees each reveal."
+      ],
+      "cons": [
+        "Late players inherit what others revealed.",
+        "Pace depends on exploring."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "model-a-system"
+      ],
+      "tendency": "Players act on the modelled system in order and see its response after each turn.",
+      "pros": [
+        "Cause and effect is easy to follow.",
+        "Time to discuss each step."
+      ],
+      "cons": [
+        "Slower than a real system.",
+        "Turn order can distort the model."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "stakeholder-roles"
+      ],
+      "tendency": "Each stakeholder acts in turn, so every role gets heard.",
+      "pros": [
+        "Every role gets its moment.",
+        "Clear sequence of decisions."
+      ],
+      "cons": [
+        "Powerful roles can act first.",
+        "Waiting roles feel sidelined."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "shared-resource"
+      ],
+      "tendency": "Players draw on the shared resource one at a time.",
+      "pros": [
+        "Each draw is visible.",
+        "Easy to see who takes what."
+      ],
+      "cons": [
+        "Early players take the most.",
+        "Late players face scarcity."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "delayed-effects"
+      ],
+      "tendency": "Each turn's choice shows its effect a few turns later.",
+      "pros": [
+        "Players learn to plan ahead.",
+        "Clear link between turns."
+      ],
+      "cons": [
+        "Effects are hard to trace back.",
+        "Slow feedback."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "try-a-rule"
+      ],
+      "tendency": "Players test a new rule turn by turn, seeing how it plays.",
+      "pros": [
+        "Clear test of each change.",
+        "Everyone sees its effect."
+      ],
+      "cons": [
+        "Testing takes many turns.",
+        "Early turns may not show the rule's effect."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "debrief"
+      ],
+      "tendency": "Players take turns sharing what they noticed afterwards.",
+      "pros": [
+        "Everyone gets heard.",
+        "Orderly reflection."
+      ],
+      "cons": [
+        "Can feel like a classroom round.",
+        "Later speakers repeat earlier ones."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "irreversible-change"
+      ],
+      "tendency": "Each turn can leave a permanent mark, made in order.",
+      "pros": [
+        "Each mark is deliberate.",
+        "Players see who changed what."
+      ],
+      "cons": [
+        "Early players shape later games most.",
+        "Players fear their turn."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "rules-make-an-argument"
+      ],
+      "tendency": "The rules make their point turn by turn as players follow them.",
+      "pros": [
+        "The argument builds steadily.",
+        "Players can reflect between turns."
+      ],
+      "cons": [
+        "The point can feel slow.",
+        "Turns can feel like a lesson."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "stakes-outside-the-game"
+      ],
+      "tendency": "Each turn carries real stakes, taken in order.",
+      "pros": [
+        "Each turn is serious.",
+        "Others can support the active player."
+      ],
+      "cons": [
+        "Turns can feel heavy.",
+        "Waiting adds pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "points-stand-for-values"
+      ],
+      "tendency": "Players gain or lose points standing for values, one turn at a time.",
+      "pros": [
+        "The trade-off is visible each turn.",
+        "Players can discuss each choice."
+      ],
+      "cons": [
+        "Repetitive choices.",
+        "Values can feel like plain points."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "rehearse-a-future"
+      ],
+      "tendency": "Players act out steps of a possible future one turn at a time.",
+      "pros": [
+        "Each step can be discussed.",
+        "Clear progression."
+      ],
+      "cons": [
+        "Slow to reach the future.",
+        "Later players react rather than plan."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "roll-and-move"
+      ],
+      "tendency": "Everyone rolls and moves at the same moment, so a round passes quickly.",
+      "pros": [
+        "No waiting.",
+        "Large groups can play."
+      ],
+      "cons": [
+        "Hard to watch every piece.",
+        "Moves can be miscounted unseen."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "drafting"
+      ],
+      "tendency": "Everyone picks a card at the same moment and passes the rest, as in 7 Wonders.",
+      "pros": [
+        "No waiting, even with many players.",
+        "Every pick is a secret choice."
+      ],
+      "cons": [
+        "Hard to watch what others take.",
+        "Players can feel rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "bidding"
+      ],
+      "tendency": "Everyone writes a sealed bid and all are revealed together.",
+      "pros": [
+        "No bidding wars, one clean decision.",
+        "Surprise at the reveal."
+      ],
+      "cons": [
+        "No chance to react to others.",
+        "Ties need a rule."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "push-your-luck"
+      ],
+      "tendency": "Everyone decides at once whether to stop or carry on, then all reveal.",
+      "pros": [
+        "Nobody can copy anyone.",
+        "Tense shared reveal."
+      ],
+      "cons": [
+        "Less drama of watching one player.",
+        "Hard to read others."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "area-control"
+      ],
+      "tendency": "Everyone secretly chooses where to place, then all placements are revealed together.",
+      "pros": [
+        "Surprising clashes.",
+        "No first-mover advantage."
+      ],
+      "cons": [
+        "Results can feel chaotic.",
+        "Hard to plan around others."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "worker-placement"
+      ],
+      "tendency": "Everyone picks a spot in secret, and shared picks clash on the reveal.",
+      "pros": [
+        "Guessing what others want.",
+        "No turn order advantage."
+      ],
+      "cons": [
+        "Clashes need a rule to settle them.",
+        "Plans can collapse on the reveal."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "pattern-building"
+      ],
+      "tendency": "Everyone adds to their own pattern at the same time.",
+      "pros": [
+        "Fast rounds.",
+        "Calm parallel play."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Hard to compare progress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "hand-management"
+      ],
+      "tendency": "Everyone chooses a card from hand at once, then all are shown.",
+      "pros": [
+        "Secret choices carry weight.",
+        "No waiting."
+      ],
+      "cons": [
+        "No reacting to others' cards.",
+        "Ties and clashes need rules."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "trick-taking"
+      ],
+      "tendency": "Everyone plays a card to the trick at the same moment.",
+      "pros": [
+        "Pure guesswork about the others.",
+        "Fast tricks."
+      ],
+      "cons": [
+        "The skill of following in order disappears.",
+        "Results can feel random."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "negotiation"
+      ],
+      "tendency": "Everyone makes offers at the same time, in a noisy open market.",
+      "pros": [
+        "Lively and loud.",
+        "Deals happen fast."
+      ],
+      "cons": [
+        "Quiet players get drowned out.",
+        "Hard to keep track of deals."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "set-collection"
+      ],
+      "tendency": "Everyone chooses what to collect at once, and shared choices clash.",
+      "pros": [
+        "Guessing others' sets.",
+        "Fast rounds."
+      ],
+      "cons": [
+        "Hard to deny others.",
+        "Clashes need rules."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "tile-placement"
+      ],
+      "tendency": "Everyone places a tile at the same time on their own map.",
+      "pros": [
+        "No waiting.",
+        "Same tiles, different maps."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Hard to see others' maps."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "call-and-response"
+      ],
+      "tendency": "Everyone answers the call at once, a chorus rather than a chain.",
+      "pros": [
+        "Loud, shared energy.",
+        "No one is on the spot."
+      ],
+      "cons": [
+        "Individual answers get lost.",
+        "Hard to judge who answered well."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "playing-in-silence"
+      ],
+      "tendency": "Everyone acts at the same moment without speaking.",
+      "pros": [
+        "A strong shared moment.",
+        "Silence makes the reveal intense."
+      ],
+      "cons": [
+        "Hard to coordinate.",
+        "Mistakes are common."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "change-the-rules"
+      ],
+      "tendency": "Everyone proposes a rule change at once and all are revealed together.",
+      "pros": [
+        "Many ideas at once.",
+        "No one dominates."
+      ],
+      "cons": [
+        "Changes can conflict.",
+        "Hard to follow so many changes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "role-play"
+      ],
+      "tendency": "Everyone acts in character at the same time, like a crowd scene.",
+      "pros": [
+        "Lively and immersive.",
+        "No waiting for a spotlight."
+      ],
+      "cons": [
+        "Hard to follow every scene.",
+        "Quiet characters get lost."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "dexterity"
+      ],
+      "tendency": "Everyone flicks, stacks or throws at the same moment.",
+      "pros": [
+        "Frantic and funny.",
+        "No one watches in judgement."
+      ],
+      "cons": [
+        "Hard to see who did what.",
+        "Collisions and disputes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "drawing-the-map"
+      ],
+      "tendency": "Everyone draws on their part of the map at the same time.",
+      "pros": [
+        "Fast map building.",
+        "Many hands at once."
+      ],
+      "cons": [
+        "Parts may not fit together.",
+        "Hard to see the whole."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "race-to-finish"
+      ],
+      "tendency": "Everyone moves towards the finish at once, round by round.",
+      "pros": [
+        "No waiting.",
+        "Close finishes."
+      ],
+      "cons": [
+        "Ties are common.",
+        "Hard to track every runner."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "most-points"
+      ],
+      "tendency": "Everyone scores at the same time each round.",
+      "pros": [
+        "Fast scoring.",
+        "Fair rhythm."
+      ],
+      "cons": [
+        "Hard to react to the leader.",
+        "Scores can be miscounted."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "last-standing"
+      ],
+      "tendency": "Everyone acts at once, and several players can go out together.",
+      "pros": [
+        "Dramatic rounds.",
+        "No one waits long."
+      ],
+      "cons": [
+        "Players can go out together.",
+        "Out players wait."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "cooperative-survival"
+      ],
+      "tendency": "The team acts all at once against the threat, without waiting on each other.",
+      "pros": [
+        "Tense, quick rounds.",
+        "Everyone acts every round."
+      ],
+      "cons": [
+        "Hard to coordinate.",
+        "Mistakes add up fast."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "shared-objective"
+      ],
+      "tendency": "Everyone works on the shared goal at the same moment.",
+      "pros": [
+        "Fast progress.",
+        "Shared effort is visible."
+      ],
+      "cons": [
+        "Players may duplicate work.",
+        "Hard to plan together."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "hidden-personal-goal"
+      ],
+      "tendency": "Everyone acts at once towards a secret goal.",
+      "pros": [
+        "Hard to read who wants what.",
+        "No one waits."
+      ],
+      "cons": [
+        "Little time to read others.",
+        "Goals stay hidden too well."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "narrative-completion"
+      ],
+      "tendency": "Everyone writes or adds their part of the story at once, then the parts are joined.",
+      "pros": [
+        "Surprising stories.",
+        "No waiting."
+      ],
+      "cons": [
+        "Parts may not fit.",
+        "Less control over the story."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "no-objective"
+      ],
+      "tendency": "Everyone plays at once with nothing to win, as in Exquisite Corpse.",
+      "pros": [
+        "Relaxed and surprising.",
+        "Everyone takes part."
+      ],
+      "cons": [
+        "No sense of progress.",
+        "Results can be random."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "set-your-own-goal"
+      ],
+      "tendency": "Everyone pursues their own chosen goal at the same time.",
+      "pros": [
+        "Varied, parallel play.",
+        "No waiting."
+      ],
+      "cons": [
+        "Little connection between players.",
+        "Hard to compare."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "one-loser"
+      ],
+      "tendency": "Everyone acts at once, and whoever slips up loses.",
+      "pros": [
+        "Tense shared moment.",
+        "Nobody waits."
+      ],
+      "cons": [
+        "Losing can feel random.",
+        "Hard to see who slipped first."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "keep-the-game-going"
+      ],
+      "tendency": "Everyone acts at once round after round, and the game rolls on.",
+      "pros": [
+        "Steady shared rhythm.",
+        "Easy to keep going."
+      ],
+      "cons": [
+        "Rounds can blur together.",
+        "No arc."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "cannot-be-won"
+      ],
+      "tendency": "Everyone acts at once in a game nobody can win.",
+      "pros": [
+        "Shared experience.",
+        "No pressure."
+      ],
+      "cons": [
+        "Purpose can feel unclear.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "solo-in-parallel"
+      ],
+      "tendency": "Everyone plays their own game at the same time.",
+      "pros": [
+        "No waiting at all.",
+        "Calm and quick."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Feels like playing alone together."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "direct-confrontation"
+      ],
+      "tendency": "Everyone chooses an attack in secret and all are revealed together.",
+      "pros": [
+        "Surprising clashes.",
+        "No first-strike advantage."
+      ],
+      "cons": [
+        "Hard to defend.",
+        "Chaotic results."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "indirect-via-board"
+      ],
+      "tendency": "Everyone changes the board at once, and the changes collide.",
+      "pros": [
+        "Surprising board states.",
+        "No waiting."
+      ],
+      "cons": [
+        "Hard to plan.",
+        "Collisions need rules."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "fully-cooperative"
+      ],
+      "tendency": "The whole team acts at once without waiting for each other.",
+      "pros": [
+        "Fast teamwork.",
+        "Everyone busy."
+      ],
+      "cons": [
+        "Hard to coordinate.",
+        "Duplicated effort."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "semi-cooperative"
+      ],
+      "tendency": "Everyone decides at once whether to help or betray, revealed together.",
+      "pros": [
+        "Tense reveal.",
+        "No one can copy."
+      ],
+      "cons": [
+        "Betrayal hurts more.",
+        "Hard to build trust."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "team-vs-team"
+      ],
+      "tendency": "Both teams choose at once and reveal together.",
+      "pros": [
+        "Fair, no first move.",
+        "Tense reveal."
+      ],
+      "cons": [
+        "Hard to react.",
+        "Teams talk over each other."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "traitor"
+      ],
+      "tendency": "Everyone votes or acts at the same moment, hiding the traitor's choice among the rest.",
+      "pros": [
+        "Traitor hides easily.",
+        "Tense reveals."
+      ],
+      "cons": [
+        "Hard to find the traitor.",
+        "Clues are thin."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "playing-by-letter"
+      ],
+      "tendency": "Everyone sends a move at the same time each round, and all are opened together.",
+      "pros": [
+        "Fair rounds by post.",
+        "Nobody waits on one slow player."
+      ],
+      "cons": [
+        "Rounds still take days.",
+        "Hard to discuss."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "absent-player"
+      ],
+      "tendency": "Everyone acts at once, and the absent player's action is revealed alongside.",
+      "pros": [
+        "The absent player feels present.",
+        "Surprise at the reveal."
+      ],
+      "cons": [
+        "Their action can feel arbitrary.",
+        "Hard to plan around."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "game-master"
+      ],
+      "tendency": "Everyone tells the game master their action at once, and the master settles them together.",
+      "pros": [
+        "Fast rounds.",
+        "Fair to all players."
+      ],
+      "cons": [
+        "Heavy work for the master.",
+        "Results can surprise."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "public-game"
+      ],
+      "tendency": "Passers-by all join in at once, a crowd moving together.",
+      "pros": [
+        "Lively and inclusive.",
+        "Anyone can jump in."
+      ],
+      "cons": [
+        "Hard to keep order.",
+        "Hard to see results."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "mostly-chance"
+      ],
+      "tendency": "Everyone rolls at once and luck decides.",
+      "pros": [
+        "Quick rounds.",
+        "Anyone can win."
+      ],
+      "cons": [
+        "Few decisions.",
+        "Hard to follow every roll."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "chance-with-mitigation"
+      ],
+      "tendency": "Everyone rolls at once and then softens their luck, all together.",
+      "pros": [
+        "Quick rounds with small decisions.",
+        "No waiting."
+      ],
+      "cons": [
+        "Hard to see others' choices.",
+        "Rushed decisions."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "skill-with-luck-tempering"
+      ],
+      "tendency": "Everyone plans at once with a little luck in each round.",
+      "pros": [
+        "Fast but thoughtful.",
+        "No turn order advantage."
+      ],
+      "cons": [
+        "Hard to plan around others.",
+        "Luck at the reveal."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "mostly-skill"
+      ],
+      "tendency": "Everyone chooses at once in a game of pure skill, reading what others will do.",
+      "pros": [
+        "Mind games.",
+        "No first-move advantage."
+      ],
+      "cons": [
+        "Guessing others can feel like chance.",
+        "Long thinking holds up everyone."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "chance-read-as-a-sign"
+      ],
+      "tendency": "Everyone draws or rolls at once and reads the signs together.",
+      "pros": [
+        "Shared ritual.",
+        "Many readings at once."
+      ],
+      "cons": [
+        "Readings get lost.",
+        "Hard to focus."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "attunement"
+      ],
+      "tendency": "Everyone tries to act at the same moment as the others, sensing the group.",
+      "pros": [
+        "Deep group connection.",
+        "Magic when it works."
+      ],
+      "cons": [
+        "Frustrating when it fails.",
+        "Hard for new groups."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "dice-tell-the-story"
+      ],
+      "tendency": "Everyone rolls at once and the dice tell several stories side by side.",
+      "pros": [
+        "Many stories at once.",
+        "No waiting."
+      ],
+      "cons": [
+        "Hard to follow.",
+        "Stories do not connect."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "full-information"
+      ],
+      "tendency": "Everyone sees everything but chooses in secret at the same time.",
+      "pros": [
+        "Pure reading of others.",
+        "No turn advantage."
+      ],
+      "cons": [
+        "Can feel like guessing.",
+        "Many players means many options to weigh."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "hidden-hands"
+      ],
+      "tendency": "Everyone chooses a card from a hidden hand at once.",
+      "pros": [
+        "Secret, tense reveals.",
+        "No waiting."
+      ],
+      "cons": [
+        "Hard to read others.",
+        "Feels random to new players."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "hidden-identity"
+      ],
+      "tendency": "Everyone acts at once, and hidden roles hide in the crowd.",
+      "pros": [
+        "Roles stay hidden.",
+        "Tense reveals."
+      ],
+      "cons": [
+        "Few clues.",
+        "Hard to deduce."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "deduction"
+      ],
+      "tendency": "Everyone guesses at once, then clues are revealed.",
+      "pros": [
+        "Fair race of minds.",
+        "No one copies."
+      ],
+      "cons": [
+        "Hard to share reasoning.",
+        "Ties need rules."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "bluffing"
+      ],
+      "tendency": "Everyone makes a claim at the same moment, and all are tested.",
+      "pros": [
+        "Many bluffs at once.",
+        "Surprising reveals."
+      ],
+      "cons": [
+        "Hard to judge each claim.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "rules-you-discover"
+      ],
+      "tendency": "Everyone tries something at once and learns from all the results.",
+      "pros": [
+        "Fast learning.",
+        "Many experiments."
+      ],
+      "cons": [
+        "Hard to tell what caused what.",
+        "Confusing."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "one-knows-cannot-say"
+      ],
+      "tendency": "The one who knows gives a hint and everyone guesses at once.",
+      "pros": [
+        "Fair guessing.",
+        "No copying."
+      ],
+      "cons": [
+        "The knower can't adjust to one guesser.",
+        "Hard to judge."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "map-revealed-as-you-go"
+      ],
+      "tendency": "Everyone explores at once and the map opens in several places.",
+      "pros": [
+        "Fast discovery.",
+        "No waiting."
+      ],
+      "cons": [
+        "Hard to follow.",
+        "Map fills unevenly."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "model-a-system"
+      ],
+      "tendency": "Everyone acts on the model at once, as people do in a real system.",
+      "pros": [
+        "Closer to how real systems work.",
+        "Surprising outcomes."
+      ],
+      "cons": [
+        "Hard to trace causes.",
+        "Overwhelming."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "stakeholder-roles"
+      ],
+      "tendency": "All stakeholders decide at once, without knowing what the others chose.",
+      "pros": [
+        "Realistic tension.",
+        "No role dominates by going first."
+      ],
+      "cons": [
+        "Hard to coordinate.",
+        "Surprising clashes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "shared-resource"
+      ],
+      "tendency": "Everyone takes from the shared resource at the same moment, without seeing what others take.",
+      "pros": [
+        "Shows how overuse happens.",
+        "Tense reveals."
+      ],
+      "cons": [
+        "Resource can collapse suddenly.",
+        "Players feel helpless."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "delayed-effects"
+      ],
+      "tendency": "Everyone acts at once, and the combined effects arrive later.",
+      "pros": [
+        "Shows shared consequences.",
+        "Hard to blame one player."
+      ],
+      "cons": [
+        "Hard to learn from.",
+        "Slow feedback."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "try-a-rule"
+      ],
+      "tendency": "Everyone tests a new rule at once and compares results.",
+      "pros": [
+        "Fast testing.",
+        "Many results."
+      ],
+      "cons": [
+        "Hard to compare.",
+        "Messy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "debrief"
+      ],
+      "tendency": "Everyone writes down what they noticed at once, then shares.",
+      "pros": [
+        "Every view captured.",
+        "No one sways others first."
+      ],
+      "cons": [
+        "Less discussion.",
+        "Can feel like a test."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "irreversible-change"
+      ],
+      "tendency": "Everyone makes a permanent change at the same moment.",
+      "pros": [
+        "Dramatic.",
+        "Shared responsibility."
+      ],
+      "cons": [
+        "Unpredictable results.",
+        "Hard to undo mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "rules-make-an-argument"
+      ],
+      "tendency": "The rules make their point through everyone acting at once.",
+      "pros": [
+        "Shows how collective choice works.",
+        "Clear shared lesson."
+      ],
+      "cons": [
+        "Argument can be lost in the noise.",
+        "Hard to see."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "stakes-outside-the-game"
+      ],
+      "tendency": "Everyone commits real stakes at the same moment.",
+      "pros": [
+        "Fair and tense.",
+        "No one sees others first."
+      ],
+      "cons": [
+        "Heavy.",
+        "Hard to back out."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "points-stand-for-values"
+      ],
+      "tendency": "Everyone chooses at once which values to trade for points.",
+      "pros": [
+        "Reveals priorities.",
+        "No copying."
+      ],
+      "cons": [
+        "Hard to discuss.",
+        "Can feel judging."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "rehearse-a-future"
+      ],
+      "tendency": "Everyone acts out their part of a future at the same time.",
+      "pros": [
+        "Many perspectives at once.",
+        "Lively."
+      ],
+      "cons": [
+        "Hard to follow.",
+        "Parts may conflict."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "roll-and-move"
+      ],
+      "tendency": "Players roll and move as fast as they can, with no waiting.",
+      "pros": [
+        "Frantic energy.",
+        "No one waits."
+      ],
+      "cons": [
+        "Easy to cheat by accident.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "drafting"
+      ],
+      "tendency": "Players grab cards from a shared pool as fast as they can.",
+      "pros": [
+        "Fast, physical picking.",
+        "Quick reactions rewarded."
+      ],
+      "cons": [
+        "Slow players get leftovers.",
+        "Disputes over who grabbed first."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "bidding"
+      ],
+      "tendency": "Bids are shouted out at any moment until nobody tops them, like an auction room.",
+      "pros": [
+        "Exciting bidding.",
+        "Fast rounds."
+      ],
+      "cons": [
+        "Loud players dominate.",
+        "Hard to hear every bid."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "push-your-luck"
+      ],
+      "tendency": "Players push on whenever they like, racing each other to stop in time.",
+      "pros": [
+        "Racing tension.",
+        "No waiting."
+      ],
+      "cons": [
+        "Hard to see others.",
+        "Panic choices."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "area-control"
+      ],
+      "tendency": "Players place pieces whenever they like, rushing to claim areas.",
+      "pros": [
+        "Fast and frantic.",
+        "Rewards quick thinking."
+      ],
+      "cons": [
+        "Slow players lose out.",
+        "Hard to keep order."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "worker-placement"
+      ],
+      "tendency": "Players grab spots as fast as they can, first hand wins.",
+      "pros": [
+        "Exciting rushes.",
+        "Quick decisions."
+      ],
+      "cons": [
+        "Disputes over who was first.",
+        "Slow players lose every spot."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "pattern-building"
+      ],
+      "tendency": "Players race to complete their patterns at the same time.",
+      "pros": [
+        "Fast and engaging.",
+        "Everyone busy."
+      ],
+      "cons": [
+        "Hard to check patterns.",
+        "Rushed mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "hand-management"
+      ],
+      "tendency": "Players play from hand whenever they like, as fast as they can.",
+      "pros": [
+        "Lively and fast.",
+        "No waiting."
+      ],
+      "cons": [
+        "Hard to track plays.",
+        "Quick players dominate."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "trick-taking"
+      ],
+      "tendency": "Cards go into the trick as fast as players can throw them.",
+      "pros": [
+        "Chaotic fun.",
+        "Very fast."
+      ],
+      "cons": [
+        "Order of play is lost.",
+        "Arguments."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "negotiation"
+      ],
+      "tendency": "Players bargain with anyone at any moment, in an open market.",
+      "pros": [
+        "Lively trading.",
+        "Deals happen anywhere."
+      ],
+      "cons": [
+        "Loud players dominate.",
+        "Hard to track deals."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "set-collection"
+      ],
+      "tendency": "Players grab and swap cards whenever they like to build sets, as in Spoons.",
+      "pros": [
+        "Fast and physical.",
+        "Constant action."
+      ],
+      "cons": [
+        "Disputes over grabs.",
+        "Slow players lose."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "tile-placement"
+      ],
+      "tendency": "Players race to place tiles on their maps as fast as they can.",
+      "pros": [
+        "Exciting and quick.",
+        "Everyone busy."
+      ],
+      "cons": [
+        "Messy maps.",
+        "Hard to check."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "call-and-response"
+      ],
+      "tendency": "Anyone may answer the call at any moment; the quickest answer counts.",
+      "pros": [
+        "Lively.",
+        "Rewards quick wit."
+      ],
+      "cons": [
+        "Quiet players get left out.",
+        "Answers clash."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "playing-in-silence"
+      ],
+      "tendency": "Players act whenever they sense the moment, without speaking, as in The Mind.",
+      "pros": [
+        "Deep focus.",
+        "A shared sense of time."
+      ],
+      "cons": [
+        "Very hard at first.",
+        "Frustrating mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "change-the-rules"
+      ],
+      "tendency": "Anyone may change a rule at any moment.",
+      "pros": [
+        "Fast-changing game.",
+        "Lively."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Hard to know the current rules."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "role-play"
+      ],
+      "tendency": "Characters act and speak whenever they like, as in live role-play.",
+      "pros": [
+        "Immersive and natural.",
+        "No waiting for a turn."
+      ],
+      "cons": [
+        "Loud characters dominate.",
+        "Hard to follow every scene."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "dexterity"
+      ],
+      "tendency": "Everyone flicks, stacks or grabs at once, whenever they can.",
+      "pros": [
+        "Frantic and funny.",
+        "Physical energy."
+      ],
+      "cons": [
+        "Collisions.",
+        "Hard to judge."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "drawing-the-map"
+      ],
+      "tendency": "Everyone draws on the map at any moment.",
+      "pros": [
+        "Fast and messy.",
+        "Lively."
+      ],
+      "cons": [
+        "Lines collide.",
+        "Hard to read."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "race-to-finish"
+      ],
+      "tendency": "Players race to finish as fast as they can, in real time.",
+      "pros": [
+        "Exciting.",
+        "No waiting."
+      ],
+      "cons": [
+        "Speed beats thought.",
+        "Slow players have no chance."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "most-points"
+      ],
+      "tendency": "Players score points as fast as they can before time runs out.",
+      "pros": [
+        "Frantic scoring.",
+        "Clear goal."
+      ],
+      "cons": [
+        "Rushed play.",
+        "Speed decides more than choices."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "last-standing"
+      ],
+      "tendency": "Players act whenever they like, knocking each other out in real time.",
+      "pros": [
+        "Thrilling.",
+        "Fast elimination."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Out players wait."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "cooperative-survival"
+      ],
+      "tendency": "The team acts in real time against a threat that keeps coming.",
+      "pros": [
+        "Tense teamwork.",
+        "Exciting."
+      ],
+      "cons": [
+        "Stressful.",
+        "Hard to coordinate."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "shared-objective"
+      ],
+      "tendency": "Everyone works towards the shared goal at their own speed.",
+      "pros": [
+        "Lively teamwork.",
+        "Everyone helps."
+      ],
+      "cons": [
+        "Disorganised.",
+        "Duplicate work."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "hidden-personal-goal"
+      ],
+      "tendency": "Players chase secret goals in real time.",
+      "pros": [
+        "Fast and tense.",
+        "Hard to read."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Little time to watch others."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "narrative-completion"
+      ],
+      "tendency": "Anyone adds to the story at any moment.",
+      "pros": [
+        "Lively story.",
+        "Natural flow."
+      ],
+      "cons": [
+        "Loud players dominate.",
+        "Story can wander."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "no-objective"
+      ],
+      "tendency": "Players do as they like with nothing to win.",
+      "pros": [
+        "Playful and free.",
+        "Relaxed."
+      ],
+      "cons": [
+        "Can feel aimless.",
+        "No shape."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "set-your-own-goal"
+      ],
+      "tendency": "Players chase their own chosen goals at their own speed.",
+      "pros": [
+        "Freedom.",
+        "No waiting."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Hard to compare."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "one-loser"
+      ],
+      "tendency": "Everyone acts at their own speed, and the slowest or the one who slips loses.",
+      "pros": [
+        "Tense.",
+        "Fast."
+      ],
+      "cons": [
+        "Speed decides.",
+        "Harsh on slower players."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "keep-the-game-going"
+      ],
+      "tendency": "Players act whenever they like to keep the game alive.",
+      "pros": [
+        "Flowing play.",
+        "Easy to join."
+      ],
+      "cons": [
+        "No shape.",
+        "Can fizzle."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "cannot-be-won"
+      ],
+      "tendency": "Players act freely in a game that cannot be won.",
+      "pros": [
+        "Freedom to explore.",
+        "No pressure."
+      ],
+      "cons": [
+        "Aimless.",
+        "Hard to engage."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "solo-in-parallel"
+      ],
+      "tendency": "Everyone plays their own game at their own speed.",
+      "pros": [
+        "No waiting.",
+        "Calm or fast as you like."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Feels separate."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "direct-confrontation"
+      ],
+      "tendency": "Players attack whenever they like, in real time.",
+      "pros": [
+        "Thrilling fights.",
+        "Quick reactions."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Speed beats strategy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "indirect-via-board"
+      ],
+      "tendency": "Players change the board whenever they like.",
+      "pros": [
+        "Lively board.",
+        "Fast."
+      ],
+      "cons": [
+        "Hard to follow changes.",
+        "Collisions."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "fully-cooperative"
+      ],
+      "tendency": "The team acts in real time with no turns.",
+      "pros": [
+        "Energetic teamwork.",
+        "Everyone busy."
+      ],
+      "cons": [
+        "Hard to coordinate.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "semi-cooperative"
+      ],
+      "tendency": "Players help or betray at any moment.",
+      "pros": [
+        "Tense.",
+        "Fast trust decisions."
+      ],
+      "cons": [
+        "Hard to track who did what.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "team-vs-team"
+      ],
+      "tendency": "Teams act in real time against each other.",
+      "pros": [
+        "Exciting.",
+        "Teamwork under pressure."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Loud teams dominate."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "traitor"
+      ],
+      "tendency": "Everyone acts at once, and the traitor hides in the rush.",
+      "pros": [
+        "Traitor hides easily.",
+        "Tense."
+      ],
+      "cons": [
+        "Hard to spot the traitor.",
+        "Few clues."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "playing-by-letter"
+      ],
+      "tendency": "Players send moves whenever they like, without waiting for replies.",
+      "pros": [
+        "Flexible.",
+        "Fits busy lives."
+      ],
+      "cons": [
+        "Confusing order of moves.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "absent-player"
+      ],
+      "tendency": "The absent player's actions arrive at any moment, unannounced.",
+      "pros": [
+        "Surprising.",
+        "Keeps players alert."
+      ],
+      "cons": [
+        "Can feel random.",
+        "Hard to plan."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "game-master"
+      ],
+      "tendency": "Players act whenever they like and the game master answers on the fly.",
+      "pros": [
+        "Lively story.",
+        "Natural flow."
+      ],
+      "cons": [
+        "Heavy work for the master.",
+        "Some players get more attention."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "public-game"
+      ],
+      "tendency": "Passers-by join and act whenever they like.",
+      "pros": [
+        "Lively.",
+        "Open to all."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Hard to keep track."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "mostly-chance"
+      ],
+      "tendency": "Players roll or draw as fast as they can, and luck decides.",
+      "pros": [
+        "Fast and fun.",
+        "Exciting."
+      ],
+      "cons": [
+        "Few decisions.",
+        "Chaos."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "chance-with-mitigation"
+      ],
+      "tendency": "Players roll as fast as they can and soften unlucky rolls on the fly.",
+      "pros": [
+        "Fast decisions.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Hard to track."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "skill-with-luck-tempering"
+      ],
+      "tendency": "Players act at their own speed with some luck along the way.",
+      "pros": [
+        "Lively.",
+        "Rewards quick thinking."
+      ],
+      "cons": [
+        "Rushed.",
+        "Luck under pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "mostly-skill"
+      ],
+      "tendency": "Players act whenever they like in a game of skill, so speed of thought counts.",
+      "pros": [
+        "Rewards quick thinking.",
+        "Exciting."
+      ],
+      "cons": [
+        "Slower thinkers struggle.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "chance-read-as-a-sign"
+      ],
+      "tendency": "Signs appear at any moment and players read them on the fly.",
+      "pros": [
+        "Lively.",
+        "Surprising."
+      ],
+      "cons": [
+        "Hard to reflect.",
+        "Readings get lost."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "attunement"
+      ],
+      "tendency": "Players act when they sense the moment is right, with no turns to guide them, as in The Mind.",
+      "pros": [
+        "Deep connection.",
+        "Rewarding."
+      ],
+      "cons": [
+        "Hard for new groups.",
+        "Frustrating at first."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "dice-tell-the-story"
+      ],
+      "tendency": "Players roll whenever they like and the story grows in bursts.",
+      "pros": [
+        "Lively.",
+        "Surprising."
+      ],
+      "cons": [
+        "Hard to follow.",
+        "Chaotic story."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "full-information"
+      ],
+      "tendency": "Everything is visible and players race to act on it, as in Set.",
+      "pros": [
+        "Fair speed contest.",
+        "Exciting."
+      ],
+      "cons": [
+        "Speed matters more than depth.",
+        "Slower players lose."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "hidden-hands"
+      ],
+      "tendency": "Players play hidden cards whenever they like.",
+      "pros": [
+        "Fast.",
+        "Tense."
+      ],
+      "cons": [
+        "Hard to read others.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "hidden-identity"
+      ],
+      "tendency": "Players act freely while hiding who they are.",
+      "pros": [
+        "Hidden roles blend in.",
+        "Tense."
+      ],
+      "cons": [
+        "Few clues.",
+        "Hard to deduce."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "deduction"
+      ],
+      "tendency": "Players race to solve the puzzle first.",
+      "pros": [
+        "Exciting.",
+        "Rewards quick minds."
+      ],
+      "cons": [
+        "Slower thinkers lose.",
+        "Less reasoning shared."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "bluffing"
+      ],
+      "tendency": "Players claim and challenge at any moment.",
+      "pros": [
+        "Lively.",
+        "Fast."
+      ],
+      "cons": [
+        "Hard to follow claims.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "rules-you-discover"
+      ],
+      "tendency": "Players try things whenever they like and learn the rules from the chaos.",
+      "pros": [
+        "Lively learning.",
+        "Fast."
+      ],
+      "cons": [
+        "Hard to see what caused what.",
+        "Confusing."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "one-knows-cannot-say"
+      ],
+      "tendency": "The knower hints and anyone may shout a guess at any moment.",
+      "pros": [
+        "Lively guessing.",
+        "Fast."
+      ],
+      "cons": [
+        "Loud guessers dominate.",
+        "Hard to judge."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "map-revealed-as-you-go"
+      ],
+      "tendency": "Players explore at their own speed and the map opens in many places.",
+      "pros": [
+        "Fast discovery.",
+        "Exciting."
+      ],
+      "cons": [
+        "Uneven.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "model-a-system"
+      ],
+      "tendency": "Players act on the model whenever they like, as in real life.",
+      "pros": [
+        "Realistic.",
+        "Lively."
+      ],
+      "cons": [
+        "Hard to trace causes.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "stakeholder-roles"
+      ],
+      "tendency": "Stakeholders act whenever they choose, without a fixed order.",
+      "pros": [
+        "Realistic power dynamics.",
+        "Lively."
+      ],
+      "cons": [
+        "Loud roles dominate.",
+        "Quiet roles lose out."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "shared-resource"
+      ],
+      "tendency": "Everyone takes from the shared resource as fast as they can.",
+      "pros": [
+        "Shows a rush on resources.",
+        "Tense."
+      ],
+      "cons": [
+        "Resource collapses fast.",
+        "Harsh lesson."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "delayed-effects"
+      ],
+      "tendency": "Players act freely and the effects arrive later, all mixed together.",
+      "pros": [
+        "Realistic.",
+        "Surprising."
+      ],
+      "cons": [
+        "Hard to learn from.",
+        "Confusing."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "try-a-rule"
+      ],
+      "tendency": "Players test a rule freely, at their own pace.",
+      "pros": [
+        "Fast experiments.",
+        "Lively."
+      ],
+      "cons": [
+        "Hard to compare.",
+        "Messy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "debrief"
+      ],
+      "tendency": "Players share reflections whenever they want, in open talk.",
+      "pros": [
+        "Natural conversation.",
+        "Lively."
+      ],
+      "cons": [
+        "Quiet voices get lost.",
+        "Unfocused."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "irreversible-change"
+      ],
+      "tendency": "Players make permanent changes at any moment.",
+      "pros": [
+        "Dramatic.",
+        "Fast."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Regret."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "rules-make-an-argument"
+      ],
+      "tendency": "The rules make their point through free, real-time play.",
+      "pros": [
+        "Realistic.",
+        "Lively."
+      ],
+      "cons": [
+        "Argument can be lost.",
+        "Hard to see."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "stakes-outside-the-game"
+      ],
+      "tendency": "Real stakes, decided in real time.",
+      "pros": [
+        "Intense.",
+        "Fast."
+      ],
+      "cons": [
+        "Stressful.",
+        "Rushed choices with real cost."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "points-stand-for-values"
+      ],
+      "tendency": "Players chase points standing for values as fast as they can.",
+      "pros": [
+        "Shows how pressure changes priorities.",
+        "Lively."
+      ],
+      "cons": [
+        "Values can blur.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "rehearse-a-future"
+      ],
+      "tendency": "Players act out a future freely, as events might unfold.",
+      "pros": [
+        "Realistic.",
+        "Lively."
+      ],
+      "cons": [
+        "Hard to follow.",
+        "Unfocused."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "roll-and-move"
+      ],
+      "tendency": "Players have a few seconds to roll and move before the turn passes.",
+      "pros": [
+        "Keeps the game moving.",
+        "Adds light pressure."
+      ],
+      "cons": [
+        "Little time to choose between paths.",
+        "Fumbled rolls waste the turn."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "drafting"
+      ],
+      "tendency": "Each pick has a time limit, so players choose under pressure.",
+      "pros": [
+        "Quick drafts.",
+        "Instinct over study."
+      ],
+      "cons": [
+        "Rushed picks.",
+        "Slow readers struggle."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "bidding"
+      ],
+      "tendency": "Each bid has to come before the clock runs out.",
+      "pros": [
+        "Tense, fast auctions.",
+        "No stalling."
+      ],
+      "cons": [
+        "Rushed valuations.",
+        "Slow players miss bids."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "push-your-luck"
+      ],
+      "tendency": "Players decide whether to push before time runs out.",
+      "pros": [
+        "Tense.",
+        "Fast decisions."
+      ],
+      "cons": [
+        "Panic pushes.",
+        "Little time to weigh odds."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "area-control"
+      ],
+      "tendency": "Each placement has a time limit.",
+      "pros": [
+        "Keeps the map moving.",
+        "Pressure on planners."
+      ],
+      "cons": [
+        "Rushed, weak moves.",
+        "Slow thinkers lose."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "worker-placement"
+      ],
+      "tendency": "Players have to claim a spot before the timer ends.",
+      "pros": [
+        "Fast rounds.",
+        "Pressure."
+      ],
+      "cons": [
+        "Missed spots.",
+        "Stress for slow players."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "pattern-building"
+      ],
+      "tendency": "Players add to their patterns under a clock, as in 3 Quarters.",
+      "pros": [
+        "Tense building.",
+        "Quick thinking."
+      ],
+      "cons": [
+        "Mistakes.",
+        "Little planning."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "hand-management"
+      ],
+      "tendency": "Each card has to be chosen before time runs out.",
+      "pros": [
+        "Fast play.",
+        "Pressure on choices."
+      ],
+      "cons": [
+        "Rushed choices.",
+        "Hand gets forgotten."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "trick-taking"
+      ],
+      "tendency": "Each card into the trick has a time limit.",
+      "pros": [
+        "Fast tricks.",
+        "Tension."
+      ],
+      "cons": [
+        "Rushed reading of cards.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "negotiation"
+      ],
+      "tendency": "Deals have to be struck before the clock runs out.",
+      "pros": [
+        "Urgent bargaining.",
+        "No endless talk."
+      ],
+      "cons": [
+        "Poor deals under pressure.",
+        "Loud players dominate."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "set-collection"
+      ],
+      "tendency": "Players have limited time to pick for their sets.",
+      "pros": [
+        "Fast.",
+        "Tense."
+      ],
+      "cons": [
+        "Rushed picks.",
+        "Missed sets."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "tile-placement"
+      ],
+      "tendency": "Each tile has to be placed before the timer ends.",
+      "pros": [
+        "Keeps play moving.",
+        "Pressure."
+      ],
+      "cons": [
+        "Messy maps.",
+        "Poor placements."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "call-and-response"
+      ],
+      "tendency": "Each answer has to come within a few seconds, before the others finish counting.",
+      "pros": [
+        "Tense, lively.",
+        "Rewards quick wit."
+      ],
+      "cons": [
+        "Shy players freeze.",
+        "Pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "playing-in-silence"
+      ],
+      "tendency": "Players act silently within a time limit.",
+      "pros": [
+        "Focused.",
+        "Tense silence."
+      ],
+      "cons": [
+        "Stressful.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "change-the-rules"
+      ],
+      "tendency": "Rule changes have to be proposed within a time limit.",
+      "pros": [
+        "Quick changes.",
+        "No long debates."
+      ],
+      "cons": [
+        "Poorly thought-out rules.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "role-play"
+      ],
+      "tendency": "Characters have to act or speak before the time runs out.",
+      "pros": [
+        "Keeps scenes moving.",
+        "Energetic."
+      ],
+      "cons": [
+        "Rushed acting.",
+        "Shallow characters."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "dexterity"
+      ],
+      "tendency": "Each flick or stack has a few seconds.",
+      "pros": [
+        "Tense.",
+        "Fun."
+      ],
+      "cons": [
+        "Shaky hands.",
+        "Fumbles."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "drawing-the-map"
+      ],
+      "tendency": "Each addition to the map has a time limit.",
+      "pros": [
+        "Fast maps.",
+        "Energy."
+      ],
+      "cons": [
+        "Messy drawings.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "race-to-finish"
+      ],
+      "tendency": "A race where every turn is against the clock.",
+      "pros": [
+        "Exciting.",
+        "Fast."
+      ],
+      "cons": [
+        "Speed beats thought.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "most-points"
+      ],
+      "tendency": "Players score under time pressure each turn.",
+      "pros": [
+        "Tense.",
+        "Fast."
+      ],
+      "cons": [
+        "Rushed scoring choices.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "last-standing"
+      ],
+      "tendency": "Every turn under the clock, with elimination at stake.",
+      "pros": [
+        "Thrilling.",
+        "High stakes."
+      ],
+      "cons": [
+        "Stressful.",
+        "Harsh."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "cooperative-survival"
+      ],
+      "tendency": "The team has to act before the timer, against a threat.",
+      "pros": [
+        "Tense teamwork.",
+        "Exciting."
+      ],
+      "cons": [
+        "Hard to discuss.",
+        "Panic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "shared-objective"
+      ],
+      "tendency": "The team works to a shared goal under a clock.",
+      "pros": [
+        "Focused.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed plans.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "hidden-personal-goal"
+      ],
+      "tendency": "Players chase secret goals under time pressure.",
+      "pros": [
+        "Tense.",
+        "Hard to read."
+      ],
+      "cons": [
+        "Rushed.",
+        "Goals slip."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "narrative-completion"
+      ],
+      "tendency": "Each part of the story has to be told in a time limit.",
+      "pros": [
+        "Lively story.",
+        "Quick ideas."
+      ],
+      "cons": [
+        "Shallow story.",
+        "Pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "no-objective"
+      ],
+      "tendency": "Players act under a clock with nothing to win.",
+      "pros": [
+        "Lively rhythm.",
+        "Keeps attention."
+      ],
+      "cons": [
+        "Pressure without purpose.",
+        "Odd mix."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "set-your-own-goal"
+      ],
+      "tendency": "Players chase their own goals under a clock.",
+      "pros": [
+        "Focused.",
+        "Lively."
+      ],
+      "cons": [
+        "Hard to plan.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "one-loser"
+      ],
+      "tendency": "Turns under the clock, and the one who runs out of time loses.",
+      "pros": [
+        "Tense.",
+        "Clear loser."
+      ],
+      "cons": [
+        "Stressful.",
+        "Harsh on slow players."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "keep-the-game-going"
+      ],
+      "tendency": "A steady clock keeps the game rolling.",
+      "pros": [
+        "Steady pace.",
+        "Easy to keep going."
+      ],
+      "cons": [
+        "Monotonous.",
+        "Pressure never lifts."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "cannot-be-won"
+      ],
+      "tendency": "Timed turns in a game nobody can win.",
+      "pros": [
+        "Lively.",
+        "Reflective after."
+      ],
+      "cons": [
+        "Pressure without purpose.",
+        "Confusing."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "solo-in-parallel"
+      ],
+      "tendency": "Everyone plays their own game under the same clock.",
+      "pros": [
+        "Fair.",
+        "Calm or tense."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "direct-confrontation"
+      ],
+      "tendency": "Attacks have to be chosen before the clock runs out.",
+      "pros": [
+        "Tense fights.",
+        "Fast."
+      ],
+      "cons": [
+        "Rushed attacks.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "indirect-via-board"
+      ],
+      "tendency": "Board changes under time pressure.",
+      "pros": [
+        "Lively.",
+        "Pressure."
+      ],
+      "cons": [
+        "Rushed.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "fully-cooperative"
+      ],
+      "tendency": "The team has to agree and act before time runs out.",
+      "pros": [
+        "Tense.",
+        "Focused."
+      ],
+      "cons": [
+        "Rushed teamwork.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "semi-cooperative"
+      ],
+      "tendency": "Players choose to help or betray under a clock.",
+      "pros": [
+        "Tense choices.",
+        "Fast."
+      ],
+      "cons": [
+        "Rushed trust.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "team-vs-team"
+      ],
+      "tendency": "Each team's turn is timed.",
+      "pros": [
+        "Fair.",
+        "Tense."
+      ],
+      "cons": [
+        "Rushed teamwork.",
+        "Arguments."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "traitor"
+      ],
+      "tendency": "Players act under a clock while the traitor hides.",
+      "pros": [
+        "Tense.",
+        "Hard to think."
+      ],
+      "cons": [
+        "Few clues.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "playing-by-letter"
+      ],
+      "tendency": "Each letter has to be sent within a set time, such as a day.",
+      "pros": [
+        "Keeps letters coming.",
+        "Fair."
+      ],
+      "cons": [
+        "Slow players drop out.",
+        "Pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "absent-player"
+      ],
+      "tendency": "The absent player's turn is timed too, and runs out on its own.",
+      "pros": [
+        "Keeps pace.",
+        "Steady."
+      ],
+      "cons": [
+        "Can feel mechanical.",
+        "Little presence."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "game-master"
+      ],
+      "tendency": "The game master gives each player a time limit to act.",
+      "pros": [
+        "Keeps scenes moving.",
+        "Fair."
+      ],
+      "cons": [
+        "Rushed choices.",
+        "Pressure on the master."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "public-game"
+      ],
+      "tendency": "Passers-by each get a few seconds to play.",
+      "pros": [
+        "Fast.",
+        "Inclusive."
+      ],
+      "cons": [
+        "Rushed.",
+        "Confusing for newcomers."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "mostly-chance"
+      ],
+      "tendency": "Timed turns in a game of luck.",
+      "pros": [
+        "Fast.",
+        "Simple."
+      ],
+      "cons": [
+        "Clock adds little.",
+        "Pointless pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "chance-with-mitigation"
+      ],
+      "tendency": "Players have a few seconds to soften unlucky rolls.",
+      "pros": [
+        "Tense.",
+        "Fast."
+      ],
+      "cons": [
+        "Rushed choices.",
+        "Missed options."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "skill-with-luck-tempering"
+      ],
+      "tendency": "Planning under a clock, with a little luck.",
+      "pros": [
+        "Tense.",
+        "Rewards quick thinking."
+      ],
+      "cons": [
+        "Rushed.",
+        "Luck adds stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "mostly-skill"
+      ],
+      "tendency": "A game of skill under a clock, like blitz chess.",
+      "pros": [
+        "Exciting.",
+        "Rewards quick thought."
+      ],
+      "cons": [
+        "Depth suffers.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "chance-read-as-a-sign"
+      ],
+      "tendency": "Signs have to be read within a time limit.",
+      "pros": [
+        "Lively.",
+        "Instinctive readings."
+      ],
+      "cons": [
+        "Shallow.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "attunement"
+      ],
+      "tendency": "Players have to sense each other within a time limit.",
+      "pros": [
+        "Tense connection.",
+        "Focus."
+      ],
+      "cons": [
+        "Stress breaks attunement.",
+        "Hard."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "dice-tell-the-story"
+      ],
+      "tendency": "Each roll's story has to be told quickly.",
+      "pros": [
+        "Lively.",
+        "Quick ideas."
+      ],
+      "cons": [
+        "Shallow story.",
+        "Pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "full-information"
+      ],
+      "tendency": "Everything is visible but there is little time to study it.",
+      "pros": [
+        "Exciting.",
+        "Rewards quick reading."
+      ],
+      "cons": [
+        "Depth suffers.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "hidden-hands"
+      ],
+      "tendency": "Players choose from a hidden hand under time pressure.",
+      "pros": [
+        "Tense.",
+        "Fast."
+      ],
+      "cons": [
+        "Mistakes.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "hidden-identity"
+      ],
+      "tendency": "Players act under a clock while hiding who they are.",
+      "pros": [
+        "Tense.",
+        "Hard to read."
+      ],
+      "cons": [
+        "Rushed.",
+        "Few clues."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "deduction"
+      ],
+      "tendency": "Players have to deduce under a time limit.",
+      "pros": [
+        "Exciting.",
+        "Rewards quick minds."
+      ],
+      "cons": [
+        "Rushed reasoning.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "bluffing"
+      ],
+      "tendency": "Claims have to be made before time runs out.",
+      "pros": [
+        "Tense.",
+        "Fast."
+      ],
+      "cons": [
+        "Rushed bluffs.",
+        "Easy to spot."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "rules-you-discover"
+      ],
+      "tendency": "Players experiment under time pressure to find the rules.",
+      "pros": [
+        "Lively.",
+        "Fast learning."
+      ],
+      "cons": [
+        "Rushed.",
+        "Confusing."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "one-knows-cannot-say"
+      ],
+      "tendency": "Hints and guesses under a time limit.",
+      "pros": [
+        "Tense.",
+        "Fun."
+      ],
+      "cons": [
+        "Rushed hints.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "map-revealed-as-you-go"
+      ],
+      "tendency": "Each step of exploring is timed.",
+      "pros": [
+        "Tense.",
+        "Fast."
+      ],
+      "cons": [
+        "Rushed.",
+        "Missed paths."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "model-a-system"
+      ],
+      "tendency": "Players have to act on the model before time runs out, as in a crisis.",
+      "pros": [
+        "Realistic pressure.",
+        "Tense."
+      ],
+      "cons": [
+        "Rushed choices.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "stakeholder-roles"
+      ],
+      "tendency": "Each stakeholder has a time limit to decide.",
+      "pros": [
+        "Fair.",
+        "Realistic."
+      ],
+      "cons": [
+        "Rushed.",
+        "Quiet roles lose."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "shared-resource"
+      ],
+      "tendency": "Players have to take from the shared resource quickly.",
+      "pros": [
+        "Tense.",
+        "Shows pressure on resources."
+      ],
+      "cons": [
+        "Rushed.",
+        "Collapse."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "delayed-effects"
+      ],
+      "tendency": "Quick decisions whose effects arrive later.",
+      "pros": [
+        "Realistic.",
+        "Tense."
+      ],
+      "cons": [
+        "Rushed.",
+        "Hard to learn."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "try-a-rule"
+      ],
+      "tendency": "Rule tests run under a clock.",
+      "pros": [
+        "Fast tests.",
+        "Focused."
+      ],
+      "cons": [
+        "Rushed.",
+        "Shallow results."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "debrief"
+      ],
+      "tendency": "Each person has a set time to share afterwards.",
+      "pros": [
+        "Fair.",
+        "Everyone heard."
+      ],
+      "cons": [
+        "Rushed.",
+        "Shallow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "irreversible-change"
+      ],
+      "tendency": "Permanent changes made under time pressure.",
+      "pros": [
+        "Dramatic.",
+        "Tense."
+      ],
+      "cons": [
+        "Regret.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "rules-make-an-argument"
+      ],
+      "tendency": "The clock is part of the argument the rules make.",
+      "pros": [
+        "Shows how pressure shapes choices.",
+        "Clear lesson."
+      ],
+      "cons": [
+        "Stressful.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "stakes-outside-the-game"
+      ],
+      "tendency": "Real stakes, decided against the clock.",
+      "pros": [
+        "Intense.",
+        "Focused."
+      ],
+      "cons": [
+        "Stressful.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "points-stand-for-values"
+      ],
+      "tendency": "Value trade-offs made under time pressure.",
+      "pros": [
+        "Shows how haste changes priorities.",
+        "Tense."
+      ],
+      "cons": [
+        "Rushed.",
+        "Values blur."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "rehearse-a-future"
+      ],
+      "tendency": "Acting out a future under a clock, as in a drill.",
+      "pros": [
+        "Realistic.",
+        "Focused."
+      ],
+      "cons": [
+        "Rushed.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "roll-and-move"
+      ],
+      "tendency": "Each roll and move is slowed down on purpose, with a pause before every throw.",
+      "pros": [
+        "Calm.",
+        "Each roll is felt."
+      ],
+      "cons": [
+        "Can feel slow.",
+        "Restless players fidget."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "drafting"
+      ],
+      "tendency": "Picks are slowed, with time to look at every card.",
+      "pros": [
+        "Thoughtful picks.",
+        "Calm."
+      ],
+      "cons": [
+        "Long rounds.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "bidding"
+      ],
+      "tendency": "Bids come slowly, with a pause between each.",
+      "pros": [
+        "Considered bids.",
+        "Calm tension."
+      ],
+      "cons": [
+        "Slow auctions.",
+        "Can drag."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "push-your-luck"
+      ],
+      "tendency": "Each push comes after a pause, so the risk is weighed slowly.",
+      "pros": [
+        "Every risk is felt fully.",
+        "Suspense."
+      ],
+      "cons": [
+        "Slow.",
+        "Less excitement."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "area-control"
+      ],
+      "tendency": "Moves on the map are slowed and deliberate.",
+      "pros": [
+        "Thoughtful strategy.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow game.",
+        "Little drama."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "worker-placement"
+      ],
+      "tendency": "Each placement is made slowly, with time to think.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Long rounds.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "pattern-building"
+      ],
+      "tendency": "Patterns are built slowly and carefully.",
+      "pros": [
+        "Calm and absorbing.",
+        "Beautiful results."
+      ],
+      "cons": [
+        "Slow.",
+        "Little interaction."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "hand-management"
+      ],
+      "tendency": "Cards are played slowly, each one weighed.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Can drag."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "trick-taking"
+      ],
+      "tendency": "Each card is played after a pause, so every trick is studied.",
+      "pros": [
+        "Deep play.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Little energy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "negotiation"
+      ],
+      "tendency": "Bargaining is slowed, with time to think between offers.",
+      "pros": [
+        "Considered deals.",
+        "Calm talk."
+      ],
+      "cons": [
+        "Slow.",
+        "Deals can stall."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "set-collection"
+      ],
+      "tendency": "Sets are built slowly, with time to consider each card.",
+      "pros": [
+        "Calm.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "tile-placement"
+      ],
+      "tendency": "Tiles are laid slowly and with care.",
+      "pros": [
+        "Calm.",
+        "Absorbing."
+      ],
+      "cons": [
+        "Slow.",
+        "Little interaction."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "call-and-response"
+      ],
+      "tendency": "Each answer comes after a pause, like a slow conversation.",
+      "pros": [
+        "Reflective.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Energy drops."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "playing-in-silence"
+      ],
+      "tendency": "Slow, silent play with long pauses between moves.",
+      "pros": [
+        "Meditative.",
+        "Deep focus."
+      ],
+      "cons": [
+        "Very slow.",
+        "Some find it uncomfortable."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "change-the-rules"
+      ],
+      "tendency": "Rule changes are proposed slowly and talked through.",
+      "pros": [
+        "Considered changes.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Long debates."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "role-play"
+      ],
+      "tendency": "Characters act slowly, with time to inhabit each moment.",
+      "pros": [
+        "Immersive.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow scenes.",
+        "Energy drops."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "dexterity"
+      ],
+      "tendency": "Each physical move is made slowly and carefully, as in Jenga.",
+      "pros": [
+        "Tense calm.",
+        "Careful hands."
+      ],
+      "cons": [
+        "Slow.",
+        "Nervous waiting."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "drawing-the-map"
+      ],
+      "tendency": "The map is drawn slowly, each line considered.",
+      "pros": [
+        "Beautiful maps.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Little interaction."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "race-to-finish"
+      ],
+      "tendency": "A race played slowly, where patience matters as much as speed.",
+      "pros": [
+        "Unusual tension.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Feels contradictory.",
+        "Slow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "most-points"
+      ],
+      "tendency": "Points are earned slowly, with time to plan each one.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "last-standing"
+      ],
+      "tendency": "Elimination comes slowly, each step weighed.",
+      "pros": [
+        "Suspense.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Out players wait long."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "cooperative-survival"
+      ],
+      "tendency": "The team faces a slow threat, with time to plan together.",
+      "pros": [
+        "Calm teamwork.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Little urgency.",
+        "Slow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "shared-objective"
+      ],
+      "tendency": "The group works slowly towards a shared goal.",
+      "pros": [
+        "Calm teamwork.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow progress.",
+        "Restless players."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "hidden-personal-goal"
+      ],
+      "tendency": "Players pursue secret goals slowly and carefully.",
+      "pros": [
+        "Hard to read.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Little drama."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "narrative-completion"
+      ],
+      "tendency": "The story unfolds slowly, each part considered.",
+      "pros": [
+        "Rich story.",
+        "Reflective."
+      ],
+      "cons": [
+        "Slow.",
+        "Energy drops."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "no-objective"
+      ],
+      "tendency": "Slow play with nothing to win, like a quiet pastime.",
+      "pros": [
+        "Meditative.",
+        "Relaxing."
+      ],
+      "cons": [
+        "Aimless.",
+        "Some get bored."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "set-your-own-goal"
+      ],
+      "tendency": "Players pursue their own goals at a slow, chosen pace.",
+      "pros": [
+        "Calm.",
+        "Personal."
+      ],
+      "cons": [
+        "Slow.",
+        "Little interaction."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "one-loser"
+      ],
+      "tendency": "Slow play towards one loser, each step weighed.",
+      "pros": [
+        "Suspense.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Drawn-out tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "keep-the-game-going"
+      ],
+      "tendency": "Slow, steady play that can go on for a long time.",
+      "pros": [
+        "Relaxing.",
+        "Sustainable."
+      ],
+      "cons": [
+        "Can drag.",
+        "No arc."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "cannot-be-won"
+      ],
+      "tendency": "Slow play in a game nobody can win.",
+      "pros": [
+        "Reflective.",
+        "Calm."
+      ],
+      "cons": [
+        "Aimless.",
+        "Hard to engage."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "solo-in-parallel"
+      ],
+      "tendency": "Everyone plays their own slow, calm game.",
+      "pros": [
+        "Peaceful.",
+        "Absorbing."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Slow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "direct-confrontation"
+      ],
+      "tendency": "Attacks come slowly, each one considered.",
+      "pros": [
+        "Thoughtful conflict.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Little excitement."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "indirect-via-board"
+      ],
+      "tendency": "Slow changes to the board, each one considered.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Subtle."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "fully-cooperative"
+      ],
+      "tendency": "The team plays slowly, discussing each move.",
+      "pros": [
+        "Calm teamwork.",
+        "Inclusive."
+      ],
+      "cons": [
+        "Slow.",
+        "One voice can lead."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "semi-cooperative"
+      ],
+      "tendency": "Players decide slowly whether to help or betray.",
+      "pros": [
+        "Tense.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Heavy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "team-vs-team"
+      ],
+      "tendency": "Teams play slowly, with time to plan.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Little energy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "traitor"
+      ],
+      "tendency": "Slow play while the traitor hides.",
+      "pros": [
+        "Suspense.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Tension can fade."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "playing-by-letter"
+      ],
+      "tendency": "Play by letter, slowed further on purpose.",
+      "pros": [
+        "Deep reflection.",
+        "Fits busy lives."
+      ],
+      "cons": [
+        "Very slow.",
+        "Hard to keep going."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "absent-player"
+      ],
+      "tendency": "Slow play with a presence that is not there.",
+      "pros": [
+        "Reflective.",
+        "Moving."
+      ],
+      "cons": [
+        "Slow.",
+        "Quiet."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "game-master"
+      ],
+      "tendency": "The game master sets a slow, unhurried pace.",
+      "pros": [
+        "Immersive.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Energy drops."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "public-game"
+      ],
+      "tendency": "A slow public game that passers-by can watch and join.",
+      "pros": [
+        "Inviting.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "People walk away."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "mostly-chance"
+      ],
+      "tendency": "Luck decides, slowly, each roll given its moment.",
+      "pros": [
+        "Each roll felt.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Few choices."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "chance-with-mitigation"
+      ],
+      "tendency": "Slow play with time to soften unlucky rolls.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "skill-with-luck-tempering"
+      ],
+      "tendency": "Slow, thoughtful play with a touch of luck.",
+      "pros": [
+        "Calm.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Little drama."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "mostly-skill"
+      ],
+      "tendency": "Slow play in a game of skill, like correspondence chess.",
+      "pros": [
+        "Deep thinking.",
+        "Calm."
+      ],
+      "cons": [
+        "Very slow.",
+        "Exhausting."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "chance-read-as-a-sign"
+      ],
+      "tendency": "Signs are read slowly and with care.",
+      "pros": [
+        "Ritual feel.",
+        "Reflective."
+      ],
+      "cons": [
+        "Slow.",
+        "Some find it heavy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "attunement"
+      ],
+      "tendency": "Slow play where players tune in to each other.",
+      "pros": [
+        "Deep connection.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Hard to sustain."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "dice-tell-the-story"
+      ],
+      "tendency": "The dice tell a slow story, each roll given its moment.",
+      "pros": [
+        "Rich story.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Energy drops."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "full-information"
+      ],
+      "tendency": "Everything visible, with time to study it all.",
+      "pros": [
+        "Deep planning.",
+        "Fair."
+      ],
+      "cons": [
+        "Very slow.",
+        "Overthinking."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "hidden-hands"
+      ],
+      "tendency": "Slow play from hidden hands.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "hidden-identity"
+      ],
+      "tendency": "Slow play where players hide who they are.",
+      "pros": [
+        "Suspense.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Clues come slowly."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "deduction"
+      ],
+      "tendency": "Slow, careful reasoning towards an answer.",
+      "pros": [
+        "Deep thinking.",
+        "Satisfying."
+      ],
+      "cons": [
+        "Slow.",
+        "Some lose interest."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "bluffing"
+      ],
+      "tendency": "Slow bluffing, each claim weighed.",
+      "pros": [
+        "Tense calm.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Bluffs easier to spot."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "rules-you-discover"
+      ],
+      "tendency": "Rules discovered slowly, through careful play.",
+      "pros": [
+        "Thoughtful learning.",
+        "Satisfying."
+      ],
+      "cons": [
+        "Slow.",
+        "Frustrating."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "one-knows-cannot-say"
+      ],
+      "tendency": "Slow hints and slow guesses.",
+      "pros": [
+        "Thoughtful.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Energy drops."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "map-revealed-as-you-go"
+      ],
+      "tendency": "The map opens slowly, step by step.",
+      "pros": [
+        "Suspense.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Restless players."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "model-a-system"
+      ],
+      "tendency": "Players act slowly on the model, with time to see how it responds.",
+      "pros": [
+        "Clear learning.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Less realistic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "stakeholder-roles"
+      ],
+      "tendency": "Stakeholders decide slowly, each role heard fully.",
+      "pros": [
+        "Fair.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Long sessions."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "shared-resource"
+      ],
+      "tendency": "The shared resource is drawn on slowly, with time to talk.",
+      "pros": [
+        "Thoughtful sharing.",
+        "Calm."
+      ],
+      "cons": [
+        "Slow.",
+        "Less pressure than real life."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "delayed-effects"
+      ],
+      "tendency": "Slow play where effects arrive later.",
+      "pros": [
+        "Reflective.",
+        "Clear."
+      ],
+      "cons": [
+        "Slow.",
+        "Patience needed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "try-a-rule"
+      ],
+      "tendency": "Rule tests run slowly and carefully.",
+      "pros": [
+        "Clear results.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Long sessions."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "debrief"
+      ],
+      "tendency": "A slow, unhurried debrief.",
+      "pros": [
+        "Deep reflection.",
+        "Everyone heard."
+      ],
+      "cons": [
+        "Long.",
+        "Energy drops."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "irreversible-change"
+      ],
+      "tendency": "Permanent changes made slowly, with time to think.",
+      "pros": [
+        "Considered.",
+        "Weighty."
+      ],
+      "cons": [
+        "Slow.",
+        "Heavy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "rules-make-an-argument"
+      ],
+      "tendency": "The slowness itself is part of the point the rules make.",
+      "pros": [
+        "Reflective.",
+        "Clear message."
+      ],
+      "cons": [
+        "Slow.",
+        "Some find it dull."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "stakes-outside-the-game"
+      ],
+      "tendency": "Real stakes, decided slowly.",
+      "pros": [
+        "Considered.",
+        "Serious."
+      ],
+      "cons": [
+        "Heavy.",
+        "Slow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "points-stand-for-values"
+      ],
+      "tendency": "Value trade-offs made slowly, with time to reflect.",
+      "pros": [
+        "Thoughtful.",
+        "Clear."
+      ],
+      "cons": [
+        "Slow.",
+        "Little tension."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "rehearse-a-future"
+      ],
+      "tendency": "A future rehearsed slowly, each step considered.",
+      "pros": [
+        "Deep reflection.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Long."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "roll-and-move"
+      ],
+      "tendency": "Rolls and moves come faster as the game goes on.",
+      "pros": [
+        "Builds excitement.",
+        "Strong finish."
+      ],
+      "cons": [
+        "Late rolls get careless.",
+        "Hard to follow at the end."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "drafting"
+      ],
+      "tendency": "Picks get faster each round, with less time to look.",
+      "pros": [
+        "Rising pressure.",
+        "Strong finish."
+      ],
+      "cons": [
+        "Late picks rushed.",
+        "Slow readers struggle."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "bidding"
+      ],
+      "tendency": "Bidding speeds up as the game goes on.",
+      "pros": [
+        "Rising tension.",
+        "Exciting finish."
+      ],
+      "cons": [
+        "Rushed late bids.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "push-your-luck"
+      ],
+      "tendency": "Decisions to push come faster and faster.",
+      "pros": [
+        "Rising tension.",
+        "Exciting."
+      ],
+      "cons": [
+        "Panic.",
+        "Careless pushes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "area-control"
+      ],
+      "tendency": "Moves on the map come faster as the game goes on.",
+      "pros": [
+        "Exciting end game.",
+        "Pressure builds."
+      ],
+      "cons": [
+        "Rushed late moves.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "worker-placement"
+      ],
+      "tendency": "Placements speed up each round.",
+      "pros": [
+        "Rising pressure.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "pattern-building"
+      ],
+      "tendency": "Pieces arrive faster and faster, as in Tetris.",
+      "pros": [
+        "Rising excitement.",
+        "Clear arc."
+      ],
+      "cons": [
+        "Overwhelming.",
+        "Mistakes pile up."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "hand-management"
+      ],
+      "tendency": "Cards have to be played faster each round.",
+      "pros": [
+        "Rising tension.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Hand gets forgotten."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "trick-taking"
+      ],
+      "tendency": "Tricks get faster as the hand goes on.",
+      "pros": [
+        "Exciting.",
+        "Builds."
+      ],
+      "cons": [
+        "Rushed.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "negotiation"
+      ],
+      "tendency": "Bargaining speeds up as time runs out.",
+      "pros": [
+        "Urgent.",
+        "Exciting."
+      ],
+      "cons": [
+        "Poor deals.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "set-collection"
+      ],
+      "tendency": "Collecting speeds up towards the end.",
+      "pros": [
+        "Exciting finish.",
+        "Rising pressure."
+      ],
+      "cons": [
+        "Rushed.",
+        "Missed sets."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "tile-placement"
+      ],
+      "tendency": "Tiles come faster as the game goes on.",
+      "pros": [
+        "Exciting.",
+        "Builds."
+      ],
+      "cons": [
+        "Messy maps.",
+        "Overwhelming."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "call-and-response"
+      ],
+      "tendency": "Calls and answers come faster and faster.",
+      "pros": [
+        "Exciting.",
+        "Fun."
+      ],
+      "cons": [
+        "Players drop out.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "playing-in-silence"
+      ],
+      "tendency": "Silent play that speeds up over time.",
+      "pros": [
+        "Tense.",
+        "Absorbing."
+      ],
+      "cons": [
+        "Overwhelming.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "change-the-rules"
+      ],
+      "tendency": "Rules change faster as the game goes on.",
+      "pros": [
+        "Lively.",
+        "Exciting."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Hard to keep up."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "role-play"
+      ],
+      "tendency": "Scenes speed up towards a climax.",
+      "pros": [
+        "Dramatic.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed acting.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "dexterity"
+      ],
+      "tendency": "Physical moves have to get faster as the game goes on.",
+      "pros": [
+        "Exciting.",
+        "Fun."
+      ],
+      "cons": [
+        "Fumbles.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "drawing-the-map"
+      ],
+      "tendency": "The map has to be drawn faster and faster.",
+      "pros": [
+        "Exciting.",
+        "Lively."
+      ],
+      "cons": [
+        "Messy.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "race-to-finish"
+      ],
+      "tendency": "A race that speeds up towards the finish.",
+      "pros": [
+        "Thrilling end.",
+        "Clear arc."
+      ],
+      "cons": [
+        "Speed beats thought.",
+        "Slow players fall behind."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "most-points"
+      ],
+      "tendency": "Points come faster towards the end.",
+      "pros": [
+        "Exciting finish.",
+        "Comebacks possible."
+      ],
+      "cons": [
+        "Early points count for less.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "last-standing"
+      ],
+      "tendency": "Elimination speeds up as the game goes on.",
+      "pros": [
+        "Thrilling.",
+        "Short end game."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Harsh."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "cooperative-survival"
+      ],
+      "tendency": "The threat comes faster and faster.",
+      "pros": [
+        "Rising tension.",
+        "Exciting."
+      ],
+      "cons": [
+        "Overwhelming.",
+        "Panic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "shared-objective"
+      ],
+      "tendency": "The team has to work faster as time goes on.",
+      "pros": [
+        "Exciting teamwork.",
+        "Rising pressure."
+      ],
+      "cons": [
+        "Stress.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "hidden-personal-goal"
+      ],
+      "tendency": "Play speeds up while players chase secret goals.",
+      "pros": [
+        "Tense.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Goals slip."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "narrative-completion"
+      ],
+      "tendency": "The story speeds up towards its climax.",
+      "pros": [
+        "Dramatic arc.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed ending.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "no-objective"
+      ],
+      "tendency": "Play speeds up with nothing to win.",
+      "pros": [
+        "Lively.",
+        "Fun."
+      ],
+      "cons": [
+        "Pressure without purpose.",
+        "Odd."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "set-your-own-goal"
+      ],
+      "tendency": "Players chase their goals faster as the game goes on.",
+      "pros": [
+        "Exciting.",
+        "Lively."
+      ],
+      "cons": [
+        "Rushed.",
+        "Hard to compare."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "one-loser"
+      ],
+      "tendency": "Play speeds up until someone slips and loses.",
+      "pros": [
+        "Tense.",
+        "Clear end."
+      ],
+      "cons": [
+        "Stressful.",
+        "Harsh."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "keep-the-game-going"
+      ],
+      "tendency": "Play speeds up, yet the aim is to keep going as long as possible.",
+      "pros": [
+        "Tense.",
+        "Absorbing."
+      ],
+      "cons": [
+        "Exhausting.",
+        "Ends in collapse."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "cannot-be-won"
+      ],
+      "tendency": "Play speeds up in a game nobody can win, until it breaks down.",
+      "pros": [
+        "Powerful arc.",
+        "Reflective after."
+      ],
+      "cons": [
+        "Stressful.",
+        "Hard to engage."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "solo-in-parallel"
+      ],
+      "tendency": "Everyone's own game speeds up at the same pace.",
+      "pros": [
+        "Fair.",
+        "Exciting."
+      ],
+      "cons": [
+        "Little interaction.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "direct-confrontation"
+      ],
+      "tendency": "Attacks come faster as the game goes on.",
+      "pros": [
+        "Thrilling.",
+        "Exciting."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Speed beats strategy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "indirect-via-board"
+      ],
+      "tendency": "Board changes speed up over time.",
+      "pros": [
+        "Lively.",
+        "Exciting."
+      ],
+      "cons": [
+        "Hard to follow.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "fully-cooperative"
+      ],
+      "tendency": "The team has to act faster and faster together.",
+      "pros": [
+        "Exciting.",
+        "Rising teamwork."
+      ],
+      "cons": [
+        "Stress.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "semi-cooperative"
+      ],
+      "tendency": "Choices to help or betray come faster.",
+      "pros": [
+        "Tense.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed trust.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "team-vs-team"
+      ],
+      "tendency": "Team play speeds up towards the end.",
+      "pros": [
+        "Exciting.",
+        "Rising energy."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Arguments."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "traitor"
+      ],
+      "tendency": "Play speeds up while the traitor hides.",
+      "pros": [
+        "Tense.",
+        "Exciting."
+      ],
+      "cons": [
+        "Hard to spot.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "playing-by-letter"
+      ],
+      "tendency": "Letters come more often as the game goes on.",
+      "pros": [
+        "Builds.",
+        "Exciting."
+      ],
+      "cons": [
+        "Hard to keep up.",
+        "Drop-outs."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "absent-player"
+      ],
+      "tendency": "The absent player acts more and more often.",
+      "pros": [
+        "Rising presence.",
+        "Tense."
+      ],
+      "cons": [
+        "Overwhelming.",
+        "Odd."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "game-master"
+      ],
+      "tendency": "The game master quickens the pace towards a climax.",
+      "pros": [
+        "Dramatic.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Some get left behind."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "public-game"
+      ],
+      "tendency": "A public game that speeds up as more people join.",
+      "pros": [
+        "Lively.",
+        "Exciting."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Newcomers lost."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "mostly-chance"
+      ],
+      "tendency": "Rolls come faster and faster.",
+      "pros": [
+        "Exciting.",
+        "Simple."
+      ],
+      "cons": [
+        "Few choices.",
+        "Chaos."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "chance-with-mitigation"
+      ],
+      "tendency": "Less and less time to soften unlucky rolls.",
+      "pros": [
+        "Rising tension.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "skill-with-luck-tempering"
+      ],
+      "tendency": "Planning gets harder as play speeds up.",
+      "pros": [
+        "Exciting.",
+        "Builds."
+      ],
+      "cons": [
+        "Rushed.",
+        "Luck adds stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "mostly-skill"
+      ],
+      "tendency": "A game of skill that speeds up as it goes, like blitz chess at the end.",
+      "pros": [
+        "Thrilling.",
+        "Rewards quick thought."
+      ],
+      "cons": [
+        "Depth suffers.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "chance-read-as-a-sign"
+      ],
+      "tendency": "Signs appear faster and faster.",
+      "pros": [
+        "Lively.",
+        "Exciting."
+      ],
+      "cons": [
+        "Shallow readings.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "attunement"
+      ],
+      "tendency": "Players have to sense each other faster as the game goes on.",
+      "pros": [
+        "Thrilling connection.",
+        "Exciting."
+      ],
+      "cons": [
+        "Hard.",
+        "Breaks down."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "dice-tell-the-story"
+      ],
+      "tendency": "The story speeds up with each roll.",
+      "pros": [
+        "Dramatic.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Hard to follow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "full-information"
+      ],
+      "tendency": "Everything visible, with less and less time to study it.",
+      "pros": [
+        "Exciting.",
+        "Builds."
+      ],
+      "cons": [
+        "Depth suffers.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "hidden-hands"
+      ],
+      "tendency": "Play from hidden hands speeds up.",
+      "pros": [
+        "Tense.",
+        "Exciting."
+      ],
+      "cons": [
+        "Mistakes.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "hidden-identity"
+      ],
+      "tendency": "Play speeds up while players hide who they are.",
+      "pros": [
+        "Tense.",
+        "Exciting."
+      ],
+      "cons": [
+        "Few clues.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "deduction"
+      ],
+      "tendency": "Clues come faster and faster.",
+      "pros": [
+        "Exciting.",
+        "Builds."
+      ],
+      "cons": [
+        "Rushed reasoning.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "bluffing"
+      ],
+      "tendency": "Claims and challenges come faster.",
+      "pros": [
+        "Exciting.",
+        "Lively."
+      ],
+      "cons": [
+        "Rushed bluffs.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "rules-you-discover"
+      ],
+      "tendency": "Play speeds up as players learn the rules.",
+      "pros": [
+        "Rewards learning.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Confusing."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "one-knows-cannot-say"
+      ],
+      "tendency": "Hints and guesses speed up.",
+      "pros": [
+        "Exciting.",
+        "Fun."
+      ],
+      "cons": [
+        "Rushed hints.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "map-revealed-as-you-go"
+      ],
+      "tendency": "The map opens faster and faster.",
+      "pros": [
+        "Exciting.",
+        "Builds."
+      ],
+      "cons": [
+        "Overwhelming.",
+        "Missed paths."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "model-a-system"
+      ],
+      "tendency": "The modelled system speeds up, as crises do.",
+      "pros": [
+        "Realistic pressure.",
+        "Exciting."
+      ],
+      "cons": [
+        "Overwhelming.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "stakeholder-roles"
+      ],
+      "tendency": "Stakeholders have to decide faster as events speed up.",
+      "pros": [
+        "Realistic.",
+        "Tense."
+      ],
+      "cons": [
+        "Rushed.",
+        "Quiet roles lose."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "shared-resource"
+      ],
+      "tendency": "Demand on the shared resource speeds up.",
+      "pros": [
+        "Shows how depletion speeds up.",
+        "Tense."
+      ],
+      "cons": [
+        "Collapse.",
+        "Harsh lesson."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "delayed-effects"
+      ],
+      "tendency": "Effects arrive faster as the game goes on.",
+      "pros": [
+        "Clear arc.",
+        "Exciting."
+      ],
+      "cons": [
+        "Overwhelming.",
+        "Hard to learn."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "try-a-rule"
+      ],
+      "tendency": "Rule tests speed up.",
+      "pros": [
+        "Fast results.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Shallow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "debrief"
+      ],
+      "tendency": "A debrief with less time for each person.",
+      "pros": [
+        "Quick.",
+        "Focused."
+      ],
+      "cons": [
+        "Rushed.",
+        "Shallow."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "irreversible-change"
+      ],
+      "tendency": "Permanent changes come faster and faster.",
+      "pros": [
+        "Dramatic.",
+        "Exciting."
+      ],
+      "cons": [
+        "Regret.",
+        "Chaotic."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "rules-make-an-argument"
+      ],
+      "tendency": "The speeding up is part of the point the rules make.",
+      "pros": [
+        "Shows acceleration in the world.",
+        "Clear message."
+      ],
+      "cons": [
+        "Stressful.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "stakes-outside-the-game"
+      ],
+      "tendency": "Real stakes, decided faster and faster.",
+      "pros": [
+        "Intense.",
+        "Exciting."
+      ],
+      "cons": [
+        "Stressful.",
+        "Rushed."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "points-stand-for-values"
+      ],
+      "tendency": "Value trade-offs come faster as play speeds up.",
+      "pros": [
+        "Shows how speed changes priorities.",
+        "Tense."
+      ],
+      "cons": [
+        "Rushed.",
+        "Values blur."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "accelerated",
+        "rehearse-a-future"
+      ],
+      "tendency": "A future rehearsed at a quickening pace.",
+      "pros": [
+        "Realistic.",
+        "Exciting."
+      ],
+      "cons": [
+        "Rushed.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "everyone-at-once"
+      ],
+      "tendency": "Some moments go round the table in order and others are chosen by everyone at once, as in Werewolf's talk and vote.",
+      "pros": [
+        "Each phase has its own rhythm.",
+        "Order where it helps, surprise where it counts."
+      ],
+      "cons": [
+        "Players have to learn when each applies.",
+        "The switch can confuse."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "no-turns"
+      ],
+      "tendency": "The game moves between ordered turns and free-for-all moments.",
+      "pros": [
+        "Calm phases and frantic ones.",
+        "Variety of pace."
+      ],
+      "cons": [
+        "Hard to explain.",
+        "Players miss the change."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "timed-turns"
+      ],
+      "tendency": "Turns go in order, each with a clock.",
+      "pros": [
+        "Keeps every turn moving.",
+        "Fair to all."
+      ],
+      "cons": [
+        "Pressure on slow players.",
+        "The clock can feel like a nag."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "real-time-span"
+      ],
+      "tendency": "Turns go in order, but each one is a day or a week apart.",
+      "pros": [
+        "Time to think.",
+        "Fits busy lives."
+      ],
+      "cons": [
+        "Very slow.",
+        "Players forget the game."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "sedated"
+      ],
+      "tendency": "Turns go in order, slowed down on purpose.",
+      "pros": [
+        "Calm.",
+        "Thoughtful."
+      ],
+      "cons": [
+        "Slow.",
+        "Restless players."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "accelerated"
+      ],
+      "tendency": "Turns go in order but get faster as the game goes on.",
+      "pros": [
+        "Builds excitement.",
+        "Clear arc."
+      ],
+      "cons": [
+        "Late turns are rushed.",
+        "Stress at the end."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "no-turns"
+      ],
+      "tendency": "Some moments everyone reveals together; others are open to whoever is quickest.",
+      "pros": [
+        "Varied pace.",
+        "Lively."
+      ],
+      "cons": [
+        "Confusing.",
+        "Hard to explain."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "timed-turns"
+      ],
+      "tendency": "Everyone chooses at once before the clock runs out.",
+      "pros": [
+        "Fast.",
+        "Fair."
+      ],
+      "cons": [
+        "Rushed choices.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "real-time-span"
+      ],
+      "tendency": "Everyone sends a choice by a set day, and all are revealed together.",
+      "pros": [
+        "Fair rounds over time.",
+        "Fits busy lives."
+      ],
+      "cons": [
+        "Slow.",
+        "Players drift away."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "sedated"
+      ],
+      "tendency": "Everyone chooses at once, after a long pause to think.",
+      "pros": [
+        "Thoughtful.",
+        "Calm reveal."
+      ],
+      "cons": [
+        "Slow.",
+        "Little energy."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "everyone-at-once",
+        "accelerated"
+      ],
+      "tendency": "Everyone chooses at once, with less time each round.",
+      "pros": [
+        "Rising tension.",
+        "Exciting reveals."
+      ],
+      "cons": [
+        "Rushed.",
+        "Mistakes."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "timed-turns"
+      ],
+      "tendency": "Free play within a timed round: act as often as you like until the time is up.",
+      "pros": [
+        "Frantic and bounded.",
+        "Clear end to each round."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Stress."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "real-time-span"
+      ],
+      "tendency": "Players act whenever they like over days or weeks.",
+      "pros": [
+        "Flexible.",
+        "Fits busy lives."
+      ],
+      "cons": [
+        "Hard to follow.",
+        "Uneven play."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "sedated"
+      ],
+      "tendency": "No turns, but everyone moves slowly and deliberately, as in The Mind.",
+      "pros": [
+        "Tense calm.",
+        "Deep focus."
+      ],
+      "cons": [
+        "Slow.",
+        "Hard to start."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "no-turns",
+        "accelerated"
+      ],
+      "tendency": "Free play that speeds up as the game goes on.",
+      "pros": [
+        "Exciting.",
+        "Thrilling end."
+      ],
+      "cons": [
+        "Chaotic.",
+        "Overwhelming."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "real-time-span"
+      ],
+      "tendency": "Each turn has a real deadline, such as a move by tomorrow.",
+      "pros": [
+        "Keeps the game alive.",
+        "Fair."
+      ],
+      "cons": [
+        "Players miss deadlines.",
+        "Pressure over days."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "sedated"
+      ],
+      "tendency": "Each turn has a long, generous clock that slows the game down.",
+      "pros": [
+        "Calm.",
+        "Time to think."
+      ],
+      "cons": [
+        "Slow.",
+        "Little pressure."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "timed-turns",
+        "accelerated"
+      ],
+      "tendency": "The clock for each turn gets shorter as the game goes on.",
+      "pros": [
+        "Rising tension.",
+        "Clear arc."
+      ],
+      "cons": [
+        "Stress.",
+        "Rushed end."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "real-time-span",
+        "sedated"
+      ],
+      "tendency": "A game spread over real days and slowed further on purpose.",
+      "pros": [
+        "Deep reflection.",
+        "Fits slow living."
+      ],
+      "cons": [
+        "Very slow.",
+        "Hard to keep going."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "real-time-span",
+        "accelerated"
+      ],
+      "tendency": "A game over real days in which moves come more often as it goes on.",
+      "pros": [
+        "Builds over weeks.",
+        "Exciting end."
+      ],
+      "cons": [
+        "Hard to keep up.",
+        "Drop-outs."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
+    },
+    {
+      "elements": [
+        "sedated",
+        "accelerated"
+      ],
+      "tendency": "The game starts slow and calm, then speeds up.",
+      "pros": [
+        "Clear arc from calm to rush.",
+        "Strong finish."
+      ],
+      "cons": [
+        "Hard to judge the change.",
+        "Some prefer one pace."
+      ],
+      "exemplars": [],
+      "verification_status": "drafted-20261016-unreviewed"
     }
   ],
   "themes": [
@@ -35067,7 +42258,9 @@
         "change-the-rules",
         "dexterity",
         "war-and-conquest",
-        "public-game"
+        "public-game",
+        "no-turns",
+        "accelerated"
       ],
       "opposed_by": [
         "pattern-building",
@@ -35076,7 +42269,8 @@
         "no-objective",
         "real-time-span",
         "playing-by-letter",
-        "rules-make-an-argument"
+        "rules-make-an-argument",
+        "sedated"
       ],
       "neither": [
         "absent-player",
@@ -35093,6 +42287,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fully-cooperative",
         "game-master",
         "hand-management",
@@ -35126,7 +42321,9 @@
         "skill-with-luck-tempering",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "tile-placement",
+        "timed-turns",
         "trick-taking",
         "try-a-rule",
         "worker-placement"
@@ -35159,6 +42356,7 @@
       "neither": [
         "absent-player",
         "absurd",
+        "accelerated",
         "attunement",
         "bidding",
         "call-and-response",
@@ -35172,6 +42370,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "fully-cooperative",
         "game-master",
@@ -35188,6 +42387,7 @@
         "narrative-completion",
         "negotiation",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "playing-by-letter",
@@ -35203,6 +42403,7 @@
         "ritual-or-sacred",
         "role-play",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-your-own-goal",
         "shared-objective",
@@ -35210,7 +42411,9 @@
         "solo-in-parallel",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
+        "timed-turns",
         "war-and-conquest"
       ],
       "verification_status": "drafted-20261016-unreviewed"
@@ -35226,7 +42429,8 @@
         "change-the-rules",
         "dexterity",
         "role-play",
-        "public-game"
+        "public-game",
+        "no-turns"
       ],
       "opposed_by": [
         "mostly-skill",
@@ -35241,6 +42445,7 @@
       "neither": [
         "absent-player",
         "abstract",
+        "accelerated",
         "attunement",
         "chance-read-as-a-sign",
         "chance-with-mitigation",
@@ -35253,6 +42458,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "full-information",
         "fully-cooperative",
@@ -35283,6 +42489,7 @@
         "rules-make-an-argument",
         "rules-you-discover",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "set-your-own-goal",
@@ -35292,7 +42499,9 @@
         "solo-in-parallel",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
+        "timed-turns",
         "try-a-rule"
       ],
       "verification_status": "drafted-20261016-unreviewed"
@@ -35315,13 +42524,17 @@
         "irreversible-change",
         "dexterity",
         "stakes-outside-the-game",
-        "map-revealed-as-you-go"
+        "map-revealed-as-you-go",
+        "timed-turns",
+        "accelerated",
+        "no-turns"
       ],
       "opposed_by": [
         "solo-in-parallel",
         "everyday-life",
         "no-objective",
-        "keep-the-game-going"
+        "keep-the-game-going",
+        "sedated"
       ],
       "neither": [
         "absent-player",
@@ -35337,6 +42550,7 @@
         "drafting",
         "drawing-the-map",
         "educational",
+        "everyone-at-once",
         "fantasy",
         "game-master",
         "hand-management",
@@ -35369,6 +42583,7 @@
         "set-your-own-goal",
         "skill-with-luck-tempering",
         "stakeholder-roles",
+        "take-turns",
         "team-vs-team",
         "tile-placement",
         "trick-taking",
@@ -35401,6 +42616,7 @@
         "absent-player",
         "abstract",
         "absurd",
+        "accelerated",
         "area-control",
         "bidding",
         "cannot-be-won",
@@ -35415,6 +42631,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "full-information",
         "hand-management",
@@ -35430,6 +42647,7 @@
         "mostly-skill",
         "narrative-completion",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "pattern-building",
@@ -35447,13 +42665,16 @@
         "rules-make-an-argument",
         "rules-you-discover",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "set-your-own-goal",
         "skill-with-luck-tempering",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "tile-placement",
+        "timed-turns",
         "trick-taking",
         "try-a-rule",
         "war-and-conquest",
@@ -35478,6 +42699,7 @@
         "absent-player",
         "abstract",
         "absurd",
+        "accelerated",
         "area-control",
         "attunement",
         "call-and-response",
@@ -35494,6 +42716,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "game-master",
         "hand-management",
@@ -35509,6 +42732,7 @@
         "mostly-chance",
         "narrative-completion",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "pattern-building",
@@ -35528,14 +42752,17 @@
         "rules-make-an-argument",
         "rules-you-discover",
         "science-fiction",
+        "sedated",
         "set-collection",
         "set-your-own-goal",
         "shared-resource",
         "skill-with-luck-tempering",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
         "tile-placement",
+        "timed-turns",
         "trick-taking",
         "try-a-rule",
         "war-and-conquest",
@@ -35562,6 +42789,7 @@
         "absent-player",
         "abstract",
         "absurd",
+        "accelerated",
         "area-control",
         "bidding",
         "bluffing",
@@ -35577,6 +42805,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "full-information",
         "fully-cooperative",
@@ -35594,6 +42823,7 @@
         "most-points",
         "narrative-completion",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "playing-by-letter",
@@ -35610,6 +42840,7 @@
         "rules-make-an-argument",
         "rules-you-discover",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "set-your-own-goal",
@@ -35618,8 +42849,10 @@
         "solo-in-parallel",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
         "tile-placement",
+        "timed-turns",
         "traitor",
         "trick-taking",
         "try-a-rule",
@@ -35654,6 +42887,7 @@
         "absent-player",
         "abstract",
         "absurd",
+        "accelerated",
         "attunement",
         "bluffing",
         "call-and-response",
@@ -35667,6 +42901,7 @@
         "drafting",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "full-information",
         "hidden-hands",
@@ -35682,6 +42917,7 @@
         "most-points",
         "narrative-completion",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "pattern-building",
@@ -35697,13 +42933,16 @@
         "role-play",
         "rules-make-an-argument",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "shared-objective",
         "shared-resource",
         "solo-in-parallel",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
+        "timed-turns",
         "traitor",
         "trick-taking",
         "war-and-conquest"
@@ -35721,7 +42960,8 @@
         "chance-read-as-a-sign",
         "change-the-rules",
         "dice-tell-the-story",
-        "map-revealed-as-you-go"
+        "map-revealed-as-you-go",
+        "everyone-at-once"
       ],
       "opposed_by": [
         "worker-placement",
@@ -35731,6 +42971,7 @@
         "absent-player",
         "abstract",
         "absurd",
+        "accelerated",
         "area-control",
         "attunement",
         "bidding",
@@ -35761,6 +43002,7 @@
         "narrative-completion",
         "negotiation",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "playing-by-letter",
@@ -35776,6 +43018,7 @@
         "role-play",
         "rules-make-an-argument",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "set-your-own-goal",
@@ -35785,8 +43028,10 @@
         "solo-in-parallel",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
         "tile-placement",
+        "timed-turns",
         "trick-taking",
         "try-a-rule",
         "war-and-conquest"
@@ -35820,12 +43065,17 @@
         "points-stand-for-values",
         "rehearse-a-future",
         "cannot-be-won",
-        "stakes-outside-the-game"
+        "stakes-outside-the-game",
+        "sedated",
+        "take-turns"
       ],
       "opposed_by": [
         "push-your-luck",
         "roll-and-move",
-        "dexterity"
+        "dexterity",
+        "accelerated",
+        "timed-turns",
+        "no-turns"
       ],
       "neither": [
         "absent-player",
@@ -35842,6 +43092,7 @@
         "dice-tell-the-story",
         "drawing-the-map",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "fully-cooperative",
         "game-master",
@@ -35881,7 +43132,11 @@
         "push-your-luck",
         "mostly-chance",
         "set-collection",
-        "dexterity"
+        "dexterity",
+        "no-turns",
+        "accelerated",
+        "timed-turns",
+        "everyone-at-once"
       ],
       "opposed_by": [
         "deduction",
@@ -35892,7 +43147,9 @@
         "real-time-span",
         "role-play",
         "drawing-the-map",
-        "keep-the-game-going"
+        "keep-the-game-going",
+        "sedated",
+        "take-turns"
       ],
       "neither": [
         "absent-player",
@@ -35979,6 +43236,7 @@
       "neither": [
         "absent-player",
         "abstract",
+        "accelerated",
         "area-control",
         "attunement",
         "call-and-response",
@@ -35992,6 +43250,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "full-information",
         "game-master",
@@ -36009,6 +43268,7 @@
         "narrative-completion",
         "negotiation",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "pattern-building",
         "playing-by-letter",
@@ -36024,6 +43284,7 @@
         "role-play",
         "rules-make-an-argument",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "set-your-own-goal",
@@ -36031,8 +43292,10 @@
         "solo-in-parallel",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
         "tile-placement",
+        "timed-turns",
         "trick-taking",
         "try-a-rule",
         "war-and-conquest",
@@ -36053,10 +43316,14 @@
         "irreversible-change",
         "playing-in-silence",
         "dexterity",
-        "stakes-outside-the-game"
+        "stakes-outside-the-game",
+        "sedated",
+        "take-turns"
       ],
       "opposed_by": [
-        "roll-and-move"
+        "roll-and-move",
+        "no-turns",
+        "accelerated"
       ],
       "neither": [
         "absent-player",
@@ -36078,6 +43345,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "fully-cooperative",
         "game-master",
@@ -36117,6 +43385,7 @@
         "solo-in-parallel",
         "stakeholder-roles",
         "team-vs-team",
+        "timed-turns",
         "traitor",
         "try-a-rule",
         "war-and-conquest"
@@ -36133,7 +43402,8 @@
         "change-the-rules",
         "role-play",
         "public-game",
-        "war-and-conquest"
+        "war-and-conquest",
+        "accelerated"
       ],
       "opposed_by": [
         "mostly-skill",
@@ -36158,6 +43428,7 @@
         "drawing-the-map",
         "educational",
         "everyday-life",
+        "everyone-at-once",
         "fantasy",
         "fully-cooperative",
         "game-master",
@@ -36176,6 +43447,7 @@
         "most-points",
         "narrative-completion",
         "no-objective",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "playing-by-letter",
@@ -36190,6 +43462,7 @@
         "rules-make-an-argument",
         "rules-you-discover",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "set-your-own-goal",
@@ -36198,8 +43471,10 @@
         "skill-with-luck-tempering",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
         "tile-placement",
+        "timed-turns",
         "traitor",
         "trick-taking",
         "try-a-rule"
@@ -36229,6 +43504,7 @@
         "absent-player",
         "abstract",
         "absurd",
+        "accelerated",
         "attunement",
         "bidding",
         "cannot-be-won",
@@ -36241,6 +43517,7 @@
         "dice-tell-the-story",
         "drawing-the-map",
         "educational",
+        "everyone-at-once",
         "fantasy",
         "full-information",
         "game-master",
@@ -36257,6 +43534,7 @@
         "mostly-skill",
         "narrative-completion",
         "negotiation",
+        "no-turns",
         "one-knows-cannot-say",
         "one-loser",
         "pattern-building",
@@ -36274,14 +43552,17 @@
         "rules-make-an-argument",
         "rules-you-discover",
         "science-fiction",
+        "sedated",
         "semi-cooperative",
         "set-collection",
         "shared-resource",
         "skill-with-luck-tempering",
         "stakeholder-roles",
         "stakes-outside-the-game",
+        "take-turns",
         "team-vs-team",
         "tile-placement",
+        "timed-turns",
         "trick-taking",
         "try-a-rule",
         "worker-placement"

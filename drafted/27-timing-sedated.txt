@@ -1,0 +1,67 @@
+sedated+roll-and-move | Each roll and move is slowed down on purpose, with a pause before every throw. | Calm. | Each roll is felt. | Can feel slow. | Restless players fidget.
+sedated+drafting | Picks are slowed, with time to look at every card. | Thoughtful picks. | Calm. | Long rounds. | Little tension.
+sedated+bidding | Bids come slowly, with a pause between each. | Considered bids. | Calm tension. | Slow auctions. | Can drag.
+sedated+push-your-luck | Each push comes after a pause, so the risk is weighed slowly. | Every risk is felt fully. | Suspense. | Slow. | Less excitement.
+sedated+area-control | Moves on the map are slowed and deliberate. | Thoughtful strategy. | Calm. | Slow game. | Little drama.
+sedated+worker-placement | Each placement is made slowly, with time to think. | Thoughtful. | Calm. | Long rounds. | Little tension.
+sedated+pattern-building | Patterns are built slowly and carefully. | Calm and absorbing. | Beautiful results. | Slow. | Little interaction.
+sedated+hand-management | Cards are played slowly, each one weighed. | Thoughtful. | Calm. | Slow. | Can drag.
+sedated+trick-taking | Each card is played after a pause, so every trick is studied. | Deep play. | Calm. | Slow. | Little energy.
+sedated+negotiation | Bargaining is slowed, with time to think between offers. | Considered deals. | Calm talk. | Slow. | Deals can stall.
+sedated+set-collection | Sets are built slowly, with time to consider each card. | Calm. | Thoughtful. | Slow. | Little tension.
+sedated+tile-placement | Tiles are laid slowly and with care. | Calm. | Absorbing. | Slow. | Little interaction.
+sedated+call-and-response | Each answer comes after a pause, like a slow conversation. | Reflective. | Calm. | Slow. | Energy drops.
+sedated+playing-in-silence | Slow, silent play with long pauses between moves. | Meditative. | Deep focus. | Very slow. | Some find it uncomfortable.
+sedated+change-the-rules | Rule changes are proposed slowly and talked through. | Considered changes. | Thoughtful. | Slow. | Long debates.
+sedated+role-play | Characters act slowly, with time to inhabit each moment. | Immersive. | Thoughtful. | Slow scenes. | Energy drops.
+sedated+dexterity | Each physical move is made slowly and carefully, as in Jenga. | Tense calm. | Careful hands. | Slow. | Nervous waiting.
+sedated+drawing-the-map | The map is drawn slowly, each line considered. | Beautiful maps. | Calm. | Slow. | Little interaction.
+sedated+race-to-finish | A race played slowly, where patience matters as much as speed. | Unusual tension. | Thoughtful. | Feels contradictory. | Slow.
+sedated+most-points | Points are earned slowly, with time to plan each one. | Thoughtful. | Calm. | Slow. | Little tension.
+sedated+last-standing | Elimination comes slowly, each step weighed. | Suspense. | Thoughtful. | Slow. | Out players wait long.
+sedated+cooperative-survival | The team faces a slow threat, with time to plan together. | Calm teamwork. | Thoughtful. | Little urgency. | Slow.
+sedated+shared-objective | The group works slowly towards a shared goal. | Calm teamwork. | Thoughtful. | Slow progress. | Restless players.
+sedated+hidden-personal-goal | Players pursue secret goals slowly and carefully. | Hard to read. | Thoughtful. | Slow. | Little drama.
+sedated+narrative-completion | The story unfolds slowly, each part considered. | Rich story. | Reflective. | Slow. | Energy drops.
+sedated+no-objective | Slow play with nothing to win, like a quiet pastime. | Meditative. | Relaxing. | Aimless. | Some get bored.
+sedated+set-your-own-goal | Players pursue their own goals at a slow, chosen pace. | Calm. | Personal. | Slow. | Little interaction.
+sedated+one-loser | Slow play towards one loser, each step weighed. | Suspense. | Thoughtful. | Slow. | Drawn-out tension.
+sedated+keep-the-game-going | Slow, steady play that can go on for a long time. | Relaxing. | Sustainable. | Can drag. | No arc.
+sedated+cannot-be-won | Slow play in a game nobody can win. | Reflective. | Calm. | Aimless. | Hard to engage.
+sedated+solo-in-parallel | Everyone plays their own slow, calm game. | Peaceful. | Absorbing. | Little interaction. | Slow.
+sedated+direct-confrontation | Attacks come slowly, each one considered. | Thoughtful conflict. | Calm. | Slow. | Little excitement.
+sedated+indirect-via-board | Slow changes to the board, each one considered. | Thoughtful. | Calm. | Slow. | Subtle.
+sedated+fully-cooperative | The team plays slowly, discussing each move. | Calm teamwork. | Inclusive. | Slow. | One voice can lead.
+sedated+semi-cooperative | Players decide slowly whether to help or betray. | Tense. | Thoughtful. | Slow. | Heavy.
+sedated+team-vs-team | Teams play slowly, with time to plan. | Thoughtful. | Calm. | Slow. | Little energy.
+sedated+traitor | Slow play while the traitor hides. | Suspense. | Thoughtful. | Slow. | Tension can fade.
+sedated+playing-by-letter | Play by letter, slowed further on purpose. | Deep reflection. | Fits busy lives. | Very slow. | Hard to keep going.
+sedated+absent-player | Slow play with a presence that is not there. | Reflective. | Moving. | Slow. | Quiet.
+sedated+game-master | The game master sets a slow, unhurried pace. | Immersive. | Calm. | Slow. | Energy drops.
+sedated+public-game | A slow public game that passers-by can watch and join. | Inviting. | Calm. | Slow. | People walk away.
+sedated+mostly-chance | Luck decides, slowly, each roll given its moment. | Each roll felt. | Calm. | Slow. | Few choices.
+sedated+chance-with-mitigation | Slow play with time to soften unlucky rolls. | Thoughtful. | Calm. | Slow. | Little tension.
+sedated+skill-with-luck-tempering | Slow, thoughtful play with a touch of luck. | Calm. | Thoughtful. | Slow. | Little drama.
+sedated+mostly-skill | Slow play in a game of skill, like correspondence chess. | Deep thinking. | Calm. | Very slow. | Exhausting.
+sedated+chance-read-as-a-sign | Signs are read slowly and with care. | Ritual feel. | Reflective. | Slow. | Some find it heavy.
+sedated+attunement | Slow play where players tune in to each other. | Deep connection. | Calm. | Slow. | Hard to sustain.
+sedated+dice-tell-the-story | The dice tell a slow story, each roll given its moment. | Rich story. | Calm. | Slow. | Energy drops.
+sedated+full-information | Everything visible, with time to study it all. | Deep planning. | Fair. | Very slow. | Overthinking.
+sedated+hidden-hands | Slow play from hidden hands. | Thoughtful. | Calm. | Slow. | Little tension.
+sedated+hidden-identity | Slow play where players hide who they are. | Suspense. | Thoughtful. | Slow. | Clues come slowly.
+sedated+deduction | Slow, careful reasoning towards an answer. | Deep thinking. | Satisfying. | Slow. | Some lose interest.
+sedated+bluffing | Slow bluffing, each claim weighed. | Tense calm. | Thoughtful. | Slow. | Bluffs easier to spot.
+sedated+rules-you-discover | Rules discovered slowly, through careful play. | Thoughtful learning. | Satisfying. | Slow. | Frustrating.
+sedated+one-knows-cannot-say | Slow hints and slow guesses. | Thoughtful. | Calm. | Slow. | Energy drops.
+sedated+map-revealed-as-you-go | The map opens slowly, step by step. | Suspense. | Calm. | Slow. | Restless players.
+sedated+model-a-system | Players act slowly on the model, with time to see how it responds. | Clear learning. | Thoughtful. | Slow. | Less realistic.
+sedated+stakeholder-roles | Stakeholders decide slowly, each role heard fully. | Fair. | Thoughtful. | Slow. | Long sessions.
+sedated+shared-resource | The shared resource is drawn on slowly, with time to talk. | Thoughtful sharing. | Calm. | Slow. | Less pressure than real life.
+sedated+delayed-effects | Slow play where effects arrive later. | Reflective. | Clear. | Slow. | Patience needed.
+sedated+try-a-rule | Rule tests run slowly and carefully. | Clear results. | Thoughtful. | Slow. | Long sessions.
+sedated+debrief | A slow, unhurried debrief. | Deep reflection. | Everyone heard. | Long. | Energy drops.
+sedated+irreversible-change | Permanent changes made slowly, with time to think. | Considered. | Weighty. | Slow. | Heavy.
+sedated+rules-make-an-argument | The slowness itself is part of the point the rules make. | Reflective. | Clear message. | Slow. | Some find it dull.
+sedated+stakes-outside-the-game | Real stakes, decided slowly. | Considered. | Serious. | Heavy. | Slow.
+sedated+points-stand-for-values | Value trade-offs made slowly, with time to reflect. | Thoughtful. | Clear. | Slow. | Little tension.
+sedated+rehearse-a-future | A future rehearsed slowly, each step considered. | Deep reflection. | Thoughtful. | Slow. | Long.

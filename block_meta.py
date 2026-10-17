@@ -449,10 +449,6 @@ SIMULATION = {
         "description": "What you do changes the game permanently. Cards get torn up, stickers go on the board, and the next game starts where this one ended. Nothing can be undone.",
         "svg": svg(f'<path d="M18 12 h30 l-4 10 l6 8 l-6 10 l5 10 l-3 20 h-28 z" {_S}/><path d="M62 16 h36 v56 h-34 l3 -20 l-5 -10 l6 -10 l-6 -8 z" {_S}/><path d="M72 32 h18 M72 42 h14" {_S}/><path d="M24 58 l16 -6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'),
     },
-    "real-time-span": {
-        "description": "The game runs on real days or weeks, not turns. You might make one move each morning, so waiting is part of playing.",
-        "svg": svg(f'<rect x="14" y="16" width="54" height="50" rx="3" {_S}/><path d="M14 28 h54 M28 11 v9 M54 11 v9" {_S}/><path d="M22 36 l6 6 M28 36 l-6 6 M36 36 l6 6 M42 36 l-6 6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="53" cy="39" r="2" {_FILL} stroke="none"/><circle cx="25" cy="54" r="2" fill="#2D3436"/><circle cx="39" cy="54" r="2" fill="#2D3436"/><circle cx="53" cy="54" r="2" fill="#2D3436"/><circle cx="94" cy="26" r="8" {_S}/><path d="M94 12 v4 M94 36 v4 M80 26 h4 M104 26 h4" {_S}/><path d="M100 50 a10 10 0 1 1 -10 16 a8 8 0 0 0 10 -16 z" {_S}/>'),
-    },
     "rules-make-an-argument": {
         "description": "The rules themselves make a point about the world. If a game about a city rewards only building roads, the game is saying something about cities. The writer Ian Bogost calls this procedural rhetoric.",
         "svg": svg(f'<rect x="18" y="12" width="46" height="56" rx="3" {_S}/><path d="M26 24 h30 M26 34 h30 M26 44 h22" {_S}/><path d="M68 40 h12" {_S}/><path d="M76 36 l4 4 l-4 4" {_S}/><path d="M86 22 h22 a4 4 0 0 1 4 4 v16 a4 4 0 0 1 -4 4 h-12 l-6 6 v-6 h-4 a4 4 0 0 1 -4 -4 v-16 a4 4 0 0 1 4 -4 z" {_S}/><path d="M97 28 v8" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="97" cy="41" r="1.8" {_FILL} stroke="none"/>'),
@@ -480,8 +476,44 @@ SIMULATION = {
 # Combined map — id → {description, svg}
 # ─────────────────────────────────────────────────────────────────────
 
+# ─────────────────────────────────────────────────────────────────────
+# TIMING (7)
+# ─────────────────────────────────────────────────────────────────────
+
+TIMING = {
+    "take-turns": {
+        "description": "One player acts at a time, going round the table. Everyone else watches, waits and plans for their own turn. Chess and most board games work this way.",
+        "svg": svg(f'<circle cx="60" cy="40" r="26" {_S} stroke-dasharray="4 5"/><circle cx="60" cy="14" r="6" {_FILL} stroke="none"/><circle cx="86" cy="40" r="6" {_S}/><circle cx="60" cy="66" r="6" {_S}/><circle cx="34" cy="40" r="6" {_S}/><path d="M74 18 l6 4 l-7 2" {_S}/>'),
+    },
+    "everyone-at-once": {
+        "description": "Everyone chooses in secret at the same moment, then all reveal together. Nobody waits for anybody. In 7 Wonders, every player picks a card at once and passes the rest.",
+        "svg": svg(f'<rect x="12" y="22" width="20" height="30" rx="2" {_S}/><rect x="38" y="22" width="20" height="30" rx="2" {_S}/><rect x="64" y="22" width="20" height="30" rx="2" {_S}/><rect x="90" y="22" width="20" height="30" rx="2" {_S}/><path d="M12 64 h98" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M22 58 v-4 M48 58 v-4 M74 58 v-4 M100 58 v-4" {_S}/>'),
+    },
+    "no-turns": {
+        "description": "There are no turns at all. Anyone may act at any moment, and whoever is quickest gets there first. In Set, everyone hunts the same cards at once.",
+        "svg": svg(f'<path d="M14 40 h24 M30 32 l8 8 l-8 8" {_S}/><path d="M106 40 h-24 M90 32 l-8 8 l8 8" {_S}/><path d="M60 14 v18 M52 24 l8 8 l8 -8" {_S}/><circle cx="60" cy="44" r="7" {_FILL} stroke="none"/><path d="M60 70 v-12" {_S}/>'),
+    },
+    "timed-turns": {
+        "description": "Turns still come in order, but each one has a clock: a sand timer, a phone, a count to ten. When time runs out, the move is lost or made for you. In 3 Quarters every move has 20 seconds.",
+        "svg": svg(f'<path d="M44 12 h32 M44 68 h32 M48 12 q0 18 12 28 q-12 10 -12 28 M72 12 q0 18 -12 28 q12 10 12 28" {_S}/><path d="M52 60 q8 -8 16 0 z" {_FILL} stroke="none"/><path d="M60 40 v8" stroke="#C75B39" stroke-width="2.2" fill="none" stroke-linecap="round"/><circle cx="96" cy="40" r="12" {_S}/><path d="M96 32 v8 l5 4" {_S}/>'),
+    },
+    "real-time-span": {
+        "description": "The game runs on real days or weeks, not turns. You might make one move each morning, so waiting is part of playing.",
+        "svg": svg(f'<rect x="14" y="16" width="54" height="50" rx="3" {_S}/><path d="M14 28 h54 M28 11 v9 M54 11 v9" {_S}/><path d="M22 36 l6 6 M28 36 l-6 6 M36 36 l6 6 M42 36 l-6 6" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="53" cy="39" r="2" {_FILL} stroke="none"/><circle cx="25" cy="54" r="2" fill="#2D3436"/><circle cx="39" cy="54" r="2" fill="#2D3436"/><circle cx="53" cy="54" r="2" fill="#2D3436"/><circle cx="94" cy="26" r="8" {_S}/><path d="M94 12 v4 M94 36 v4 M80 26 h4 M104 26 h4" {_S}/><path d="M100 50 a10 10 0 1 1 -10 16 a8 8 0 0 0 10 -16 z" {_S}/>'),
+    },
+    "sedated": {
+        "description": "The game slows players down on purpose: a pause before each move, a breath, a long wait built into the rules. The slowness is part of the play, not a delay.",
+        "svg": svg(f'<path d="M14 52 q12 -14 24 0 q12 14 24 0 q12 -14 24 0 q12 14 24 0" {_S}/><circle cx="38" cy="30" r="3" {_FILL} stroke="none"/><circle cx="86" cy="30" r="3" {_S}/><path d="M50 22 h12 M54 18 h4" {_S}/>'),
+    },
+    "accelerated": {
+        "description": "The game speeds up as it goes: timers shrink, more happens each round, and the end comes in a rush. In Tetris the pieces fall faster at every level.",
+        "svg": svg(f'<path d="M14 62 h10 v-6 h10 v-8 h10 v-10 h10 v-12 h10 v-14" {_S}/><path d="M80 40 h14 M88 32 l8 8 l-8 8" stroke="#C75B39" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M98 40 h10 M102 34 l6 6 l-6 6" {_S}/>'),
+    },
+}
+
+
 ALL_BLOCKS: dict = {}
-for d in (CORE_MECHANICS, VICTORY, INTERACTION, CHANCE_SKILL, THEME, INFORMATION, SIMULATION, FEELINGS_META):
+for d in (CORE_MECHANICS, VICTORY, INTERACTION, CHANCE_SKILL, THEME, INFORMATION, TIMING, SIMULATION, FEELINGS_META):
     ALL_BLOCKS.update(d)
 
 
