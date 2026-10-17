@@ -24,6 +24,7 @@ from templates import build_template_output, display, render_summary, render_tur
 from palette import DIMENSIONS, FEELINGS
 from block_meta import meta_for
 from known_games import to_markdown
+from site_config import TOOL_URL, WIKI_URL
 
 
 def _enrich(blocks: list) -> list:
@@ -181,7 +182,7 @@ def root():
     stamp = int(max(f.stat().st_mtime for f in STATIC_DIR.iterdir()))
     html = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
     # no-cache: a browser asks again before reusing the page, so a reload never shows a page from before a deploy
-    page = html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"').replace("__VERSION__", VERSION)
+    page = html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"').replace("__VERSION__", VERSION).replace("__TOOL_URL__", TOOL_URL).replace("__WIKI_URL__", WIKI_URL)
     return HTMLResponse(page, headers={"Cache-Control": "no-cache"})
 
 

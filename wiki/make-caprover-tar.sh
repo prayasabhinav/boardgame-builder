@@ -7,7 +7,7 @@ trap 'rm -rf "$stage"' EXIT
 mkdir -p "$stage/wiki" "$stage/corpus/drafted"
 cp app.py corpus.py requirements.txt "$stage/wiki/"
 cp -r templates static "$stage/wiki/"
-cp ../palette.py ../block_meta.py ../known_games.py ../interactions.json ../interactions-drafted.json ../games.json ../VERSION \
+cp ../palette.py ../block_meta.py ../known_games.py ../site_config.py ../interactions.json ../interactions-drafted.json ../games.json ../VERSION \
    ../mechanics-shortlist.md ../feeling-blocks.md "$stage/corpus/"
 cp ../drafted/bgg-verdicts.json "$stage/corpus/drafted/"
 cp Dockerfile "$stage/"

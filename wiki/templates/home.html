@@ -3,7 +3,7 @@
 {% block main %}
 <section class="intro">
   <h1>The entries behind boardgameBuilder</h1>
-  <p><a href="https://boardgame.blevn.xyz">boardgameBuilder</a> is a tool for designing a board game by putting blocks together. It does not write its feedback when you ask; it looks it up in the entries below, so the tool can only be as right as they are. A few have been checked against sources; most nobody has checked yet.</p>
+  <p><a href="{{ TOOL_URL }}">boardgameBuilder</a> is a tool for designing a board game by putting blocks together. It does not write its feedback when you ask; it looks it up in the entries below, so the tool can only be as right as they are. A few have been checked against sources; most nobody has checked yet.</p>
   <p>Anyone can read every entry here. If you sign in, you can add a record to any of them: that you checked it against a source, or that you tried it with people at a table, what you found, and how. Your record stays under your name, beside everyone else's. <a href="/about">How checking works</a>.</p>
   {% if not user and PROVIDERS %}<p class="cta">{% for p in PROVIDERS %}<a class="signin big" href="/login/{{ p }}">Sign in with {{ 'GitHub' if p == 'github' else 'Google' }}</a> {% endfor %}</p>{% endif %}
 </section>

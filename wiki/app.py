@@ -193,7 +193,7 @@ app.add_middleware(SessionMiddleware, secret_key=os.environ["SECRET_KEY"], same_
                    https_only=os.environ.get("HTTPS_ONLY") == "1", max_age=60 * 60 * 24 * 30)
 app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
 templates = Jinja2Templates(directory=HERE / "templates")
-templates.env.globals.update(DIMENSIONS=corpus.palette.DIMENSIONS, C=C, KINDS=corpus.KINDS, PLURAL=corpus.PLURAL, PROPOSAL_KINDS=PROPOSAL_KINDS, JUDGEMENTS=JUDGEMENTS, RECORD_KINDS=RECORD_KINDS, FINDINGS=FINDINGS,
+templates.env.globals.update(TOOL_URL=corpus.TOOL_URL, WIKI_URL=corpus.WIKI_URL, DIMENSIONS=corpus.palette.DIMENSIONS, C=C, KINDS=corpus.KINDS, PLURAL=corpus.PLURAL, PROPOSAL_KINDS=PROPOSAL_KINDS, JUDGEMENTS=JUDGEMENTS, RECORD_KINDS=RECORD_KINDS, FINDINGS=FINDINGS,
                              STATUS_WORDS=STATUS_WORDS)
 templates.env.filters["day"] = lambda iso: datetime.fromisoformat(iso).strftime("%-d %b %Y")
 

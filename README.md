@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.10.1-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.10.2-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -217,6 +217,7 @@ python check.py
 | `check.py` | The coverage check, the known games' blocks and answers, and that the version, the changelog and the badge agree |
 | `games.json`, `part-tests.json`, `block-questions.json` | The known games, the part tests and the block questions |
 | `known_games.py` | A known game as a Markdown file and back: the download, Open game, and the wiki's Propose a game all use it |
+| `site_config.py` | Where the tool and the wiki live: one variable, `DOMAIN`, sets both addresses |
 | `VERSION`, `CHANGELOG.md` | The version, shown in the header and written into every game file, and what changed in each one |
 | `mechanics-shortlist.md`, `feeling-blocks.md` | Reference notes on the mechanic and feeling blocks |
 | `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css`, and `og.png`, the link-preview card |

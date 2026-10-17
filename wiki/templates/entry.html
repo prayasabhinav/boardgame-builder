@@ -33,7 +33,7 @@
     <ul class="checks">{% for c in e.checks %}<li><a href="{{ c.bgg }}">{{ c.game }}</a>: {{ c.result }}.{% for b, v in c.verdicts.items() %} {{ C.display.get(b, b) }}: {{ v }}.{% endfor %}</li>{% endfor %}</ul>
   </details>{% endif %}
   <a class="download" href="/games/{{ e.key.split(':', 1)[1] }}.md" download>Download it as a design (.md)</a>
-  <p class="aside">In <a href="https://boardgame.blevn.xyz">boardgameBuilder</a>, Open game puts its blocks on the canvas. Changed, the same file can come back here from <a href="/propose-game">Propose a game</a>.</p>
+  <p class="aside">In <a href="{{ TOOL_URL }}">boardgameBuilder</a>, Open game puts its blocks on the canvas. Changed, the same file can come back here from <a href="/propose-game">Propose a game</a>.</p>
   {% endif %}
   {% if e.kind == 'link' %}<p class="aside">The tool says this when the feeling {{ C.display.get(e.elements[0], e.elements[0]) }} is picked and {{ C.display[e.elements[1]] }} is on the canvas.</p>{% endif %}
   {% if e.note %}<p class="aside">Note kept with it: {{ e.note }}</p>{% endif %}

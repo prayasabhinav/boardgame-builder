@@ -1,5 +1,11 @@
 """Draw static/og.png (1200 × 630), the link-preview card, from docs/screenshot.jpg. Run from the repo root: python docs/make_og.py"""
+import sys
+from pathlib import Path
+
 from PIL import Image, ImageDraw, ImageFont
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from site_config import TOOL_URL  # noqa: E402
 
 W, H = 1200, 630
 SURFACE, INK, BAR, ACCENT, BORDER = "#F7F3ED", "#2D3436", "#2D3436", "#4A8C5C", "#E5E2DF"
@@ -26,7 +32,7 @@ d.rectangle([48, 352, 112, 356], fill=ACCENT)
 small = ImageFont.truetype(MONO, 17)
 for i, line in enumerate(["Includes blocks for serious games", "No AI at runtime · free · no login"]):
     d.text((48, 380 + i * 30), line, font=small, fill=ACCENT)
-d.text((48, 540), "boardgame.blevn.xyz", font=ImageFont.truetype(MONO, 22), fill=INK)
+d.text((48, 540), TOOL_URL.split("//")[1], font=ImageFont.truetype(MONO, 22), fill=INK)
 
 # right: the real screen, canvas and feedback
 shot = Image.open("docs/screenshot.jpg").convert("RGB")
