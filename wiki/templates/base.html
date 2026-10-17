@@ -25,19 +25,17 @@
   <header class="top">
     <div class="top-inner">
       <a class="name" href="/">boardgameBuilder <span>wiki</span></a>
-      <form class="find" action="/search" method="get" role="search">
-        <input type="search" name="q" value="{{ q or '' }}" placeholder="Find an entry" aria-label="Find an entry">
-      </form>
       <nav>
         <a class="to-tool" href="https://boardgame.blevn.xyz">← The tool</a>
         <a href="/records">Records</a>
-        <a href="/about">How checking works</a>
+        <a href="/about">How it works</a>
+        <a href="/search">Find</a>
         {% if user %}
-          <a href="/propose">Propose an entry</a>
-          <a href="/propose-game">Propose a game</a>
+          <a href="/propose">Propose</a>
+          <a href="/propose-game">Add a game</a>
           <a href="/proposals">{{ 'Proposals' if user.admin else 'My proposals' }}</a>
           {% if user.owner %}<a href="/community">Community</a>{% elif not user.admin %}<a href="/apply">Join the editors</a>{% endif %}
-          <span class="me">{{ user.name }}</span> <a href="/logout">Sign out</a>
+          <a href="/logout" title="Signed in as {{ user.name }}">Sign out</a>
         {% else %}
           {% for p in PROVIDERS %}<a class="signin" href="/login/{{ p }}?next={{ request.url.path|urlencode }}">Sign in with {{ 'GitHub' if p == 'github' else 'Google' }}</a>{% endfor %}
         {% endif %}

@@ -11,7 +11,11 @@
   <a href="/list/{{ kind }}?state=none"{% if state == 'none' %} class="on"{% endif %}>nobody has checked yet</a>
 </p>
 {% else %}
-<h1>Entries with “{{ q }}”</h1>
+<h1>{{ 'Entries with “' ~ q ~ '”' if q else 'Find an entry' }}</h1>
+<form class="find" action="/search" method="get" role="search">
+  <input type="search" name="q" value="{{ q or '' }}" placeholder="A word or two from an entry" aria-label="Find an entry" autofocus>
+  <button>Find</button>
+</form>
 {% endif %}
 <p class="aside">{{ rows|length }} entries, in the order the knowledge base holds them.</p>
 <ul class="rows">{% for e in rows %}{{ row(e, states) }}{% endfor %}</ul>

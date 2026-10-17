@@ -17,22 +17,24 @@ a { color: var(--accent-dark); }
 a:hover { color: var(--accent); }
 
 .top { background: var(--bg); border-bottom: 1px solid var(--border-dark); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; }
-.top-inner { max-width: 54rem; margin: 0 auto; padding: 0.6rem 1.25rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
+.top-inner { max-width: 60rem; margin: 0 auto; padding: 0.6rem 1.25rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
 .name { font: 600 1.15rem var(--font-display); color: var(--light); text-decoration: none; }
 .name span { color: var(--accent); font-weight: 400; }
-.find { flex: 1 1 12rem; }
+.find { display: flex; gap: 0.5rem; margin: 0 0 1.4rem; }
 /* The links take a row of their own under the name and search, so every row starts on the same edge as the page */
-.top nav { flex-basis: 100%; }
+.top-inner { flex-wrap: nowrap; justify-content: space-between; }
+.top nav { margin-left: auto; }
+.top nav a { white-space: nowrap; }
 .top nav .to-tool { color: var(--light); font-weight: 500; margin-right: 0.4rem; }
-.find input { width: 100%; font: 0.95rem var(--font-ui); padding: 0.4rem 0.7rem; border-radius: 6px; border: 1px solid var(--border-dark); background: #3a4245; color: var(--light); }
+.find input { flex: 1; height: 2.5rem; font: 1rem var(--font-ui); padding: 0 0.8rem; border-radius: 6px; border: 1px solid #cfc8bf; background: #fff; color: var(--ink); }
 .top nav { display: flex; flex-wrap: wrap; gap: 0.3rem 0.85rem; align-items: center; font: 0.86rem var(--font-ui); }
-.top nav .me { margin-left: auto; color: #b9b1a7; }
+
 .top nav a, .me { color: #d9d2c9; text-decoration: none; }
 .top nav a:hover { color: var(--light); text-decoration: underline; }
 .top nav .signin { display: inline-flex; align-items: center; height: 2rem; padding: 0 0.8rem; color: var(--light); border: 1px solid var(--accent); border-radius: 6px; }
 .top nav .signin:hover { background: var(--accent); text-decoration: none; }
 
-main { max-width: 54rem; margin: 0 auto; padding: 2.4rem 1.25rem 3.5rem; }
+main { max-width: 60rem; margin: 0 auto; padding: 2.4rem 1.25rem 3.5rem; }
 h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.25; }
 h1 { font-size: 2.2rem; margin: 0 0 0.8rem; letter-spacing: -0.01em; }
 h2 { font-size: 1.45rem; margin: 2.8rem 0 1rem; border-top: 1px solid var(--line); padding-top: 1.6rem; }
@@ -113,7 +115,7 @@ button.quiet:hover { background: var(--surface-inner); color: var(--accent-dark)
 .note table { border-collapse: collapse; font-size: 0.9rem; display: block; overflow-x: auto; }
 .note th, .note td { border: 1px solid var(--line); padding: 0.3rem 0.5rem; text-align: left; vertical-align: top; }
 
-footer { border-top: 1px solid var(--line); max-width: 54rem; margin: 0 auto; padding: 1rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom, 0px)); font: 0.88rem var(--font-ui); color: var(--ink3); }
+footer { border-top: 1px solid var(--line); max-width: 60rem; margin: 0 auto; padding: 1rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom, 0px)); font: 0.88rem var(--font-ui); color: var(--ink3); }
 footer p { margin: 0.2rem 0; }
 
 .error { background: #f6dcd8; color: var(--red); border-radius: 6px; padding: 0.6rem 0.9rem; font-family: var(--font-ui); }
@@ -143,3 +145,5 @@ pre.was { white-space: pre-wrap; font: 0.85rem var(--font-mono); background: var
 .lesson { background: #fff; border: 1px solid var(--accent); border-radius: 8px; padding: 0.9rem 1.2rem; margin: 0; font-size: 1.05rem; }
 .download { margin-top: 1rem; }
 @media (max-width: 560px) { .credits { grid-template-columns: 1fr; } .credits dd { margin-bottom: 0.5rem; } h1 { font-size: 1.8rem; } }
+
+@media (max-width: 760px) { .top-inner { flex-wrap: wrap; } .top nav { margin-left: 0; } }
