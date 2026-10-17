@@ -30,6 +30,7 @@
         <a href="/records">Records</a>
         <a href="/about">How it works</a>
         <a href="/search">Find</a>
+        <a href="{{ SYNTAX_URL }}">Syntax</a>
         {% if user %}
           <a href="/propose">Propose</a>
           <a href="/propose-game">Add a game</a>
@@ -46,7 +47,7 @@
     {% block main %}{% endblock %}
   </main>
   <footer>
-    <p><a href="{{ TOOL_URL }}">The tool</a> · <a href="https://github.com/prayasabhinav/boardgame-builder">Its source</a> · <a href="/export.json">Every record, as JSON</a> · No analytics and no counters.</p>
+    <p><a href="{{ TOOL_URL }}">The tool</a> · <a href="https://github.com/prayasabhinav/boardgame-builder">Its source</a> · <a href="{{ SYNTAX_URL }}">The board game syntax</a> · <a href="/export.json">Every record, as JSON</a> · No analytics and no counters.</p>
     <p>A Prayas Abhinav tool · <a href="https://prayasabhinav.net">prayasabhinav.net</a></p>
   </footer>
 </body>

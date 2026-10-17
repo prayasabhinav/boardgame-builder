@@ -21,7 +21,7 @@ sys.path.insert(0, str(CORPUS_DIR))
 import palette  # noqa: E402
 from block_meta import meta_for  # noqa: E402
 from known_games import from_markdown, to_markdown  # noqa: E402,F401  (used by the wiki through this module)
-from site_config import TOOL_URL, WIKI_URL  # noqa: E402,F401  (the addresses, from one variable)
+from site_config import SYNTAX_URL, TOOL_URL, WIKI_URL  # noqa: E402,F401  (the addresses, from one variable)
 
 KINDS = {
     "block": "Block",

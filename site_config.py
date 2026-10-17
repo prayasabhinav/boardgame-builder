@@ -11,3 +11,6 @@ DOMAIN = "blevn.xyz"
 
 TOOL_URL = f"https://boardgame.{DOMAIN}"
 WIKI_URL = f"https://boardgame-wiki.{DOMAIN}"
+
+# The board game syntax on SYNTAX, of which this tool is an instance. It does not move with DOMAIN.
+SYNTAX_URL = "https://syntax.prayasabhinav.net/board-game/"

@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.10.3 — 17 October 2026
+
+- The tool's header and the wiki's header and footer link the board game syntax on SYNTAX, of which boardgameBuilder is an instance. Its address is `SYNTAX_URL` in `site_config.py`.
+
 ## 0.10.2 — 17 October 2026
 
 - The addresses of the tool and the wiki come from one variable, `DOMAIN` in `site_config.py`, so the tool can move to its own domain by changing one line. Nothing moves yet.
