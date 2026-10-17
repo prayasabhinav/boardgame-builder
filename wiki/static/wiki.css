@@ -25,7 +25,8 @@ a:hover { color: var(--accent); }
 .top nav { flex-basis: 100%; }
 .top nav .to-tool { color: var(--light); font-weight: 500; margin-right: 0.4rem; }
 .find input { width: 100%; font: 0.95rem var(--font-ui); padding: 0.4rem 0.7rem; border-radius: 6px; border: 1px solid var(--border-dark); background: #3a4245; color: var(--light); }
-.top nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; align-items: center; font: 0.9rem var(--font-ui); }
+.top nav { display: flex; flex-wrap: wrap; gap: 0.3rem 0.85rem; align-items: center; font: 0.86rem var(--font-ui); }
+.top nav .me { margin-left: auto; color: #b9b1a7; }
 .top nav a, .me { color: #d9d2c9; text-decoration: none; }
 .top nav a:hover { color: var(--light); text-decoration: underline; }
 .top nav .signin { display: inline-flex; align-items: center; height: 2rem; padding: 0 0.8rem; color: var(--light); border: 1px solid var(--accent); border-radius: 6px; }
