@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.10.3-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.10.4-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -57,7 +57,7 @@ You change a block, press Iterate again and see what moved. **Mark complete** wr
 
 1. Drag one or more **feelings** (tense, clever, together, sneaky…) onto the shelf at the top.
 2. Drag **blocks** into the slots. A block only fits its own slot.
-3. **Core mechanic**, **Timing** and **Simulation** take as many blocks as you like. Every other slot takes one, and a new block replaces the old one.
+3. **Core mechanic**, **Timing** and **Simulation** hold as many blocks as your game needs. Every other slot holds one, and a new block replaces the old one.
 4. Press **Iterate**. Each press is one turn of design; the panel keeps the history.
 5. Press the **?** on any block for a short description and a drawing.
 6. When a block has questions about how it works in your game, they open as you drop it; answer any you can, and change them later from the line under the block.

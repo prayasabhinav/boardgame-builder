@@ -22,6 +22,10 @@ from pydantic import BaseModel
 from rules import compute_diff, match_kb
 from templates import build_template_output, display, render_summary, render_turn
 from palette import DIMENSIONS, FEELINGS
+
+# The slots that hold several blocks, named on the page from the palette so the text cannot fall behind it.
+_multi = [f"<em>{d['display']}</em>" for d in DIMENSIONS if d.get("multi")]
+MULTI_SLOTS = ", ".join(_multi[:-1]) + " and " + _multi[-1] if len(_multi) > 1 else "".join(_multi)
 from block_meta import meta_for
 from known_games import to_markdown
 from site_config import SYNTAX_URL, TOOL_URL, WIKI_URL
@@ -182,7 +186,7 @@ def root():
     stamp = int(max(f.stat().st_mtime for f in STATIC_DIR.iterdir()))
     html = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
     # no-cache: a browser asks again before reusing the page, so a reload never shows a page from before a deploy
-    page = html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"').replace("__VERSION__", VERSION).replace("__TOOL_URL__", TOOL_URL).replace("__WIKI_URL__", WIKI_URL).replace("__SYNTAX_URL__", SYNTAX_URL)
+    page = html.replace('.js"', f'.js?v={stamp}"').replace('.css"', f'.css?v={stamp}"').replace("__VERSION__", VERSION).replace("__TOOL_URL__", TOOL_URL).replace("__WIKI_URL__", WIKI_URL).replace("__SYNTAX_URL__", SYNTAX_URL).replace("__MULTI_SLOTS__", MULTI_SLOTS)
     return HTMLResponse(page, headers={"Cache-Control": "no-cache"})
 
 

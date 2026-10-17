@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.10.4 — 17 October 2026
+
+- Every place that says which slots hold several blocks now names the same three, Core mechanic, Timing and Simulation, in the same words. The How it works box and the wiki's form for proposing a game still named only two, from before Timing took several. The tool and the wiki now take the list from the palette, so the text cannot fall behind it again.
+
 ## 0.10.3 — 17 October 2026
 
 - The tool's header and the wiki's header and footer link the board game syntax on SYNTAX, of which boardgameBuilder is an instance. Its address is `SYNTAX_URL` in `site_config.py`.
