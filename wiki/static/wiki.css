@@ -18,7 +18,7 @@ a:hover { color: var(--accent); }
 
 .top { background: var(--bg); border-bottom: 1px solid var(--border-dark); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; }
 .top-inner { max-width: 60rem; margin: 0 auto; padding: 0.6rem 1.25rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; }
-.name { font: 600 1.15rem var(--font-display); color: var(--light); text-decoration: none; }
+.name { font: 600 1.15rem var(--font-display); color: var(--light); text-decoration: none; white-space: nowrap; }
 .name span { color: var(--accent); font-weight: 400; }
 .find { display: flex; gap: 0.5rem; margin: 0 0 1.4rem; }
 /* The links take a row of their own under the name and search, so every row starts on the same edge as the page */
@@ -27,7 +27,7 @@ a:hover { color: var(--accent); }
 .top nav a { white-space: nowrap; }
 .top nav .to-tool { color: var(--light); font-weight: 500; margin-right: 0.4rem; }
 .find input { flex: 1; height: 2.5rem; font: 1rem var(--font-ui); padding: 0 0.8rem; border-radius: 6px; border: 1px solid #cfc8bf; background: #fff; color: var(--ink); }
-.top nav { display: flex; flex-wrap: wrap; gap: 0.3rem 0.85rem; align-items: center; font: 0.86rem var(--font-ui); }
+.top nav { display: flex; flex-wrap: nowrap; gap: 0.3rem 0.75rem; align-items: center; font: 0.86rem var(--font-ui); }
 
 .top nav a, .me { color: #d9d2c9; text-decoration: none; }
 .top nav a:hover { color: var(--light); text-decoration: underline; }
@@ -146,4 +146,5 @@ pre.was { white-space: pre-wrap; font: 0.85rem var(--font-mono); background: var
 .download { margin-top: 1rem; }
 @media (max-width: 560px) { .credits { grid-template-columns: 1fr; } .credits dd { margin-bottom: 0.5rem; } h1 { font-size: 1.8rem; } }
 
-@media (max-width: 760px) { .top-inner { flex-wrap: wrap; } .top nav { margin-left: 0; } }
+/* Name and links share one line while they fit (about 960px with the editor's links); below that the links take the second row */
+@media (max-width: 1000px) { .top-inner { flex-wrap: wrap; } .top nav { margin-left: 0; flex-wrap: wrap; } }
