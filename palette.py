@@ -100,7 +100,7 @@ DIMENSIONS = [
         "description": "What the game is about.",
         "slot_label": "Theme",
         "need": "optional",
-        "helps": "gives players a world to picture, which makes rules easier to remember and gives the choices something to be about",
+        "helps": "gives players a world to picture, which makes rules easier to remember and the choices something to be about",
         "blocks": [
             {"id": "abstract", "display": "abstract"},
             {"id": "historical", "display": "historical"},
@@ -160,7 +160,7 @@ DIMENSIONS = [
         "description": "The real problem the game models, and how players learn from it.",
         "slot_label": "Simulation",
         "need": "optional",
-        "helps": "ties the game to a real situation, so what happens at the table can be talked about as that situation afterwards",
+        "helps": "ties the game to a real situation, so players can talk about that situation afterwards through what happened at the table",
         "blocks": [
             {"id": "model-a-system", "display": "model a system"},
             {"id": "stakeholder-roles", "display": "stakeholder roles"},
