@@ -11,6 +11,7 @@ DIMENSIONS = [
         "colour": "blue",
         "description": "The main thing players do on their turn.",
         "slot_label": "Core mechanic",
+        "need": "essential",
         "blocks": [
             {"id": "roll-and-move", "display": "roll and move"},
             {"id": "drafting", "display": "drafting"},
@@ -38,6 +39,7 @@ DIMENSIONS = [
         "colour": "green",
         "description": "What players are trying to do.",
         "slot_label": "Victory condition",
+        "need": "essential",
         "blocks": [
             {"id": "race-to-finish", "display": "race to finish"},
             {"id": "most-points", "display": "most points"},
@@ -59,6 +61,7 @@ DIMENSIONS = [
         "colour": "orange",
         "description": "How players affect each other.",
         "slot_label": "Player interaction",
+        "need": "essential",
         "blocks": [
             {"id": "solo-in-parallel", "display": "solo in parallel"},
             {"id": "direct-confrontation", "display": "direct confrontation"},
@@ -79,6 +82,7 @@ DIMENSIONS = [
         "colour": "purple",
         "description": "How much luck vs. brain-work decides the game.",
         "slot_label": "Chance / skill",
+        "need": "essential",
         "blocks": [
             {"id": "mostly-chance", "display": "mostly chance"},
             {"id": "chance-with-mitigation", "display": "chance with mitigation"},
@@ -95,6 +99,8 @@ DIMENSIONS = [
         "colour": "pink",
         "description": "What the game is about.",
         "slot_label": "Theme",
+        "need": "optional",
+        "helps": "gives players a world to picture, which makes rules easier to remember and gives the choices something to be about",
         "blocks": [
             {"id": "abstract", "display": "abstract"},
             {"id": "historical", "display": "historical"},
@@ -116,6 +122,7 @@ DIMENSIONS = [
         "colour": "yellow",
         "description": "What players can see about each other.",
         "slot_label": "Information",
+        "need": "essential",
         "blocks": [
             {"id": "full-information", "display": "full information"},
             {"id": "hidden-hands", "display": "hidden hands"},
@@ -134,6 +141,7 @@ DIMENSIONS = [
         "colour": "red",
         "description": "When and how fast players act: one after another, all at once, whenever they like, against a clock, across real days, slowed down or speeding up.",
         "slot_label": "Timing",
+        "need": "essential",
         "blocks": [
             {"id": "take-turns", "display": "take turns"},
             {"id": "everyone-at-once", "display": "everyone at once"},
@@ -151,6 +159,8 @@ DIMENSIONS = [
         "colour": "teal",
         "description": "The real problem the game models, and how players learn from it.",
         "slot_label": "Simulation",
+        "need": "optional",
+        "helps": "ties the game to a real situation, so what happens at the table can be talked about as that situation afterwards",
         "blocks": [
             {"id": "model-a-system", "display": "model a system"},
             {"id": "stakeholder-roles", "display": "stakeholder roles"},
