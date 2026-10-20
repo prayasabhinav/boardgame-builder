@@ -197,7 +197,13 @@
           <button class="k-btn-outline" id="playCloseBtn" type="button">Back to designing</button>
         </div>
         <div class="play-share" id="playShare" hidden>
-          <input type="text" id="playShareInput" readonly aria-label="Share link">
+          <div class="fam-equipment-label">Questions asked at the end of the game, to whoever opens the link</div>
+          <div class="play-questions" id="playQuestions"></div>
+          <div class="phase-actions"><button class="k-btn-outline" type="button" id="playAddQuestion">Add a question</button></div>
+          <div class="play-share-link">
+            <input type="text" id="playShareInput" readonly aria-label="Share link">
+            <button class="k-btn-primary" type="button" id="playCopyLink">Copy link</button>
+          </div>
           <p class="play-note" id="playShareNote"></p>
         </div>
         <div id="playBody"></div>

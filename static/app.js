@@ -1454,6 +1454,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("playCloseBtn").addEventListener("click", leave);
   document.getElementById("playFullBtn").addEventListener("click", toggleFullScreen);
   document.getElementById("playShareBtn").addEventListener("click", showShare);
+  document.getElementById("playAddQuestion").addEventListener("click", () => { play.questions.push(""); drawQuestions(); document.querySelector("#playQuestions input:last-of-type")?.focus(); });
+  document.getElementById("playCopyLink").addEventListener("click", copyLink);
   document.addEventListener("fullscreenchange", () => {
     document.getElementById("playFullBtn").textContent = document.fullscreenElement ? "Leave full screen" : "Full screen";
   });

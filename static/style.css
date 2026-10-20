@@ -1740,3 +1740,13 @@ button.slot-config:disabled { cursor: default; }
 .play-start + .play-log { margin-top: 28px; }
 .play-log p { margin: 4px 0 0; font-size: 13px; line-height: 1.45; color: var(--ink2); }
 .play-end p { font-size: 16px; line-height: 1.55; margin: 0 0 8px; color: var(--ink2); }
+.play-questions { display: flex; flex-direction: column; gap: 6px; margin: 6px 0 8px; }
+.play-question { display: flex; gap: 8px; align-items: center; }
+.play-question span { font-family: var(--font-mono); font-size: 12px; color: var(--ink3); width: 1.6em; }
+.play-question input { flex: 1; min-width: 0; padding: 7px 10px; font-family: var(--font-body); font-size: 14px; border: 1px solid var(--surface-border); border-radius: 4px; background: white; color: var(--ink); }
+.play-share-link { display: flex; gap: 8px; margin-top: 14px; }
+.play-share-link input { flex: 1; min-width: 0; }
+.play-reply { margin: 22px 0; padding: 16px 18px; background: white; border: 1px solid var(--surface-border); border-radius: 6px; }
+.play-reply-q { display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 14.5px; }
+.play-reply-q textarea, .play-reply-text { width: 100%; box-sizing: border-box; padding: 8px 10px; font-family: var(--font-body); font-size: 14px; border: 1px solid var(--surface-border); border-radius: 4px; color: var(--ink); }
+.play-reply-text { margin-top: 12px; min-height: 9rem; font-family: var(--font-mono); font-size: 12px; }

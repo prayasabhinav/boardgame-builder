@@ -6,7 +6,7 @@ const CARD_COLOURS = ["#C75B39", "#3F6E9E", "#D9A441", "#4A8C5C"];
 const GRAB_KEYS = ["A", "L", "Z", "M", "Q"];
 const BOT_DELAY = 450;
 
-const play = { design: null, shared: false, seats: null, game: null, viewer: null, timers: [] };
+const play = { design: null, shared: false, seats: null, game: null, viewer: null, timers: [], questions: null, replies: [] };
 
 // ── The design: from the canvas, or from a share link ──
 
@@ -36,14 +36,29 @@ function readDesign(code) {
     const answers = {};
     for (const [id, a] of Object.entries(d.a || {})) if (typeof a === "object") answers[id] = Object.fromEntries(Object.entries(a).map(([k, v]) => [k, String(v)]));
     const feelings = (d.f || []).filter((id) => state.feelings.some((f) => f.id === id));
-    return { b: blocks, a: answers, f: feelings };
+    const questions = (Array.isArray(d.q) ? d.q : []).filter((q) => typeof q === "string" && q.trim()).map((q) => q.slice(0, 300)).slice(0, 12);
+    return { b: blocks, a: answers, f: feelings, q: questions };
   } catch (_) {
     return null;
   }
 }
 
+// The link carries the design and the questions its sharer wants answered after the game
 function shareUrl() {
-  return `${location.origin}${location.pathname}#play/${designCode(play.design)}`;
+  const questions = play.questions.map((q) => q.trim()).filter(Boolean);
+  return `${location.origin}${location.pathname}#play/${designCode({ ...play.design, q: questions })}`;
+}
+
+function defaultQuestions() {
+  const qs = [
+    "What did you spend most of your turns doing?",
+    "Was there a moment when you had to think hard? What was it?",
+    "Did the result come from the choices people made, or from luck?",
+    "If you could change one rule, which would it be, and why?",
+  ];
+  const feelings = play.design.f.map(displayOf);
+  if (feelings.length) qs.push(`We wanted it to feel ${feelings.join(", ")}. Did it? When?`);
+  return qs;
 }
 
 // ── Opening and closing ──
@@ -62,6 +77,7 @@ function openPlay(code) {
   const same = play.design && JSON.stringify(design) === JSON.stringify(play.design);
   play.design = design;
   play.shared = !!code;
+  if (!same) { play.questions = design.q?.length ? [...design.q] : null; play.replies = []; }
   if (same && play.game) return drawPlay();
   play.game = null;
   drawSetup();
@@ -86,15 +102,36 @@ function toggleFullScreen() {
   else el.requestFullscreen?.();
 }
 
-// The link is shown and selected at once; copying it is tried alongside, and said only when it worked
+// The questions are edited in place and the link changes with them; copying is tried, and said only when it worked
 function showShare() {
+  const box = document.getElementById("playShare");
+  if (!box.hidden) { box.hidden = true; return; }
+  play.questions = play.questions || defaultQuestions();
+  box.hidden = false;
+  drawQuestions();
+}
+
+function drawQuestions() {
+  const list = document.getElementById("playQuestions");
+  list.innerHTML = play.questions.map((q, i) => `<div class="play-question">
+    <span>${i + 1}.</span><input type="text" maxlength="300" data-i="${i}" value="${escapeHtml(q)}" aria-label="Question ${i + 1}">
+    <button type="button" class="play-seat-remove" data-i="${i}" aria-label="Remove">×</button></div>`).join("");
+  list.querySelectorAll("input").forEach((el) => el.addEventListener("input", () => { play.questions[el.dataset.i] = el.value; updateLink(); }));
+  list.querySelectorAll("button").forEach((el) => el.addEventListener("click", () => { play.questions.splice(el.dataset.i, 1); drawQuestions(); }));
+  document.getElementById("playAddQuestion").hidden = play.questions.length >= 12;
+  updateLink();
+}
+
+function updateLink() {
+  document.getElementById("playShareInput").value = shareUrl();
+  const n = play.questions.filter((q) => q.trim()).length;
+  document.getElementById("playShareNote").textContent = `Whoever opens it plays this design${n ? ` and is asked ${n === 1 ? "this question" : `these ${n} questions`} at the end` : ""}; their canvas stays as it is. Their answers come back to you only if they send them.`;
+}
+
+function copyLink() {
   const input = document.getElementById("playShareInput");
-  const note = document.getElementById("playShareNote");
-  input.value = shareUrl();
-  document.getElementById("playShare").hidden = false;
   input.select();
-  note.textContent = "Copy this address. Whoever opens it plays this design; their canvas stays as it is.";
-  navigator.clipboard?.writeText(input.value).then(() => { note.textContent = "Copied. Whoever opens it plays this design; their canvas stays as it is."; }, () => {});
+  navigator.clipboard?.writeText(input.value).then(() => { document.getElementById("playShareNote").textContent = "Copied."; }, () => {});
 }
 
 // ── Setup: who plays ──
@@ -116,6 +153,7 @@ function drawSetup() {
   body.innerHTML = `
     <div class="phase-eyebrow">Play on screen${play.shared ? " · a design shared with you" : ""}</div>
     <h1 class="phase-title">Play this game</h1>
+    ${play.shared && d.q.length ? `<p class="play-private">Whoever shared this game asks ${d.q.length === 1 ? "one question" : `${d.q.length} questions`} at the end: ${d.q.map((q) => `“${escapeHtml(q)}”`).join(" ")} Your answers stay on this screen until you copy them and send them back.</p>` : ""}
     <p class="phase-intro">The screen plays every block it has a rule for, each written in code; nothing is generated. The blocks it cannot play are listed below for the people at the table. Players marked <em>fixed rules</em> are played by the screen, always choosing the move its rule values most.</p>
     <div class="play-columns">
       <div><div class="fam-equipment-label">The screen plays</div><ul class="play-list">${probe.played.map((id) => `<li>${escapeHtml(displayOf(id))}</li>`).join("") || "<li>a plain roll of the dice, since no block has a rule here</li>"}</ul></div>
@@ -328,13 +366,30 @@ function drawEnd() {
       ${o.scores.map((s) => `<tr><td>${escapeHtml(s.name)}${s.out ? " (out)" : ""}</td><td>${s.score}</td>${g.track ? `<td>${s.space}</td>` : ""}${s.life !== null ? `<td>${Math.max(0, s.life)}</td>` : ""}</tr>`).join("")}</table>
     ${ids.includes("rules-make-an-argument") && o.rewarded.length ? `<div class="fam-equipment-label">What your rules rewarded</div><p>${o.rewarded.map((r) => `${escapeHtml(r.what)} ${r.share}%`).join(" · ")}</p>` : ""}
     ${ids.includes("debrief") ? `<div class="fam-notice"><div class="fam-notice-label">Talk it through</div><ul><li>What happened?</li><li>Why did it happen?</li><li>How is it like the real thing?</li><li>What would change if one rule changed?</li></ul></div>` : ""}
-    ${feelings.length ? `<div class="fam-notice"><div class="fam-notice-label">You wanted it to feel ${escapeHtml(feelings.join(", "))}</div><ul><li>Did it? When, and when not?</li></ul></div>` : ""}
+    ${feelings.length && !(play.shared && play.design.q.length) ? `<div class="fam-notice"><div class="fam-notice-label">${play.shared ? "Its makers wanted it" : "You wanted it"} to feel ${escapeHtml(feelings.join(", "))}</div><ul><li>Did it? When, and when not?</li></ul></div>` : ""}
     ${o.carry ? `<p class="play-note">The ${escapeHtml(g.names.pool)} stays at ${o.carry.pool} for the next game on this device.</p>` : ""}
+    ${play.shared && play.design.q.length ? `<div class="play-reply"><div class="fam-equipment-label">Questions from whoever shared this game</div>
+      ${play.design.q.map((q, i) => `<label class="play-reply-q"><span>${i + 1}. ${escapeHtml(q)}</span><textarea data-i="${i}" rows="2">${escapeHtml(play.replies[i] || "")}</textarea></label>`).join("")}
+      <div class="phase-actions"><button class="k-btn-primary" type="button" id="playCopyReply">Copy my answers</button></div>
+      <textarea class="play-reply-text" id="playReplyText" readonly hidden></textarea>
+      <p class="play-note" id="playReplyNote">Nothing is sent from here. Copy your answers and send them back however you like.</p></div>` : ""}
     <div class="phase-actions play-start">
       <button class="k-btn-primary" type="button" id="playAgain">Play again</button>
       <button class="k-btn-outline" type="button" id="playSetupBtn">Change players</button>
     </div>
     <div class="play-log"><div class="fam-equipment-label">Everything that happened</div>${g.log.map((l) => `<p>${escapeHtml(l.text)}</p>`).join("")}</div>`;
   document.getElementById("playAgain").addEventListener("click", () => startGame(g.names.pts));
+  document.querySelectorAll(".play-reply-q textarea").forEach((el) => el.addEventListener("input", () => { play.replies[el.dataset.i] = el.value; }));
+  document.getElementById("playCopyReply")?.addEventListener("click", () => {
+    const text = [
+      "Playtest answers for a game made on boardgameBuilder",
+      `Blocks: ${ids.map(displayOf).join(", ")}`,
+      `Result: ${o.lines.slice(0, 2).join(" ")} (${g.players.length} players, ${g.players.filter((p) => !p.bot).length} of them people)`,
+      ...play.design.q.map((q, i) => `\n${i + 1}. ${q}\n${(play.replies[i] || "").trim() || "(no answer)"}`),
+    ].join("\n");
+    const box = document.getElementById("playReplyText");
+    box.value = text; box.hidden = false; box.select();
+    navigator.clipboard?.writeText(text).then(() => { document.getElementById("playReplyNote").textContent = "Copied. Send it back however you like."; }, () => {});
+  });
   document.getElementById("playSetupBtn").addEventListener("click", () => { play.game = null; drawSetup(); });
 }

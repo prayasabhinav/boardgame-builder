@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.12.0-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.13.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -83,6 +83,8 @@ Each seat is a **person** or **fixed rules**. A fixed-rule player is played by t
 The closing screen gives the result and the scores and, when the canvas has the blocks for them, what the rules rewarded, the debrief questions, and the feelings you chose with the question of whether the game felt that way. With **irreversible change**, the shared resource stays where it ended for the next game in the same browser.
 
 **Full screen** gives the table the whole screen, for a group around one display. **Share link** gives an address that carries the design itself: the blocks and your answers to their questions. Whoever opens it gets the same game ready to play, and their own canvas stays as it is.
+
+A share link also carries questions for whoever plays it, which makes it a playtest. **Share link** opens them for editing above the address: five to start with (what the players spent their turns on, a moment that needed thought, whether the result came from choices or luck, which rule they would change, and, if you chose feelings, whether it felt that way), each one changeable or removable, up to twelve. The address changes as you edit. The player sees the questions before starting and answers them on the closing screen; **Copy my answers** puts the answers, the blocks and the result into one text to send back however they like. Nothing is sent or kept by the tool.
 
 ## The blocks
 
@@ -249,7 +251,7 @@ curl -s http://localhost:8787/palette | node check_play.js 3000
 
 ## Privacy
 
-There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage, and a saved game is a file on your own computer that the server never sees. A share link carries the design after the `#` in its address, which a browser never sends to a server, and a game played on screen runs entirely in the browser. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
+There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage, and a saved game is a file on your own computer that the server never sees. A share link carries the design and its questions after the `#` in its address, which a browser never sends to a server; a game played on screen runs entirely in the browser, and answers to a share link's questions stay on the player's screen until they copy and send them. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
 
 ## Status and how to help
 
