@@ -61,6 +61,10 @@
         <h2 class="section-eyebrow">Block palette</h2>
         <p class="section-hint">Drag any block onto the canvas.</p>
       </div>
+      <div class="palette-search">
+        <input type="search" id="paletteSearch" placeholder="Find a block" aria-label="Find a block" autocomplete="off" spellcheck="false">
+      </div>
+      <p class="palette-no-match" id="paletteNoMatch" hidden>No block matches.</p>
       <div class="palette-body" id="paletteBody"><!-- populated by app.js --></div>
     </aside>
 

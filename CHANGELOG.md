@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.11.0 — 20 October 2026
+
+- A search box at the top of the palette. Typing shows only the blocks whose name or description holds the words, such as *water* for *model a system* and *shared resource*, or a whole group when its name is typed, such as *theme*. It stays at the top while the palette scrolls, says when nothing matches, and Esc clears it.
+
 ## 0.10.6 — 20 October 2026
 
 - The slots no longer spill out of the canvas. A long block or answer, such as *forces in-character choices* under Theme, used to widen the two columns of slots past the edge of the canvas and under the feedback panel; it now wraps inside its slot.

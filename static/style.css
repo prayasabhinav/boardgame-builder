@@ -179,6 +179,43 @@ body {
   margin-bottom: 4px;
 }
 
+.palette-search {
+  position: sticky;
+  top: -24px;
+  z-index: 2;
+  margin: 0 -22px 14px;
+  padding: 10px 22px;
+  background: var(--surface-inner);
+}
+
+.palette-group[hidden],
+.palette .block[hidden] { display: none; }
+
+.palette-search input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--ink);
+  background: white;
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+}
+
+.palette-search input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.palette-no-match {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 12.5px;
+  color: var(--ink3);
+  margin: 0;
+}
+
 .palette-body {
   display: flex;
   flex-direction: column;

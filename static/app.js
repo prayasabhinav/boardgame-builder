@@ -152,7 +152,33 @@ function renderPalette() {
       blocks: dim.blocks.map(b => ({ ...b, dim: dim.id })),
     }));
   }
+  filterPalette();
 }
+
+// Search box: shows the blocks whose name or description holds the words typed,
+// or every block of a group whose title holds them
+function filterPalette() {
+  const words = document.getElementById("paletteSearch").value.toLowerCase().split(/\s+/).filter(Boolean);
+  const has = (text) => words.every((w) => text.toLowerCase().includes(w));
+  let shown = 0;
+  for (const group of document.querySelectorAll("#paletteBody .palette-group")) {
+    const groupMatch = has(group.querySelector(".group-title").textContent);
+    let inGroup = 0;
+    for (const block of group.querySelectorAll(".block")) {
+      const meta = lookupBlockMeta(block.dataset.blockId, block.dataset.dim);
+      block.hidden = !(groupMatch || has(block.textContent + " " + (meta.description || "")));
+      if (!block.hidden) inGroup++;
+    }
+    group.hidden = inGroup === 0;
+    shown += inGroup;
+  }
+  document.getElementById("paletteNoMatch").hidden = shown > 0;
+}
+
+document.getElementById("paletteSearch").addEventListener("input", filterPalette);
+document.getElementById("paletteSearch").addEventListener("keydown", (e) => {
+  if (e.key === "Escape") { e.target.value = ""; filterPalette(); }
+});
 
 function buildPaletteGroup({ dim, letter, title, description, blocks, isFeeling }) {
   const group = document.createElement("div");
