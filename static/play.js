@@ -372,7 +372,7 @@ function drawEnd() {
       ${play.design.q.map((q, i) => `<label class="play-reply-q"><span>${i + 1}. ${escapeHtml(q)}</span><textarea data-i="${i}" rows="2">${escapeHtml(play.replies[i] || "")}</textarea></label>`).join("")}
       <div class="phase-actions"><button class="k-btn-primary" type="button" id="playCopyReply">Copy my answers</button></div>
       <textarea class="play-reply-text" id="playReplyText" readonly hidden></textarea>
-      <p class="play-note" id="playReplyNote">Nothing is sent from here. Copy your answers and send them back however you like.</p></div>` : ""}
+      <p class="play-note" id="playReplyNote">Nothing is sent from here. Copy your answers, with everything that happened in the game, and send them back however you like.</p></div>` : ""}
     <div class="phase-actions play-start">
       <button class="k-btn-primary" type="button" id="playAgain">Play again</button>
       <button class="k-btn-outline" type="button" id="playSetupBtn">Change players</button>
@@ -386,6 +386,8 @@ function drawEnd() {
       `Blocks: ${ids.map(displayOf).join(", ")}`,
       `Result: ${o.lines.slice(0, 2).join(" ")} (${g.players.length} players, ${g.players.filter((p) => !p.bot).length} of them people)`,
       ...play.design.q.map((q, i) => `\n${i + 1}. ${q}\n${(play.replies[i] || "").trim() || "(no answer)"}`),
+      "\nEverything that happened",
+      ...g.log.map((l) => l.text),
     ].join("\n");
     const box = document.getElementById("playReplyText");
     box.value = text; box.hidden = false; box.select();

@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.13.1 — 20 October 2026
+
+- The answers a player copies after a shared game also carry everything that happened in it, move by move, so whoever shared it can read the playtest as well as the answers.
+
 ## 0.13.0 — 20 October 2026
 
 - A share link carries questions for whoever plays it, so it works as a playtest. **Share link** opens five questions to edit, remove or add to (up to twelve), and the address changes with them. The player sees them before starting and answers them at the end; **Copy my answers** gives one text with the blocks, the result and the answers to send back. Nothing is sent or kept by the tool.
