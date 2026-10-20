@@ -132,6 +132,16 @@ function renderPalette() {
   const container = document.getElementById("paletteBody");
   container.innerHTML = "";
 
+  // Feelings group first, in the same order as the canvas: intent above mechanics
+  container.appendChild(buildPaletteGroup({
+    dim: "feeling",
+    letter: "F",
+    title: "Feelings — what we want",
+    description: "Drag these onto the feelings shelf at the top of the canvas.",
+    blocks: state.feelings.map(f => ({ ...f, dim: "feeling" })),
+    isFeeling: true,
+  }));
+
   // Mechanic dimensions
   for (const dim of state.dimensions) {
     container.appendChild(buildPaletteGroup({
@@ -142,16 +152,6 @@ function renderPalette() {
       blocks: dim.blocks.map(b => ({ ...b, dim: dim.id })),
     }));
   }
-
-  // Feelings group
-  container.appendChild(buildPaletteGroup({
-    dim: "feeling",
-    letter: "F",
-    title: "Feelings — what we want",
-    description: "Drag these onto the feelings shelf at the top of the canvas.",
-    blocks: state.feelings.map(f => ({ ...f, dim: "feeling" })),
-    isFeeling: true,
-  }));
 }
 
 function buildPaletteGroup({ dim, letter, title, description, blocks, isFeeling }) {

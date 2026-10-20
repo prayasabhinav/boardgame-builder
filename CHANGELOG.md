@@ -4,6 +4,13 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.10.6 — 20 October 2026
+
+- The slots no longer spill out of the canvas. A long block or answer, such as *forces in-character choices* under Theme, used to widen the two columns of slots past the edge of the canvas and under the feedback panel; it now wraps inside its slot.
+- The feelings are the first group in the palette, in the same order as the canvas, where the feelings shelf sits above the slots. They used to come last, below every group of blocks.
+- The two parts of the canvas read *Stage 1a · Intent* and *Stage 1b · Mechanics*. Both are the first stage, what the designer puts in; the feedback is stages 2 and 3. They used to read *Stage 1* twice.
+- The picture for *model a system* has its arrowheads on the ends of its arrows. Two of the three were set at an angle to their lines.
+
 ## 0.10.5 — 17 October 2026
 
 - The slots that hold several blocks are described as holding as many *different* blocks as a game needs, each once: a block cannot go into the same slot twice, so a slot holds at most every block of its group.

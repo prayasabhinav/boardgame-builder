@@ -423,7 +423,7 @@ FEELINGS_META = {
 SIMULATION = {
     "model-a-system": {
         "description": "The board works like a real system, such as how water moves between a village's wells and fields, so a move has the effect it would have in real life.",
-        "svg": svg(f'<circle cx="30" cy="24" r="9" {_S} {_TINT}/><circle cx="90" cy="24" r="9" {_S} {_TINT}/><circle cx="60" cy="62" r="9" {_S} {_FILL}/><path d="M41 24 h38 M86 33 l-18 21 M52 55 l-17 -22" {_S}/><path d="M74 20 l5 4 l-5 4 M66 50 l2 4 l-5 0 M38 39 l-3 -6 l6 1" {_S}/>'),
+        "svg": svg(f'<circle cx="30" cy="24" r="9" {_S} {_TINT}/><circle cx="90" cy="24" r="9" {_S} {_TINT}/><circle cx="60" cy="62" r="9" {_S} {_FILL}/><path d="M41 24 h38 M83.8 31.8 L66.8 53.4 M53.8 54.2 L36.8 32.6" {_S}/><path d="M74 20 l5 4 l-5 4 M73.1 51.9 L66.8 53.4 L66.8 47 M36.8 39 L36.8 32.6 L43.1 34.1" {_S}/>'),
     },
     "stakeholder-roles": {
         "description": "Each player plays a real group with its own needs, such as farmers, a village council or a shopkeeper. You see the problem from where they stand.",

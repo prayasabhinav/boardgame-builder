@@ -369,7 +369,8 @@ body {
 
 .mechanics-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* minmax(0, …) so a long block or answer wraps inside its slot instead of widening the grid past the card */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -490,6 +491,9 @@ body {
 .slot-body {
   flex: 1;
   display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
   align-items: center;
 }
 
@@ -1618,7 +1622,7 @@ body {
 .analysis-result.failed { color: #C75B39; }
 .feedback-panel > .panel-pane { flex: 1; display: flex; flex-direction: column; min-height: 0; }
 .feedback-panel > .panel-pane[hidden] { display: none; }
-.slot-item { display: inline-flex; align-items: stretch; gap: 6px; max-width: 100%; }
+.slot-item { display: inline-flex; flex-wrap: wrap; align-items: stretch; gap: 6px; max-width: 100%; min-width: 0; }
 button.slot-config { display: inline-block; margin: 0; padding: 0 10px; height: 32px; line-height: 30px; max-width: 16rem; border: 1px dashed var(--accent); border-radius: 4px; background: transparent; cursor: pointer; font-family: var(--font-mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.05em; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 button.slot-config:hover:not(:disabled) { background: var(--accent-bg, rgba(74, 140, 92, 0.1)); border-style: solid; }
 button.slot-config:disabled { cursor: default; }
