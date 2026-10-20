@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.11.0-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.12.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -25,21 +25,22 @@ A small browser tool for designing a board game by putting blocks together and r
 
 1. [What it does](#what-it-does)
 2. [Using it](#using-it)
-3. [The blocks](#the-blocks)
-4. [Simulation blocks for serious games](#simulation-blocks-for-serious-games)
-5. [How the feedback is made](#how-the-feedback-is-made)
-6. [Example games](#example-games)
-7. [Known games, part tests and block questions](#known-games-part-tests-and-block-questions)
-8. [Run it on your own machine](#run-it-on-your-own-machine)
-9. [Run it with Docker](#run-it-with-docker)
-10. [Changing the knowledge base](#changing-the-knowledge-base)
-11. [The wiki](#the-wiki)
-12. [Checks](#checks)
-13. [Files](#files)
-14. [Privacy](#privacy)
-15. [Status and how to help](#status-and-how-to-help)
-16. [References](#references)
-17. [Licence](#licence)
+3. [Playing it on screen](#playing-it-on-screen)
+4. [The blocks](#the-blocks)
+5. [Simulation blocks for serious games](#simulation-blocks-for-serious-games)
+6. [How the feedback is made](#how-the-feedback-is-made)
+7. [Example games](#example-games)
+8. [Known games, part tests and block questions](#known-games-part-tests-and-block-questions)
+9. [Run it on your own machine](#run-it-on-your-own-machine)
+10. [Run it with Docker](#run-it-with-docker)
+11. [Changing the knowledge base](#changing-the-knowledge-base)
+12. [The wiki](#the-wiki)
+13. [Checks](#checks)
+14. [Files](#files)
+15. [Privacy](#privacy)
+16. [Status and how to help](#status-and-how-to-help)
+17. [References](#references)
+18. [Licence](#licence)
 
 ---
 
@@ -62,13 +63,26 @@ You change a block, press Iterate again and see what moved. **Mark complete** wr
 5. Press the **?** on any block for a short description and a drawing.
 6. When a block has questions about how it works in your game, they open as you drop it; answer any you can, and change them later from the line under the block.
 7. **Test parts**, beside the feedback, has short tests of one block, or two together, to play with things at hand; say how each felt.
-8. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Start fresh** in the header clears everything.
+8. Press **Play** to play the design on screen (see [Playing it on screen](#playing-it-on-screen)).
+9. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Start fresh** in the header clears everything.
 
 Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file: the feelings, the blocks and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
 
-Every view has its own address, so it can be linked, reloaded and reached with Back: `#games` for the known games, `#games/pig` for one of them, `#games/pig/watch` to watch it, `#how-it-works`, `#blocks/push-your-luck` for a block, and `#tests` for the part tests.
+Every view has its own address, so it can be linked, reloaded and reached with Back: `#games` for the known games, `#games/pig` for one of them, `#games/pig/watch` to watch it, `#how-it-works`, `#blocks/push-your-luck` for a block, `#tests` for the part tests, and `#play` to play the design on screen.
 
 It works for one person on a laptop and for a group around one big screen.
+
+## Playing it on screen
+
+**Play**, beside Iterate, plays the design on the canvas. Each block the screen can play has a rule written for it in `static/play-engine.js`, and the rules join into one game: a turn is one move, chosen from the moves the blocks offer, and the rounds, the scoring and the end follow from the victory condition. Nothing is generated; the same choices and the same dice give the same game.
+
+55 of the 86 blocks have a rule, among them rolling and moving, pushing your luck, drafting, bidding, placing workers and pieces, patterns, hands and tricks, sets, tiles, a shared resource that refills the way a real one does, a pressure the team has to hold back, a hidden card to work out and a secret rule to find. The 12 themes name the pieces. The other 19 happen between people, such as negotiation, role-play, playing in silence or a debrief: the setup lists them under *You play at the table*, each with what to do, and they stay beside the board while you play. A few get help from the screen: it can move the points a negotiation agreed, and it asks the debrief questions at the end.
+
+Each seat is a **person** or **fixed rules**. A fixed-rule player is played by the screen and always takes the move its rule values most, with a little chance between moves of nearly equal value. It fills a table; it does not play the way people do. When players keep secrets (hidden hands, secret goals, a traitor, secret sides, bluffs), the screen hides them and asks for the screen to be passed before each person's move. With **no turns**, whoever presses their key first (A, L, Z, M or Q, or a tap on their name) makes the next move. **Timed turns** give each move a clock, which shortens if the game is **accelerated**; when it runs out, a move is made at random. **Sedated** holds every move for a breath first.
+
+The closing screen gives the result and the scores and, when the canvas has the blocks for them, what the rules rewarded, the debrief questions, and the feelings you chose with the question of whether the game felt that way. With **irreversible change**, the shared resource stays where it ended for the next game in the same browser.
+
+**Full screen** gives the table the whole screen, for a group around one display. **Share link** gives an address that carries the design itself: the blocks and your answers to their questions. Whoever opens it gets the same game ready to play, and their own canvas stays as it is.
 
 ## The blocks
 
@@ -199,6 +213,12 @@ python check.py
 
 `check.py` builds every possible two-block canvas (3,419 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (51,285 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version.
 
+```bash
+curl -s http://localhost:8787/palette | node check_play.js 3000
+```
+
+`check_play.js` plays that many random canvases to the end with fixed-rule players, each with random answers to the block questions and two to five seats, and fails on any game that throws an error, offers a choice with nothing to choose, or does not end. Run it, with the tool running, after any change to `static/play-engine.js` or to the blocks.
+
 ## Files
 
 | File | What it is |
@@ -220,7 +240,8 @@ python check.py
 | `site_config.py` | Where the tool and the wiki live: one variable, `DOMAIN`, sets both addresses |
 | `VERSION`, `CHANGELOG.md` | The version, shown in the header and written into every game file, and what changed in each one |
 | `mechanics-shortlist.md`, `feeling-blocks.md` | Reference notes on the mechanic and feeling blocks |
-| `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css`, and `og.png`, the link-preview card |
+| `static/` | The page: `index.html`, `app.js`, `style.css`, `base-ui.css`, `play-engine.js` (the rules for playing on screen), `play.js` (the table they are played on), and `og.png`, the link-preview card |
+| `check_play.js` | Plays thousands of random canvases on screen with fixed-rule players and fails on any game that breaks |
 | `docs/` | The screenshot, and `make_og.py`, which draws `static/og.png` from it |
 | `start.sh` | One-command start on macOS or Linux |
 | `Dockerfile`, `captain-definition` | Container build |
@@ -228,7 +249,7 @@ python check.py
 
 ## Privacy
 
-There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage, and a saved game is a file on your own computer that the server never sees. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
+There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage, and a saved game is a file on your own computer that the server never sees. A share link carries the design after the `#` in its address, which a browser never sends to a server, and a game played on screen runs entirely in the browser. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
 
 ## Status and how to help
 

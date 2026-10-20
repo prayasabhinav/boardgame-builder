@@ -123,6 +123,7 @@
           <li><strong>Build the game.</strong> Drag blocks into the slots. Each block fits only its own slot. __MULTI_SLOTS__ hold as many different blocks as your game needs, each once; every other slot holds one, and a new block replaces the old one.</li>
           <li><strong>Press Iterate.</strong> The tool looks up what your blocks tend to do together in a list prepared in advance, and says what is taking shape. Nothing is generated while you play.</li>
           <li><strong>Change something and press Iterate again.</strong> Each press is one turn. When you are done, press <em>Mark complete</em> for a closing summary.</li>
+          <li><strong>Press Play to play it.</strong> The screen plays every block it has a rule for, with people or with players it moves by fixed rules, and lists what the people at the table do themselves.</li>
         </ol>
         <p class="onboarding-note"><em>Known games</em> in the header has short games to play with things at hand, then watch and answer questions about. <em>Test parts</em> beside the feedback has quick tests of one block at a time.</p>
         <p class="onboarding-note">Press <strong>?</strong> on any block to see what it means. Your design stays in this browser; <em>Save game</em> downloads it as a file you can open again later, and <em>Start fresh</em> clears it.</p>
@@ -187,6 +188,22 @@
       </div>
     </div>
 
+    <!-- Play the canvas on screen: setup, the table, the end -->
+    <div class="phase-overlay play-overlay" id="playOverlay" hidden>
+      <div class="play-shell">
+        <div class="phase-actions games-nav">
+          <button class="k-btn-outline" id="playFullBtn" type="button">Full screen</button>
+          <button class="k-btn-outline" id="playShareBtn" type="button">Share link</button>
+          <button class="k-btn-outline" id="playCloseBtn" type="button">Back to designing</button>
+        </div>
+        <div class="play-share" id="playShare" hidden>
+          <input type="text" id="playShareInput" readonly aria-label="Share link">
+          <p class="play-note" id="playShareNote"></p>
+        </div>
+        <div id="playBody"></div>
+      </div>
+    </div>
+
     <!-- RIGHT: feedback and part tests -->
     <aside class="feedback-panel" id="feedbackPanel">
 
@@ -227,12 +244,15 @@
 
       <div class="feedback-actions" id="feedbackActions">
         <button class="k-btn-primary" id="iterateBtn" type="button">Iterate</button>
+        <a class="k-btn-outline" id="playBtn" href="#play" title="Play this design on screen, with people or with players the screen plays by fixed rules">Play</a>
         <button class="k-btn-outline" id="completeBtn" type="button">Mark complete</button>
       </div>
     </aside>
 
   </main>
 
+  <script src="/static/play-engine.js"></script>
+  <script src="/static/play.js"></script>
   <script src="/static/app.js"></script>
 </body>
 </html>

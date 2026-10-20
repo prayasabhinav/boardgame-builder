@@ -4,6 +4,13 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.12.0 — 20 October 2026
+
+- **Play**, beside Iterate, plays the design on screen. 55 of the 86 blocks have a rule in code, and they join into one game with turns, rounds, scores and an end set by the victory condition; nothing is generated. The 12 themes name the pieces, and the 19 blocks that happen between people are listed with what to do at the table.
+- Each seat is a person or a player the screen moves by fixed rules. Secrets are hidden and the screen asks to be passed between people; with no turns, the quickest key moves; timed turns have a clock and sedated games a pause.
+- **Full screen** and **Share link**: the link carries the design in its address, so whoever opens it plays the same game, and their canvas is left alone.
+- `check_play.js` plays thousands of random canvases to the end and fails on any game that breaks.
+
 ## 0.11.0 — 20 October 2026
 
 - A search box at the top of the palette. Typing shows only the blocks whose name or description holds the words, such as *water* for *model a system* and *shared resource*, or a whole group when its name is typed, such as *theme*. It stays at the top while the palette scrolls, says when nothing matches, and Esc clears it.

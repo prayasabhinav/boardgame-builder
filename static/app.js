@@ -877,7 +877,7 @@ function showTab(name) {
 }
 
 // ── Addresses: every view has its own, so it can be linked, reloaded and reached with Back ──
-// #games, #games/<id>, #games/<id>/watch, #how-it-works, #blocks/<id>, #tests
+// #games, #games/<id>, #games/<id>/watch, #how-it-works, #blocks/<id>, #tests, #play, #play/<shared design>
 
 function go(hash) {
   location.hash = hash;
@@ -893,6 +893,8 @@ async function route() {
   document.getElementById("blockModal").hidden = true;
   document.getElementById("onboarding").hidden = true;
   if (view !== "games") closeGames();
+  if (view !== "play") closePlay();
+  if (view === "play") openPlay(id);
   showTab(view === "tests" ? "tests" : "feedback");
   if (view === "how-it-works") openOnboarding();
   if (view === "blocks") {
@@ -1449,6 +1451,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("iterateBtn").addEventListener("click", onIterate);
   document.getElementById("completeBtn").addEventListener("click", onComplete);
   document.getElementById("gamesCloseBtn").addEventListener("click", leave);
+  document.getElementById("playCloseBtn").addEventListener("click", leave);
+  document.getElementById("playFullBtn").addEventListener("click", toggleFullScreen);
+  document.getElementById("playShareBtn").addEventListener("click", showShare);
+  document.addEventListener("fullscreenchange", () => {
+    document.getElementById("playFullBtn").textContent = document.fullscreenElement ? "Leave full screen" : "Full screen";
+  });
   document.getElementById("famWatchBtn").addEventListener("click", () => go(`games/${analysisState.data.id}/watch`));
   document.getElementById("animPlayBtn").addEventListener("click", playAnalysis);
   document.getElementById("animReplayBtn").addEventListener("click", playAnalysis);
