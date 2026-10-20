@@ -36,7 +36,7 @@ d.text((48, 540), TOOL_URL.split("//")[1], font=ImageFont.truetype(MONO, 22), fi
 
 # right: the real screen, canvas and feedback
 shot = Image.open("docs/screenshot.jpg").convert("RGB")
-crop = shot.crop((440, 60, 1568, 764))
+crop = shot.crop((440, 60, shot.width, shot.height))
 fw = 560
 crop = crop.resize((fw, round(crop.height * fw / crop.width)), Image.LANCZOS)
 x, y = W - fw - 40, 104
