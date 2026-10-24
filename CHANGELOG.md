@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.14.1 — 24 October 2026
+
+- In *How our game plays*, the **@** menu now closes once a tag is picked and stays closed while you write on. It used to stay open under the text saying *No block on the canvas by that name*, because it read the space after the tag as part of a name. The message now shows only for a single word typed after **@** that names no block.
+
 ## 0.14.0 — 24 October 2026
 
 - **How our game plays**, a box on the canvas under the slots (*Stage 1c · Gameplay*), for writing how the game goes in your own words. Typing **@** lists the blocks on the canvas by the box they sit in; picking one puts the tag in the text, and tagging a block tags its box with it: the tags are listed under the text as *Core mechanic › roll and move*, and the slot carries an **@** at its corner. A tag whose block has since left the canvas is listed as no longer on it. The text is kept with the design, in **Save game**'s file (a section *How our game plays*, with its tags by box) and in **Open game**. Nothing reads it to make feedback.

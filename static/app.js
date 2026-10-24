@@ -1420,6 +1420,9 @@ function openNarrativeMenu() {
   if (!found || state.locked) { menu.hidden = true; narrativeMenuAt = -1; return; }
   const all = canvasEntries();
   const choices = all.filter((e) => e.display.toLowerCase().includes(found.q));
+  // A finished tag, or writing that runs on past an @ ("@roll and move then…"), closes the menu: the empty message
+  // is only for a word typed straight after @ that names no block.
+  if (!choices.length && /\s/.test(found.q)) { menu.hidden = true; narrativeMenuAt = -1; return; }
   if (!choices.length) {
     menu.innerHTML = `<div class="narrative-menu-empty">${all.length ? "No block on the canvas by that name." : "Put blocks on the canvas to tag them."}</div>`;
     narrativeMenuAt = -1;
