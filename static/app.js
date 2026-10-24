@@ -745,6 +745,7 @@ function setButtonsEnabled(on) {
 function applyLockedUi() {
   document.querySelector(".app-main").classList.add("locked");
   document.getElementById("narrativeText").readOnly = true;
+  document.querySelector(".narrative").classList.add("locked");
   document.getElementById("feedbackActions").style.display = "none";
 }
 
@@ -1392,7 +1393,25 @@ function narrativeTags(text = state.narrative) {
   return { onCanvas, gone: [...new Set(gone)] };
 }
 
+// The text box cannot colour part of its text, so the same text is drawn behind it with each tag marked
+// (Prayas, 24 October 2026: "tagged element should have different colour and border", then "no change in colour in text box").
+function renderNarrativeBackdrop() {
+  const ta = document.getElementById("narrativeText"), back = document.getElementById("narrativeBackdrop");
+  const { onCanvas, gone } = narrativeTags();
+  const names = [...onCanvas.map((e) => [e.display, "tag"]), ...gone.map((n) => [n, "tag gone"])].sort((a, b) => b[0].length - a[0].length);
+  let html = escapeHtml(state.narrative);
+  const marks = [];
+  for (const [name, cls] of names) {
+    html = html.split(escapeHtml("@" + name)).join(`\u0000${marks.length}\u0000`);
+    marks.push(`<mark class="${cls}">${escapeHtml("@" + name)}</mark>`);
+  }
+  back.innerHTML = html.replace(/\u0000(\d+)\u0000/g, (_, i) => marks[i]) + "\u200b";
+  ta.style.height = "auto";                              // the box grows with its text, so the two layers never scroll apart
+  ta.style.height = Math.max(140, ta.scrollHeight + 2) + "px";
+}
+
 function renderNarrativeTags() {
+  renderNarrativeBackdrop();
   const { onCanvas, gone } = narrativeTags();
   const boxes = new Map();
   for (const e of onCanvas) {
@@ -1458,6 +1477,7 @@ function setupNarrative() {
   const ta = document.getElementById("narrativeText"), menu = document.getElementById("narrativeMenu");
   ta.value = state.narrative;
   ta.readOnly = state.locked;
+  document.querySelector(".narrative").classList.toggle("locked", state.locked);
   ta.addEventListener("input", onNarrativeInput);
   ta.addEventListener("click", openNarrativeMenu);
   ta.addEventListener("blur", () => setTimeout(() => { menu.hidden = true; narrativeMenuAt = -1; }, 150));

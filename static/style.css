@@ -412,23 +412,58 @@ body {
 
 .narrative { position: relative; }
 
-.narrative textarea {
+/* the box and the text drawn behind it share every measure, so the marked tags sit exactly under the typed ones */
+.narrative textarea, .narrative-backdrop {
   width: 100%;
   box-sizing: border-box;
-  min-height: 140px;
   padding: 12px 14px;
   font-family: var(--font-body);
   font-size: 15px;
+  font-weight: 400;
   line-height: 1.55;
-  color: var(--ink);
-  background: white;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
   border: 1px solid var(--surface-border);
   border-radius: 4px;
-  resize: vertical;
 }
 
+.narrative textarea {
+  position: relative;
+  z-index: 1;
+  display: block;
+  min-height: 140px;
+  color: transparent;
+  caret-color: var(--ink);
+  background: transparent;
+  resize: none;
+  overflow: hidden;
+}
+.narrative textarea::placeholder { color: var(--ink3); }
+.narrative textarea::selection { color: transparent; background: var(--accent-bg); }
+
+.narrative-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  color: var(--ink);
+  background: white;
+  border-color: transparent;
+  overflow: hidden;
+  pointer-events: none;
+}
+.narrative.locked .narrative-backdrop { background: var(--surface-inner); }
+
+/* a tag in the text: filled in the accent colour, with a dark edge drawn as a ring so no letter moves */
+.narrative-backdrop mark.tag {
+  color: white;
+  background: var(--accent);
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px var(--accent), 0 0 0 3px var(--ink);
+}
+.narrative-backdrop mark.tag.gone { color: var(--ink3); background: none; box-shadow: none; text-decoration: line-through; }
+
 .narrative textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-bg); }
-.narrative textarea[readonly] { background: var(--surface-inner); }
 
 .narrative-menu {
   position: absolute;

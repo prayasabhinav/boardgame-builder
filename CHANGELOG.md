@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.14.3 — 24 October 2026
+
+- A tag in the text of *How our game plays* is marked where it is written: filled in the accent colour, with white letters and a dark edge, the same as the tagged block on the canvas. A text box can show only one colour, so the text is drawn again behind it with each tag marked, in the same type and spacing; the box grows with its text instead of scrolling, so the two stay aligned. A tag whose block has left the canvas is struck through.
+
 ## 0.14.2 — 24 October 2026
 
 - A block tagged in *How our game plays* stands out on the canvas: filled in the accent colour, with white text and a dark border. Untagged blocks keep their light tint, and the tagged block's slot keeps its **@**.
