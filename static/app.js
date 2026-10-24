@@ -1403,6 +1403,9 @@ function renderNarrativeTags() {
     `<span class="narrative-tag"><span class="slot-letter">${escapeHtml(b.letter)}</span>${escapeHtml(b.boxLabel)} › <b>${b.names.map(escapeHtml).join(", ")}</b></span>`).join("")
     + (gone.length ? `<span class="narrative-tag gone">no longer on the canvas: ${gone.map(escapeHtml).join(", ")}</span>` : "");
   const tagged = new Set(onCanvas.map((e) => e.box));
+  // the tagged blocks themselves stand out on the canvas (Prayas, 24 October 2026: "tagged element should have different colour and border")
+  const taggedIds = new Set(onCanvas.map((e) => e.id));
+  document.querySelectorAll(".block-in-slot").forEach((b) => b.classList.toggle("tagged", taggedIds.has(b.dataset.blockId)));
   document.querySelectorAll(".mechanic-slot").forEach((s) => s.classList.toggle("tagged", tagged.has(s.dataset.dim)));
   document.getElementById("feelingsShelf").classList.toggle("tagged", tagged.has("feeling"));
 }

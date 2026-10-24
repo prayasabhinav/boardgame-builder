@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.14.2 — 24 October 2026
+
+- A block tagged in *How our game plays* stands out on the canvas: filled in the accent colour, with white text and a dark border. Untagged blocks keep their light tint, and the tagged block's slot keeps its **@**.
+
 ## 0.14.1 — 24 October 2026
 
 - In *How our game plays*, the **@** menu now closes once a tag is picked and stays closed while you write on. It used to stay open under the text saying *No block on the canvas by that name*, because it read the space after the tag as part of a name. The message now shows only for a single word typed after **@** that names no block.

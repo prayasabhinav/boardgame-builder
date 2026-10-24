@@ -324,6 +324,15 @@ body {
   /* same accent treatment */
 }
 
+/* a block tagged in How our game plays: filled, with a dark border */
+.block-in-slot.tagged {
+  background: var(--accent);
+  border: 2px solid var(--ink);
+  color: white;
+}
+.block-in-slot.tagged .info-btn { color: white; opacity: 0.9; }
+.block-in-slot.tagged .info-btn:hover { background: white; color: var(--accent); border-color: white; }
+
 .block-in-slot .remove-x {
   display: inline-flex;
   align-items: center;
