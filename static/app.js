@@ -20,6 +20,7 @@ const state = {
   turnHistory: [],       // [{ turn: N, narration, source, kind: "turn"|"complete" }, ...]
   answers: {},           // { [blockId]: { [questionKey]: optionValue } } — answers to the questions asked when a block is placed
   tests: {},             // { [testKey]: { feelings, match, note } } — notes from the part tests
+  narrative: "",         // how the game plays, in the designer's words; "@Block" tags a block on the canvas
   pendingAnswers: null,
 };
 
@@ -36,6 +37,7 @@ function snapshot() {
     turnHistory: state.turnHistory,
     answers: state.answers,
     tests: state.tests,
+    narrative: state.narrative,
     savedAt: new Date().toISOString(),
   };
 }
@@ -64,6 +66,7 @@ function loadState() {
     state.turnHistory = Array.isArray(saved.turnHistory) ? saved.turnHistory : [];
     state.answers = saved.answers && typeof saved.answers === "object" ? saved.answers : {};
     state.tests = saved.tests && typeof saved.tests === "object" ? saved.tests : {};
+    state.narrative = typeof saved.narrative === "string" ? saved.narrative : "";
 
     // A block that has moved to another group since the design was saved goes with it (real-time span moved to Timing)
     for (const [dimId, value] of Object.entries(state.mechanics)) {
@@ -259,7 +262,9 @@ function createBlock(id, display, dim, { inSlot = false, meta = null } = {}) {
   label.textContent = display;
   el.appendChild(label);
 
-  // Info button (?). Tap → modal with description + SVG.
+  // Info button (?). Tap → modal with description + SVG. Mechanic blocks only: a feeling has no page to open
+  // (Prayas, 24 October 2026: "the feelings blocks question marks dont work - remove them").
+  if (dim !== "feeling") {
   const infoBtn = document.createElement("button");
   infoBtn.type = "button";
   infoBtn.className = "info-btn";
@@ -275,6 +280,7 @@ function createBlock(id, display, dim, { inSlot = false, meta = null } = {}) {
   infoBtn.addEventListener("mousedown", (e) => e.stopPropagation());
   infoBtn.addEventListener("dragstart", (e) => { e.preventDefault(); e.stopPropagation(); });
   el.appendChild(infoBtn);
+  }
 
   if (inSlot) {
     const x = document.createElement("span");
@@ -345,6 +351,7 @@ function seenOnboarding() {
 function renderMechanicsGrid() {
   const grid = document.getElementById("mechanicsGrid");
   grid.innerHTML = "";
+  queueMicrotask(renderNarrativeTags);   // re-mark the tagged boxes once the slots are drawn
   for (const dim of state.dimensions) {
     const slot = document.createElement("div");
     slot.className = "mechanic-slot";
@@ -455,6 +462,7 @@ function renderMechanicsGrid() {
 function renderFeelingsShelf() {
   const shelf = document.getElementById("feelingsShelf");
   shelf.innerHTML = "";
+  queueMicrotask(renderNarrativeTags);   // a block that leaves the shelf leaves the tags too
   if (state.chosenFeelings.length === 0) {
     const hint = document.createElement("div");
     hint.className = "empty-hint";
@@ -736,6 +744,7 @@ function setButtonsEnabled(on) {
 
 function applyLockedUi() {
   document.querySelector(".app-main").classList.add("locked");
+  document.getElementById("narrativeText").readOnly = true;
   document.getElementById("feedbackActions").style.display = "none";
 }
 
@@ -1362,6 +1371,111 @@ function renderCardsScene(svg, scene, make, W, H) {
 }
 
 
+// ── How our game plays: a narrative box with @tags ────────────────
+// Tagging a block tags the box it sits in on the canvas (its slot, or the feelings shelf), so each tag shows as part of its box
+// (Prayas, 24 October 2026: "When you tag an element all the the box it's inside of also gets tagged").
+
+// Every block on the canvas, with its box
+function canvasEntries() {
+  const feelings = state.chosenFeelings.map((id) => ({ id, display: displayOf(id), box: "feeling", boxLabel: "Feelings", letter: "♥" }));
+  const blocks = state.dimensions.flatMap((d) => [].concat(state.mechanics[d.id] || [])
+    .map((id) => ({ id, display: displayOf(id), box: d.id, boxLabel: d.slot_label, letter: dimensionLetter(d.id) })));
+  return [...feelings, ...blocks];
+}
+
+// The blocks tagged in the text: those on the canvas, and any tag whose block has since left it
+function narrativeTags(text = state.narrative) {
+  const onCanvas = canvasEntries().filter((e) => text.includes("@" + e.display));
+  const here = new Set(onCanvas.map((e) => e.display));
+  const gone = [...state.feelings, ...state.dimensions.flatMap((d) => d.blocks)]
+    .map((b) => b.display).filter((name) => !here.has(name) && text.includes("@" + name));
+  return { onCanvas, gone: [...new Set(gone)] };
+}
+
+function renderNarrativeTags() {
+  const { onCanvas, gone } = narrativeTags();
+  const boxes = new Map();
+  for (const e of onCanvas) {
+    if (!boxes.has(e.box)) boxes.set(e.box, { ...e, names: [] });
+    if (!boxes.get(e.box).names.includes(e.display)) boxes.get(e.box).names.push(e.display);
+  }
+  document.getElementById("narrativeTags").innerHTML = [...boxes.values()].map((b) =>
+    `<span class="narrative-tag"><span class="slot-letter">${escapeHtml(b.letter)}</span>${escapeHtml(b.boxLabel)} › <b>${b.names.map(escapeHtml).join(", ")}</b></span>`).join("")
+    + (gone.length ? `<span class="narrative-tag gone">no longer on the canvas: ${gone.map(escapeHtml).join(", ")}</span>` : "");
+  const tagged = new Set(onCanvas.map((e) => e.box));
+  document.querySelectorAll(".mechanic-slot").forEach((s) => s.classList.toggle("tagged", tagged.has(s.dataset.dim)));
+  document.getElementById("feelingsShelf").classList.toggle("tagged", tagged.has("feeling"));
+}
+
+let narrativeMenuAt = -1;   // the highlighted choice, or -1 when the menu is closed
+
+function narrativeQuery() {
+  const ta = document.getElementById("narrativeText");
+  const m = /@([^@\n]{0,40})$/.exec(ta.value.slice(0, ta.selectionStart));
+  return m ? { start: ta.selectionStart - m[0].length, q: m[1].toLowerCase() } : null;
+}
+
+function openNarrativeMenu() {
+  const menu = document.getElementById("narrativeMenu"), found = narrativeQuery();
+  if (!found || state.locked) { menu.hidden = true; narrativeMenuAt = -1; return; }
+  const all = canvasEntries();
+  const choices = all.filter((e) => e.display.toLowerCase().includes(found.q));
+  if (!choices.length) {
+    menu.innerHTML = `<div class="narrative-menu-empty">${all.length ? "No block on the canvas by that name." : "Put blocks on the canvas to tag them."}</div>`;
+    narrativeMenuAt = -1;
+  } else {
+    narrativeMenuAt = Math.min(Math.max(narrativeMenuAt, 0), choices.length - 1);
+    menu.innerHTML = choices.map((e, i) => `<button type="button" role="option" class="narrative-choice${i === narrativeMenuAt ? " on" : ""}" data-name="${escapeHtml(e.display)}">
+      <span class="slot-letter">${escapeHtml(e.letter)}</span><span class="choice-box">${escapeHtml(e.boxLabel)} ›</span> ${escapeHtml(e.display)}</button>`).join("");
+  }
+  menu.hidden = false;
+}
+
+function insertNarrativeTag(name) {
+  const ta = document.getElementById("narrativeText"), found = narrativeQuery();
+  if (!found) return;
+  const tag = "@" + name + " ";
+  ta.value = ta.value.slice(0, found.start) + tag + ta.value.slice(ta.selectionStart);
+  ta.selectionStart = ta.selectionEnd = found.start + tag.length;
+  ta.focus();
+  onNarrativeInput();
+}
+
+function onNarrativeInput() {
+  state.narrative = document.getElementById("narrativeText").value;
+  openNarrativeMenu();
+  renderNarrativeTags();
+  saveState();
+}
+
+function setupNarrative() {
+  const ta = document.getElementById("narrativeText"), menu = document.getElementById("narrativeMenu");
+  ta.value = state.narrative;
+  ta.readOnly = state.locked;
+  ta.addEventListener("input", onNarrativeInput);
+  ta.addEventListener("click", openNarrativeMenu);
+  ta.addEventListener("blur", () => setTimeout(() => { menu.hidden = true; narrativeMenuAt = -1; }, 150));
+  ta.addEventListener("keydown", (e) => {
+    if (menu.hidden) return;
+    const choices = menu.querySelectorAll(".narrative-choice");
+    if (e.key === "Escape") { menu.hidden = true; narrativeMenuAt = -1; return; }
+    if (!choices.length) return;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      narrativeMenuAt = (narrativeMenuAt + (e.key === "ArrowDown" ? 1 : -1) + choices.length) % choices.length;
+      openNarrativeMenu();
+    } else if (e.key === "Enter" || e.key === "Tab") {
+      e.preventDefault();
+      insertNarrativeTag(choices[narrativeMenuAt].dataset.name);
+    }
+  });
+  menu.addEventListener("mousedown", (e) => {          // mousedown, so the textarea keeps its caret
+    const b = e.target.closest(".narrative-choice");
+    if (b) { e.preventDefault(); insertNarrativeTag(b.dataset.name); }
+  });
+  renderNarrativeTags();
+}
+
 // ── Save and open as Markdown ─────────────────────────────────────
 // The file reads as a record of the game, and ends with the saved state as JSON, which is what Open game reads back.
 
@@ -1385,6 +1499,14 @@ async function onSaveGame() {
   lines.push(...(rows.length ? rows : ["No blocks yet."]), "");
   const said = Object.keys(state.answers).filter((b) => answerSummary(b)).map((b) => `- ${displayOf(b)}: ${answerSummary(b, ", ")}`);
   if (said.length) lines.push("## How our blocks work", "", ...said, "");
+  if (state.narrative.trim()) {
+    lines.push("## How our game plays", "", state.narrative.trim(), "");
+    const { onCanvas } = narrativeTags();
+    const byBox = {};
+    for (const e of onCanvas) (byBox[e.boxLabel] ??= new Set()).add(e.display);
+    const tagRows = Object.entries(byBox).map(([box, names]) => `- ${box}: ${[...names].join("; ")}`);
+    if (tagRows.length) lines.push("Tagged, by box:", "", ...tagRows, "");
+  }
   const tried = Object.entries(state.tests).filter(([k]) => titles[k]).map(([k, r]) => `- ${titles[k]}: ` +
     [r.feelings.length && `it felt ${r.feelings.join(", ")}`, r.match && `matched what we wanted: ${r.match}`, r.note && `one thing we would change: ${r.note}`].filter(Boolean).join("; "));
   if (tried.length) lines.push("## What we tested", "", ...tried, "");
@@ -1448,6 +1570,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   setupFeelingsDropZone();
+  setupNarrative();
   document.getElementById("iterateBtn").addEventListener("click", onIterate);
   document.getElementById("completeBtn").addEventListener("click", onComplete);
   document.getElementById("gamesCloseBtn").addEventListener("click", leave);

@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.13.1-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.14.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -49,7 +49,7 @@ A small browser tool for designing a board game by putting blocks together and r
 The screen has three columns.
 
 - **Left: the palette.** The feelings at the top, then eight groups of blocks for the parts of a game. A search box above them shows only the blocks whose name or description holds the words typed, or a whole group when its name is typed; Esc clears it.
-- **Centre: the canvas.** A shelf for the feelings you want the game to have, and one slot for each group of blocks.
+- **Centre: the canvas.** A shelf for the feelings you want the game to have, one slot for each group of blocks, and a box below them for writing how the game plays.
 - **Right: the feedback.** Each press of **Iterate** reads the canvas and says what the combination tends to produce, what it brings, its trade-offs, any clash between blocks, whether the blocks serve the feelings you picked, and real games built on something similar where one has been checked.
 
 You change a block, press Iterate again and see what moved. **Mark complete** writes a closing summary and locks the canvas.
@@ -59,14 +59,15 @@ You change a block, press Iterate again and see what moved. **Mark complete** wr
 1. Drag one or more **feelings** (tense, clever, together, sneaky…) onto the shelf at the top.
 2. Drag **blocks** into the slots. A block only fits its own slot.
 3. **Core mechanic**, **Timing** and **Simulation** hold as many different blocks as your game needs, each once. Every other slot holds one, and a new block replaces the old one.
-4. Press **Iterate**. Each press is one turn of design; the panel keeps the history.
-5. Press the **?** on any block for a short description and a drawing.
-6. When a block has questions about how it works in your game, they open as you drop it; answer any you can, and change them later from the line under the block.
-7. **Test parts**, beside the feedback, has short tests of one block, or two together, to play with things at hand; say how each felt.
-8. Press **Play** to play the design on screen (see [Playing it on screen](#playing-it-on-screen)).
-9. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Start fresh** in the header clears everything.
+4. Write **how the game plays** in the box under the slots. Type **@** to tag a block on the canvas: the box it sits in is tagged with it, the tags are listed under the text by box (*Core mechanic › roll and move*), and a tagged slot carries an **@** at its corner. A tag whose block has left the canvas is listed as no longer on it.
+5. Press **Iterate**. Each press is one turn of design; the panel keeps the history.
+6. Press the **?** on any block for a short description and a drawing. The feelings have none.
+7. When a block has questions about how it works in your game, they open as you drop it; answer any you can, and change them later from the line under the block.
+8. **Test parts**, beside the feedback, has short tests of one block, or two together, to play with things at hand; say how each felt.
+9. Press **Play** to play the design on screen (see [Playing it on screen](#playing-it-on-screen)).
+10. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Start fresh** in the header clears everything.
 
-Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file: the feelings, the blocks and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
+Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file: the feelings, the blocks, how the game plays with its tags by box, and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
 
 Every view has its own address, so it can be linked, reloaded and reached with Back: `#games` for the known games, `#games/pig` for one of them, `#games/pig/watch` to watch it, `#how-it-works`, `#blocks/push-your-luck` for a block, `#tests` for the part tests, and `#play` to play the design on screen.
 

@@ -399,6 +399,102 @@ body {
   opacity: 0.75;
 }
 
+/* ── How our game plays: the narrative box and its @tags ─────────── */
+
+.narrative { position: relative; }
+
+.narrative textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 140px;
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+  background: white;
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.narrative textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-bg); }
+.narrative textarea[readonly] { background: var(--surface-inner); }
+
+.narrative-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  z-index: 20;
+  max-height: 260px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(45, 52, 54, 0.18);
+  padding: 4px;
+}
+
+.narrative-choice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 3px;
+  background: none;
+  font-family: var(--font-label);
+  font-size: 14px;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.narrative-choice.on, .narrative-choice:hover { background: var(--accent-bg); }
+.narrative-choice .choice-box { font-family: var(--font-mono); font-size: 11px; color: var(--ink3); }
+.narrative-menu-empty { padding: 8px 10px; font-family: var(--font-body); font-style: italic; font-size: 13px; color: var(--ink3); }
+
+.narrative-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.narrative-tags:empty { display: none; }
+
+.narrative-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 9px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink2);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+}
+
+.narrative-tag b { font-family: var(--font-label); font-size: 12px; font-weight: 600; color: var(--ink); }
+.narrative-tag.gone { background: none; border-style: dashed; border-color: var(--surface-border); color: var(--ink3); }
+
+/* a box with a block tagged in the gameplay carries an @ at its corner */
+.mechanic-slot.tagged::after, .feelings-shelf.tagged::after {
+  content: "@";
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+.feelings-shelf { position: relative; }
+
 /* ── Mechanics grid (slots) ─────────────────────────────────────── */
 
 .mechanics-grid {

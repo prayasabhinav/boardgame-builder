@@ -95,6 +95,21 @@
           <div class="mechanics-grid" id="mechanicsGrid"><!-- populated by app.js --></div>
         </div>
 
+        <div class="canvas-divider"></div>
+
+        <div class="canvas-region">
+          <div class="region-header">
+            <span class="region-eyebrow">Stage 1c · Gameplay</span>
+            <h2 class="region-title">How our game plays</h2>
+            <p class="region-hint">Write how the game goes. Type <em>@</em> to tag a block on the canvas; the box it sits in is tagged with it.</p>
+          </div>
+          <div class="narrative">
+            <textarea id="narrativeText" rows="6" spellcheck="true" placeholder="Each turn, a player…"></textarea>
+            <div class="narrative-menu" id="narrativeMenu" role="listbox" hidden></div>
+          </div>
+          <div class="narrative-tags" id="narrativeTags"></div>
+        </div>
+
       </div>
 
     </section>
@@ -121,12 +136,13 @@
         <ol class="onboarding-steps">
           <li><strong>Say how the game should feel.</strong> Drag a feeling, such as “tense” or “together”, from the left onto the shelf at the top.</li>
           <li><strong>Build the game.</strong> Drag blocks into the slots. Each block fits only its own slot. __MULTI_SLOTS__ hold as many different blocks as your game needs, each once; every other slot holds one, and a new block replaces the old one.</li>
+          <li><strong>Write how it plays.</strong> In the box under the slots, type <em>@</em> to tag a block on the canvas; the box it sits in is tagged with it.</li>
           <li><strong>Press Iterate.</strong> The tool looks up what your blocks tend to do together in a list prepared in advance, and says what is taking shape. Nothing is generated while you play.</li>
           <li><strong>Change something and press Iterate again.</strong> Each press is one turn. When you are done, press <em>Mark complete</em> for a closing summary.</li>
           <li><strong>Press Play to play it.</strong> The screen plays every block it has a rule for, with people or with players it moves by fixed rules, and lists what the people at the table do themselves.</li>
         </ol>
         <p class="onboarding-note"><em>Known games</em> in the header has short games to play with things at hand, then watch and answer questions about. <em>Test parts</em> beside the feedback has quick tests of one block at a time.</p>
-        <p class="onboarding-note">Press <strong>?</strong> on any block to see what it means. Your design stays in this browser; <em>Save game</em> downloads it as a file you can open again later, and <em>Start fresh</em> clears it.</p>
+        <p class="onboarding-note">Press <strong>?</strong> on any block to see what it means (the feelings have none). Your design stays in this browser; <em>Save game</em> downloads it as a file you can open again later, and <em>Start fresh</em> clears it.</p>
         <button class="k-btn-primary onboarding-start" id="onboardingStart" type="button">Start designing</button>
       </div>
     </div>

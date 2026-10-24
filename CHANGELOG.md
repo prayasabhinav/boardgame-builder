@@ -4,6 +4,12 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.14.0 — 24 October 2026
+
+- **How our game plays**, a box on the canvas under the slots (*Stage 1c · Gameplay*), for writing how the game goes in your own words. Typing **@** lists the blocks on the canvas by the box they sit in; picking one puts the tag in the text, and tagging a block tags its box with it: the tags are listed under the text as *Core mechanic › roll and move*, and the slot carries an **@** at its corner. A tag whose block has since left the canvas is listed as no longer on it. The text is kept with the design, in **Save game**'s file (a section *How our game plays*, with its tags by box) and in **Open game**. Nothing reads it to make feedback.
+- The feelings no longer show a **?**. It opened nothing for a feeling; the mechanic blocks keep theirs.
+- The link-preview card (`static/og.png`) is redrawn from a new screenshot (`docs/screenshot.jpg`), showing 0.14.0 with no **?** on the feelings.
+
 ## 0.13.1 — 20 October 2026
 
 - The answers a player copies after a shared game also carry everything that happened in it, move by move, so whoever shared it can read the playtest as well as the answers.
