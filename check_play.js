@@ -1,5 +1,5 @@
 // check_play.js — plays thousands of random canvases to the end with fixed-rule players, and fails on any game that
-// throws, offers a decision with no options, or does not end. Run: curl -s https://boardgame.blevn.xyz/palette | node check_play.js
+// throws, offers a decision with no options, or does not end. Run: curl -s https://boardgame.syntax.prayasabhinav.net/palette | node check_play.js
 "use strict";
 const { createGame } = require("./static/play-engine.js");
 const questions = require("./block-questions.json");

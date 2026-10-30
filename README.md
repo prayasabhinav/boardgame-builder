@@ -1,13 +1,13 @@
 # boardgameBuilder
 
-[![Live](https://img.shields.io/badge/live-boardgame.blevn.xyz-2e7d32?style=flat-square)](https://boardgame.blevn.xyz)
-[![Version](https://img.shields.io/badge/version-0.14.3-555555?style=flat-square)](CHANGELOG.md)
+[![Live](https://img.shields.io/badge/live-boardgame.syntax.prayasabhinav.net-2e7d32?style=flat-square)](https://boardgame.syntax.prayasabhinav.net)
+[![Version](https://img.shields.io/badge/version-0.14.4-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![No AI at runtime](https://img.shields.io/badge/AI%20at%20runtime-none-555555?style=flat-square)](#how-the-feedback-is-made)
 [![No analytics](https://img.shields.io/badge/analytics-none-555555?style=flat-square)](#privacy)
-[![No login](https://img.shields.io/badge/login-none-555555?style=flat-square)](https://boardgame.blevn.xyz)
+[![No login](https://img.shields.io/badge/login-none-555555?style=flat-square)](https://boardgame.syntax.prayasabhinav.net)
 [![Blocks](https://img.shields.io/badge/blocks-86%20%2B%2015%20feelings-c75b39?style=flat-square)](#the-blocks)
 [![Coverage](https://img.shields.io/badge/two--block%20combinations%20with%20feedback-3419%20of%203419-c75b39?style=flat-square)](#checks)
 [![Example games](https://img.shields.io/badge/example%20games-checked%20against%20BoardGameGeek-ff5100?style=flat-square)](#example-games)
@@ -15,7 +15,7 @@
 
 A small browser tool for designing a board game by putting blocks together and reading what the combination tends to produce.
 
-**Try it:** https://boardgame.blevn.xyz · **Check its knowledge base:** https://boardgame-wiki.blevn.xyz · **Its syntax:** https://syntax.prayasabhinav.net/board-game/ · **My work:** https://prayasabhinav.net · **Write to me:** me@prayasabhinav.net
+**Try it:** https://boardgame.syntax.prayasabhinav.net · **Check its knowledge base:** https://boardgame-wiki.syntax.prayasabhinav.net · **Its syntax:** https://syntax.prayasabhinav.net/board-game/ · **My work:** https://prayasabhinav.net · **Write to me:** me@prayasabhinav.net
 
 ![boardgameBuilder with feelings, mechanics and Simulation blocks on the canvas and a round of feedback](docs/screenshot.jpg)
 
@@ -206,7 +206,7 @@ Then open http://127.0.0.1:8080. The container listens on port 80, writes nothin
 
 ## The wiki
 
-Every entry in the knowledge base is also on a public wiki, https://boardgame-wiki.blevn.xyz, one page per entry. Anyone can read it. People who sign in with GitHub or Google can record a check under their own name (verified against a source, or validated by trying it with people at a table), propose a change to an entry, or propose a new triad, conflict, block or feeling. Proposals wait for an editor, and anyone can apply to become one from the wiki (sign in, then *Join the editors*). Approved proposals reach this repository and the live tool by themselves: every half hour a GitHub Action runs `wiki/pull.py`, rebuilds the drafted entries, runs `check.py`, and only if the check passes commits the change here and redeploys the tool and the wiki (`.github/workflows/wiki-sync.yml`). A change that breaks the check stops there and goes nowhere. The wiki's code and how to run your own are in [`wiki/`](wiki/README.md).
+Every entry in the knowledge base is also on a public wiki, https://boardgame-wiki.syntax.prayasabhinav.net, one page per entry. Anyone can read it. People who sign in with GitHub or Google can record a check under their own name (verified against a source, or validated by trying it with people at a table), propose a change to an entry, or propose a new triad, conflict, block or feeling. Proposals wait for an editor, and anyone can apply to become one from the wiki (sign in, then *Join the editors*). Approved proposals reach this repository and the live tool by themselves: every half hour a GitHub Action runs `wiki/pull.py`, rebuilds the drafted entries, runs `check.py`, and only if the check passes commits the change here and redeploys the tool and the wiki (`.github/workflows/wiki-sync.yml`). A change that breaks the check stops there and goes nowhere. The wiki's code and how to run your own are in [`wiki/`](wiki/README.md).
 
 ## Checks
 
@@ -258,7 +258,7 @@ There are no analytics, counters or tracking of any kind. The server keeps no re
 
 The tool is new. The curated knowledge base has been checked; much of the drafted part is still a first draft. I would like people to try it and tell me where a reading is wrong, a block is missing, or a game example does not hold: students, teachers, game designers, anyone who has made a game on paper.
 
-The easiest way is the [wiki](https://boardgame-wiki.blevn.xyz): open the entry, add a record or propose a change. You can also write to me at me@prayasabhinav.net, or open an issue here.
+The easiest way is the [wiki](https://boardgame-wiki.syntax.prayasabhinav.net): open the entry, add a record or propose a change. You can also write to me at me@prayasabhinav.net, or open an issue here.
 
 ## References
 

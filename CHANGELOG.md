@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.14.4 — 30 October 2026
+
+- The tool and the wiki have moved under SYNTAX, the project the board game syntax belongs to: the tool is at https://boardgame.syntax.prayasabhinav.net and the wiki at https://boardgame-wiki.syntax.prayasabhinav.net. The old addresses, boardgame.blevn.xyz and boardgame-wiki.blevn.xyz, send every link on to the same page at the new ones, so saved games, shared links and posters keep working. Signing in to the wiki with GitHub or Google works at the new address.
+
 ## 0.14.3 — 24 October 2026
 
 - A tag in the text of *How our game plays* is marked where it is written: filled in the accent colour, with white letters and a dark edge, the same as the tagged block on the canvas. A text box can show only one colour, so the text is drawn again behind it with each tag marked, in the same type and spacing; the box grows with its text instead of scrolling, so the two stay aligned. A tag whose block has left the canvas is struck through.

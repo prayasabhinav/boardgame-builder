@@ -7,7 +7,7 @@ repository variable WIKI_URL, run docs/make_og.py to redraw the preview image (t
 addresses written in README.md and DEPLOY.md.
 """
 
-DOMAIN = "blevn.xyz"
+DOMAIN = "syntax.prayasabhinav.net"
 
 TOOL_URL = f"https://boardgame.{DOMAIN}"
 WIKI_URL = f"https://boardgame-wiki.{DOMAIN}"
