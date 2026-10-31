@@ -6203,7 +6203,8 @@
   "parent_game": "3 Quarters, a board game by Prayas Abhinav",
   "credits": {
    "by": "Prayas Abhinav, 2022, as a warm-up game for students",
-   "rules": "Rules, board and pieces at github.com/prayasabhinav/games, under Creative Commons Attribution 4.0; where a piece goes, what the die turns and which circles count were settled by the designer in October 2026"
+   "rules": "Rules, board and pieces at github.com/prayasabhinav/games, under Creative Commons Attribution 4.0; where a piece goes, what the die turns and which circles count were settled by the designer in October 2026",
+   "files": "Board, pieces and rules to download: https://github.com/prayasabhinav/games/tree/main/3-quarters"
   },
   "lesson": "Every piece placed can complete someone else's circle, so each move weighs your gain against what it gives away, under a 20-second clock. It shows interaction through a shared board, and time as pressure.",
   "teaches": "pattern-building + tile-placement + full-information",
@@ -6291,7 +6292,9 @@
   "parent_game": "All or Nothing, a card game by Prayas Abhinav",
   "credits": {
    "by": "Prayas Abhinav; cards, rules and box made in 2020",
-   "rules": "Rules and print files at github.com/prayasabhinav/games"
+   "rules": "Rules and print files at github.com/prayasabhinav/games",
+   "play": "On Tabletopia, in the browser: https://tabletopia.com/games/all-or-nothing-pizza-card-game",
+   "files": "Cards, rules and print files to download: https://github.com/prayasabhinav/games/tree/main/all-or-nothing"
   },
   "lesson": "Completing the pizza early scores fewer points, so waiting is rewarded. It shows how one scoring rule can turn a simple arithmetic race into a game of pushing your luck.",
   "teaches": "hand-management + push-your-luck + hidden-hands",

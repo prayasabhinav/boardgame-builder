@@ -924,7 +924,7 @@ async function route() {
 // Questions about what a designer would change have no right answer; they are asked and talked about, never marked.
 
 let GAMES = null;
-const CREDIT_ROWS = [["by", "Made by"], ["rules", "Rules from"], ["version", "This version"], ["added", "Added"]];
+const CREDIT_ROWS = [["by", "Made by"], ["rules", "Rules from"], ["play", "Play it online"], ["files", "Design files"], ["version", "This version"], ["added", "Added"]];
 
 // Escaped text with its web addresses, written with or without https://, turned into links
 function linkify(text) {

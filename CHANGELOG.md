@@ -4,6 +4,11 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.15.0 — 31 October 2026
+
+- All or Nothing can be played in the browser on Tabletopia: its card in Known games links there, under *Play it online*.
+- All or Nothing and 3 Quarters link to their design files, under *Design files*: cards, board, pieces, rules and print files, to download from github.com/prayasabhinav/games.
+
 ## 0.14.4 — 30 October 2026
 
 - The tool and the wiki have moved under SYNTAX, the project the board game syntax belongs to: the tool is at https://boardgame.syntax.prayasabhinav.net and the wiki at https://boardgame-wiki.syntax.prayasabhinav.net. The old addresses, boardgame.blevn.xyz and boardgame-wiki.blevn.xyz, send every link on to the same page at the new ones, so saved games, shared links and posters keep working. Signing in to the wiki with GitHub or Google works at the new address.
