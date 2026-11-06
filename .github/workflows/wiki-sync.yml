@@ -47,7 +47,7 @@ jobs:
         id: commit
         if: github.event_name != 'push'
         run: |
-          git add interactions.json interactions-drafted.json drafted block_meta.py book-blocks.json games.json wiki-applied.json kb-books interactions-books.json ideas ideas.json review.json
+          git add interactions.json interactions-drafted.json drafted block_meta.py book-blocks.json games.json wiki-applied.json kb-books interactions-books.json ideas ideas.json review.json check-log.txt
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else

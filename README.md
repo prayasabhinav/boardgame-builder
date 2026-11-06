@@ -235,7 +235,7 @@ Every entry in the knowledge base is also on a public wiki, https://boardgame-wi
 python check.py
 ```
 
-`check.py` builds every possible two-block canvas (3,419 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (51,285 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version.
+`check.py` builds every possible two-block canvas (3,419 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (51,285 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version. Each pass is written to `check-log.txt` with a fingerprint of the files the checks read; when none of them has changed since the last pass, `check.py` says so and does not check again (`python check.py --again` checks anyway).
 
 ```bash
 curl -s http://localhost:8787/palette | node check_play.js 3000
