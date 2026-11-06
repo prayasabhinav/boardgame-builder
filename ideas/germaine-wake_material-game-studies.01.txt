@@ -1,0 +1,120 @@
+term: Agôn | Caillois's name for games of competition where skill decides who wins. Chess is the example the book gives. | p. 106
+term: Alea | Caillois's name for games decided only by chance, where the result does not depend on any decision the player makes. | p. 106
+term: Paidia | Caillois's name for free, improvised play with no fixed rules, such as moving toy figures about and giving them voices. | p. 90
+term: Ludus | Caillois's name for structured play held in place by rules, such as a tournament game played with miniatures. | p. 90
+term: Roll-and-move | A game where you roll dice and move your piece that many spaces along a path, and the space you land on tells you what happens next. Snakes and Ladders is the example given. | p. 105
+term: Component | Any physical part of a game: board, token, card, die, miniature or rulebook. The book also treats the players as parts of the game while it is being played. | p. 48
+term: Token | A small piece that stands for a player or a thing in the game, such as a wooden pawn, a hat or a boot on a board. | p. 55
+term: Component-of-self | Järvinen's name for a token that stands in for the player, so that the player's own skills and body become part of what the game has to take into account. | p. 55
+term: Prop | An object that prompts or fixes what players imagine. A wooden figure on a tower makes players imagine a superhero climbing it. The word comes from theatre. | p. 55
+term: Game board | The surface a game is played on. It shows where pieces stand. It also seats players in relation to each other and sets the order of turns. | p. 57
+term: Game performance | One actual playing of a game, at a particular time and place, as opposed to the game as a set of rules and parts on a shelf. | p. 47
+term: Game system | The rules and components of a game taken apart from any single playing of it. | p. 48
+term: Game state | The condition of a game at one moment: where the pieces are, what the scores are, whose turn it is. Components record it as play goes on. | p. 48
+term: Spot of indeterminacy | A point in a game's design that is left open, so that each playing can turn out differently. The book takes the phrase from Roman Ingarden, who wrote about literature. | p. 49
+term: Lusory attitude | Bernard Suits's name for the willingness to follow a game's rules, since the game cannot happen unless players go along with them. | p. 53
+term: Magic circle | Huizinga's idea of a marked-off space, such as a card table, a stage or a tennis court, inside which special rules apply while people play. | p. 7
+term: Mechanic | An action players take in a game, such as move, build, trade or treat. The book follows Sicart: methods players use to act on the game state. | p. 226
+term: Rules (as against mechanics) | In Germaine's chapter, the rules are the system fixed in advance, and the mechanics are what players actually do inside that system. | p. 144
+term: Aesthetics | In the MDA framework, the feelings a game calls up in its players. The chapter also uses the older sense of how a game looks and feels to the senses. | p. 144
+term: MDA framework | A way of analysing games in layers, set out by Hunicke, LeBlanc and Zubek. The chapter uses it as rules, mechanics and aesthetics. | p. 144
+term: Operational logic | Wardrip-Fruin's name for a basic process in a game, such as chance, collision or resource, that both works as a calculation and tells the player what something means. | p. 227
+term: Playable model | A set of operational logics working together to stand for something players can learn and act on, such as exploring a haunted mansion in Betrayal at House on the Hill. | p. 228
+term: Collision | An operational logic that decides when two things count as touching. In Pong it means a ball is deflected; in Pac-Man it means a pellet is eaten. | p. 227
+term: Heterocosm | An "other world" that a game builds, with its settings, characters and events. It can be carried from one game to another. | p. 225
+term: Adaptation | A new work based on an earlier one, repeating it with changes. In the book, a board game made from a video game. | p. 224
+term: Unit of transposition | The part of the original work that an adaptation carries across: its story, its world, its mechanics or its logics. | p. 224
+term: Re-skin | A version of a game with a new theme but the same rules. The Mario editions of Monopoly play like Monopoly. | p. 233
+term: Paper prototype | A rough version of a game made on paper and cards to test ideas before building a finished or digital version. | p. 36
+term: Procedural rhetoric | Bogost's term for the way a game makes meaning through the actions its rules invite players to take. | p. 126
+term: Stretch goal | On a crowdfunding page, an extra reward unlocked for all backers once total pledges pass a set amount. Anachrony's first campaign had fifteen. | p. 215
+term: Tier | A pledge level on a crowdfunding campaign. Each tier gives a different reward, such as the base game or a deluxe edition. | p. 207
+term: Add-on | An extra item backers can buy on top of their pledge in a crowdfunding campaign, such as an expansion or older games from the same company. | p. 215
+term: Modular design | A design where the core play can take in new elements such as extra characters, places or modes. Booth finds that crowdfunding favours it. | p. 210
+term: Ludo-textual analysis | Booth's method of reading a game as both a made object and an experience of play, looking at how players actually use the objects. | p. 216
+term: Diegetic component | A part of a game that belongs to its imagined world, such as a miniature of a character, as against a part that only helps with running the game. | p. 209
+term: Busywork component | A part that serves the bookkeeping and not the game's world, such as an instruction manual or a mat. The term comes from Elias, Garfield and Gutschera. | p. 209
+term: Paratext | Material that comes with a game but is not part of play, such as an art book, a signed print or a wine glass sold with a game about wine. | p. 209
+term: Miniature | A scaled-down figure of a character, creature or object, used for play and display. Its size is given as the height of a human figure in millimetres. | p. 83
+term: Scale (of a miniature) | The size class of a miniature. Gaming figures mostly fall between 28 and 32 mm; larger ones of 54 or 75 mm are mostly for display. | p. 83
+term: Miniaturing | The whole pastime built around miniatures: painting, converting, gaming, collecting, storytelling and showing them. | p. 83
+term: Pile of shame | The heap of unpainted or unfinished miniatures that a hobbyist has bought and not yet used. | p. 83
+term: Converting | Customising a miniature by joining parts from different figures, such as a head or a weapon bought separately. | p. 89
+term: Diorama | A small scene of figures set in a landscape, built for display. | p. 89
+term: Fluff | The background story a company writes to go with a game world. Some players ignore it and play only for the rules. | p. 92
+term: Photoplay | Taking photographs that tell a story with toys or figures. | p. 94
+term: Rules of irrelevance | Goffman's idea that the look of a game piece does not matter to the game. A chess piece can be carved ivory or a stone from your shoe. | p. 92
+term: Affordance | What an object lets a person do, given its shape and material. The book uses it for what a piece's weight, size and surface allow in the hand. | p. 93
+term: Troops-on-a-map game | A game where armies are placed and moved across a map divided into territories. RISK is the example. | p. 123
+term: Hex grid | A map divided into hexagons, a layout that came into hobby games from wargames. | p. 152
+term: Area control | A game where players compete for influence inside regions, and several players can have a presence in one region at once. | p. 134
+term: World picture | Heidegger's term, used by Lee, for seeing the world as a set of things that can be divided up and controlled. Lee finds it in the RISK board. | p. 131
+term: World target | Rey Chow's term for a view that scans a whole landscape for points to strike instead of borders to cross. | p. 135
+term: Operational glance | Lee's term for the quick look over a board to find openings, much as a tactician scans a map. | p. 128
+term: Operational environment | The rule-governed space in which moving pieces changes the state of the game world. | p. 128
+term: Data visualization (on a board) | How a board shows numbers such as points, money or health: on tracks, cards, tokens or score pads. Each choice changes what players notice. | p. 127
+term: Victory point track | A scale printed on the board that shows every player's score at once. | p. 127
+term: Cooperative game | A game where players win or lose together against the game itself. Pandemic is the example. | p. 138
+term: Legacy game | A game whose components are permanently changed by play, so that the next session starts from a different board. | p. 138
+term: Subscendence | Timothy Morton's word for thinking downward into many small connected things, as against viewing a whole from above. | p. 148
+term: Eurogame | A style of hobby board game in which the rules and mechanics stay visible and players are invited to try different strategies on each replay. | p. 151
+term: Replayability | The chance to play the same game again and try a different approach each time. | p. 151
+term: Card drafting | A way of dealing where players take a card from a hand and pass the rest on. Passing the hand can deny a card to the next player. | p. 156
+term: Traitor mechanic | A rule that gives one player a secret role so that they deceive the others. | p. 194
+term: Card sleeve | A thin plastic cover that protects a card from wear. | p. 194
+term: Homebrew | Game material that players make themselves, outside the official scenarios. | p. 196
+term: Friendly local game store | A neighbourhood shop that sells games and gives its tables to players. Shortened to FLGS. | p. 166
+term: Tabletop role-playing game | A game played around a table where each player speaks as a character and one person describes the world and referees. | p. 165
+term: Dungeon Master | In Dungeons and Dragons, the player who describes the world and referees. The book also calls the role storyteller. | p. 67
+term: Character sheet | A paper record of a role-playing character's name, class, numbers, spells and items. | p. 75
+term: Role-playing mat | A vinyl sheet with a grid, drawn on in marker pen to show the scene where miniatures stand. | p. 72
+term: Intra-action | Karen Barad's term for the way things shape each other by acting together, instead of acting on each other from outside. | p. 10
+term: Entanglement | The idea that players, pieces, rules and surroundings form one mixed-up whole in play, and cannot be pulled apart cleanly. | p. 9
+term: Platform studies | The study of how the technology something is made on limits and shapes what gets made. Booth applies it to Kickstarter. | p. 209
+idea: A game and a playing of it are different things | Wake separates the game as a set of rules and parts from each performance of it, which happens once, at a particular time and place. Jenga's fifty-four blocks are real objects, but the game only exists when people stack and pull them. | p. 47
+idea: Open rules invite players to fill the gaps | Wake argues that games leave deliberate gaps, spots of indeterminacy, so that every playing differs. Designers steer players towards behaviour they can anticipate, but only partly, so players also argue over rules, hack and mod. | p. 49
+idea: Pieces that stand for players pull the body into the game | In Rhino Hero, players put a wooden hero on a shaky tower of folded cards. Reviewers write about their trembling thumbs and old-age tremor, which shows that the player's own body becomes part of the game's challenge. | p. 56
+idea: A board arranges people as well as pieces | The Monopoly board prints its text facing four sides and sets play running clockwise round the table. A War of Whispers uses a round board with no opposite sides, so players sit as members of one council. | p. 57
+idea: Table size decides how close players sit | A Monopoly board is about twenty inches across, so hands pass dice, cards and money across it and fingers sometimes touch. Wake sees this closeness as part of what a board does. | p. 58
+idea: An object becomes a toy when someone plays with it | Sicart argues that a stick is just an object until a person picks it up. Its weight and bark then shape what the player does, and the player's use changes what the stick is. | p. 24
+idea: A piece matters less as a token than as a toy | The miniaturists in the survey differ. Some treat a figure as a toy whose paint and look matter. Others treat it as a game token that could be a coin. The rules of irrelevance say the look of a game piece does not matter to the rules. | p. 92
+idea: One object can serve several uses at once | Miniatures are objects, craft material, toys or tokens, display art and prompts for imagination. A respondent can paint a figure for display, field it in a tournament and invent its backstory. | p. 87
+idea: Making and customising pieces is part of play for many | Painters describe hours of steady concentration, and some change figures by joining parts from different sets. For these people the crafting is as much the hobby as the game that follows. | p. 89
+idea: What happens to a prop happens in the story | A respondent leaves a snapped elf sword unrepaired because it counts as battle damage. The physical figure and the imagined fiction change together. | p. 96
+idea: A game with no choices can still carry a meaning | Nielsen shows that three games about women's lives used purely chance-based movement. In Pank-a-Squith the player always reaches Parliament, and only the length of the journey varies. | p. 108
+idea: The same roll-and-move device can carry different messages | Pank-a-Squith promises a certain win, while Womanopoly gives the player cast as the woman a harder start: two sixes against one to begin. The mechanic is common, and the rule set around it makes the point. | p. 117
+idea: A skipped turn can start a conversation | Space 44 of Womanopoly tells both players to miss a turn and talk about what the space says about daughters and sons. The usual penalty is used to make players stop and discuss. | p. 117
+idea: A game can work without being played | The Ladder of Academic Success was printed with a board but no rules. Its readers understood it as a joke about women's careers from the board alone. | p. 112
+idea: How a board looks shapes the world players think they are in | Lee names three things in a board: its artwork, the way it shows data, and the rule-governed space for moves. Together they give players a view of the game world as well as a place to move. | p. 125
+idea: Where the score sits changes how a game feels | Lee notes that a victory point track around the board makes everyone's position visible and gives a race-like feel. Hidden point tokens or a count at the end give a different feel. | p. 127
+idea: Moves happen on the table and in the game world at once | A player moves a cube on a board, and that move changes the imagined state of the world. Lee says rules link the two kinds of move. | p. 124
+idea: A rule decides what a physical move means | Pushing a pawn across a chessboard is limited only by physics, but a legal move in chess needs the players' agreed rules. Without them it is only a piece being pushed. | p. 128
+idea: Changing from borders to influence changes how players look at a map | In RISK a player holds whole territories and attention goes to borders. In Area Control games several players share a region, so attention goes to many targets at once. | p. 134
+idea: A theme does not decide what a game teaches | Lee finds that even cooperative games set against war, such as Spirit Island, keep a territorial view of land. The way the board and rules treat space carries the message. | p. 138
+idea: A map of routes makes players look at flow | Pandemic and Freedom print lines between cities. Players watch roads, spread and rescue rather than borders and conquest. | p. 139
+idea: Theme and rules can pull against each other | In Photosynthesis, players grow trees but compete for territory and score by removing the tallest trees. Germaine says the game could be re-themed with soldiers on a battlefield and play the same. | p. 153
+idea: The words in a rulebook shape how players treat pieces | Photosynthesis lets players buy seeds with light points. Germaine says that wording makes the trees feel like units of resource and not like living things. | p. 153
+idea: Scoring rules can reward variety | In Ecosystem, a card scores for where it sits and the whole layout scores for few gaps in animal types. Players are pushed towards mixed habitats. | p. 156
+idea: A limit on the board can show a limit in the world | The hexagonal board in Photosynthesis restricts how far trees spread. Germaine says this can make players think about habitats running out of room. | p. 153
+idea: Replaying lets players test other approaches | Germaine says that because each replay allows a different strategy within the written rules, eurogames push players to reflect on the system and not only on one session. | p. 151
+idea: Who can play depends on time, space and money | Pobuda notes that campaign games need a very large table left untouched for days, plus free time and spending power. These needs shut out people who lack them. | p. 167
+idea: Learning the rules can keep newcomers out | Game shops trained staff to demonstrate rules because understanding them is a barrier to entry. A respondent who was ridiculed after a hurried explanation of Catan still avoided events years later. | p. 190
+idea: Players keep wanting physical parts even when a digital copy exists | During lockdown, players moved to Board Game Arena and Tabletop Simulator, yet physical sales also rose. The online version of Ticket to Ride raised sales of the boxed game. | p. 195
+idea: Cost can lead groups to share games | MacCallum-Stewart notes that a large boxed game can cost fifty to ninety pounds, so friends often pool money. One person buys it and brings it to play with others. | p. 194
+idea: Extra components sell more copies | In the Scythe campaign, the Collector's edition at $99 outsold every other level together, while the base game at $59 sold under half as many. | p. 208
+idea: Extras count when they change play | Booth found backers favoured higher tiers with extra play pieces, but fewer chose items such as signed copies, wine glasses or visits with the creators. | p. 209
+idea: More physical parts leave less to imagine | If a red cube stands for a disease, players picture it themselves. A plastic virus model does that picturing for them, so Booth says the imaginative load drops. | p. 216
+idea: Many parts create bookkeeping, and apps appear to handle it | Gloomhaven has scenario books, thirty boards, monster cards and dials to track. Fans built at least fifteen apps to take over the calculations. | p. 217
+idea: The platform a game is funded on shapes the game | Werning's reading of Kickstarter is that it favours modular designs where new characters and places can be added. Booth adds that campaigns show near-finished games and many miniatures. | p. 210
+idea: A rule keeps its meaning only inside its theme | Altice says that copying Sagrada's dice-drafting rule into another setting would lose the stained-glass idea the dice stand for. Mechanics carry meaning along with function. | p. 227
+idea: The same action can be built in different ways | Jumping in the Super Mario video game depends on controls, physics and collision. Jumping in the Mario game book depends on picking a numbered page. Altice says the two have the same name but are built differently. | p. 234
+idea: A re-skin imports the rules of the base game | Monopoly with a Mario theme still has players buying and trading property. Altice says this treats the Mushroom Kingdom as a real estate market. | p. 233
+idea: A small board can be made from pieces that recombine | Bandai's Mario game cut the world into thirty-six map panels drawn from a shuffled deck, so each game builds a different world. Milton Bradley's strips could only be laid in one order. | p. 234
+idea: Paper comes before code | Trammell notes that scientists, musicians and game designers often start with a paper mock-up before writing it in software. The analogue version is the base that the digital version is built on. | p. 36
+idea: A score threshold is a made-up line | Wark reads Katamari Damacy as a game where the ball wins once it passes an exact size. Trammell quotes her to show how a game can make a chosen number seem like a natural truth. | p. 41
+idea: Game spaces can feel closed to some players | Pobuda describes a games shop basement where a newcomer was ignored by the group at her table and the Dungeon Master never met her eye. Her survey found 36 per cent of respondents had avoided public events. | p. 180
+idea: Physical pieces can exclude players | Booth notes that players with disabilities may find it harder to move pieces, roll dice or play tiles. Wake's reviewers also point to shaky hands in dexterity games. | p. 211
+idea: Play leaves traces on the objects | A role-playing mat holds six years of erased marker pen, so crooked lines that were once tavern walls still show as stains. The object carries a record of the sessions played on it. | p. 72
+idea: A tabletop session depends on many objects at once | A Dungeons and Dragons session has a screen, character sheets, dice, a vinyl mat and miniatures. Warren says these objects and the players circulate imagination and feeling among them. | p. 67
+idea: A manual can describe a character by what it does | The Super Mario manual describes Bowser as one who spits fire and who can be killed several ways, with points only if you use fireballs. Altice says the characters are written in the language of play. | p. 229
+idea: Games can be told, shown or interacted with | Following Hutcheon, Altice sorts media by how they engage: novels tell, films show and games invite interaction. The interactive mode adds the body, which is why story is not always what carries across from game to game. | p. 224

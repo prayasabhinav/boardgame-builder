@@ -1,0 +1,125 @@
+term: Flow | The state in which a person is so involved in an activity that nothing else seems to matter. People do the activity for its own sake, even when it is hard or tiring. | ch. 1
+term: Optimal experience | The author's name for the most rewarding moments of life. They come when body or mind is stretched towards something difficult that the person chose to try. | ch. 1
+term: Autotelic | Describes an activity done for its own sake, not for a later reward. The word joins the Greek for self and for goal. | ch. 3
+term: Exotelic | Describes an activity done only for outside reasons, such as money or approval. Most activities mix this with the autotelic kind. | ch. 3
+term: Psychic energy | The author's name for attention, seen as a limited supply. Nothing is thought, remembered or decided without spending it. | ch. 2
+term: Attention | The process that picks a few items out of the many a person could notice and holds them in awareness. It can hold only a small amount at once. | ch. 2
+term: Consciousness | Information that a person is aware of and can direct on purpose, such as sensations, feelings and thoughts. The book calls it intentionally ordered information. | ch. 2
+term: Intention | A wish to get or do something, which keeps awareness arranged and pulls attention towards some things and away from others. | ch. 2
+term: Self | The picture a person holds of their own goals and everything they have lived through. It steers attention, and attention in turn shapes it. | ch. 2
+term: Circular causality | A loop in which two things shape each other. The book uses it for the self directing attention while attention builds the self. | ch. 2
+term: Psychic entropy | Disorder in awareness, which appears when information clashes with a person's goals. Worry, fear and anxiety pull attention away from what the person wants to do. | ch. 2
+term: Negentropy | The opposite of psychic entropy, a state in which attention runs freely towards chosen goals. Flow is one name for it. | ch. 2
+term: Experience Sampling Method | A research method in which people carry a pager that goes off at random times in the day. Each time, they write down what they are doing and how they feel. | ch. 1
+term: Enjoyment | A rewarding feeling that comes when a person goes beyond what they were already able to do and learns something new. It needs full attention and leaves the person changed. | ch. 3
+term: Pleasure | A comfortable feeling that comes when a bodily or social expectation is met, such as eating when hungry. It needs no effort and does not make a person more skilled. | ch. 3
+term: Homeostatic experience | An experience such as sleep, rest or food that returns the body to balance. It restores order but adds no new skill. | ch. 3
+term: Opportunities for action | The things an activity lets a person try. These are what the book also calls its challenges. | ch. 3
+term: Challenge | A chance for action in an activity that asks for skill. Someone without the right skill does not see it as a challenge at all. | ch. 3
+term: Skill | An ability to meet the challenges of an activity. The book counts reading, calculating and joking with friends as skills as well as bodily ones. | ch. 3
+term: Clear goals | Aims that a player always knows, such as returning the ball or mating the king. The book lists them among the conditions for flow. | ch. 3
+term: Immediate feedback | Information that tells a person right away whether the last action moved them towards the goal. A climber learns it every second. | ch. 3
+term: Merging of action and awareness | The experience of being so absorbed that the person stops noticing themselves apart from what they are doing. | ch. 3
+term: Paradox of control | The finding that people enjoy exercising control in an uncertain situation, not simply having control. A safe routine gives no sense of it. | ch. 3
+term: Loss of self-consciousness | Not worrying about how one looks or who one is while absorbed in an activity. The person is still aware, but not of the self. | ch. 3
+term: Transformation of time | The change in how long time seems to last during flow. Hours often pass like minutes, and a short turn in dance can seem long. | ch. 3
+term: Microflow | A small patterned action, such as doodling or humming, that people use to fill dull gaps. It lowers boredom but adds little. | ch. 3
+term: Objective dangers | In climbing, the risks nobody can fully foresee, such as storms or falling rock. They are set against the subjective dangers. | ch. 3
+term: Subjective dangers | In climbing, the risks that come from the climber's own lack of skill, including misjudging how hard a climb is. | ch. 3
+term: Flow activity | An activity built mainly to give enjoyable experience, such as play, art, ritual or sport. It has rules, goals and feedback and is set apart from daily life. | ch. 4
+term: Paramount reality | The ordinary world of common sense. Games separate players from it with uniforms, special places and their own rules. | ch. 4
+term: Agon | In Roger Caillois's scheme, games where competition is the main feature, such as most sports. | ch. 4
+term: Alea | In Caillois's scheme, games of chance, such as dice or bingo. | ch. 4
+term: Ilinx | In Caillois's scheme, activities that scramble ordinary perception, such as spinning, a merry-go-round or skydiving. Also called vertigo. | ch. 4
+term: Mimicry | In Caillois's scheme, activities that make an alternative reality by pretending, such as dance, theatre and children's make-believe. | ch. 4
+term: Competition | From the Latin for seeking together. The book says it helps only while attention stays on the activity, not on beating the other person. | ch. 4
+term: Divination | The old practice of reading the future from objects such as bones, sticks or sacrificed birds. The book treats games of chance as its secular descendant. | ch. 4
+term: Flow channel | The band between boredom and anxiety where a person's skills match the challenges. The diagram of Alex learning tennis shows him leaving and re-entering it. | ch. 4
+term: Anxiety | The state a person feels when challenges are higher than their skills. | ch. 4
+term: Boredom | The state a person feels when challenges are lower than their skills. | ch. 4
+term: Apathy | The state of low challenge and low skill, in which people report feeling passive and dull. The work study found it far more common in leisure than at work. | ch. 7
+term: Mechanistic fallacy | The mistake of expecting that joining a flow activity guarantees the experience. What counts is the challenge and skill the person perceives. | ch. 4
+term: Culture as a game | The author's comparison of a culture to a game, when its goals and rules fit its people so closely that they reach flow often. The Athenian city is his example. | ch. 4
+term: Anomie | A social state in which the rules of behaviour are muddled. People cannot tell what is worth putting effort into. | ch. 4
+term: Alienation | A social state in which people are forced to act against their own goals, such as on an assembly line or in queues for rationed goods. | ch. 4
+term: Stimulus overinclusion | The inability to keep irrelevant information out of awareness. The book links it to attentional disorders and to the loss of enjoyment. | ch. 4
+term: Autotelic personality | A person who finds it easy to turn ordinary or hard situations into flow. They notice chances for action, set goals and watch feedback. | ch. 4
+term: Autotelic family context | A home where children know what is expected, feel noticed in the present, can choose, trust their parents and meet rising challenges. | ch. 4
+term: Complexity | In this book, a self that is both differentiated and integrated. Flow makes the self more complex. | ch. 2
+term: Differentiation | Movement towards being unique and separate, through gaining rarer skills. | ch. 2
+term: Integration | Movement towards union with other people, ideas and things beyond the self. | ch. 2
+term: Subgoals | Smaller aims set inside a larger goal so that progress can be measured. The book lists them as a step in turning any action into flow. | ch. 5
+term: Analogic listening | A way of hearing music in which sound brings up feelings and pictures, such as a sleigh in snow. It sits between plain sensory listening and analysis. | ch. 5
+term: Analytic listening | A way of hearing music in which attention goes to its structure and to comparisons between versions or performers. | ch. 5
+term: Collective effervescence | Durkheim's phrase for the sense of belonging to a real group when many people think and feel the same thing together, as at a concert. | ch. 5
+term: Symbolic system | A set of signs with its own rules, such as a language, mathematics or notation. The book compares it to a game with a separate reality. | ch. 6
+term: Riddle contest | An old contest in which one person sings a text with hidden meaning and the other has to decode it. The author sees it as a root of logic and knowledge. | ch. 6
+term: Normal science | Kuhn's term for research that solves puzzles inside an accepted framework. The rules limit which answers count, and the challenge is reaching a known kind of result in a new way. | ch. 6
+term: Amateur | From the Latin for love. Originally a person who loves an activity, with no sense that their skill is lower. | ch. 6
+term: Dilettante | From the Latin for finding delight. Originally a person who enjoys an activity. | ch. 6
+term: Yu | A Taoist word for following the Way, translated as wandering or flowing. The author reads the cook Ting's story as flow found in a humble job. | ch. 7
+term: Autotelic job | A job built like a game, with variety, flexible challenges, clear goals and immediate feedback. Hunting, cottage weaving and surgery are the examples. | ch. 7
+term: Expressive skills | Skills that put inner experience into outward form, such as singing, dancing or telling a joke. They are set against instrumental skills. | ch. 8
+term: Instrumental skills | Skills learned to deal with the surroundings or earn a living. People often feel them as imposed from outside. | ch. 8
+term: Transformational coping | A response to stress in which a person stays calm, restates the problem and finds a new goal. Also called mature defence. | ch. 9
+term: Regressive coping | A response to stress that withdraws, denies or lashes out. Also called an immature or neurotic defence. | ch. 9
+term: Autotelic self | A self whose main goals come from its own evaluated experience and not from instinct or social habit. It turns threats into challenges. | ch. 9
+term: Life theme | A set of goals tied to one ultimate goal that gives meaning to what a person does. The book compares it to the rules of a game. | ch. 10
+term: Discovered life theme | A life theme a person writes from their own experience. The opposite is an accepted theme, taken from a script written by others. | ch. 10
+term: Purpose, resolution, harmony | The three senses of meaning in the last chapter. A person has a goal, works at it with effort, and feels thoughts, feelings and actions agree. | ch. 10
+term: Sensate culture | Sorokin's name for a culture that organises goals around pleasure and practical needs. | ch. 10
+term: Ideational culture | Sorokin's name for a culture that organises goals around spiritual or abstract principles and looks down on material concerns. | ch. 10
+term: Vita activa | The life of action, in which a person reaches order by pouring effort into outside challenges. The book pairs it with the vita contemplativa. | ch. 10
+term: Vita contemplativa | The life of reflection, in which a person sorts competing wishes by thinking about experience. | ch. 10
+idea: Flow comes from matching challenge to skill | Enjoyment appears at the edge between boredom and anxiety, when what the activity asks is just balanced with what the person can do. A beginner hitting a tennis ball over the net can be in flow, and so can an expert in a hard match. | ch. 3
+idea: Two players of unequal skill cannot share one game | When two tennis players are mismatched, the weaker one feels anxious and the stronger one feels bored. The same holds for music that is too simple or too complex for the listener. | ch. 3
+idea: A game that adjusts itself keeps the balance | The author's hunting dog Hussar ran escape and pursuit circles around him. When the man was tired the dog ran tighter circles, and when he was fit the dog widened them, so the difficulty stayed level for both. | ch. 3
+idea: Staying at one level ends the enjoyment | Alex, learning tennis, is in flow at the start. As his skill grows he gets bored, and when he meets a more skilled opponent he gets anxious. Raising his challenge or his skill returns him to flow at a higher level, which is why flow activities lead to growth. | ch. 4
+idea: The challenge that counts is the one the player sees | A person may be in a flow activity and feel nothing if they do not perceive the challenges, as a football professional might think only of his contract. Someone else may find flow in raising children. | ch. 4
+idea: Enjoyment has eight parts | People in every culture described enjoyment alike: a task one can finish, concentration, clear goals, immediate feedback, effortless involvement, a sense of control, loss of self-consciousness and an altered sense of time. | ch. 3
+idea: Games are built to produce flow | Games, sports and art forms were made over the centuries to give enjoyable experience. They supply rules, goals, feedback and a chance of control, and they set players apart from ordinary life with uniforms and special places. | ch. 4
+idea: Goals and feedback need to be clear but can be made up | A tennis player always knows what to do and how she is doing. In open-ended work such as painting, the person has to build a private sense of what works. Teenagers inventing a contest on the spot also settle rules and a scoring sense by trial and error. | ch. 3
+idea: Any feedback works if it links to a goal | The kind of feedback matters little. A surgeon watches for blood in the cut and a psychiatrist reads a patient's face, and each cares about the signal because it tells them how close they are to their aim. | ch. 3
+idea: A trivial goal gives no enjoyment | Staying alive on a sofa is a goal that is met every second, yet it brings no pleasure. The same sort of feedback delights a climber because the aim is hard and could fail. | ch. 3
+idea: Competition helps only while the activity stays the point | An opponent forces a player to stretch skills, and Burke called the antagonist a helper. When beating the other person or impressing an audience takes over, enjoyment fades. | ch. 4
+idea: Players enjoy the chance of control, not control itself | Chess and dance have rules that make flawless play possible in principle, while a mistake costs little compared to real life. The enjoyable feeling is of exercising control where the result is in doubt. | ch. 3
+idea: Risky pastimes are built to shrink the risk | Climbers, divers and racers say they enjoy their ability to control danger, not danger itself. Some climbers call the Matterhorn safer than crossing a Manhattan street because the dangers can be prepared for. | ch. 3
+idea: Games of chance feed a feeling of skill | Poker players credit their ability for wins and chance for losses, and roulette players build systems for the wheel. The author links this to divination, an old effort to foresee the future inside a limited set of rules. | ch. 3
+idea: Rules limit choices so that action can be effortless | A culture or a game sets arbitrary goals and rules, which rule out many options. That narrowing lets people act with few doubts. Games fill the gaps in the cultural script, mainly in free time. | ch. 4
+idea: Too many options weaken commitment | When many equally attractive choices are open, purpose is uncertain and effort drops. The author says that if a game's rules become too flexible, concentration flags and flow is harder to reach. | ch. 10
+idea: Rules mean nothing without consequences | If breaking a rule risks nothing, the rule loses meaning and the activity cannot be enjoyed. The book makes the point about family life, where children need both love and known consequences. | ch. 8
+idea: Absorption removes the self, then strengthens it | In flow a climber or violinist is very alert but not thinking about who they are. Afterwards the self they reflect on has gained new skills, so it is larger than before. | ch. 3
+idea: A team can merge in flow | Surgeons describe an operating team as one organism, like a ballet. A motorcycle gang member in Kyoto described the run as the moment when everyone feels one. | ch. 3
+idea: Flow can become a trap | Chess drove Nabokov's character Luchin to see his whole life as moves, and the chess masters Morphy and Fischer turned away from daily life. The author says an enjoyable activity becomes addictive when a person cannot pay attention to anything else. | ch. 3
+idea: Flow carries no moral value by itself | Soldiers, burglars, bullfight crowds and bomb designers have all described flow. The book says the experience builds the self but needs to be judged separately by wider social standards. | ch. 3
+idea: Pleasure and enjoyment differ | Eating when hungry gives pleasure with no effort, while a gourmet who tracks flavours enjoys the meal. Only enjoyment makes the person more skilled. | ch. 3
+idea: Dull tasks can be turned into games | The physicist Maier-Leibnitz tapped his fingers through a set pattern of 888 steps in a dull lecture, and used it to time his own thoughts. A factory worker, Rico, tried to beat his own record for a 43-second task and reached 28 seconds. | ch. 3
+idea: A walk becomes a flow activity by five steps | Set an overall goal and subgoals, find ways to measure progress, keep making finer distinctions, build the needed skills, and raise the stakes when it gets dull. City walkers set goals such as timing the lights or keeping to shade. | ch. 5
+idea: The same act can be play or chore | Physical exercise done only because it is fashionable stops being enjoyable. Enjoyment depends on how an activity is done, not what is done. | ch. 5
+idea: Costly pastimes were not the happiest | In the pager study, people who used expensive equipment or much energy, such as power boating or television, were less happy than people who talked, gardened or knitted. Their pastimes used less material and more attention. | ch. 5
+idea: Listening has levels that open as skill grows | Music can be heard first as sensation, then as feeling and picture, then as structure and comparison between versions. Each level gives a listener new goals and new feedback. | ch. 5
+idea: Outside pressure spoils performance | Parents who push a child to win prizes at the violin turn music into stress. The pianist Hollander felt ecstasy alone and fear in front of critical adults, and his hands froze at a recital. | ch. 5
+idea: Attention is limited | The author estimates a person can handle about 126 bits of information a second, and understanding one speaker takes about 40. Because of that, what enters awareness decides what a life is like. | ch. 2
+idea: The mind drifts towards worry without structure | Alone with nothing to do, attention turns to whatever is most troubling. That is why people reach for television or drugs, which supply order cheaply but do not build skill. | ch. 6
+idea: Making a puzzle takes more skill than solving one | A person who only solves crosswords depends on a stranger's challenge. A child of eight who started writing his own crosswords had no need for outside patterns and enjoyed it more. | ch. 6
+idea: Wordplay trains control of language | Puns and double meanings let children switch between senses of a phrase, such as having Grandma for dinner. The author says the surprise at first gives way to skill. | ch. 6
+idea: Science works like a puzzle game | Kuhn writes that the rules of a research paradigm limit acceptable answers and steps, so scientists focus on small problems. Dirac called the making of quantum mechanics a very interesting game. | ch. 6
+idea: Riddles carried knowledge in game form | In old Welsh poems, the names of trees stood for letters, so a song about a battle of trees spelled a hidden message. Competition between expert riddlers was often the main intellectual event of a village. | ch. 6
+idea: Prisoners invented games to stay sane | Speer imagined a walking trip to Jerusalem, a pilot played eighteen holes in his head every day, and Hungarian prisoners ran a contest to translate a poem, with soap on a shoe as their writing surface. Each of them set goals, watched for feedback and made the task harder over time. | ch. 4
+idea: People enjoy work more often than leisure | In the pager study, 54 percent of work responses showed high challenge and high skill, against 18 percent in leisure. Yet people said they wanted to be doing something else more often at work. | ch. 7
+idea: Free time lacks the structure that jobs supply | Jobs come with goals, feedback, rules and challenges. Unstructured time needs a person to supply them, so many people fall into passive entertainment that asks for no skill. | ch. 7
+idea: Surgery has the features of a flow activity | Surgeons name clear goals, constant feedback, many challenges, a team to coordinate and ritual preparation that shuts out the outside world. Even so, some surgeons who only repeat one simple operation report tedium. | ch. 7
+idea: Feedback timing differs between hunting and farming | A hunter chooses quarry and method several times a day, while a farmer decides crops only a few times a year and waits for the weather. The book says hunters forced to farm sometimes died out, and many farmers did learn to enjoy the slow feedback. | ch. 7
+idea: A job can be redesigned or a person trained | Making jobs resemble games helps, and training people to spot chances for action helps. The author says neither works well alone, as the welder Joe turned a dull plant into a place to learn while others did not. | ch. 7
+idea: Watching replaces doing | Many people watch athletes in stadiums and listen to recorded musicians instead of playing. Such passive leisure uses attention without building skill. | ch. 7
+idea: Skills grow only when challenges are renewed | A couple whose early challenges are used up risk boredom. New challenges come from learning the other person more deeply. It is the same loop the Alex diagram shows for any repeated play. | ch. 8
+idea: Redefining the rules can change a situation | When three young men robbed twelve-year-old Mark in a park, he followed them and asked for his watch back, treating them as people who could vote on it. They voted two to one to return it. | ch. 8
+idea: Teenagers without challenges make their own | Gangs, joyriding and vandalism give young people real chances to use skills that school and suburb do not offer. The book puts much of it down to a lack of worthwhile challenge, and does not blame character. | ch. 8
+idea: Adversity becomes a game with new goals | Paraplegic and blind people in the Milan study mastered a new set of challenges, and some called the accident positive because it gave clear goals. One became a regional archery champion from a wheelchair. | ch. 9
+idea: Three steps turn threat into a flow activity | The book names unselfconscious self-assurance, attention on the world and the finding of new solutions. A pilot succeeds by fitting herself to the plane's rules and to the air, without trying to force the plane. | ch. 9
+idea: Fixing on one plan blinds a player | A soldier who fell with a parachute clawed at his chest where a rip cord usually sits, though a left-handed cord was a few inches away. The author says tight focus on a defence can hide the answer near at hand. | ch. 9
+idea: Respond to what appears instead of a fixed plan | The author compares finding goals to a painter who begins with a feeling and changes the picture as colours appear. A painter who holds to a fixed picture produces a trite one. | ch. 9
+idea: Goals, challenges and skills imply one another | Choosing to learn tennis implies the challenges of serve and backhand, which imply the skills to build. The sequence can start at any of the three, and feedback keeps the player in the system. | ch. 9
+idea: Any goal can give meaning if it has rules | The book says what matters is that a goal supplies clear objectives and rules for action and lets a person concentrate. A beer-bottle collection could do this as well as a cure for cancer. | ch. 10
+idea: Effort and goal justify each other | A goal first justifies the effort, and later the effort justifies the goal. A mountaineer who quits at the first hardship shows the goal was not worth much. | ch. 10
+idea: Choosing the goal oneself raises commitment | A person who knows they chose their goal is both more dedicated and more willing to change it when it stops making sense. The book calls this being consistent and flexible at once. | ch. 9

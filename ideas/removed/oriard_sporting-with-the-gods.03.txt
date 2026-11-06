@@ -1,0 +1,27 @@
+checker found no passage	term: Play spirit | The attitude of doing something for its own sake, with no result in view. The book follows how American writers used it as a sign of freedom, and how they also feared it as a sign of disorder. | p. 392
+checker found no passage	term: Frolic | A work gathering that turns into a party with fiddle music and games. Husking and quilting frolics are the book's examples. | p. 398
+checker found no passage	term: Parlour theatricals | Plays acted by family and friends at home, often at Christmas, as a household game. | p. 398
+checker found no passage	term: Snow war | A large mock battle with snowballs, played by boys in teams on a hill, with forts and sides. It is a set piece in Aldrich's boyhood novel. | p. 399
+checker found no passage	term: Con game | A trick played on a victim to take money, run by one or two players who know the plan against a person who does not. The word game is used for it in Huckleberry Finn. | p. 403
+checker found no passage	term: Black Sox scandal | The 1919 baseball scandal in which players were accused of losing the World Series on purpose. | p. 416
+checker found no passage	term: Spectator sport | A sport that is mainly watched, with the crowd paying to see others play, and not played by the people who come. | p. 416
+checker found no passage	term: Gate | The money taken from tickets sold for a match. The book speaks of the first million-dollar boxing gates. | p. 416
+checker found no passage	term: Fixing | Arranging the result of a contest before it is played, so that the contest is no longer a contest. The book's example is a gambler said to have fixed the World Series. | p. 425
+checker found no passage	term: Called game | A game stopped and not counted as played, usually because of something outside the players, such as rain. In a scene in This Side of Paradise a flirtation is called off with the words rain, no game. | p. 419
+checker found no passage	term: Referee | The official who applies the rules during play and decides whose claim is right. Without one, each side says the referee would have ruled for it. | p. 420
+checker found no passage	term: Offside | A football rule that bars a player from a position ahead of the ball or the last defender. The book uses it for a muddle in which everyone is somewhere the rules do not allow. | p. 420
+checker found no passage	term: Hare and hounds | A chasing game in which one runner, the hare, goes ahead and the others follow as hounds. The book uses the phrase hare without hounds for a chase with no one chasing. | p. 427
+checker found no passage	term: Lying contest | A contest of tall tales in which each speaker tries to top the last. In Hughes's pool hall such contests grow more belligerent and lewd as they go. | p. 437
+checker found no passage	term: Call and response | A pattern in which one voice gives a line and the others answer. The book lists it among the forms of the Black oral tradition. | p. 441
+checker found no passage	term: Dance marathon | A contest in which couples keep dancing for as long as they can, with the last pair standing winning. It was one of the fads of the 1930s. | p. 443
+checker found no passage	term: Leisure problem | The worry in the 1930s and 1950s that people had free time and no agreed way to use it. | p. 445
+checker found no passage	term: Shooter | The marble a player holds and flicks to strike the other marbles. | p. 452
+checker found no passage	term: Stoopball | A street game in which a ball is thrown at the edge of a step and caught on the rebound. | p. 452
+checker found no passage	term: Practice game | A game that does not count for anything. In Rabbit, Run a player remembers one against a small school when every shot dropped. | p. 454
+checker found no passage	term: Sports metaphor | A word from sport used for something outside sport, such as a race for money or a game of politics. | p. 477
+checker found no passage	term: Free agency | The right of a professional player to choose a team after a contract ends, in place of being held by an owner. | p. 479
+checker found no passage	term: End-zone dance | A celebration a football player performs after scoring a touchdown. | p. 479
+checker found no passage	term: Home-run trot | The slow run round the bases after a home run, which some players turn into a show. | p. 479
+checker found no passage	idea: Sport watched changes sport played | By the 1920s sport was entertainment for spectators more than an activity for participants. Lardner thought watching made people passive, and Chase thought commerce had made play standard and sold. | p. 417
+checker found no passage	idea: Standard and commercial play loses personal impulse | Stuart Chase argued that the machine age made play more needed and also changed it by standardising and selling it. Rides, dances and games came in fixed forms. | p. 417
+checker found no passage	idea: Whether it is a game depends on where you stand | A teacher tells Holden that life is a game played by the rules. Holden answers that for those on the side without the hot-shots there is no game. Players on one side of a table see a game and players on the other see something else. | p. 452

@@ -1,0 +1,27 @@
+checker found no passage	term: Stake | The thing a player puts at risk in a contest, such as money, loyalty or standing. Oriard says a game is a contest by agreed rules for a particular stake. | p. xii
+checker found no passage	term: Handicap | A burden or advantage added to make a contest more even. Roosevelt used the word for social disadvantages he wished to remove so that the race of life could be run on equal terms. | p. 25
+checker found no passage	idea: Sport trains for other fields | Walter Camp described football as training for managers, and a British officer kicked a football toward the enemy in 1916. Writers treated the pitch as practice for war and business. Oriard shows how a game gets borrowed as a model for other work. | p. 13
+checker found no passage	term: Bluff | In poker, betting or acting as if your hand is higher-ranked than it is so that others give up. Oriard shows poker words like this spreading into everyday American speech through cheap Western novels. | p. 67
+checker found no passage	term: Ante | In poker, the small stake every player puts in before the cards are dealt, so that the pot holds something to play for. | p. 67
+checker found no passage	term: Raise | In poker, to bet more than the previous player so that the others have to match it or leave the hand. | p. 67
+checker found no passage	term: Call | In poker, to match another player's bet and ask to see the hands. | p. 67
+checker found no passage	term: Freeze-out | A poker game that goes on until one player has won all the money of the others. | p. 67
+checker found no passage	term: Busted flush | In poker, a hand that was close to a winning flush but did not complete. Western novels used it for a plan that failed. | p. 67
+checker found no passage	term: Faro | A nineteenth-century gambling card game played against a dealer, common in frontier gambling towns. | p. 65
+checker found no passage	term: Keno | A gambling game in which players choose numbers and win if their numbers are drawn. | p. 65
+checker found no passage	term: Gander pulling | A cruel frontier contest on horseback, listed by Oriard among the many activities that Southwestern humorists turned into contests. | p. 51
+checker found no passage	term: Amateur | A player who competes for the sake of the game and accepts a loss with courtesy. In a Western boys' story the hero's team loses to opponents called professional, who cheat. | p. 64
+checker found no passage	term: Mock-heroic | A style that describes a low act in lofty language. In a dime novel a man lures a turkey with a fake call and calls it the game of life. | p. 65
+checker found no passage	term: Stud poker | A form of poker in which some of each player's cards are dealt face down and some face up. A character in a Western tale uses it to say that Destiny always holds a hidden ace. | p. 80
+checker found no passage	term: Deep play | Clifford Geertz's term for play in which the stakes are so high that the risk is out of proportion to the gain. Oriard applies it to planters' horse racing and gambling, which acted out their sense that life is risky. | p. 84
+checker found no passage	term: Fire hunting | Hunting at night with a light that freezes or blinds the animal. Strict Southern gentlemen forbade it because it removed the animal's chance. | p. 85
+checker found no passage	term: Counter | A small token used to stand in for something in a game or to keep count. A novel's villain plays with human hopes and fears as his counters, treating people as pieces. | p. 97
+checker found no passage	term: Purse | The money offered as a prize for winning a race or contest. A novel's hero keeps sport for its own sake against those who want purses and side bets. | p. 110
+checker found no passage	term: Side bet | An extra bet made by spectators or players on the outcome of a contest, apart from the main prize. | p. 110
+checker found no passage	term: Game (spirited) | An old use of the word meaning pluck and willingness to keep going when losing. Cooke's soldiers who laugh in a hard winter are said to show evidence of game. | p. 114
+checker found no passage	term: Wicket | A small arch on a croquet lawn through which each ball has to pass in order. A character in My Wife and I says few girls make their own wickets in life. | p. 131
+checker found no passage	term: Table stakes | The amount of money a group agrees to play for. In Wharton's novel the bridge circle plays high, and a guest who will not match it is called priggish or stingy. | p. 141
+checker found no passage	idea: A game needs the opponent bound by the rules | In Puritan teaching God bound himself to a covenant, a contract with duties on both sides. Oriard says liberal preachers turned this into a God who agreed to the rules of a game. This is the idea behind the Virginian saying that God plays a square game. | p. 164
+checker found no passage	term: Errata | Franklin's word for his early faults, borrowed from printers' lists of errors. Oriard compares them to false moves in a game that have to be put right before going on. | p. 172
+checker found no passage	term: Corner | An attempt to buy nearly all the supply of a commodity so as to control its price. Philip Armour made his fortune by cornering pork before the Civil War. | p. 181
+checker found no passage	term: Margin operator | A trader who buys stocks with borrowed money. Frank Merriwell calls him merely a gambler, as opposed to the buyer who pays outright and holds sound securities. | p. 193

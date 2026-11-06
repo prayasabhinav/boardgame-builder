@@ -1,0 +1,5 @@
+checker found no passage	term: Pay to play | A business model where players pay over time to keep playing, such as a monthly fee or gambling. | p. 169
+checker found no passage	idea: Study can set a threshold | In chess there is a jump when a player starts studying openings, and playgroups split between those who do and those who do not. | p. 197
+checker found no passage	term: Cut scene | A passage in a computer game that tells the story while the player watches, outside play. | p. 218
+checker found no passage	term: Trick | One round in a card game where each player plays a card and one player takes all the cards played. | p. 274
+checker found no passage	term: Trump | A suit named to beat the other suits in a trick-taking card game. | p. 275

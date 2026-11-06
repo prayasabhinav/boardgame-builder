@@ -64,6 +64,7 @@ h3 { font-size: 1.05rem; margin: 1.2rem 0 0.4rem; }
 .mark.does-not-hold { background: #f6dcd8; color: var(--red); }
 .src { font: 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink3); margin-left: 0.4rem; }
 .src.drafted { color: var(--accent-dark); }
+.src.book { color: var(--ink2, var(--ink3)); }
 
 .filters { font-family: var(--font-ui); display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .filters a { display: inline-flex; align-items: center; height: 2rem; padding: 0 0.8rem; text-decoration: none; border: 1px solid var(--line); border-radius: 6px; background: #fff; font-size: 0.85rem; }

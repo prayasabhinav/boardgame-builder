@@ -84,10 +84,16 @@ def template_empty(canvas: dict) -> str:
     return ""
 
 
+def cite(entry: dict) -> str:
+    """The short citation after a sentence taken from a book, such as ' (Elias, Garfield and Gutschera, 2012, p. 87)'."""
+    s = entry.get("source")
+    return f" ({s['short']}, {s['page']})" if s else ""
+
+
 def template_pair(pair: dict) -> dict:
     """Return template fragments for one pair match."""
     return {
-        "tendency": pair["tendency"],
+        "tendency": pair["tendency"] + cite(pair),
         "pros": pair.get("pros", []),
         "cons": pair.get("cons", []),
         "exemplars": pair.get("exemplars", []),
@@ -107,7 +113,7 @@ def template_triad(triad: dict) -> dict:
 
 
 def template_conflict(conflict: dict) -> dict:
-    return {"elements": conflict["elements"], "student_note": conflict["student_note"]}
+    return {"elements": conflict["elements"], "student_note": conflict["student_note"] + cite(conflict)}
 
 
 def template_feeling_service(fs: dict) -> str:

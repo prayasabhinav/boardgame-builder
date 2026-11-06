@@ -1,0 +1,6 @@
+checker found no passage	term: Shmup | Short for shoot-em-up, a shooter that stays within a flat two-dimensional screen. Koster traces how Space Invaders, Galaga and others differ by small changes of shape. | p. 78
+checker found no passage	term: Easy fun | Lazzaro's name for the pleasure of exploring and playing around without hard demands. Koster lists it among her four clusters of emotion. | p. 90
+checker found no passage	term: Altered states | Lazzaro's cluster of emotions that come from changing how the player feels, apart from solving a problem. | p. 90
+checker found no passage	term: People factor | Lazzaro's cluster of emotions that come from other players. Koster counts it with the social pleasures that are not fun in his strict sense. | p. 90
+checker found no passage	term: Authorial intent | The designer's purpose in shaping what the player learns. Koster says games reach full maturity only when their rules are built to invoke chosen lessons. | p. 180
+checker found no passage	idea: Playing unlike games widens a person | Koster cites research that girls who played sports at age ten took more interest in maths later. He argues players gain by tackling games that do not suit their first preference. | p. 108

@@ -1,0 +1,9 @@
+checker found no passage	term: File | A column of squares on a chessboard, running in the direction the pieces face. | p. 13
+checker found no passage	term: Pips | The dots on a domino or a die. In dominoes they are added up for scoring. | p. 25
+checker found no passage	term: Squidge | In tiddlywinks, pressing the edge of a large disc on a small one so that the small one flies up and forward. | p. 35
+checker found no passage	idea: A forced move removes choice and creates traps | In checkers a player has to jump when a jump is open, and has to carry on jumping. A player can leave a piece where it will be taken, knowing the opponent is forced to take it and land somewhere that costs them. Forced moves make play predictable and that can be used. | p. 9
+checker found no passage	term: Rally | The run of hits back and forth after a serve, until someone fails to return the shuttle or commits a fault. | p. 218
+checker found no passage	term: Leg | In darts, one round from the starting total to zero. | p. 242
+checker found no passage	term: Face card | A jack, queen or king. In Beggar My Neighbour face cards and aces make the next player pay. | p. 268
+checker found no passage	term: Going around the corner | In some rummy games, allowing a sequence to run past the king into the ace and deuce, as in 2-A-K. | p. 314
+checker found no passage	term: Foundation | In solitaire, the piles built up from the aces, one for each suit. Klondike aims to move every card there. | p. 346

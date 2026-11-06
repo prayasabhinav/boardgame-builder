@@ -48,6 +48,7 @@
         <a href="#" class="k-header-link" id="saveGameLink" title="Download this design as a Markdown file you can open again later">Save game</a>
         <a href="#" class="k-header-link" id="openGameLink" title="Open a design saved earlier">Open game</a>
         <input type="file" id="openGameInput" accept=".md,text/markdown,text/plain" hidden />
+        <a href="#" class="k-header-link" id="classLink" title="Join your teacher's class, so they see any unusual pair you place">Join a class</a>
         <a href="#" class="k-header-link" id="startFreshLink" title="Clear saved design and start over">Start fresh</a>
       </div>
     </div>
@@ -116,6 +117,18 @@
     </section>
 
     <!-- Block info modal -->
+    <dialog class="class-dialog" id="classDialog">
+      <form id="classForm">
+        <h3>Join a class</h3>
+        <p>Your teacher gives you a code. Some pairs of blocks are unusual; you can still place them. While you are in the class, when your canvas has an unusual pair, your name, your blocks and the pair go to your teacher. Nothing is kept once the pair is gone, and a class ends after a day.</p>
+        <label>Class code <input id="classCode" required maxlength="5" autocomplete="off" spellcheck="false"></label>
+        <label>Your name <input id="className" required maxlength="60" autocomplete="name"></label>
+        <p class="class-error" id="classError" hidden></p>
+        <div class="class-actions"><button class="k-btn-primary" type="submit">Join</button><button class="k-btn-outline" type="button" id="classCancel">Cancel</button></div>
+        <p class="class-teach">Teaching? <a href="/teacher" target="_blank" rel="noopener">Open the teacher's page</a> to start a class.</p>
+      </form>
+    </dialog>
+
     <div class="block-modal" id="blockModal" hidden>
       <div class="block-modal-backdrop" id="blockModalBackdrop"></div>
       <div class="block-modal-card" role="dialog" aria-modal="true" aria-labelledby="blockModalTitle">
@@ -233,6 +246,7 @@
       <div class="panel-tabs">
         <button class="panel-tab active" data-tab="feedback" type="button">Feedback</button>
         <button class="panel-tab" data-tab="tests" type="button">Test parts</button>
+        <button class="panel-tab" data-tab="ideas" type="button">Ideas</button>
       </div>
 
       <div data-panel="tests" class="panel-pane" hidden>
@@ -245,6 +259,16 @@
           <div id="testsEmpty" class="tests-empty">Put blocks on the canvas. Tests for them appear here.</div>
           <div id="testsList"></div>
         </div>
+      </div>
+
+      <div data-panel="ideas" class="panel-pane" hidden>
+        <div class="feedback-header">
+          <span class="region-eyebrow">Ideas from books</span>
+          <h2 class="region-title">Words and ideas for designing games</h2>
+          <p class="region-hint">A glossary and the key ideas of the books the knowledge base draws on, in plain words, each with the book and page it comes from. Nobody has reviewed them yet.</p>
+          <input type="search" id="ideasSearch" class="ideas-search" placeholder="Find a word or idea" aria-label="Find a word or idea" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="feedback-scroll" id="ideasScroll"></div>
       </div>
 
       <div data-panel="feedback" class="panel-pane">

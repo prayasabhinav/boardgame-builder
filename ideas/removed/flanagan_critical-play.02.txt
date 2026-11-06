@@ -1,0 +1,9 @@
+checker found no passage	term: Pervasive game | A game that spreads out of the board or screen into ordinary life, so play happens in places and situations people already know. | p. 197
+checker found no passage	term: Alternate reality game | A game staged across the real world and media such as websites and phone calls, and treated by its players as part of ordinary life. The Beast and I Love Bees are named examples. | p. 197
+checker found no passage	term: Smart mob | A large group of people who coordinate through phones or the internet. Some urban games grow until they are about this size. | p. 198
+checker found no passage	term: Vignette | A short slice of a situation in place of a whole story. Bogost uses the word for Hush, set in one moment of the Rwandan war. | p. 242
+checker found no passage	term: Metonym | A part that stands for a whole. Frasca says games can work this way, to start talk about an issue, whether or not they model it exactly. | p. 248
+checker found no passage	term: Didactic | Built so openly to teach a lesson that little is left for the player to explore. | p. 249
+checker found no passage	term: Game engine | The software base a game runs on. Quest for Saddam used the engine of Duke Nukem 3D. | p. 238
+checker found no passage	term: Spawn | When a game makes a new character or object appear, as Fort Paladin's game keeps spawning the same soldiers to be killed again. | p. 233
+checker found no passage	term: Avatar | The figure on screen that a player controls. | p. 233

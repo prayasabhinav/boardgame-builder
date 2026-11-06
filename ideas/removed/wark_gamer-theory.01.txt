@@ -1,0 +1,6 @@
+checker found no passage	term: Military entertainment complex | Wark's name for the joined world of armed forces and the games and screen industries, which share technology and train people in the same habits of targeting and scoring. | p. 16
+checker found no passage	term: Expansion pack | An add-on sold after a game that gives it new content, such as new careers in The Sims. | p. 37
+checker found no passage	term: Civilopedia | The reference book inside Civilization III that explains its world. Wark uses it as a sign that the game works from a database. | p. 60
+checker found no passage	term: Cheat code | A shortcut that the game itself builds in, such as a code for extra weapons. Wark says it is part of the rules, so using it is not breaking them. | p. 96
+checker found no passage	term: Rail shooter | A shooting game where the player's character travels along a fixed path and the player only aims and fires. Rez is an example. | p. 104
+checker found no passage	term: God game | A game in which the player acts as creator over a whole world, such as SimEarth. | p. 165

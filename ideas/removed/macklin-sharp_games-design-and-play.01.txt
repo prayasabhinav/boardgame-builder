@@ -1,0 +1,4 @@
+checker found no passage	term: Play experience | What the players go through while playing. The authors use this phrase and gameplay for the same thing. | p. xvi
+checker found no passage	idea: Expressive games may limit choice to say something | Queers in Love at the End of the World gives ten seconds and a timer. The choices matter less than what the countdown says about unspoken feelings. Deadbolt is a conversation game with no winner, where players answer questions about each other. | p. 72
+checker found no passage	idea: How the world is seen shapes what the player does | Hugpunx is a flat view with three actions: left, right and hug. Thirty Flights of Loving is 3D but gives two doors at a time. Journey opens the world wide and keeps a mountain in sight. Each view changes what players attend to. | p. 85
+checker found no passage	term: Game jam | A short event where people make a game against a deadline, often under a theme or limit. | p. 174

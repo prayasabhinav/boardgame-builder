@@ -1,0 +1,39 @@
+# Pairs from the first read sheet that are illogical, not only unusual (6 November 2026, his words: "More than unusual the scale and flag should be for the illogical").
+# The test: can both blocks be true of the same game at the table? Each of the 91 pattern-read r keys was read against it; these 35 fail it.
+# The other 56 r keys are unusual (the partner brings what the core mechanic lacks, such as a story or a hand) or redundant (both say the same thing), and train as fine.
+# Read by Claude under the pattern-read exception for this model; a key of Prayas's outranks any line here.
+capture-and-convert+playing-alone
+betting-on-a-throw+chance-with-mitigation
+chance-alone-decides+no-turns
+betting-on-your-hand+attunement
+other-player-has-a-say+no-turns
+handicap+beat-the-layout
+pie-rule+beat-the-layout
+ask-for-cards+attunement
+matching-open-ends+everyone-at-once
+split-your-forces+playing-alone
+passing-cards+full-information
+other-player-has-a-say+indirect-via-board
+calling-a-contract+indirect-via-board
+scoring-cards+narrative-completion
+other-player-has-a-say+solo-in-parallel
+shared-pot+cooperative-survival
+bidding+beat-the-layout
+betting-on-your-hand+no-objective
+two-games-at-once+beat-the-layout
+doubling-the-stakes+keep-the-game-going
+landing-sends-back+attunement
+dexterity+playing-by-letter
+bet-against-the-bank+skill-with-luck-tempering
+bet-against-the-bank+shared-objective
+shared-cards+fewest-points
+chance-alone-decides+rules-you-discover
+chance-alone-decides+shared-objective
+passing-a-message+full-information
+area-control+solo-in-parallel
+negotiation+solo-in-parallel
+pie-rule+shared-objective
+spare-hand+full-information
+chase-and-tag+extra-turn
+betting-on-your-hand+full-information
+chase-and-tag+take-turns

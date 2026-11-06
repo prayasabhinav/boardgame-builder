@@ -1,0 +1,355 @@
+{
+ "about": "What is illogical about a pair, written down: 'makes' says what a core mechanic makes or settles, and a partner block 'clashes' with a property when the two cannot both be true of one game at the table. Only contradictions are listed; a partner that brings what the core mechanic lacks (a story, a hand of cards) is unusual, not illogical, and is not flagged (his words, 6 November 2026: 'More than unusual the scale and flag should be for the illogical'). For this model only, on his word: 'Use the read of the patterns that emerges - not possible fore to key', 'It is not a rule, ot holds for this case, this model'.",
+ "phrases": {
+  "others": "needs other players",
+  "opponent": "sets players against each other",
+  "attacks": "has players act against each other",
+  "talks": "has players answer each other directly",
+  "direct": "has players act on each other directly",
+  "pays-one": "pays a winner",
+  "outright": "decides a winner outright",
+  "high-wins": "lets the highest set win",
+  "nochoice": "leaves players no choices",
+  "throw": "lets a throw decide the outcome",
+  "throw-fixed": "lets nobody steer the throw",
+  "decided": "is settled by the cards or the throw",
+  "nochance": "has no chance in it",
+  "hidden": "keeps something hidden",
+  "live": "runs with everyone moving at once",
+  "turn-bound": "is built on turns taken one at a time",
+  "body": "is played by bodies moving"
+ },
+ "makes": {
+  "roll-and-move": [
+   "decided"
+  ],
+  "drafting": [],
+  "bidding": [
+   "others"
+  ],
+  "push-your-luck": [],
+  "area-control": [
+   "others",
+   "opponent",
+   "attacks"
+  ],
+  "worker-placement": [],
+  "pattern-building": [],
+  "hand-management": [],
+  "trick-taking": [],
+  "negotiation": [
+   "others",
+   "talks"
+  ],
+  "set-collection": [],
+  "tile-placement": [],
+  "call-and-response": [],
+  "playing-in-silence": [],
+  "change-the-rules": [],
+  "role-play": [],
+  "dexterity": [
+   "body"
+  ],
+  "drawing-the-map": [],
+  "ask-for-cards": [
+   "others",
+   "direct",
+   "decided",
+   "hidden"
+  ],
+  "bet-against-the-bank": [
+   "pays-one",
+   "throw",
+   "decided"
+  ],
+  "betting-on-a-throw": [
+   "pays-one",
+   "throw",
+   "throw-fixed",
+   "decided"
+  ],
+  "betting-on-your-hand": [
+   "pays-one",
+   "decided",
+   "hidden"
+  ],
+  "build-your-own-side": [],
+  "calling-a-contract": [
+   "direct"
+  ],
+  "capture-and-convert": [
+   "others",
+   "opponent",
+   "attacks",
+   "nochance"
+  ],
+  "capture-and-rescue": [
+   "others",
+   "opponent",
+   "attacks",
+   "body"
+  ],
+  "capture-by-surrounding": [
+   "others",
+   "opponent",
+   "attacks",
+   "nochance"
+  ],
+  "catch-up-help": [],
+  "chance-alone-decides": [
+   "nochoice",
+   "throw",
+   "decided"
+  ],
+  "chase-and-tag": [
+   "others",
+   "opponent",
+   "attacks",
+   "direct",
+   "live",
+   "body"
+  ],
+  "choose-your-target": [
+   "others",
+   "direct"
+  ],
+  "connection": [
+   "others",
+   "opponent",
+   "outright",
+   "nochance"
+  ],
+  "counter-cycle": [
+   "others",
+   "opponent"
+  ],
+  "declaring-combinations": [],
+  "different-powers": [],
+  "doubling-the-stakes": [
+   "others",
+   "opponent",
+   "pays-one"
+  ],
+  "forced-capture": [],
+  "grow-stronger": [],
+  "growing-list": [],
+  "handicap": [
+   "others"
+  ],
+  "hide-and-find": [
+   "hidden"
+  ],
+  "jumping-over-pieces": [],
+  "keep-and-reroll": [],
+  "landing-sends-back": [
+   "others",
+   "opponent",
+   "attacks",
+   "decided"
+  ],
+  "make-a-row-take-a-piece": [
+   "others",
+   "opponent",
+   "attacks",
+   "nochance"
+  ],
+  "making-words": [],
+  "matching-open-ends": [
+   "turn-bound"
+  ],
+  "melding": [],
+  "one-use-powers": [],
+  "other-player-has-a-say": [
+   "others",
+   "opponent",
+   "talks",
+   "direct",
+   "turn-bound"
+  ],
+  "passing-a-message": [
+   "hidden"
+  ],
+  "passing-cards": [
+   "hidden"
+  ],
+  "pie-rule": [
+   "others",
+   "opponent",
+   "nochance"
+  ],
+  "promotion": [],
+  "relay": [
+   "outright",
+   "live",
+   "body"
+  ],
+  "safe-shape": [
+   "others",
+   "opponent",
+   "nochance"
+  ],
+  "scoring-cards": [],
+  "shared-cards": [
+   "high-wins"
+  ],
+  "shared-pot": [
+   "pays-one"
+  ],
+  "sowing-seeds": [],
+  "spare-hand": [
+   "hidden"
+  ],
+  "special-squares": [],
+  "spend-to-use": [],
+  "split-your-forces": [
+   "others",
+   "opponent"
+  ],
+  "stop-on-a-signal": [
+   "live",
+   "body"
+  ],
+  "swapping-cards": [],
+  "taking-the-pile": [],
+  "trump-suit": [],
+  "two-games-at-once": [
+   "others",
+   "opponent",
+   "outright"
+  ],
+  "wild-cards": [],
+  "wraparound-board": [],
+  "yes-or-no-questions": [
+   "hidden"
+  ]
+ },
+ "partners": {
+  "playing-alone": {
+   "clashes": [
+    "others"
+   ]
+  },
+  "beat-the-layout": {
+   "clashes": [
+    "others"
+   ]
+  },
+  "solo-in-parallel": {
+   "clashes": [
+    "opponent",
+    "talks"
+   ]
+  },
+  "fully-cooperative": {
+   "clashes": [
+    "opponent",
+    "pays-one"
+   ]
+  },
+  "cooperative-survival": {
+   "clashes": [
+    "opponent",
+    "pays-one"
+   ]
+  },
+  "shared-objective": {
+   "clashes": [
+    "opponent",
+    "pays-one",
+    "nochoice"
+   ]
+  },
+  "no-objective": {
+   "clashes": [
+    "pays-one",
+    "outright"
+   ]
+  },
+  "keep-the-game-going": {
+   "clashes": [
+    "pays-one",
+    "outright"
+   ]
+  },
+  "fewest-points": {
+   "clashes": [
+    "high-wins"
+   ]
+  },
+  "indirect-via-board": {
+   "clashes": [
+    "direct",
+    "attacks"
+   ]
+  },
+  "playing-by-letter": {
+   "clashes": [
+    "body"
+   ]
+  },
+  "mostly-chance": {
+   "clashes": [
+    "nochance"
+   ]
+  },
+  "chance-with-mitigation": {
+   "clashes": [
+    "throw-fixed",
+    "nochance"
+   ]
+  },
+  "skill-with-luck-tempering": {
+   "clashes": [
+    "throw",
+    "nochoice"
+   ]
+  },
+  "mostly-skill": {
+   "clashes": [
+    "throw",
+    "nochoice"
+   ]
+  },
+  "attunement": {
+   "clashes": [
+    "decided"
+   ]
+  },
+  "full-information": {
+   "clashes": [
+    "hidden"
+   ]
+  },
+  "rules-you-discover": {
+   "clashes": [
+    "nochoice"
+   ]
+  },
+  "take-turns": {
+   "clashes": [
+    "live"
+   ]
+  },
+  "extra-turn": {
+   "clashes": [
+    "live"
+   ]
+  },
+  "timed-turns": {
+   "clashes": [
+    "live"
+   ]
+  },
+  "no-turns": {
+   "clashes": [
+    "turn-bound",
+    "nochoice"
+   ]
+  },
+  "everyone-at-once": {
+   "clashes": [
+    "turn-bound"
+   ]
+  }
+ }
+}

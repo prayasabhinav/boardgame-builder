@@ -8,12 +8,13 @@
   <p class="meta">{% if e.kind != 'game' %}<span class="src {{ e.source }}">{{ e.source }}</span> {{ STATUS_WORDS.get(e.status, e.status) }} {% endif %}{{ marks(e.key, states) }}</p>
   {% if e.svg %}<div class="drawing">{{ e.svg|safe }}</div>{% endif %}
   {% if e.group %}<p class="aside">In the group {{ e.group }}.</p>{% endif %}
-  {% if e.credit %}<p class="aside">Idea from {{ e.credit }}.</p>{% endif %}
+  {% if e.credit %}<p class="aside">{{ 'From the rule books: ' if e.source == 'book' else 'Idea from ' }}{{ e.credit }}.</p>{% endif %}
   {% if e.edits %}<p class="aside">Changed on the wiki: {% for x in e.edits %}by {{ x.user_name }}{% if x.user_handle %} (@{{ x.user_handle }}){% endif %}, approved {{ x.decided|day }} ({{ x.evidence }}){% if not loop.last %}; {% endif %}{% endfor %}.{% if e.tool_text != current %} The tool still has the earlier text.{% endif %}</p>
   {% if e.tool_text != current %}<details><summary>The text the tool has now</summary><pre class="was">{{ e.tool_text }}</pre></details>{% endif %}{% endif %}
   {% if e.proposal %}<p class="aside">Proposed by {{ e.proposal.user_name }}{% if e.proposal.user_handle %} (<a href="https://github.com/{{ e.proposal.user_handle }}">@{{ e.proposal.user_handle }}</a>){% endif %} on {{ e.proposal.created|day }} and approved on {{ e.proposal.decided|day }}. It is not in the tool yet. How they know: {{ e.proposal.evidence }}</p>{% endif %}
 
   <p class="text">{{ e.text }}</p>
+  {% if e.cite %}<p class="aside">From {{ e.cite }}.{% if e.reference %} {{ e.reference }}{% endif %}</p>{% endif %}
   {% if e.kind == 'game' %}{% set g = e.game %}
   <ul class="gamemeta"><li><span>Time</span>{{ g.duration }}</li><li><span>Players</span>{{ g.players }}</li></ul>
   <p class="aside">From {{ g.parent_game }}.</p>
@@ -46,11 +47,17 @@
   </div>
   {% endif %}
 
+  {% if e.also %}
+  <h3>What the books say about this pair{% if e.source == 'book' %} besides{% endif %}</h3>
+  {% for a in e.also %}<div class="panel"><p>{{ a.text }} <span class="aside">({{ a.cite }})</span></p>
+    <ul>{% for x in a.pros %}<li>+ {{ x }}</li>{% endfor %}{% for x in a.cons %}<li>− {{ x }}</li>{% endfor %}</ul></div>{% endfor %}
+  {% endif %}
+
   {% if e.kind in ('pair', 'triad') %}
   <h3>Example games</h3>
   {% if e.exemplars %}
   <ul>{% for g in e.exemplars %}<li>{{ g }}{% if g in e.unconfirmed %} <span class="aside">(unconfirmed)</span>{% endif %}</li>{% endfor %}</ul>
-  {% else %}<p class="aside">None named. {% if e.source == 'drafted' %}Drafted entries name no games until one has been checked.{% endif %}</p>{% endif %}
+  {% else %}<p class="aside">None named. {% if e.source == 'drafted' %}Drafted entries name no games until one has been checked.{% elif e.source == 'book' %}The game the book describes is named in the text above.{% endif %}</p>{% endif %}
   {% if e.checks %}
   <details><summary>How the games were checked against BoardGameGeek</summary>
     <ul class="checks">{% for c in e.checks %}<li><a href="{{ c.bgg }}">{{ c.game }}</a>: {{ c.result }}.{% for b, v in c.verdicts.items() %} {{ C.display.get(b, b) }}: {{ v }}.{% endfor %}</li>{% endfor %}</ul>

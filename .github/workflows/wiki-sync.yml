@@ -40,14 +40,14 @@ jobs:
         if: github.event_name != 'push'
         run: python wiki/pull.py "${{ vars.WIKI_URL }}" | tee pull.log
 
-      - name: Build the drafted entries and check every combination
-        run: python drafted/build.py && python check.py
+      - name: Build the drafted entries, the book entries, the Ideas and the illogical-pair flags, and check every combination
+        run: python drafted/build.py && python kb-books/build.py && python ideas/build.py && python review-model/rules.py && python check.py
 
       - name: Commit what changed
         id: commit
         if: github.event_name != 'push'
         run: |
-          git add interactions.json interactions-drafted.json drafted block_meta.py games.json wiki-applied.json
+          git add interactions.json interactions-drafted.json drafted block_meta.py book-blocks.json games.json wiki-applied.json kb-books interactions-books.json ideas ideas.json review.json
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
@@ -63,7 +63,7 @@ jobs:
         env:
           CAPROVER_URL: ${{ vars.CAPROVER_URL }}
         run: |
-          tar -cf tool.tar Dockerfile captain-definition requirements.txt VERSION app.py block_meta.py bridges.py known_games.py palette.py site_config.py rules.py templates.py interactions.json interactions-drafted.json block-questions.json part-tests.json games.json static
+          tar -cf tool.tar Dockerfile captain-definition requirements.txt VERSION app.py block_meta.py bridges.py known_games.py palette.py site_config.py rules.py templates.py interactions.json interactions-drafted.json interactions-books.json book-blocks.json ideas.json review.json block-questions.json part-tests.json games.json static
           wiki/make-caprover-tar.sh
           npx --yes caprover@2.4.4 deploy --caproverUrl "$CAPROVER_URL" --appName "${{ vars.TOOL_APP }}" --appToken "${{ secrets.TOOL_APP_TOKEN }}" --tarFile tool.tar
           npx --yes caprover@2.4.4 deploy --caproverUrl "$CAPROVER_URL" --appName "${{ vars.WIKI_APP }}" --appToken "${{ secrets.WIKI_APP_TOKEN }}" --tarFile wiki/wiki.tar

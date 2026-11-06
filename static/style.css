@@ -1890,3 +1890,32 @@ button.slot-config:disabled { cursor: default; }
 .play-reply-q { display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 14.5px; }
 .play-reply-q textarea, .play-reply-text { width: 100%; box-sizing: border-box; padding: 8px 10px; font-family: var(--font-body); font-size: 14px; border: 1px solid var(--surface-border); border-radius: 4px; color: var(--ink); }
 .play-reply-text { margin-top: 12px; min-height: 9rem; font-family: var(--font-mono); font-size: 12px; }
+
+/* ── Unusual pairs and the class dialog (6 November 2026) ── */
+.block.unusual { outline: 2px dashed var(--state-examine); outline-offset: 2px; }
+.block.unusual::after { content: "unusual"; position: absolute; top: -0.7em; right: 0.4em; padding: 0 0.3em; font: 600 0.62rem var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--state-examine); background: var(--surface); }
+.class-dialog { margin: auto; max-width: min(30rem, calc(100vw - 2rem)); border: 1px solid var(--surface-border); border-radius: 6px; padding: 1.4rem; background: var(--surface); color: var(--ink); font-family: var(--font-body); }
+.class-dialog::backdrop { background: rgba(45, 52, 54, 0.5); }
+.class-dialog h3 { margin: 0 0 0.6rem; font-family: var(--font-display); }
+.class-dialog p { margin: 0 0 0.9rem; line-height: 1.45; }
+.class-dialog label { display: block; margin-bottom: 0.7rem; font-family: var(--font-label); font-size: 0.9rem; }
+.class-dialog input { display: block; width: 100%; box-sizing: border-box; margin-top: 0.25rem; padding: 0.45rem 0.55rem; font: inherit; border: 1px solid var(--surface-border); border-radius: 4px; }
+.class-dialog #classCode { text-transform: uppercase; letter-spacing: 0.15em; font-family: var(--font-mono); }
+.class-actions { display: flex; gap: 0.6rem; margin-bottom: 0.9rem; }
+.class-error { color: var(--accent); }
+.class-teach { font-size: 0.85rem; color: var(--ink3); }
+
+/* ── Ideas tab (6 November 2026) ── */
+.ideas-search { width: 100%; box-sizing: border-box; margin-top: 0.7rem; padding: 0.45rem 0.6rem; font: inherit; border: 1px solid var(--surface-border); border-radius: 4px; background: var(--surface); }
+.ideas-section { margin-bottom: 1.6rem; }
+.ideas-heading { color: var(--ink); font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 0.5rem; }
+.ideas-letters { display: flex; flex-wrap: wrap; gap: 0.25rem 0.55rem; margin-bottom: 0.6rem; font-family: var(--font-mono); font-size: 0.8rem; }
+.ideas-letter { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.1em; color: var(--ink3); margin: 1rem 0 0.3rem; scroll-margin-top: 0.5rem; }
+.ideas-entry { margin: 0 0 0.6rem; line-height: 1.5; color: var(--ink); font-size: 0.95rem; }
+.ideas-cite, .ideas-ref { color: var(--ink3); font-size: 0.88em; }
+.ideas-ref { margin: 0 0 0.4rem; }
+.ideas-again { margin-left: 1rem; margin-top: -0.3rem; }
+
+/* Blocks added from the rule books on 6 November 2026, tentative until tried in a class */
+.block-sub { flex-basis: 100%; margin: 0.4rem 0 0; font-size: 0.72rem; color: var(--ink3, #777); letter-spacing: 0.02em; }
+.block.tentative .block-label { font-style: italic; }

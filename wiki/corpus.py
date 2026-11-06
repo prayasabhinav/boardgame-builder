@@ -9,6 +9,9 @@ what a check is recorded against:
   conflict:<a>+<b>      a clash between two blocks     theme:<id>           a theme line
   link:<feeling>:<id>   whether a block supports a feeling, works against it, or neither
   game:<id>             a known game: rules to play with things at hand, and the blocks it is made of
+  term:<short>: <name>  a glossary term on the Ideas tab   idea:<short>: <name>  a key idea on the Ideas tab
+
+Pairs come from three places, and the wiki shows the one the tool uses: curated first, then a book's, then drafted.
 """
 import json
 import os
@@ -32,9 +35,12 @@ KINDS = {
     "theme": "Theme line",
     "link": "Feeling and block",
     "game": "Known game",
+    "term": "Glossary term",
+    "idea": "Key idea",
 }
 PLURAL = {"block": "Blocks", "feeling": "Feelings", "pair": "Pairs", "triad": "Triads", "conflict": "Conflicts",
-          "theme": "Theme lines", "link": "Feelings and blocks", "game": "Known games"}
+          "theme": "Theme lines", "link": "Feelings and blocks", "game": "Known games",
+          "term": "Glossary terms", "idea": "Key ideas"}
 
 
 def _load(name):
@@ -47,6 +53,12 @@ def link_text(feeling, block, judgement, display):
     return f"{display[block]} {verb} the feeling {display.get(feeling, feeling)}."
 
 
+def cite(entry):
+    """Where a book's entry comes from, as the tool's feedback cites it: short form and page."""
+    src = entry.get("source")
+    return f"{src['short']}, {src['page']}" if isinstance(src, dict) else ""
+
+
 def _key(kind, elements):
     return f"{kind}:" + "+".join(sorted(elements))
 
@@ -54,6 +66,8 @@ def _key(kind, elements):
 def load():
     curated = _load("interactions.json")
     drafted = _load("interactions-drafted.json")
+    books = _load("interactions-books.json")
+    ideas = _load("ideas.json")
     verdicts = _load("drafted/bgg-verdicts.json")
 
     groups, display, group_of = [], {}, {}
@@ -73,7 +87,8 @@ def load():
 
     for bid, name in group_of.items():
         meta = meta_for(bid)
-        add(f"block:{bid}", "block", display[bid], "curated", "written-for-the-tool",
+        add(f"block:{bid}", "block", display[bid], "book" if meta.get("tentative") else "curated",
+            "tentative-20261106" if meta.get("tentative") else "written-for-the-tool",
             group=name, text=meta["description"], svg=meta["svg"], elements=[bid], credit=meta.get("credit"))
 
     for fb in curated["feeling_blocks"]:
@@ -85,19 +100,28 @@ def load():
     for v in verdicts:
         games.setdefault(_key(v["kind"], v["elements"]), []).append(v)
 
-    for kind, items, source in (("pair", curated["pairs"], "curated"), ("triad", curated["triads"], "curated"),
-                                ("pair", drafted["pairs"], "drafted")):
+    # Later wins for one key, so drafted, then a book's (its first entry for the pair), then curated: the one the tool uses.
+    # A pair's other book entries are kept with it, as `also`.
+    also = {}
+    for p in books["pairs"]:
+        also.setdefault(_key("pair", p["elements"]), []).append(
+            {"text": p["tendency"], "pros": p["pros"], "cons": p["cons"], "cite": cite(p)})
+    for kind, items, source in (("pair", drafted["pairs"], "drafted"), ("pair", books["pairs"][::-1], "book"),
+                                ("pair", curated["pairs"], "curated"), ("triad", curated["triads"], "curated")):
         for p in items:
             key = _key(kind, p["elements"])
             add(key, kind, " + ".join(display[e] for e in p["elements"]), source, p["verification_status"],
                 elements=p["elements"], text=p["tendency"], pros=p["pros"], cons=p["cons"],
                 exemplars=p.get("exemplars", []), removed=p.get("exemplars_removed", []),
                 unconfirmed=p.get("exemplars_unconfirmed", []), tension=p.get("tension_note"),
-                checks=games.get(key, []))
+                checks=games.get(key, []), cite=cite(p), reference=(p.get("source") or {}).get("ref", "") if isinstance(p.get("source"), dict) else "")
+            entries[key]["also"] = [a for a in also.get(key, []) if a["cite"] != entries[key]["cite"]]
 
-    for c in curated["conflicts"]:
+    for c in curated["conflicts"] + books["conflicts"]:
         add(_key("conflict", c["elements"]), "conflict", " against ".join(display[e] for e in c["elements"]),
-            "curated", "written-for-the-tool", elements=c["elements"], text=c["student_note"], note=c["note"])
+            "book" if c.get("source") else "curated", c.get("verification_status", "written-for-the-tool"),
+            elements=c["elements"], text=c["student_note"], note=c["note"] if not c.get("source") else None, cite=cite(c),
+            reference=c["source"]["ref"] if c.get("source") else "")
 
     for t in drafted["themes"]:
         add(f"theme:{t['theme']}", "theme", display[t["theme"]], "drafted", t["verification_status"],
@@ -125,6 +149,16 @@ def load():
         add(f"game:{g['id']}", "game", g["title"], "curated", "known-game", text=g["intro"], game=g,
             elements=[b for v in g["design"].values() for b in (v if isinstance(v, list) else [v])],
             checks=[v for v in verdicts if v["kind"] == "known game" and v["game"] == g.get("bgg")])
+
+    refs = {r.split(" (")[0]: r for r in ideas["references"]}
+    for kind, items in (("term", ideas["terms"]), ("idea", ideas["ideas"])):
+        for i in items:
+            key = f"{kind}:{i['short']}: {i['name']}"
+            n = 2
+            while key in entries:  # a book that names one term in two places keeps both
+                key, n = f"{kind}:{i['short']}: {i['name']} ({n})", n + 1
+            add(key, kind, i["name"], "book", "checked-against-book-20261106", text=i["text"], elements=[],
+                cite=f"{i['short']}, {i['page']}", reference=next((r for a, r in refs.items() if r.startswith(i["short"].split(",")[0])), ""))
 
     for e in entries.values():
         e["search"] = " ".join([e["title"], e["text"], *e.get("pros", []), *e.get("cons", [])]).lower()

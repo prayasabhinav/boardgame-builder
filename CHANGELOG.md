@@ -4,6 +4,16 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.16.0 — 6 November 2026
+
+- Unusual pairs are marked. If the knowledge base says two blocks on the canvas pull against each other, both are marked *unusual*, and hovering shows why. A palette block that would make such a pair is marked before it is dropped. Nothing stops anyone placing them.
+- Other pairs are marked too, when the two blocks cannot both be true of one game; being new or unusual is not a reason. 194 of the 5,688 pairs of a core mechanic with another block are marked, each with its reason, such as *chase and tag runs with everyone moving at once, and take turns says otherwise*, and a score out of 10 for how likely a look is needed: 2, 5 or 8. The reasons come from a table of what each core mechanic makes or settles, and which blocks say otherwise (`review-model/properties.json`). The score comes from a small model trained on that table and on keyed pairs, none of them from known games, so a new pair scores no higher for being new; among keyed pairs it had not seen, none of those scored 2 were illogical and 94% of those scored 8 were.
+- Feedback from books. Six books on games and their rules give 476 entries for pairs of blocks. Each is put in plain words and cites its book and page, such as *(Elias, Garfield and Gutschera, 2012, p. 275)*. A curated entry still comes first, then a book's, then a drafted one.
+- An **Ideas** tab beside the feedback. It holds an alphabetical glossary of 3,102 terms and 3,366 key ideas from 25 books on play and games, each with its book and page or chapter. It has a search box, and the list of books comes at the end. Every line was checked against its book, and 257 that could not be traced to a passage were set aside.
+- 65 blocks from the rule books, among them a trump suit, sowing seeds, chase and tag and the pie rule. Each has its **?** text and drawing. Until they have been tried in a class they sit at the end of their group, under *From the rule books, tentative*. Every pair they make has a drafted entry.
+- All of this is on the wiki. The book entries show their pages, and a pair's page also shows what every other book says about that pair. The tentative blocks are there, and so is every glossary term and key idea. When a change is approved on the wiki, it is written back into the book's file, the Ideas file or `book-blocks.json`, and the page reference is kept.
+- Teaching remotely. A teacher opens `/teacher` and starts a class, which gives a code. Students press **Join a class** in the header and type the code and their name. While a student's canvas holds an unusual pair, the teacher's page shows their name, the pair and their blocks. The server keeps this in memory and never writes it to disk. It is gone once the pair leaves the canvas or the class ends, and after a day at the latest.
+
 ## 0.15.0 — 31 October 2026
 
 - All or Nothing can be played in the browser on Tabletopia: its card in Known games links there, under *Play it online*.

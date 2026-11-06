@@ -1,0 +1,5 @@
+checker found no passage	term: Win condition | The state of play that ends a game and names a winner. Burgun says a system with no reachable win condition, such as survival with no time limit, cannot be a contest. | p. 4
+checker found no passage	term: Tech tree | A chart of what has to be built or researched first before a stronger unit is allowed. In StarCraft it adds a time cost on top of the resource cost. | p. 38
+checker found no passage	term: Open information | A state where all players know all the rules and can see everything about the current position, as in chess. Game theory has its own name for this: full information. | p. 43
+checker found no passage	term: Hidden information | A state where part of the position is out of sight, as with fog of war or a limited field of view. | p. 44
+checker found no passage	term: Positional game | One of R. C. Bell's six ancient groups, in which the placing of pieces on a board decides play. | p. 64

@@ -59,6 +59,10 @@ STATUS_WORDS = {
     "perplexity-bgg-verified": "assembled in April 2026; its example game was named then and not checked since",
     "perplexity-flagged-check": "assembled in April 2026 and flagged for checking",
     "drafted-20261016-unreviewed": "written on 16 October 2026 and not yet reviewed",
+    "drafted-20261106-unreviewed": "written on 6 November 2026 for a block added from the rule books, and not yet reviewed",
+    "book-20261106-unreviewed": "taken from a book on 6 November 2026, with its page, and not yet reviewed",
+    "checked-against-book-20261106": "taken from a book on 6 November 2026; someone who did not write it found the passage it rests on",
+    "tentative-20261106": "a block added from the rule books on 6 November 2026, tentative until it has been tried in a class",
     "proposed-approved": "proposed by someone using the wiki and approved by an editor; not yet in the tool",
     "wiki-approved": "proposed on the wiki, approved by an editor, and added to the tool",
     "known-game": "a known game in the tool, to play with things at hand",
@@ -72,6 +76,8 @@ PROPOSAL_KINDS = {
 JUDGEMENTS = ["supports", "works against", "neither"]
 # The tool's feedback describes tendencies and leaves judging to the designer; its build refuses these words
 # (drafted/build.py), so a proposal carrying them is refused here before an editor has to read it.
+# A book's own word in single quotes, and these names of kinds of game, are not verdicts (ideas/build.py does the same)
+TERMS_OF_ART = re.compile(r"'[^']*'|\b(im)?perfect information\b|\bbest of (three|five|seven|several)\b", re.I)
 VERDICT_WORDS = re.compile(r"\b(should|must|good|bad|better|worse|best|worst|great|well done|amazing|perfect|excellent|awesome)\b", re.I)
 
 # --- Records ----------------------------------------------------------------
@@ -403,7 +409,7 @@ async def propose(request: Request, kind: str = Form(...), blocks: list[str] = F
 def text_problem(text, pros, cons, games, evidence):
     if not text or not evidence or max(map(len, (text, pros, cons, games, evidence))) > 4000:
         return "A proposal needs its text and how you know (up to 4,000 characters each)."
-    words = sorted({w.lower() for w in VERDICT_WORDS.findall(" ".join((text, pros, cons)))})
+    words = sorted({w.lower() for w in VERDICT_WORDS.findall(TERMS_OF_ART.sub("", " ".join((text, pros, cons))))})
     if words:
         return ("The entries describe what a combination tends to do and leave the judging to the designer, so they "
                 "avoid words like " + ", ".join(f"'{w}'" for w in words) + ". Say what happens instead.")
@@ -434,15 +440,15 @@ async def edit(request: Request, key: str, text: str = Form(""), pros: str = For
     if not user:
         raise HTTPException(403, "Sign in to propose a change.")
     text, evidence = text.strip(), evidence.strip()
-    if e["source"] == "drafted":
+    if e["source"] in ("drafted", "book") or e["kind"] in ("term", "idea"):
         games = ""  # drafted entries name no games until one has been checked and the entry moves to the curated part
     if e["kind"] == "link":
         error = "" if judgement in JUDGEMENTS and evidence else "Choose the judgement and say how you know."
         text = corpus.link_text(*e["elements"], judgement, C["display"]) if not error else text
     else:
         error = text_problem(text, pros, cons, games, evidence)
-        if not error and e["source"] == "drafted" and e["kind"] == "pair" and (len(lines(pros)), len(lines(cons))) != (2, 2):
-            error = "Drafted pairs keep exactly two points for what it brings and two for what it costs."
+        if not error and e["source"] in ("drafted", "book") and e["kind"] == "pair" and (len(lines(pros)), len(lines(cons))) != (2, 2):
+            error = "Drafted pairs and pairs from books keep exactly two points for what it brings and two for what it costs."
     if not error and (text, lines(pros), lines(cons), lines(games), judgement) == (
             e["text"], e.get("pros", []), e.get("cons", []), e.get("exemplars", []), e.get("judgement", "")):
         error = "Nothing was changed."

@@ -1,0 +1,5 @@
+checker found no passage	term: Pari-mutuel | A betting system in which all stakes go into one pool and the winners share it, less the organiser's cut. Racecourses use it. | p. 41
+checker found no passage	term: Greasy pole | A game of climbing a slippery pole to reach a prize at the top. Caillois links it to old myths of climbing to the sky. | p. 59
+checker found no passage	term: Hopscotch | A game of hopping through a drawn pattern while pushing a stone. Caillois says it once stood for a labyrinth the soul had to cross, and later for the floor plan of a church. | p. 59
+checker found no passage	term: Aleatory | Relating to chance. Caillois uses the word for anything where the result comes from fate and not from effort. | p. 66
+checker found no passage	term: Banker | The person who runs a gambling game, takes bets and pays out. Caillois says the banker alone is protected from loss by the law of averages. | p. 148

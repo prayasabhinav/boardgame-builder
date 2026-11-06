@@ -1,0 +1,5 @@
+checker found no passage	term: Willingness to play | The state of being ready to play a particular game with particular people. It cannot be forced, and a failed game can wear it down. | ch. 2
+checker found no passage	term: Quitting practice | Players deliberately quit now and then to learn how it feels and to remove the idea that it says something about character. | ch. 6
+checker found no passage	idea: A rule often looks fixed until a player tests it | Some rules sit in larger conventions and are never stated, such as starting on an empty board. DeKoven suggests breaking a suspected rule openly and seeing what happens. | ch. 5
+checker found no passage	idea: A prelude adds to the anticipation of the main action | In lemonade the call and response and miming come before a chase. DeKoven says the main pleasure is in the chase, and the earlier steps heighten it. | ch. 7
+checker found no passage	idea: Starting from a simple object opens many games | In the appendix, DeKoven asks what a marble is and lists dropping, rolling, launching, spooning, mazes and water drops. Each change of object, surface or goal gives another game. | ch. 11

@@ -1,0 +1,11 @@
+checker found no passage	term: Back game | A backgammon plan of letting the opponent hit many of your pieces on purpose, then holding points deep in their home table to hit them later. | p. 22
+checker found no passage	term: Jackpot (Hearts) | A separate pot in Heart Jackpot that grows each deal and goes to the first player who takes no Hearts. | p. 113
+checker found no passage	term: Double (domino) | A domino with the same number on both halves. | p. 185
+checker found no passage	term: Pung | In Mahjong, claiming a discarded tile to make three of a kind, which is then shown face up. | p. 202
+checker found no passage	term: Chow | In Mahjong, claiming a discarded tile to complete a run of three in the same suit. Only the tile from the player on your left can be taken this way. | p. 202
+checker found no passage	term: Honors (Mahjong) | The Dragons and Winds in Mahjong, which can only be used in sets of three or four, not in runs. | p. 200
+checker found no passage	term: Safety (billiards) | A stroke played to avoid leaving the opponent an easy shot rather than to score. | p. 221
+checker found no passage	term: Beanbag | A small cloth bag filled with beans, used instead of a ball for tossing and catching games. | p. 237
+checker found no passage	term: Blindfold | A cloth tied over the eyes in party games so a player has to act without seeing. | p. 274
+checker found no passage	idea: Freezing on a turn | In Red Light, Green Light, the traffic light turns round after counting and anyone seen moving goes out. A rule of sudden stillness makes the counter's speed the main variable. | p. 279
+checker found no passage	term: Break (pool) | The first shot of a pool game, which scatters the triangle of racked balls. | p. 210

@@ -1,0 +1,4 @@
+checker found no passage	term: Originale | A word used in old records for a script or master text given to players. A Winchester case in 1409 has men carrying off a saint's play originale and a playing cloth. | p. 305
+checker found no passage	term: Platea | The Latin word for the open playing area. In Towneley's Coliphizacio the soldiers drive Christ straight into it. | p. 177
+checker found no passage	term: Locus (plural loci) | A marked place on the stage that stands for a location in the story. Plays staged in East Anglia often had several loci and stage machinery. | p. 187
+checker found no passage	term: Furstenspiegel | A German word for a mirror for princes: a text that shows a ruler how to rule by example. The book asks whether Hester could be read as one. | p. 201

@@ -1,0 +1,906 @@
+[
+ {
+  "id": "ask-for-cards",
+  "slot": "core-mechanic",
+  "display": "ask for what they hold",
+  "description": "On your turn you ask one player for a card or a rank. If they have it, they have to hand it over, and you may ask again. Your question also tells everyone what you hold.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"20\" cy=\"22\" r=\"8\"/><path d=\"M20 30 L20 48\"/><path d=\"M12 38 L28 38\"/><circle cx=\"100\" cy=\"22\" r=\"8\"/><path d=\"M100 30 L100 48\"/><path d=\"M92 38 L108 38\"/><rect x=\"8\" y=\"54\" width=\"18\" height=\"22\" rx=\"2\"/><rect x=\"94\" y=\"54\" width=\"18\" height=\"22\" rx=\"2\"/><rect x=\"50\" y=\"54\" width=\"18\" height=\"22\" rx=\"2\" fill=\"#C75B39\"/><path d=\"M34 40 L84 40\"/><path d=\"M78 34 L86 40 L78 46\"/><path d=\"M58 22 C 58 14, 70 14, 70 22 C 70 27, 64 27, 64 32\"/><circle cx=\"64\" cy=\"36\" r=\"1\" fill=\"#2D3436\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "bet-against-the-bank",
+  "slot": "core-mechanic",
+  "display": "bet against the bank",
+  "description": "The bank is one of the players. The others place their bets, the bank throws, and winners are paid at fixed odds. The bank passes round so no one keeps the advantage.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"40\" y=\"10\" width=\"40\" height=\"26\" rx=\"3\" fill=\"#C75B39\"/><circle cx=\"52\" cy=\"23\" r=\"3\" fill=\"#2D3436\"/><circle cx=\"68\" cy=\"23\" r=\"3\" fill=\"#2D3436\"/><circle cx=\"20\" cy=\"62\" r=\"7\"/><circle cx=\"46\" cy=\"62\" r=\"7\"/><circle cx=\"74\" cy=\"62\" r=\"7\"/><circle cx=\"100\" cy=\"62\" r=\"7\"/><path d=\"M20 55 L44 38\"/><path d=\"M46 55 L56 38\"/><path d=\"M74 55 L66 38\"/><path d=\"M100 55 L78 38\"/><path d=\"M108 22 C 114 28, 114 40, 108 46\"/><path d=\"M104 46 L108 46 L108 41\"/><path d=\"M14 22 L26 22\"/></svg>",
+  "books": [
+   "Bell, 1960",
+   "Fitzsimmons and Liflander, 1996",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Bell, 1960: Crown and Anchor (p. 141), Strung Flowers (p. 143), Throwing Heaven and Nine (p. 144), Collecting Tens (p. 150). In Crown and Anchor the book says the bank passes to each player in turn, because the banker gains over time.",
+   "Spadaccini, 2005: Blackjack, where each player bets only against the dealer and the dealer wins ties (p. 269, p. 270)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "betting-on-a-throw",
+  "slot": "core-mechanic",
+  "display": "betting on a throw",
+  "description": "Players put money or things on the table before the dice or coin land, and the throw decides who takes them. Nobody can steer the throw, so the only choice a player makes is the bet.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"62\" y=\"30\" width=\"34\" height=\"34\" rx=\"6\"/><circle cx=\"73\" cy=\"41\" r=\"2.5\" fill=\"#C75B39\"/><circle cx=\"85\" cy=\"53\" r=\"2.5\" fill=\"#C75B39\"/><circle cx=\"73\" cy=\"53\" r=\"2.5\"/><circle cx=\"85\" cy=\"41\" r=\"2.5\"/><circle cx=\"26\" cy=\"58\" r=\"12\"/><circle cx=\"26\" cy=\"50\" r=\"12\"/><circle cx=\"26\" cy=\"42\" r=\"12\" fill=\"#C75B39\"/><path d=\"M26 38v8\"/><path d=\"M40 20c6-8 14-8 20 0\"/><path d=\"M56 16l4 4-6 2\"/></svg>",
+  "books": [
+   "Bell, 1960"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "betting-on-your-hand",
+  "slot": "core-mechanic",
+  "display": "betting on your hand",
+  "description": "Players put chips in a pot while they still think their hidden cards can win. You can match a bet, raise it, or drop out and lose what you put in.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"34\" cy=\"62\" rx=\"16\" ry=\"5\"/><ellipse cx=\"34\" cy=\"55\" rx=\"16\" ry=\"5\"/><ellipse cx=\"34\" cy=\"48\" rx=\"16\" ry=\"5\"/><ellipse cx=\"34\" cy=\"41\" rx=\"16\" ry=\"5\" fill=\"#C75B39\"/><ellipse cx=\"82\" cy=\"62\" rx=\"14\" ry=\"4\"/><ellipse cx=\"82\" cy=\"55\" rx=\"14\" ry=\"4\"/><path d=\"M82 46 L82 24\"/><path d=\"M74 32 L82 22 L90 32\"/><path d=\"M60 70 L104 70\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Draw Poker, with ante, blind, raise, call and straddle (pp. 118-121); Jackpot, where a pair of Jacks is needed to open (p. 123); Straight Poker, Whiskey Poker and Stud Poker (p. 124); Mistigris (p. 125).",
+   "Morehead and Mott-Smith, 1983: Draw Poker, Stud Poker, Dealer's Choice games such as Anaconda, Cincinnati and Knock Poker, and Texas Hold'em (all in the Poker section). Canasta and Rummy games use no pot."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "build-your-own-side",
+  "slot": "core-mechanic",
+  "display": "build your own side",
+  "description": "Before or during play, each player picks the character, deck or army they will play. Two players can arrive with very different sides.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"18\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"40\" y=\"18\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"72\" y=\"18\" width=\"24\" height=\"34\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M20 30 H20.1\"/><path d=\"M52 30 L52 40\"/><path d=\"M47 35 H57\"/><circle cx=\"84\" cy=\"32\" r=\"4\"/><path d=\"M78 46 Q84 38 90 46\"/><path d=\"M84 52 V64\"/><path d=\"M60 64 H108\"/><path d=\"M96 58 L108 64 L96 70\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012",
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "calling-a-contract",
+  "slot": "core-mechanic",
+  "display": "calling a contract",
+  "description": "Before the play starts, you say what you are going to do, such as win three tricks. If you manage it you score; if you fail the other side scores or you pay.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"30\" cy=\"22\" r=\"9\"/><path d=\"M30 31 L30 52\"/><path d=\"M30 38 L46 28\"/><path d=\"M30 38 L18 46\"/><path d=\"M30 52 L22 68\"/><path d=\"M30 52 L38 68\"/><path d=\"M50 14 L74 14 L74 30 L60 30 L54 36 L54 30 L50 30 Z\"/><path d=\"M58 20 L70 20\"/><rect x=\"82\" y=\"46\" width=\"12\" height=\"20\" rx=\"2\" fill=\"#C75B39\"/><rect x=\"98\" y=\"46\" width=\"12\" height=\"20\" rx=\"2\" fill=\"#C75B39\"/><rect x=\"90\" y=\"30\" width=\"12\" height=\"20\" rx=\"2\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Morehead and Mott-Smith, 1983",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Boston, where each bid names a number of tricks and pays more the higher it is (pp. 54–56); Calabrasella, where one player says \"I play\" and takes on the other two (pp. 56–58); Euchre, where ordering up or naming trumps commits the side to three tricks or a two-point loss (pp. 92–94); Ecarte, where playing without asking for cards risks two points to the other player (pp. 83–84); Division Loo, where a player who plays and wins nothing pays into the next pool (pp. 79–81).",
+   "Morehead and Mott-Smith, 1983: Contract Bridge, where the highest bid is a contract to win a number of tricks (under 'Contract Bridge'); Spades, where partners' bids add into one contract and Nil promises no tricks (under 'Spades'); Oh Hell!, where each player must win exactly the tricks bid (under 'Oh Hell!'); Solo (Ombre), where Simple Game, Solo and Tout are promises of five or eight tricks (under 'Solo (Ombre)').",
+   "Spadaccini, 2005: Bridge, where each bid is a promise to win a number of tricks beyond six and the last bid stands (p. 271, p. 272)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "capture-and-convert",
+  "slot": "core-mechanic",
+  "display": "capture and convert",
+  "description": "A piece you capture stays on the board and changes sides, so it now works for you. Because pieces can change hands, the player who is ahead can fall behind in a single move.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"40\" r=\"12\"/><circle cx=\"60\" cy=\"40\" r=\"12\" fill=\"#C75B39\"/><circle cx=\"96\" cy=\"40\" r=\"12\" fill=\"#C75B39\"/><path d=\"M20 40h8\"/><path d=\"M60 22v-8\"/><path d=\"M52 18l8-6 8 6\"/><path d=\"M60 58v8\"/><path d=\"M52 62l8 6 8-6\"/><path d=\"M36 40h12\"/><path d=\"M44 36l4 4-4 4\"/><path d=\"M72 40h12\"/><path d=\"M80 36l4 4-4 4\"/><path d=\"M12 70h96\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012",
+   "Fitzsimmons and Liflander, 1996",
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Dodge Ball, where a hit player stands in the circle and helps the other side (pp. 239–240); Red Rover, where a player who fails to break through joins the other team (p. 279); Ball Tag, where a correct guess lets a side take a player from the other line (p. 238)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "capture-and-rescue",
+  "slot": "core-mechanic",
+  "display": "capture and rescue",
+  "description": "If you are caught, you wait in a jail. A teammate who reaches the jail without being caught can set you free.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"14\" width=\"40\" height=\"52\" rx=\"3\"/><path d=\"M18 14 L18 66 M28 14 L28 66 M38 14 L38 66\"/><circle cx=\"28\" cy=\"40\" r=\"6\" fill=\"#C75B39\"/><circle cx=\"90\" cy=\"26\" r=\"6\"/><path d=\"M90 32 L90 48 M90 36 L100 42 M90 36 L82 42 M90 48 L84 60 M90 48 L96 60\"/><path d=\"M78 42 L56 42\"/><path d=\"M62 36 L55 42 L62 48\"/><circle cx=\"100\" cy=\"64\" r=\"2\" fill=\"#2D3436\"/><path d=\"M60 66 L112 66\"/></svg>",
+  "books": [
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: Capture the Flag, where prisoners are freed by a touch (p. 174); Prisoner's Base (p. 174); Hide and Seek, where captured hiders are freed with the call alley, alley, oxen free (p. 164); Kick the Can, where kicking the can frees all prisoners (p. 183); Ringoleavio, where touching the base frees them (p. 190)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "capture-by-surrounding",
+  "slot": "core-mechanic",
+  "display": "capture by surrounding",
+  "description": "To take a piece, you place your pieces on both sides of it, or all around it, until it has no room left. There is no hopping over it or hitting it.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"6\" width=\"100\" height=\"68\" rx=\"4\"/><line x1=\"20\" y1=\"40\" x2=\"100\" y2=\"40\"/><line x1=\"60\" y1=\"12\" x2=\"60\" y2=\"68\"/><circle cx=\"60\" cy=\"40\" r=\"8\" fill=\"#C75B39\"/><circle cx=\"60\" cy=\"18\" r=\"7\"/><circle cx=\"60\" cy=\"62\" r=\"7\"/><circle cx=\"34\" cy=\"40\" r=\"7\"/><circle cx=\"86\" cy=\"40\" r=\"7\"/><path d=\"M52 32 L68 48\"/><path d=\"M68 32 L52 48\"/></svg>",
+  "books": [
+   "Bell, 1960",
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Schmittberger, 1992: Tablut and Hnefatafl, where a piece is taken when two rivals sandwich it on a line (pp. 23–24, 29); Pente and Keryo Pente, where a pair or a line of three is sandwiched (p. 52); Go, where a stone or group with no empty point next to it is removed (pp. 58–59)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "catch-up-help",
+  "slot": "core-mechanic",
+  "display": "catch-up help",
+  "description": "The game gives players who are behind a chance to jump ahead. A lead is never completely safe until the very end.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 66h100\"/><circle cx=\"92\" cy=\"50\" r=\"8\"/><circle cx=\"28\" cy=\"50\" r=\"8\" fill=\"#C75B39\"/><path d=\"M38 50h16\"/><path d=\"M48 44l6 6-6 6\"/><path d=\"M28 36v-8\"/><path d=\"M22 32l6-6 6 6\"/><path d=\"M92 36v-6\"/><path d=\"M12 20h20\"/><path d=\"M72 20h36\"/><path d=\"M104 56v10\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "chance-alone-decides",
+  "slot": "core-mechanic",
+  "display": "chance alone decides",
+  "description": "The dice or the cards decide everything. You throw or turn a card, and the result says who gains. Players make no choices of their own.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"12\" y=\"14\" width=\"46\" height=\"46\" rx=\"8\"/><circle cx=\"24\" cy=\"26\" r=\"3\" fill=\"#C75B39\"/><circle cx=\"46\" cy=\"26\" r=\"3\" fill=\"#C75B39\"/><circle cx=\"35\" cy=\"37\" r=\"3\" fill=\"#C75B39\"/><circle cx=\"24\" cy=\"48\" r=\"3\" fill=\"#C75B39\"/><circle cx=\"46\" cy=\"48\" r=\"3\" fill=\"#C75B39\"/><rect x=\"70\" y=\"22\" width=\"38\" height=\"38\" rx=\"7\"/><circle cx=\"81\" cy=\"33\" r=\"3\"/><circle cx=\"89\" cy=\"41\" r=\"3\"/><circle cx=\"97\" cy=\"49\" r=\"3\"/><path d=\"M8 68 L112 68\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "chase-and-tag",
+  "slot": "core-mechanic",
+  "display": "chase and tag",
+  "description": "One player is It and chases the rest. When It touches someone, that person becomes It, and the chase starts again.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"26\" r=\"7\" fill=\"#C75B39\"/><path d=\"M24 33 L24 50 M24 38 L36 44 M24 38 L14 44 M24 50 L16 64 M24 50 L32 64\"/><circle cx=\"84\" cy=\"26\" r=\"7\"/><path d=\"M84 33 L84 50 M84 38 L96 32 M84 38 L74 44 M84 50 L76 64 M84 50 L94 62\"/><path d=\"M40 40 L66 40\"/><path d=\"M60 34 L67 40 L60 46\"/><path d=\"M100 48 L112 48\"/><path d=\"M102 56 L112 56\"/><path d=\"M44 70 L68 70\" stroke-dasharray=\"3 4\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Tag and its variations, including Secret Tag, Stoop Tag, Iron Tag and Japanese Tag (pp. 257–258); Hide-and-Seek, where the finder chases a hider who tries to run home (p. 251); Duck Duck Goose (p. 276); Marco Polo (p. 277); Mother May I, where the aim is to tag the Mother (p. 277); Red Light, Green Light (p. 279).",
+   "Spadaccini, 2005: Tag and its variations, including Freeze Tag, Hospital Tag and Shadow Tag (p. 198); Red Light, Green Light (p. 168); Fox and Geese, where the geese run on chalk lines (p. 176); Drop the Handkerchief and Duck, Duck, Goose (p. 162); Mother May I (p. 167); Marco Polo (p. 188)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "choose-your-target",
+  "slot": "core-mechanic",
+  "display": "choose your target",
+  "description": "Each turn, you pick which player is hit, helped or traded with. Who you pick counts as much as what you do. With three or more players, there is more than one person to pick from.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"22\" cy=\"58\" r=\"11\"/><circle cx=\"98\" cy=\"58\" r=\"11\"/><circle cx=\"60\" cy=\"20\" r=\"11\" fill=\"#C75B39\"/><path d=\"M33 56 Q60 46 87 56\"/><path d=\"M80 52 L87 56 L79 61\"/><path d=\"M28 48 L52 28\"/><path d=\"M44 26 L52 28 L50 36\"/><path d=\"M92 48 L68 28\"/><circle cx=\"60\" cy=\"20\" r=\"3\" fill=\"#2D3436\"/><path d=\"M54 14 L66 26\"/><path d=\"M66 14 L54 26\"/><path d=\"M14 72 L30 72\"/><path d=\"M90 72 L106 72\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "connection",
+  "slot": "core-mechanic",
+  "display": "connecting across the board",
+  "description": "Your stones have to make one unbroken chain from one side of the board to another, and that chain wins the game. The other player tries to cut it. Taking pieces is not the aim.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"72\"/><line x1=\"108\" y1=\"8\" x2=\"108\" y2=\"72\"/><polyline points=\"12,56 30,50 48,34 66,46 84,30 108,40\"/><circle cx=\"30\" cy=\"50\" r=\"6\" fill=\"#C75B39\"/><circle cx=\"48\" cy=\"34\" r=\"6\" fill=\"#C75B39\"/><circle cx=\"66\" cy=\"46\" r=\"6\" fill=\"#C75B39\"/><circle cx=\"84\" cy=\"30\" r=\"6\" fill=\"#C75B39\"/><circle cx=\"30\" cy=\"22\" r=\"6\"/><circle cx=\"66\" cy=\"66\" r=\"6\"/><circle cx=\"48\" cy=\"58\" r=\"6\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "counter-cycle",
+  "slot": "core-mechanic",
+  "display": "counter cycle",
+  "description": "Each choice beats one other choice and loses to a third, as in rock, paper and scissors. No choice wins every time, so players keep using all of them.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"60\" cy=\"16\" r=\"9\" fill=\"#C75B39\"/><circle cx=\"24\" cy=\"62\" r=\"9\"/><circle cx=\"96\" cy=\"62\" r=\"9\"/><path d=\"M52 24 Q36 36 30 52\"/><path d=\"M28 44 L30 53 L38 50\"/><path d=\"M34 66 Q60 76 86 66\"/><path d=\"M80 72 L87 66 L79 62\"/><path d=\"M90 52 Q84 36 68 24\"/><path d=\"M70 32 L68 24 L76 24\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "declaring-combinations",
+  "slot": "core-mechanic",
+  "display": "declaring combinations",
+  "description": "You show a pair or a run you hold, such as a king and queen of one suit, and score points for it while the game goes on. The cards stay in your hand.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"18\" y=\"22\" width=\"26\" height=\"38\" rx=\"3\"/><rect x=\"40\" y=\"18\" width=\"26\" height=\"38\" rx=\"3\"/><rect x=\"62\" y=\"22\" width=\"26\" height=\"38\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M26 32 L36 32 M48 28 L58 28 M70 32 L80 32\"/><path d=\"M20 68 L20 72 L86 72 L86 68\"/><path d=\"M103 14 L103 30 M95 22 L111 22 M97 16 L109 28 M109 16 L97 28\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "different-powers",
+  "slot": "core-mechanic",
+  "display": "different powers for each player",
+  "description": "Each player has a power that nobody else has, which changes a rule in their favour. So each player plays by slightly different rules.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\"/><path d=\"M24 33v16\"/><path d=\"M14 40h20\"/><rect x=\"48\" y=\"14\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M57 32v18\"/><path d=\"M48 42h18\"/><path d=\"M86 12l9 14h-18z\" fill=\"#C75B39\"/><path d=\"M86 26v22\"/><path d=\"M76 38h20\"/><path d=\"M10 64h100\"/><path d=\"M24 52v12\"/><path d=\"M57 52v12\"/><path d=\"M86 52v12\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "doubling-the-stakes",
+  "slot": "core-mechanic",
+  "display": "doubling the stakes",
+  "description": "Part-way through the game you may offer to double what it is worth. The other player either accepts and plays on, or gives up the game and loses the points already at stake.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"22\" width=\"36\" height=\"36\" rx=\"4\"/><circle cx=\"20\" cy=\"34\" r=\"2.2\"/><circle cx=\"32\" cy=\"46\" r=\"2.2\"/><path d=\"M52 40 H66\"/><path d=\"M60 33 L67 40 L60 47\"/><rect x=\"76\" y=\"18\" width=\"40\" height=\"40\" rx=\"4\" fill=\"#C75B39\"/><circle cx=\"88\" cy=\"30\" r=\"2.2\"/><circle cx=\"104\" cy=\"30\" r=\"2.2\"/><circle cx=\"88\" cy=\"46\" r=\"2.2\"/><circle cx=\"104\" cy=\"46\" r=\"2.2\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "forced-capture",
+  "slot": "core-mechanic",
+  "display": "forced capture",
+  "description": "If you can capture, you have to. Some games make you take the capture that wins the most pieces. Your opponent can use this to force your move.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"40\" width=\"26\" height=\"26\"/><rect x=\"47\" y=\"40\" width=\"26\" height=\"26\"/><rect x=\"86\" y=\"40\" width=\"26\" height=\"26\" stroke-dasharray=\"4 4\"/><circle cx=\"21\" cy=\"53\" r=\"8\" fill=\"#C75B39\"/><circle cx=\"60\" cy=\"53\" r=\"8\"/><path d=\"M21 38 Q60 6 99 38\"/><path d=\"M91 28 L99 38 L87 40\"/><path d=\"M60 12 L60 22\"/><circle cx=\"60\" cy=\"28\" r=\"1.2\"/><path d=\"M8 72 H112\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "grow-stronger",
+  "slot": "core-mechanic",
+  "display": "grow stronger over time",
+  "description": "What you do in the game builds up your character's power. Later challenges are harder, and you meet them with more than you began with.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 68h100\"/><rect x=\"14\" y=\"52\" width=\"18\" height=\"16\"/><rect x=\"42\" y=\"38\" width=\"18\" height=\"30\"/><rect x=\"70\" y=\"24\" width=\"18\" height=\"44\"/><circle cx=\"98\" cy=\"14\" r=\"7\" fill=\"#C75B39\"/><path d=\"M98 21v10\"/><path d=\"M92 26h12\"/><path d=\"M23 46v-10\"/><path d=\"M19 40l4-4 4 4\"/><path d=\"M51 32v-8\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "growing-list",
+  "slot": "core-mechanic",
+  "display": "a list that keeps growing",
+  "description": "Each player says the whole list so far, then adds one new item. The list gets longer every turn, and players have to remember all of it.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 16 L40 16\"/><path d=\"M12 28 L56 28\"/><path d=\"M12 40 L72 40\"/><path d=\"M12 52 L88 52\"/><path d=\"M12 64 L104 64\" stroke=\"#C75B39\"/><circle cx=\"8\" cy=\"16\" r=\"1.5\" fill=\"#2D3436\"/><circle cx=\"8\" cy=\"28\" r=\"1.5\" fill=\"#2D3436\"/><circle cx=\"8\" cy=\"40\" r=\"1.5\" fill=\"#2D3436\"/><circle cx=\"8\" cy=\"52\" r=\"1.5\" fill=\"#2D3436\"/><circle cx=\"8\" cy=\"64\" r=\"1.5\" fill=\"#C75B39\"/><path d=\"M110 58 L110 70 M104 64 L116 64\"/></svg>",
+  "books": [
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: I Went to the Market and its variations, The Alphabet Game and I Packed My Bag (p. 75–76); Concentration played with dominoes, which also asks for memory of face-down tiles (p. 30)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "handicap",
+  "slot": "core-mechanic",
+  "display": "handicap",
+  "description": "The more skilled player starts with less: fewer stones, fewer points or less time. This gives the less skilled player a real chance to win.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M60 14 V62\"/><path d=\"M22 62 H98\"/><path d=\"M60 14 L22 34\"/><path d=\"M60 14 L98 28\"/><path d=\"M22 34 V44\"/><path d=\"M98 28 V38\"/><circle cx=\"22\" cy=\"50\" r=\"6\"/><circle cx=\"98\" cy=\"44\" r=\"6\" fill=\"#C75B39\"/><circle cx=\"86\" cy=\"52\" r=\"4\" fill=\"#C75B39\"/><circle cx=\"110\" cy=\"52\" r=\"4\" fill=\"#C75B39\"/><path d=\"M52 62 L60 54 L68 62\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012",
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Schmittberger, 1992: Go, where the second player gets extra points called komi because the first player has an edge (p. 60); Nerf Ping Pong, with the net moved nearer one player (p. 13); Tablut, with a bid deciding who plays the stronger side (pp. 25, 28)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "hide-and-find",
+  "slot": "core-mechanic",
+  "display": "hide and find",
+  "description": "Someone hides, or hides something. The others hunt for it, and the game ends when it is found.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"30\" width=\"44\" height=\"40\" rx=\"3\"/><path d=\"M10 30 L32 14 L54 30\"/><circle cx=\"32\" cy=\"52\" r=\"5\" fill=\"#C75B39\"/><path d=\"M62 70 L112 70\"/><circle cx=\"90\" cy=\"30\" r=\"14\"/><circle cx=\"90\" cy=\"30\" r=\"5\"/><path d=\"M100 40 L112 52\"/><path d=\"M62 40 L74 40 M62 48 L70 48\" stroke-dasharray=\"3 4\"/><path d=\"M20 30 L20 22 L26 22 L26 26\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Hide-and-Seek (p. 251), Hunt the Thimble with its warm and cold hints (pp. 251–252), Huckle Buckle Bean Stalk, where the finder keeps quiet and sits down (p. 252), Scavenger Hunt, where teams search for hidden items from a list (pp. 279–280).",
+   "Spadaccini, 2005: Hide and Seek, where hiders try to reach home base (p. 164); Sardines, where each finder joins the hider (p. 128); Button, Button, Who's Got the Button, with warmer and colder hints (p. 160); Kick the Can (p. 183); Ringoleavio (p. 190); Scavenger Hunt (p. 128)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "jumping-over-pieces",
+  "slot": "core-mechanic",
+  "display": "jumping over pieces",
+  "description": "Your piece hops over another piece and lands in the empty space behind it. In checkers the piece you hop over is taken away; in Chinese Checkers it stays.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"30\" width=\"30\" height=\"30\"/><rect x=\"40\" y=\"30\" width=\"30\" height=\"30\"/><rect x=\"70\" y=\"30\" width=\"30\" height=\"30\"/><circle cx=\"25\" cy=\"45\" r=\"9\" fill=\"#C75B39\"/><circle cx=\"55\" cy=\"45\" r=\"9\"/><path d=\"M25 32 C 35 8, 75 8, 85 32\"/><path d=\"M79 22 L85 32 L74 31\"/><circle cx=\"85\" cy=\"45\" r=\"9\" stroke-dasharray=\"3 4\"/><path d=\"M45 36 L65 54\"/><path d=\"M65 36 L45 54\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Schmittberger, 1992",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Checkers, where a piece jumps an enemy piece to an empty square behind it, may take several in one move, and a player who skips a jump can be penalised by having the piece removed (pp. 4–5); Chinese Checkers, where a marble jumps any marble in a line of hops and nothing is removed (p. 10); the Knight in Chess, the only piece that jumps over others (p. 12).",
+   "Spadaccini, 2005: Checkers, where a piece jumps over an enemy piece and removes it (p. 9); Chinese Checkers, where a marble hops over any marble and nothing is removed (p. 22); Turkish Checkers and International Checkers (p. 11)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "keep-and-reroll",
+  "slot": "core-mechanic",
+  "display": "keep some dice and roll the rest",
+  "description": "You roll all your dice, set aside the ones you like and roll the rest again. After a few rolls you have to stop with what you hold.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"8\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C75B39\"/><circle cx=\"21\" cy=\"21\" r=\"2\" fill=\"#2D3436\"/><rect x=\"40\" y=\"8\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C75B39\"/><circle cx=\"47\" cy=\"15\" r=\"2\" fill=\"#2D3436\"/><circle cx=\"59\" cy=\"27\" r=\"2\" fill=\"#2D3436\"/><rect x=\"72\" y=\"8\" width=\"26\" height=\"26\" rx=\"4\"/><rect x=\"8\" y=\"46\" width=\"26\" height=\"26\" rx=\"4\"/><rect x=\"40\" y=\"46\" width=\"26\" height=\"26\" rx=\"4\"/><path d=\"M80 48 C 98 44, 108 56, 98 66\"/><path d=\"M100 60 L98 68 L90 64\"/><path d=\"M85 20 L91 20\"/><path d=\"M85 24 L91 24\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "landing-sends-back",
+  "slot": "core-mechanic",
+  "display": "landing sends a piece back",
+  "description": "If your piece lands on a space where another player's piece stands, theirs goes back to the start. Some safe spaces protect a piece from this.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6\" y=\"54\" width=\"18\" height=\"18\"/><rect x=\"26\" y=\"54\" width=\"18\" height=\"18\"/><rect x=\"46\" y=\"54\" width=\"18\" height=\"18\"/><rect x=\"66\" y=\"54\" width=\"18\" height=\"18\"/><rect x=\"86\" y=\"54\" width=\"18\" height=\"18\"/><path d=\"M10 54 L10 36 L20 41 L10 46\"/><circle cx=\"75\" cy=\"63\" r=\"6\" fill=\"#C75B39\"/><circle cx=\"75\" cy=\"38\" r=\"6\"/><path d=\"M75 45 L75 51\"/><path d=\"M71 48 L75 52 L79 48\"/><path d=\"M80 59 Q96 30 52 36 Q22 38 15 51\"/><path d=\"M12 46 L15 52 L20 47\"/></svg>",
+  "books": [
+   "Bell, 1960"
+  ],
+  "games": [
+   "Bell, 1960: Nyout (p. 2), Zohn Ahl (p. 5), Pachisi (p. 11), Thaayam (p. 19), Tabula (p. 35), Backgammon (p. 41)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "make-a-row-take-a-piece",
+  "slot": "core-mechanic",
+  "display": "make a row and take a piece",
+  "description": "Three of your pieces in a row is a mill, and a mill lets you take one of the other player's pieces. So you try to build rows of your own while breaking up theirs.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"100\" height=\"60\" rx=\"3\"/><line x1=\"10\" y1=\"40\" x2=\"110\" y2=\"40\"/><circle cx=\"22\" cy=\"40\" r=\"8\" fill=\"#C75B39\"/><circle cx=\"60\" cy=\"40\" r=\"8\" fill=\"#C75B39\"/><circle cx=\"98\" cy=\"40\" r=\"8\" fill=\"#C75B39\"/><circle cx=\"60\" cy=\"14\" r=\"7\"/><path d=\"M54 8l12 12M66 8L54 20\"/><circle cx=\"60\" cy=\"66\" r=\"7\"/><path d=\"M40 40h-2M82 40h2\"/></svg>",
+  "books": [
+   "Bell, 1960"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "making-words",
+  "slot": "core-mechanic",
+  "display": "making words from letters",
+  "description": "The pieces are letters. You build, guess or hunt for real words, and a dictionary settles any argument.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"22\" width=\"22\" height=\"26\" rx=\"3\"/><rect x=\"34\" y=\"22\" width=\"22\" height=\"26\" rx=\"3\"/><rect x=\"60\" y=\"22\" width=\"22\" height=\"26\" rx=\"3\"/><rect x=\"86\" y=\"22\" width=\"22\" height=\"26\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M14 42 L19 28 L24 42 M16 38 L22 38\"/><path d=\"M41 28 L41 42 L50 42\"/><path d=\"M67 28 L67 42 M67 28 L76 28 M67 35 L74 35 M67 42 L76 42\"/><path d=\"M94 28 L94 42 M94 35 L102 28 M94 35 L102 42\"/><path d=\"M12 62 L108 62\"/><path d=\"M12 66 L60 66\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Schmittberger, 1992",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: Anagrams (p. 43), Ghost (p. 48), Hangman (p. 49), Jotto (p. 53), Categories (p. 67), Word Lightning (p. 87)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "matching-open-ends",
+  "slot": "core-mechanic",
+  "display": "matching the open ends",
+  "description": "You add a tile to the end of a line, but only if its number matches the end. If you have no matching tile, you miss your turn.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"28\" width=\"32\" height=\"18\" rx=\"2\"/><path d=\"M24 28 L24 46\"/><rect x=\"40\" y=\"28\" width=\"32\" height=\"18\" rx=\"2\"/><path d=\"M56 28 L56 46\"/><circle cx=\"16\" cy=\"37\" r=\"2\"/><circle cx=\"32\" cy=\"33\" r=\"2\"/><circle cx=\"32\" cy=\"41\" r=\"2\"/><circle cx=\"48\" cy=\"33\" r=\"2\"/><circle cx=\"48\" cy=\"41\" r=\"2\"/><circle cx=\"64\" cy=\"37\" r=\"2\"/><rect x=\"76\" y=\"28\" width=\"32\" height=\"18\" rx=\"2\" stroke-dasharray=\"3 4\"/><rect x=\"40\" y=\"56\" width=\"32\" height=\"18\" rx=\"2\" fill=\"#C75B39\"/><path d=\"M56 56 L56 74\"/><path d=\"M62 54 L76 46\"/><path d=\"M70 45 L76 46 L74 52\"/></svg>",
+  "books": [
+   "Bell, 1960",
+   "Fitzsimmons and Liflander, 1996"
+  ],
+  "games": [
+   "Bell, 1960: the Block game (p. 161), Bergen (p. 162), Matador, where the ends must add up to ten (p. 168), Cyprus (p. 169), Tiddle-a-wink (p. 170)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "melding",
+  "slot": "core-mechanic",
+  "display": "melding",
+  "description": "You lay a finished set of cards face up on the table. From then on you, and sometimes other players, can add matching cards to it.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"28\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"36\" y=\"28\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"64\" y=\"28\" width=\"24\" height=\"34\" rx=\"3\"/><path d=\"M15 38 L20 38 M43 38 L48 38 M71 38 L76 38\"/><path d=\"M15 52 L25 52 M43 52 L53 52 M71 52 L81 52\"/><rect x=\"94\" y=\"8\" width=\"20\" height=\"28\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M104 40 L104 46 M99 42 L104 48 L109 42\"/><path d=\"M92 45 L90 45\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Rummy, where runs and lays are laid face up and cards are added to any player's set (pp. 128-129); Pinochle, where combinations such as a marriage or a pinochle are announced and laid face up after a trick (pp. 115-117). Gin Rummy keeps its sets in the hand (p. 130).",
+   "Morehead and Mott-Smith, 1983: Basic Rummy (under 'Basic Rummy'), Contract Rummy, Five Hundred Rum, Canasta and Coon-Can (under their own headings), Panguingue (under 'Panguingue / Pan'). Knock Rummy and Gin Rummy keep sets hidden until the end."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "one-use-powers",
+  "slot": "core-mechanic",
+  "display": "one-use powers",
+  "description": "Each piece or player starts with a special power that works once. Using it means removing its marker, so the main choice is when to spend it.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"30\" cy=\"58\" r=\"14\"/><circle cx=\"30\" cy=\"58\" r=\"8\" fill=\"#C75B39\"/><path d=\"M30 44 L30 20\"/><path d=\"M22 28 L30 20 L38 28\"/><circle cx=\"30\" cy=\"12\" r=\"5\"/><circle cx=\"90\" cy=\"58\" r=\"14\" stroke-dasharray=\"3 4\"/><path d=\"M80 48 L100 68\"/><path d=\"M100 48 L80 68\"/><path d=\"M52 58 L68 58\"/><path d=\"M62 52 L68 58 L62 64\"/><rect x=\"4\" y=\"72\" width=\"112\" height=\"2\" rx=\"1\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "other-player-has-a-say",
+  "slot": "core-mechanic",
+  "display": "the other player has a say",
+  "description": "On your turn you offer a move, but the other player has a say. They may turn it down, or choose between two moves you offer.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"22\" cy=\"40\" r=\"10\"/><path d=\"M34 34 L62 24\"/><path d=\"M34 46 L62 56\"/><path d=\"M56 20 L63 24 L57 30\"/><path d=\"M56 60 L63 56 L57 50\"/><rect x=\"66\" y=\"12\" width=\"20\" height=\"20\" rx=\"3\"/><rect x=\"66\" y=\"48\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M92 40 L108 40\"/><path d=\"M96 34 L102 46\"/><path d=\"M102 34 L96 46\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "passing-a-message",
+  "slot": "core-mechanic",
+  "display": "passing a message along",
+  "description": "A message travels from player to player, by whisper or by squeeze. It may change on the way, and nobody can check it until it arrives.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"16\" cy=\"40\" r=\"8\" fill=\"#C75B39\"/><circle cx=\"46\" cy=\"40\" r=\"8\"/><circle cx=\"76\" cy=\"40\" r=\"8\"/><circle cx=\"104\" cy=\"40\" r=\"8\"/><path d=\"M26 36 L36 36 M31 32 L36 36 L31 40\"/><path d=\"M56 36 L66 36 M61 32 L66 36 L61 40\"/><path d=\"M86 36 L94 36 M89 32 L94 36 L89 40\"/><path d=\"M12 62 C 20 56, 24 68, 32 62 S 44 56, 52 62 S 64 56, 72 62 S 84 56, 92 62\"/></svg>",
+  "books": [
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: Telephone, where a whispered phrase goes round the circle and the last player says it aloud (p. 154); Western Union and Electricity, where a hand squeeze travels round a circle of players (p. 155)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "passing-cards",
+  "slot": "core-mechanic",
+  "display": "passing cards",
+  "description": "Before play begins, you choose some of your cards and hand them to another player. You cannot look at the cards you will get until you have chosen.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"22\" width=\"26\" height=\"36\" rx=\"3\"/><rect x=\"16\" y=\"26\" width=\"26\" height=\"36\" rx=\"3\"/><rect x=\"24\" y=\"30\" width=\"26\" height=\"36\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M56 48 L84 48\"/><path d=\"M76 40 L84 48 L76 56\"/><rect x=\"88\" y=\"26\" width=\"26\" height=\"36\" rx=\"3\"/><rect x=\"94\" y=\"30\" width=\"26\" height=\"36\" rx=\"3\" stroke-dasharray=\"4 4\"/><path d=\"M30 12 C 50 4, 80 4, 100 14\"/><path d=\"M94 8 L100 14 L92 17\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Morehead and Mott-Smith, 1983: Black Lady and Omnibus Hearts, where each player passes three cards to the left before the first trick (under 'Black Lady'); Spades, where a Nil bidder and their partner swap three cards (under 'Spades')."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "pie-rule",
+  "slot": "core-mechanic",
+  "display": "pie rule",
+  "description": "One player sets up the start of the game, and then the other player picks which side to play. So the first player tries to make both sides even, like cutting a pie when someone else chooses the slice.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"60\" cy=\"40\" r=\"26\"/><path d=\"M60 14 A26 26 0 0 1 60 66 Z\" fill=\"#C75B39\"/><line x1=\"60\" y1=\"14\" x2=\"60\" y2=\"66\"/><circle cx=\"14\" cy=\"24\" r=\"5\"/><path d=\"M14 30 V50\"/><path d=\"M6 38 H22\"/><circle cx=\"106\" cy=\"24\" r=\"5\"/><path d=\"M106 30 V50\"/><path d=\"M98 38 H114\"/><path d=\"M24 62 H32\"/><path d=\"M28 58 L32 62 L28 66\"/><path d=\"M96 62 H88\"/><path d=\"M92 58 L88 62 L92 66\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Schmittberger, 1992: Tablut, where one player makes a move for each army and names a bid, and the other picks a side (pp. 25–26); Hex, where one player places the first stone and the other picks a side (pp. 26–27); Renju, with a longer version of the same idea (p. 27); Double Unbalanced Chess (p. 36)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "promotion",
+  "slot": "core-mechanic",
+  "display": "promotion",
+  "description": "When one of your pieces reaches the far end of the board, it can turn into a piece with more power. This gives you a reason to push forward, even when staying back feels safer.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"8\" width=\"104\" height=\"22\" fill=\"#C75B39\" fill-opacity=\"0.25\"/><path d=\"M8 30 L112 30\" stroke-dasharray=\"4 4\"/><circle cx=\"32\" cy=\"64\" r=\"8\"/><path d=\"M32 54 L32 40\"/><path d=\"M26 46 L32 40 L38 46\"/><circle cx=\"32\" cy=\"64\" r=\"2\" fill=\"#2D3436\"/><path d=\"M72 22 L78 8 L84 18 L90 8 L96 22 Z\" fill=\"#C75B39\"/><path d=\"M72 26 L96 26\"/><path d=\"M44 52 C 56 44, 62 36, 68 30\"/><path d=\"M62 30 L68 30 L67 36\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "relay",
+  "slot": "core-mechanic",
+  "display": "relay",
+  "description": "Your team runs a race in legs. One player goes, hands over a ball or a flag to the next, and the first team to finish every leg wins.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 62 L112 62\"/><path d=\"M8 56 L8 68\"/><path d=\"M112 56 L112 68\"/><circle cx=\"22\" cy=\"24\" r=\"6\"/><path d=\"M22 30 L22 44 M22 34 L32 38 M22 44 L16 54 M22 44 L28 54\"/><circle cx=\"60\" cy=\"24\" r=\"6\"/><path d=\"M60 30 L60 44 M60 34 L50 38 M60 34 L70 34 M60 44 L54 54 M60 44 L66 54\"/><circle cx=\"98\" cy=\"24\" r=\"6\" fill=\"#C75B39\"/><path d=\"M98 30 L98 44 M98 34 L88 34 M98 44 L92 54 M98 44 L104 54\"/><path d=\"M34 40 L48 40\"/><path d=\"M72 40 L86 40\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Tag the Wall Relay and Relay Flag Races (pp. 256–257), Medicine Ball with its Arch Ball and Under and Over variations (pp. 243–244), Crisscross (p. 236), Preliminary Ball (p. 234), Pass Ball (p. 234)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "safe-shape",
+  "slot": "core-mechanic",
+  "display": "a shape that cannot be captured",
+  "description": "Some shapes are safe. If your stones make the shape, nothing around them can take them. It gives you a goal to build towards while the other player tries to surround you.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"76,40 68,53.9 52,53.9 44,40 52,26.1 68,26.1\"/><circle cx=\"76\" cy=\"40\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"68\" cy=\"53.9\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"52\" cy=\"53.9\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"44\" cy=\"40\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"52\" cy=\"26.1\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"68\" cy=\"26.1\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"22\" cy=\"40\" r=\"4\"/><circle cx=\"98\" cy=\"40\" r=\"4\"/><circle cx=\"60\" cy=\"10\" r=\"4\"/><circle cx=\"60\" cy=\"70\" r=\"4\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "scoring-cards",
+  "slot": "core-mechanic",
+  "display": "scoring cards named in advance",
+  "description": "Winning tricks is only the way to reach the prizes. The prizes are named cards, such as the highest trump or the Jack of trumps, and a single card can win more than one.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"10\" width=\"22\" height=\"32\" rx=\"3\"/><rect x=\"34\" y=\"10\" width=\"22\" height=\"32\" rx=\"3\"/><rect x=\"60\" y=\"10\" width=\"22\" height=\"32\" rx=\"3\" fill=\"#C75B39\"/><rect x=\"86\" y=\"10\" width=\"22\" height=\"32\" rx=\"3\"/><circle cx=\"19\" cy=\"26\" r=\"4\"/><circle cx=\"45\" cy=\"26\" r=\"4\"/><circle cx=\"71\" cy=\"26\" r=\"4\"/><circle cx=\"97\" cy=\"26\" r=\"4\"/><path d=\"M19 46 L19 58\"/><path d=\"M45 46 L45 58\"/><path d=\"M71 46 L71 58\"/><path d=\"M97 46 L97 58\"/><rect x=\"14\" y=\"58\" width=\"88\" height=\"14\" rx=\"3\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: All-Fours, with High, Low, Jack and Game (p. 36); Auction Pitch (p. 40); California Jack (p. 41); Pedro Sancho, where the Five of trumps is worth five points and the Nine nine (pp. 42–44)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "shared-cards",
+  "slot": "core-mechanic",
+  "display": "shared cards in the middle",
+  "description": "Some cards are turned face up in the middle, and everyone can use them. You mix them with the cards in your own hand to make the highest set you can.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"22\" y=\"8\" width=\"22\" height=\"30\" rx=\"3\"/><rect x=\"49\" y=\"8\" width=\"22\" height=\"30\" rx=\"3\"/><rect x=\"76\" y=\"8\" width=\"22\" height=\"30\" rx=\"3\"/><rect x=\"28\" y=\"52\" width=\"16\" height=\"22\" rx=\"2\" fill=\"#C75B39\"/><rect x=\"48\" y=\"52\" width=\"16\" height=\"22\" rx=\"2\" fill=\"#C75B39\"/><path d=\"M36 50 L32 40\"/><path d=\"M56 50 L58 40\"/><path d=\"M80 46 L86 42\"/><circle cx=\"96\" cy=\"58\" r=\"8\"/><path d=\"M92 58 L100 58\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Morehead and Mott-Smith, 1983: Texas Hold'em (under 'Texas Hold'em'), Cincinnati, Criss-Cross, Lamebrain Pete and Omaha (under their own headings in Dealer's Choice), Spit in the Ocean (under 'Spit in the Ocean')."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "shared-pot",
+  "slot": "core-mechanic",
+  "display": "shared pot",
+  "description": "Everyone puts a counter into the middle before play. One player wins it all. If nobody wins, it stays there and grows, so the next round is worth more.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 40 L98 40 Q96 66 60 66 Q24 66 22 40 Z\"/><ellipse cx=\"44\" cy=\"32\" rx=\"11\" ry=\"4.5\" fill=\"#C75B39\"/><ellipse cx=\"62\" cy=\"26\" rx=\"11\" ry=\"4.5\" fill=\"#C75B39\"/><ellipse cx=\"78\" cy=\"33\" rx=\"11\" ry=\"4.5\" fill=\"#C75B39\"/><path d=\"M44 66 L40 72\"/><path d=\"M76 66 L80 72\"/><path d=\"M34 72 L86 72\"/><path d=\"M10 14 L16 20\"/><path d=\"M110 14 L104 20\"/><path d=\"M60 10 L60 18\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Morehead and Mott-Smith, 1983: Thirty-One, where lost chips go into the pot and the last player left takes it (under 'Thirty-One'); Speculation, where everyone antes and the highest trump takes the pool (under 'Speculation'); Chase the Ace, where the holder of the high card pays into the pot (under 'Chase the Ace'); Red Dog, where bets are made against the pot, which can never be smaller than a bet (under 'Red Dog')."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "sowing-seeds",
+  "slot": "core-mechanic",
+  "display": "sowing seeds",
+  "description": "You scoop up all the seeds from one pit and drop them one at a time into the pits that follow. Where your last seed lands decides what you can take.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"18\" width=\"104\" height=\"44\" rx=\"14\"/><circle cx=\"22\" cy=\"30\" r=\"7\"/><circle cx=\"42\" cy=\"30\" r=\"7\"/><circle cx=\"62\" cy=\"30\" r=\"7\"/><circle cx=\"82\" cy=\"30\" r=\"7\"/><circle cx=\"98\" cy=\"30\" r=\"7\"/><circle cx=\"22\" cy=\"50\" r=\"7\"/><circle cx=\"42\" cy=\"50\" r=\"7\"/><circle cx=\"62\" cy=\"50\" r=\"7\"/><circle cx=\"82\" cy=\"50\" r=\"7\"/><circle cx=\"98\" cy=\"50\" r=\"7\"/><circle cx=\"42\" cy=\"50\" r=\"2\" fill=\"#C75B39\"/><circle cx=\"62\" cy=\"50\" r=\"2\" fill=\"#C75B39\"/><circle cx=\"82\" cy=\"50\" r=\"2\" fill=\"#C75B39\"/><path d=\"M42 68 C 55 76, 72 76, 82 68\"/></svg>",
+  "books": [
+   "Schmittberger, 1992",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: Wari, an African seed-sowing game (p. 38), and its variation Grand Slam (p. 39). The book says the family has more than a hundred variations."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "spare-hand",
+  "slot": "core-mechanic",
+  "display": "spare hand",
+  "description": "An extra hand is dealt face down in the middle. One player gets to take it, swap it or buy it, then puts cards back before play begins.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"8\" width=\"22\" height=\"30\" rx=\"3\" fill=\"#C75B39\"/><rect x=\"36\" y=\"8\" width=\"22\" height=\"30\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M68 16 L100 16\"/><path d=\"M92 9 L100 16 L92 23\"/><path d=\"M100 30 L68 30\"/><path d=\"M76 23 L68 30 L76 37\"/><rect x=\"8\" y=\"48\" width=\"20\" height=\"26\" rx=\"3\"/><rect x=\"32\" y=\"48\" width=\"20\" height=\"26\" rx=\"3\"/><rect x=\"56\" y=\"48\" width=\"20\" height=\"26\" rx=\"3\"/><rect x=\"80\" y=\"48\" width=\"20\" height=\"26\" rx=\"3\"/><path d=\"M14 56 L22 56 M38 56 L46 56 M62 56 L70 56 M86 56 L94 56\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "special-squares",
+  "slot": "core-mechanic",
+  "display": "special squares",
+  "description": "Some spaces on the track have a rule of their own. One may keep you safe, another may send you back or make you miss a turn.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"46\" width=\"20\" height=\"20\"/><rect x=\"28\" y=\"46\" width=\"20\" height=\"20\"/><rect x=\"48\" y=\"46\" width=\"20\" height=\"20\" fill=\"#C75B39\"/><rect x=\"68\" y=\"46\" width=\"20\" height=\"20\"/><rect x=\"88\" y=\"46\" width=\"20\" height=\"20\"/><path d=\"M73 51 L83 61 M83 51 L73 61\"/><circle cx=\"38\" cy=\"24\" r=\"6\"/><path d=\"M38 30 L38 40\"/><path d=\"M46 22 Q58 12 60 38\"/><path d=\"M56 33 L60 39 L64 32\"/></svg>",
+  "books": [
+   "Bell, 1960"
+  ],
+  "games": [
+   "Bell, 1960: Pachisi castles (pp. 9, 11), Palm Tree Game gold points (p. 21), Royal Game of Goose bridge, well and prison (p. 16), Thaayam palace squares (pp. 18-19), Sumerian game marked squares (p. 25), Thirty Squares (p. 28)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "spend-to-use",
+  "slot": "core-mechanic",
+  "display": "spend to use",
+  "description": "Every card, unit or item has a price in the game. The ones that do more cost more, so you choose what to buy with what you have.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"14\" y=\"14\" width=\"34\" height=\"48\" rx=\"4\"/><rect x=\"60\" y=\"14\" width=\"34\" height=\"48\" rx=\"4\" fill=\"#C75B39\"/><circle cx=\"23\" cy=\"23\" r=\"4\"/><circle cx=\"69\" cy=\"23\" r=\"4\"/><circle cx=\"80\" cy=\"23\" r=\"4\"/><path d=\"M22 44 H40\"/><path d=\"M68 44 H86\"/><path d=\"M22 52 H34\"/><path d=\"M68 52 H80\"/><circle cx=\"104\" cy=\"66\" r=\"6\"/><circle cx=\"92\" cy=\"70\" r=\"6\"/><circle cx=\"80\" cy=\"72\" r=\"3\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "split-your-forces",
+  "slot": "core-mechanic",
+  "display": "split your forces",
+  "description": "You have a fixed amount to share out between several places or jobs. Putting a lot in one means less in another, and the other player is sharing out theirs too.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"60\" cy=\"12\" r=\"7\" fill=\"#C75B39\"/><path d=\"M60 19 V28\"/><path d=\"M60 28 L24 44\"/><path d=\"M60 28 V44\"/><path d=\"M60 28 L96 44\"/><path d=\"M12 46 V76 H36 V46\"/><path d=\"M48 46 V76 H72 V46\"/><path d=\"M84 46 V76 H108 V46\"/><circle cx=\"24\" cy=\"70\" r=\"4\"/><circle cx=\"24\" cy=\"60\" r=\"4\"/><circle cx=\"60\" cy=\"70\" r=\"4\" fill=\"#C75B39\"/><circle cx=\"96\" cy=\"70\" r=\"4\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "stop-on-a-signal",
+  "slot": "core-mechanic",
+  "display": "stop on a signal",
+  "description": "Everyone keeps moving until a signal comes, such as the music stopping. Then you freeze or grab a seat, and the slowest player is caught.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"30\" cy=\"40\" r=\"22\"/><path d=\"M30 24 L30 40 L42 40\"/><path d=\"M30 18 L30 20 M30 60 L30 62 M10 40 L12 40 M48 40 L50 40\"/><rect x=\"66\" y=\"14\" width=\"40\" height=\"52\" rx=\"6\"/><circle cx=\"86\" cy=\"28\" r=\"7\" fill=\"#C75B39\"/><circle cx=\"86\" cy=\"52\" r=\"7\"/><path d=\"M80 52 L92 52\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Musical Chairs, where the music stops and players grab seats (p. 277); Red Light, Green Light, where players freeze when the traffic light turns round (p. 279). Simon Says (p. 280) is a close relative, as the players act only on a marked call.",
+   "Spadaccini, 2005: Red Light, Green Light, where players freeze when It turns round (p. 168); Statues, a tag variation where It counts to ten and turns (p. 199); Musical Chairs, where players must find a seat when the music stops (p. 152); Simon Says, where only orders marked by Simon says are obeyed (p. 170)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "swapping-cards",
+  "slot": "core-mechanic",
+  "display": "swapping cards for new ones",
+  "description": "You may put cards back and take new ones from the table or a pile, to get cards you want before the hand is played. Sometimes another player has to agree.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"10\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"14\" y=\"14\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"76\" y=\"10\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"82\" y=\"14\" width=\"24\" height=\"34\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M46 24 L70 24\"/><path d=\"M64 18 L70 24 L64 30\"/><path d=\"M70 40 L46 40\"/><path d=\"M52 34 L46 40 L52 46\"/><rect x=\"44\" y=\"58\" width=\"32\" height=\"14\" rx=\"3\"/><path d=\"M52 65 L68 65\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Commerce, swapping with cards laid face up in the middle (pp. 64–67); Calabrasella, swapping with the stock and asking for a Three (pp. 56–57); Ecarte, where the first player asks to swap and the dealer can accept or refuse (pp. 83–84); Euchre, where the dealer swaps a card for the turned-up trump (p. 93)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "taking-the-pile",
+  "slot": "core-mechanic",
+  "display": "taking the discard pile",
+  "description": "Every card players throw away goes in one pile. On your turn you may pick up the whole pile, as long as you can use the card on top straight away.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"12\" y=\"10\" width=\"34\" height=\"24\" rx=\"3\"/><rect x=\"16\" y=\"14\" width=\"34\" height=\"24\" rx=\"3\"/><rect x=\"20\" y=\"18\" width=\"34\" height=\"24\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M60 30 C 78 30, 86 40, 90 52\"/><path d=\"M82 50 L90 54 L92 44\"/><rect x=\"72\" y=\"56\" width=\"14\" height=\"20\" rx=\"2\"/><rect x=\"88\" y=\"56\" width=\"14\" height=\"20\" rx=\"2\"/><rect x=\"104\" y=\"56\" width=\"14\" height=\"20\" rx=\"2\"/><path d=\"M26 28 L38 28\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Rummy, where a player may take the whole discard pile if the top card can be used in a set at once (p. 129). Gin Rummy takes only the top card (p. 130).",
+   "Morehead and Mott-Smith, 1983: Canasta and its many forms (under 'Canasta'), where you take the whole pile if you can use its top card; Five Hundred Rum, where you may take a batch from the pile if you use its lowest card (under 'Five Hundred Rum'); Oklahoma or Arlington (under 'Canasta')."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "trump-suit",
+  "slot": "core-mechanic",
+  "display": "trump suit",
+  "description": "One suit is named for the hand, and every card in it beats every card in the other suits. A low trump can win a trick against a high card of another suit.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"14\" width=\"26\" height=\"38\" rx=\"3\"/><rect x=\"48\" y=\"14\" width=\"26\" height=\"38\" rx=\"3\"/><rect x=\"86\" y=\"14\" width=\"26\" height=\"38\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M21 26 L21 38\"/><path d=\"M14 32 L28 32\"/><circle cx=\"61\" cy=\"33\" r=\"7\"/><path d=\"M99 24 L93 36 L105 36 Z\"/><path d=\"M99 36 L99 44\"/><path d=\"M60 64 L60 72\"/><path d=\"M52 68 L60 72 L68 68\"/><path d=\"M99 64 L99 72\"/><path d=\"M91 68 L99 72 L107 68\"/><path d=\"M21 64 L21 72\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Morehead and Mott-Smith, 1983",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Division Loo, with a trump turned up from the deck (pp. 79–81); Ecarte, where the turned-up card sets trumps (pp. 83–84); Euchre, where players order up or name the trump suit and the two Jacks of that colour become the highest cards (pp. 92–94); Boston, where the bidder names trumps (pp. 54–55).",
+   "Morehead and Mott-Smith, 1983: Whist, where the dealer's last card turned face up names trumps (under 'Whist'); Contract Bridge, where the auction ends by naming trumps or no trumps (under 'Contract Bridge'); Spades, where spades are always trumps and cannot be led until broken (under 'Spades'); Oh Hell!, where a card turned up each deal names trumps and the last deal has none (under 'Oh Hell!'); Solo (Ombre), where the winning bidder names the trump suit (under 'Solo (Ombre)').",
+   "Spadaccini, 2005: Euchre, where the card turned up or a named suit becomes trump and two jacks rank above everything (p. 288, p. 289); Bridge, where the auction ends by naming a trump suit or No Trump (p. 272)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "two-games-at-once",
+  "slot": "core-mechanic",
+  "display": "two games at once",
+  "description": "Two games run at once on two boards. You are one side on the first board and the other side on the second, so you are attacking and defending together.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"18\" width=\"44\" height=\"44\"/><line x1=\"22.7\" y1=\"18\" x2=\"22.7\" y2=\"62\"/><line x1=\"37.3\" y1=\"18\" x2=\"37.3\" y2=\"62\"/><line x1=\"8\" y1=\"32.7\" x2=\"52\" y2=\"32.7\"/><line x1=\"8\" y1=\"47.3\" x2=\"52\" y2=\"47.3\"/><rect x=\"68\" y=\"18\" width=\"44\" height=\"44\"/><line x1=\"82.7\" y1=\"18\" x2=\"82.7\" y2=\"62\"/><line x1=\"97.3\" y1=\"18\" x2=\"97.3\" y2=\"62\"/><line x1=\"68\" y1=\"32.7\" x2=\"112\" y2=\"32.7\"/><line x1=\"68\" y1=\"47.3\" x2=\"112\" y2=\"47.3\"/><circle cx=\"30\" cy=\"40\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"90\" cy=\"40\" r=\"5\"/><path d=\"M56 40 H64\"/><path d=\"M59 36 L56 40 L59 44\"/><path d=\"M61 36 L64 40 L61 44\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Schmittberger, 1992: Duplicate Backgammon, where both players use each roll on two boards (p. 32); Double Tablut, with a move on each board every turn (pp. 33–35); Double Unbalanced Chess (pp. 35–37); Fox and Geese played twice at once (p. 35); Chess-Checkers-Chinese Checkers, where each turn you pick one board (p. 39); Backgammon-Parcheesi-Monopoly (p. 40)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "wild-cards",
+  "slot": "core-mechanic",
+  "display": "wild cards",
+  "description": "Some cards can stand for any other card you choose. A wild card can finish a set that would otherwise be missing one piece.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"18\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"38\" y=\"18\" width=\"24\" height=\"34\" rx=\"3\"/><rect x=\"68\" y=\"18\" width=\"24\" height=\"34\" rx=\"3\" stroke-dasharray=\"3 4\"/><rect x=\"78\" y=\"28\" width=\"24\" height=\"34\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M90 36 L90 54 M81 45 L99 45 M84 38 L96 52 M96 38 L84 52\"/><path d=\"M14 28 L20 28 M44 28 L50 28\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Mistigris, where the joker can be called any card not already in the hand (p. 125). Railroad Euchre adds a joker that is always trump, which is a top card and not a wild one (p. 104).",
+   "Morehead and Mott-Smith, 1983: Poker with jokers or deuces wild (under 'Wild-Cards' and 'Deuces Wild'), Baseball and Football (under their headings), Contract Rummy, Continental Rummy and Canasta, where jokers and twos stand for any rank."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "wraparound-board",
+  "slot": "core-mechanic",
+  "display": "wraparound board",
+  "description": "The edges of the board are joined. If your line runs off the right side, it carries on from the left side.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"30\" y=\"24\" width=\"60\" height=\"40\"/><line x1=\"45\" y1=\"24\" x2=\"45\" y2=\"64\"/><line x1=\"60\" y1=\"24\" x2=\"60\" y2=\"64\"/><line x1=\"75\" y1=\"24\" x2=\"75\" y2=\"64\"/><line x1=\"30\" y1=\"37.3\" x2=\"90\" y2=\"37.3\"/><line x1=\"30\" y1=\"50.7\" x2=\"90\" y2=\"50.7\"/><rect x=\"75\" y=\"24\" width=\"15\" height=\"13.3\" fill=\"#C75B39\"/><rect x=\"30\" y=\"24\" width=\"15\" height=\"13.3\" fill=\"#C75B39\"/><path d=\"M90 30 H100 Q108 30 108 18 Q108 8 60 8 Q12 8 12 18 Q12 30 20 30 H30\"/><path d=\"M25 26 L30 30 L25 34\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Schmittberger, 1992: Toric Scrabble, where words run off one edge and continue on the opposite one (pp. 17–18); Spherical Scrabble, where words cross a pole (pp. 18–19); Cylindrical Go and Toric Go (p. 62)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "yes-or-no-questions",
+  "slot": "core-mechanic",
+  "display": "yes-or-no questions",
+  "description": "One player knows a secret. The others ask questions that can be answered yes or no, and each answer shrinks the list of things it could be.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"26\" r=\"14\"/><path d=\"M20 22 C 20 14, 33 14, 33 22 C 33 28, 26 28, 26 33\"/><circle cx=\"26\" cy=\"38\" r=\"1\" fill=\"#2D3436\"/><path d=\"M50 20 L110 20\"/><path d=\"M50 32 L100 32\"/><circle cx=\"26\" cy=\"64\" r=\"8\" fill=\"#C75B39\"/><path d=\"M22 64 L25 67 L31 60\"/><circle cx=\"62\" cy=\"64\" r=\"8\"/><path d=\"M58 60 L66 68 M66 60 L58 68\"/><path d=\"M82 64 L112 64\"/></svg>",
+  "books": [
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: Twenty Questions (p. 84), Botticelli (p. 45), Coffeepot (p. 69)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "beat-the-layout",
+  "slot": "victory-condition",
+  "display": "beat the layout",
+  "description": "You play alone against the cards. You win if you clear the table or build every card into its place, and the game says you lost if you get stuck.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"20\" height=\"28\" rx=\"3\"/><rect x=\"36\" y=\"10\" width=\"20\" height=\"28\" rx=\"3\"/><rect x=\"62\" y=\"10\" width=\"20\" height=\"28\" rx=\"3\"/><rect x=\"88\" y=\"10\" width=\"20\" height=\"28\" rx=\"3\"/><rect x=\"10\" y=\"46\" width=\"20\" height=\"24\" rx=\"3\" stroke-dasharray=\"3 4\"/><rect x=\"36\" y=\"46\" width=\"20\" height=\"24\" rx=\"3\" stroke-dasharray=\"3 4\"/><rect x=\"62\" y=\"46\" width=\"20\" height=\"24\" rx=\"3\" fill=\"#C75B39\"/><path d=\"M88 58 L96 66 L110 48\"/></svg>",
+  "books": [
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: Accordion (p. 342), Clock Solitaire (p. 343), Idiot's Delight (p. 344), Klondike (p. 345), Pyramid (p. 347), Spider (p. 349)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "best-of-several-games",
+  "slot": "victory-condition",
+  "display": "best of several games",
+  "description": "Play several short games in a row. Whoever wins the most games wins, and you can stop as soon as nobody can catch up. Two wins out of three is the simplest kind.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"14\" width=\"24\" height=\"24\" rx=\"3\"/><rect x=\"48\" y=\"14\" width=\"24\" height=\"24\" rx=\"3\"/><rect x=\"88\" y=\"14\" width=\"24\" height=\"24\" rx=\"3\" stroke-dasharray=\"4 4\"/><path d=\"M14 26l5 5 8-10\" stroke=\"#C75B39\"/><path d=\"M54 26l5 5 8-10\" stroke=\"#C75B39\"/><path d=\"M96 24l8 8M104 24l-8 8\"/><path d=\"M32 26h16M72 26h16\"/><circle cx=\"40\" cy=\"58\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"60\" cy=\"58\" r=\"5\" fill=\"#C75B39\"/><circle cx=\"80\" cy=\"58\" r=\"5\"/><path d=\"M30 70h60\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012",
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Elias, Garfield and Gutschera, 2012: chess and go matches (pp. 13-14), tennis matches (p. 13), rubber bridge (p. 17); the book calls a match a fixed run of games, often best two out of three, ended as soon as one side cannot be caught.",
+   "Schmittberger, 1992: Chess-Checkers-Chinese Checkers, where each player moves on any one of three boards and wins by taking two of the three, and where an odd number of boards avoids a tie (p. 39); Backgammon-Parcheesi-Monopoly, with the same aim of winning a majority (p. 40); a two-game Tablut match, with the faster king escape deciding the match (p. 28)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "fewest-points",
+  "slot": "victory-condition",
+  "display": "fewest points",
+  "description": "Every point you pick up counts against you. When the game ends, the player with the fewest points wins.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 66 L108 66\"/><rect x=\"18\" y=\"20\" width=\"16\" height=\"46\"/><rect x=\"42\" y=\"34\" width=\"16\" height=\"32\"/><rect x=\"66\" y=\"48\" width=\"16\" height=\"18\" fill=\"#C75B39\"/><rect x=\"90\" y=\"40\" width=\"16\" height=\"26\"/><path d=\"M74 12 L74 32\"/><path d=\"M68 26 L74 33 L80 26\"/><path d=\"M18 14 L34 14\"/><path d=\"M42 14 L58 14\"/><circle cx=\"26\" cy=\"10\" r=\"1.5\" fill=\"#2D3436\"/><circle cx=\"50\" cy=\"10\" r=\"1.5\" fill=\"#2D3436\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Morehead and Mott-Smith, 1983: Hearts (under '(Original) Hearts'), Black Lady and Omnibus Hearts, where hearts and the Queen of Spades count against you (under 'Black Lady'); Cancellation Hearts, where each penalty point is taken from a common pool (under 'Cancellation Hearts'); Domino Hearts and Spot Hearts (under 'Domino Hearts' and 'Spot Hearts')."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "finish-on-exact-number",
+  "slot": "victory-condition",
+  "display": "finish on an exact number",
+  "description": "You cannot just get there first. You have to land exactly on the target number, and going past it costs you the win or the hand.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 52 L110 52\"/><path d=\"M10 46 L10 58\"/><path d=\"M30 48 L30 56\"/><path d=\"M50 48 L50 56\"/><path d=\"M70 48 L70 56\"/><path d=\"M90 46 L90 58\"/><path d=\"M110 46 L110 58\"/><circle cx=\"90\" cy=\"30\" r=\"9\" fill=\"#C75B39\"/><path d=\"M90 39 L90 46\"/><path d=\"M100 70 L112 70\"/><path d=\"M104 66 L112 70 L104 74\"/><path d=\"M26 30 C 40 14, 60 14, 74 26\"/><path d=\"M68 20 L75 27 L66 29\"/></svg>",
+  "books": [
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Spadaccini, 2005: Twenty-One, a basketball game where a player at 20 points misses on purpose (p. 227); Darts, where a score must reach exactly zero on a double (p. 242); Cribbage, where the running count must stop at 31 and landing on exactly 31 earns extra (p. 284); Blackjack, where going over 21 loses (p. 270)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "play-to-lose",
+  "slot": "victory-condition",
+  "display": "play to lose",
+  "description": "The aim is turned upside down. In some games the player who gives everything away wins; in others the player who makes the last move loses.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M44 12 H76\"/><path d=\"M60 12 V26\"/><path d=\"M42 26 H78 Q78 54 60 54 Q42 54 42 26 Z\"/><path d=\"M42 30 Q32 30 32 38 Q32 44 42 44\"/><path d=\"M78 30 Q88 30 88 38 Q88 44 78 44\"/><path d=\"M60 58 V72\"/><path d=\"M52 66 L60 74 L68 66\"/><circle cx=\"60\" cy=\"38\" r=\"6\" fill=\"#C75B39\"/><path d=\"M46 70 H74\"/><path d=\"M36 20 L44 20\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "one-against-the-rest",
+  "slot": "player-interaction",
+  "display": "one against the rest",
+  "description": "All the other players team up against a single player. If the lone player wins, they are paid more.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"40\" r=\"13\" fill=\"#C75B39\"/><circle cx=\"26\" cy=\"40\" r=\"5\"/><circle cx=\"94\" cy=\"16\" r=\"8\"/><circle cx=\"94\" cy=\"40\" r=\"8\"/><circle cx=\"94\" cy=\"64\" r=\"8\"/><path d=\"M40 36 L85 19\"/><path d=\"M41 40 L85 40\"/><path d=\"M40 44 L85 61\"/><path d=\"M80 14 L85 19 L78 22\"/><path d=\"M80 40 L86 40 M80 36 L85 40 L80 44\"/><path d=\"M80 66 L85 61 L78 58\"/><path d=\"M62 10 L62 70\" stroke-dasharray=\"3 4\"/></svg>",
+  "books": [
+   "Fitzsimmons and Liflander, 1996",
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Fitzsimmons and Liflander, 1996: Napoleon, where the highest bidder plays against everyone else combined (p. 105); Skat, where one lone player faces two opponents and any extra players share the opponents' result (p. 133); Solo, where a bidder may play alone against three others (pp. 145-148); Three-Handed Euchre, where the player who makes trump plays against the other two (p. 104).",
+   "Schmittberger, 1992: Three-player Chinese Checkers, where one player controls two colours against two teammates who control one each (p. 45); the same fix for three-player chess and other pure strategy games, to avoid the leader being ganged up on (pp. 44–45); Team play in chess, where two players play Black against one (p. 42)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "playing-alone",
+  "slot": "player-interaction",
+  "display": "playing alone",
+  "description": "Nobody else takes a turn: it is you against the pack. Luck and your own choices decide how it goes, and you can still compare results with a friend afterwards.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"60\" cy=\"14\" r=\"7\" fill=\"#C75B39\"/><path d=\"M48 32 C 50 24, 70 24, 72 32\"/><rect x=\"8\" y=\"42\" width=\"12\" height=\"18\" rx=\"2\"/><rect x=\"24\" y=\"42\" width=\"12\" height=\"18\" rx=\"2\"/><rect x=\"40\" y=\"42\" width=\"12\" height=\"18\" rx=\"2\"/><rect x=\"56\" y=\"42\" width=\"12\" height=\"18\" rx=\"2\"/><rect x=\"72\" y=\"42\" width=\"12\" height=\"18\" rx=\"2\"/><rect x=\"88\" y=\"42\" width=\"12\" height=\"18\" rx=\"2\"/><rect x=\"104\" y=\"42\" width=\"10\" height=\"18\" rx=\"2\"/><path d=\"M14 66 L14 72\"/><path d=\"M30 66 L30 72\"/><path d=\"M46 66 L46 72\"/><path d=\"M62 66 L62 72\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Morehead and Mott-Smith, 1983: the solitaire family under 'Solitaire', which the book calls a very large kind of card game, including Klondike, Canfield, Accordion, Golf, Forty Thieves, Spider, Scorpion, Nestor, The Clock, Pyramid, La Belle Lucie, Gaps, Calculation and Poker Solitaire. Golf and Canfield also have two-player or many-player versions (under 'Double Golf' and 'Pounce')."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "dummy-hand",
+  "slot": "information",
+  "display": "a hand laid face up",
+  "description": "One hand is spread face up for all to see, while every other hand stays secret. A player may play the open hand as well as their own.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"40\" y=\"6\" width=\"12\" height=\"22\" rx=\"2\" fill=\"#C75B39\"/><rect x=\"54\" y=\"6\" width=\"12\" height=\"22\" rx=\"2\"/><rect x=\"68\" y=\"6\" width=\"12\" height=\"22\" rx=\"2\"/><path d=\"M45 12 L45 12.5\"/><path d=\"M59 12 L59 12.5\"/><rect x=\"40\" y=\"52\" width=\"12\" height=\"22\" rx=\"2\"/><rect x=\"54\" y=\"52\" width=\"12\" height=\"22\" rx=\"2\"/><rect x=\"68\" y=\"52\" width=\"12\" height=\"22\" rx=\"2\"/><rect x=\"6\" y=\"30\" width=\"16\" height=\"12\" rx=\"2\"/><rect x=\"98\" y=\"30\" width=\"16\" height=\"12\" rx=\"2\"/><path d=\"M8 33 L20 39 M20 33 L8 39\"/><path d=\"M100 33 L112 39 M112 33 L100 39\"/><path d=\"M44 16 L48 22 M58 16 L62 22\"/></svg>",
+  "books": [
+   "Morehead and Mott-Smith, 1983"
+  ],
+  "games": [
+   "Morehead and Mott-Smith, 1983: Contract Bridge, where the declarer's partner lays their hand face up and the declarer plays it (under 'Contract Bridge'); Cutthroat Bridge, Trio and Towie, where an extra hand is spread on the table (under 'Bridge for Three'); Honeymoon Bridge, where each of two players sees the hand opposite them (under 'Honeymoon Bridge')."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "secret-scores",
+  "slot": "information",
+  "display": "secret scores",
+  "description": "Some of your points or money are kept secret from the other players. Nobody can add up the scores for certain, so everyone has to guess who is ahead.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"14\" y=\"14\" width=\"30\" height=\"42\" rx=\"4\"/><rect x=\"48\" y=\"14\" width=\"30\" height=\"42\" rx=\"4\" fill=\"#C75B39\"/><path d=\"M58 30 Q63 22 70 28 Q73 33 65 38 L63 42\"/><circle cx=\"63\" cy=\"48\" r=\"1.5\" fill=\"#2D3436\"/><rect x=\"82\" y=\"14\" width=\"30\" height=\"42\" rx=\"4\"/><path d=\"M92 28 L102 28\"/><path d=\"M92 36 L102 36\"/><path d=\"M92 44 L98 44\"/><path d=\"M20 68 L38 68\"/><path d=\"M54 68 L72 68\"/><path d=\"M88 68 L106 68\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ },
+ {
+  "id": "extra-turn",
+  "slot": "timing",
+  "display": "extra turn",
+  "description": "On some throws, or when you hit another piece, you get another go at once. A lucky player can move many times before anyone else.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"22\" width=\"36\" height=\"36\" rx=\"6\"/><circle cx=\"21\" cy=\"33\" r=\"2.4\" fill=\"#2D3436\"/><circle cx=\"28\" cy=\"40\" r=\"2.4\" fill=\"#2D3436\"/><circle cx=\"35\" cy=\"47\" r=\"2.4\" fill=\"#2D3436\"/><path d=\"M52 40 L64 40\"/><path d=\"M60 35 L65 40 L60 45\"/><path d=\"M104 40 A20 20 0 1 1 92 21\"/><path d=\"M90 14 L92 21 L99 20\"/><circle cx=\"84\" cy=\"36\" r=\"5\" fill=\"#C75B39\"/><path d=\"M84 41 L84 52\"/></svg>",
+  "books": [
+   "Bell, 1960",
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Bell, 1960: Nyout (p. 2), Zohn Ahl (p. 5), Pachisi (p. 11), Thaayam (pp. 18-19), Palm Tree Game (p. 21), Sumerian game (p. 24), Chasing the Girls (p. 37).",
+   "Spadaccini, 2005: Croquet, where passing a wicket or hitting another ball earns extra strokes (p. 238); Twenty-One, where a made foul shot lets the shooter go again (p. 227); Badminton, where the server keeps serving after winning a point (p. 218); Bocce, where the side that scores starts the next round (p. 231)."
+  ],
+  "tentative": true
+ },
+ {
+  "id": "staged-game",
+  "slot": "timing",
+  "display": "staged game",
+  "description": "The game comes in stages with different rules, like first picking your cards and then playing with them. What you do in the first stage sets up the second.",
+  "svg": "<svg viewBox=\"0 0 120 80\" aria-hidden=\"true\" fill=\"none\" stroke=\"#2D3436\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"20\" width=\"36\" height=\"40\" rx=\"4\"/><circle cx=\"19\" cy=\"34\" r=\"3\"/><circle cx=\"30\" cy=\"34\" r=\"3\"/><circle cx=\"19\" cy=\"48\" r=\"3\"/><circle cx=\"30\" cy=\"48\" r=\"3\" fill=\"#C75B39\"/><path d=\"M50 40 H70\"/><path d=\"M63 33 L70 40 L63 47\"/><rect x=\"76\" y=\"14\" width=\"36\" height=\"52\" rx=\"4\"/><path d=\"M76 30 H112\"/><path d=\"M76 48 H112\"/><path d=\"M94 14 V66\"/><circle cx=\"85\" cy=\"39\" r=\"3\" fill=\"#C75B39\"/></svg>",
+  "books": [
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [],
+  "tentative": true
+ }
+]

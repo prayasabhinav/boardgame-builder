@@ -127,6 +127,7 @@ async function loadPalette() {
   const data = await resp.json();
   state.dimensions = data.dimensions;
   state.feelings = data.feelings;
+  UNUSUAL = data.unusual || [];
   renderPalette();
   renderMechanicsGrid();
 }
@@ -172,6 +173,8 @@ function filterPalette() {
       block.hidden = !(groupMatch || has(block.textContent + " " + (meta.description || "")));
       if (!block.hidden) inGroup++;
     }
+    const sub = group.querySelector(".block-sub");
+    if (sub) sub.hidden = ![...group.querySelectorAll(".block.tentative")].some((b) => !b.hidden);
     group.hidden = inGroup === 0;
     shown += inGroup;
   }
@@ -211,6 +214,13 @@ function buildPaletteGroup({ dim, letter, title, description, blocks, isFeeling 
   const list = document.createElement("div");
   list.className = "block-list";
   for (const b of blocks) {
+    // The blocks added from the rule books on 6 November 2026 come last, under their own label
+    if (b.tentative && !list.querySelector(".block-sub")) {
+      const sub = document.createElement("p");
+      sub.className = "block-sub";
+      sub.textContent = "From the rule books, tentative";
+      list.appendChild(sub);
+    }
     list.appendChild(createBlock(b.id, b.display, b.dim, { meta: b }));
   }
   group.appendChild(list);
@@ -252,7 +262,7 @@ function dimensionLetter(dimId) {
 
 function createBlock(id, display, dim, { inSlot = false, meta = null } = {}) {
   const el = document.createElement("div");
-  el.className = "block" + (inSlot ? " block-in-slot" : "");
+  el.className = "block" + (inSlot ? " block-in-slot" : "") + (meta && meta.tentative ? " tentative" : "");
   el.dataset.blockId = id;
   el.dataset.dim = dim;
   el.draggable = !state.locked;
@@ -314,7 +324,8 @@ function openBlockModal(blockId, dim) {
 
   document.getElementById("blockModalEyebrow").textContent = dimensionDisplayLabel(dim);
   document.getElementById("blockModalTitle").textContent = display;
-  document.getElementById("blockModalDesc").textContent = description;
+  document.getElementById("blockModalDesc").textContent = description + (meta.tentative
+    ? ` Tentative: added on 6 November 2026 from ${meta.from}, and not yet tried in a class.` : "");
 
   const svgWrap = document.getElementById("blockModalSvg");
   svgWrap.innerHTML = svgMarkup;
@@ -455,6 +466,95 @@ function renderMechanicsGrid() {
     grid.appendChild(slot);
   }
   if (!document.querySelector('[data-panel="tests"]').hidden) renderTests();
+  markUnusual();
+  reportFlags();
+}
+
+// ── Unusual pairs and remote teacher mode ─────────────────────────
+// A pair marked unusual can still be placed (Prayas, 6 November 2026: "allow unconventional innovation but flag for teacher").
+// The blocks are marked; in a class, the student's name, blocks and pairs go to the teacher, and only while a pair is on the canvas.
+
+const CLASS_KEY = "bgb-class";
+let UNUSUAL = [];
+let sentFlags = false;
+
+function readClass() {
+  try { return JSON.parse(localStorage.getItem(CLASS_KEY) || "null"); } catch (_) { return null; }
+}
+
+function unusualOnCanvas() {
+  const placed = new Set(flattenMechanics(state.mechanics));
+  return UNUSUAL.filter((u) => u.blocks.every((b) => placed.has(b)));
+}
+
+function markUnusual() {
+  const placed = new Set(flattenMechanics(state.mechanics));
+  const notes = {};
+  for (const u of UNUSUAL) {
+    const missing = u.blocks.filter((b) => !placed.has(b));
+    if (missing.length === 0) u.blocks.forEach((b) => (notes[b] = u.note));
+    else if (missing.length === 1) notes[missing[0]] = u.note;   // a palette block that would make the pair
+  }
+  const seen = readClass() ? " In your class, your teacher sees this pair." : "";
+  document.querySelectorAll(".block[data-block-id]").forEach((el) => {
+    const note = notes[el.dataset.blockId];
+    el.classList.toggle("unusual", !!note);
+    el.title = note ? `Unusual pair. ${note}${seen}` : "";
+  });
+}
+
+async function sendFlags(cls, unusual) {
+  return fetch(`/class/${encodeURIComponent(cls.code)}/flags`, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name: cls.name, mechanics: state.mechanics, unusual }),
+  });
+}
+
+function reportFlags() {
+  const cls = readClass();
+  const unusual = unusualOnCanvas();
+  if (!cls || (!unusual.length && !sentFlags)) return;
+  sentFlags = unusual.length > 0;
+  sendFlags(cls, unusual).catch(() => {});
+}
+
+function renderClassLink() {
+  const cls = readClass();
+  const link = document.getElementById("classLink");
+  link.textContent = cls ? `Class ${cls.code} · ${cls.name} · leave` : "Join a class";
+}
+
+function setupClass() {
+  const dialog = document.getElementById("classDialog");
+  const error = document.getElementById("classError");
+  renderClassLink();
+  document.getElementById("classLink").addEventListener("click", async (e) => {
+    e.preventDefault();
+    const cls = readClass();
+    if (!cls) { error.hidden = true; dialog.showModal(); return; }
+    await sendFlags(cls, []).catch(() => {});   // the teacher's list loses this student
+    try { localStorage.removeItem(CLASS_KEY); } catch (_) {}
+    sentFlags = false;
+    renderClassLink();
+    markUnusual();
+  });
+  document.getElementById("classCancel").addEventListener("click", () => dialog.close());
+  document.getElementById("classForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const cls = { code: document.getElementById("classCode").value.trim().toUpperCase(), name: document.getElementById("className").value.trim() };
+    const unusual = unusualOnCanvas();
+    const resp = await sendFlags(cls, unusual).catch(() => null);
+    if (!resp || !resp.ok) {
+      error.textContent = resp && resp.status === 404 ? "No class has that code. Check it with your teacher." : "Could not reach the class. Try again.";
+      error.hidden = false;
+      return;
+    }
+    try { localStorage.setItem(CLASS_KEY, JSON.stringify(cls)); } catch (_) {}
+    sentFlags = unusual.length > 0;
+    dialog.close();
+    renderClassLink();
+    markUnusual();
+  });
 }
 
 // ── Feelings shelf ────────────────────────────────────────────────
@@ -884,6 +984,42 @@ function showTab(name) {
   document.querySelectorAll(".panel-tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === name));
   document.querySelectorAll(".panel-pane").forEach((p) => { p.hidden = p.dataset.panel !== name; });
   if (name === "tests") renderTests();
+  if (name === "ideas") renderIdeas();
+}
+
+// ── Ideas: a glossary and key ideas from books, each cited by book and page ──
+let IDEAS = null;
+
+async function renderIdeas() {
+  if (!IDEAS) IDEAS = await (await fetch("/ideas")).json();
+  const q = document.getElementById("ideasSearch").value.trim().toLowerCase();
+  const hit = (e) => !q || `${e.name} ${e.text}`.toLowerCase().includes(q);
+  const cite = (e) => `<span class="ideas-cite">(${escapeHtml(e.short)}, ${escapeHtml(e.page)})</span>`;
+  const terms = IDEAS.terms.filter(hit), ideas = IDEAS.ideas.filter(hit);
+  const letter = (t) => t.name.replace(/^(the|a|an) /i, "").charAt(0).toUpperCase();
+  const letters = [...new Set(terms.map(letter))];
+  let html = `<section class="ideas-section"><h3 class="ideas-heading">Glossary</h3>`;
+  html += `<nav class="ideas-letters">${letters.map((l) => `<a href="#" data-letter="${l}">${l}</a>`).join("")}</nav>`;
+  let last = "", lastName = "";
+  for (const t of terms) {
+    if (letter(t) !== last) { last = letter(t); html += `<h4 class="ideas-letter" id="ideas-letter-${last}">${last}</h4>`; }
+    const same = t.name.toLowerCase() === (lastName || "").toLowerCase();   // several books define one word: one heading, each definition below it
+    html += `<p class="ideas-entry${same ? " ideas-again" : ""}">${same ? "" : `<strong>${escapeHtml(t.name)}</strong> `}${escapeHtml(t.text)} ${cite(t)}</p>`;
+    lastName = t.name;
+  }
+  html += `</section><section class="ideas-section"><h3 class="ideas-heading">Key ideas</h3>`;
+  for (const book of [...new Set(ideas.map((i) => i.short))]) {
+    html += `<h4 class="ideas-letter">${escapeHtml(book)}</h4>`;
+    for (const i of ideas.filter((x) => x.short === book)) html += `<p class="ideas-entry"><strong>${escapeHtml(i.name)}.</strong> ${escapeHtml(i.text)} ${cite(i)}</p>`;
+  }
+  html += `</section><section class="ideas-section"><h3 class="ideas-heading">Books</h3>${IDEAS.references.map((r) => `<p class="ideas-ref">${escapeHtml(r)}</p>`).join("")}</section>`;
+  if (!terms.length && !ideas.length) html = `<p class="ideas-entry">Nothing matches.</p>`;
+  const box = document.getElementById("ideasScroll");
+  box.innerHTML = html;
+  box.querySelectorAll("[data-letter]").forEach((a) => a.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.getElementById(`ideas-letter-${a.dataset.letter}`).scrollIntoView({ block: "start" });
+  }));
 }
 
 // ── Addresses: every view has its own, so it can be linked, reloaded and reached with Back ──
@@ -905,7 +1041,7 @@ async function route() {
   if (view !== "games") closeGames();
   if (view !== "play") closePlay();
   if (view === "play") openPlay(id);
-  showTab(view === "tests" ? "tests" : "feedback");
+  showTab(view === "tests" || view === "ideas" ? view : "feedback");
   if (view === "how-it-works") openOnboarding();
   if (view === "blocks") {
     const dim = state.dimensions.find((d) => d.blocks.some((b) => b.id === id));
@@ -1581,6 +1717,8 @@ function onStartFresh() {
 // ── Init ──────────────────────────────────────────────────────────
 
 document.addEventListener("DOMContentLoaded", async () => {
+  setupClass();
+  document.getElementById("ideasSearch").addEventListener("input", renderIdeas);
   await loadPalette();
 
   const restored = loadState();
@@ -1615,7 +1753,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   for (const id of ["configDoneBtn", "configModalClose", "configModalBackdrop"]) {
     document.getElementById(id).addEventListener("click", closeQuestions);
   }
-  document.querySelectorAll(".panel-tab").forEach((t) => t.addEventListener("click", () => (t.dataset.tab === "tests" ? go("tests") : leave())));
+  document.querySelectorAll(".panel-tab").forEach((t) => t.addEventListener("click", () => (t.dataset.tab === "feedback" ? leave() : go(t.dataset.tab))));
   document.getElementById("saveGameLink").addEventListener("click", (e) => { e.preventDefault(); onSaveGame(); });
   document.getElementById("openGameLink").addEventListener("click", (e) => { e.preventDefault(); document.getElementById("openGameInput").click(); });
   document.getElementById("openGameInput").addEventListener("change", onOpenGame);

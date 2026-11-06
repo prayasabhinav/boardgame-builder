@@ -1,0 +1,16 @@
+checker found no passage	term: Race game | A game in which each player moves pieces along a track from a start to a finish, and the first to bring all home wins. Throws of dice, sticks or shells decide how far a piece moves. | p. 1
+checker found no passage	term: Peg scoring board | A board with rows of holes in which pegs mark a running score or the progress of a piece. The cribbage board is a late relative. | p. 20
+checker found no passage	idea: Gambling pressed games to find their rules | Dice games were forbidden in Rome except at the Saturnalia, yet emperors played for large sums. Bell links the spread of stakes, doubling and fines to the way games were played for money. | p. 33
+checker found no passage	term: War game | A game in which two sides of pieces fight on a board, usually by capturing, blocking or taking a position. Bell's second family, covering Alquerque, chess, draughts, tafl and others. | p. 47
+checker found no passage	term: Rank and file | A rank is a row of squares across the board, and a file is a column running the other way. | p. vii
+checker found no passage	term: Draw | A result in which neither player wins. | p. 60
+checker found no passage	idea: Capture methods define a family of games | Alquerque, Fighting Serpents and the Sixteen Soldiers use short-leap capture and chains of jumps. The Stone Warriors use custodian capture. The method of capture is one of the clearest differences between games on similar boards. | p. 50
+checker found no passage	term: Running-fight game | A war game in which pieces run down a track to the enemy's side, fighting on the way, as in Tablan and Puluc. | p. 87
+checker found no passage	term: Game of position | A game won by placing pieces in a pattern, such as a line, rather than by capturing the whole enemy force. Bell's third family. | p. 91
+checker found no passage	idea: Race and replacement are close | In Five Field Kono and Halma, each player aims to occupy the squares the other began on. Halma adds leaps that chain into ladders, which a player can also use or block for the opponent. | p. 98
+checker found no passage	term: Singleton | A cup holding one seed in Wari. | p. 117
+checker found no passage	term: Dice game | A game whose result or main decisions come from the throw of dice. Bell's fifth family. | p. 123
+checker found no passage	term: Tally | A counter or small stick that records score in a dice game, as in the Passamaquoddy bowl game. | p. 126
+checker found no passage	term: Cache | The personal store where a player keeps tallies he has won. | p. 126
+checker found no passage	term: Match | Placing a domino so that one end meets an end with the same number of spots. | p. 161
+checker found no passage	term: Double | A domino with the same number of spots on both halves. | p. 160

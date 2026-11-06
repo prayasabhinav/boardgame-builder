@@ -3,14 +3,19 @@
 Runs on localhost. Serves the frontend and exposes these endpoints:
 - GET  /palette   — palette data for the frontend (dimensions + feelings, each block with its questions)
 - GET  /tests     — short tests of one part of a game, and of two parts together
+- GET  /ideas     — the Ideas tab: glossary terms and key ideas from books, each with its book and page
 - GET  /games     — known games to play with things at hand, then watch and answer questions about
 - GET  /games/{id}.md — one known game as a Markdown file that Open game loads as a starting design
 - POST /narrate   — stage 2 + 3 for one turn
 - POST /complete  — stage 3 final summary for Mark complete
+- POST /class, POST + GET /class/{code}/flags, DELETE /class/{code} — remote teacher mode, held in memory only
+- GET  /teacher   — the teacher's page
 """
 
 import json
 import os
+import secrets
+import time
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
@@ -20,7 +25,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from rules import compute_diff, match_kb
-from templates import build_template_output, display, render_summary, render_turn
+from templates import build_template_output, cite, display, render_summary, render_turn
 from palette import DIMENSIONS, FEELINGS
 
 # The slots that hold several blocks, named on the page from the palette so the text cannot fall behind it.
@@ -36,7 +41,8 @@ def _enrich(blocks: list) -> list:
     out = []
     for b in blocks:
         meta = meta_for(b["id"])
-        out.append({**b, "description": meta["description"], "svg": meta["svg"], "questions": QUESTIONS.get(b["id"], [])})
+        out.append({**b, "description": meta["description"], "svg": meta["svg"], "questions": QUESTIONS.get(b["id"], []),
+                    **({"from": meta["credit"]} if meta.get("tentative") else {})})
     return out
 
 
@@ -45,7 +51,14 @@ def _palette_payload() -> dict:
     for d in DIMENSIONS:
         enriched_dims.append({**d, "blocks": _enrich(d["blocks"])})
     enriched_feels = _enrich(FEELINGS)
-    return {"dimensions": enriched_dims, "feelings": enriched_feels}
+    # The pairs a placed block is marked unusual against; placing them stays allowed, and in a class the teacher sees them
+    unusual = [{"blocks": c["elements"], "note": c["student_note"] + cite(c)} for c in KB["conflicts"]]
+    # Pairs review-model/rules.py marks from its table, with the reason; a pair no known game has is not marked for that alone
+    if (ROOT / "review.json").exists():
+        review = json.loads((ROOT / "review.json").read_text(encoding="utf-8"))
+        unusual += [{"blocks": p.split("+"), "note": f"{review['reasons'][p][0].upper()}{review['reasons'][p][1:]}. Needs a look: {review['score'][p]} of 10. Is that the new thing in your game, or a clash?"}
+                    for p in review["flagged"]]
+    return {"dimensions": enriched_dims, "feelings": enriched_feels, "unusual": unusual}
 
 
 # --- Paths + KB load --------------------------------------------------------
@@ -60,7 +73,13 @@ with open(KB_PATH, "r", encoding="utf-8") as f:
 # The drafted pairs come after the curated ones, so a curated entry is always found first
 with open(ROOT / "interactions-drafted.json", "r", encoding="utf-8") as f:
     DRAFTED = json.load(f)
-KB["pairs"] += DRAFTED["pairs"]
+# Entries taken from books, each with its book and page, sit between the two: one entry per pair, curated first, then a book's, then drafted
+BOOKS = json.loads((ROOT / "interactions-books.json").read_text(encoding="utf-8"))
+_have = {frozenset(p["elements"]) for p in KB["pairs"]}
+KB["pairs"] += [p for p in BOOKS["pairs"] if frozenset(p["elements"]) not in _have]
+_have |= {frozenset(p["elements"]) for p in BOOKS["pairs"]}
+KB["pairs"] += [p for p in DRAFTED["pairs"] if frozenset(p["elements"]) not in _have]
+KB["conflicts"] += BOOKS["conflicts"]
 KB["themes"] = DRAFTED["themes"]
 for fb in KB["feeling_blocks"]:
     links = DRAFTED["feeling_links"][fb["feeling"]]
@@ -130,6 +149,12 @@ def get_tests():
     return PART_TESTS
 
 
+@app.get("/ideas")
+def get_ideas():
+    """The Ideas tab: an alphabetical glossary and key ideas from books, each with its book and page."""
+    return JSONResponse(json.loads((ROOT / "ideas.json").read_text(encoding="utf-8")))
+
+
 @app.get("/games")
 def get_games():
     return JSONResponse(GAMES, headers={"Cache-Control": "no-cache"})
@@ -180,6 +205,68 @@ def complete(req: TurnRequest):
 
 
 # Serve frontend from /static/* and root
+# --- Remote teacher mode ----------------------------------------------------
+# A class lives in this process's memory only: never written to disk, gone after a day or a restart.
+# A student's entry exists only while their canvas has an unusual pair: their name, their blocks and the pairs, replaced on every change.
+
+CLASSES: dict[str, dict] = {}
+CLASS_LIFE = 24 * 3600
+
+
+class Flags(BaseModel):
+    name: str
+    mechanics: dict = {}
+    unusual: list[dict] = []
+
+
+@app.post("/class")
+def new_class():
+    now = time.time()
+    for code in [c for c, v in CLASSES.items() if now - v["made"] > CLASS_LIFE]:
+        del CLASSES[code]
+    if len(CLASSES) >= 1000:
+        raise HTTPException(503, "Too many classes are open; try again later")
+    code = "".join(secrets.choice("ABCDEFGHJKLMNPQRSTUVWXYZ23456789") for _ in range(5))
+    CLASSES[code] = {"key": secrets.token_urlsafe(16), "made": now, "students": {}}
+    return {"code": code, "key": CLASSES[code]["key"]}
+
+
+@app.post("/class/{code}/flags")
+def send_flags(code: str, f: Flags):
+    c = CLASSES.get(code.upper())
+    if not c:
+        raise HTTPException(404, "No class has that code")
+    name = f.name.strip()[:60]
+    if not name or (name not in c["students"] and len(c["students"]) >= 300):
+        raise HTTPException(400, "A name is needed")
+    if f.unusual:
+        c["students"][name] = {"name": name, "mechanics": f.mechanics, "unusual": f.unusual[:20], "at": time.time()}
+    else:
+        c["students"].pop(name, None)   # nothing unusual on the canvas: nothing about this student is kept
+    return {"ok": True}
+
+
+@app.delete("/class/{code}")
+def end_class(code: str, key: str):
+    c = CLASSES.get(code.upper())
+    if c and secrets.compare_digest(key, c["key"]):
+        del CLASSES[code.upper()]
+    return {"ok": True}
+
+
+@app.get("/class/{code}/flags")
+def read_flags(code: str, key: str):
+    c = CLASSES.get(code.upper())
+    if not c or not secrets.compare_digest(key, c["key"]):
+        raise HTTPException(404, "No class has that code and key")
+    return sorted(c["students"].values(), key=lambda s: s["at"], reverse=True)
+
+
+@app.get("/teacher")
+def teacher():
+    return HTMLResponse((STATIC_DIR / "teacher.html").read_text(encoding="utf-8"), headers={"Cache-Control": "no-cache"})
+
+
 @app.get("/")
 def root():
     # Stamp the newest static file's time onto the script and stylesheet links, so a browser never keeps an old copy after a change

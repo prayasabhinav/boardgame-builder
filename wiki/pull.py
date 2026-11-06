@@ -4,13 +4,16 @@
     python drafted/build.py && python check.py
 
 then read the diff before deploying. It changes pairs, triads, conflicts, theme lines, feeling and block
-descriptions, and feeling-and-block judgements, and adds new triads, conflicts and known games. A new game goes
+descriptions, and feeling-and-block judgements, and adds new triads, conflicts and known games. A change to an entry
+taken from a book (kb-books/), to a glossary term or key idea (ideas/), or to a tentative block (book-blocks.json) is
+written back into that file, keeping its page; then run python kb-books/build.py and python ideas/build.py too. A new game goes
 into games.json without an animation or questions, so the tool offers it to play and to open as a design; a
 change to a game already there is listed for doing by hand, since its animation may need redrawing. A new block or feeling
 needs a drawing, a display name and pair entries, so it is listed for doing by hand. A drafted pair stays
 drafted when it is changed: moving it into the curated part is a separate decision. The ids of proposals
 already carried in are kept in wiki-applied.json, so running it again changes nothing twice.
 """
+import csv
 import json
 import re
 import sys
@@ -119,6 +122,10 @@ def apply(p, kb):
             if set(e["elements"]) == same:
                 e.update(tendency=p["text"], pros=pros, cons=cons, exemplars=games, verification_status=STATUS)
                 return ""
+        if target == "pair" and rewrite_line(sorted(Path("kb-books").glob("*.txt")),
+                                             lambda c: c[0].startswith("pair:") and set(c[0][5:].strip().split("+")) == same,
+                                             lambda c: " | ".join([c[0], p["text"], *pros, *cons, c[-1]])):
+            return ""
         if target == "pair" and rewrite_line(sorted(Path("drafted").glob("[0-9]*.txt")),
                                              lambda c: set(c[0].split("+")) == same,
                                              lambda c: " | ".join([c[0], p["text"], *pros, *cons])):
@@ -128,6 +135,24 @@ def apply(p, kb):
             if set(e["elements"]) == same:
                 e["student_note"] = p["text"]
                 return ""
+        if rewrite_line(sorted(Path("kb-books").glob("*.txt")),
+                        lambda c: c[0].startswith("conflict:") and set(c[0][9:].strip().split("+")) == same,
+                        lambda c: " | ".join([c[0], p["text"], c[-1]])):
+            return ""
+    elif target in ("term", "idea"):
+        short, name = p["key"].split(":", 1)[1].split(": ", 1)
+        nth = int(m.group(1)) if (m := re.search(r" \((\d+)\)$", name)) else 1
+        name = re.sub(r" \(\d+\)$", "", name) if nth > 1 else name
+        books = [r["book"] for r in csv.DictReader(open("kb-books/sources.tsv", encoding="utf-8"), delimiter="\t") if r["short"] == short]
+        seen = [0]
+
+        def match(c):
+            if c[0] == f"{target}: {name}":
+                seen[0] += 1
+                return seen[0] == nth
+            return False
+        if books and rewrite_line(sorted(Path("ideas").glob(f"{books[0]}*.txt")), match, lambda c: " | ".join([c[0], p["text"], c[-1]])):
+            return ""
     elif target == "theme":
         if rewrite_line([Path("drafted/themes.txt")], lambda c: c[0] == els[0], lambda c: f"{c[0]} | {p['text']}"):
             return ""
@@ -140,6 +165,12 @@ def apply(p, kb):
         set_link(kb, els[0], els[1], p["judgement"])
         return ""
     elif target == "block":
+        tentative = json.loads(Path("book-blocks.json").read_text(encoding="utf-8"))
+        for b in tentative:
+            if b["id"] == els[0]:
+                b["description"] = p["text"]
+                Path("book-blocks.json").write_text(json.dumps(tentative, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+                return ""
         meta = Path("block_meta.py")
         src = meta.read_text(encoding="utf-8")
         pattern = re.compile(r'("%s":\s*\{\s*"description":\s*)"(?:[^"\\]|\\.)*"' % re.escape(els[0]))
@@ -168,7 +199,7 @@ def main():
     DONE.write_text(json.dumps(sorted(done)) + "\n")
     print(f"{len(todo) - len(by_hand)} applied, {len(by_hand)} left for doing by hand")
     print("\n".join(by_hand))
-    print("Next: python drafted/build.py && python check.py, read the diff, then deploy the tool and the wiki.")
+    print("Next: python drafted/build.py && python kb-books/build.py && python ideas/build.py && python check.py, read the diff, then deploy the tool and the wiki.")
 
 
 if __name__ == "__main__":

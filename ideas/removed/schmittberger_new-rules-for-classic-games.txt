@@ -1,0 +1,12 @@
+checker found no passage	term: Asymmetric game | A game in which the two sides have different forces or different aims, such as Tablut. | p. 24
+checker found no passage	term: Custodial capture | Capturing a piece by placing an enemy piece on each side of it along a line. Also called sandwiching. | p. 23
+checker found no passage	term: Void and singleton | A hand with no cards in a suit is a void, and a hand with exactly one card in a suit is a singleton. | p. 38
+checker found no passage	term: Wild card | A card that can stand for any other card. | p. 55
+checker found no passage	term: Kadoban | The game after one player has won two in a row at a handicap level, which will decide whether the handicap changes. | p. 69
+checker found no passage	term: Going out | In Super Babel, handing in a ten-card hand that meets the requirements and receiving a fresh packet to continue trading. | p. 146
+checker found no passage	term: Round robin | A tournament format in which every player or team plays every other one. | p. 150
+checker found no passage	term: Single elimination | A tournament format in which a player who loses once is out. | p. 150
+checker found no passage	term: Bar | The strip down the middle of a backgammon board, where hit pieces wait before re-entering. | p. 163
+checker found no passage	term: Blockade | Winning by leaving the opponent with no legal move, even though pieces remain. | p. 171
+checker found no passage	term: Orthogonal | Along rows and columns rather than diagonals. Turkish Checkers is an orthogonal form of Russian Checkers. | p. 174
+checker found no passage	term: Chess clock | A pair of timers where pressing one stops it and starts the other, used to give each player a fixed total of time. | p. 199

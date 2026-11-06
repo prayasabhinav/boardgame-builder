@@ -1,0 +1,15 @@
+## Proposed block: playing alone
+- Slot: player-interaction
+- Id: playing-alone
+- Why no block covers it: Solo in parallel needs other players playing beside you, and this is a game with one player against the pack or the layout.
+- Games in this book that use it: the solitaire family under 'Solitaire', which the book calls a very large kind of card game, including Klondike, Canfield, Accordion, Golf, Forty Thieves, Spider, Scorpion, Nestor, The Clock, Pyramid, La Belle Lucie, Gaps, Calculation and Poker Solitaire. Golf and Canfield also have two-player or many-player versions (under 'Double Golf' and 'Pounce').
+- ? text: You play alone against the pack. Nobody else acts, so luck and your own choices decide how it goes. You can still compare your result with a friend afterwards.
+- Drawing: <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" stroke="#2D3436" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="60" cy="14" r="7" fill="#C75B39"/><path d="M48 32 C 50 24, 70 24, 72 32"/><rect x="8" y="42" width="12" height="18" rx="2"/><rect x="24" y="42" width="12" height="18" rx="2"/><rect x="40" y="42" width="12" height="18" rx="2"/><rect x="56" y="42" width="12" height="18" rx="2"/><rect x="72" y="42" width="12" height="18" rx="2"/><rect x="88" y="42" width="12" height="18" rx="2"/><rect x="104" y="42" width="10" height="18" rx="2"/><path d="M14 66 L14 72"/><path d="M30 66 L30 72"/><path d="M46 66 L46 72"/><path d="M62 66 L62 72"/></svg>
+
+## Proposed block: shared pot
+- Slot: core-mechanic
+- Id: shared-pot
+- Why no block covers it: Bidding has players pay each other for one prize, and a bank has one player taking all the bets; neither covers a middle pot that everyone pays into and one hand takes.
+- Games in this book that use it: Thirty-One, where lost chips go into the pot and the last player left takes it (under 'Thirty-One'); Speculation, where everyone antes and the highest trump takes the pool (under 'Speculation'); Chase the Ace, where the holder of the high card pays into the pot (under 'Chase the Ace'); Red Dog, where bets are made against the pot, which can never be smaller than a bet (under 'Red Dog').
+- ? text: Everyone puts chips into the middle. The pot is not any one player's, and the hand or the round decides who takes some or all of it. It grows when players lose.
+- Drawing: <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" stroke="#2D3436" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="60" cy="44" rx="22" ry="12"/><circle cx="52" cy="42" r="5" fill="#C75B39"/><circle cx="64" cy="40" r="5" fill="#C75B39"/><circle cx="60" cy="49" r="5" fill="#C75B39"/><circle cx="12" cy="14" r="6"/><circle cx="108" cy="14" r="6"/><circle cx="12" cy="68" r="6"/><circle cx="108" cy="68" r="6"/><path d="M18 20 L38 36"/><path d="M102 20 L82 36"/><path d="M18 62 L38 52"/><path d="M102 62 L82 52"/><path d="M33 31 L38 36 L31 37"/><path d="M87 31 L82 36 L89 37"/></svg>

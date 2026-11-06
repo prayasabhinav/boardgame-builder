@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>boardgameBuilder · teacher</title>
+<link rel="stylesheet" href="/static/base-ui.css">
+<style>
+  body { margin: 0; padding: 2rem max(1rem, 4vw); background: var(--surface); color: var(--ink); font-family: var(--font-body); }
+  main { max-width: 52rem; margin: 0 auto; }
+  h1 { font-family: var(--font-display); margin: 0 0 0.4rem; }
+  .code { font: 600 2.6rem var(--font-mono); letter-spacing: 0.2em; margin: 0.4rem 0; }
+  .muted { color: var(--ink3); }
+  .student { border-top: 1px solid var(--surface-border); padding: 1rem 0; }
+  .student h2 { font-family: var(--font-display); font-size: 1.2rem; margin: 0 0 0.4rem; }
+  .pair { margin: 0.3rem 0; padding: 0.5rem 0.7rem; border-left: 3px dashed var(--state-examine); background: var(--surface-inner); }
+  .blocks { font-family: var(--font-label); font-size: 0.85rem; color: var(--ink2); margin-top: 0.5rem; }
+  button { margin-right: 0.6rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Teacher</h1>
+  <p class="muted">Start a class and give its code to your students. They join from boardgameBuilder's header with <em>Join a class</em>. Placing an unusual pair of blocks stays open to them; when one of them does, their name, the pair and their blocks appear here, so you know whom to review. Nothing is written to disk: a student leaves this list when the pair leaves their canvas, and the class ends after a day or when you end it.</p>
+  <section id="none">
+    <button class="k-btn-primary" id="start" type="button">Start a class</button>
+  </section>
+  <section id="live" hidden>
+    <p class="muted">Class code</p>
+    <div class="code" id="code"></div>
+    <p><button class="k-btn-outline" id="end" type="button">End the class</button><span class="muted" id="status"></span></p>
+    <div id="list"></div>
+  </section>
+</main>
+<script>
+const KEY = "bgb-teacher";
+let cls = null, names = {}, timer = null;
+
+function esc(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]); }
+function name(id) { return names[id] || id; }
+
+async function refresh() {
+  const resp = await fetch(`/class/${cls.code}/flags?key=${encodeURIComponent(cls.key)}`).catch(() => null);
+  if (resp && resp.status === 404) return stop("This class has ended.");
+  if (!resp || !resp.ok) { document.getElementById("status").textContent = " Could not reach the server; trying again."; return; }
+  document.getElementById("status").textContent = "";
+  const students = await resp.json();
+  document.getElementById("list").innerHTML = students.length ? students.map((s) => `
+    <div class="student"><h2>${esc(s.name)}</h2>
+      ${s.unusual.map((u) => `<div class="pair"><strong>${u.blocks.map((b) => esc(name(b))).join(" + ")}</strong><br>${esc(u.note)}</div>`).join("")}
+      <div class="blocks">${Object.values(s.mechanics).flat().map((b) => esc(name(b))).join(" · ")}</div>
+    </div>`).join("") : `<p class="muted">No student has an unusual pair on their canvas.</p>`;
+}
+
+function show() {
+  document.getElementById("none").hidden = true;
+  document.getElementById("live").hidden = false;
+  document.getElementById("code").textContent = cls.code;
+  refresh();
+  timer = setInterval(refresh, 5000);
+}
+
+function stop(message) {
+  clearInterval(timer);
+  try { localStorage.removeItem(KEY); } catch (_) {}
+  cls = null;
+  document.getElementById("live").hidden = true;
+  document.getElementById("none").hidden = false;
+  document.getElementById("list").innerHTML = "";
+  if (message) document.getElementById("none").insertAdjacentHTML("afterbegin", `<p class="muted">${esc(message)}</p>`);
+}
+
+document.getElementById("start").addEventListener("click", async () => {
+  const resp = await fetch("/class", { method: "POST" });
+  if (!resp.ok) return;
+  cls = await resp.json();
+  try { localStorage.setItem(KEY, JSON.stringify(cls)); } catch (_) {}
+  show();
+});
+document.getElementById("end").addEventListener("click", async () => {
+  await fetch(`/class/${cls.code}?key=${encodeURIComponent(cls.key)}`, { method: "DELETE" }).catch(() => {});
+  stop();
+});
+
+(async () => {
+  const palette = await (await fetch("/palette")).json();
+  for (const d of palette.dimensions) for (const b of d.blocks) names[b.id] = b.display;
+  try { cls = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (_) {}
+  if (cls) show();
+})();
+</script>
+</body>
+</html>

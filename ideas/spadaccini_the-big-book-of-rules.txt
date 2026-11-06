@@ -1,0 +1,298 @@
+term: Point (backgammon) | One of the 24 triangular spaces on a backgammon board. Pieces sit on points, and a point holding two or more pieces of one colour cannot be landed on by the opponent. | p. 6
+term: Home field | The last stretch of a track, where a player has to bring all of their pieces before they may start taking them off the board. | p. 6
+term: Doubles | Rolling the same number on both dice. In backgammon the player then plays that number four times instead of twice. | p. 6
+term: Blot | A single piece alone on a point. An enemy piece that lands there sends it back off the board. | p. 7
+term: Bar | The divider in the middle of a backgammon board where a captured piece waits. Its owner can move nothing else until it has re-entered. | p. 7
+term: Bearing off | Taking pieces off the board once all of them have reached the home field. It is how a backgammon game is won. | p. 7
+term: Gammon | A loss in which the loser has taken no pieces off the board. It counts double. | p. 7
+term: Doubling cube | A die marked 2, 4, 8, 16, 32 and 64 that players use to raise the stakes in the middle of a game. The opponent has to accept the new stake or resign on the spot. | p. 8
+term: Mandatory capture | A rule that a player has to jump an enemy piece whenever a jump is possible. It takes some choice away from the player and makes moves easier to predict. | p. 9
+term: Multiple jump | Several jumps made in one turn by the same piece. In checkers the player has to keep jumping as long as another jump is open. | p. 9
+term: Crowning | In checkers, topping a piece that has reached the far row so that it can also move backward. It gives the piece a new power for the rest of the game. | p. 10
+term: King's row | The far row of a checkers board, which a piece has to reach to be crowned. | p. 10
+term: Rank | A row of squares on a chessboard, running across between the two players. | p. 12
+term: Check | A warning that a king could be captured on the next move. The player in check has to move the king, capture the attacker or block it. | p. 13
+term: Checkmate | A position in which a king is in check and none of the three answers is possible. The game ends there. | p. 13
+term: Stalemate | A position in which the king is not in check but every move open to the player would put it in check. The game is a draw. | p. 13
+term: Promotion | A pawn that reaches the far side of the chessboard is swapped for a queen, rook, bishop or knight. Most players pick a queen. | p. 14
+term: Castling | A special chess move in which the king moves two squares toward a rook and the rook jumps over it. It counts as one move and can be done once a game. | p. 16
+term: En passant | A chess capture open for one move only. A pawn that has just moved two squares can be taken as if it had moved one. | p. 17
+term: Passed pawn | A pawn with no enemy pawn left in front of it on its file or the files beside it, so nothing can stop it by pawns alone. | p. 18
+term: Boneyard | The face-down dominoes left over after dealing. A player who cannot play draws from it. | p. 23
+term: Draw game and block game | Two forms of dominoes. In the draw game a player who cannot play takes tiles from the boneyard. In the block game the player simply passes. | p. 23
+term: Layout | The line of dominoes growing on the table. Players add to its open ends. | p. 24
+term: Matador | In the domino game of that name, a tile whose halves add up to seven, or the double blank. It can be placed where no other tile fits. | p. 27
+term: Liberty | An empty point next to a stone in Go. A stone or group with no liberties left is captured. | p. 32
+term: Ko rule | A Go rule that bans a move which would bring back the board as it stood after the same player's last turn. It stops endless repeating. | p. 33
+term: Territory | In Go, the empty points a player has surrounded. The player with more territory wins. | p. 34
+term: Squop | In tiddlywinks, to cover another disc, even slightly. A covered disc cannot be played until it is freed. | p. 35
+term: Potting | Landing a disc in the cup. In tiddlywinks a successful pot earns another turn. | p. 35
+term: Mancala | A family of ancient African seed-sowing games played on rows of pits or bowls. Wari is the simplest of them. | p. 37
+term: Sowing | Picking up all the seeds from one pit and dropping them one at a time into the pits that follow. | p. 38
+term: Grand slam | In Wari, a move that captures every seed on the opponent's side. The basic rules forbid picking them up. The variation allows it. | p. 39
+term: Chooser | The player in Fictionary who picks the dictionary word and reads out all the definitions. The role passes round the table. | p. 47
+term: Bluff | Acting as if you have a particular word or card in mind when you do not. In Ghost a bluffer who is challenged earns a penalty letter if caught out. | p. 48
+term: Challenge | A player's right to ask another to prove a claim. The challenger or the challenged takes the penalty, depending on who was right. | p. 48
+term: Emcee | A person who runs a game without playing it, collecting the words and counting the clues. | p. 55
+term: It | The player in a game who has a special job, such as seeking, guessing or chasing. Who is It changes during play. | p. 70
+term: Roll-off | An extra round of rolling used to break a tie. | p. 116
+term: Head table | In Bunco, the table where winners stay while winners and losers at the other tables move. | p. 117
+term: Set (Bunco) | Six rounds of Bunco, one for each number on the die. Groups usually play four sets in an evening. | p. 117
+term: Caller | The person who draws and reads out the numbers in Bingo. | p. 114
+term: Ante | A stake each player puts into the pot before the cards are dealt. | p. 115
+term: Timekeeper | A person who times each turn in Charades and adds up the minutes at the end. | p. 120
+term: Moderator | A person who runs a hidden-role game such as Mafia. They know every role, announce what happens and settle disputes. | p. 139
+term: Night and Day | The two phases of Mafia. At night the Mafia choose a victim in secret. By day everyone talks and votes. | p. 139
+term: Hidden role | A job or side that a player is given in secret, such as Killer or Mafia. Other players have to guess it from behaviour. | p. 137
+term: Special role | A job with its own power added to a hidden-role game, such as the Doctor who can save a person or the Sheriff who can investigate one. | p. 140
+term: Lynching | In Mafia, the group vote that removes one player from the game each day. | p. 141
+term: Home base | A place on the playing area where a player is safe, or where captured players wait. | p. 164
+term: Jail | A marked spot where captured players wait. A teammate can free them by touching them. | p. 173
+term: Elimination | A rule that a player who errs or loses a round leaves the game. The last player left wins. | p. 66
+term: Potsie | The small object, such as a stone or beanbag, thrown into the boxes in Hopscotch. | p. 177
+idea: Rules vary by place and household | The author found that rules differ from country to country, region to region and even street to street, so she drew on family memories as well as official rulebooks. Only tournament and gambling games have fixed rules. The rest is settled by the people at the table, as when a family agrees what happens if a Charades player says the word aloud. | p. 1
+idea: Penalties can be softened for beginners | The book leaves out most penalties for breaking rules so that an eight-year-old playing Charades for the first time can have a do-over. A rule that ends a turn or a game is also a choice about who is playing. | p. 2
+idea: Many variations come from changing one rule | Giveaway Checkers keeps every rule of checkers but flips the aim to losing all your pieces. Italian, Spanish and International Checkers each change the board size, how kings move or which jump is forced. A new game can be a single changed rule on an old one. | p. 10
+idea: Pieces that gain powers give a race to aim for | A checkers piece that reaches the far row is crowned and can then move backward. The book says games are often won by the first king, so players race one piece across while guarding their own back row. A reward at the far end of the board shapes how every piece moves. | p. 10
+idea: The same pieces can be given different powers | Chess pieces differ in how they move and capture. The knight is the only one that can jump, the bishop stays on one colour, the king moves one square. The book describes each piece by placement, moves and captures. That list shows what makes one piece different from another. | p. 14
+idea: Starting with fewer pieces teaches the game | The chess variations The Pawns Game, The Queen and Pawn Game and The King and Pawn Game take away most of the pieces. Players learn how pawns and the king work before meeting the whole set. Go on a 9x9 board is offered for the same reason. | p. 19
+idea: Handicaps let unequal players share a board | In five-player Chinese Checkers one player moves into an empty corner, which helps them, so a less experienced player such as a young child takes that place. Matching partners by size in Chicken Fights is the same idea. A rule can be adjusted for who is sitting down. | p. 21
+idea: Scoring methods can differ yet agree | Chinese and Japanese Go count territory in different ways. One counts occupied points and the other counts captured stones, yet the book says they usually give a comparable result. Two rules can lead to the same winner. | p. 34
+idea: Scoring can reward rare answers | In Categories a word scores one point for every other player who did not write it. If everyone wrote bear, nobody scores. This pushes each player to guess what the others will not think of, and so to avoid the obvious answer. | p. 68
+idea: Bluffing needs a way to check | In Hollywood Connections a player can challenge a link between two actors and ask for the film. If the bluffer cannot name one, a point is lost, and if the film is real the challenger loses. A bluff is only worth making where the other side can test it. | p. 123
+idea: Hidden information drives social games | In Mafia and Killer a few players know who they are and the rest do not. The Moderator controls who learns what, and the dead can watch but not talk. All the play is talking, accusing and voting. | p. 139
+idea: A rule can add roles to fit group size | Mafia suggests one-third to one-quarter of players as Mafia, and Killer sets the number of kills by player count. Extra roles such as Witness or Masons are added only when the group is large. Rules can be written as a table of settings that change with the number of people. | p. 137
+idea: Rotating seats stops one team winning for ever | In Bunco the winning team stays at the head table and the losing team moves down, while partners are split and re-paired each round. Over six rounds everyone plays with and against everyone. Movement rules shape who meets whom. | p. 117
+idea: Variations come from groups, not designers | The author says Bunco, which spread by word of mouth, has more rule variations than any other game in the book. Groups add their own prizes, scorecards and wipe-out rules. A game that is passed on freely gets adapted to each group's taste. | p. 118
+idea: Questions that split the field help guessing games | In Twenty Questions the most effective questions cut the remaining possibilities roughly in half. Opening with animal, vegetable or mineral does this. A guessing game with a limited number of turns rewards questions that narrow the field quickly. | p. 84
+idea: Varied guesses give more information | In Jotto the book advises against guessing a word that differs from the last by one letter. A quite different word tests more letters at once. Each turn tells the player something, and how much depends on the guess. | p. 55
+idea: Elimination can leave players with nothing to do | Musical Chairs removes a player and a chair each round. A pamphlet in Britain urged teachers to drop it because it favoured the biggest and heaviest children. The variation Musical Laps removes chairs but keeps everyone in, so no one waits out. | p. 152
+idea: A prerequisite order gives structure to a dice game | In Beetle a player needs a 1 for the body before anything else, and a 2 for the head before feelers or eyes. A roll that cannot be used is wasted. Rules about what comes first turn a plain roll into a build. | p. 160
+idea: Safe zones give a chase game its shape | Fox and Geese gives geese a safe centre once the fox leaves it, and the book says the game is more riotous without one. Capture the Flag has a jail that can be reached by a teammate's touch. Where players can rest and be rescued decides how the chase goes. | p. 177
+idea: Rescue rules keep captured players in the game | In Capture the Flag and Hide and Seek a captured player waits in jail or at home base until a teammate frees them. A rescuer can free only one at a time, and if the rescuer is caught they join the jail. Capture does not have to mean leaving the game. | p. 174
+term: Lag | A way of deciding who goes first in marbles. Each player shoots a marble toward a line, and the one that ends up closest goes first. | p. 185
+term: Shooter | In marbles, the larger marble a player flicks at the target marbles. | p. 185
+term: Knuckling down | The marbles stance in which a player rests a knuckle on the ground and flicks the shooter with the thumb, instead of pushing with the hand. | p. 185
+term: Pot game | A marbles game played around a hole in the ground, where players try to get close to the hole or knock marbles into it. | p. 187
+term: Jailbreak | A move that frees captured players, such as kicking the can in Kick the Can. It can make a game of capture go on for a long time. | p. 184
+term: Safe base | A spot where a runner cannot be tagged, such as a base in Pickle. A runner who leaves it can be tagged. | p. 190
+term: Tagging back | Tagging the player who has just tagged you. Tag players decide before starting whether it is allowed. | p. 198
+term: Freeze | In Freeze Tag, a tagged player stands still like a statue until another player touches them. | p. 198
+term: Fly ball | A batted or thrown ball caught before it touches the ground. In Flies Are Up, catching it earns the fielder a turn at bat. | p. 196
+term: Fair and foul | The parts of a field where a hit ball counts and where it does not. Over-the-Line marks them with poles, shirts or parked cars. | p. 196
+term: Imaginary runner | A runner who is not played by anyone but counted when a ball passes a line. It lets a small team play baseball without bases. | p. 196
+term: Stoop | In New York, the steps leading up to an apartment building, used as a bouncing wall in Stoopball. | p. 197
+term: Cooperative play | A way of playing a game with one list and no rivalry, offered for the sibling game From A to Z and the travelling scavenger hunt. | p. 208
+idea: Chasing games turn on how a player gets caught | In Ringoleavio a captured hider has to be held until the hunter says a set phrase. In Hide and Seek a hider can be caught just by being spotted and named. In Tag, a touch is enough. How capture works sets how fast a game of chase goes. | p. 164
+idea: A game can end by running out of players or by running out of time | Red Rover ends when one team has won all the players, or at a set time, when the bigger team wins. Capture the Flag ends when a flag is captured, or at a time limit, when the team with more prisoners wins. A time limit needs its own way of deciding the winner. | p. 174
+idea: Long games get a shorter rule | Kick the Can can go on if jailbreaks keep freeing captured players, so the book makes the first player caught three times It. Freeze Tag can drag on if frozen players are thawed too often, so the book allows them to stay frozen. A rule can be added when play stops moving toward an end. | p. 184
+idea: Moves that free others change a chase game | In Kick the Can a free hider can kick the can and free every captured player at once. In Ringoleavio one touch of the base and a shout sets all prisoners running. One free action can undo all the work of the seeker. | p. 190
+idea: Capturing can turn a player into a helper | In Sharks and Minnows, Dragon Tag and Blob Tag a tagged player joins the chasers. The group doing the chasing gets bigger as the group being chased gets smaller. Each catch makes the next one easier. | p. 191
+idea: Penalty letters spread out the cost of mistakes | In Spud and Ghost a player who is hit or caught gets one letter of the game's name. Reaching the last letter ends their game. The loss builds up over rounds, and the player who got a letter often becomes the next Caller. | p. 194
+idea: Less experienced players can be moved into easier roles | Johnny Ride a Pony puts the lightest player at the wall as the anchor of the pony. In Chicken Fights partners are matched by size. In Chinese Checkers a younger child takes the open corner. The roles on a team can be given out on purpose. | p. 181
+idea: Attacking the target can cost the attacker | In Skully, hitting an opponent's cap earns the shooter extra boxes, and the cap in No Man's Land is stuck there until another player knocks it out. In marbles, a shooter left in the inner circle becomes a target and its owner can lose all the marbles won. A player who is ahead is easier to attack. | p. 186
+idea: Players can set the distance of a game by setting lines | In Over-the-Line players choose a pole, streetlight or shirt as the lines for single, double, triple and home run, and a ball that passes a line puts an imaginary runner on that base. A game can be played on any street because the players mark the board themselves. | p. 196
+idea: Race games can use public things as pieces | In Are We There Yet? players spot licence plates from states along a route, and only one player can claim each plate. From A to Z uses signs and trucks. The board is whatever passes the car window, and a first-come rule settles who owns a find. | p. 205
+idea: A game can be played for rivalry or for company | The book offers From A to Z and the travelling scavenger hunt as cooperative games, with one list and no winner, for families who want less sibling rivalry. The same equipment gives a different game when the aim changes from beating others to finishing together. | p. 208
+idea: Tie-breaking rules need to be simple | In the Licence Plate Game two words of the same length are separated by which comes first in the alphabet, so clot beats colt. A tie in Anagrams goes to the longer word, and then to a vote. A fixed rule for ties ends arguments quickly. | p. 210
+term: Shuttlecock | The feathered or plastic projectile hit over the net in badminton. It is also called a shuttle or birdie. | p. 217
+term: Service line | A line on a court that a serve has to land beyond, or inside of, to count. Badminton has a short and a long one. | p. 217
+term: Fault | An act that loses a rally, such as touching the net or hitting the shuttle before it crosses. | p. 218
+term: Inning | One round of baseball in which each team has a turn to bat. A game is played over an agreed number of innings. | p. 219
+term: Batting order | The fixed sequence in which a team's players take their turns to bat. | p. 219
+term: Strike | In baseball, a pitch the batter misses or a foul ball. Three strikes put the batter out. | p. 220
+term: Walk | In baseball, the right to go to first base after four pitches that were not hittable. | p. 221
+term: Retired side | A team that has made three outs. It leaves the field of attack and the teams swap roles. | p. 221
+term: Stealing a base | Running to the next base while a pitch is being thrown, instead of waiting for the batter to hit. | p. 221
+term: Imaginary runner | In Wiffle Ball, a runner who is counted but not played. A single puts one on first, and later hits push earlier runners along. | p. 222
+term: Possession | Having the ball and the right to try to score. In half-court basketball the last player to score keeps possession. | p. 225
+term: Travelling | In basketball, taking steps with the ball without dribbling. The other player then takes the ball. | p. 226
+term: Double dribble | In basketball, dribbling with both hands at once or starting to dribble again after stopping. It is a violation. | p. 226
+term: Foul and violation | In basketball, a foul is rough contact such as blocking or hacking, and a violation is a breach of ball-handling rules. Both hand the ball to the other side. | p. 225
+term: Pallino | The small target ball in bocce. Teams score by getting their balls closer to it than the other team's closest ball. | p. 229
+term: Foot-fault line | A line behind which a player has to stand when throwing. Stepping over it makes the throw illegal. | p. 230
+term: Frame | One round of play. In bowling it is a turn of up to two rolls, and in bocce it is the playing of all eight balls. | p. 230
+term: Strike (bowling) | Knocking down all ten pins with the first ball of a frame. The next two rolls are added to its score. | p. 232
+term: Spare | Knocking down all the pins with the two balls of a frame. The next roll is added to its score. | p. 232
+term: Respot | Putting knocked-down pins back in place after a foul or a ball that went into the gutter, so that the roll scores nothing from them. | p. 232
+term: Wicket | A small hoop pushed into the ground in croquet. Players score by knocking their ball through it. | p. 235
+term: Bonus stroke | An extra shot earned by scoring a wicket or hitting another ball in croquet. It is also called a continuation shot. | p. 238
+term: Roqueting | In croquet, hitting another player's ball with your own. It earns two bonus strokes with several choices for taking them. | p. 238
+term: Dead on a ball | In croquet, having already roqueted a ball so that it cannot be hit again until the player has scored a wicket. | p. 239
+term: Double-out | A darts rule that the last dart has to land in the double ring and bring the score to exactly zero. | p. 242
+term: Double-in | A darts rule that a player has to hit a double before any score counts. | p. 242
+term: Oche | The line a darts player stands behind to throw. Its name has no sure origin. | p. 243
+idea: Only one side can score at a time | In badminton, only the serving side scores. If the server loses a rally, the other side gets the serve but no point. A point therefore has to be won twice, once by gaining the serve and once by winning a rally on it. | p. 218
+idea: A foul can count as a strike but never as the last one | In baseball the first two foul balls count as strikes, but a foul cannot be a third strike unless caught in the air. The rule stops a batter being put out by hitting the ball in an awkward direction, while still adding a cost to each foul. | p. 220
+idea: A cost for a risk can be spread over the game | The book notes that stealing a base brings both gains, such as distracting the pitcher and forcing errors, and the cost of being caught. Experts think the gains can sometimes outweigh the cost. A risky move is worth including when it can pay for itself. | p. 223
+idea: Scoring can wait for later moves | In bowling a spare adds the next roll and a strike adds the next two, so a frame's score cannot be written until later rolls happen. The last frame gives extra rolls, which is why the top score is twelve strikes instead of ten. A reward can be delayed and still be fair. | p. 233
+idea: An exact target changes which move scores | In Twenty-one basketball, a player on 20 points has to miss a foul shot on purpose, so as to score the last point from a rebound. Darts needs the last throw to be a double that brings the score to exactly zero. Exact totals make a bigger score no use. | p. 227
+idea: Losing all you have gathered raises the stakes | In 3-2-1 a player who misses all three shots in a turn loses every point built up. In Skully, a cap stuck in No Man's Land waits to be knocked out. A penalty that wipes out progress makes careful play and risky play both worth thinking about. | p. 228
+idea: Letters give losers a slow, visible countdown | In HORSE each miss on a copied shot gives a letter, and the first player to spell the word loses. Players can see how near the end they are. The same device appears in Ghost and Spud. | p. 226
+idea: The leader of a round sets the task | In HORSE the player who makes a shot decides what the other has to copy. If the first shooter misses, the right to set the shot passes over. The player in the lead picks the difficulty. | p. 226
+idea: Equipment can be arranged to cut down luck | The numbers on a dartboard are in a seemingly random order, placed in 1896 by a carpenter so that small numbers sit beside large ones. A near miss on the 20 hits a 1 or a 5. The layout punishes loose aim and lessens lucky shots. | p. 244
+idea: Rewards for hitting can be combined or limited | In croquet a player who scores a wicket and hits a ball in the same stroke gets only the bonus for the hit. Scoring two wickets in one stroke earns one bonus. Rules about stacking rewards keep one lucky stroke from running away with a turn. | p. 238
+idea: A finished player can stay in as a threat | In Poison croquet a player who completes the course stays on as a poison ball that can remove any other ball by hitting it. Poison balls are removed by being hit or by passing through any wicket. A player who finishes early goes on to hunt the others. | p. 240
+idea: A game scales to the number of people | Bocce splits the eight balls so that one player throws four, two players throw two each, or four players throw one each. Croquet gives each player one, two or three balls depending on the numbers. Basketball half-court games add a referee or teams of two when more people come. | p. 229
+idea: Rules for small groups replace missing roles | Baseball with fewer players lets the second baseman double as right fielder, and the batting team supply its own catcher. Wiffle Ball uses imaginary runners instead of bases. A game can be written so that missing positions are covered. | p. 220
+idea: Players can police their own fouls | In the basketball games in the book, the offensive player calls his own fouls. The book also drops penalties for a croquet ball played out of turn and simply returns it. Informal games lean on trust and quick fixes in place of referees. | p. 225
+idea: Rules change with time | The early Knickerbocker rules from 1845 let a fielder get a runner out by hitting him with the ball, called for an underhand pitch and gave the win to the first side to reach 21 runs. Hitting the runner was later outlawed. Rules of famous games were once different. | p. 222
+idea: Letting players choose whether to take part | The book says dodgeball can be played by all as long as everyone gets to choose whether to play. A game with a danger of being hit works only for people who agreed to risk it. | p. 245
+term: Ringer | In horseshoes, a shoe that completely surrounds the stake. A straightedge across the open end settles doubtful cases. | p. 249
+term: Leaner | In horseshoes, a shoe resting against the stake. It scores in home play but not in official play. | p. 249
+term: Let | A serve in table tennis that touches the net and still lands on the other side. It is replayed with no limit on the number of lets. | p. 252
+term: Deuce | A tied score near the end of a race to a set total, such as 10-10 in an 11-point game. In table tennis the order of serving changes after every point. | p. 252
+term: Down | One try by the attacking team in touch football. After the first, a team has three more downs to reach the goal line before giving up the ball. | p. 257
+term: Line of scrimmage | The spot where the last runner was tagged, from which the next play starts. | p. 257
+term: Turnover | The other team gaining possession because a pass was incomplete, intercepted or dropped, or because a player took a step in Ultimate. | p. 260
+term: Anchor | In tug-of-war, the player at the end of the rope who secures it round the body. | p. 259
+term: Sideout | In volleyball, losing a rally on the other team's serve. The serve changes sides and no point is scored. | p. 263
+term: Rally point scoring | A way of scoring in which the team that wins the rally gets the point, whether or not it was serving. | p. 263
+term: Cut | Splitting the shuffled deck into two parts and swapping them, done by the player to the dealer's right. | p. 267
+term: Lead | Playing the first card of a trick or hand. The player to the dealer's left usually leads first. | p. 267
+term: Misdeal | A dealing mistake that can be called before the first round of play. The cards are collected and dealt again. | p. 267
+term: Natural | In blackjack, an ace together with a face card or a ten as the first two cards. It pays double in most home games. | p. 270
+term: Hit and stand | In blackjack, a player asks for another card by saying hit me, or keeps the current hand by saying stand. | p. 270
+term: Bust | In blackjack, going over 21. The player loses the bet at once. | p. 270
+term: Doubling down | In blackjack, doubling the bet after seeing the first two cards, and taking only one more card. | p. 270
+term: Splitting pairs | In blackjack, treating a pair of equal cards as two separate hands, each with its own bet. | p. 270
+term: Bid | A promise in Bridge to win a stated number of tricks with a stated suit as trumps. Each bid has to outrank the one before. | p. 271
+term: Contract | The final bid in Bridge, which the declarer's side has to fulfil to score. | p. 272
+term: Trick | The cards played in one round of a card game, one from each player. The highest card wins it, or the highest trump. | p. 272
+term: Trump | A suit that outranks the other suits for the hand. A player with no cards in the suit led may play a trump. | p. 272
+term: Void, singleton, doubleton | A suit in which a hand holds no cards, one card or two. Bridge players count them as points when deciding how to bid. | p. 273
+term: Declarer | In Bridge, the player who first named the trump suit of the final contract. This player plays both their own hand and the dummy. | p. 274
+term: Dummy | In Bridge, the declarer's partner, who lays their hand face up and takes no further decisions. | p. 275
+term: Follow suit | To play a card of the same suit as the one led. A player with none can play a trump or discard. | p. 275
+term: Vulnerable | In Bridge, a side that has already won a game, so that bonuses and penalties are higher for it. | p. 276
+term: Rubber | A series of Bridge games won by the first side to win two. | p. 277
+term: Overtrick and undertrick | A trick won beyond the contract, or a trick short of it. Overtricks add bonus points and undertricks give points to the other side. | p. 277
+term: Slam | A bridge contract for twelve tricks (small slam) or all thirteen (grand slam). It carries a large bonus. | p. 278
+idea: Whole teams can be eliminated, or players can be brought back | In basic Dodgeball a hit player is out. In Prison Dodgeball a player who is out waits on the side and returns when a teammate catches a ball. In Dr. Dodgeball a fallen player gets up when the doctor tags them. How elimination works decides how long each player waits. | p. 246
+idea: A hit can have a graded cost | Army Dodgeball makes a hit on an arm or leg disable that limb for the rest of the game, while a hit to the head or body puts the player out. The loss grows with each injury instead of being all or nothing. | p. 246
+idea: Home scoring and official scoring can differ | Horseshoes at home gives 3 points for a ringer and 1 for a leaner. Official play ignores leaners and cancels ringers thrown by both players. A simple scoring rule helps beginners and a more complex one tests finer skill. | p. 249
+idea: Cancelling can stop runaway scoring | In official horseshoes, one ringer each cancels, and two each cancels, so only the difference in ringers counts. Points are earned by being ahead of the other player in that round. | p. 250
+idea: Winning by a margin makes the end of a game open | Table tennis has to be won by two points, so a 20-19 score may go on to 22-20. Badminton and volleyball use the same margin. A game may not end at the first moment someone reaches the total. | p. 252
+idea: Taking turns to serve evens out chances | Table tennis players each serve for two points regardless of who wins them, and before 2001 they alternated every five. In doubles the order of serve passes round the four players. A fixed rotation gives everyone equal turns at the privilege. | p. 252
+idea: A rule can reduce the advantage of going first | In tetherball the server can be made to wait until the receiver hits the ball or the ball wraps four times. The book says this evens out the advantage of serving, and can even work against the server. | p. 255
+idea: A move can help the opponent now to help yourself later | In tetherball a player facing an awkward ball can make a sacrifice wrap, hitting it once toward the opponent so as to set up an easy hit the other way. Giving up ground for one move can pay off on the next. | p. 255
+idea: Field size can change the rule | The book says touch football can have fewer downs on smaller fields and more downs on larger ones. With an odd number of players one person can be quarterback for both sides. Rules about attempts can be set to match the space. | p. 257
+idea: Handicapping by weight keeps teams close | International tug-of-war puts team weight into nine categories, from Ultra Featherweight to Catchweight with no limit, and allows one substitute who weighs the same or less. A race of strength is made equal by matching totals. | p. 259
+idea: Players can referee themselves under an honour code | In Ultimate Frisbee players call their own fouls and line violations, and a disputed call can be replayed. The game's philosophy, called the Spirit of the Game, puts fair play first. Some games add observers who judge only when asked. | p. 260
+idea: A player who cannot run has to pass | In Ultimate a player holding the disc may only pivot, has ten seconds to throw, and a step is a turnover. Taking away running forces every move to go through a teammate. | p. 260
+idea: Rotation shares out the positions | In volleyball a team that wins the serve rotates one place clockwise, so every player serves and takes each spot at the net. Rotation removes the chance of a player stuck in one role. | p. 263
+idea: Two ways of scoring change who can come back | Sideout scoring in volleyball lets only the serving team score. Rally point scoring awards the point to whoever wins the rally. The second makes every rally count and tends to shorten a game. | p. 263
+idea: Common house rules can be written once for many games | The book's General Rules fix who deals, how the deck is cut, that dealing goes clockwise, and that aces are high. A play out of turn stands unless another player asks for a retraction. A shared set of defaults leaves each game only its differences to explain. | p. 267
+idea: A chain of payments can decide a game by luck | In Beggar My Neighbour a face card makes the next player pay one to four cards, and a face card in the payment reverses the debt. Nobody makes a decision. The book calls it a game of chance more than skill. | p. 268
+idea: The dealer has a different job from the players | In blackjack players bet only against the dealer, who plays last and wins ties. A natural for a player passes the deal to them. The roles are unequal and rotate. | p. 270
+idea: Bidding turns a card game into a conversation | Bridge bids tell a partner about a hand in a few moves and each bid has to outrank the last, like an auction. A point count by Charles Goren turns the cards in a hand into a number to bid on. | p. 271
+idea: Partners play opposite roles with shared information | In Bridge the declarer's partner lays down a hand face up, and the declarer plays both. Two people are on one team but only one of them makes the choices. | p. 275
+idea: Past success can raise the stakes | In Bridge a side that has won a game is vulnerable, so game bonuses and penalties for failing go up. The score at the table changes how risky the next bid is. | p. 276
+term: Pairing | In Casino, capturing table cards of the same rank as the card played from the hand. It is the only way to pick up a face card. | p. 280
+term: Combining | In Casino, capturing two or more table cards whose values add up to the value of the card played. | p. 280
+term: Building | In Casino, stacking cards on the table and announcing a total, to capture them on a later turn. The other player can take the build first. | p. 280
+term: Trailing | In Casino, discarding a card to the table because it cannot capture anything. | p. 281
+term: Sweep | In Casino, capturing every card on the table in one turn. It scores an extra point. | p. 281
+term: Crib | In cribbage, an extra hand made from cards each player sets aside. It belongs to the dealer and is counted at the end of the hand. | p. 283
+term: Starter | In cribbage, the card turned up after the cut. Every hand and the crib are counted together with it. | p. 283
+term: Pegging | Moving a peg forward on the cribbage board to record points as they are scored. | p. 283
+term: Go | In cribbage, a call saying that you cannot play a card without going over 31. The other player then plays on if they can. | p. 284
+term: Show | In cribbage, the counting of hands after all the cards have been played. The nondealer counts first. | p. 284
+term: Skunk | In cribbage, winning before the loser has reached the final leg of the board. | p. 283
+term: Maker | In Euchre, the player who accepts or names the trump suit. The maker's side has to win three tricks of five. | p. 289
+term: Upcard | In Euchre, the card turned face up after the deal. Its suit becomes trump if a player orders it up. | p. 289
+term: Euchred | In Euchre, being the maker's side and failing to win three tricks. The other side then scores 2 points. | p. 290
+term: March | In Euchre, winning all five tricks in a hand. | p. 290
+term: Stick-the-dealer | A Euchre variation in which a dealer has to name a trump suit if everyone passes in the second round, so no hand is thrown in. | p. 290
+idea: A turn can make a plan, and the opponent can break it | In Casino a player can build a pile and call it, meaning to capture it next turn. The other player can capture it first with a matching card. A stated plan gives the opponent information to use against it. | p. 280
+idea: Points can come from several different features of one hand | A Casino hand scores for the most cards (3 points), the most spades, the ten of diamonds (2), the two of spades, each ace and each sweep. A player has several targets, each worth a different amount. | p. 281
+idea: One hand can have an advantage built in | In cribbage the dealer gets the crib, a second hand that only the dealer counts. The deal alternates so that the advantage moves between players. The book says the game is named for this advantage. | p. 282
+idea: Scoring happens during play and again at the end | Cribbage players peg points while they play cards, for fifteens, pairs and runs made in the shared count, and again in the show, where they count the combinations in their own hands. Both stages share some features but reward different skills. | p. 284
+idea: Order of counting can decide a close game | In cribbage the nondealer counts first, and if that player reaches 61 or 121 the game ends, even if the dealer would have counted more. Position at the table can matter more than total points. | p. 284
+idea: A track with two pegs lets players check their own count | A cribbage board gives every player two pegs, so if they lose track the back peg still shows the previous score. A tool can store past state as well as the present. | p. 283
+idea: A shared total sets a limit that all players watch | In the cribbage play, both players call a running total that cannot go past 31. A player who cannot play calls go, and the other earns a point for it. A single number visible to all gives each card a different value depending on the moment. | p. 284
+idea: Tips often say what to keep back | Cribbage advice is to hold fives for the hand and not lead a five, since four in thirteen cards are worth ten. It says to keep small cards so as to play the last card for a point. Choosing what to hold is as much a decision as choosing what to play. | p. 286
+idea: Players can add variety by changing what they are dealt | Cribbage can be played with five, six or seven cards, with each player giving up one or two to the crib, to different final scores such as 61, 121 or 181. Dealing a different number of cards changes how much choice there is. | p. 287
+idea: Ranking can be rewritten for a game | In Euchre the jack of the trump suit is the highest card, and the jack of the same colour is second, counted as trump. In other suits the jack ranks below the queen. A game can set up its own order of cards. | p. 288
+idea: A bidding round can be short and public | In Euchre each player in turn can accept the turned-up card's suit as trump or pass, with a second round if all pass. The bid is taken in seconds and the whole table knows who chose the trump. | p. 289
+idea: Taking a larger risk can earn a larger reward | A Euchre maker who plays alone scores 4 points for winning all five tricks, against 2 for a team. A lone defender also scores 4 for a march. The partner sits out, so the choice costs the team a hand. | p. 290
+idea: Forcing a choice avoids a deadlock | In the Stick-the-dealer variation of Euchre the dealer has to name a trump suit if everyone else passed, so no hand is thrown in. A forced decision keeps play moving, and it also makes the dealer's position riskier. | p. 290
+idea: The same game can be made for different numbers of players | Bridge has versions for two players (Double Dummy and Honeymoon Bridge) and for three, where one player takes the dummy hand. Casino is played with two, three or four players. Casino for four becomes a partnership game. Games adapt to the people present. | p. 279
+term: Breaking hearts | In Hearts, the first time a heart is discarded. Until then a player may not lead a heart unless holding nothing else. | p. 292
+term: Shooting the moon | In Hearts, one player taking every heart and the queen of spades. The penalty flips into a bonus. | p. 292
+term: Widow | Cards left over after the deal that are set aside and go to the winner of the first trick. | p. 294
+term: Meld | A group of cards laid on the table for points, such as a marriage in Pinochle, or a set or sequence in rummy. | p. 297
+term: Marriage | In Pinochle, a king and queen of one suit. It scores 20 points, or 40 in the trump suit. | p. 298
+term: Dix | In Pinochle, the nine of trumps. Swapping it for the turned-up trump card scores 10 points. | p. 297
+term: Stud poker | A form of poker in which some of each player's cards are dealt face down and some face up, so that other players can see part of the hand. | p. 300
+term: Community card poker | A form of poker in which players combine their own hidden cards with shared cards laid in the middle, as in Texas Hold'em. | p. 300
+term: Dealer's choice | A home rule that lets the dealer pick which poker game is played for that hand and which cards are wild. | p. 301
+term: Betting limit | The most that any player can bet at one time, agreed before the game starts. | p. 301
+term: Check | In poker, passing without betting while staying in the hand. | p. 301
+term: Fold | In poker, dropping out of the current hand and giving up what has been put in the pot. | p. 301
+term: Call | In poker, matching the current bet to stay in the hand. It is also called seeing the bet. | p. 301
+term: Raise | In poker, matching the current bet and adding more, which forces the later players to match the higher amount. | p. 301
+term: Showdown | In poker, the end of the hand when players still in turn up their cards and the highest-ranking hand wins the pot. | p. 302
+term: Wild card | A card that can stand for any other card in the hands of the players holding it. Wild cards make five of a kind possible. | p. 302
+term: High-low | A poker form in which the pot is shared between the highest and the lowest hand. Players declare before the showdown which they are aiming for. | p. 303
+term: Standing pat | In draw poker, choosing not to replace any cards. It can be shown by knocking on the table. | p. 305
+term: Hole card | In poker, a card dealt face down that only its owner can see. | p. 306
+term: Flop, turn and river | In Texas Hold'em, the three shared cards laid first, then the fourth, then the fifth, with a round of betting after each. | p. 309
+term: Blind | In Texas Hold'em, a bet placed by the two players left of the dealer before the cards are dealt. | p. 310
+term: Stock and discard pile | In rummy, the face-down pile that players draw from, and the face-up pile where they throw unwanted cards. | p. 312
+term: Set and sequence | The two kinds of meld in rummy. A set is three or four cards of one rank and a sequence is three or four cards of one suit in order. | p. 313
+term: Laying off | In rummy, adding a card to a meld already on the table, including an opponent's. | p. 313
+term: Going rummy | In basic rummy, laying down all your cards in melds in a single turn. It earns double points. | p. 313
+term: Deadwood | In knock rummy and gin, the cards in a hand that are not part of any meld. Their total is what counts against a player. | p. 315
+term: Knocking | In knock rummy and gin, ending the hand by laying down ten cards and showing a low deadwood total. | p. 315
+term: Going gin | In gin rummy, laying down all ten cards in melds. It earns a 25-point bonus. | p. 317
+idea: A game can turn the usual aim upside down | In Hearts players try to avoid taking points, and the lowest score wins. Taking every heart and the queen of spades, shooting the moon, turns the penalty into a gain. The same cards punish most players and reward one. | p. 292
+idea: Passing cards before play changes the hand | In Hearts every player passes three cards to the left without seeing what they receive. The book advises passing high spades if holding few, so as to avoid taking the queen. A hand can be reshaped before the first card is led. | p. 292
+idea: A restriction on opening moves holds back a risk | In Hearts nobody may lead a heart until one has been discarded, unless a player has only hearts. Until then hearts cannot be forced on others. A rule about what can start a round decides when the danger arrives. | p. 292
+idea: Removing cards makes the deal equal | Hearts for three, five, six or seven players takes out named cards, such as the two of clubs, so that every player holds the same number. A deck can be adjusted to the players. | p. 292
+idea: Many variants change only the scoring | Spot Hearts counts each heart at its face value instead of one. Pink Lady adds the queen of hearts as another 13 points. Omnibus Hearts gives the ten of diamonds a negative value. Changing the points on a card can change a game's feel. | p. 293
+idea: A bid can be the target as well as the promise | In Oh Hell a player scores only by winning exactly the number of tricks bid, so winning more earns nothing. Success depends on reading the hand and controlling the result as well as on winning. | p. 296
+idea: The number of cards dealt can change from round to round | Oh Hell starts with one card each and adds one each deal, up to the most the deck allows, and the last deal has no trump. Every round has a different size and a new level of difficulty. | p. 295
+idea: A game can have two phases with different rules | In two-handed Pinochle, melds are laid down after winning tricks and the hands are refilled from the stock. After the stock runs out, players have to follow suit, have to trump if they can, and can no longer meld. The rules tighten at the end. | p. 298
+idea: A claim can be risky for the one who makes it | In Pinochle a player may claim to have reached 1,000 points at any time. If right, the player wins. If wrong, the player loses. A claim is a bet on your own count. | p. 299
+idea: Poker has a fixed round of choices | Each round of poker offers check, bet, call, fold or raise, and ends when everyone has checked or answered the bets. Most house rules limit raises to three. A tight list of choices keeps a game with many players manageable. | p. 301
+idea: Hand ranks follow how rare the hands are | The book lists poker hands from royal flush down to one pair, along with the odds of getting each in five cards, from 1 in 649,740 to 1 in 2.36. The less often a hand comes up, the higher it ranks. | p. 304
+idea: Friends can set the stakes low | The book says games between friends have low limits on the ante, on the raise and on the size of the pot, and that coins, matchsticks or Monopoly money can stand in for chips. The way a game is played at the table can be set by the people around it. | p. 301
+idea: Showing some cards lets players read each other | In Seven-Card Stud most cards are face up, so players see part of each hand, and the dealer even names possible flushes and straights. The player with the highest visible cards bets first. Information that is public shapes the betting. | p. 307
+idea: A shared board changes what a hand is worth | In Texas Hold'em each player has two private cards and five shared ones, and may use two, one or none of their own. A player who uses only the shared cards is playing the board and splits the pot. | p. 310
+idea: Seeing everything except your own hand | In Indian Poker players hold a card on their forehead facing out and bet on what they see in everyone else's. A game can reverse who has the information. | p. 311
+idea: The rummy turn is draw one and discard one | A player takes the top of the stock or the discard pile and then discards a card, and melds or lays off at any time. The rule gives each turn the same shape, and a discard tells the next player what is not wanted. | p. 313
+idea: A faster ending makes a different game | Knock rummy and gin end the hand when a player knocks with a low deadwood total, instead of waiting for someone to lay down every card. If the knocker does not have the lowest count, the knocker is penalised. Ending a hand early is a risk. | p. 316
+idea: A threshold can be set by the first card | In Oklahoma Gin the card turned up first fixes how many points are needed to knock for that hand. The goal changes from hand to hand, and an ace means a player has to either knock on 1 or go gin. | p. 318
+idea: Taking from a pile can cost more than one card | In 500 Rum a player can take any card from the spread-out discard pile, but has to take every card above it and has to use the chosen card at once. The more tempting the card, the more it costs. | p. 320
+idea: A score can go down | In 500 Rum a player's hand score is the value of cards melded on the table minus the value of cards still held. A player who holds too many high cards can lose points in a round. | p. 320
+term: Canasta | A meld of at least seven cards of one rank in the game of that name. A natural canasta, with no wild cards, scores more than a mixed one. | p. 325
+term: Initial meld requirement | In Canasta, the minimum points a side's first meld has to add up to before it may play, set by the side's score so far. | p. 323
+term: Frozen discard pile | In Canasta, a discard pile that can be taken only with two natural cards of the same rank as the top card. A wild card or black three discarded on it freezes it. | p. 324
+term: Stop card | A card that, when discarded, stops the next player from taking the pile. In Canasta, a black three does this. | p. 324
+term: Book | In Whist, the first six tricks, which score nothing. In Go Fish, a set of four cards of one rank collected by a player. | p. 329
+term: Wild eight | In Crazy Eights, an eight that can be played on any card, after which the player names the suit to be matched next. | p. 331
+term: Stop-and-draw penalty | In Crazy Eights variations, a rule that makes the next player draw cards unless they can answer with the same rank, such as a run of twos. | p. 332
+term: Go fish | The call made when a player asked for a rank does not have it. The asker has to draw from the stock. | p. 333
+term: Spit pile | In Spit, a pile in the middle of the table where both players race to put cards in sequence up or down from the top card. | p. 339
+term: Layout | In solitaire, the arrangement of cards on the table that the player works from. Klondike's layout is seven columns of 1 to 7 cards. | p. 345
+idea: Opening requirements can rise with the score | In Canasta a side has to lay down a first meld worth a minimum of points, 15 if its score is below zero, 50 to 1,499, 90 to 2,999 and 120 above that. A side ahead has to do more to begin, so the rule keeps a lead from running away. | p. 323
+idea: Wild cards need limits | In Canasta wild cards can never form a meld alone, a meld needs at least two natural cards, and no meld may hold more than three wild cards. A wild card can be as flexible as a game allows, but each limit keeps the cards from being used without effort. | p. 324
+idea: A frozen pile raises the cost of taking | In Canasta a discarded wild card or black three freezes the discard pile, so only a player holding two matching natural cards can take it. A discard can be a defence as well as a way of getting rid of a card. | p. 324
+idea: Bonuses can differ for how the result was reached | Canasta pays 500 for a natural canasta and 300 for a mixed one, and 100 extra for going out concealed. The way you earn a result changes its score. | p. 327
+idea: Rule books disagree and the group decides | The Canasta section describes a dispute about whether a player has to ask a partner before going out and whether the partner may refuse. Some books say the partner always has to say no. A rule that is unclear gets settled by agreement at the table. | p. 326
+idea: Partners can share an obligation | In Canasta the first meld made by one partner counts as the opening requirement for the other as well. Teams can share goals and costs. | p. 325
+idea: A hand can be won without counting tricks | Whist has no bidding and no dummy. The only target is the number of tricks beyond the first six, and the first side to reach 7 points wins. A game can be short in rules but still need a lot of attention. | p. 329
+idea: Memory is the main skill in some card games | In Concentration all cards are laid face down and players turn up two at a time, keeping any matches. The book suggests playing alone as practice, since the more you play the more you remember. | p. 330
+idea: Matching rank or suit gives players two ways to play | In Crazy Eights a card can be laid if it matches the top card in rank or suit, and any eight can be laid whatever the top card is. A player who has nothing has to draw until a card fits. With two matching features there is a higher chance of a play. | p. 331
+idea: Special cards can be added as variations | The book lists house rules for Crazy Eights: a queen skips the next player, an ace reverses the direction, a two makes the next player draw two. Each rank is given a job. A game can be extended by attaching actions to cards. | p. 332
+idea: Asking for what you hold is a way to give away information | In Go Fish a player may only ask for a rank already in the hand, so every request tells the table what that player holds. The book advises remembering who asked for what. | p. 333
+idea: A bluff game needs a way to call it | In I Doubt It a player lays cards face down and says what they are, and anyone can say I doubt it. The cards are turned over, and either the liar or the doubter takes the pile. Telling the truth at the end is part of the strategy. | p. 334
+idea: Passing can replace winning | Old Maid has no winner. Players take cards from one another's hands and the player left with the odd queen loses. The only aim is to avoid losing. | p. 336
+idea: A reaction game rewards speed | In Pig the first player with four of a kind puts a finger on the nose, and the last to copy gets a letter. Slapjack is won by slapping the pile when a jack appears. Speed of response decides these games, and knowing the cards does not. | p. 337
+idea: Real time can replace taking turns | In Spit both players play at once, as fast as they can, using one hand and one card at a time. A game does not have to give each player a separate turn. | p. 339
+idea: A solitaire game is a puzzle with fixed odds | Idiot's Delight is won in about 1 game in 10. Accordion is so hard that some players have never won it in decades. Klondike lets the stock be gone through twice, and Pyramid three times. A one-player game sets its difficulty with rules about moves and passes through the deck. | p. 345
+idea: A free space can be limited to certain pieces | In Klondike only a king can go into an empty column. In Scorpion only kings are moved into a free space, and Black Spider repeats this. Restricting who may use a gap decides how useful it is. | p. 346
+idea: A house rule can change winning odds | Yukon deals all the cards onto the layout and lets any face-up card be moved with all those on top of it. The book says it is easier to win than Klondike. Letting players move more at once makes a puzzle easier. | p. 347
+idea: A layout can hide information in rows | Klondike deals seven columns with one more face-down card in each, and only the top card is face up. Moving cards turns up new ones, so the puzzle is partly about finding out what is hidden. | p. 345
+idea: A toy challenge has no rules except patience | The book's last section tells readers to build a house of cards with cheap cards on a surface that does not slip. It says the most important rule is to have patience. Not every game has a winner or a score. | p. 351

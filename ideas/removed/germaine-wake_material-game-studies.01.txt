@@ -1,0 +1,9 @@
+checker found no passage	term: Dexterity game | A game whose challenge is a physical skill such as stacking, balancing or placing pieces with a steady hand. Jenga and Rhino Hero are examples. | p. 56
+checker found no passage	term: Metagaming | Play that goes around or beside the game itself, such as arguing over rules, hacking or modding it, or finding unplanned ways to win. | p. 50
+checker found no passage	term: Rules lawyering | Arguing over the exact wording of rules to get an advantage. The book lists it among the unplanned kinds of play that open rules allow. | p. 50
+copied words not in the book: Each backer	term: Backer | A person who pledges money to a crowdfunding campaign in return for a reward. | p. 207
+checker found no passage	term: Table presence | How much of the table a game's parts fill and how they look when set out. In Booth's survey, players named it as something they weigh when choosing a game. | p. 210
+checker found no passage	term: Zone of control | In board wargames, the area of a hexagonal map that a unit holds sway over. | p. 152
+checker found no passage	term: Set collection | A kind of game where players gather sets of cards or tokens that score when complete. | p. 155
+checker found no passage	term: Meeple | A small wooden person-shaped player piece. | p. 193
+checker found no passage	term: Actual play | A recorded or streamed session of a role-playing game, watched by an audience. | p. 197

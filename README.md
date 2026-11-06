@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.syntax.prayasabhinav.net-2e7d32?style=flat-square)](https://boardgame.syntax.prayasabhinav.net)
-[![Version](https://img.shields.io/badge/version-0.15.0-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.16.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -71,13 +71,23 @@ Your design is kept in your browser, so a refresh does not lose it. **Save game*
 
 Every view has its own address, so it can be linked, reloaded and reached with Back: `#games` for the known games, `#games/pig` for one of them, `#games/pig/watch` to watch it, `#how-it-works`, `#blocks/push-your-luck` for a block, `#tests` for the part tests, and `#play` to play the design on screen.
 
+## Ideas, and feedback from books
+
+The **Ideas** tab sits beside the feedback. It holds an alphabetical glossary and the key ideas of 25 books on play, games and their rules, in plain words, each with the book and the page or chapter it comes from. A search box finds a word or an idea, and the books are listed in full at the end of the tab. Every line was checked against its book by a reader who had not written it. A line stayed only if that reader found the passage and code then found the reader's copied words in the book's text; the lines that failed are kept aside in `ideas/removed/`. Six of these books, on game rules and their effects, also supply some of the feedback, with the same kind of citation. They describe 65 blocks the palette did not have, such as a trump suit, sowing seeds and the pie rule. Those blocks are in the palette now, under *From the rule books, tentative* in each group, and stay there until they have been tried in a class. Every pair they make has a drafted entry. All of it is on the wiki to be checked.
+
+## Teaching remotely
+
+The knowledge base says some pairs of blocks pull against each other, such as *fully cooperative* with *last standing*, and the tool calls these pairs unusual. Because an unusual pair can be where a new game starts, the tool lets anyone place one. It marks both blocks *unusual*. A palette block that would make such a pair with the canvas is marked before it is dropped. Other pairs are marked the same way when the two blocks cannot both be true of one game, and being new or unusual is not a reason: `review-model/rules.py` reads a table of what each core mechanic makes or settles and which blocks say otherwise, gives the reason, and adds a score out of 10 (2, 5 or 8, for unlikely, possible and likely to need a look) from a small model trained on that table and on keyed pairs, none of them from known games.
+
+A teacher who is not at the table can see these pairs as they happen. They open `/teacher` and press **Start a class**, which gives a five-letter code. Each student presses **Join a class** in the header and types the code and their name. From then on the teacher's page, refreshed every five seconds, lists the name of each student whose canvas holds an unusual pair, with the pair and their blocks. That is how the teacher knows whom to review. A student drops off the list as soon as the pair leaves their canvas. **leave** in the header takes them out of the class.
+
 It works for one person on a laptop and for a group around one big screen.
 
 ## Playing it on screen
 
 **Play**, beside Iterate, plays the design on the canvas. Each block the screen can play has a rule written for it in `static/play-engine.js`, and the rules join into one game: a turn is one move, chosen from the moves the blocks offer, and the rounds, the scoring and the end follow from the victory condition. Nothing is generated; the same choices and the same dice give the same game.
 
-55 of the 86 blocks have a rule, among them rolling and moving, pushing your luck, drafting, bidding, placing workers and pieces, patterns, hands and tricks, sets, tiles, a shared resource that refills the way a real one does, a pressure the team has to hold back, a hidden card to work out and a secret rule to find. The 12 themes name the pieces. The other 19 happen between people, such as negotiation, role-play, playing in silence or a debrief: the setup lists them under *You play at the table*, each with what to do, and they stay beside the board while you play. A few get help from the screen: it can move the points a negotiation agreed, and it asks the debrief questions at the end.
+55 of the 86 blocks have a rule, among them rolling and moving, pushing your luck, drafting, bidding, placing workers and pieces, patterns, hands and tricks, sets, tiles, a shared resource that refills the way a real one does, a pressure the team has to hold back, a hidden card to work out and a secret rule to find. The 12 themes name the pieces. The other 19 happen between people, such as negotiation, role-play, playing in silence or a debrief: the setup lists them under *You play at the table*, each with what to do, and they stay beside the board while you play. A few get help from the screen: it can move the points a negotiation agreed, and it asks the debrief questions at the end. The 65 tentative blocks from the rule books have no rule on screen yet. A design that has one plays without it; 3,000 random canvases that included them all played to the end without failing.
 
 Each seat is a **person** or **fixed rules**. A fixed-rule player is played by the screen and always takes the move its rule values most, with a little chance between moves of nearly equal value. It fills a table; it does not play the way people do. When players keep secrets (hidden hands, secret goals, a traitor, secret sides, bluffs), the screen hides them and asks for the screen to be passed before each person's move. With **no turns**, whoever presses their key first (A, L, Z, M or Q, or a tap on their name) makes the next move. **Timed turns** give each move a clock, which shortens if the game is **accelerated**; when it runs out, a move is made at random. **Sedated** holds every move for a breath first.
 
@@ -99,6 +109,14 @@ A share link also carries questions for whoever plays it, which makes it a playt
 | Information visibility | full information, hidden hands, hidden identity, deduction, bluffing, rules you discover, one knows, cannot say, map revealed as you go | one |
 | Timing | take turns, everyone at once, no turns, timed turns, real-time span, sedated, accelerated | many |
 | Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, rules make an argument, stakes outside the game, points stand for values, rehearse a future | many |
+
+**From the rule books, tentative (65):** added on 6 November 2026 from six books of game rules. `book-blocks.json` gives the books and pages behind each one.
+
+- *Core mechanic:* ask for what they hold, bet against the bank, betting on a throw, betting on your hand, build your own side, calling a contract, capture and convert, capture and rescue, capture by surrounding, catch-up help, chance alone decides, chase and tag, choose your target, connecting across the board, counter cycle, declaring combinations, different powers for each player, doubling the stakes, forced capture, grow stronger over time, a list that keeps growing, handicap, hide and find, jumping over pieces, keep some dice and roll the rest, landing sends a piece back, make a row and take a piece, making words from letters, matching the open ends, melding, one-use powers, the other player has a say, passing a message along, passing cards, pie rule, promotion, relay, a shape that cannot be captured, scoring cards named in advance, shared cards in the middle, shared pot, sowing seeds, spare hand, special squares, spend to use, split your forces, stop on a signal, swapping cards for new ones, taking the discard pile, trump suit, two games at once, wild cards, wraparound board, yes-or-no questions
+- *Victory condition:* beat the layout, best of several games, fewest points, finish on an exact number, play to lose
+- *Player interaction:* one against the rest, playing alone
+- *Information visibility:* a hand laid face up, secret scores
+- *Timing:* extra turn, staged game
 
 Fourteen of the blocks, from role-play to rehearse a future, come from ideas of Dhruv Jani's; the wiki credits him on each of their entries. Where each of the 31 blocks added on 16 October 2026 came from, with references checked against Crossref, is in [`docs/block-sources.md`](docs/block-sources.md).
 
@@ -200,13 +218,16 @@ Then open http://127.0.0.1:8080. The container listens on port 80, writes nothin
   ```
 
   The build refuses a duplicate, an unknown block, a drafted feeling link that contradicts a curated one, and words from a short list of verdicts (good, bad, best, should, must and the like), because the feedback describes tendencies and leaves the judging to the designer.
+- **Entries from books:** edit the files in `kb-books/` (`pair: a+b | tendency | pro | pro | con | con | page`, `conflict: a+b | note | page`) and run `python kb-books/build.py`. The build refuses an entry that has no page or uses a word from the same list of verdicts.
+- **The Ideas tab:** edit the files in `ideas/` (`term: name | definition | page`, `idea: name | what the book argues | page`) and run `python ideas/build.py`.
+- **The tentative blocks:** their **?** text, drawing and sources are in `book-blocks.json`, which `palette.py` and `block_meta.py` read.
 - **Joining phrases:** edit `bridges.py`.
 - **Block descriptions and drawings** (the **?** button): `block_meta.py`.
 - **Groups and blocks:** `palette.py`. A new block needs a description in `block_meta.py`, a display name in `templates.py`, and pair entries so `check.py` still passes.
 
 ## The wiki
 
-Every entry in the knowledge base is also on a public wiki, https://boardgame-wiki.syntax.prayasabhinav.net, one page per entry. Anyone can read it. People who sign in with GitHub or Google can record a check under their own name (verified against a source, or validated by trying it with people at a table), propose a change to an entry, or propose a new triad, conflict, block or feeling. Proposals wait for an editor, and anyone can apply to become one from the wiki (sign in, then *Join the editors*). Approved proposals reach this repository and the live tool by themselves: every half hour a GitHub Action runs `wiki/pull.py`, rebuilds the drafted entries, runs `check.py`, and only if the check passes commits the change here and redeploys the tool and the wiki (`.github/workflows/wiki-sync.yml`). A change that breaks the check stops there and goes nowhere. The wiki's code and how to run your own are in [`wiki/`](wiki/README.md).
+Every entry in the knowledge base is also on a public wiki, https://boardgame-wiki.syntax.prayasabhinav.net, one page per entry. Anyone can read it. People who sign in with GitHub or Google can record a check under their own name (verified against a source, or validated by trying it with people at a table), propose a change to an entry, or propose a new triad, conflict, block or feeling. Proposals wait for an editor, and anyone can apply to become one from the wiki (sign in, then *Join the editors*). The book entries are there too, each with its page, along with the tentative blocks and every line of the Ideas tab. Approved proposals reach this repository and the live tool by themselves: every half hour a GitHub Action runs `wiki/pull.py`, rebuilds the drafted entries, the book entries and the Ideas, runs `check.py`, and only if the check passes commits the change here and redeploys the tool and the wiki (`.github/workflows/wiki-sync.yml`). A change that breaks the check stops there and goes nowhere. The wiki's code and how to run your own are in [`wiki/`](wiki/README.md).
 
 ## Checks
 
@@ -226,7 +247,11 @@ curl -s http://localhost:8787/palette | node check_play.js 3000
 
 | File | What it is |
 |---|---|
-| `app.py` | The FastAPI server: serves the page, `/palette`, `/tests`, `/games`, `/games/<id>.md`, `/narrate` and `/complete` |
+| `app.py` | The FastAPI server: serves the page, `/palette`, `/tests`, `/games`, `/games/<id>.md`, `/narrate`, `/complete`, and the class endpoints and `/teacher` page for teaching remotely |
+| `kb-books/` | Feedback entries taken from books, one file per book and part. `kb-books/build.py` builds them into `interactions-books.json`, and `sources.tsv` holds each book's reference |
+| `ideas/` | The glossary and key ideas of the Ideas tab, one file per book; `ideas/build.py` builds them into `ideas.json` |
+| `book-blocks.json` | The 65 tentative blocks from the rule books, each with its group, **?** text, drawing and the books and pages behind it |
+| `static/teacher.html` | The teacher's page, which starts a class and lists the students whose canvas holds an unusual pair |
 | `rules.py` | Matches a canvas against the knowledge base |
 | `templates.py` | Turns the matches into the feedback paragraph and the closing summary |
 | `bridges.py` | The fixed joining phrases between knowledge-base sentences |
@@ -252,7 +277,7 @@ curl -s http://localhost:8787/palette | node check_play.js 3000
 
 ## Privacy
 
-There are no analytics, counters or tracking of any kind. The server keeps no request log and stores nothing: your design lives only in your browser's local storage, and a saved game is a file on your own computer that the server never sees. A share link carries the design and its questions after the `#` in its address, which a browser never sends to a server; a game played on screen runs entirely in the browser, and answers to a share link's questions stay on the player's screen until they copy and send them. The hosted copy is the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
+I have put no analytics, counters or tracking of any kind in the tool. The server keeps no request log and writes nothing to disk. Your design lives only in your browser's local storage, and a saved game is a file on your own computer that the server never sees. A class is the one exception. While a student is in a class and their canvas holds an unusual pair, the server holds their name, their blocks and the pair in memory, and the teacher reads them with the class's key. Once the pair leaves the student's canvas, nothing about that student is held. A class ends when the teacher ends it or the server restarts, and after a day at the latest. A share link carries the design and its questions after the `#` in its address, the part a browser never sends to a server. A game played on screen runs entirely in the browser, and a player's answers to a share link's questions stay on their screen until they copy and send them. The hosted copy runs the same code. The wiki is separate: it keeps the records and proposals people make there, under the names they sign in with, and nothing else (see [`wiki/README.md`](wiki/README.md#privacy)).
 
 ## Status and how to help
 

@@ -17,11 +17,11 @@
   <label class="block">{{ 'What it tends to produce' if e.kind in ('pair', 'triad') else 'The text' }}
     <textarea name="text" required maxlength="4000" rows="3">{{ form.text }}</textarea></label>
   {% if e.kind in ('pair', 'triad') %}
-  <label class="block">What it brings, one point per line{% if e.source == 'drafted' %} (exactly two){% endif %}
+  <label class="block">What it brings, one point per line{% if e.source in ('drafted', 'book') %} (exactly two){% endif %}
     <textarea name="pros" maxlength="4000" rows="3">{{ form.pros }}</textarea></label>
-  <label class="block">What it costs, one point per line{% if e.source == 'drafted' %} (exactly two){% endif %}
+  <label class="block">What it costs, one point per line{% if e.source in ('drafted', 'book') %} (exactly two){% endif %}
     <textarea name="cons" maxlength="4000" rows="3">{{ form.cons }}</textarea></label>
-  {% if e.source != 'drafted' %}<label class="block">Example games, one per line (name only games you have checked)
+  {% if e.source not in ('drafted', 'book') %}<label class="block">Example games, one per line (name only games you have checked)
     <textarea name="games" maxlength="4000" rows="2">{{ form.games }}</textarea></label>{% endif %}
   {% endif %}
   {% endif %}

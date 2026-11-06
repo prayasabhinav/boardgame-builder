@@ -516,6 +516,13 @@ ALL_BLOCKS: dict = {}
 for d in (CORE_MECHANICS, VICTORY, INTERACTION, CHANCE_SKILL, THEME, INFORMATION, TIMING, SIMULATION, FEELINGS_META):
     ALL_BLOCKS.update(d)
 
+# The tentative blocks from the rule books (palette.py): their ? text says where they come from
+import json as _json
+from pathlib import Path as _Path
+
+for _b in _json.loads((_Path(__file__).parent / "book-blocks.json").read_text(encoding="utf-8")):
+    ALL_BLOCKS[_b["id"]] = {"description": _b["description"], "svg": _b["svg"], "credit": "; ".join(_b["books"]), "tentative": True}
+
 
 def meta_for(block_id: str) -> dict:
     return ALL_BLOCKS.get(block_id, {"description": "", "svg": ""})

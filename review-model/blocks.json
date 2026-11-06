@@ -1,0 +1,908 @@
+[
+ {
+  "id": "roll-and-move",
+  "slot": "core-mechanic",
+  "display": "roll and move",
+  "description": "You roll a dice, then move your piece that many spaces along a path. Like Snakes and Ladders or Monopoly."
+ },
+ {
+  "id": "drafting",
+  "slot": "core-mechanic",
+  "display": "drafting",
+  "description": "You pick one card from your hand, then pass the rest to the next player. Everyone keeps choosing the best one left, like sharing snacks but for cards."
+ },
+ {
+  "id": "bidding",
+  "slot": "core-mechanic",
+  "display": "bidding",
+  "description": "Players offer money or things to buy something. Whoever offers the most wins it. Like an auction at a market."
+ },
+ {
+  "id": "push-your-luck",
+  "slot": "core-mechanic",
+  "display": "push your luck",
+  "description": "Keep risking for more points — but if you go too far, you lose what you had. Like saying \"one more dive!\" when you should have stopped."
+ },
+ {
+  "id": "area-control",
+  "slot": "core-mechanic",
+  "display": "area control",
+  "description": "Players fight to have the most pieces in different parts of a map. Whoever holds the most spots wins that area."
+ },
+ {
+  "id": "worker-placement",
+  "slot": "core-mechanic",
+  "display": "worker placement",
+  "description": "You put your little workers on different jobs on the board. If someone takes a spot, no one else can use it that turn."
+ },
+ {
+  "id": "pattern-building",
+  "slot": "core-mechanic",
+  "display": "pattern building",
+  "description": "You match colours or shapes to make patterns — straight lines, mosaics, sets. Like building with bright tiles."
+ },
+ {
+  "id": "hand-management",
+  "slot": "core-mechanic",
+  "display": "hand management",
+  "description": "You hold a hand of cards and decide which to play, when, and which to keep for later. Choosing carefully matters most."
+ },
+ {
+  "id": "trick-taking",
+  "slot": "core-mechanic",
+  "display": "trick-taking",
+  "description": "Everyone plays one card. The highest card wins all of them — that's a \"trick\". Whoever wins leads next."
+ },
+ {
+  "id": "negotiation",
+  "slot": "core-mechanic",
+  "display": "negotiation",
+  "description": "Players talk to each other and make deals. \"I'll give you wood if you give me wheat.\" Trades and promises shape the game."
+ },
+ {
+  "id": "set-collection",
+  "slot": "core-mechanic",
+  "display": "set collection",
+  "description": "You gather groups of matching things — three of one colour, four of one type — to score points. Like collecting stamp sets."
+ },
+ {
+  "id": "tile-placement",
+  "slot": "core-mechanic",
+  "display": "tile placement",
+  "description": "You lay tiles down to build a shared map — connecting roads, cities, fields. Like Carcassonne."
+ },
+ {
+  "id": "call-and-response",
+  "slot": "core-mechanic",
+  "display": "call and response",
+  "description": "One player says a word or a line, or makes a move, and the next player answers it with one of their own. The game grows like a chain, the way a song can go back and forth between two singers."
+ },
+ {
+  "id": "playing-in-silence",
+  "slot": "core-mechanic",
+  "display": "playing in silence",
+  "description": "Nobody may talk. You can only show what you mean by what you play and when you play it. In The Mind, players put numbered cards down in order without saying a word."
+ },
+ {
+  "id": "change-the-rules",
+  "slot": "core-mechanic",
+  "display": "change the rules",
+  "description": "On your turn you can change a rule instead of only making a move, so the game you finish is not the game you started. In Nomic, changing the rules is the whole game."
+ },
+ {
+  "id": "role-play",
+  "slot": "core-mechanic",
+  "display": "role-play",
+  "description": "You speak and act as a character instead of as yourself, and decide what that character would do. Tabletop role-playing games and live-action role-play (LARP) are built on this."
+ },
+ {
+  "id": "dexterity",
+  "slot": "core-mechanic",
+  "display": "dexterity",
+  "description": "Your hands decide what happens: flicking, stacking, balancing or throwing. In Jenga you pull blocks out of a tower without toppling it; in carrom you flick the striker."
+ },
+ {
+  "id": "drawing-the-map",
+  "slot": "core-mechanic",
+  "display": "drawing the map",
+  "description": "Players draw or build the map as they play, so the world is made by the people in it. In The Quiet Year, a community's map grows week by week on one sheet of paper."
+ },
+ {
+  "id": "ask-for-cards",
+  "slot": "core-mechanic",
+  "display": "ask for what they hold",
+  "description": "On your turn you ask one player for a card or a rank. If they have it, they have to hand it over, and you may ask again. Your question also tells everyone what you hold."
+ },
+ {
+  "id": "bet-against-the-bank",
+  "slot": "core-mechanic",
+  "display": "bet against the bank",
+  "description": "One player is the bank. The others place their bets, the bank throws, and winners are paid at fixed odds. The bank passes round so no one keeps the advantage."
+ },
+ {
+  "id": "betting-on-a-throw",
+  "slot": "core-mechanic",
+  "display": "betting on a throw",
+  "description": "Players put money or things on the table before the dice or coin land, and the throw decides who takes them. The skill is in choosing the bet, not in the throw."
+ },
+ {
+  "id": "betting-on-your-hand",
+  "slot": "core-mechanic",
+  "display": "betting on your hand",
+  "description": "Players put chips in a pot while they still think their hidden cards can win. You can match a bet, raise it, or drop out and lose what you put in."
+ },
+ {
+  "id": "build-your-own-side",
+  "slot": "core-mechanic",
+  "display": "build your own side",
+  "description": "Before or during play, each player picks the character, deck or army they will play. Two players can arrive with very different sides."
+ },
+ {
+  "id": "calling-a-contract",
+  "slot": "core-mechanic",
+  "display": "calling a contract",
+  "description": "Before the play starts, you say what you are going to do, such as win three tricks. If you manage it you score; if you fail the other side scores or you pay."
+ },
+ {
+  "id": "capture-and-convert",
+  "slot": "core-mechanic",
+  "display": "capture and convert",
+  "description": "When you capture a piece it does not leave the game. It changes sides and now works for you. A lead can swing back in a single move."
+ },
+ {
+  "id": "capture-and-rescue",
+  "slot": "core-mechanic",
+  "display": "capture and rescue",
+  "description": "If you are caught, you wait in a jail. A teammate who reaches the jail without being caught can set you free."
+ },
+ {
+  "id": "capture-by-surrounding",
+  "slot": "core-mechanic",
+  "display": "capture by surrounding",
+  "description": "You do not hop or hit a piece. You take it by placing your pieces on both sides of it, or all around it, so it has no room left."
+ },
+ {
+  "id": "catch-up-help",
+  "slot": "core-mechanic",
+  "display": "catch-up help",
+  "description": "The game gives players who are behind a chance to jump ahead. A lead is never completely safe until the very end."
+ },
+ {
+  "id": "chance-alone-decides",
+  "slot": "core-mechanic",
+  "display": "chance alone decides",
+  "description": "The dice or the cards decide everything. You throw or turn a card, and the result says who gains. There is nothing to choose, so the game is a short wait for luck."
+ },
+ {
+  "id": "chase-and-tag",
+  "slot": "core-mechanic",
+  "display": "chase and tag",
+  "description": "One player is It and chases the rest. When It touches someone, that person becomes It, and the chase starts again."
+ },
+ {
+  "id": "choose-your-target",
+  "slot": "core-mechanic",
+  "display": "choose your target",
+  "description": "On your turn you pick which player is hit, helped or traded with. Who you choose matters as much as what you do. Three or more players make this a hard choice."
+ },
+ {
+  "id": "connection",
+  "slot": "core-mechanic",
+  "display": "connecting across the board",
+  "description": "You win by linking up, not by taking pieces. Your stones have to make one unbroken chain from one side of the board to another, and the other player tries to cut it."
+ },
+ {
+  "id": "counter-cycle",
+  "slot": "core-mechanic",
+  "display": "counter cycle",
+  "description": "Each choice beats one other choice and loses to a third, like rock, paper and scissors. No choice wins every time, so every choice stays in play."
+ },
+ {
+  "id": "declaring-combinations",
+  "slot": "core-mechanic",
+  "display": "declaring combinations",
+  "description": "You show a pair or a run you hold, such as a king and queen of one suit, and score points for it while the game goes on. The cards stay in your hand."
+ },
+ {
+  "id": "different-powers",
+  "slot": "core-mechanic",
+  "display": "different powers for each player",
+  "description": "Each player has a power that nobody else has, which bends the rules in their favour. You play your own version of the game."
+ },
+ {
+  "id": "doubling-the-stakes",
+  "slot": "core-mechanic",
+  "display": "doubling the stakes",
+  "description": "Part-way through the game you may offer to double what it is worth. The other player either accepts and plays on, or gives up the game and loses the points already at stake."
+ },
+ {
+  "id": "forced-capture",
+  "slot": "core-mechanic",
+  "display": "forced capture",
+  "description": "If you can capture, you have to. Some games make you take the capture that wins the most pieces. Your opponent can use this to force your move."
+ },
+ {
+  "id": "grow-stronger",
+  "slot": "core-mechanic",
+  "display": "grow stronger over time",
+  "description": "What you do in the game makes your character stronger. Later challenges are harder, and you face them with more power than you began with."
+ },
+ {
+  "id": "growing-list",
+  "slot": "core-mechanic",
+  "display": "a list that keeps growing",
+  "description": "Each player says the whole list so far and adds one new item. The list grows on every turn, so remembering it is the game."
+ },
+ {
+  "id": "handicap",
+  "slot": "core-mechanic",
+  "display": "handicap",
+  "description": "A stronger player starts with less, such as fewer stones, fewer points or less time, so that a weaker player has a real chance. The two players start unequal on purpose."
+ },
+ {
+  "id": "hide-and-find",
+  "slot": "core-mechanic",
+  "display": "hide and find",
+  "description": "Someone hides, or hides something. The others hunt for it, and the game ends when it is found."
+ },
+ {
+  "id": "jumping-over-pieces",
+  "slot": "core-mechanic",
+  "display": "jumping over pieces",
+  "description": "Your piece hops over another piece and lands in the empty space behind it. In checkers the piece you hop over is taken away; in Chinese Checkers it stays."
+ },
+ {
+  "id": "keep-and-reroll",
+  "slot": "core-mechanic",
+  "display": "keep some dice, roll the rest",
+  "description": "You roll all your dice, set aside the ones you like and roll the rest again. After a few rolls you have to stop with what you hold."
+ },
+ {
+  "id": "landing-sends-back",
+  "slot": "core-mechanic",
+  "display": "landing sends a piece back",
+  "description": "If your piece lands on a space where another player's piece stands, theirs goes back to the start. Some safe spaces protect a piece from this."
+ },
+ {
+  "id": "make-a-row-take-a-piece",
+  "slot": "core-mechanic",
+  "display": "make a row, take a piece",
+  "description": "Three of your pieces in a row is a mill, and a mill lets you take one of the other player's pieces. You build a row and break theirs at once."
+ },
+ {
+  "id": "making-words",
+  "slot": "core-mechanic",
+  "display": "making words from letters",
+  "description": "The pieces are letters. You build, guess or hunt for real words, and a dictionary settles any argument."
+ },
+ {
+  "id": "matching-open-ends",
+  "slot": "core-mechanic",
+  "display": "matching the open ends",
+  "description": "You add a tile to the end of a line, but only if its number matches the end. If you have no matching tile, you miss your turn."
+ },
+ {
+  "id": "melding",
+  "slot": "core-mechanic",
+  "display": "melding",
+  "description": "You lay a finished set of cards face up on the table. From then on you, and sometimes other players, can add matching cards to it."
+ },
+ {
+  "id": "one-use-powers",
+  "slot": "core-mechanic",
+  "display": "one-use powers",
+  "description": "Each piece or player starts with a special power that works once. When you use it, you take its marker away, so choosing when to use it is the game."
+ },
+ {
+  "id": "other-player-has-a-say",
+  "slot": "core-mechanic",
+  "display": "the other player has a say",
+  "description": "On your turn you offer a move, but the other player has a say. They may turn it down, or choose between two moves you offer."
+ },
+ {
+  "id": "passing-a-message",
+  "slot": "core-mechanic",
+  "display": "passing a message along",
+  "description": "A message travels from player to player, by whisper or by squeeze. It may change on the way, and nobody can check it until it arrives."
+ },
+ {
+  "id": "passing-cards",
+  "slot": "core-mechanic",
+  "display": "passing cards",
+  "description": "Before play begins, you choose some of your cards and hand them to another player. You cannot look at the cards you will get until you have chosen."
+ },
+ {
+  "id": "pie-rule",
+  "slot": "core-mechanic",
+  "display": "pie rule",
+  "description": "One player sets up the start of the game, and then the other player picks which side to play. So the first player tries to make both sides even, like cutting a pie when someone else chooses the slice."
+ },
+ {
+  "id": "promotion",
+  "slot": "core-mechanic",
+  "display": "promotion",
+  "description": "When one of your pieces reaches the far end of the board, it can turn into a stronger piece. This gives you a reason to push forward, even when staying back feels safer."
+ },
+ {
+  "id": "relay",
+  "slot": "core-mechanic",
+  "display": "relay",
+  "description": "Your team runs a race in legs. One player goes, hands over a ball or a flag to the next, and the first team to finish every leg wins."
+ },
+ {
+  "id": "safe-shape",
+  "slot": "core-mechanic",
+  "display": "a shape that cannot be captured",
+  "description": "Some shapes are safe. If your stones make the shape, nothing around them can take them. It gives you a goal to build towards while the other player tries to surround you."
+ },
+ {
+  "id": "scoring-cards",
+  "slot": "core-mechanic",
+  "display": "scoring cards named in advance",
+  "description": "Winning tricks is only the way to reach the prizes. The prizes are named cards, such as the highest trump or the Jack of trumps, and a single card can win more than one."
+ },
+ {
+  "id": "shared-cards",
+  "slot": "core-mechanic",
+  "display": "shared cards in the middle",
+  "description": "Some cards are turned face up in the middle, and everyone can use them. You mix them with the cards in your own hand to make the highest set you can."
+ },
+ {
+  "id": "shared-pot",
+  "slot": "core-mechanic",
+  "display": "shared pot",
+  "description": "Everyone puts a counter into the middle before play. One player wins it all. If nobody wins, it stays there and grows, so the next round is worth more."
+ },
+ {
+  "id": "sowing-seeds",
+  "slot": "core-mechanic",
+  "display": "sowing seeds",
+  "description": "You scoop up all the seeds from one pit and drop them one at a time into the pits that follow. Where your last seed lands decides what you can take."
+ },
+ {
+  "id": "spare-hand",
+  "slot": "core-mechanic",
+  "display": "spare hand",
+  "description": "An extra hand is dealt face down in the middle. One player gets to take it, swap it or buy it, then puts cards back before play begins."
+ },
+ {
+  "id": "special-squares",
+  "slot": "core-mechanic",
+  "display": "special squares",
+  "description": "Some spaces on the track have a rule of their own. One may keep you safe, another may send you back or make you miss a turn."
+ },
+ {
+  "id": "spend-to-use",
+  "slot": "core-mechanic",
+  "display": "spend to use",
+  "description": "Every card, unit or item has a price in the game. Strong ones cost more, so you choose what to buy with what you have."
+ },
+ {
+  "id": "split-your-forces",
+  "slot": "core-mechanic",
+  "display": "split your forces",
+  "description": "You have a fixed amount to share out between several places or jobs. Putting a lot in one means less in another, and the other player is sharing out theirs too."
+ },
+ {
+  "id": "stop-on-a-signal",
+  "slot": "core-mechanic",
+  "display": "stop on a signal",
+  "description": "Everyone keeps moving until a signal comes, such as the music stopping. Then you freeze or grab a seat, and the slowest player is caught."
+ },
+ {
+  "id": "swapping-cards",
+  "slot": "core-mechanic",
+  "display": "swapping cards for new ones",
+  "description": "You may put cards back and take new ones from the table or a pile, to make your hand stronger before it is played. Sometimes another player has to agree."
+ },
+ {
+  "id": "taking-the-pile",
+  "slot": "core-mechanic",
+  "display": "taking the discard pile",
+  "description": "Every card players throw away goes in one pile. On your turn you may pick up the whole pile, as long as you can use the card on top straight away."
+ },
+ {
+  "id": "trump-suit",
+  "slot": "core-mechanic",
+  "display": "trump suit",
+  "description": "One suit is named for the hand, and every card in it beats every card in the other suits. A low trump can win a trick against a high card of another suit."
+ },
+ {
+  "id": "two-games-at-once",
+  "slot": "core-mechanic",
+  "display": "two games at once",
+  "description": "You play two games at the same time on two boards. You are one side on the first board and the other side on the second, so you attack and defend at the same time."
+ },
+ {
+  "id": "wild-cards",
+  "slot": "core-mechanic",
+  "display": "wild cards",
+  "description": "Some cards can stand for any other card you choose. A wild card can finish a set that would otherwise be missing one piece."
+ },
+ {
+  "id": "wraparound-board",
+  "slot": "core-mechanic",
+  "display": "wraparound board",
+  "description": "The edges of the board are joined. If your line runs off the right side it comes back in on the left, like a video game character walking out of one side of the screen and into the other."
+ },
+ {
+  "id": "yes-or-no-questions",
+  "slot": "core-mechanic",
+  "display": "yes-or-no questions",
+  "description": "One player knows a secret. The others ask questions that can be answered yes or no, and each answer shrinks the list of things it could be."
+ },
+ {
+  "id": "race-to-finish",
+  "slot": "victory-condition",
+  "display": "race to finish",
+  "description": "First player to reach the end wins. The whole game is a race."
+ },
+ {
+  "id": "most-points",
+  "slot": "victory-condition",
+  "display": "most points",
+  "description": "Whoever has the highest score at the end wins. Points come from many sources — sets, places, cards."
+ },
+ {
+  "id": "last-standing",
+  "slot": "victory-condition",
+  "display": "last standing",
+  "description": "Knock out other players one by one. The last one alive wins."
+ },
+ {
+  "id": "cooperative-survival",
+  "slot": "victory-condition",
+  "display": "cooperative survival",
+  "description": "Everyone wins or loses together. The game tries to beat all of you. Stay alive long enough and you all win."
+ },
+ {
+  "id": "shared-objective",
+  "slot": "victory-condition",
+  "display": "shared objective",
+  "description": "All players work together to reach a goal — a score, a final state, a saved world."
+ },
+ {
+  "id": "hidden-personal-goal",
+  "slot": "victory-condition",
+  "display": "hidden personal goal",
+  "description": "Each player has a secret goal. No one knows what the others are trying to do. Win without giving yourself away."
+ },
+ {
+  "id": "narrative-completion",
+  "slot": "victory-condition",
+  "display": "narrative completion",
+  "description": "You play through a story. The game ends when the story does — happy ending, tragic ending, your choice."
+ },
+ {
+  "id": "no-objective",
+  "slot": "victory-condition",
+  "display": "no objective",
+  "description": "The game ends, but nobody wins or loses. You stop and look at what you made or what happened, and talk about it if you like."
+ },
+ {
+  "id": "set-your-own-goal",
+  "slot": "victory-condition",
+  "display": "set your own goal",
+  "description": "Each player decides what doing well means for them, before the game or after it. One player may be happy to save a single piece; another wants to save every one."
+ },
+ {
+  "id": "one-loser",
+  "slot": "victory-condition",
+  "display": "one loser",
+  "description": "Nobody wins. The game goes on until one player loses, and everyone else is simply safe."
+ },
+ {
+  "id": "keep-the-game-going",
+  "slot": "victory-condition",
+  "display": "keep the game going",
+  "description": "The aim is to keep the game going, not to end it. Everyone helps play continue, the way a role-playing campaign can run for years. The writer James Carse called these infinite games."
+ },
+ {
+  "id": "cannot-be-won",
+  "slot": "victory-condition",
+  "display": "cannot be won",
+  "description": "The game is made so that nobody can win it, or it pushes back against being played at all. Playing it shows you something by refusing what you expect from a game."
+ },
+ {
+  "id": "beat-the-layout",
+  "slot": "victory-condition",
+  "display": "beat the layout",
+  "description": "You play alone against the cards. You win if you clear the table or build every card into its place, and the game says you lost if you get stuck."
+ },
+ {
+  "id": "best-of-several-games",
+  "slot": "victory-condition",
+  "display": "best of several games",
+  "description": "Play several short games in a row. Whoever wins the most games wins, and you can stop as soon as nobody can catch up. Two wins out of three is the simplest kind."
+ },
+ {
+  "id": "fewest-points",
+  "slot": "victory-condition",
+  "display": "fewest points",
+  "description": "Every point you pick up counts against you. When the game ends, the player with the fewest points wins."
+ },
+ {
+  "id": "finish-on-exact-number",
+  "slot": "victory-condition",
+  "display": "finish on an exact number",
+  "description": "You cannot just get there first. You have to land exactly on the target number, and going past it costs you the win or the hand."
+ },
+ {
+  "id": "play-to-lose",
+  "slot": "victory-condition",
+  "display": "play to lose",
+  "description": "The aim is turned upside down. In some games the player who gives everything away wins; in others the player who makes the last move loses."
+ },
+ {
+  "id": "solo-in-parallel",
+  "slot": "player-interaction",
+  "display": "solo in parallel",
+  "description": "Everyone plays at the same time but doesn't really affect each other. You build your own thing while others build theirs."
+ },
+ {
+  "id": "direct-confrontation",
+  "slot": "player-interaction",
+  "display": "direct confrontation",
+  "description": "Players attack, steal, or sabotage each other on purpose. \"Take that!\" — they target you, you target them."
+ },
+ {
+  "id": "indirect-via-board",
+  "slot": "player-interaction",
+  "display": "indirect via board",
+  "description": "You don't attack each other directly — you change the board, take spots, build walls. They feel it through the game state."
+ },
+ {
+  "id": "fully-cooperative",
+  "slot": "player-interaction",
+  "display": "fully cooperative",
+  "description": "Everyone is on the same team, against the game itself. You all win together, or you all lose together."
+ },
+ {
+  "id": "semi-cooperative",
+  "slot": "player-interaction",
+  "display": "semi-cooperative",
+  "description": "Mostly working together, but each player has a small private reason to win more than the others."
+ },
+ {
+  "id": "team-vs-team",
+  "slot": "player-interaction",
+  "display": "team vs team",
+  "description": "Two teams play against each other. You and your teammates work together, against the other side."
+ },
+ {
+  "id": "traitor",
+  "slot": "player-interaction",
+  "display": "traitor",
+  "description": "Most players are on the same team — but one (or more) is secretly playing against everyone else. Can you spot them?"
+ },
+ {
+  "id": "playing-by-letter",
+  "slot": "player-interaction",
+  "display": "playing by letter",
+  "description": "Players are far apart and take turns by sending letters or messages. One game can last weeks or even a whole year, and waiting for the reply is part of it."
+ },
+ {
+  "id": "absent-player",
+  "slot": "player-interaction",
+  "display": "absent player",
+  "description": "One player is not at the table. It might be someone from long ago, a player from an earlier game, or a ghost who can only give hints. In ancient Egypt, the game Senet came to be linked with the journey after death."
+ },
+ {
+  "id": "game-master",
+  "slot": "player-interaction",
+  "display": "game master",
+  "description": "One player runs the world for everyone else: describing places, playing the people the others meet, and deciding what happens next. The others play their own characters."
+ },
+ {
+  "id": "public-game",
+  "slot": "player-interaction",
+  "display": "public game",
+  "description": "The game is played in a street, a park or a market, and anyone passing by can join in. Street games like stapu, hopscotch drawn in chalk, work this way."
+ },
+ {
+  "id": "one-against-the-rest",
+  "slot": "player-interaction",
+  "display": "one against the rest",
+  "description": "One player takes on all the others at once. The others work together against that one person, and the lone player is paid more if they win."
+ },
+ {
+  "id": "playing-alone",
+  "slot": "player-interaction",
+  "display": "playing alone",
+  "description": "You play alone against the pack. Nobody else acts, so luck and your own choices decide how it goes. You can still compare your result with a friend afterwards."
+ },
+ {
+  "id": "mostly-chance",
+  "slot": "chance-skill",
+  "display": "mostly chance",
+  "description": "Dice and random draws decide most of what happens. Skill barely matters. Snakes and Ladders is mostly chance."
+ },
+ {
+  "id": "chance-with-mitigation",
+  "slot": "chance-skill",
+  "display": "chance with mitigation",
+  "description": "There IS dice and randomness, but you have ways to soften bad luck — re-rolls, cards, choices. You're not helpless."
+ },
+ {
+  "id": "skill-with-luck-tempering",
+  "slot": "chance-skill",
+  "display": "skill with luck",
+  "description": "Mostly your choices matter, but a small bit of luck adds spice. Catan and Carcassonne sit here."
+ },
+ {
+  "id": "mostly-skill",
+  "slot": "chance-skill",
+  "display": "mostly skill",
+  "description": "Pure brain-work. No dice, no surprises. The smartest player wins. Chess and Go are mostly skill."
+ },
+ {
+  "id": "chance-read-as-a-sign",
+  "slot": "chance-skill",
+  "display": "chance read as a sign",
+  "description": "The dice or cards are read as a message, not added up as a score. What you throw tells you something to think about. Long ago in India, Tibet and China, people threw dice this way to ask questions."
+ },
+ {
+  "id": "attunement",
+  "slot": "chance-skill",
+  "display": "attunement",
+  "description": "Not luck, and not working it out. You succeed by sensing when the others are about to act, like friends who start to speak at the same moment."
+ },
+ {
+  "id": "dice-tell-the-story",
+  "slot": "chance-skill",
+  "display": "dice tell the story",
+  "description": "A roll of the dice is looked up on a table that says what happens next, such as who you meet on the road. The dice write part of the story, as they do in Dungeons & Dragons."
+ },
+ {
+  "id": "abstract",
+  "slot": "theme",
+  "display": "abstract",
+  "description": "No story — just shapes, colours, patterns. Like Chess or Go. The game is the game."
+ },
+ {
+  "id": "historical",
+  "slot": "theme",
+  "display": "historical",
+  "description": "Set in real history — wars, empires, trade routes. Real places, real times."
+ },
+ {
+  "id": "fantasy",
+  "slot": "theme",
+  "display": "fantasy",
+  "description": "Magic, dragons, wizards, quests. Things that don't exist in real life."
+ },
+ {
+  "id": "science-fiction",
+  "slot": "theme",
+  "display": "science fiction",
+  "description": "Space, robots, distant futures. Aliens, lasers, planets."
+ },
+ {
+  "id": "everyday-life",
+  "slot": "theme",
+  "display": "everyday life",
+  "description": "Farms, kitchens, trains, cities — places and things you recognise from real life."
+ },
+ {
+  "id": "absurd",
+  "slot": "theme",
+  "display": "absurd",
+  "description": "Weird, silly, nonsense — exploding kittens, unstable unicorns. Made to make you laugh."
+ },
+ {
+  "id": "educational",
+  "slot": "theme",
+  "display": "educational",
+  "description": "Teaches you something while you play — history facts, words, maths."
+ },
+ {
+  "id": "real-world-issue",
+  "slot": "theme",
+  "display": "real-world issue",
+  "description": "About something happening now — climate, justice, migration. The game makes you think about it."
+ },
+ {
+  "id": "poetic",
+  "slot": "theme",
+  "display": "poetic",
+  "description": "The game works like a poem: short, a little strange, and made to make you notice something ordinary in a new way."
+ },
+ {
+  "id": "ritual-or-sacred",
+  "slot": "theme",
+  "display": "ritual or sacred",
+  "description": "The board is a path towards something holy, and moving along it is a kind of practice. Snakes and Ladders began in India as gyan chaupar, where the ladders stood for virtues and the snakes for vices."
+ },
+ {
+  "id": "mortality-and-loss",
+  "slot": "theme",
+  "display": "mortality and loss",
+  "description": "The game is about time running out, growing old or losing someone. Playing gives people a way to think about something hard together."
+ },
+ {
+  "id": "war-and-conquest",
+  "slot": "theme",
+  "display": "war and conquest",
+  "description": "Armies, borders and battles. People have long played games in place of fighting, and chess grew out of chaturanga, an Indian game whose pieces were the parts of an army."
+ },
+ {
+  "id": "full-information",
+  "slot": "information",
+  "display": "full information",
+  "description": "Everything is visible. Every player sees every card, every move. No secrets. Like Chess."
+ },
+ {
+  "id": "hidden-hands",
+  "slot": "information",
+  "display": "hidden hands",
+  "description": "Each player holds cards no one else can see. You bluff, hint, and guess."
+ },
+ {
+  "id": "hidden-identity",
+  "slot": "information",
+  "display": "hidden identity",
+  "description": "Some players have a secret role — like a spy or a villain. Nobody knows who is who at the start."
+ },
+ {
+  "id": "deduction",
+  "slot": "information",
+  "display": "deduction",
+  "description": "Use clues to figure out hidden facts — who, what, where. Like Cluedo or a mystery."
+ },
+ {
+  "id": "bluffing",
+  "slot": "information",
+  "display": "bluffing",
+  "description": "Lie about what you have. Pretend you're stronger or weaker than you are. Other players have to guess."
+ },
+ {
+  "id": "rules-you-discover",
+  "slot": "information",
+  "display": "rules you discover",
+  "description": "One player knows a secret rule. Everyone else finds it out only by breaking it and being told no. In the card game Mao, newcomers learn the rules this way."
+ },
+ {
+  "id": "one-knows-cannot-say",
+  "slot": "information",
+  "display": "one knows, cannot say",
+  "description": "One player can see the answer but is not allowed to say it. They can only give hints, such as pictures, and the others have to guess. In Mysterium, a ghost gives the players vision cards."
+ },
+ {
+  "id": "map-revealed-as-you-go",
+  "slot": "information",
+  "display": "map revealed as you go",
+  "description": "The map starts hidden. Areas are turned over only when a player explores them, so nobody knows what lies ahead until they go there."
+ },
+ {
+  "id": "dummy-hand",
+  "slot": "information",
+  "display": "a hand laid face up",
+  "description": "One hand is spread face up for all to see, while every other hand stays secret. A player may play the open hand as well as their own."
+ },
+ {
+  "id": "secret-scores",
+  "slot": "information",
+  "display": "secret scores",
+  "description": "Some of your points or money are kept secret from the other players. Nobody can add up the scores for certain, so everyone has to guess who is ahead."
+ },
+ {
+  "id": "take-turns",
+  "slot": "timing",
+  "display": "take turns",
+  "description": "One player acts at a time, going round the table. Everyone else watches, waits and plans for their own turn. Chess and most board games work this way."
+ },
+ {
+  "id": "everyone-at-once",
+  "slot": "timing",
+  "display": "everyone at once",
+  "description": "Everyone chooses in secret at the same moment, then all reveal together. Nobody waits for anybody. In 7 Wonders, every player picks a card at once and passes the rest."
+ },
+ {
+  "id": "no-turns",
+  "slot": "timing",
+  "display": "no turns",
+  "description": "There are no turns at all. Anyone may act at any moment, and whoever is quickest gets there first. In Set, everyone hunts the same cards at once."
+ },
+ {
+  "id": "timed-turns",
+  "slot": "timing",
+  "display": "timed turns",
+  "description": "Turns still come in order, but each one has a clock: a sand timer, a phone, a count to ten. When time runs out, the move is lost or made for you. In 3 Quarters every move has 20 seconds."
+ },
+ {
+  "id": "real-time-span",
+  "slot": "timing",
+  "display": "real-time span",
+  "description": "The game runs on real days or weeks, not turns. You might make one move each morning, so waiting is part of playing."
+ },
+ {
+  "id": "sedated",
+  "slot": "timing",
+  "display": "sedated",
+  "description": "The game slows players down on purpose: a pause before each move, a breath, a long wait built into the rules. The slowness is part of the play, not a delay."
+ },
+ {
+  "id": "accelerated",
+  "slot": "timing",
+  "display": "accelerated",
+  "description": "The game speeds up as it goes: timers shrink, more happens each round, and the end comes in a rush. In Tetris the pieces fall faster at every level."
+ },
+ {
+  "id": "extra-turn",
+  "slot": "timing",
+  "display": "extra turn",
+  "description": "On some throws, or when you hit another piece, you get another go at once. A lucky player can move many times before anyone else."
+ },
+ {
+  "id": "staged-game",
+  "slot": "timing",
+  "display": "staged game",
+  "description": "The game comes in stages with different rules, like first picking your cards and then playing with them. What you do in the first stage sets up the second."
+ },
+ {
+  "id": "model-a-system",
+  "slot": "simulation",
+  "display": "model a system",
+  "description": "The board works like a real system, such as how water moves between a village's wells and fields, so a move has the effect it would have in real life."
+ },
+ {
+  "id": "stakeholder-roles",
+  "slot": "simulation",
+  "display": "stakeholder roles",
+  "description": "Each player plays a real group with its own needs, such as farmers, a village council or a shopkeeper. You see the problem from where they stand."
+ },
+ {
+  "id": "shared-resource",
+  "slot": "simulation",
+  "display": "shared resource",
+  "description": "Everyone draws from one limited thing, such as the water under a village. If players take too much, it runs out for everyone. Villages in Andhra Pradesh have played games like this about their own groundwater."
+ },
+ {
+  "id": "delayed-effects",
+  "slot": "simulation",
+  "display": "delayed effects",
+  "description": "What you do now shows its effect only a few rounds later, the way a choice made this year shows up years later in real life."
+ },
+ {
+  "id": "try-a-rule",
+  "slot": "simulation",
+  "display": "try a rule",
+  "description": "Players agree a new rule for everyone, then play on to see what it changes. It is a safe way to test a rule before trying it for real."
+ },
+ {
+  "id": "debrief",
+  "slot": "simulation",
+  "display": "debrief",
+  "description": "After the game, everyone talks it through: What happened? Why? How is it like the real problem? What would happen if we changed something?"
+ },
+ {
+  "id": "irreversible-change",
+  "slot": "simulation",
+  "display": "irreversible change",
+  "description": "What you do changes the game permanently. Cards get torn up, stickers go on the board, and the next game starts where this one ended. Nothing can be undone."
+ },
+ {
+  "id": "rules-make-an-argument",
+  "slot": "simulation",
+  "display": "rules make an argument",
+  "description": "The rules themselves make a point about the world. If a game about a city rewards only building roads, the game is saying something about cities. The writer Ian Bogost calls this procedural rhetoric."
+ },
+ {
+  "id": "stakes-outside-the-game",
+  "slot": "simulation",
+  "display": "stakes outside the game",
+  "description": "What happens in the game carries into real life: real money, a real promise, a friendship tested. The line around a game is thinner than it looks."
+ },
+ {
+  "id": "points-stand-for-values",
+  "slot": "simulation",
+  "display": "points stand for values",
+  "description": "The game turns something that matters, like health or kindness, into points, and players start chasing the points instead. It shows what happens when a number replaces what it was meant to measure."
+ },
+ {
+  "id": "rehearse-a-future",
+  "slot": "simulation",
+  "display": "rehearse a future",
+  "description": "Players practise a way of living or working that does not exist yet, such as a village that shares everything, to see how it might feel before anyone tries it for real."
+ }
+]

@@ -1,0 +1,251 @@
+term: Goal | The specific outcome players work to reach. It holds their attention and gives them a sense of purpose. | ch. 1
+term: Rules | Limits on how players may reach the goal. They close off the obvious routes, so players try routes they had not explored. | ch. 1
+term: Feedback system | Whatever tells players how close they are to the goal: points, levels, a score, a progress bar, or just knowing when the game ends. | ch. 1
+term: Voluntary participation | Everyone playing knows and accepts the goal, rules and feedback, and may enter or leave freely. | ch. 1
+term: Unnecessary obstacle | A difficulty that players take on although an easier route exists, such as swinging a club at a golf ball instead of dropping it in the hole by hand. | ch. 1
+term: Finite game | A game played in order to win, after which it is over. The term comes from James P. Carse. | ch. 1
+term: Infinite game | A game played in order to keep playing for as long as possible. Tetris is the book's example. | ch. 1
+term: Flow | The state of working at the very edge of your ability. In it, both quitting and winning feel like a loss. | ch. 1
+term: Hard fun | Hard work that a person chooses and enjoys, as opposed to easy relaxing pastimes such as watching television. | ch. 1
+term: Eustress | Stress felt as a chosen challenge, with confidence that it can be met. The body reacts as it does to harmful stress, but the person feels motivated instead of afraid. | ch. 1
+term: Fiero | An Italian word for pride, used by designers for the rush after beating a hard challenge. People tend to throw their arms over their heads and shout. | ch. 1
+term: Experience sampling method | A research method that interrupts people at random times and asks what they are doing and how they feel. | ch. 1
+term: High-stakes work | Fast, action-based play with a real chance of spectacular failure, such as racing at top speed or fighting zombies. | ch. 1
+term: Busywork | Predictable, repetitive play that occupies hands and mind and gives a clear result, such as swapping jewels or harvesting virtual crops. | ch. 1
+term: Mental work | Play that exercises thinking, either in short bursts like timed sums or over long campaigns like a ten-thousand-year strategy game. | ch. 1
+term: Physical work | Play that makes the body tired, such as virtual boxing or dancing to a screen. | ch. 1
+term: Discovery work | Play that rewards investigating unfamiliar places, objects and characters. | ch. 1
+term: Teamwork | Play built on cooperation, where each player has a role in a larger effort, such as a twenty-five-player raid. | ch. 1
+term: Creative work | Play in which a player makes decisions that matter and feels pride in what was made, such as designing a house in The Sims. | ch. 1
+term: Gaming the system | Using a system's rules for personal gain in a way they were not meant to be used. The phrase shows how wary people are of games. | ch. 1
+term: Feedback loop | The cycle in which a player acts and the game answers. In video games the cycle is tight, so there is almost no gap between action and response. | ch. 1
+term: Positive psychology | The field that studies how people flourish and which activities make them content. | ch. 2
+term: Happiness engineer | The book's name for a game designer who applies research on emotion to shape how players feel. | ch. 2
+term: Gamer regret | The worry a player feels about what else could have been done with the hours spent playing. | ch. 2
+term: Fatigue system | A rule that cuts the rewards of a player who has played for several hours in a row. Some games in South Korea and China use one. | ch. 2
+term: Resting bonus | A rule that raises the rewards of a player who has spent time away from the game. World of Warcraft uses one. | ch. 2
+term: Extrinsic reward | A reward from outside the activity, such as money, goods, status or praise. | ch. 2
+term: Intrinsic reward | A reward that comes from the activity itself: pleasant feelings, personal strengths and bonds with other people. | ch. 2
+term: Autotelic | Describes an activity done for its own sake, which rewards itself. | ch. 2
+term: Hedonic adaptation | The way a person gets used to a pleasure, so that a larger amount is needed for the same feeling. | ch. 2
+term: Hedonic resilience | A steadier mood built by repeating activities that reward themselves, so that outside events matter less. | ch. 2
+term: Blissful productivity | The feeling of being deeply absorbed in work whose results are immediate and obvious. | ch. 3
+term: Massively multiplayer online game | A game on a remote server where thousands of players share one world at once. World of Warcraft is the example. | ch. 3
+term: Avatar | The character that a player controls and improves in a game world. | ch. 3
+term: Leveling up | Earning points that raise a character's level, which then opens harder work. | ch. 3
+term: Endgame | The stage at the highest level, where the hardest opponents and tasks are found. | ch. 3
+term: Quest | A task given to a player with a goal, a reason, where to go, what to do and a proof of completion. | ch. 3
+term: Raid | A mission that only a group of players can finish, which needs roles to be planned and rehearsed. | ch. 3
+term: Guild | A long-term alliance of players who take on the hardest raids together. | ch. 3
+term: Heads-up display | The on-screen panel that shows a player's points and traits changing as they play. | ch. 3
+term: Phasing | A display effect in which the server shows each player a different version of the world, depending on what that player has done. | ch. 3
+term: Casual game | A game that is easy to learn, quick to play and light on computer power, often played in short bursts on a browser or phone. Bejeweled and Peggle are examples. | ch. 3
+term: Mancala | The oldest known game, a counting game played in Egypt between about the fifteenth and eleventh centuries BC. | Introduction
+idea: Games meet needs that daily life leaves open | Many people spend long hours in games, and the book reads this as a sign that games supply rewards, teaching and company that daily life does not. Players in World of Warcraft raids and Rock Band practice are examples. | Introduction
+idea: A game can be a deliberate response to hardship | Herodotus tells of the Lydians, who played games on one day and ate on the next to survive a famine for eighteen years. The book reads this as play that gave people structure and a sense of power when they had little of either. | Introduction
+idea: A game has four defining parts | Every game has a goal, rules, a feedback system and voluntary participation. Story, graphics, scores, levels and competition are added to strengthen these four, and are not needed to make a game. | ch. 1
+idea: A game is a chosen unnecessary obstacle | Bernard Suits defined playing a game as the voluntary attempt to overcome unnecessary obstacles. In golf a player could drop the ball in the hole by hand, but agrees to stand far away and use a club. | ch. 1
+idea: Rules turn an ordinary task into a game | Scrabble is spelling words, which is typing. It becomes a game because players hold only seven tiles, cannot pick letters, have to build on words already played, and have a fixed number of each letter. | ch. 1
+idea: A game need not be winnable | Tetris cannot be won, because the pieces only fall faster until the player fails. Players still play because of the strength of its visual, number and difficulty feedback. | ch. 1
+idea: Three kinds of feedback in one game | Tetris shows rows vanishing on screen, a score that climbs, and a difficulty the player can feel rising. The book names these visual, quantitative and qualitative feedback. | ch. 1
+idea: Digital games tighten the feedback loop | In a computer game the response to an action is immediate and countable, and the game can raise difficulty only when the player is doing well. This keeps players near the edge of their skill. | ch. 1
+idea: Players may prefer playing to winning | In games with strong feedback, being absorbed can please more than winning, and winning ends the game. The book uses this to argue that gamers are not mainly people who want to win. | ch. 1
+idea: Players can learn the rules from the feedback | In Portal the player starts in a room with no instructions and works out the goal and physics by watching how the game responds. The four parts stay the same, but feedback comes first and the rules come last. | ch. 1
+idea: Players take a game seriously | Because the goal and feedback are worth caring about, players wrestle with limits for a long time. The book says a game matters to the person playing it, even though it is chosen. | ch. 1
+idea: Chosen hard work differs from imposed hard work | Work done for someone else often fails to fit our strengths, gives no view of what it adds to, and has no visible pay-off. A game offers work that suits the person and is chosen. | ch. 1
+idea: The opposite of play is depression | Brian Sutton-Smith is quoted saying this. The book describes play as an optimistic sense of one's ability together with a rush of activity, the reverse of depression. | ch. 1
+idea: Relaxing pastimes can leave people lower | Experience sampling studies find that watching television or window-shopping leaves people less motivated afterward, while playing sports, board games and video games leaves them more interested and in a higher mood. | ch. 1
+idea: A game is built from many kinds of work | A single player may meet high-stakes work, busywork, mental, physical, discovery, team and creative work. Different kinds suit different people at different times. | ch. 1
+idea: Fiero grows with difficulty | The harder the obstacle that was beaten, the bigger the rush of triumph. It involves reward circuits tied to addiction, and people everywhere show it with the same gesture. | ch. 1
+idea: Games make flow quick and reliable | Csikszentmihalyi found flow in chess, climbing and dancing, where it took years of skill. Video games gave a goal, rising challenge, voluntary play and fast feedback, so flow could start within seconds. | ch. 2
+idea: Reality can be given a game's structure | Csikszentmihalyi argued in 1975 that schools and workplaces leave people bored and anxious, and that work with chosen goals, matched obstacles and constant feedback would give more flow. | ch. 2
+idea: Sudnow and Breakout | David Sudnow played Breakout for three months. The paddle shrank and the ball sped up as bricks fell, so difficulty tracked his skill, and each brick gave a beep and a flicker. He stopped playing after one flawless game. | ch. 2
+idea: Too much flow and fiero can wear a player out | Flow uses up mental and physical resources and cannot be kept up all the time. Fiero is linked to the feeling of addiction. Designers add fatigue systems and resting bonuses to limit hours, but players find ways around limits. | ch. 2
+idea: Hours of play can cause regret | Clive Thompson found he had played thirty-six hours in one week and felt pride and emptiness together. The book says players tend to start doubting once play passes about twenty hours a week. | ch. 2
+idea: Outside rewards do not last | The book cites a University of Rochester study of 150 graduates. Those who reached money, fame and looks were not happier, while those who worked on strengths and relationships were happier for two years. | ch. 2
+idea: Four rewards that come from within | The book groups intrinsic rewards into satisfying work, the hope or experience of success, social connection, and meaning. Games supply all four without paying money or raising status. | ch. 2
+idea: Self-made rewards are renewable | Sonja Lyubomirsky is quoted saying a reward a person made themselves can be made again. Activities that reward themselves build resilience, while bought pleasures need to grow to keep working. | ch. 2
+idea: Work needs a goal and actionable steps | A clear goal with no known way to progress is a problem, and a goal with next steps is work. The book says designed work carries a guarantee of progress, and that this guarantee is what draws players. | ch. 3
+idea: A World of Warcraft quest spells out its parts | A quest scroll gives a goal, the reason it matters, where to go, step-by-step instructions and the proof to bring back. Players seldom doubt they can finish a quest, only when they will fit it in. | ch. 3
+idea: More work is the main reward | In World of Warcraft, finishing a quest brings further quests, and the book calls this a bigger reward than points or gold. Each new task is slightly harder than the last, enough to interest and not enough to cause anxiety. | ch. 3
+idea: Players ask for long levelling | Players take about five hundred hours to reach the top level. When Age of Conan was said to need two hundred fifty hours, fans called that too little effort. The process of improving is the draw. | ch. 3
+idea: Visible results make work satisfying | The heads-up display flashes +1 strength and +1 stamina, the avatar wears finer armour, and quest histories can be shown. Each way of seeing progress lets players watch their abilities grow. | ch. 3
+idea: Phasing shows a player's effect on the world | After a player helps a faction win an area, that player sees a camp there where others still see enemies. The book says seeing an effect on the world is among the things people want most from work. | ch. 3
+idea: Office work often hides its results | Matthew Crawford and Alain de Botton are cited to say that when the chain from effort to result is long and many people share it, people struggle to feel what they did. Games give a small group direct and fast results. | ch. 3
+idea: Casual games give short bursts of satisfying work | Games such as Peggle and Bejeweled take minutes to learn and play. The book reports that most senior executives surveyed play them while working, to feel less stressed. | ch. 3
+term: Fun failure | Failing in a way that the player finds exciting and interesting and that makes them want another try. | ch. 4
+term: Positive failure feedback | A response to a mistake that is vivid or funny and shows the player their own effect on the game, such as the monkey flying off the lane in Super Monkey Ball 2. | ch. 4
+term: Agency | The sense that your actions cause what happens in the game. | ch. 4
+term: Flexible optimism | Martin Seligman's term for checking your chances honestly and raising or lowering your effort to match. | ch. 4
+term: Urgent optimism | The moment of hope just before success, when a player is eager to try as hard as possible. | ch. 4
+term: Rhythm game | A game in which the player presses buttons or sings to cues in time with a song. Rock Band is the book's example. | ch. 4
+term: Asynchronous play | Play in which players take turns at different times and need not be online together. Lexulous and FarmVille work this way. | ch. 5
+term: Social network game | A game played inside an online social network against, or alongside, people the player already knows. | ch. 5
+term: Prosocial emotions | Feelings directed at other people, such as love, compassion, admiration and devotion, which build lasting bonds. | ch. 5
+term: Trash-talking | Playful insulting of an opponent during a game. The book argues it signals trust between friends. | ch. 5
+term: Pwn | Gamer slang for a victory big enough to gloat about. It began as a typing slip for own. | ch. 5
+term: Happy embarrassment | The pleasant feeling of being teased by someone you trust, or of acting silly in front of them. | ch. 5
+term: Party game | A game meant to be played face to face with others and easy to pick up on the first try, such as WarioWare: Smooth Moves. | ch. 5
+term: Microgame | A very short game of a few seconds. WarioWare: Smooth Moves has over two hundred, each asking for a quick silly movement. | ch. 5
+term: Naches | A Yiddish word for the pride felt when someone you taught or helped succeeds. Called vicarious pride in the book. | ch. 5
+idea: Players fail most of the time and keep playing | Nicole Lazzaro found that gamers fail about four times in five. Researchers at the M.I.N.D. Lab measured heart rate, skin sweat and smile muscles in Super Monkey Ball 2 players and found excitement and joy peaked after a failure. | ch. 4
+idea: A failure can show the player's own effect | In Super Monkey Ball 2 a missed shot sends the monkey spinning into space. The player laughs and sees that their action did this, so they believe the next attempt can go differently. | ch. 4
+idea: Random or passive failure removes the wish to try again | Clive Thompson is quoted saying failing only pleases if the game is fair and you had every chance. If a loss seems random, the player loses a sense of agency and with it the hope. | ch. 4
+idea: Every puzzle and level is meant to be solvable | A video game is built so that a player with enough time can pass every level. This built-in assurance is why players meet very hard content with hope. | ch. 4
+idea: Mastery ends the interest | Raph Koster argues that a game holds attention only until it is mastered, because learning is what the player enjoys. A game that is always won becomes dull, so players move on. | ch. 4
+idea: Fun failure stretches out learning | If failure is pleasant, the player stays longer in the stage where success is near but not certain. That extends the game before the obstacle stops being an obstacle. | ch. 4
+idea: Hope of success keeps players engaged more than success | Winning leaves the player with nothing to do, while a failure that can be retried still gives a mission. The book says the hope of success can be more exciting than success. | ch. 4
+idea: Players thrive on goals they can reach | Randolph Nesse suggests low mood is the body's way of stopping effort on goals that cannot be met. Games give a steady supply of goals the player knows are reachable. | ch. 4
+idea: Rock Band ties difficulty to real musical action | Higher levels ask for more complex chords and drum patterns, closer to real playing. Each band member picks a level, so a beginner and an expert can play one song together. | ch. 4
+idea: Rock Band turns failure into partial success | When a player is booed off stage, the game shows the percentage of the song completed, even if only a third. Failure becomes a measure of progress, and the crowd booing and band scowling are meant to be funny. | ch. 4
+idea: Teammates can revive a failing player | In Rock Band a player who fails can be saved by a bandmate's skilful play, up to twice. A save needs real effort from another player, so one member's failure pushes the others. | ch. 4
+idea: Instant feedback shows where the player went wrong | Rock Band marks each note hit or missed and the singer sees pitch on a staff. Players can find the exact place they stumble and change it in real time. | ch. 4
+idea: Playing together carries the hope of success | The book says people want others to see their strengths. Rock Band offers home play, bar nights and tournaments, and a 2008 study found most non-musician players were inspired to pick up a real instrument. | ch. 4
+idea: An asynchronous game gives a reason to stay in touch | In Lexulous, a Scrabble variant on Facebook, players take turns whenever they like. Each started game commits two people to a dozen or more small exchanges, and many players use it to talk to their mother. | ch. 5
+idea: Waiting for a turn builds anticipation | Because a player does not know when the other will return, there is a build-up before each move. The book quotes a player who says you have to be addicted and patient. | ch. 5
+idea: FarmVille adds a social layer to solo work | Players tend their own farm, with tasks that take twelve hours to four days, and visit friends' farms as neighbours. Pop-ups ask them to help neighbours, and a free daily gift invites a return gift. | ch. 5
+idea: Gifts and favours in a game create a habit of reciprocity | The gifts in FarmVille are not real, yet each one helps the receiver's goals in the game. Seeing that someone helped your farm makes you want to help back, and this repeats daily. | ch. 5
+idea: Playing together builds prosocial emotions as a side effect | The author describes falling in love while solving the adventure game Grim Fandango with her husband. Time spent working on puzzles together gave chances to admire, sympathise and share a goal. | ch. 5
+idea: Teasing in a game builds trust | Dacher Keltner calls a tease a social vaccine: a small hurt that shows the teaser could hurt but does not. Letting yourself be teased shows trust and gives the other person a moment of higher status. | ch. 5
+idea: Silly actions in party games lower status on purpose | WarioWare: Smooth Moves asks players to flap their arms or mime a hula hoop within five seconds. Looking silly in front of others signals trust in them. | ch. 5
+idea: Teaching a friend a game gives pride | A study of over one thousand gamers placed naches eighth among feelings they wanted from play, and 53.4 percent said training friends and family raised their enjoyment. Paul Ekman links it to group survival. | ch. 5
+term: Ambient sociability | Sharing a space with other players without talking or working with them, so that their presence still counts as company. Researchers also call it playing alone together. | ch. 5
+term: Social presence | The sensation of sharing a space with other people. | ch. 5
+term: Meaning | The feeling of being part of something bigger than yourself, so that your actions matter beyond your own life. The book separates it from value. | ch. 6
+term: Epic | Something far beyond the ordinary in size, scale and intensity, of heroic proportions. The book uses it for games' stories, spaces and projects. | ch. 6
+term: Awe | The feeling of being in the presence of something larger than yourself. Chills, goose bumps and a choked-up throat are its signs. | ch. 6
+term: Epic context for action | A shared story that connects each player's play to a bigger mission. | ch. 6
+term: Collective context | A story shared by many players, each acting inside it and talking to the others on forums and wikis. | ch. 6
+term: Service | The idea that each player's effort adds to something that benefits all other players. | ch. 6
+term: Personal service record | A public page listing everything a player has done in Halo, with charts and a play-by-play of every match. | ch. 6
+term: Epic environment | A space whose scale provokes awe. A built one is the result of design and many people's work, like a cathedral or a game world. | ch. 6
+term: Epic project | A cooperative effort by many players at large scale over months or years, such as writing a wiki. | ch. 6
+term: Collective intelligence | Knowledge gathered from many people's experience into one shared resource, such as a strategy wiki. | ch. 6
+idea: Players need company even when they do not interact | A study of over 150,000 World of Warcraft players found they spent about 70 percent of their time on solo missions. They said seeing others doing their own tasks in the same world made them feel not alone. | ch. 5
+idea: Light contact may make social play easier for shy players | Nicole Lazzaro suggests that mental tasks plus easy contact in an online world could teach introverts to find company rewarding. The book says no study has tested this yet. | ch. 5
+idea: Players choose between friends and strangers | Game designer Daniel Cookman says the choice depends on whether the player is lonely. A study found players under eighteen spend 61 percent of their game time with people they know. | ch. 5
+idea: Single-player games can be played as a group | One person plays and others watch, advise and encourage. In Braid, a hard puzzle game, players revisit puzzles they have solved to guide friends through them. | ch. 5
+idea: Games can rebuild community habits | Robert Putnam wrote that people bowl alone. The book argues gamers are building new habits of staying in touch, through asynchronous turns, teasing, mentoring and shared worlds. | ch. 5
+idea: A kill count has no value but can have meaning | In April 2009, Halo 3 players reached ten billion kills against a fictional enemy. The book separates value, meaning importance and consequence, from meaning, the sense that your action matters to a larger group. | ch. 6
+idea: Meaning needs only a chance to contribute | The book says players need a way to join others who care about the same large goal and a chance to see its scale. The goal can be arbitrary. | ch. 6
+idea: Story gives a frame for actions | Game developer Trent Polack says story sets the stage for meaning and frames what the player does. In a shooter, the story changes the pleasure from destroying things to acting where it matters. | ch. 6
+idea: A shared story and effort for all make a cause | Two conditions turn a game into a cause: a story that many players share, and actions that each benefit all other players. Halo adds forums, wikis and video sharing to build this. | ch. 6
+idea: A service record joins one player to a larger history | Halo keeps a public record of every match a player has played, with heat maps and charts. Millions of these records together make a history of the 'Great War'. | ch. 6
+idea: A fictional museum can make fiction felt | The Halo Museum of Humanity was made by a marketing group as an online museum from the twenty-seventh century, with documentary-style videos. Players reported chills, though the war it honours never happened. | ch. 6
+idea: A built environment shows what people can do together | The book compares Halo's thirty-four settings, made by over 250 people in three years with 54,000 pieces of audio, to a cathedral. Players feel awe at the work behind the space. | ch. 6
+idea: Epic spaces are very old | Gobekli Tepe in Turkey, more than eleven thousand years old, has stone circles with pillars three metres high and winding passages. Some archaeologists think building it came before farming and pushed people to cooperate. | ch. 6
+idea: Sound is part of an epic space | Halo's score mixes Gregorian chant, strings, percussion and Qawwali singing, chosen to give a feeling of weight and age. Players describe goose bumps when they hear it. | ch. 6
+idea: Players build knowledge as a shared project | Halo players wrote over 21 million forum posts, and its largest wiki has nearly six thousand articles by 1.5 million users. Halowiki has over a thousand sections of tips and strategy written by players. | ch. 6
+idea: A game can use the real world as its context | In NCAA Football 10, players pick a real college team and every online point adds to its score. Weekly online matches mirror the real schedule, and a team can win online after losing in reality. | ch. 6
+term: Alternate reality game | A game played inside everyday life, not in a virtual world, in order to take more from that life. The book calls it the antiescapist game. | ch. 7
+term: Meaningful choice | Letting each player pick their own task from a pool, so that nobody is assigned a job and every task is taken voluntarily. | ch. 7
+term: Optimal experience design | Giving a game compelling goals, interesting obstacles and well-built feedback so that players join in fully. | ch. 7
+term: Wholehearted participation | Taking part because you are self-motivated, interested and enthusiastic, and not because you were forced or are waiting it out. | ch. 7
+term: Adventure (Chore Wars) | A chore written up as a fantasy task with a set reward in experience points and gold. Players write their own adventures. | ch. 7
+term: Experience points | Points a player earns for completing tasks, which add up to raise the level of their character. | ch. 7
+term: Boss level | A hard unit that makes a player use everything learned so far, as a boss monster does in a video game. At Quest to Learn it is a two-week team project. | ch. 7
+term: Secret mission | An optional task hidden somewhere that a student has to find before they can attempt it. | ch. 7
+term: Expertise exchange | A shared profile page where students list what they do most skilfully, so teammates can find the right person. | ch. 7
+term: Teachable agent | A software character that knows less than the student, who teaches it a skill. It replaces a quiz. | ch. 7
+term: Secret ally | A guest who visits a school or game and later coaches players in a boss level. | ch. 7
+term: Power-up | In 'SuperBetter', the author's recovery game, a small action you can do at any moment to feel less unwell, listed in advance. | ch. 7
+term: Bad guy | In 'SuperBetter', the author's recovery game, anything that makes your symptoms flare, written on a list so you can avoid it. | ch. 7
+term: Great escape | In 'SuperBetter', the author's recovery game, noticing a trigger and stepping away before it does damage, counted as a win. | ch. 7
+idea: Choosing a chore makes it voluntary | In Chore Wars nobody is assigned a task. Every player picks from a pool of adventures, so each is a volunteer, and players also think about strategy, such as fast easy chores against slow big ones. | ch. 7
+idea: Extra restrictions make an ordinary task a game | Chore Wars players add limits to a chore, such as a time limit for double points, a stealth rule, or doing it while singing or walking backward. | ch. 7
+idea: A player can set the reward to suit the task | In Chore Wars the household writes the adventures and sets their points, so a disliked chore such as cleaning the bathroom can be worth one hundred points. | ch. 7
+idea: An avatar keeps a record that housework does not | A clean kitchen gets dirty again, but points earned stay. The book says watching an avatar level up makes the work feel like personal growth. | ch. 7
+idea: A game can be dropped after it has done its work | The book expects Chore Wars to become dull as players improve. Even then, the shared memory of doing chores together may change how the household views chores. | ch. 7
+idea: A real-life game needs to be optional | The book says an alternate reality game has to stay a true alternate. Making Chore Wars compulsory would remove much of its effect. | ch. 7
+idea: A game can be a way to see what you want | The book says games show people what they want: satisfying work, hope of success, social contact and meaning. It cites Maslow, who wrote that knowing what we want is rare and hard. | ch. 6
+idea: Helping inside a game may lead to helping outside it | Three studies of over three thousand young players found that more time in games where players help each other went with more helping of friends, family and strangers. | ch. 6
+idea: Born-digital students expect feedback and challenge | Marc Prensky is quoted saying students demand to be engaged or they get enraged. The book says school gives obstacles that are required, standard, and recorded permanently if failed. | ch. 7
+idea: A school can be a game from start to finish | Educational games help a little, but Quest to Learn builds each course and assessment from game mechanics. Students level up by taking more quests, with no permanent mark for failing one. | ch. 7
+idea: Levelling replaces one chance at a grade | A student who fails a quest tries another to gain points. The book says this swaps negative stress for positive stress and puts attention on learning, not performing. | ch. 7
+idea: Students are matched by strengths | The expertise exchange lets Rai list mapmaking, a skill she had not counted, and a team needing a digital mapper can find her. This gives respect based on contributions made. | ch. 7
+idea: Teaching a character can replace a quiz | A student teaches the software character Betty how to divide mixed numbers. The student shows what they know by explaining it and does not feel tested. The book links this to naches. | ch. 7
+idea: A game can be built to treat a health problem | The author made 'SuperBetter' after a concussion. It turns three recovery strategies into a superhero game with allies, power-ups and lists of triggers. The strategies are optimism, support and reading symptoms like a gauge. | ch. 7
+idea: Asking for help can be given a role | In 'SuperBetter' each ally has a part in a story, such as a mentor who calls daily or a friend who keeps scores. This gives helpers a clear job and makes asking easier. | ch. 7
+idea: Achievements feel larger when someone else grants them | In 'SuperBetter' a friend or relative awards achievements for real acts, such as ignoring email for a day. The book says an achievement given by another person means more. | ch. 7
+idea: A goal list keeps hope when one outcome is uncertain | 'SuperBetter' has a list of superhero to-dos from easy to ambitious. The book says it lowers the fear of failing at full recovery, because there are other goals to pursue. | ch. 7
+term: Life-management ARG | An alternate reality game that is software or a service for managing real life like a game, such as Chore Wars. | ch. 7
+term: Organizational ARG | An alternate reality game that uses game design as the guiding idea for a new institution, such as Quest to Learn. | ch. 7
+term: Concept ARG | An alternate reality game spread as an idea and rule set that players adapt for their own lives. The author's 'SuperBetter' is one. | ch. 7
+term: Live event ARG | An alternate reality game that gathers players at physical places for a game of an hour or a day. | ch. 7
+term: Narrative ARG | An alternate reality game that uses video, text, photographs and audio to weave real missions into a story lasting weeks, months or years. | ch. 7
+term: New Games movement | A movement from the early 1970s that invented cooperative and inclusive sports, such as earth ball and parachute games. | ch. 7
+term: Plus-one | A small message that credits a named strength to a person, with a reason, and adds up over time. Plusoneme is the site. | ch. 8
+term: Location-based game | A game that uses a phone's GPS and can be played only in a certain place. | ch. 8
+term: Quantitative benchmark | A specific number a person aims for, used to focus effort. | ch. 8
+term: Power song | In Nike+, a preset song the runner can call up with one button press, like a power-up. | ch. 8
+term: Mini | In Nike+, a small avatar that looks like the runner and reacts to how often and how far they run. | ch. 8
+idea: Rules can be shared without software | The author posted the rules of 'SuperBetter' on a blog and added a hashtag so players could find each other. She notes a game can be a set of rules one person passes to another, like chess or hide-and-seek. | ch. 7
+idea: New Games asked everyone to play | The New Games movement held that nobody has to sit out for lack of skill, and that competition is about playing harder and longer, not about winning. Earth ball needs several people to move a six-foot ball. | ch. 7
+idea: Players act as the judges of a new game | Bernie DeKoven wrote that players of a new game are its officials. If a game does not work they try to fix it, and each takes responsibility for finding what they can enjoy together. | ch. 7
+idea: Three questions for judging a real-life game | The book lists when and where a game is needed, who is invited, and what core activities its mechanics are to multiply. | ch. 7
+idea: Points for real strengths | Plusoneme lets anyone send a plus-one with a reason, such as plus-one backbone for sticking up for an idea, in thirty-seven strengths. The sender need not be a member and the receiver's plus-ones stack. | ch. 8
+idea: A feedback system can exist without being a game | The author says Plusoneme has no goals or limits, so it is a gesture toward a game. It asks what constant positive feedback would do to motivation. | ch. 8
+idea: A voluntary game inside a forced activity changes its mood | In airport security lines a person cannot opt out, but can opt in to Jetset. The book says this moves attention from outside pressure to the stress of a game the person chose. | ch. 8
+idea: Jetset makes the place part of the game | Players score souvenirs only at real airports, found by GPS, and levels match the airport they are in. The game's security agent role has banned items and a line that grows. | ch. 8
+idea: Rewards from inside do not run out | Ian Bogost says airlines make miles harder to earn once many people earn them, while pride and social connection can be given to everyone without limit. | ch. 8
+idea: Day in the Cloud links two planes and the ground | Passengers on two flights in opposite directions solve puzzles tied to altitude, and the planes with the higher score win. The puzzles are too many for one person, so planemates and friends on the ground help. | ch. 8
+idea: A game that is optional leaves others alone | About half the fliers on the Day in the Cloud tests played and half did not. The book says people who sleep or read well can ignore it. | ch. 8
+idea: Rewards from outside can weaken an activity people already enjoy | Economists found that paying for something people enjoy lowers their motivation. The book says game points carry little outside value, but could still distract from the first reason for the activity. | ch. 8
+idea: Measuring effort helps people improve it | Lord Kelvin is quoted saying what cannot be measured cannot be improved. Real-time data and numeric targets let players see progress and try harder. | ch. 8
+idea: Nike+ turns running into a levelled game | A sensor in a shoe sends speed and distance to a music player. Each mile earns a point, six levels follow martial-arts belt colours, and trophies mark fastest times. | ch. 8
+idea: Live pace makes it easier to run fast | Seeing the pace in real time lets a runner notice slowing down, and the numbers falling as they speed up give reward at once. The author ran over two minutes faster on her first run. | ch. 8
+idea: Players write their own challenges | In Nike+ anyone can create a competitive or collaborative challenge, from a two-person rivalry to a team race. One public challenge asks runners to cover 24,902 miles, around the earth, by 2027. | ch. 8
+idea: An avatar that looks like you changes behaviour | At Stanford, people who saw a look-alike avatar gain or lose weight as they exercised did about eight times more repetitions. A random avatar had no such effect. | ch. 8
+idea: Players care for creatures that depend on them | Judith Donath argues that characters who seem to need us trigger a wish to nurture. The Nike+ Mini pouts after a slack week, and the author runs more to make it happy. | ch. 8
+term: Check-in | In Foursquare, telling the app where you are so friends are alerted and your visits are logged. | ch. 8
+term: Mayor | In Foursquare, the title held by whoever has checked in most often at a place, which another player can take away. | ch. 8
+term: Communitas | An anthropologist's word for an intense feeling of togetherness and solidarity among a group. | ch. 9
+term: Swarm intelligence | The skill of improvising with strangers toward a shared goal, which makes people more likely to band together. | ch. 9
+term: Positive participation | Active, willing contribution from everyone in a group, which the book says a community needs. | ch. 9
+term: Critical mass | Enough players in one place and time for a game to work. Games like the Comfort of Strangers announce a time and area for this reason. | ch. 9
+term: Griefer | A player who tries to spoil a game for others. | ch. 9
+term: Happiness activity | A short habit shown by studies to raise well-being, such as acts of kindness or daily thanks. | ch. 10
+term: Self-help paradox | The point that happiness is mostly social, yet self-help is private. | ch. 10
+term: Crowd game | A game meant for very large face-to-face groups. | ch. 10
+term: Happiness hacking | The author's term for designing light, free, shared games that get many people to try a happiness activity. | ch. 10
+term: Life hacking | Looking for simple tips and tricks to improve everyday productivity, such as working ten minutes then resting two. | ch. 10
+idea: Tracking data lets any activity be turned into a game | Foursquare, running with Nike+ and a wished-for writing counter all rely on sensors or self-reports. Once progress is recorded, goals, challenges and achievements can be added to any activity. | ch. 8
+idea: A game can reward trying new things | Foursquare gives trophies for checking in at ten, twenty-five, fifty and a hundred different places in a city. Staying at one favourite place earns a title, but new places earn trophies. | ch. 8
+idea: The mayor rule makes a rival from a stranger | Whoever checks in most at a place is its mayor, and a rival can take the title. Some cafes give the mayor free drinks, which also brings the players back to the cafe. | ch. 8
+idea: Stats can make people record what they do | Because players want accurate scores, they remember to check in, and that makes it easier for friends to find them. The book says the game points attention to real rewards. | ch. 8
+idea: Players who are strangers look for each other | In the Comfort of Strangers, players on phones with Bluetooth hear a whisper when another player passes. Players on one team gain a life and players on the other lose one, and nobody knows who is on which team at first. | ch. 9
+idea: Not knowing who plays makes finding a player a comfort | The designers made players feel lost on purpose. Meeting another player is reassuring even if they are on the opposite team, since they understand that you are in the same game. | ch. 9
+idea: Games can be set in a place and a time window | Because few people play yet, players organise games online for one neighbourhood and hour. Festivals such as Igfest, Come Out and Play, and Urban Play gather enough people. | ch. 9
+idea: A community comes from shared interest plus a way to interact | The book says two steps turn strangers into a community: build a shared interest, then give them a chance and means to interact about it. A multiplayer game does both. | ch. 9
+idea: A short community still counts | Communitas can last for days, hours or minutes, and the book says even a short burst can bring an isolated person back into social life or change how they see a place. | ch. 9
+idea: A museum game turned members into contributors | In Ghosts of a Chance, fictional curators asked players to make artworks for two ghosts' stories. More than six thousand people took part online and two hundred fifty attended the exhibit. | ch. 9
+idea: A game lowers the risk of making art | Because it was a game and not an art contest, people who would not offer artwork felt free to try. Others took part by discussing and analysing the works. | ch. 9
+idea: Treating game objects as real brings players inside an institution | The player-made artworks were entered in the museum's collection database and handled with white gloves like other objects. The book says this removed the wall between curators and visitors. | ch. 9
+idea: A shared score makes two strangers allies | In Bounce a young caller and an older person find life experiences they share, such as swimming in the Pacific, within ten minutes. Both aim at the same score, which creates a connection. | ch. 9
+idea: A role name can make a participant comfortable | The older players were called senior experience agents. The book says this set a playful tone and gave them confidence to take part. | ch. 9
+idea: The game's result can be a made thing | At the end of Bounce the shared answers were turned into a short poem that players could print or email. The book says players left feeling they had made something together. | ch. 9
+idea: A game for strangers may be given only to trusted people | The Bounce team shared the phone number with trusted friends and festival visitors, to avoid griefers. A live matchmaker paired callers with seniors. | ch. 9
+idea: Happiness advice sounds hokey and is resisted | Sonja Lyubomirsky found that people resist tested happiness activities as corny. The book says such activities need a package that does not feel like cheerful advice. | ch. 10
+idea: Happiness is social, so private self-help falls short | Eric Weiner is quoted saying self-help turns people inward when they need to look to other people. The book says happiness activities need to be done with friends, strangers and coworkers. | ch. 10
+idea: Knowing what helps is not the same as doing it | Tal Ben-Shahar is quoted saying people drop theories once they see how hard practice is. The book says reading about happiness leads most readers to do nothing. | ch. 10
+idea: Three crowd games turn advice into public play | Cruel 2 B Kind, Tombstone Hold 'Em and Top Secret Dance-Off turn acts of kindness, thinking of death and group dancing into games for large groups. | ch. 10
+idea: A hack is light and free | In the book a hack is cheap to adopt and needs no special equipment or skill, and hackers freely share it. The ten-two rule is the example: work ten minutes, rest two. | ch. 10
+term: Transitory public sociality | Brief, anonymous, friendly contact between strangers in public places, such as a smile, holding a door or picking up a dropped item. | ch. 10
+term: Jen ratio | Dacher Keltner's measure of a shared place: positive contacts between strangers divided by negative ones over a fixed time, such as an hour. | ch. 10
+term: Microinteraction | A small contact between strangers, such as a smile, a thank-you, an eye roll or a bump, counted in the jen ratio. | ch. 10
+term: Secret weapon | In Cruel 2 B Kind, a kind gesture assigned to a player, such as a compliment or a wink, used to knock out other players. | ch. 10
+term: Misfire | In Cruel 2 B Kind, a kind gesture aimed at someone who is not playing. The designers count it as a gain. | ch. 10
+term: Tombstone Hold 'Em | A poker variant played in cemeteries, in which tombstone shapes give the suit and names and dates give the face value. | ch. 10
+idea: Happiness hacking turns research into mechanics | The book defines it as translating positive-psychology findings into game mechanics. Mechanics let designers raise the difficulty and add novelty so an activity stays challenging, and put it in a social setting. | ch. 10
+idea: A place can be scored for friendliness | The jen ratio is found by watching a space for an hour and tallying kind and unkind contacts. Keltner reports that the ratio in the United States is trending toward zero. | ch. 10
+idea: One person alone cannot change a public place | The book says raising a space's friendliness would need a crowd, and no custom exists for strangers to be kind together. A game supplies a reason and a method. | ch. 10
+idea: Cruel 2 B Kind borrows from Assassins | In Assassins, players get named targets and hunt them with water guns. In Cruel 2 B Kind there are no named targets, the game is short and local, and a hit with a gesture recruits the other player. | ch. 10
+idea: Rock-paper-scissors settles simultaneous attacks | Each secret weapon beats one and loses to another, such as a hearty welcome over a thank-you. If both players use the same weapon, both run and wait thirty seconds. | ch. 10
+idea: Hidden players make everyone a possible target | No names or photos are given, so any stranger might be a player. The only way to find out is to use a gesture on them, which turns ignoring people into noticing them. | ch. 10
+idea: Making the game short and small raises its effect | The designers cut the length to an hour or two and the area to a few blocks so that the game would change the local mood. Teams grow as hit players join their hitters. | ch. 10
+idea: Bystanders are included on purpose | Each friendly contact with a non-player raises the jen ratio even if it scores nothing. The designer estimates players attack about five non-players for every player. | ch. 10
+idea: Playtesting sorted the weapons | Gestures that did not draw positive reactions were dropped from the list. The designer filmed games and counted visible smiles and curiosity against blank or negative looks. | ch. 10
+idea: Courage and uncertainty make kindness exciting | Paying a compliment takes nerve, and time is short because another player may target you. Players cheer after a hit, and the cheer grows with the misfires on the way. | ch. 10
+idea: A game can be released as a free hack | Cruel 2 B Kind has no software or fee. It has a six-minute video and a one-page cheat sheet, and organisers do not need permission. It has been played in more than fifty cities. | ch. 10
+idea: A game can be taken up by an unlikely group | Organisers at a gothic festival in Utrecht ran it to get goths and non-goths to play together. The book reads this as proof that a plain activity meant to benefit people can become mischievous play. | ch. 10
+idea: Cemetery poker links play to remembering death | Tombstone Hold 'Em asks players to read tombstones as playing cards. The designer says players report thinking about death and lost loved ones more positively afterward. | ch. 10

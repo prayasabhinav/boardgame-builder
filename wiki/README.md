@@ -2,7 +2,7 @@
 
 A public wiki of boardgameBuilder's whole knowledge base, one page per entry, where people who sign in record the checks they make under their own names and propose changes and new entries.
 
-The tool can only be as right as its entries, and 3,955 entries are too many for one person to check. The wiki is where the checking is shared.
+The tool can only be as right as its entries, and 18,315 entries are too many for one person to check. The wiki is where the checking is shared.
 
 ## What is on it
 
@@ -10,14 +10,15 @@ Every entry the tool's feedback is made from, read straight from the tool's own 
 
 | Kind | From | How many |
 |---|---|---|
-| Blocks, with their drawings | `block_meta.py` | 86 |
+| Blocks, with their drawings (65 of them tentative, from the rule books) | `block_meta.py` and `book-blocks.json` | 151 |
 | Feelings | `interactions.json` | 15 |
-| Pairs | `interactions.json` (curated) and `interactions-drafted.json` (drafted) | 2,532 |
+| Pairs, curated, from books (with their pages) and drafted: one per pair, the entry the tool uses, with a pair's other book entries shown on its page | `interactions.json`, `interactions-books.json` and `interactions-drafted.json` | 9,336 |
 | Triads | `interactions.json` | 15 |
-| Conflicts | `interactions.json` | 5 |
+| Conflicts | `interactions.json` and `interactions-books.json` | 6 |
 | Theme lines | `interactions-drafted.json` | 12 |
-| Feeling and block judgements | both | 1,290 |
+| Feeling and block judgements | both | 2,265 |
 | Known games, with their rules, credits, blocks and what each shows a designer | `games.json` | 47 |
+| Glossary terms and key ideas from 25 books, each with its page (the tool's Ideas tab) | `ideas.json` | 3,102 and 3,366 |
 
 Pairs and triads also show the BoardGameGeek check of their example games (`drafted/bgg-verdicts.json`) and the games removed after it. The two working notes, `mechanics-shortlist.md` and `feeling-blocks.md`, are on it too.
 
@@ -44,14 +45,14 @@ Anyone signed in can apply from **Join the editors** in the top bar, saying why 
 
 ## Carrying approved proposals into the tool
 
-The repository's GitHub Action (`.github/workflows/wiki-sync.yml`) does this every half hour: it runs `pull.py` against the wiki, rebuilds the drafted entries, runs `check.py`, and only when the check passes commits the change and redeploys the tool and the wiki. It reads the wiki's address from the repository variable `WIKI_URL` and does nothing in a fork that has not set one. To do the same by hand, from the tool's folder:
+The repository's GitHub Action (`.github/workflows/wiki-sync.yml`) does this every half hour: it runs `pull.py` against the wiki, rebuilds the drafted entries, the book entries and the Ideas, runs `check.py`, and only when the check passes commits the change and redeploys the tool and the wiki. It reads the wiki's address from the repository variable `WIKI_URL` and does nothing in a fork that has not set one. To do the same by hand, from the tool's folder:
 
 ```bash
 python wiki/pull.py https://address-of-your-wiki
-python drafted/build.py && python check.py
+python drafted/build.py && python kb-books/build.py && python ideas/build.py && python check.py
 ```
 
-`pull.py` reads the wiki's export and applies every approved proposal it has not applied before: changes to pairs, triads, conflicts, theme lines, feeling and block descriptions and feeling-and-block judgements, and new triads and conflicts. An approved new game is added to `games.json` without an animation or questions, so the tool offers it to play and to download; a change to a game already there is listed for doing by hand, since its animation may need redrawing. It writes `interactions.json` in its existing layout, so a change shows as a small diff, and keeps the ids it has applied in `wiki-applied.json`. A drafted pair stays drafted when it is changed. A new block or feeling needs a drawing, a display name and pair entries, so the script lists it for doing by hand. Read the diff, then redeploy the tool and the wiki.
+`pull.py` reads the wiki's export and applies every approved proposal it has not applied before: changes to pairs, triads, conflicts, theme lines, feeling and block descriptions and feeling-and-block judgements, and new triads and conflicts. When the change is to a book entry, a glossary term or key idea, or a tentative block, it is written back into its own file in `kb-books/`, `ideas/` or `book-blocks.json`, and the page reference is kept. An approved new game is added to `games.json` without an animation or questions, so the tool offers it to play and to download; a change to a game already there is listed for doing by hand, since its animation may need redrawing. It writes `interactions.json` in its existing layout, so a change shows as a small diff, and keeps the ids it has applied in `wiki-applied.json`. A drafted pair stays drafted when it is changed. A new block or feeling needs a drawing, a display name and pair entries, so the script lists it for doing by hand. Read the diff, then redeploy the tool and the wiki.
 
 ## Every record, for anyone
 

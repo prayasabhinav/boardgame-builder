@@ -178,6 +178,15 @@ DIMENSIONS = [
 ]
 
 
+# Blocks proposed from the rule books on 6 November 2026 and added the same day, marked tentative (Prayas: "proposed
+# blocks are fine - key them tentatively"). They come after each group's own blocks; book-blocks.json holds their
+# ? text, drawing and the books and pages behind them.
+import json as _json
+from pathlib import Path as _Path
+
+for _b in _json.loads((_Path(__file__).parent / "book-blocks.json").read_text(encoding="utf-8")):
+    next(d for d in DIMENSIONS if d["id"] == _b["slot"])["blocks"].append({"id": _b["id"], "display": _b["display"], "tentative": True})
+
 # What the board game syntax does not describe, said in words so that an exclusion is never only an
 # absence from a list. SYNTAX shows it on the board game syntax's page.
 LEFT_OUT = ("The artwork, the box, the price, the wording of the rules, and how many play: a board game described "

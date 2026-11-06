@@ -10,6 +10,7 @@ sys.path.insert(0, ".")
 import palette
 
 STATUS = "drafted-20261016-unreviewed"
+STATUS_NEW = "drafted-20261106-unreviewed"  # 30-tentative-*.txt: pairs for the blocks added from the rule books
 BANNED = re.compile(r"\b(should|must|good|bad|better|worse|best|worst|great|well done|amazing|perfect|excellent|awesome)\b", re.I)
 
 dim = {b["id"]: d["id"] for d in palette.DIMENSIONS for b in d["blocks"]}
@@ -36,7 +37,7 @@ for f in sorted(pathlib.Path("drafted").glob("[0-9]*.txt")):
         for word in {m.lower() for c in cells[1:] for m in BANNED.findall(c)}:
             problems.append(f"{where}: banned word '{word}'")
         pairs.append({"elements": cells[0].split("+"), "tendency": cells[1], "pros": cells[2:4], "cons": cells[4:6],
-                      "exemplars": [], "verification_status": STATUS})
+                      "exemplars": [], "verification_status": STATUS_NEW if f.name.startswith("30-") else STATUS})
 
 themes = []
 tf = pathlib.Path("drafted/themes.txt")
@@ -93,7 +94,8 @@ for p in problems:
     print("PROBLEM", p)
 if problems:
     sys.exit(1)
-json.dump({"description": "Pair entries, theme lines and feeling links drafted on 16 October 2026 so every combination of blocks gets feedback. "
+json.dump({"description": "Pair entries, theme lines and feeling links drafted on 16 October 2026 so every combination of blocks gets feedback, "
+                          "and on 6 November 2026 for the blocks added from the rule books. "
                           "Not reviewed; no example games, since none were checked. The curated entries in interactions.json come first.",
            "pairs": pairs, "themes": themes, "feeling_links": feeling_links}, open("interactions-drafted.json", "w"), indent=2, ensure_ascii=False)
 print("wrote interactions-drafted.json")

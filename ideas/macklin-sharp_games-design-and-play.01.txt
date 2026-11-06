@@ -1,0 +1,402 @@
+term: Game design | The work of planning how a game runs: its core actions, themes and, above all, the play it gives the people who take part. | p. xiv
+term: Game development | The whole job of making a game: design, programming, art, writing, sound, testing, selling and more. Design is one part of it. | p. xiv
+term: Game production | Building the game that a finished design describes. The authors compare design to an architect's plans and production to the building crew. | p. xv
+term: Play | The thinking and doing that happen when people take part in a game, including how they deal with each other through its rules. | p. xvi
+term: Systems dynamics | A way of looking at a game as a set of linked parts, watching what the parts do to one another, not just listing them. | p. 5
+term: Action | Something a player gets to do in a game, such as kicking a ball or running on a field. | p. 7
+term: Rule | An instruction that says what players can and cannot do. Rules allow some actions and block others. | p. 8
+term: Goal | What the players try to reach while playing. It can be a score to beat or just an experience to have. | p. 8
+term: Object | A thing players handle during play, such as a ball, a net, money or a character's health. | p. 8
+term: Playspace | The area in which a game takes place and where its objects sit, such as a field, a board or a sheet of graph paper. | p. 9
+term: Players | The people who set the game going by using actions and objects in the playspace under the rules. The authors count them as one of the six elements of a game. | p. 9
+term: Iterative game design process | A cycle of imagining an idea, building a rough version, testing it with players and judging the results, repeated several times. | p. 10
+term: Second-order design | Design where the maker shapes the game and the players then decide how, when and why to play it, so the play is shaped only indirectly. | p. 10
+term: Space of possibility | All the different play experiences a game can give, set by how its actions, rules, goals, objects and playspace fit together. | p. 11
+term: Game state | A snapshot of one moment in a game: where players and objects are, the score, and how far the players have got towards the goal. | p. 12
+term: Constraint | A limit placed on what players can do with objects, other players or the playspace, put there to shape the play. | p. 16
+term: Lusory attitude | Bernard Suits' name for players' willingness to accept a harder or less direct way of doing something for the sake of the play it brings. | p. 16
+term: Direct action | An action where the player touches an object or the playspace straight away, such as hitting a pinball with a flipper. | p. 19
+term: Indirect action | An effect that happens without the player touching the thing itself, such as the ball setting off a bumper after the flipper hits it. | p. 19
+term: Challenge | The way a game pushes back against the player. It can come from a hard skill, a hard goal or hard ideas in the content. | p. 25
+term: Flow state | Csikszentmihalyi's name for deep focus and enjoyment, reached when the challenge matches the skill of the person. | p. 25
+term: Absorption | Being drawn deeply into play and giving oneself over to it, without needing a match between challenge and skill. The folk game ninja is an example. | p. 26
+term: Skill | How well a player has mastered an action in a game. | p. 28
+term: Strategy | A player's ability to work out the ways of acting that lead to the goal. | p. 28
+term: Chance | The use of randomness in a game. The more chance, the harder it is to plan ahead. | p. 28
+term: Uncertainty | Not knowing what will happen next. It can exist with no chance at all, as when you cannot tell where an opponent will throw. | p. 28
+term: Decision-making | The player's choosing of the next action from what the game state shows. | p. 31
+term: Feedback | The information a game gives back about an action and its effect on the game state, such as a character moving when a stick is pushed. | p. 33
+term: Action-outcome unit | A pairing of one action and the result it brings, which then leads to the next action. Play is a long chain of these. | p. 31
+term: Turn-based game | A game where players act one after another, which leaves time to think about the game state. | p. 32
+term: Real-time game | A game where everything moves at once and the state keeps changing, so players have little time to read it. | p. 32
+term: Abstraction | Reducing a complex thing to a simpler game form. The book names three uses: no representation at all, simplifying an everyday activity, and simplifying a real-world system. | p. 35
+term: Abstract strategy game | A game whose pieces and board stand for nothing in particular, such as Go. | p. 37
+term: Theme | The framework a game uses to represent itself, which helps players grasp how its world works. | p. 37
+term: Storytelling | Using story ways of shaping experience inside a game, such as text, scenes or the order in which things are found. | p. 40
+term: Storyworld | An invented world in which players act as characters, and whose events unfold from what those characters do. | p. 40
+term: Context of play | When, where and with whom a game is played, and on what device or in what setting. | p. 43
+idea: A game is a machine that makes play | A game does little until people use it, like a pocket knife or a car engine. Hopscotch is only lines on the ground and a stone until rules and players arrive. The designer builds the machine and the play comes out of using it. | p. 4
+idea: Six elements make up every game | Actions, goals, rules, objects, playspace and players are present in any game. Soccer shows all six: kicking and running, scoring, the ban on hands, the ball and nets, the field, and the teams. Games differ in how they combine them. | p. 7
+idea: Rules both allow and limit | Rules say what players cannot do as much as what they can. In soccer the ban on hands is what makes the bicycle kick or well-timed tackle possible at all. The limits give players something to work around. | p. 8
+idea: A goal is what turns a toy into a game | A soccer ball alone is a toy that can be thrown or drawn on. Inside a game with a goal, the ball takes on special meaning. Without a goal, players tend to invent one. | p. 8
+idea: A goal can drive play or only start it | In soccer, scoring sits behind every action. In Exquisite Corpse, a folded paper drawn on in turn, there is no score, and the goal of making a drawing together only sets the play going. | p. 9
+idea: Changing one action changes the whole experience | Dear Esther keeps the first-person walking and looking of a shooting game but removes shooting. That one removal turns it into a game of exploring a story world. | p. 10
+idea: The designer shapes play only at a distance | The designer fixes the elements, but players choose when, why and how to play. Surprising results appear when players act inside the system, which is why testing and revising are needed. | p. 10
+idea: Games can have narrow or wide spaces of possibility | Queers in Love at the End of the World gives ten seconds and a few choices, so its space is narrow and focused. Minecraft lets players build ships, rollercoasters and cities, so its space is wide. The more focused the experience, the smaller the space. | p. 11
+idea: The space of possibility can grow during a game's life | Until 1980 nobody tried jumping under the basketball backboard from one side of the basket to the other. When Dr. J did it, a new set of moves was added to the game. | p. 12
+idea: Constraint makes a goal worth pursuing | In soccer, banning hands makes putting the ball in the net a puzzle, where carrying it would be easy. Flywrench combines flapping with colour-matching, and Octodad uses a floppy octopus body, so each game gets its feel from what it blocks. | p. 19
+idea: Direct and indirect actions trade control for discovery | Hitting a pinball is direct, but what the ball then does to ramps and bumpers is indirect. More direct actions give finer control. More indirect actions give less control and more finding out how the world behaves, as in Proteus. | p. 21
+idea: Goals range from firm to loose | Soccer has a countable goal. Slam City Oracles has a score so silly it works as a joke. Dog Eat Dog counts tokens, but only to decide how the story ends. Sunset stacks three goals: a task, a day's list and the game. | p. 22
+idea: Flow is one experience among several | Flow arises when challenge fits skill, and designers use it to set difficulty. The authors say games can also aim at other things, such as a hard story or the absorption of ninja, depending on what the designer wants to explore. | p. 25
+idea: Challenge comes in three kinds | A game can test skill, test whether the player reaches the goal, or test the player's ideas through its content. In the game about a woman's balanced life, the posing task is hard and so is the content, since early life choices make later poses harder. | p. 27
+idea: Chance and strategy pull against each other | More chance leaves less room for strategy. Darts has skill and no chance. Roulette has almost no skill and nearly all chance. Poker mixes them, since players see only 7 of the 52 cards by the end. | p. 28
+idea: Uncertainty can exist without chance | Basketball has no dice, yet players cannot know how the ball will leave the rim or where teammates will be. Players cope by reading the changing game state quickly. | p. 30
+idea: Play is a loop of decisions and feedback | The player acts, the game shows what happened, and the player decides again. In Nidhogg, moving, stabbing, a screen change towards the goal, and the serpent at the end are all feedback. Even Howling Dogs, a text game with no score, works this way. | p. 34
+idea: The timing structure sets the kind of thinking | Chess gives each player time to read the board and think. Speed Chess has sixteen players moving at once, so nobody can follow the whole state and play turns instinctive. | p. 33
+idea: Abstraction has three uses | It can remove representation altogether, as in Go. It can simplify an everyday activity, as Pong does to tennis. It can model a real system as a game, as Pandemic does with the spread of disease through cubes on cities. | p. 37
+idea: Even abstract games carry a theme | Chess is called abstract, yet its pieces suggest a war over territory. The king is slow, the queen quick, the pawns many, and the shapes of their moves match those roles. Theme gives players a handle on how the world works. | p. 38
+idea: Theme can be tight or light | Way ties its theme of wordless communication to every goal and action. Kentucky Route Zero uses theme mainly as mood. Chess carries a light theme over a full set of rules. | p. 40
+idea: Story can sit in the rules, the world or the players | Braid tells story through level texts, a menu and time rewinding. Gone Home tells it by moving through a house. Dog Eat Dog lets players make the story. In Conversations We Have in My Head, story is the whole activity. | p. 42
+idea: The same game can be reshaped for a new setting | Jenga Giant uses big blocks for bars and gardens, where the fall is a spectacle. Tiny Games asks where the player is before offering a game. The Jenga variants show that context can change a game's form. | p. 44
+term: Genre | A label such as shooter or platformer that groups games by convention. The authors think it limits design, since it points a maker at other games instead of at the play they want to give. | p. 48
+term: Kinds of play | The authors' way of sorting games by what players do, such as compete, cooperate, perform or simulate, instead of by genre. The kinds can be blended. | p. 48
+term: Competitive play | Play in which some players win and others lose, and players or teams try to come out ahead of an opponent. | p. 48
+term: Local multiplayer game | A videogame played by two or more people in the same room in front of one screen. | p. 48
+term: Yomi | A Japanese idea of knowing your opponent's mind. In play it means guessing what the other player will do, and guessing that they are guessing you, in layers. | p. 49
+term: Endless runner | A single-player game where a character keeps running and the player jumps obstacles until failing, with the score set by distance. Canabalt is the example. | p. 49
+term: Asynchronous competition | Players compete by comparing scores or performances, not by playing against each other at the same moment. | p. 50
+term: Head-to-head competition | Players face each other directly, so each has to think about the other's choices as well as their own. | p. 51
+term: Competition against the machine | A player pits themselves against the challenge of the game itself, as in Desert Golfing. | p. 51
+term: Symmetrical competition | Competition where all players have the same actions and aim at the same goal. | p. 51
+term: Asymmetrical competition | Competition where players have different actions, objects or goals, as in a sniper hunting a spy. | p. 52
+term: Nonplayer character | A character in a game that the computer controls instead of a player. | p. 52
+term: Cooperative play | Play in which players work together to reach the game's goals. | p. 53
+term: Symmetrical cooperative play | Cooperation where all players have the same actions and attributes, so the players themselves work out who does what. | p. 53
+term: Asymmetrical cooperative play | Cooperation where players have different roles and abilities, as with the Medic and Dispatcher in Pandemic. | p. 54
+term: Symbiotic cooperation | Cooperation where players depend on each other to play at all. In Way, one player cannot see what the other sees. | p. 55
+term: Skill-based play | Play that asks players to build skill at the game's actions in pursuit of its goal. | p. 55
+term: Active skill | Skill in physical timing and movement, such as the precise jumps of Super Meat Boy. | p. 55
+term: Mental skill | Skill in thinking, such as remembering a path and tracing its mirror image in The Witness. | p. 55
+term: Experience-based play | Play built around exploring, unfolding a story or being together, instead of beating a skill challenge. | p. 57
+term: Whimsical play | Play of silly actions and unexpected results that gives a dizzy, amusement-ride feeling. Hit Me and QWOP are examples. | p. 62
+term: Role-playing | Play in which stories come out of players taking on roles under a loose set of rules. | p. 65
+term: Games of emergence | Jesper Juul's name for games whose possibilities come largely from how players use the actions, objects and playspace, such as story-making games. | p. 66
+term: Games of progression | Jesper Juul's name for games where the player makes decisions but every outcome was written in advance by the makers. | p. 67
+term: Performative play | Play whose core is performance, so it is dramatic to watch as well as to take part in. Charades and Twister are examples. | p. 68
+term: Expressive play | Play that expresses a feeling or an idea, whether the designer's or the player's. | p. 71
+term: Simulation-based play | Play inside a simplified model of a real system, which also puts forward a point of view on that system. | p. 72
+term: Top-down simulation | A model that shows a whole system from above, taking in many factors in simple form, as The McDonald's Videogame does. | p. 74
+term: Bottom-up simulation | A model that puts the player in one small role to show a larger system from within, as Papers, Please does. | p. 74
+idea: Kinds of play open more options than genres | Genre points a designer at what similar games already do. Asking what kind of play to give players, such as fast choices, slow strategy, story or cooperation, opens more options. The kinds mix like ingredients in a dish. | p. 48
+idea: Yomi gives competitive games depth | In Nidhogg a player guesses her opponent will parry, he guesses she thinks that and jumps, and she guesses again. The layers appear when both players chase an explicit goal and each has to read the other. | p. 49
+idea: Competition has several shapes | Nidhogg is player against player. Canabalt compares scores, even in tournaments where a crowd watches players take turns. Desert Golfing is player against the game. Each puts pressure on a different part of play. | p. 51
+idea: Symmetry and asymmetry apply to both competing and cooperating | In Johann Sebastian Joust every player has the same moves. In Spy Party one player hides as a party guest and the other is a sniper with one bullet. In cooperation, Portal 2 gives both players the same actions while Pandemic gives different roles. | p. 52
+idea: Symmetrical cooperation leaves roles to the players | In Portal 2 both robots shoot portals, run and jump the same way. Because the game assigns no role, players decide between themselves who does what. | p. 53
+idea: Symbiotic cooperation makes working alone close to impossible | In Way the player who moves cannot see the full puzzle, and the player who watches can. They have to invent body-language signals to pass the information across. | p. 55
+idea: Skill games shape who will keep playing | Super Meat Boy takes hundreds of failed tries to master timing. Games asking for exact skill need more practice, which narrows who commits to them but raises the weight of a win. | p. 56
+idea: Experience-based play can sit inside a competitive frame | Ninja has a goal of hitting a neighbour's hand, yet most groups play for the pose and the shared silliness. The designer has to leave room in the space of possibility for this. | p. 58
+idea: Chance mixed with strategy needs managing | Threes adds a random tile after each move but shows the next tile's colour. In Android: Netrunner players shuffle decks they built, so they put three copies of a key card in a 45-card deck to improve the odds of drawing it. | p. 60
+idea: Too much chance removes decisions | Candy Land is a spinner and a move, with no choice at all. Young children enjoy it for its pictures and make-believe, but the lack of decisions is what many older players find thin. The authors compare chance to a spice that can be too much or too little. | p. 61
+idea: Whimsy can come from the body, the controls or the concept | In Hit Me players strain to press buttons on each other's hats. In QWOP the keys map to thighs and calves so the runner collapses. In Tenya Wanya Teens a panel of unlabelled buttons sends the character to the wrong task. | p. 64
+idea: A light rule set can still support role-playing | Lesberation uses a hand of object cards and verb cards, with no character sheets, and players agree each move as a group. Rules only give structure to a story that players could otherwise act out without a game. | p. 66
+idea: Stories can be made by players or authored by makers | In Lesberation players produce the story, which is emergence. In The Path the makers wrote the six sisters and the woods, and the player only unfolds them, which is progression. Howling Dogs does the same with branching text. | p. 67
+idea: Absorption leads to unselfconscious performance | Johann Sebastian Joust players are so busy keeping their controller steady that they forget how they look, so the audience sees a dance the players do not notice. Coffee: A Misunderstanding does the opposite and keeps players aware of awkwardness. | p. 69
+idea: Simulation uses abstraction to argue | The Landlord's Game was made to show how rents enrich owners and impoverish tenants. The McDonald's Videogame links a farm, a plant, a restaurant and a board room to make a point about the chain. | p. 73
+idea: Simulations can be seen from above or from within | The McDonald's Videogame shows the whole system in simple form. Papers, Please puts the player at a passport desk, stamping and refusing, and shows a whole government through one repeated job. | p. 74
+term: Player-centered design | Designing with the limits and habits of people in mind: how they see the playspace, how much information they can handle, and where and with whom they play. | p. 78
+term: Action theory | A sociological idea of the loop a person goes through in any situation: beliefs, reaction, desire, intention, action, then repeat. The book uses it to ask what a game demands of its player. | p. 78
+term: Layers of player experience | Five stages through which a player meets a game: sensory, information, interaction, frame and purpose. | p. 79
+term: Interactive fiction | A playable story told mostly in text, in the line of early text adventures like Zork. Alabaster is an example. | p. 82
+term: Story beat | A major moment in a story, which a game may mark with an image or a scene change. | p. 82
+term: DIKW | A model of how people make sense of things: data, then information, then knowledge, then wisdom. | p. 86
+term: Attention | The act of picking out the relevant parts of what the senses take in, which turns raw data into information. | p. 86
+term: Reflexive attention | Attention pulled involuntarily by something loud, fast-moving or new. | p. 86
+term: Executive attention | Attention a person chooses to give, such as reading a sign or checking a health meter. Also called voluntary attention. | p. 86
+term: Jump cut | A sudden switch from one view to another, which can catch the player's reflexive attention. | p. 86
+term: Weenie | A large, visible landmark placed to draw people towards it. Theme parks use castles, and Journey uses a distant mountain. | p. 87
+term: Information space | The set of meanings a player can draw from a game, shaped by what is visible, hidden, clear or vague. | p. 87
+term: Full information | A situation where every element of the game state is visible to every player, as with the pieces in chess. | p. 88
+term: Imperfect information | A situation where some of the game state is hidden from players, as with face-down cards. | p. 88
+term: Asymmetric information space | A game where players know different things and think from different roles, as in Android: Netrunner. | p. 89
+term: Symmetrical information space | A game where all players can see the same information about the state of play, as in basketball. | p. 90
+term: Mental model | A player's picture of how a game works, which can differ from how it actually works and which grows as they play. | p. 91
+term: Affordance | What a thing seems to be for before anyone uses it, such as a handle that suggests gripping. | p. 91
+term: Perceptible affordance | What a thing visibly invites you to do, such as a keyhole inviting a key. | p. 91
+term: Correct rejection | Judging correctly what a thing is not for, such as seeing that a pillow will not work as a hammer. | p. 91
+term: Hidden affordance | Something a thing can do that its look does not show, such as rewinding time in Braid. | p. 92
+term: False affordance | A wrong guess about what a thing can do, such as a door in a 3D game that will not open. | p. 92
+term: Navigability | Whether a player knows how to move through the playspace and the game as a whole, including the menus, options and long-term goal. | p. 94
+term: Consistency | A game answering the same action in the same way each time, so players can learn from its feedback. | p. 95
+term: Intuitiveness | How little effort a player needs to carry out the basic actions, which grows with repeated play. | p. 95
+term: Failure | Falling short of an aim in a game. Juul sorts it by where players place the blame: themselves, the game or circumstances. | p. 96
+term: Frame layer | The player's earlier experience of games, life, films and culture, which shapes what they expect from a game. | p. 96
+term: Purpose layer | The reasons a player has for playing and what they hope to get from it, which can differ from the designer's goals. | p. 99
+term: Achiever | In Bartle's list, a player who wants to set and reach goals, whether the game's or their own, such as completing every mission or running a speed run. | p. 99
+term: Explorer | In Bartle's list, a player who wants to learn the full breadth of a game's space of possibility. | p. 99
+term: Socializer | In Bartle's list, a player who plays mostly to deal with other players. | p. 100
+term: Killer | In Bartle's list, a player who likes to impose their will on others, by attacking, blocking or dominating them. | p. 100
+idea: Players meet a game in five layers | Sensory, information, interaction, frame and purpose follow one another and loop back. What a player sees leads to what they understand, what they think they can do, what they bring from outside, and why they play. | p. 79
+idea: Simple controls and flat views are easier to enter | 3D games with WASD and mouse, or a console pad of fifteen buttons, are hard for many people to learn, the authors say. Even a text game like Alabaster assumes knowledge of how interactive fiction works. A two-dimensional game with left, right and hug asks for less. | p. 85
+idea: Seeing is different from understanding | At the start of Journey, the player sees a figure, a hill and sand. Moving the sticks shows the figure is theirs, and sand shifting under it confirms the material. Data becomes information and then knowledge. | p. 86
+idea: A landmark can guide without telling | A large mountain visible from everywhere in Journey gives players a goal and a sense of direction. Theme parks use the same device, called a weenie. | p. 87
+idea: Full information still leaves hidden thoughts | In chess, every piece is in view, yet the players still guess each other's plans. That guessing is yomi. Because the amount to think about is large, chess suits turns with no clock. | p. 88
+idea: Hidden cards create guessing about roles | In Android: Netrunner the Corporation hides Agendas and the Runner tries to steal them, and each knows only part of what the other holds. Players have to imagine how someone on the other side thinks. | p. 89
+idea: Real-time pace overloads even full information | In basketball everyone can see everything, yet the speed of play makes it impossible to process all possible moves. That keeps the outcome open. | p. 90
+idea: A mental model is built by playing | Anna Anthropy's reading of the first screen of Super Mario Bros. shows a figure on the left, open ground to the right, and nothing else to do but move right. Soon a question-mark brick and an enemy teach jumping. | p. 91
+idea: Affordances can be seen, hidden or false | In Braid the key invites picking up, the large keyhole invites unlocking, and the goomba's face warns of danger. Rewinding time has no visible sign and is learned from a one-time prompt. | p. 93
+idea: The screen and the controller are separate | Players look at a screen and press buttons elsewhere, and even touch screens seldom match gestures to what appears. That gap between seeing and doing is something designers have to bridge. | p. 92
+idea: Rich feedback still needs repetition to read | Drop7 gives seven kinds of feedback for one match: sound, lit row, rotating disc, particles, shrinking, score and falling discs. New players see a disc vanish without knowing why until repeated plays teach them the number rule. | p. 94
+idea: Consistent response lets players learn the rules | In Drop7 a disc always falls to the top of its column and breaks when the numbers add up. If it sometimes broke on touch or fell while held, players could not work out their part in the game. | p. 95
+idea: Practice moves effort from mechanics to experience | New basketball players think about dribbling and foot position. With repetition these become automatic and attention goes to the game itself. Drop7 helps by using falling and breaking, which people already know. | p. 95
+idea: Players feel own-fault failure differently from the game's fault | Juul found that failures blamed on the player feel more acceptable, since skill can improve. Failures blamed on the game, such as a level that seems unbeatable, tend to make players quit. | p. 96
+idea: What players bring from outside frames the game | Someone seeing an anvil on a cliff edge expects it to fall, from life or cartoons. The Kinect pose game about women's life stages uses expectations about women's roles, and Train changes them by revealing the setting of its history only at the end. | p. 98
+idea: Players come to a game for different reasons | Bartle named achievers, explorers, socializers and killers. In The Path an achiever collects all 36 objects and 144 flowers, while an explorer in Proteus wants to see the whole island. Types can shift in a single player. | p. 100
+idea: Authored games may not need player types | In a game like Howling Dogs the maker plans the experience and the player takes it as given, like reading a novel. The authors suggest Kentucky Route Zero suits being taken as the makers planned, not forced into a play style. | p. 101
+term: Iterative design | A cycle of imagining, making, testing and judging a design, repeated until the design is understood. | p. 106
+term: Adaptive process | A way of working that moves through cycles and leaves room for mistakes and new ideas. Iterative design is one. | p. 106
+term: Predictive process | A way of working that assumes the end product is understood in advance and can be built without changes to the design. | p. 106
+term: Plan-Do-Study-Act | Walter Shewhart's cycle at Bell Labs: find a problem, design a fix, study the results with statistics, and repeat if problems remain. | p. 106
+term: Conceptualize | The first step of the game design cycle: forming an idea for the game and its play experience. | p. 108
+term: Prototype | A playable form of some or all of a game's design, made to work through a design question. | p. 108
+term: Playtest | A session where players try a prototype and the designer watches what experience they have. | p. 108
+term: Evaluate | The step of reviewing playtest results to understand and strengthen the design. | p. 108
+term: Iteration | One trip round the cycle of concept, prototype, playtest and evaluation. | p. 108
+term: How might we question | A question starting with those words, borrowed from IDEO, that opens a design project, such as how might we share the feeling of the first snow of the year. | p. 110
+term: Brainstorming | A process with set rules for exploring every possibility round an idea or question, which produces many what if questions. | p. 110
+term: Concept | An idea or theory about what could make a game. It becomes a design once structured so prototypes can be made from it. | p. 110
+term: Design values | The qualities and characteristics a designer wants a game and its play to have, such as how it feels, who it is for and what it means. | p. 118
+term: Internal playtest | A test among the people making the game, usually the team's first. | p. 113
+term: External playtest | A test with people outside the team, such as friends, other designers or the target audience. | p. 113
+term: Aesthetic design values | One of Holm's five kinds of design value: values about form and experience. | p. 118
+term: Social design values | One of Holm's kinds: values about social change and the betterment of society. | p. 118
+term: Environmental design values | One of Holm's kinds: values about the environment and sustainability. | p. 118
+term: Traditional design values | One of Holm's kinds: values that use history and region for inspiration, such as working in a genre or reviving an old game. | p. 118
+term: Gender-based design values | One of Holm's kinds: values that bring ideas of gender equality into the design. | p. 118
+idea: Designers cannot see a design until it is played | A game cannot be played until it is made, and its qualities show only in play. Iteration answers this by moving round concept, prototype, playtest and evaluation. | p. 106
+idea: Iteration is adaptive where much industry work is predictive | A predictive process assumes the maker is right the first time. An adaptive one leaves room for errors and new ideas. Games are experiences more than tools like typewriters or ATMs, so the authors choose adaptive. | p. 108
+idea: The cycle has older roots | Shewhart's Plan-Do-Study-Act used data to raise the consistency of Bell Labs products. Dreyfuss's Think-Sketch-Show-Evaluate looked at the user of a telephone or vacuum cleaner. Software design added requirements, prototype, review, revise. | p. 107
+idea: An idea begins as a question | The first output is not a plan but a question such as how might we make a game where unicorns joust with dinosaurs. Brainstorming then produces what if questions, and the most promising is built. | p. 110
+idea: Prototype fast to find what the idea can do | The sooner a game leaves the world of ideas and becomes paper cut-outs, quick code or the designer's own body, the authors say, the sooner it shows its play. Prototyping can also uncover things concepting would never have raised. | p. 111
+idea: A playtest is the answer to the prototype's question | The prototype asks what if, and the playtest answers it, along with questions about whether players grasp the goal, feel the hoped-for emotion, understand the interface and get clear feedback. | p. 112
+idea: Evaluation returns to the questions of the start | After seeing players struggle to make a unicorn pick up a lance, the designers ask why and how might we make it easier. This is why the cycle is circular and the evaluate and conceptualize steps blur. | p. 114
+idea: Reading playtest feedback is like diagnosis | A comment like this game is too intense is hard to act on. The authors compare it to a doctor who builds evidence from what a patient says and from watching them. | p. 114
+idea: Failing early and often is part of the method | Reiner Knizia is quoted as saying all his designs were flawless until they were playtested. The authors advise getting through early loops quickly so problems appear while they are cheap to fix. | p. 115
+idea: Design values are asked as questions | Their questions cover experience, theme, point of view, challenge, decision-making, skill and chance, context and emotions. Answering them gives a team a shared picture of what they are making. | p. 119
+idea: Design values let a team check new ideas | When an idea arrives that excites people but may not suit the game, the team asks whether it fits their design values. This settles disputes and shows whether the idea belongs in this game or a later one. | p. 120
+term: Play values | Eric Zimmerman's name for the abstract principles a design is meant to embody. The authors' design values are based on this idea. | p. 118
+term: Procedural generation | Making game content, such as golf holes, from rules run by code instead of drawing each one by hand. | p. 125
+term: Collaborative yomi | Naomi Clark's twist on yomi, where players guess each other's actions in order to help one another instead of to win. | p. 128
+term: Design document | A record of the specific decisions made about a game, including its design values, that works as an overview for the whole team. | p. 132
+term: Schematic | A blueprint-like picture of how a game looks onscreen, made to explain what play will be like and what needs building. | p. 132
+term: Tracking spreadsheet | A to-do list in spreadsheet form that guides a team through the tasks of making prototypes and running playtests. | p. 132
+term: Software requirement specification | A technical document saying how software will work and be used. A game design document may include or sit beside one. | p. 133
+term: Living document | A document updated every time the team goes round the design cycle, so it always shows the current understanding of the game. | p. 134
+term: Working title | The name a team uses for a game before the final title is chosen. | p. 134
+idea: A design value can be a feeling the player is meant to have | Jenova Chen wanted Journey to make the player feel lonely, small and full of awe. That aim guided choices about the world and the sand dunes, and was checked in each round of prototyping. | p. 122
+idea: The platform a game is made for shapes its design values | Journey was made for a living-room console, and Sony asked for a single-player game. So the other player appears and disappears in the world and the game does not rely on anyone being online. | p. 123
+idea: A real place can give a design value | The team visited sand dunes and noticed how pleasant it was to climb and how hard it is to slide down. This led to sand-surfing in Journey, which feels like reality but is not possible in reality. | p. 123
+idea: Testing can show that actions work against the aim | Early Journey prototypes had boulder-pushing and pulling over obstacles to encourage cooperation, but playtesters pushed and fought. The team changed to equal access to resources, and replaced chat with one signature tone. | p. 124
+idea: Design values can grow out of a notebook of notes | Justin Smith wrote down short ideas like indie Angry Birds and later found ones that connect. For Desert Golfing, that gave values of minimal play, a certain world look, a satisfying single stroke, a sense of endlessness and sharing found by players. | p. 126
+idea: Leaving sharing to players can be a design value | Desert Golfing has no leaderboard. Its colours change slowly and a stroke total is shown, so players discuss them in person and online without a built-in competition. | p. 126
+idea: Design values can come from dissatisfaction with other media | Naomi Clark disliked how a genre of animation set monsters in power over young women. Her card game Consentacle gives both characters equal power and bases its play on consent. | p. 126
+idea: A design value can be borrowed from the way another game feels | Naomi noticed that hidden information in Android: Netrunner made the two sides' dealings feel intimate. In Hanabi, players see everyone's cards but their own and have to help each other, which led to a value of collaborative decision-making. | p. 128
+idea: A constraint can be chosen to shape cooperation | In the advanced version of Consentacle players may not talk about which cards to play. They guess each other's actions instead, which Naomi called collaborative yomi. | p. 128
+idea: A game about cooperation can drop the winner | Consentacle gives no win or loss. It rates how well the pair did on a scale like a magazine quiz, and shows how the points were spread between them. | p. 128
+idea: Design values give research a direction | With a clear set of values, looking at other games and media has a purpose and does not drift. Naomi's search for ideas was led by her values. | p. 128
+idea: Design values answer questions in the middle of work | They are guideposts that keep a team aiming at one play experience. When something unplanned comes up, the team can ask whether it serves the values. | p. 129
+idea: Documents keep a team on the same page | Without records, team members hold different understandings of the game, repeat work or leave tasks undone. The authors use three kinds: a design document, schematics and a tracking spreadsheet. | p. 132
+idea: A design document can be short | Many people picture 500 pages, but an indie game may need 10 to 20. With a new team more detail is likely at first, and the right level shows up as the team learns how it works together. | p. 132
+idea: Design documents resemble scripts and specifications | A film script tells a crew what to shoot. A software requirements document lists parts and use cases because users act differently. Story-heavy games lean towards scripts and systems-heavy games towards specifications. | p. 134
+idea: A design document is kept alive across iterations | Each trip round the cycle changes the game, so the document gets new sections and loses others. Keeping it current takes time but matters most for complex games and bigger teams. | p. 134
+idea: Early documents list the game's basic elements | The authors suggest asking how many players, what their goals are, what the main actions are, which objects and what playspace there are, and what rules govern all of these. | p. 135
+term: Wireframe | A plain drawing of simple shapes and placeholder text showing what appears onscreen at a moment, used for sites and apps and, here, for games. | p. 138
+term: Storyboard | A sequence of drawings showing how a scene is framed and what happens in it. In games it makes sure everyone understands how the screen will look. | p. 140
+term: Animatic | A sequence of storyboards that shows motion and pacing. | p. 141
+term: Production blueprint | A detailed drawing of dimensions and specifications, such as paddle and ball sizes and bounce angles in Pong. | p. 142
+term: Annotated schematics | Schematics with notes added so they can stand in place of a design document, which suits simple games. | p. 143
+term: Long-range task | A guidepost of the whole design, such as reaching a first core prototype. | p. 144
+term: Mid-range task | A significant milestone, such as finishing a prototype or the art direction. Long-range tasks are made of these. | p. 144
+term: Short-range task | A substantial task measured in days and finished within a week or two, such as implementing a new mechanic for a playtest. | p. 144
+term: Immediate task | A quick task done in a short time, such as fixing a known bug. It is the most common kind. | p. 144
+term: Blocker | An item that has to be settled before team members can finish their tasks. It goes on the for-discussion list. | p. 145
+term: Asset list | A sheet listing every piece the team has to make, such as models, sprites, sounds and text, by the prototype that needs it. | p. 146
+term: Style frame | A single image showing what the game will look like. | p. 151
+term: Narrative design | Making a game's storyworld: backstory, characters, dialogue and scenarios joining levels or scenes. | p. 151
+term: Art implementation | Turning the planned look and sound into production work such as animation, modelling, rigging and sprites. | p. 151
+term: Consensus decision-making | Deciding as a whole team so that everyone buys in. It differs from simple agreement, where people may go along without consenting. | p. 152
+term: Autonomy | How much freedom a team member has to carry out their role in their own way. | p. 152
+term: Alignment | How far everyone on a team shares one aim and vision. More alignment leaves less room for individual freedom. | p. 152
+term: Sweat equity | Work put into a project in the hope of later returns instead of payment. | p. 153
+term: Team agreement | A written understanding of a team's goal, member status, ownership, expected effort, roles, decision-making and length of working together. | p. 153
+term: Version control | Software that lets a team share a store of code or art files and check files out so that one person does not write over another's work. | p. 154
+idea: Schematics serve as wireframes, storyboards and blueprints | A wireframe shows what is onscreen. A storyboard plans how a scene is seen, and an animatic adds motion. A blueprint gives exact sizes, such as how each section of the Pong paddle sends the ball at a different angle. | p. 141
+idea: A single wireframe cannot show play | The Pong wireframe shows paddles, net, ball, court and scores but not their interaction. As a rule of thumb the designer draws key changes, such as when a point is won, how the next begins and how the game ends. | p. 139
+idea: A simple game may only need notes on drawings | Pong is simple enough that annotated schematics could replace the design document. The team would still write design values and carry out art direction separately. | p. 143
+idea: A tracking spreadsheet is a shared agenda | The authors' team uses six sheets: overview, for discussion, task list, ongoing responsibilities, asset list and completed tasks. Kept online, it can be seen by a collaborator in another city and doubles as a meeting agenda. | p. 143
+idea: Tasks are sorted by size | Long-range tasks are guideposts, mid-range are milestones, short-range take days and immediate tasks are quick fixes. Each larger kind is made up of the smaller, and timeframes are given to the larger two. | p. 145
+idea: Keeping finished tasks saves repeat work | The completed-tasks sheet records the work done and questions asked in each phase, so the team does not go back over ground it has already covered. | p. 147
+idea: Small teams mix roles | Roles of design, programming, art, sound, testing and management often overlap in one person. Local No. 12 shares game design and project management, and then gives each member a lead area such as narrative, visuals or playtests. | p. 151
+idea: Teams balance autonomy against alignment | More freedom in a role makes people feel committed, while more alignment keeps the team in step. Spotify's approach is to give each project a clear goal everyone agrees on and then leave the way to reach it to team members. | p. 152
+idea: Shared design values allow freedom | When everyone knows what the team values about the play experience, members can explore their own solutions towards it. Frequent check-ins show how one person's decisions affect others. | p. 152
+idea: Agreement and consent differ | A person can be okay with a decision without agreeing with it. The authors say noticing the difference avoids hidden tension, and that consensus is worth the time it takes. | p. 152
+idea: A team agreement is useful when things go badly or well | It records goal, member status, ownership, expected participation, roles, decisions and term. It settles questions such as who owns a game that ends up in a museum or one that is never finished. | p. 153
+idea: Decisions come in classes | The authors split them into creative, process and business decisions, and say a team can decide for each what agreement means: majority, two-thirds or consensus. | p. 154
+idea: Team tools can be the simplest ones | For file sharing, task tracking and communication, the authors suggest the simplest, most familiar and least costly tools. They have tried specialist task software several times and gone back to a shared spreadsheet. | p. 155
+term: Talking rights | A meeting protocol for who speaks when, set so quiet people are heard and loud ones do not win by volume. | p. 156
+term: Action item | A task that comes out of a meeting. A meeting without them is described as just a conversation. | p. 156
+term: Procedural conflict | A team disagreement about how the team works, such as meeting style, schedule or who does what. | p. 157
+term: Affective conflict | A team disagreement over feelings, goals and needs, often rooted in differences of values or background. | p. 157
+term: Substantive conflict | A team disagreement about the game itself, such as what kind of game it is or what experience to give. | p. 158
+term: Abject failure | The most final failure, such as missing the final goals or the team breaking up. | p. 158
+term: Structural failure | A failure that is often technical, such as bugs that stop the game being played. | p. 158
+term: Glorious failure | A large failure from aiming high, which still gives valuable lessons or a notable moment. | p. 158
+term: Common failure | An everyday slip such as missing a deadline. | p. 159
+term: Version failure | Bugs that lead to small improvements in later releases. | p. 159
+term: Predicted failure | A failure the team expects a prototype to show in testing. It is the kind iterative design relies on. | p. 159
+term: Quantity over quality | The first brainstorming rule: produce as many ideas as possible whatever their worth. | p. 165
+term: Defer judgment | A brainstorming rule: hold back from judging your own or others' ideas while ideas are being produced. | p. 165
+term: Yes, and | The brainstorming habit of building on someone's idea instead of objecting to it. | p. 166
+term: Idea speed-dating | A group exercise where each person writes a game idea, pairs swap and merge two ideas into one, and the group votes on the results. | p. 166
+term: Distribution voting | Giving each person a fixed number of votes, such as five, to spread over ideas as they wish. | p. 167
+term: Silent brainstorm | A timed exercise where everyone writes one idea per sticky note without talking, then the notes are put on a wall and grouped. | p. 168
+term: Noun-verb-adjective brainstorming | Writing nouns, verbs and adjectives on index cards, then shuffling them to form a how might we question. | p. 169
+term: Motivation | The angle a designer takes on a game, such as what the player does, a constraint, a story or a personal experience. | p. 170
+idea: Meetings need a few basics | The authors list goals, an agenda, talking rights, a way of deciding, action items and notes. Full-team meetings stay above the level of immediate tasks, and smaller meetings go into details. | p. 156
+idea: Rotating the note-taker spreads the load | Notes follow the agenda and sit in a shared place. They feed the task list and the design document so a team can look back at earlier meetings. | p. 156
+idea: Quiet members need routes to be heard | Posing questions to the group, prompting soft-spoken people and allowing written feedback before or after meetings all help. Prototyping and playtesting can also settle a design argument that talk cannot. | p. 157
+idea: Three kinds of team conflict need three responses | Procedural conflict is about how the team works and can be fixed by trying changes. Affective conflict comes from differing values and calls for listening. Substantive conflict about the game is handled by returning to the design values. | p. 158
+idea: Playtests can settle substantive arguments | Instead of relying on team opinion, playtesting shows strengths and weaknesses of the game, provided the team is willing to learn from what testers do and say. | p. 158
+idea: Failure is handled by asking what was learned | Spotify's Henrik Kniberg is quoted as asking not whose fault it was but what was learned and how it will be fixed. Looking back at the prototype and its test often answers that. | p. 158
+idea: Six kinds of failure differ in usefulness | Jamer Hunt's list is abject, structural, glorious, common, version and predicted. Predicted failures are the ones iteration invites, since they give the team a safe place to experiment with limited risk. | p. 159
+idea: Ideas can come from anywhere | Chris Bell made Way after getting lost in a Tokyo fish market and finding his way by gesturing with an older woman. The game kept only the kernel, nonverbal communication, and dropped the market. | p. 165
+idea: Brainstorming has set rules | Osborn's rules include quantity over quality, deferring judgment, no buts, going wild, drawing and combining. Replacing but with and, as in and what if the tubes lead to rooms of coins, keeps ideas moving. | p. 166
+idea: Brainstorming also builds agreement | Beyond producing ideas, it gets team members building on each other and valuing every idea whatever their role, and helps a team agree on what matters. | p. 166
+idea: Mashing up two ideas can beat either original | In idea speed-dating, unicorns jousting with dinosaurs meets soccer in the dark with a light-up ball. The pair writes a merge, such as creatures fighting for the ball to find their way home. | p. 167
+idea: A how might we question stays neither too narrow nor too wide | How might we create a competitive game is too broad. A game about unicorns and dinosaurs chasing a glowing ball in the dark is too specific for early work. How might we create a game about creatures finding their way home sits between. | p. 168
+idea: One idea per sticky note allows sorting | Square notes and thick markers limit each note to one short idea, so notes can be grouped into clusters and read from across the room. The authors photograph the groups and copy them into a shared document. | p. 169
+idea: Random word cards can push toward odd combinations | For a game about healthy eating, shuffled cards might give gigantic, jumping and broccoli. The authors add a few unexpected verbs and adjectives to keep results unexpected. | p. 170
+idea: Motivation gives a design its angle | Like a journalist's angle, a motivation tells the designer what to ask. Six are listed: what the player does, constraints, a story, personal experiences, abstracting the real world, and the player. | p. 170
+idea: A game can start from an activity that is already enjoyable | Douglas Wilson began Johann Sebastian Joust from moving in slow motion on a playground, then added a game system. Slow music makes the controllers more sensitive, so players have to move slowly. | p. 172
+idea: Games can be built on what the player may not do | In vvvvvv the player cannot jump and flips gravity to cross even a small step. In soccer the limit is on the hands. Play comes from working around the obvious route. | p. 173
+idea: Technology limits have shaped game design | The Atari 2600 used rectangular pixels, so Breakout made rectangular bricks a feature. Canabalt came from the challenge of Super Mario with one button, a game jam brief. | p. 174
+term: Persona | An invented player described with a name, age, job, history and tastes, used to keep a real audience in mind. Teams often make two or three. | p. 178
+term: Paper prototype | A rough, simplified version of a game made from paper cut-outs, drawings, tokens and small objects, made to start seeing the game before it is playable. | p. 184
+term: Physical prototype | A prototype that tries out how the game's actions feel by doing them with bodies and objects, such as a field game version of a videogame. | p. 187
+term: Playable prototype | Usually the first digital prototype, built to model the core activity players do. It is kept rough, with simple shapes and colours. | p. 188
+term: Art prototype | A trial of a game's look, such as its colour palette, typography and style of illustration or modelling. | p. 190
+term: Sound prototype | A trial of a game's sound and music, often made at the same time as a playable prototype by other team members. | p. 190
+idea: A story can be found by exploring | Gone Home does not resolve scenes through character actions. The player walks an empty house, reading letters and listening to tapes, and assembles the family's story from objects. | p. 174
+idea: A story-led design asks about the player's role | The authors suggest asking whether the player watches or acts, how many paths exist, which nouns and verbs carry the story, and what the player is left thinking about afterwards. | p. 175
+idea: A personal experience can be abstracted | dys4ia is a journal about anna anthropy's hormone therapy. Way is based on Chris Bell's trip through a fish market but does not set the game there. A designer chooses how autobiographical to be. | p. 175
+idea: Modelling a system means choosing a point of view | In The McDonald's Videogame the player moves from pasture to feedlot to restaurant to board room, each level with different actions. The model shows how hard it is to stay profitable without cutting corners. | p. 177
+idea: Ask what an abstraction leaves out | A real system is simplified into rules, and the authors say the removed details matter as much as the kept ones. They also ask whether the player is part of the system or above it. | p. 177
+idea: Personas keep a particular player in view | A team picks one main persona and two others to also keep in mind. Questions about where, when and with what else the player plays, and what else they like, help widen the design. | p. 178
+idea: Design values act as scaffolding | They hold the game's shape and stop a team spending time on parts that dilute the vision. A rule of thumb for a changing value is to ask whether it strengthens the player's experience and what the game says. | p. 180
+idea: Drifting is different from moving forward | New ideas arise while making a game, and some are kept for a later game. The authors say that telling the two apart takes practice. | p. 180
+idea: A prototype tests whether an exciting idea is in fact exciting | Making ideas tangible shows unexpected results, which is the aim of iteration. Industrial designers do the same with a peeler's grip and balance, but game designers test play. | p. 182
+idea: Games may make things harder on purpose | A peeler is refined to make peeling easier. A game stresses challenge or mood over ease, so a prototype tests whether the experience matches what was intended. Not every game aims to be enjoyable, but it needs interesting choices. | p. 183
+idea: Prototype from a question | Questions like whether the main activity is enjoyable, whether players grasp the theme or whether the palette works decide what to build next. | p. 183
+idea: Rough prototypes protect the designer from attachment | Polish delays answers, the authors argue, and also makes ideas feel finished, which makes them harder to judge objectively. | p. 184
+idea: Change little between prototypes | Altering one rule or variable can set off many emergent effects, so a team playtests before making too many significant changes. | p. 184
+idea: A paper prototype can settle basic layout questions | While cutting paper paddles and balls for Ping!, the authors had to decide where the score sits, how it is counted and where the ball enters, either auto-served from the centre or from a paddle. | p. 186
+idea: A basic kit is enough for paper prototypes | The authors list paper, markers, scissors, glue, tape, rulers, dice and tokens. Paper prototypes answer what is onscreen, what the playspace is, which objects and actions exist, and how the play is meant to feel. | p. 186
+idea: Physical prototypes capture how a game feels | Killer Queen began as an outdoor field game for two teams of ten, with a Queen, Workers, foam swords, rubber balls and a bomb. Playing it at festivals let the makers watch teams build strategies before turning it into an arcade videogame. | p. 188
+idea: A digital prototype can be built from an ordinary tool | The authors tested Losswords through Skype chat, with one person playing the game logic by sending book passages and scoring replies on word count, length and rarity. It took an hour of planning instead of days of code. | p. 189
+idea: Most games go through a dozen or more playable prototypes | The early ones model the actions players repeat, because if those are not enjoyable the game will not be either. Design values are checked and sometimes revised as discoveries arrive. | p. 190
+idea: Art and sound can come first | Tale of Tales began The Path from the Red Riding Hood theme seen through horror, plus music. Designing the character Ruby first showed what all six sisters would be. | p. 191
+term: Moodboard | A collection of images from comics, film, art and photographs used as reference points for how a game is meant to look. A sound version can be made from existing music. | p. 192
+term: Interface prototype | A trial of how the player engages with the game: a heads-up display, a custom controller, or screen layouts, which can be done in image or presentation software with no code. | p. 193
+term: Code prototype | A trial of technical matters, such as whether code runs on certain machines or a new device behaves as hoped. Also called a tech prototype. | p. 194
+term: Core game prototype | A prototype that brings all the core parts of the game together, with rough placeholders for content and basic art and sound. | p. 195
+term: Complete game prototype | A prototype with every part in place, including menus, start screens, all actions and objects, playable from start to finish. | p. 197
+term: Live coding | The authors' term for changing a game's code and testing straight away, to see how the change alters play. | p. 204
+term: Game developer playtest | A test with fellow game makers, who give detailed feedback but may describe the game they would make. | p. 205
+term: Friend and family playtest | A test with people close to the team, where what they do tells more than what they say. | p. 206
+term: Target audience playtest | A test with people who enjoy the kind of play the game offers, usually at core or complete prototype stage. | p. 207
+term: New player playtest | A test with people who have never played the game, used to see how people learn it. The authors suggest five to seven. | p. 208
+term: Experienced player playtest | A test where players use a prototype over days or weeks so the team sees how skill and strategy develop and how changes affect them. | p. 209
+term: Exploit | A way in the rules that lets a player gain an advantage in an unintended way, which playtests often reveal. | p. 208
+term: Playtest plan | A prepared outline of how to introduce the game, what testers need to know, what the team wants to learn and how feedback will be captured. | p. 211
+term: Introduce | The first playtest task: telling testers the state of the prototype, such as that the art or win condition is unfinished, so they know what to comment on. | p. 212
+idea: Art and sound need early trials | The Path started with reference music, and the composers later wrote its score. The authors say sound shapes mood, so trying different tracks in a playable prototype can change testers' responses. | p. 192
+idea: An interface prototype can be pictures in presentation software | For Losswords the authors drew each screen in image software and linked them in presentation software to show how players move. Those screens also served as the base for the art. | p. 193
+idea: Technology tests show what can and cannot be done | Peter Lu tried the Kinect for the pose game and found its limits, then adjusted smoothing and speed to reduce lag between body and screen character. New technology can be hyped beyond its ability. | p. 195
+idea: A core prototype can be circles and squares | Jane Friedhoff made two circles bounce off squares with physics and no goals for Slam City Oracles. Because bouncing and smashing was the whole experience, that was enough to judge it. | p. 197
+idea: A complete prototype is rough but whole | Kevin Cancienne finished Dog Park for an exhibition where players met it with no instruction. He did not polish the code, but he made the entire game playable to see players' reactions. | p. 198
+idea: Prototype notes record why, what and how | The authors record the reason for each prototype, what was done, and how, so it can be rebuilt. Unaddressed ideas go on a to-do list and design changes go into the design document. | p. 198
+idea: The playtest answers the prototype | Playtests can last minutes or months, and the team or outsiders can supply the answers. Early on they show whether the game runs and the parts balance. Later they show whether players understand the game. | p. 202
+idea: Playtests reveal what designers did not intend | The authors list exploitable cracks, unclear parts, spots that are too easy or too hard, and emotions different from those hoped for. | p. 203
+idea: Internal testing can alter the design | While trying Ping! the authors tuned paddle and ball speeds, then found that a paddle that shrinks on each hit and grows on each score felt like part of the game world. | p. 204
+idea: Change one thing at a time | In rapid testing, changing several variables at once hides which change did what. One change per test shows its effect on the game as a whole. | p. 204
+idea: Developers' advice is shaped by the game they would make | They give sharp feedback but often propose solutions. The authors suggest sharing the design values and weighing suggestions against them. | p. 206
+idea: Friends are kind, so watch what they do | Friends tend to say positive things. The authors say to notice where they seem to enjoy themselves, where they struggle and what their faces show. | p. 207
+idea: A family can test how a game treats people it assumes less about | Local No. 12 tried The Metagame with a friend's family, ages 13 to 70, to see how the youngest and oldest reacted to pop culture references they did not know. | p. 207
+idea: A target audience can be gathered early | Chris Hecker built a community round Spy Party with convention booths and a website. Players who wanted the game gave feedback soon after the first playable version, and showed whether he was heading the right way. | p. 208
+idea: Five to seven new players is a working range | Fewer gives too little variation and more costs too much time. A person is a new player only once, so finding fresh testers is a continuing task. | p. 208
+idea: An exploit can show what the game is for | A Dog Park player won by barking nonstop. Kevin Cancienne saw other players chase and wrestle the barker, as dogs do, and so kept barking but reduced its points. | p. 209
+idea: Different prototypes suit different testers | Paper, physical and code prototypes suit the team and other developers. Art and playable ones add friends. Core prototypes add the target audience, and complete ones suit everyone. Experienced players can join from the start. | p. 210
+idea: Playtests ask a lot of testers | Eric Zimmerman and Nathalie Pozzi compare early playtests to a dinner party where some food is unappetising or uncooked. The team has to be ready before asking people to try something it knows is broken. | p. 210
+idea: Place matters to a playtest | A loud cafe or bar may seem lively, but it spoils a test of a game that needs focus and undivided attention. | p. 211
+idea: Designers lose the feel of their own game | After repeated play the Ping! team could no longer tell how hard it was to move paddles or how long a volley lasted, so they asked others. Outsiders keep difficulty reasonable and interactions clear. | p. 211
+idea: Much of a playtest is nonverbal | A laugh, a comment mid-play, white knuckles on a hard part and bored glances at a phone are all clues. Video helps capture them. | p. 211
+idea: The designer has to watch without stepping in | It is painful to see testers fail to understand something that seems obvious, yet that is what the team came to find. The four tasks are introduce, observe, listen and discuss. | p. 211
+term: Observe | The playtest task of watching body language, onscreen action, remarks and eagerness to play, without helping, talking or coaching. | p. 212
+term: Listen | The playtest task of hearing players talk through what they do, why they choose and how they feel. | p. 212
+term: Discuss | The playtest task of talking with testers afterwards, using open questions instead of yes-or-no or leading ones. | p. 212
+term: Open question | A question that asks for the tester's own words, such as how did playing make you feel, instead of did it feel enjoyable. | p. 212
+term: Input | Suggestions from players about how to change a game, which a designer may act on. The authors set it against feedback. | p. 214
+term: Feedback from testers | What testers show about where the game falls short of what its maker intended, which the designer takes into account without necessarily acting on it. | p. 215
+term: Diagnosis | The authors' term for working out the underlying cause of what testers did or said, as a doctor does from reported symptoms. | p. 218
+term: Takeaway | A specific, agreed statement of what a playtest shows about the design, such as the paddle controls are too loose. | p. 219
+term: Intended strength | A part of the game that works as the designer meant. | p. 221
+term: Unintended strength | A part of the game that works in a way the designer did not plan. | p. 221
+term: Incubate | The step in evaluation where team members mull a problem alone, for 10 minutes or a few days, before gathering ideas. | p. 222
+term: Review | The first evaluation step: checking that the team agrees on the playtest's strengths and weaknesses and then revisiting the design values. | p. 222
+idea: Listening differs from observing | Observing is watching what testers do. Listening is hearing them say aloud what they are doing, why they choose and what confuses them. | p. 212
+idea: Ask testers open questions | The authors give how did playing the game make you feel and tell me how you figured out the goal as examples. Their aim is to hear the tester's reactions, not to hand over the designer's. | p. 212
+idea: Record who, when, where and what happened | The authors record tester names and contact details, the date and place, the prototype tested and the note-taker, then notes on gameplay, visuals and audio, bugs, comments, observations and ideas. | p. 213
+idea: Video is used with notes pointing to the moments | Recordings help the team review a session, but notes with times or levels marked let them find the relevant bits instead of re-watching hours of footage. | p. 214
+idea: Input and feedback are different | Mattie Brice and Lana Polansky argue that designing around players can water down a game's message. Input changes the game to suit testers. Feedback is information the designer weighs without having to act on it. | p. 215
+idea: Playtesting can calibrate expression | Jonathan Blow does not want ideas from testers but does test, to check that his games give the experience he intends. Many arts do the same through workshops, table reads and critiques. | p. 215
+idea: Evaluation works like diagnosis | Playtest notes are symptoms and the design values are what the game is meant to show. Treatments range from small fixes to large changes. | p. 218
+idea: Evaluation follows what, where, why and takeaway | First list small observed moments without interpretation, then note where in the game each happened, then guess why, then agree on a specific takeaway. | p. 219
+idea: A suggested change may hide a different problem | If a tester says to make the score bigger, the cause may be that they miss score changes in fast play. A bigger number may not fix it, and a summary screen between matches could. | p. 220
+idea: Evaluate against a checklist drawn from the design tools | The authors suggest asking about actions, goals, challenge, information, feedback, decision-making, perceptions, context, takeaways and emotions, after rereading the design values. | p. 221
+idea: Responses may be unintended strengths or intended ones | Players may call a game too hard or too short when that was planned. Bending convention marks experimental design but can also signal an oversight, and design values help tell which. | p. 221
+idea: A player doing it wrong shows something | A high school student said testers played the game wrong. The authors reply that the design may need work, or the testers' way may be more intuitive than the planned one. Either finding helps. | p. 222
+idea: Revision has six steps | The team reviews, incubates, brainstorms, decides, documents and schedules. The time for incubating grows with the size of the problem. | p. 222
+idea: Brainstorming fixes can overload the design | New ideas are welcome, but the team picks what the next prototype needs and writes down the rest for a future project. | p. 223
+idea: Make a decision that can be built | Deciding is quicker than long debate, the authors say, and reaching the next buildable prototype is worth more than the ideal answer. | p. 223
+term: Toy-centric design | Douglas Wilson's name for starting from a plaything, such as a new controller, and exploring what is enjoyable about it before building a game around it. | p. 229
+term: Twine | A free tool for making branching text games that needs no programming or visual design, which made it attractive to anna anthropy as a model for new makers. | p. 232
+term: Ludum Dare | A 48-hour game jam built around a theme. A call for 10-second games inspired Queers in Love at the End of the World. | p. 232
+term: Production plan | A list of who does what by when once design is complete, usually kept as a new version of the tracking spreadsheet. | p. 236
+term: Dependency | A task that cannot be done until another task is finished. | p. 236
+idea: Each loop of the cycle poses and answers one question | The team theorizes a question in conceptualizing, shapes it in prototyping, answers it in playtesting and interprets it in evaluating. A loop may repeat a question or move to a new part of the game. | p. 226
+idea: Failure is raw material for iteration | The authors open the chapter with a line from Beckett about trying and failing again, and say creativity is more about failure than success. | p. 226
+idea: One game can pass through many forms while its goal stays fixed | The Metagame was a game show, a conference card game, a boxed party game and a magazine insert over five years. Its aim of giving people a playful structure for talking about pop culture never changed. | p. 228
+idea: A conference can act as a large playtest | The conference version of The Metagame was played by more than 3,000 people. It showed the makers what worked about the card information, images and conversations before the boxed edition. | p. 227
+idea: A new play setting calls for a new design loop | Moving The Metagame from conference halls and bars to living rooms and classrooms led to new play modes for smaller groups and tight loops on the rules booklet. | p. 227
+idea: Playtests can shape the content of a game | For the broader version, testers of different ages and cultures named television shows, fashions and artworks, and much of the card content came from those suggestions. | p. 228
+idea: A quick design can rest on long experience | Johann Sebastian Joust took shape in a 48-hour game jam, but it followed a year of work with motion controllers and then over two years of building a stand-alone version. The authors count four years in all. | p. 230
+idea: A discovery can come from a happy accident | While testing controller sensitivity, Douglas Wilson and Nils walked towards each other and shoved to make the other lose. That showed that the game they wanted was a duel, not a race. | p. 229
+idea: A game that others run alone needs its own teaching | Making Joust ready to run without its designer meant building menus and a setup guide that explained how to play. That took two years, ten times longer than the first design. | p. 230
+idea: Some mood-based games need art before they can be tested | The Path could not be playtested for emotional effect until its environments, art and sound were well developed. So early cycles built a world to walk through, with little gameplay. | p. 230
+idea: A live-editing tool blurs prototype and playtest | In Quest 3D, changing a character's behaviour or the sky's colour took effect at once, so Tale of Tales played in the world and changed it at the same time, like playing with dolls. | p. 231
+idea: A design value can mean removing finished work | After hearing the finished soundtrack, the makers of The Path cut many small puzzle tasks and made the game about exploring. The authors call this being willing to kill your babies, though they would not advise a first game to follow that path. | p. 232
+idea: A constraint can carry a theme | anna anthropy took a timer from another Twine game and a call for 10-second games, and set a queer couple's last 10 seconds before the world ends. The time limit stood for the pressure she felt in a long-distance relationship. | p. 233
+idea: Playtests can be for function only | anna anthropy tested Queers in Love at the End of the World just for technical faults such as a broken timer or dead links. She did not seek ideas or input on content. | p. 233
+idea: Not every game needs a full iterative process | Queers in Love fits the authors' method only partly, they say, and time and resources for iteration cannot be assumed. Sometimes all a maker has is a short time. | p. 234
+idea: Iteration and production have opposite attitudes to failure | During iteration the team avoids getting things exactly right and fails faster. During production the work has to be right, such as server code sturdy enough for internet traffic. | p. 234
+idea: A design is done when its parts are decided and tested | The authors list a complete game prototype, tests with the target audience, new players and experienced players, met design values, art direction, a sound code base, most final text and a current design document. | p. 235
+idea: New and experienced testers show different things | New players show how learnable the game is. Experienced players show that it holds up over repeated play without losing interest or becoming too easy to master. | p. 235
+idea: Placeholder assets can remain when design is complete | A game with many dinosaurs may have a few finished ones and only placeholders for the rest. Making the remaining models is production. | p. 235
+idea: Production needs who, what and by when | The team lists people, tasks and deadlines, marks tasks that depend on others, and doubles its time estimates because people tend to underestimate. | p. 236
+idea: Regular meetings in production keep a team honest | Weekly or more frequent meetings show how much was done. If nothing is reported, the team knows to set aside more time. | p. 237
+term: AAA game | A game made by a large studio with a large budget. The book mostly draws its examples from small independent makers instead. | p. 250
+term: Altgames | A loose grouping of games and makers who move away from genre and market concerns, tending to be smaller and more experimental in the search for expressive play. | p. 251
+term: Dynamics | The shifting relationships between elements in a system, and the outcomes when players and objects interact in a game. | p. 253
+term: Independent game | A game developed and published by an individual or a small team. | p. 254
+term: Player character | The onscreen figure that represents the player. | p. 256
+term: Play-centric | A way of designing games that puts first the experiences players have. | p. 256
+term: Pseudocode | Code written in no particular syntax, which sets out the logic of a program in plain steps. | p. 257
