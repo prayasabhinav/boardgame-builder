@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>boardgameBuilder · teacher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/base-ui.css">
+<link rel="stylesheet" href="/static/style.css">
+<style>
+  /* The teacher's sign-in in the tool's own look, set out like its Join a class dialog */
+  html, body { height: auto; }
+  body.k { overflow: auto; min-height: 100vh; background: var(--surface); }
+  .t-wrap { display: grid; place-items: center; min-height: calc(100vh - 56px); padding: 40px 16px; }
+  .t-card { width: min(30rem, 100%); background: white; border: 1px solid var(--surface-border); border-radius: 8px; padding: 30px 30px 26px; }
+  .section-eyebrow { font-size: 11.5px; color: var(--accent); }
+  h1 { font-family: var(--font-display); font-weight: 600; font-size: 28px; margin: 6px 0 10px; color: var(--ink); }
+  p { font-size: 15.5px; line-height: 1.55; color: var(--ink2); margin: 0 0 18px; }
+  label { display: block; margin-bottom: 14px; font-family: var(--font-label); font-size: 14px; color: var(--ink); }
+  input { display: block; width: 100%; box-sizing: border-box; margin-top: 5px; padding: 10px 12px; font: 16px var(--font-body); color: var(--ink); border: 1px solid var(--surface-border); border-radius: 4px; background: var(--surface); }
+  input:focus { outline: 2px solid var(--accent); outline-offset: 1px; background: white; }
+  .k-btn-primary { width: 100%; margin-top: 6px; }
+  .error { font-family: var(--font-label); font-size: 14px; color: #9c3a1e; background: #f8e6df; border-radius: 4px; padding: 9px 12px; margin: 0 0 12px; }
+  .t-note { margin: 18px 0 0; font-size: 13.5px; font-style: italic; }
+  @media (max-width: 860px) { .k-tool-tag { display: none; } .k-header-inner { padding: 0 16px; } }
+</style>
+</head>
+<body class="k" data-theme="playshape">
+<header class="k-header">
+  <div class="k-header-inner">
+    <div class="k-tool-identity">
+      <span class="k-tool-name">boardgameBuilder</span>
+      <span class="k-tool-tag">teacher's page</span>
+    </div>
+    <div class="k-header-right">
+      <a href="/" class="k-header-link">Open the tool</a>
+    </div>
+  </div>
+</header>
+<div class="t-wrap">
+  <div class="t-card">
+    <span class="section-eyebrow">Teachers only</span>
+    <h1>Sign in</h1>
+    <p>The teacher's page starts a class and shows which students have a marked pair on their canvas. Sign in with the name and password you were given.</p>
+    <form id="form">
+      <label>Name <input id="name" autocomplete="username" required></label>
+      <label>Password <input id="password" type="password" autocomplete="current-password" required></label>
+      <p class="error" id="error" role="alert" hidden></p>
+      <button class="k-btn-primary" type="submit">Sign in</button>
+    </form>
+    <p class="error" id="off" hidden>Teacher sign-in is not set up on this server, so no class can be started here.</p>
+    <p class="t-note">Students do not sign in. They join a class from the tool's header with the code you give them.</p>
+  </div>
+</div>
+<script>
+fetch("/teacher/me").then((r) => r.json()).then((me) => { if (!me.logins) { document.getElementById("form").hidden = true; document.getElementById("off").hidden = false; } });
+document.getElementById("form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const error = document.getElementById("error");
+  error.hidden = true;
+  const resp = await fetch("/teacher/login", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name: document.getElementById("name").value, password: document.getElementById("password").value }),
+  }).catch(() => null);
+  if (resp && resp.ok) return location.reload();
+  error.textContent = resp && resp.status === 401 ? "That name and password do not match." : "Could not reach the server. Try again.";
+  error.hidden = false;
+});
+</script>
+</body>
+</html>

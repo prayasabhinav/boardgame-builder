@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.18.0 — 6 November 2026
+
+- Teachers sign in. `/teacher` shows a sign-in page until they do, and starting, reading and ending a class need a signed-in teacher; students still join without signing in. Logins are made with `teacher_logins.py`, and the server holds only salted hashes of the passwords.
+
 ## 0.17.0 — 6 November 2026
 
 - A teacher's dashboard at `/teacher`. The class code is shown large, with a link that fills it in for students (`#join/<code>`), and can be shown full screen for a projector. Students with a marked pair are listed by student, with each pair, why it is marked, its score and the rest of their blocks by slot, or by pair, with the names of the students who have it. A teacher can mark a student as looked at; the mark lasts until that student's pairs change and is kept in the teacher's browser.

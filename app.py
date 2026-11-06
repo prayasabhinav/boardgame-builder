@@ -9,16 +9,18 @@ Runs on localhost. Serves the frontend and exposes these endpoints:
 - POST /narrate   — stage 2 + 3 for one turn
 - POST /complete  — stage 3 final summary for Mark complete
 - POST /class, POST + GET /class/{code}/flags, GET /class/{code}/overview, DELETE /class/{code} — remote teacher mode, held in memory only
-- GET  /teacher   — the teacher's page
+- GET  /teacher   — the teacher's page, or its sign-in page; POST /teacher/login, /teacher/logout, GET /teacher/me
 """
 
+import hashlib
+import hmac
 import json
 import os
 import secrets
 import time
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
@@ -215,6 +217,37 @@ def complete(req: TurnRequest):
 CLASSES: dict[str, dict] = {}
 CLASS_LIFE = 24 * 3600
 
+# Teachers sign in (his words, 6 November 2026: "the teacher page should have a login"). TEACHER_LOGINS holds
+# name:salt.hash entries (hex), comma-separated, made by teacher_logins.py; the passwords themselves are never on the server.
+# With no TEACHER_LOGINS, nobody can start a class. A session is a signed cookie that lasts a week.
+TEACHERS = dict(e.split(":", 1) for e in os.environ.get("TEACHER_LOGINS", "").split(",") if ":" in e)
+SESSION_KEY = (os.environ.get("TEACHER_SECRET") or secrets.token_hex(32)).encode()
+SESSION_LIFE = 7 * 24 * 3600
+
+
+def _sign(text: str) -> str:
+    return hmac.new(SESSION_KEY, text.encode(), hashlib.sha256).hexdigest()
+
+
+def signed_in(request: Request) -> str:
+    """The signed-in teacher's name, or '' when there is none."""
+    name, _, rest = request.cookies.get("bgb_teacher", "").partition("|")
+    until, _, sig = rest.partition("|")
+    ok = name in TEACHERS and until.isdigit() and int(until) > time.time() and hmac.compare_digest(sig, _sign(f"{name}|{until}"))
+    return name if ok else ""
+
+
+def teacher_only(request: Request) -> str:
+    name = signed_in(request)
+    if not name:
+        raise HTTPException(401, "Sign in as a teacher first")
+    return name
+
+
+class Login(BaseModel):
+    name: str
+    password: str
+
 
 class Flags(BaseModel):
     name: str
@@ -223,8 +256,35 @@ class Flags(BaseModel):
     changed: bool = False   # the blocks on the canvas changed since the student's last report
 
 
+@app.post("/teacher/login")
+def teacher_login(login: Login, request: Request):
+    name = login.name.strip().lower()
+    salt, _, want = TEACHERS.get(name, "00.").partition(".")
+    got = hashlib.pbkdf2_hmac("sha256", login.password.encode(), bytes.fromhex(salt), 200_000).hex()
+    if name not in TEACHERS or not hmac.compare_digest(got, want):
+        time.sleep(1)   # slows guessing
+        raise HTTPException(401, "That name and password do not match")
+    until = str(int(time.time()) + SESSION_LIFE)
+    resp = JSONResponse({"ok": True, "name": name})
+    resp.set_cookie("bgb_teacher", f"{name}|{until}|{_sign(f'{name}|{until}')}", max_age=SESSION_LIFE, httponly=True,
+                    secure=request.url.scheme == "https" or request.headers.get("x-forwarded-proto") == "https", samesite="strict")
+    return resp
+
+
+@app.post("/teacher/logout")
+def teacher_logout():
+    resp = JSONResponse({"ok": True})
+    resp.delete_cookie("bgb_teacher")
+    return resp
+
+
+@app.get("/teacher/me")
+def teacher_me(request: Request):
+    return {"name": signed_in(request), "logins": bool(TEACHERS)}
+
+
 @app.post("/class")
-def new_class():
+def new_class(teacher: str = Depends(teacher_only)):
     now = time.time()
     for code in [c for c, v in CLASSES.items() if now - v["made"] > CLASS_LIFE]:
         del CLASSES[code]
@@ -254,7 +314,7 @@ def send_flags(code: str, f: Flags):
 
 
 @app.delete("/class/{code}")
-def end_class(code: str, key: str):
+def end_class(code: str, key: str, teacher: str = Depends(teacher_only)):
     c = CLASSES.get(code.upper())
     if c and secrets.compare_digest(key, c["key"]):
         del CLASSES[code.upper()]
@@ -262,7 +322,7 @@ def end_class(code: str, key: str):
 
 
 @app.get("/class/{code}/flags")
-def read_flags(code: str, key: str):
+def read_flags(code: str, key: str, teacher: str = Depends(teacher_only)):
     c = CLASSES.get(code.upper())
     if not c or not secrets.compare_digest(key, c["key"]):
         raise HTTPException(404, "No class has that code and key")
@@ -270,7 +330,7 @@ def read_flags(code: str, key: str):
 
 
 @app.get("/class/{code}/overview")
-def class_overview(code: str, key: str):
+def class_overview(code: str, key: str, teacher: str = Depends(teacher_only)):
     c = CLASSES.get(code.upper())
     if not c or not secrets.compare_digest(key, c["key"]):
         raise HTTPException(404, "No class has that code and key")
@@ -278,8 +338,9 @@ def class_overview(code: str, key: str):
 
 
 @app.get("/teacher")
-def teacher():
-    return HTMLResponse((STATIC_DIR / "teacher.html").read_text(encoding="utf-8"), headers={"Cache-Control": "no-cache"})
+def teacher(request: Request):
+    page = "teacher.html" if signed_in(request) else "teacher-login.html"
+    return HTMLResponse((STATIC_DIR / page).read_text(encoding="utf-8"), headers={"Cache-Control": "no-cache"})
 
 
 @app.get("/")

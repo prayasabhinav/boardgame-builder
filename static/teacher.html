@@ -6,157 +6,150 @@
 <title>boardgameBuilder · teacher</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/base-ui.css">
+<link rel="stylesheet" href="/static/style.css">
 <style>
-  :root {
-    --ground: #0a1428; --deep: #12213f; --cobalt: #1848c0; --cobalt-2: #3a6ae0; --mist: #9fb3e0;
-    --sheet: #f8f4ec; --ink: #0a1428; --warm: #e8a53a; --radius: 6px;
-    color-scheme: dark;
-  }
-  * { box-sizing: border-box; }
-  [hidden] { display: none !important; }
-  body { margin: 0; background: var(--ground); color: var(--sheet); font: 400 17px/1.55 "Mukta", "Noto Sans", "Segoe UI", sans-serif; }
-  button { font: 600 17px/1.2 "Mukta", "Noto Sans", sans-serif; border: 0; border-radius: var(--radius); padding: 12px 16px; cursor: pointer; text-align: left; }
-  button:focus-visible, a:focus-visible { outline: 3px solid var(--warm); outline-offset: 3px; }
-  .label { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
-
-  /* Two zones: the sheet to read and work on, the field holding the class code */
-  .page { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); min-height: 100vh; }
-  .sheet { background: var(--sheet); color: var(--ink); margin: 24px 0 24px 24px; border-radius: var(--radius); padding: 48px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35); min-width: 0; }
-  .field { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; gap: 24px; padding: 48px 32px; overflow-y: auto; }
-
-  /* Field */
-  .field .label { color: var(--mist); }
-  .name { font-size: 22px; font-weight: 800; margin: 4px 0 0; }
-  .middle { display: flex; flex-direction: column; gap: 16px; flex: 1; justify-content: center; }
-  .start { font-size: 22px; font-weight: 800; color: var(--ink); background: var(--warm); padding: 24px; }
-  .code { background: var(--warm); color: var(--ink); border-radius: var(--radius); padding: 24px; }
-  .code .label { color: var(--ink); }
-  .code b { display: block; font-size: 72px; font-weight: 800; line-height: 1; letter-spacing: 0.08em; margin: 8px 0 16px; }
-  .code .join { font-size: 14px; word-break: break-all; }
-  .row { display: flex; flex-wrap: wrap; gap: 8px; }
-  .on-ground { color: var(--sheet); background: var(--deep); }
-  .on-ground:hover { background: var(--cobalt); }
-  .end.armed { background: var(--sheet); color: var(--ink); }
-  .status { color: var(--mist); font-size: 14px; }
-  .foot { color: var(--mist); font-size: 14px; margin: 0; }
-
-  /* Sheet */
-  h1 { font-size: 48px; font-weight: 800; line-height: 1.1; margin: 0 0 16px; }
-  .intro { margin: 0 0 24px; max-width: 40em; }
-  .steps { margin: 0 0 32px; padding-left: 1.4em; max-width: 40em; }
-  .steps li { margin-bottom: 8px; }
-  .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
-  .views { display: flex; gap: 0; background: #e9e3d8; border-radius: var(--radius); padding: 4px; }
-  .views button { background: transparent; color: var(--ink); padding: 8px 16px; }
-  .views button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); }
-  .overview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 32px; }
-  .overview div { background: var(--ink); color: var(--sheet); border-radius: var(--radius); padding: 16px 24px; }
-  .overview b { display: block; font-size: 48px; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; }
-  .overview span { font-size: 14px; }
-  .since { font-size: 14px; margin: -24px 0 32px; }
-  .list { display: flex; flex-direction: column; gap: 16px; }
-  .empty { margin: 0; padding: 24px; background: #efe9de; border-radius: var(--radius); }
-
-  .card { background: #fff; border-radius: var(--radius); padding: 24px; display: flex; flex-direction: column; gap: 16px; }
-  .card.seen { background: #efe9de; }
-  .card.seen .pair, .card.seen .slots { opacity: 0.7; }
-  .card-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; }
-  .card-head h2 { font-size: 32px; font-weight: 800; line-height: 1.1; margin: 0; }
-  .when { font-size: 14px; }
-  .tag { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: var(--cobalt); color: var(--sheet); border-radius: var(--radius); padding: 2px 8px; }
-  .card-head .look { margin-left: auto; }
-  .look { background: var(--ink); color: var(--sheet); }
-  .card.seen .look { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px var(--ink); }
-  .pair { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 16px; background: #f3eee5; border-radius: var(--radius); }
-  .pair strong { font-size: 22px; font-weight: 800; line-height: 1.2; }
-  .pair .why { grid-column: 1 / -1; }
-  .score { font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; align-self: start; }
-  .who { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
-  .who span { background: var(--ink); color: var(--sheet); border-radius: var(--radius); padding: 2px 10px; font-weight: 600; }
-  .slots { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 16px; font-size: 14px; margin: 0; }
-  .slots dt { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
-  .slots dd { margin: 0; }
-
-  /* Full screen, for a projector */
-  .show { position: fixed; inset: 0; background: var(--ground); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; padding: 48px 24px; text-align: center; z-index: 10; }
-  .show .label { color: var(--mist); font-size: 22px; }
-  .show b { display: block; background: var(--warm); color: var(--ink); border-radius: var(--radius); padding: 24px 48px; font-size: min(22vw, 220px); font-weight: 800; line-height: 1; letter-spacing: 0.08em; }
-  .show p { font-size: 32px; font-weight: 600; margin: 0; word-break: break-all; }
-  .show button { position: absolute; top: 24px; right: 24px; }
-
-  @media (max-width: 900px) {
-    .page { grid-template-columns: minmax(0, 1fr); }
-    .field { order: -1; position: static; height: auto; padding: 24px 16px; }
-    .middle { justify-content: flex-start; }
-    .sheet { margin: 0 16px 16px; padding: 24px; }
-    h1 { font-size: 32px; }
-    .code b { font-size: 48px; }
-    .card-head h2 { font-size: 22px; }
-    .overview { gap: 8px; }
-    .overview div { padding: 12px; }
-    .overview b { font-size: 32px; }
-    .show p { font-size: 22px; }
+  /* The teacher's page in the tool's own look: base-ui.css and style.css, the playshape theme, a palette-like column and canvas-like cards */
+  html, body { height: auto; }
+  body.k { overflow: auto; min-height: 100vh; background: var(--surface); }
+  .t-main { display: grid; grid-template-columns: 340px minmax(0, 1fr); min-height: calc(100vh - 56px); }
+  .t-side { background: var(--surface-inner); border-right: 1px solid var(--surface-border); padding: 26px 24px 32px; display: flex; flex-direction: column; gap: 22px; }
+  .t-body { padding: 30px 36px 48px; min-width: 0; }
+  .section-eyebrow { font-size: 11.5px; color: var(--ink2); }
+  .eyebrow-accent { color: var(--accent); }
+  .t-title { font-family: var(--font-display); font-weight: 600; font-size: 30px; line-height: 1.15; margin: 6px 0 10px; color: var(--ink); }
+  .t-hint { font-style: italic; color: var(--ink2); margin: 0; font-size: 15.5px; line-height: 1.55; max-width: 38em; }
+  .t-steps { margin: 14px 0 0; padding-left: 1.3em; color: var(--ink); font-size: 15.5px; line-height: 1.55; }
+  .t-steps li { margin-bottom: 6px; }
+  .t-panel { background: white; border: 1px solid var(--surface-border); border-radius: 8px; padding: 20px; }
+  .t-code { font-family: var(--font-mono); font-weight: 500; font-size: 46px; letter-spacing: 0.18em; color: var(--ink); margin: 8px 0 6px; line-height: 1; }
+  .t-join { font-family: var(--font-mono); font-size: 12px; color: var(--ink2); word-break: break-all; margin: 0 0 14px; }
+  .t-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .t-row .k-btn-outline, .t-side .k-btn-outline { border-color: var(--surface-border); color: var(--ink2); background: white; padding: 9px 14px; }
+  .t-side .k-btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+  .t-start { width: 100%; font-size: 15px; padding: 14px 20px; }
+  .t-end.armed { background: #9c3a1e; border-color: #9c3a1e; color: white; }
+  .t-status { font-family: var(--font-label); font-size: 12.5px; color: var(--ink2); margin: 0; line-height: 1.5; }
+  .t-foot { margin-top: auto; font-size: 13.5px; font-style: italic; color: var(--ink2); line-height: 1.5; }
+  .t-me { font-family: var(--font-label); font-size: 12.5px; color: #D5DADB; }
+  .t-scores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 10px 0 8px; }
+  .t-scores div { background: white; border: 1px solid var(--surface-border); border-radius: 8px; padding: 14px 16px 12px; }
+  .t-scores b { display: block; font-family: var(--font-display); font-weight: 600; font-size: 38px; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .t-scores span { display: block; margin-top: 6px; font-family: var(--font-label); font-size: 13px; color: var(--ink2); }
+  .t-since { font-family: var(--font-label); font-size: 12.5px; color: var(--ink2); margin: 0 0 26px; }
+  .t-bar { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; margin: 4px 0 14px; padding-bottom: 12px; border-bottom: 1px solid var(--surface-border); }
+  .t-tabs { display: flex; border: 1px solid var(--surface-border); border-radius: 6px; overflow: hidden; background: var(--surface-inner); }
+  .t-tabs button { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink2); background: transparent; border: 0; padding: 9px 16px; cursor: pointer; }
+  .t-tabs button[aria-pressed="true"] { background: white; color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+  .list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: 16px; align-items: start; }
+  .list.pairs { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .empty { grid-column: 1 / -1; margin: 0; padding: 22px 24px; background: white; border: 1px dashed var(--surface-border); border-radius: 8px; font-style: italic; color: var(--ink2); }
+  .card { background: white; border: 1px solid var(--surface-border); border-radius: 8px; padding: 22px 24px 20px; }
+  .card.seen { background: var(--surface-inner); }
+  .card.seen .pair, .card.seen .slots { opacity: 0.65; }
+  .card-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin-bottom: 12px; }
+  .card h3 { font-family: var(--font-display); font-weight: 600; font-size: 22px; margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+  .tag { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: white; background: var(--accent); border-radius: 3px; padding: 2px 7px; }
+  .when { font-family: var(--font-label); font-size: 12.5px; color: var(--ink2); }
+  .pair { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 12px 14px; margin: 0 0 10px; border: 2px dashed var(--state-examine); border-radius: 6px; background: var(--surface); }
+  .pair strong { font-family: var(--font-display); font-weight: 600; font-size: 17px; color: var(--ink); }
+  .pair .score { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; color: #7a5f22; white-space: nowrap; align-self: center; }
+  .pair .why { grid-column: 1 / -1; font-size: 15px; line-height: 1.5; color: var(--ink2); }
+  .list.pairs .pair { margin: 0; background: white; padding: 16px 18px; }
+  .who { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .who span { font-family: var(--font-label); font-size: 13px; background: var(--accent-bg); color: var(--ink); border: 1px solid var(--accent); border-radius: 999px; padding: 2px 10px; }
+  .slots { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 3px 14px; margin: 6px 0 14px; font-size: 14.5px; }
+  .slots dt { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink2); padding-top: 3px; }
+  .slots dd { margin: 0; color: var(--ink); }
+  .look { font-size: 13px; padding: 9px 16px; }
+  .card.seen .look { background: transparent; color: var(--ink2); border: 1px solid var(--surface-border); }
+  .t-full { position: fixed; inset: 0; z-index: 20; background: var(--surface); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; padding: 48px 24px; text-align: center; }
+  .t-full .section-eyebrow { font-size: 18px; color: var(--accent); }
+  .t-full b { font-family: var(--font-mono); font-weight: 500; font-size: min(16vw, 200px); letter-spacing: 0.16em; line-height: 1; color: var(--ink); }
+  .t-full p { font-family: var(--font-mono); font-size: clamp(16px, 2.4vw, 30px); color: var(--ink2); margin: 0; word-break: break-all; }
+  .t-full .k-btn-outline { position: absolute; top: 20px; right: 20px; border-color: var(--surface-border); color: var(--ink2); }
+  @media (max-width: 860px) {
+    .t-main { grid-template-columns: minmax(0, 1fr); }
+    .t-side { border-right: 0; border-bottom: 1px solid var(--surface-border); }
+    .t-body { padding: 22px 16px 40px; }
+    .k-tool-tag { display: none; }
+    .t-me { display: none; }
+    .k-header-inner { padding: 0 16px; }
+    .k-header-right { gap: 16px; }
+    .t-scores b { font-size: 30px; }
   }
 </style>
 </head>
-<body>
-<div class="page">
-  <main class="sheet">
-    <h1>Your class</h1>
-    <p class="intro" id="intro">Start a class and give your students the code or the link. Whenever a student's canvas holds a marked pair, they appear here with the pair, why it is marked and the rest of their blocks, so you know whom to look in on. Placing a marked pair stays open to them.</p>
-    <ol class="steps" id="steps">
-      <li>Press <b>Start a class</b>.</li>
-      <li>Students open the link, or open boardgameBuilder, press <b>Join a class</b> in the header and type the code.</li>
-      <li>They type their name and design as usual.</li>
-    </ol>
+<body class="k" data-theme="playshape">
+<header class="k-header">
+  <div class="k-header-inner">
+    <div class="k-tool-identity">
+      <span class="k-tool-name">boardgameBuilder</span>
+      <span class="k-tool-tag">teacher's page</span>
+    </div>
+    <div class="k-header-right">
+      <span class="t-me" id="me"></span>
+      <a href="/" class="k-header-link">Open the tool</a>
+      <a href="#" class="k-header-link" id="signOut">Sign out</a>
+    </div>
+  </div>
+</header>
+<div class="t-main">
+  <aside class="t-side">
+    <section id="none">
+      <span class="section-eyebrow eyebrow-accent">Class · not started</span>
+      <h1 class="t-title">Start a class</h1>
+      <p class="t-hint" id="intro">You get a five-letter code. Give it to your students, or the link.</p>
+      <ol class="t-steps" id="steps">
+        <li>Press <b>Start a class</b>.</li>
+        <li>Students open the link, or open boardgameBuilder and press <b>Join a class</b> in the header.</li>
+        <li>They type their name and design as usual.</li>
+      </ol>
+      <p style="margin:18px 0 0"><button class="k-btn-primary t-start" id="start" type="button">Start a class</button></p>
+    </section>
+    <section id="live" hidden>
+      <span class="section-eyebrow eyebrow-accent">Class · open</span>
+      <div class="t-panel" style="margin-top:10px">
+        <span class="section-eyebrow">Class code</span>
+        <div class="t-code" id="code"></div>
+        <p class="t-join" id="join"></p>
+        <div class="t-row">
+          <button class="k-btn-outline" id="copyLink" type="button">Copy the link</button>
+          <button class="k-btn-outline" id="showFull" type="button">Show it full screen</button>
+        </div>
+      </div>
+      <p class="t-status" id="status" style="margin-top:14px"></p>
+      <p style="margin:14px 0 0"><button class="k-btn-outline t-end" id="end" type="button">End the class</button></p>
+    </section>
+    <p class="t-foot">Nothing is written to disk, and it all goes when the class ends. A student leaves the list when the pair leaves their canvas or they leave the class. The counts are for the class as a whole. Which students you have looked at is kept in this browser only.</p>
+  </aside>
+  <main class="t-body">
+    <span class="section-eyebrow">Teacher's page</span>
+    <h2 class="t-title">Your class</h2>
+    <p class="t-hint" style="margin-bottom:24px">Whenever a student's canvas holds a marked pair, they appear here with the pair, why it is marked and the rest of their blocks, so you know whom to look in on. Placing a marked pair stays open to them.</p>
     <section id="overviewBox" hidden>
-      <p class="label">This class so far</p>
-      <div class="overview">
+      <span class="section-eyebrow">This class so far</span>
+      <div class="t-scores">
         <div><b id="joined">0</b><span>students joined</span></div>
         <div><b id="changes">0</b><span>changes to their canvases</span></div>
         <div><b id="flagged">0</b><span>students placed a marked pair</span></div>
       </div>
-      <p class="since" id="since"></p>
+      <p class="t-since" id="since"></p>
     </section>
-    <div class="bar" id="bar" hidden>
-      <span class="label">Students with a marked pair</span>
-      <div class="views" role="group" aria-label="Show">
+    <div class="t-bar" id="bar" hidden>
+      <span class="section-eyebrow">Students with a marked pair</span>
+      <div class="t-tabs" role="group" aria-label="Show">
         <button type="button" id="byStudent" aria-pressed="true">By student</button>
         <button type="button" id="byPair" aria-pressed="false">By pair</button>
       </div>
     </div>
     <div class="list" id="list"><p class="empty">Start a class to see your students here.</p></div>
   </main>
-  <aside class="field">
-    <div>
-      <div class="label">Teacher</div>
-      <p class="name">boardgameBuilder</p>
-    </div>
-    <div class="middle">
-      <section id="none" class="middle">
-        <button class="start" id="start" type="button">Start a class</button>
-      </section>
-      <section id="live" class="middle" hidden>
-        <div class="code">
-          <span class="label">Class code</span>
-          <b id="code"></b>
-          <div class="join" id="join"></div>
-        </div>
-        <div class="row">
-          <button class="on-ground" id="copyLink" type="button">Copy the link</button>
-          <button class="on-ground" id="showFull" type="button">Show it full screen</button>
-        </div>
-        <div class="status" id="status"></div>
-        <button class="on-ground end" id="end" type="button">End the class</button>
-      </section>
-    </div>
-    <p class="foot">Nothing is written to disk, and it all goes when the class ends. A student leaves the list when the pair leaves their canvas or they leave the class. The counts are for the class as a whole. Which students you have looked at is kept in this browser only.</p>
-  </aside>
 </div>
-<div class="show" id="full" hidden>
-  <button class="on-ground" id="closeFull" type="button">Close</button>
-  <span class="label">Join the class</span>
+<div class="t-full" id="full" hidden>
+  <button class="k-btn-outline" id="closeFull" type="button">Close</button>
+  <span class="section-eyebrow">Join the class</span>
   <b id="fullCode"></b>
   <p id="fullJoin"></p>
 </div>
@@ -207,6 +200,7 @@ function render() {
   const list = $("list");
   $("bar").hidden = !cls;
   if (!cls) return;
+  list.classList.toggle("pairs", view === "pair" && students.length > 0);
   if (!students.length) { list.innerHTML = `<p class="empty">No student has a marked pair on their canvas.</p>`; return; }
   const seen = seenStore();
   if (view === "pair") {
@@ -219,17 +213,18 @@ function render() {
   list.innerHTML = order.map((s) => {
     const looked = seen[s.name] === sig(s);
     return `<article class="card${looked ? " seen" : ""}">
-      <div class="card-head"><h2>${esc(s.name)}</h2>${looked ? "" : `<span class="tag">${seen[s.name] ? "Changed" : "New"}</span>`}
-        <span class="when">${ago(s.at)}</span>
-        <button class="look" type="button" data-name="${esc(s.name)}">${looked ? "Looked at" : "Mark as looked at"}</button></div>
+      <div class="card-head"><h3>${esc(s.name)}</h3>${looked ? "" : `<span class="tag">${seen[s.name] ? "Changed" : "New"}</span>`}
+        <span class="when">${ago(s.at)}</span></div>
       ${s.unusual.map((u) => pairHtml(u)).join("")}
       ${slotsHtml(s.mechanics)}
+      <button class="k-btn-primary look" type="button" data-name="${esc(s.name)}">${looked ? "Looked at" : "Mark as looked at"}</button>
     </article>`;
   }).join("");
 }
 
 async function refresh() {
   const resp = await fetch(`/class/${cls.code}/flags?key=${encodeURIComponent(cls.key)}`).catch(() => null);
+  if (resp && resp.status === 401) return location.reload();   // signed out: the sign-in page comes back
   if (resp && resp.status === 404) return stop("This class has ended.");
   if (!resp || !resp.ok) { $("status").textContent = "Could not reach the server; trying again."; return; }
   students = await resp.json();
@@ -261,12 +256,13 @@ function stop(message) {
   try { localStorage.removeItem(`${KEY}-seen-${cls.code}`); localStorage.removeItem(KEY); } catch (_) {}
   cls = null; students = [];
   $("live").hidden = true; $("none").hidden = false; $("steps").hidden = false; $("intro").hidden = false; $("full").hidden = true;
-  $("bar").hidden = true; $("overviewBox").hidden = true;
+  $("bar").hidden = true; $("overviewBox").hidden = true; $("list").classList.remove("pairs");
   $("list").innerHTML = `<p class="empty">${esc(message || "Start a class to see your students here.")}</p>`;
 }
 
 $("start").addEventListener("click", async () => {
   const resp = await fetch("/class", { method: "POST" }).catch(() => null);
+  if (resp && resp.status === 401) return location.reload();
   if (!resp || !resp.ok) { $("list").innerHTML = `<p class="empty">Could not start a class. Try again.</p>`; return; }
   cls = { ...(await resp.json()), made: Date.now() };
   try { localStorage.setItem(KEY, JSON.stringify(cls)); } catch (_) {}
@@ -300,7 +296,11 @@ $("list").addEventListener("click", (e) => {
   if (s) { setSeen(s.name, seenStore()[s.name] === sig(s) ? null : sig(s)); render(); }
 });
 
+$("signOut").addEventListener("click", async (e) => {
+  e.preventDefault(); await fetch("/teacher/logout", { method: "POST" }).catch(() => {}); location.reload(); });
+
 (async () => {
+  fetch("/teacher/me").then((r) => r.json()).then((me) => { $("me").textContent = `Signed in as ${me.name}`; }).catch(() => {});
   const palette = await (await fetch("/palette")).json();
   for (const d of palette.dimensions) { slots[d.id] = d.display; for (const b of d.blocks) names[b.id] = b.display; }
   try { cls = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (_) {}
