@@ -496,7 +496,8 @@ function markUnusual() {
     if (missing.length === 0) u.blocks.forEach((b) => (notes[b] = u.note));
     else if (missing.length === 1) notes[missing[0]] = u.note;   // a palette block that would make the pair
   }
-  const seen = readClass() ? " In your class, your teacher sees this pair." : "";
+  const cls = readClass();
+  const seen = !cls ? "" : exploring(cls) ? " You are exploring: your teacher sees this pair, marked as exploration, and will not review it." : " In your class, your teacher sees this pair.";
   document.querySelectorAll(".block[data-block-id]").forEach((el) => {
     const note = notes[el.dataset.blockId];
     el.classList.toggle("unusual", !!note);
@@ -523,16 +524,39 @@ function reportFlags() {
   sendFlags(cls, unusual, changed).catch(() => {});
 }
 
+const exploring = (cls) => !!cls && cls.exploreUntil > Date.now();
+
 function renderClassLink() {
   const cls = readClass();
   const link = document.getElementById("classLink");
   link.textContent = cls ? `Class ${cls.code} · ${cls.name} · leave` : "Join a class";
+  const ex = document.getElementById("exploreLink");
+  ex.hidden = !cls;
+  ex.textContent = exploring(cls) ? `Exploring until ${new Date(cls.exploreUntil).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })} · stop` : "Explore for 2 hours";
+}
+
+// Exploration time: two hours in which the teacher sees any unusual pair, marked as exploration, and does not review it
+async function toggleExplore(e) {
+  e.preventDefault();
+  const cls = readClass();
+  if (!cls) return;
+  const resp = await fetch(`/class/${encodeURIComponent(cls.code)}/explore`, {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: cls.name, on: !exploring(cls) }),
+  }).catch(() => null);
+  if (!resp || !resp.ok) return;
+  const { until } = await resp.json();
+  cls.exploreUntil = until ? until * 1000 : 0;
+  try { localStorage.setItem(CLASS_KEY, JSON.stringify(cls)); } catch (_) {}
+  renderClassLink();
+  markUnusual();
 }
 
 function setupClass() {
   const dialog = document.getElementById("classDialog");
   const error = document.getElementById("classError");
   renderClassLink();
+  setInterval(renderClassLink, 30000);   // the header shows when exploration time has run out
+  document.getElementById("exploreLink").addEventListener("click", toggleExplore);
   document.getElementById("classLink").addEventListener("click", async (e) => {
     e.preventDefault();
     const cls = readClass();

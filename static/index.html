@@ -49,6 +49,7 @@
         <a href="#" class="k-header-link" id="openGameLink" title="Open a design saved earlier">Open game</a>
         <input type="file" id="openGameInput" accept=".md,text/markdown,text/plain" hidden />
         <a href="#" class="k-header-link" id="classLink" title="Join your teacher's class, so they see any unusual pair you place">Join a class</a>
+        <a href="#" class="k-header-link" id="exploreLink" hidden title="Two hours to try things out: your teacher still sees any unusual pair, marked as exploration, and will not review it">Explore for 2 hours</a>
         <a href="#" class="k-header-link" id="startFreshLink" title="Clear saved design and start over">Start fresh</a>
       </div>
     </div>
@@ -120,7 +121,7 @@
     <dialog class="class-dialog" id="classDialog">
       <form id="classForm">
         <h3>Join a class</h3>
-        <p>Your teacher gives you a code. Some pairs of blocks are unusual; you can still place them. While you are in the class, when your canvas has an unusual pair, your name, your blocks and the pair go to your teacher. Your teacher also sees, for the whole class, how many students joined, how many changes they made and how many put an unusual pair together; nothing is counted for you alone. Nothing is written down, and it all goes when the class ends, after a day at most.</p>
+        <p>Your teacher gives you a code. Some pairs of blocks are unusual; you can still place them. While you are in the class, when your canvas has an unusual pair, your name, your blocks and the pair go to your teacher. Your teacher also sees, for the whole class, how many students joined, how many changes they made and how many put an unusual pair together; nothing is counted for you alone. Once you are in, <b>Explore for 2 hours</b> in the header gives you two hours to try things out: your teacher still sees any unusual pair, marked as exploration, and does not review it. Nothing is written down, and it all goes when the class ends, after a day at most.</p>
         <label>Class code <input id="classCode" required maxlength="5" autocomplete="off" spellcheck="false"></label>
         <label>Your name <input id="className" required maxlength="60" autocomplete="name"></label>
         <p class="class-error" id="classError" hidden></p>

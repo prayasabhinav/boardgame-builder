@@ -52,6 +52,9 @@
   .card-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin-bottom: 12px; }
   .card h3 { font-family: var(--font-display); font-weight: 600; font-size: 22px; margin: 0; color: var(--ink); overflow-wrap: anywhere; }
   .tag { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: white; background: var(--accent); border-radius: 3px; padding: 2px 7px; }
+  .tag.explore { background: #3d6f8c; }
+  .card.exploring { border-style: dashed; }
+  .explore-note { font-style: italic; font-size: 14.5px; color: var(--ink2); margin: 4px 0 0; }
   .when { font-family: var(--font-label); font-size: 12.5px; color: var(--ink2); }
   .pair { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 12px 14px; margin: 0 0 10px; border: 2px dashed var(--state-examine); border-radius: 6px; background: var(--surface); }
   .pair strong { font-family: var(--font-display); font-weight: 600; font-size: 17px; color: var(--ink); }
@@ -164,6 +167,8 @@ function esc(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const nameOf = (id) => names[id] || id;
 const joinLink = () => `${location.origin}/#join/${cls.code}`;
 const pairKey = (u) => [...u.blocks].sort().join("+");
+const exploringNow = (s) => !!s.exploring_until && s.exploring_until * 1000 > Date.now();
+const clock = (t) => new Date(t * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 // What a student's pairs are, so a looked-at mark lasts until the pairs change
 const sig = (s) => s.unusual.map(pairKey).sort().join(" ");
 
@@ -205,19 +210,22 @@ function render() {
   const seen = seenStore();
   if (view === "pair") {
     const groups = {};
-    for (const s of students) for (const u of s.unusual) (groups[pairKey(u)] ||= { u, who: [] }).who.push(s.name);
+    for (const s of students) for (const u of s.unusual) (groups[pairKey(u)] ||= { u, who: [] }).who.push(exploringNow(s) ? `${s.name} · exploring` : s.name);
     list.innerHTML = Object.values(groups).sort((a, b) => b.who.length - a.who.length).map((g) => pairHtml(g.u, g.who)).join("");
     return;
   }
-  const order = [...students].sort((a, b) => (seen[a.name] === sig(a)) - (seen[b.name] === sig(b)) || b.at - a.at);
+  // Students to look at first, then those in exploration time, then those already looked at
+  const rank = (s) => (exploringNow(s) ? 1 : seen[s.name] === sig(s) ? 2 : 0);
+  const order = [...students].sort((a, b) => rank(a) - rank(b) || b.at - a.at);
   list.innerHTML = order.map((s) => {
-    const looked = seen[s.name] === sig(s);
-    return `<article class="card${looked ? " seen" : ""}">
-      <div class="card-head"><h3>${esc(s.name)}</h3>${looked ? "" : `<span class="tag">${seen[s.name] ? "Changed" : "New"}</span>`}
+    const looked = seen[s.name] === sig(s), ex = exploringNow(s);
+    const tag = ex ? `<span class="tag explore">Exploring until ${clock(s.exploring_until)} · not for review</span>` : looked ? "" : `<span class="tag">${seen[s.name] ? "Changed" : "New"}</span>`;
+    return `<article class="card${looked ? " seen" : ""}${ex ? " exploring" : ""}">
+      <div class="card-head"><h3>${esc(s.name)}</h3>${tag}
         <span class="when">${ago(s.at)}</span></div>
       ${s.unusual.map((u) => pairHtml(u)).join("")}
       ${slotsHtml(s.mechanics)}
-      <button class="k-btn-primary look" type="button" data-name="${esc(s.name)}">${looked ? "Looked at" : "Mark as looked at"}</button>
+      ${ex ? `<p class="explore-note">This student asked for exploration time, so these clashes are for trying things out. Nothing here is for review until it ends.</p>` : `<button class="k-btn-primary look" type="button" data-name="${esc(s.name)}">${looked ? "Looked at" : "Mark as looked at"}</button>`}
     </article>`;
   }).join("");
 }

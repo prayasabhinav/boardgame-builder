@@ -8,7 +8,7 @@ Runs on localhost. Serves the frontend and exposes these endpoints:
 - GET  /games/{id}.md — one known game as a Markdown file that Open game loads as a starting design
 - POST /narrate   — stage 2 + 3 for one turn
 - POST /complete  — stage 3 final summary for Mark complete
-- POST /class, POST + GET /class/{code}/flags, GET /class/{code}/overview, DELETE /class/{code} — remote teacher mode, held in memory only
+- POST /class, POST + GET /class/{code}/flags, POST /class/{code}/explore, GET /class/{code}/overview, DELETE /class/{code} — remote teacher mode, held in memory only
 - GET  /teacher   — the teacher's page, or its sign-in page; POST /teacher/login, /teacher/logout, GET /teacher/me
 """
 
@@ -217,6 +217,7 @@ def complete(req: TurnRequest):
 
 CLASSES: dict[str, dict] = {}
 CLASS_LIFE = 24 * 3600
+EXPLORE_LIFE = 2 * 3600   # exploration time: the teacher sees the student's clashing blocks but does not review them (his words, 6 November 2026)
 
 # Teachers sign in (his words, 6 November 2026: "the teacher page should have a login"). TEACHER_LOGINS holds
 # name:salt.hash entries (hex), comma-separated, made by teacher_logins.py; the passwords themselves are never on the server.
@@ -292,7 +293,7 @@ def new_class(teacher: str = Depends(teacher_only)):
     if len(CLASSES) >= 1000:
         raise HTTPException(503, "Too many classes are open; try again later")
     code = "".join(secrets.choice("ABCDEFGHJKLMNPQRSTUVWXYZ23456789") for _ in range(5))
-    CLASSES[code] = {"key": secrets.token_urlsafe(16), "made": now, "students": {}, "joined": set(), "flagged": set(), "changes": 0}
+    CLASSES[code] = {"key": secrets.token_urlsafe(16), "made": now, "students": {}, "joined": set(), "flagged": set(), "changes": 0, "exploring": {}}
     return {"code": code, "key": CLASSES[code]["key"]}
 
 
@@ -314,6 +315,25 @@ def send_flags(code: str, f: Flags):
     return {"ok": True}
 
 
+class Explore(BaseModel):
+    name: str
+    on: bool
+
+
+@app.post("/class/{code}/explore")
+def explore(code: str, e: Explore):
+    """A student starts or stops two hours of exploration time; only the end time is held, with the rest of the class."""
+    c = CLASSES.get(code.upper())
+    name = e.name.strip()[:60]
+    if not c or name not in c["joined"]:
+        raise HTTPException(404, "No class has that code and student")
+    if e.on:
+        c["exploring"][name] = time.time() + EXPLORE_LIFE
+    else:
+        c["exploring"].pop(name, None)
+    return {"until": c["exploring"].get(name)}
+
+
 @app.delete("/class/{code}")
 def end_class(code: str, key: str, teacher: str = Depends(teacher_only)):
     c = CLASSES.get(code.upper())
@@ -327,7 +347,9 @@ def read_flags(code: str, key: str, teacher: str = Depends(teacher_only)):
     c = CLASSES.get(code.upper())
     if not c or not secrets.compare_digest(key, c["key"]):
         raise HTTPException(404, "No class has that code and key")
-    return sorted(c["students"].values(), key=lambda s: s["at"], reverse=True)
+    now = time.time()
+    live = {n: t for n, t in c["exploring"].items() if t > now}
+    return sorted(({**s, "exploring_until": live.get(s["name"])} for s in c["students"].values()), key=lambda s: s["at"], reverse=True)
 
 
 @app.get("/class/{code}/overview")
