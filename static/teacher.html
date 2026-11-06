@@ -55,7 +55,7 @@
   .when { font-family: var(--font-label); font-size: 12.5px; color: var(--ink2); }
   .pair { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 12px 14px; margin: 0 0 10px; border: 2px dashed var(--state-examine); border-radius: 6px; background: var(--surface); }
   .pair strong { font-family: var(--font-display); font-weight: 600; font-size: 17px; color: var(--ink); }
-  .pair .score { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; color: #7a5f22; white-space: nowrap; align-self: center; }
+  .pair .score { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em; color: #7a5f22; white-space: nowrap; align-self: center; }
   .pair .why { grid-column: 1 / -1; font-size: 15px; line-height: 1.5; color: var(--ink2); }
   .list.pairs .pair { margin: 0; background: white; padding: 16px 18px; }
   .who { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
@@ -174,11 +174,8 @@ function setSeen(name, value) {
   try { localStorage.setItem(`${KEY}-seen-${cls.code}`, JSON.stringify(seen)); } catch (_) {}
 }
 
-// A note reads "<why>. Needs a look: N of 10. Is that ...?"; the dashboard shows why, and the score apart
-function splitNote(note) {
-  const m = note.match(/^(.*?)\s*Needs a look: (\d+) of 10\./);
-  return m ? { why: m[1], score: m[2] } : { why: note, score: "" };
-}
+// A note ends with a question for the student; the teacher sees why the blocks clash
+const whyOf = (note) => note.replace(/\s*Is that the new thing in your game, or a clash\?$/, "");
 
 function ago(at) {
   const min = Math.floor((Date.now() / 1000 - at) / 60);
@@ -186,10 +183,11 @@ function ago(at) {
 }
 
 function pairHtml(u, who) {
-  const { why, score } = splitNote(u.note);
+  // p: the small model's probability that the two cannot both hold, never shown as certain either way
+  const pct = typeof u.p === "number" ? Math.min(99, Math.max(1, Math.round(u.p * 100))) : null;
   return `<div class="pair"><strong>${u.blocks.map((b) => esc(nameOf(b))).join(" + ")}</strong>
-    <span class="score">${score ? `${esc(score)} of 10` : ""}</span>
-    <span class="why">${esc(why)}</span>
+    <span class="score">${pct === null ? "" : `${pct}% likely to clash`}</span>
+    <span class="why">${esc(whyOf(u.note))}</span>
     ${who ? `<span class="who">${who.map((n) => `<span>${esc(n)}</span>`).join("")}</span>` : ""}</div>`;
 }
 

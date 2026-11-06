@@ -1,22 +1,18 @@
 """Writes review.json, the pairs the tool flags as illogical, from properties.json (what cannot be true of one game at the table),
-with a needs-review score from 1 to 10 for every pair from his own small model: logistic regression on the table's properties,
-trained on keys.jsonl alone, which were drawn from pairs no known game shows, so novelty
-itself raises no score (his words: "Needs review score does not have to penalise novelty"; trained with the known-game pairs as fine,
-fine pairs of core mechanics no known game uses were scored 5 or 8 three times as often as others) (his words, 6 November 2026: "If the model only makes a need
-review score from 1 to 10 it's ok", "My own small model only", "The rating should be reliable", "It is never 0 or 10", "Make it work. Make 1 to 10 broader of easier"). The model's output
-is calibrated to the share of r among keys it did not train on (five folds), then put in one of three broad steps on the 1-to-10
-scale: 2 (under a quarter), 5 (a quarter to two thirds), 8 (over two thirds). Trained on illogical pairs only, a pair kept its step in every
-one of 12 retrainings, and on held-out keys 0% of pairs at 2 and 94% at 8 were illogical (AUC 0.972); no pair falls at 5. The labels
-and the table come from one reading, so the score agrees with the flag; a key of his is what would make it say something the flag
-does not. The table decides what is flagged and why.
+and for every pair a probability that the two blocks clash, from his own small model.
 
 A pair is a core mechanic and a block from another slot. It is flagged when the partner clashes with something the core mechanic
 makes or settles, so the two cannot both hold; a pair that is only unusual is not flagged ("More than unusual the scale and flag
-should be for the illogical"). The labels: a key of his, r or f; a pattern-read key counts as r only when illogical.txt lists it. A pair a known game has is never flagged. A key of Prayas's in
-keys.jsonl outranks the table; the pattern-read keys there are the test the table is checked against, and the counts are printed.
-Usage: python3 review-model/rules.py
+should be for the illogical"). A pair a known game has is never flagged, and a key of Prayas's in keys.jsonl outranks the table.
+
+The probability (his words, 6 November 2026: "My own small model only", "so if the model says 2 and 8 its not a score, it is
+boolean", "I was hoping a probility of illogical rtather than black and white"): logistic regression on the table's properties,
+trained on clash-votes.jsonl, where three independent readers asked of each of 720 sampled pairs whether both blocks can be true
+of the same game, and a pair's label is the share who said no (unsure counts half). His own keys outrank the readers (r 1, f 0).
+Measured on held-out pairs before it went in: Brier 0.0116, correlation 0.80 with the readers' share; pairs it put near 85% were
+said no by 81% of readers, near 1% by 1%. Usage: python3 review-model/rules.py
 """
-import datetime, json, math, os, random, sys
+import datetime, json, math, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from sheet import seen_pairs, keyed, DIMENSIONS, NAME
 
@@ -42,43 +38,23 @@ def prob(w, x):
 
 
 def fit(rows):
-    """Logistic regression with an L2 penalty; the few needs-review rows weigh as much in total as the many fine ones."""
-    w, pos = {}, sum(y for _, y in rows)
-    for _ in range(300):
-        g = {k: 0.02 * v for k, v in w.items()}
+    """Logistic regression on soft labels (a share between 0 and 1), with a light L2 penalty."""
+    w = {}
+    for _ in range(3000):
+        g = {k: 0.0005 * v for k, v in w.items()}
         for x, y in rows:
-            e = (prob(w, x) - y) * ((len(rows) - pos) / pos if y else 1)
+            e = prob(w, x) - y
             for k, v in x.items():
                 g[k] = g.get(k, 0) + e * v / len(rows)
         for k, v in g.items():
-            w[k] = w.get(k, 0) - 0.5 * v
+            w[k] = w.get(k, 0) - v
     return w
-
-
-def calibrate(labelled, keys):
-    """Platt scaling: a, b such that sigmoid(a * logit + b) matches the share of r among held-out keys."""
-    logit = lambda q: math.log(max(q, 1e-6) / max(1 - q, 1e-6))
-    held = [p for p in keys if p in labelled]
-    random.Random(1).shuffle(held)
-    pts = []
-    for k in range(5):
-        test = set(held[k::5])
-        w = fit([(features(*p), y) for p, y in labelled.items() if p not in test])
-        pts += [(logit(prob(w, features(*p))), labelled[p]) for p in test]
-    a, b = 1.0, 0.0
-    for _ in range(3000):
-        ga = gb = 0
-        for z, y in pts:
-            e = 1 / (1 + math.exp(-(a * z + b))) - y
-            ga, gb = ga + e * z, gb + e
-        a, b = a - 0.05 * ga / len(pts), b - 0.05 * gb / len(pts)
-    return lambda q: 1 / (1 + math.exp(-(a * logit(q) + b)))
 
 
 core = [b["id"] for b in DIMENSIONS[0]["blocks"]]
 assert set(core) == set(MAKES), set(core) ^ set(MAKES)
 seen, keys = seen_pairs(), keyed()
-ILLOGICAL = {tuple(l.split("+")) for l in open("review-model/illogical.txt").read().split("\n") if l and not l.startswith("#")}
+VOTES = {tuple(r["pair"].split("+")): r["share_no"] for r in map(json.loads, open("review-model/clash-votes.jsonl"))}
 pairs = [(c, b["id"]) for c in core for d in DIMENSIONS[1:] for b in d["blocks"]]
 reasons = {}
 for c, b in pairs:
@@ -86,18 +62,14 @@ for c, b in pairs:
     r = "a teacher has marked this pair for a look" if by == "Prayas" and k == "r" else "" if by == "Prayas" or (c, b) in seen else reason(c, b)
     if r:
         reasons[f"{c}+{b}"] = r
-labelled = {p: int(k == "r" and (by == "Prayas" or p in ILLOGICAL)) for p, (k, by) in keys.items() if k != "?"}
-w, cal = fit([(features(*p), y) for p, y in labelled.items()]), calibrate(labelled, keys)
-STEPS = [(0.25, 2), (0.65, 5), (1.01, 8)]
-score = {f"{c}+{b}": next(s for edge, s in STEPS if cal(prob(w, features(c, b))) < edge) for c, b in pairs}
-json.dump({"made": datetime.date.today().isoformat(), "from": "review-model/rules.py", "flagged": list(reasons), "reasons": reasons, "score": score},
+labelled = VOTES | {p: int(k == "r") for p, (k, by) in keys.items() if by == "Prayas" and k != "?"}
+w = fit([(features(*p), y) for p, y in labelled.items()])
+p_clash = {f"{c}+{b}": round(prob(w, features(c, b)), 3) for c, b in pairs}
+json.dump({"made": datetime.date.today().isoformat(), "from": "review-model/rules.py", "flagged": list(reasons), "reasons": reasons, "p_clash": p_clash},
           open("review.json", "w"), indent=1)
-read = {p: labelled[p] for p, (k, by) in keys.items() if by == "pattern read" and k != "?"}
-agree = sum(y == bool(reason(*p)) for p, y in read.items())
-miss = [p for p, y in read.items() if y and not reason(*p)]
-extra = [p for p, y in read.items() if not y and reason(*p)]
+agree = sum((y >= 0.5) == bool(reason(*p)) for p, y in VOTES.items())
 known = [p for p in seen if p[0] in MAKES and reason(*p)]
 print(f"wrote review.json: {len(reasons)} of {len(pairs)} pairs flagged")
-print(f"against the read keys, illogical ones as r: {agree} of {len(read)} agree; {len(miss)} illogical the table does not flag, {len(extra)} others it flags")
-print("  not flagged:", ", ".join("+".join(p) for p in miss)); print("  flagged:", ", ".join("+".join(p) for p in extra))
+print(f"against the readers: {agree} of {len(VOTES)} pairs where the table flags exactly those most readers said no to")
+print("flagged pairs by probability:", sorted(__import__("collections").Counter(round(p_clash[k], 1) for k in reasons).items()))
 print(f"known-game pairs the table would flag (never flagged on screen): {len(known)}")

@@ -55,10 +55,11 @@ def _palette_payload() -> dict:
     enriched_feels = _enrich(FEELINGS)
     # The pairs a placed block is marked unusual against; placing them stays allowed, and in a class the teacher sees them
     unusual = [{"blocks": c["elements"], "note": c["student_note"] + cite(c)} for c in KB["conflicts"]]
-    # Pairs review-model/rules.py marks from its table, with the reason; a pair no known game has is not marked for that alone
+    # Pairs review-model/rules.py marks from its table, with the reason; a pair no known game has is not marked for that alone.
+    # p is the small model's probability that the two blocks clash (review-model/rules.py); the teacher's page shows it, the student's note does not.
     if (ROOT / "review.json").exists():
         review = json.loads((ROOT / "review.json").read_text(encoding="utf-8"))
-        unusual += [{"blocks": p.split("+"), "note": f"{review['reasons'][p][0].upper()}{review['reasons'][p][1:]}. Needs a look: {review['score'][p]} of 10. Is that the new thing in your game, or a clash?"}
+        unusual += [{"blocks": p.split("+"), "note": f"{review['reasons'][p][0].upper()}{review['reasons'][p][1:]}. Is that the new thing in your game, or a clash?", "p": review["p_clash"][p]}
                     for p in review["flagged"]]
     return {"dimensions": enriched_dims, "feelings": enriched_feels, "unusual": unusual}
 

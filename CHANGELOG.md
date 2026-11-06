@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.18.3 — 6 November 2026
+
+- The teacher's page shows, beside each clashing pair, how likely the two blocks are to clash, as a percentage. It comes from a small model trained on 2,160 answers: three independent readers asked of each of 720 sampled pairs whether both blocks can be true of the same game (`review-model/clash-votes.jsonl`). On pairs it had not seen, pairs it put near 85% were said to clash by 81% of readers, and pairs near 1% by 1%. It replaces the *Needs a look: N of 10* score, which was 8 for every flagged pair and 2 for every other, a yes or no written as a number. Students see the reason, not the percentage.
+
 ## 0.18.2 — 6 November 2026
 
 - The teacher's page says what it shows in plain words, with an example, where it said *marked pair*: two blocks a student has put together that contradict each other, such as *chase and tag*, where everyone runs at once, with *take turns*. The student sees both marked *unusual*. The join dialog says *unusual pair*, the word students see.
