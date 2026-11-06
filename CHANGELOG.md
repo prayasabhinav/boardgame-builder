@@ -4,6 +4,13 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.17.0 — 6 November 2026
+
+- A teacher's dashboard at `/teacher`. The class code is shown large, with a link that fills it in for students (`#join/<code>`), and can be shown full screen for a projector. Students with a marked pair are listed by student, with each pair, why it is marked, its score and the rest of their blocks by slot, or by pair, with the names of the students who have it. A teacher can mark a student as looked at; the mark lasts until that student's pairs change and is kept in the teacher's browser.
+- An overview of the class as a whole: how many students joined, how many changes they made to their canvases and how many placed a marked pair. Nothing is counted for one student alone. To count each student once, the server keeps the names of those who joined, in memory, until the class ends; students are told so before they join.
+- Ending a class takes two presses.
+- `check.py` runs in seconds and skips the checks when nothing they read has changed (`check-log.txt`).
+
 ## 0.16.0 — 6 November 2026
 
 - Unusual pairs are marked. If the knowledge base says two blocks on the canvas pull against each other, both are marked *unusual*, and hovering shows why. A palette block that would make such a pair is marked before it is dropped. Nothing stops anyone placing them.

@@ -4,88 +4,305 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>boardgameBuilder · teacher</title>
-<link rel="stylesheet" href="/static/base-ui.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-  body { margin: 0; padding: 2rem max(1rem, 4vw); background: var(--surface); color: var(--ink); font-family: var(--font-body); }
-  main { max-width: 52rem; margin: 0 auto; }
-  h1 { font-family: var(--font-display); margin: 0 0 0.4rem; }
-  .code { font: 600 2.6rem var(--font-mono); letter-spacing: 0.2em; margin: 0.4rem 0; }
-  .muted { color: var(--ink2); }
-  #none { margin-top: 1.2rem; }
-  .student { border-top: 1px solid var(--surface-border); padding: 1rem 0; }
-  .student h2 { font-family: var(--font-display); font-size: 1.2rem; margin: 0 0 0.4rem; }
-  .pair { margin: 0.3rem 0; padding: 0.5rem 0.7rem; border-left: 3px dashed var(--state-examine); background: var(--surface-inner); }
-  .blocks { font-family: var(--font-label); font-size: 0.85rem; color: var(--ink2); margin-top: 0.5rem; }
-  button { margin-right: 0.6rem; }
+  :root {
+    --ground: #0a1428; --deep: #12213f; --cobalt: #1848c0; --cobalt-2: #3a6ae0; --mist: #9fb3e0;
+    --sheet: #f8f4ec; --ink: #0a1428; --warm: #e8a53a; --radius: 6px;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--ground); color: var(--sheet); font: 400 17px/1.55 "Mukta", "Noto Sans", "Segoe UI", sans-serif; }
+  button { font: 600 17px/1.2 "Mukta", "Noto Sans", sans-serif; border: 0; border-radius: var(--radius); padding: 12px 16px; cursor: pointer; text-align: left; }
+  button:focus-visible, a:focus-visible { outline: 3px solid var(--warm); outline-offset: 3px; }
+  .label { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+
+  /* Two zones: the sheet to read and work on, the field holding the class code */
+  .page { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); min-height: 100vh; }
+  .sheet { background: var(--sheet); color: var(--ink); margin: 24px 0 24px 24px; border-radius: var(--radius); padding: 48px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35); min-width: 0; }
+  .field { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; gap: 24px; padding: 48px 32px; overflow-y: auto; }
+
+  /* Field */
+  .field .label { color: var(--mist); }
+  .name { font-size: 22px; font-weight: 800; margin: 4px 0 0; }
+  .middle { display: flex; flex-direction: column; gap: 16px; flex: 1; justify-content: center; }
+  .start { font-size: 22px; font-weight: 800; color: var(--ink); background: var(--warm); padding: 24px; }
+  .code { background: var(--warm); color: var(--ink); border-radius: var(--radius); padding: 24px; }
+  .code .label { color: var(--ink); }
+  .code b { display: block; font-size: 72px; font-weight: 800; line-height: 1; letter-spacing: 0.08em; margin: 8px 0 16px; }
+  .code .join { font-size: 14px; word-break: break-all; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .on-ground { color: var(--sheet); background: var(--deep); }
+  .on-ground:hover { background: var(--cobalt); }
+  .end.armed { background: var(--sheet); color: var(--ink); }
+  .status { color: var(--mist); font-size: 14px; }
+  .foot { color: var(--mist); font-size: 14px; margin: 0; }
+
+  /* Sheet */
+  h1 { font-size: 48px; font-weight: 800; line-height: 1.1; margin: 0 0 16px; }
+  .intro { margin: 0 0 24px; max-width: 40em; }
+  .steps { margin: 0 0 32px; padding-left: 1.4em; max-width: 40em; }
+  .steps li { margin-bottom: 8px; }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+  .views { display: flex; gap: 0; background: #e9e3d8; border-radius: var(--radius); padding: 4px; }
+  .views button { background: transparent; color: var(--ink); padding: 8px 16px; }
+  .views button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); }
+  .overview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .overview div { background: var(--ink); color: var(--sheet); border-radius: var(--radius); padding: 16px 24px; }
+  .overview b { display: block; font-size: 48px; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .overview span { font-size: 14px; }
+  .since { font-size: 14px; margin: -24px 0 32px; }
+  .list { display: flex; flex-direction: column; gap: 16px; }
+  .empty { margin: 0; padding: 24px; background: #efe9de; border-radius: var(--radius); }
+
+  .card { background: #fff; border-radius: var(--radius); padding: 24px; display: flex; flex-direction: column; gap: 16px; }
+  .card.seen { background: #efe9de; }
+  .card.seen .pair, .card.seen .slots { opacity: 0.7; }
+  .card-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; }
+  .card-head h2 { font-size: 32px; font-weight: 800; line-height: 1.1; margin: 0; }
+  .when { font-size: 14px; }
+  .tag { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: var(--cobalt); color: var(--sheet); border-radius: var(--radius); padding: 2px 8px; }
+  .card-head .look { margin-left: auto; }
+  .look { background: var(--ink); color: var(--sheet); }
+  .card.seen .look { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px var(--ink); }
+  .pair { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 16px; background: #f3eee5; border-radius: var(--radius); }
+  .pair strong { font-size: 22px; font-weight: 800; line-height: 1.2; }
+  .pair .why { grid-column: 1 / -1; }
+  .score { font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; align-self: start; }
+  .who { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .who span { background: var(--ink); color: var(--sheet); border-radius: var(--radius); padding: 2px 10px; font-weight: 600; }
+  .slots { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 16px; font-size: 14px; margin: 0; }
+  .slots dt { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  .slots dd { margin: 0; }
+
+  /* Full screen, for a projector */
+  .show { position: fixed; inset: 0; background: var(--ground); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; padding: 48px 24px; text-align: center; z-index: 10; }
+  .show .label { color: var(--mist); font-size: 22px; }
+  .show b { display: block; background: var(--warm); color: var(--ink); border-radius: var(--radius); padding: 24px 48px; font-size: min(22vw, 220px); font-weight: 800; line-height: 1; letter-spacing: 0.08em; }
+  .show p { font-size: 32px; font-weight: 600; margin: 0; word-break: break-all; }
+  .show button { position: absolute; top: 24px; right: 24px; }
+
+  @media (max-width: 900px) {
+    .page { grid-template-columns: minmax(0, 1fr); }
+    .field { order: -1; position: static; height: auto; padding: 24px 16px; }
+    .middle { justify-content: flex-start; }
+    .sheet { margin: 0 16px 16px; padding: 24px; }
+    h1 { font-size: 32px; }
+    .code b { font-size: 48px; }
+    .card-head h2 { font-size: 22px; }
+    .overview { gap: 8px; }
+    .overview div { padding: 12px; }
+    .overview b { font-size: 32px; }
+    .show p { font-size: 22px; }
+  }
 </style>
 </head>
-<body class="k" data-theme="playshape">
-<main>
-  <h1>Teacher</h1>
-  <p class="muted">Start a class and give its code to your students. They join from boardgameBuilder's header with <em>Join a class</em>. Placing an unusual pair of blocks stays open to them; when one of them does, their name, the pair and their blocks appear here, so you know whom to review. Nothing is written to disk: a student leaves this list when the pair leaves their canvas, and the class ends after a day or when you end it.</p>
-  <section id="none">
-    <button class="k-btn-primary" id="start" type="button">Start a class</button>
-  </section>
-  <section id="live" hidden>
-    <p class="muted">Class code</p>
-    <div class="code" id="code"></div>
-    <p><button class="k-btn-outline" id="end" type="button">End the class</button><span class="muted" id="status"></span></p>
-    <div id="list"></div>
-  </section>
-</main>
+<body>
+<div class="page">
+  <main class="sheet">
+    <h1>Your class</h1>
+    <p class="intro" id="intro">Start a class and give your students the code or the link. Whenever a student's canvas holds a marked pair, they appear here with the pair, why it is marked and the rest of their blocks, so you know whom to look in on. Placing a marked pair stays open to them.</p>
+    <ol class="steps" id="steps">
+      <li>Press <b>Start a class</b>.</li>
+      <li>Students open the link, or open boardgameBuilder, press <b>Join a class</b> in the header and type the code.</li>
+      <li>They type their name and design as usual.</li>
+    </ol>
+    <section id="overviewBox" hidden>
+      <p class="label">This class so far</p>
+      <div class="overview">
+        <div><b id="joined">0</b><span>students joined</span></div>
+        <div><b id="changes">0</b><span>changes to their canvases</span></div>
+        <div><b id="flagged">0</b><span>students placed a marked pair</span></div>
+      </div>
+      <p class="since" id="since"></p>
+    </section>
+    <div class="bar" id="bar" hidden>
+      <span class="label">Students with a marked pair</span>
+      <div class="views" role="group" aria-label="Show">
+        <button type="button" id="byStudent" aria-pressed="true">By student</button>
+        <button type="button" id="byPair" aria-pressed="false">By pair</button>
+      </div>
+    </div>
+    <div class="list" id="list"><p class="empty">Start a class to see your students here.</p></div>
+  </main>
+  <aside class="field">
+    <div>
+      <div class="label">Teacher</div>
+      <p class="name">boardgameBuilder</p>
+    </div>
+    <div class="middle">
+      <section id="none" class="middle">
+        <button class="start" id="start" type="button">Start a class</button>
+      </section>
+      <section id="live" class="middle" hidden>
+        <div class="code">
+          <span class="label">Class code</span>
+          <b id="code"></b>
+          <div class="join" id="join"></div>
+        </div>
+        <div class="row">
+          <button class="on-ground" id="copyLink" type="button">Copy the link</button>
+          <button class="on-ground" id="showFull" type="button">Show it full screen</button>
+        </div>
+        <div class="status" id="status"></div>
+        <button class="on-ground end" id="end" type="button">End the class</button>
+      </section>
+    </div>
+    <p class="foot">Nothing is written to disk, and it all goes when the class ends. A student leaves the list when the pair leaves their canvas or they leave the class. The counts are for the class as a whole. Which students you have looked at is kept in this browser only.</p>
+  </aside>
+</div>
+<div class="show" id="full" hidden>
+  <button class="on-ground" id="closeFull" type="button">Close</button>
+  <span class="label">Join the class</span>
+  <b id="fullCode"></b>
+  <p id="fullJoin"></p>
+</div>
 <script>
 const KEY = "bgb-teacher";
-let cls = null, names = {}, timer = null;
+let cls = null, names = {}, slots = {}, timer = null, students = [], view = "student", armed = null;
 
+const $ = (id) => document.getElementById(id);
 function esc(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]); }
-function name(id) { return names[id] || id; }
+const nameOf = (id) => names[id] || id;
+const joinLink = () => `${location.origin}/#join/${cls.code}`;
+const pairKey = (u) => [...u.blocks].sort().join("+");
+// What a student's pairs are, so a looked-at mark lasts until the pairs change
+const sig = (s) => s.unusual.map(pairKey).sort().join(" ");
+
+function seenStore() { try { return JSON.parse(localStorage.getItem(`${KEY}-seen-${cls.code}`) || "{}"); } catch (_) { return {}; } }
+function setSeen(name, value) {
+  const seen = seenStore();
+  if (value) seen[name] = value; else delete seen[name];
+  try { localStorage.setItem(`${KEY}-seen-${cls.code}`, JSON.stringify(seen)); } catch (_) {}
+}
+
+// A note reads "<why>. Needs a look: N of 10. Is that ...?"; the dashboard shows why, and the score apart
+function splitNote(note) {
+  const m = note.match(/^(.*?)\s*Needs a look: (\d+) of 10\./);
+  return m ? { why: m[1], score: m[2] } : { why: note, score: "" };
+}
+
+function ago(at) {
+  const min = Math.floor((Date.now() / 1000 - at) / 60);
+  return min < 1 ? "changed just now" : min === 1 ? "changed a minute ago" : min < 60 ? `changed ${min} minutes ago` : `changed ${Math.floor(min / 60)} h ${min % 60} min ago`;
+}
+
+function pairHtml(u, who) {
+  const { why, score } = splitNote(u.note);
+  return `<div class="pair"><strong>${u.blocks.map((b) => esc(nameOf(b))).join(" + ")}</strong>
+    <span class="score">${score ? `${esc(score)} of 10` : ""}</span>
+    <span class="why">${esc(why)}</span>
+    ${who ? `<span class="who">${who.map((n) => `<span>${esc(n)}</span>`).join("")}</span>` : ""}</div>`;
+}
+
+function slotsHtml(mechanics) {
+  const rows = Object.entries(mechanics).map(([slot, picked]) => [slot, [].concat(picked).filter(Boolean)]).filter(([, p]) => p.length);
+  return `<dl class="slots">${rows.map(([slot, p]) => `<dt>${esc(slots[slot] || slot)}</dt><dd>${p.map((b) => esc(nameOf(b))).join(" · ")}</dd>`).join("")}</dl>`;
+}
+
+function render() {
+  const list = $("list");
+  $("bar").hidden = !cls;
+  if (!cls) return;
+  if (!students.length) { list.innerHTML = `<p class="empty">No student has a marked pair on their canvas.</p>`; return; }
+  const seen = seenStore();
+  if (view === "pair") {
+    const groups = {};
+    for (const s of students) for (const u of s.unusual) (groups[pairKey(u)] ||= { u, who: [] }).who.push(s.name);
+    list.innerHTML = Object.values(groups).sort((a, b) => b.who.length - a.who.length).map((g) => pairHtml(g.u, g.who)).join("");
+    return;
+  }
+  const order = [...students].sort((a, b) => (seen[a.name] === sig(a)) - (seen[b.name] === sig(b)) || b.at - a.at);
+  list.innerHTML = order.map((s) => {
+    const looked = seen[s.name] === sig(s);
+    return `<article class="card${looked ? " seen" : ""}">
+      <div class="card-head"><h2>${esc(s.name)}</h2>${looked ? "" : `<span class="tag">${seen[s.name] ? "Changed" : "New"}</span>`}
+        <span class="when">${ago(s.at)}</span>
+        <button class="look" type="button" data-name="${esc(s.name)}">${looked ? "Looked at" : "Mark as looked at"}</button></div>
+      ${s.unusual.map((u) => pairHtml(u)).join("")}
+      ${slotsHtml(s.mechanics)}
+    </article>`;
+  }).join("");
+}
 
 async function refresh() {
   const resp = await fetch(`/class/${cls.code}/flags?key=${encodeURIComponent(cls.key)}`).catch(() => null);
   if (resp && resp.status === 404) return stop("This class has ended.");
-  if (!resp || !resp.ok) { document.getElementById("status").textContent = " Could not reach the server; trying again."; return; }
-  document.getElementById("status").textContent = "";
-  const students = await resp.json();
-  document.getElementById("list").innerHTML = students.length ? students.map((s) => `
-    <div class="student"><h2>${esc(s.name)}</h2>
-      ${s.unusual.map((u) => `<div class="pair"><strong>${u.blocks.map((b) => esc(name(b))).join(" + ")}</strong><br>${esc(u.note)}</div>`).join("")}
-      <div class="blocks">${Object.values(s.mechanics).flat().map((b) => esc(name(b))).join(" · ")}</div>
-    </div>`).join("") : `<p class="muted">No student has an unusual pair on their canvas.</p>`;
+  if (!resp || !resp.ok) { $("status").textContent = "Could not reach the server; trying again."; return; }
+  students = await resp.json();
+  const ov = await fetch(`/class/${cls.code}/overview?key=${encodeURIComponent(cls.key)}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  if (ov) {
+    $("joined").textContent = ov.joined; $("changes").textContent = ov.changes; $("flagged").textContent = ov.flagged;
+    const min = Math.floor((Date.now() / 1000 - ov.made) / 60);
+    cls.made = ov.made * 1000;
+    $("since").textContent = `For the whole class, since it started ${min < 1 ? "under a minute" : min === 1 ? "a minute" : min < 60 ? `${min} minutes` : `${Math.floor(min / 60)} h ${min % 60} min`} ago. A change is a block placed, moved or taken off. Nothing here is counted per student.`;
+  }
+  const ends = cls.made ? ` The class ends at ${new Date(cls.made + 24 * 3600 * 1000).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" })} unless you end it first.` : "";
+  $("status").textContent = `Up to date at ${new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}; checked every five seconds.${ends}`;
+  render();
 }
 
 function show() {
-  document.getElementById("none").hidden = true;
-  document.getElementById("live").hidden = false;
-  document.getElementById("code").textContent = cls.code;
+  $("none").hidden = true;
+  $("live").hidden = false;
+  $("steps").hidden = true; $("intro").hidden = true;
+  $("overviewBox").hidden = false;
+  $("code").textContent = $("fullCode").textContent = cls.code;
+  $("join").textContent = $("fullJoin").textContent = joinLink();
   refresh();
   timer = setInterval(refresh, 5000);
 }
 
 function stop(message) {
   clearInterval(timer);
-  try { localStorage.removeItem(KEY); } catch (_) {}
-  cls = null;
-  document.getElementById("live").hidden = true;
-  document.getElementById("none").hidden = false;
-  document.getElementById("list").innerHTML = "";
-  if (message) document.getElementById("none").insertAdjacentHTML("afterbegin", `<p class="muted">${esc(message)}</p>`);
+  try { localStorage.removeItem(`${KEY}-seen-${cls.code}`); localStorage.removeItem(KEY); } catch (_) {}
+  cls = null; students = [];
+  $("live").hidden = true; $("none").hidden = false; $("steps").hidden = false; $("intro").hidden = false; $("full").hidden = true;
+  $("bar").hidden = true; $("overviewBox").hidden = true;
+  $("list").innerHTML = `<p class="empty">${esc(message || "Start a class to see your students here.")}</p>`;
 }
 
-document.getElementById("start").addEventListener("click", async () => {
-  const resp = await fetch("/class", { method: "POST" });
-  if (!resp.ok) return;
-  cls = await resp.json();
+$("start").addEventListener("click", async () => {
+  const resp = await fetch("/class", { method: "POST" }).catch(() => null);
+  if (!resp || !resp.ok) { $("list").innerHTML = `<p class="empty">Could not start a class. Try again.</p>`; return; }
+  cls = { ...(await resp.json()), made: Date.now() };
   try { localStorage.setItem(KEY, JSON.stringify(cls)); } catch (_) {}
   show();
 });
-document.getElementById("end").addEventListener("click", async () => {
+$("end").addEventListener("click", async (e) => {
+  // Two presses end it, so a slip does not end a class
+  if (!e.currentTarget.classList.contains("armed")) {
+    e.currentTarget.classList.add("armed"); e.currentTarget.textContent = "Press again to end the class";
+    clearTimeout(armed); armed = setTimeout(() => { $("end").classList.remove("armed"); $("end").textContent = "End the class"; }, 4000);
+    return;
+  }
+  clearTimeout(armed); $("end").classList.remove("armed"); $("end").textContent = "End the class";
   await fetch(`/class/${cls.code}?key=${encodeURIComponent(cls.key)}`, { method: "DELETE" }).catch(() => {});
   stop();
+});
+$("copyLink").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText(joinLink()); $("copyLink").textContent = "Copied"; }
+  catch (_) { $("copyLink").textContent = "Select the link above to copy it"; }
+  setTimeout(() => ($("copyLink").textContent = "Copy the link"), 2500);
+});
+$("showFull").addEventListener("click", () => { $("full").hidden = false; $("closeFull").focus(); });
+$("closeFull").addEventListener("click", () => { $("full").hidden = true; $("showFull").focus(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("full").hidden = true; });
+$("byStudent").addEventListener("click", () => { view = "student"; $("byStudent").setAttribute("aria-pressed", "true"); $("byPair").setAttribute("aria-pressed", "false"); render(); });
+$("byPair").addEventListener("click", () => { view = "pair"; $("byPair").setAttribute("aria-pressed", "true"); $("byStudent").setAttribute("aria-pressed", "false"); render(); });
+$("list").addEventListener("click", (e) => {
+  const b = e.target.closest(".look");
+  if (!b) return;
+  const s = students.find((x) => x.name === b.dataset.name);
+  if (s) { setSeen(s.name, seenStore()[s.name] === sig(s) ? null : sig(s)); render(); }
 });
 
 (async () => {
   const palette = await (await fetch("/palette")).json();
-  for (const d of palette.dimensions) for (const b of d.blocks) names[b.id] = b.display;
+  for (const d of palette.dimensions) { slots[d.id] = d.display; for (const b of d.blocks) names[b.id] = b.display; }
   try { cls = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (_) {}
   if (cls) show();
 })();

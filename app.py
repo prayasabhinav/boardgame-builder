@@ -8,7 +8,7 @@ Runs on localhost. Serves the frontend and exposes these endpoints:
 - GET  /games/{id}.md — one known game as a Markdown file that Open game loads as a starting design
 - POST /narrate   — stage 2 + 3 for one turn
 - POST /complete  — stage 3 final summary for Mark complete
-- POST /class, POST + GET /class/{code}/flags, DELETE /class/{code} — remote teacher mode, held in memory only
+- POST /class, POST + GET /class/{code}/flags, GET /class/{code}/overview, DELETE /class/{code} — remote teacher mode, held in memory only
 - GET  /teacher   — the teacher's page
 """
 
@@ -208,6 +208,9 @@ def complete(req: TurnRequest):
 # --- Remote teacher mode ----------------------------------------------------
 # A class lives in this process's memory only: never written to disk, gone after a day or a restart.
 # A student's entry exists only while their canvas has an unusual pair: their name, their blocks and the pairs, replaced on every change.
+# For the class as a whole the teacher also sees how many students joined, how many changes they made to their canvases, and how many
+# placed a marked pair (his words, 6 November 2026: "I want usage statistics too - how many iterations how many students did. not
+# surveillance, just overview"); the names behind those counts are held only to count each student once, and nothing per student is shown.
 
 CLASSES: dict[str, dict] = {}
 CLASS_LIFE = 24 * 3600
@@ -217,6 +220,7 @@ class Flags(BaseModel):
     name: str
     mechanics: dict = {}
     unusual: list[dict] = []
+    changed: bool = False   # the blocks on the canvas changed since the student's last report
 
 
 @app.post("/class")
@@ -227,7 +231,7 @@ def new_class():
     if len(CLASSES) >= 1000:
         raise HTTPException(503, "Too many classes are open; try again later")
     code = "".join(secrets.choice("ABCDEFGHJKLMNPQRSTUVWXYZ23456789") for _ in range(5))
-    CLASSES[code] = {"key": secrets.token_urlsafe(16), "made": now, "students": {}}
+    CLASSES[code] = {"key": secrets.token_urlsafe(16), "made": now, "students": {}, "joined": set(), "flagged": set(), "changes": 0}
     return {"code": code, "key": CLASSES[code]["key"]}
 
 
@@ -237,9 +241,12 @@ def send_flags(code: str, f: Flags):
     if not c:
         raise HTTPException(404, "No class has that code")
     name = f.name.strip()[:60]
-    if not name or (name not in c["students"] and len(c["students"]) >= 300):
+    if not name or (name not in c["joined"] and len(c["joined"]) >= 300):
         raise HTTPException(400, "A name is needed")
+    c["joined"].add(name)
+    c["changes"] += f.changed
     if f.unusual:
+        c["flagged"].add(name)
         c["students"][name] = {"name": name, "mechanics": f.mechanics, "unusual": f.unusual[:20], "at": time.time()}
     else:
         c["students"].pop(name, None)   # nothing unusual on the canvas: nothing about this student is kept
@@ -260,6 +267,14 @@ def read_flags(code: str, key: str):
     if not c or not secrets.compare_digest(key, c["key"]):
         raise HTTPException(404, "No class has that code and key")
     return sorted(c["students"].values(), key=lambda s: s["at"], reverse=True)
+
+
+@app.get("/class/{code}/overview")
+def class_overview(code: str, key: str):
+    c = CLASSES.get(code.upper())
+    if not c or not secrets.compare_digest(key, c["key"]):
+        raise HTTPException(404, "No class has that code and key")
+    return {"joined": len(c["joined"]), "changes": c["changes"], "flagged": len(c["flagged"]), "made": c["made"]}
 
 
 @app.get("/teacher")

@@ -477,6 +477,7 @@ function renderMechanicsGrid() {
 const CLASS_KEY = "bgb-class";
 let UNUSUAL = [];
 let sentFlags = false;
+let lastCanvas = null;   // the blocks at the last report, so the class overview counts real changes and not redraws
 
 function readClass() {
   try { return JSON.parse(localStorage.getItem(CLASS_KEY) || "null"); } catch (_) { return null; }
@@ -503,19 +504,23 @@ function markUnusual() {
   });
 }
 
-async function sendFlags(cls, unusual) {
+async function sendFlags(cls, unusual, changed = false) {
   return fetch(`/class/${encodeURIComponent(cls.code)}/flags`, {
     method: "POST", headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ name: cls.name, mechanics: state.mechanics, unusual }),
+    body: JSON.stringify({ name: cls.name, mechanics: state.mechanics, unusual, changed }),
   });
 }
 
 function reportFlags() {
   const cls = readClass();
+  if (!cls) return;
+  const now = JSON.stringify(state.mechanics);
+  const changed = lastCanvas !== null && now !== lastCanvas;
+  lastCanvas = now;
   const unusual = unusualOnCanvas();
-  if (!cls || (!unusual.length && !sentFlags)) return;
+  if (!changed && !unusual.length && !sentFlags) return;
   sentFlags = unusual.length > 0;
-  sendFlags(cls, unusual).catch(() => {});
+  sendFlags(cls, unusual, changed).catch(() => {});
 }
 
 function renderClassLink() {
@@ -535,6 +540,7 @@ function setupClass() {
     await sendFlags(cls, []).catch(() => {});   // the teacher's list loses this student
     try { localStorage.removeItem(CLASS_KEY); } catch (_) {}
     sentFlags = false;
+    lastCanvas = null;
     renderClassLink();
     markUnusual();
   });
@@ -551,6 +557,7 @@ function setupClass() {
     }
     try { localStorage.setItem(CLASS_KEY, JSON.stringify(cls)); } catch (_) {}
     sentFlags = unusual.length > 0;
+    lastCanvas = JSON.stringify(state.mechanics);
     dialog.close();
     renderClassLink();
     markUnusual();
@@ -1023,7 +1030,7 @@ async function renderIdeas() {
 }
 
 // ── Addresses: every view has its own, so it can be linked, reloaded and reached with Back ──
-// #games, #games/<id>, #games/<id>/watch, #how-it-works, #blocks/<id>, #tests, #play, #play/<shared design>
+// #games, #games/<id>, #games/<id>/watch, #how-it-works, #blocks/<id>, #tests, #play, #play/<shared design>, #join/<class code>
 
 function go(hash) {
   location.hash = hash;
@@ -1043,6 +1050,16 @@ async function route() {
   if (view === "play") openPlay(id);
   showTab(view === "tests" || view === "ideas" ? view : "feedback");
   if (view === "how-it-works") openOnboarding();
+  if (view === "join") {
+    // A teacher's join link: the code is filled in, the student types their name; the address forgets the code
+    history.replaceState(null, "", location.pathname + location.search);
+    if (!readClass() && id) {
+      document.getElementById("classCode").value = id.toUpperCase();
+      document.getElementById("classError").hidden = true;
+      document.getElementById("classDialog").showModal();
+      document.getElementById("className").focus();
+    }
+  }
   if (view === "blocks") {
     const dim = state.dimensions.find((d) => d.blocks.some((b) => b.id === id));
     if (dim) openBlockModal(id, dim.id);
