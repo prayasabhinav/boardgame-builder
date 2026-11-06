@@ -128,18 +128,18 @@
   <main class="t-body">
     <span class="section-eyebrow">Teacher's page</span>
     <h2 class="t-title">Your class</h2>
-    <p class="t-hint" style="margin-bottom:24px">Whenever a student's canvas holds a marked pair, they appear here with the pair, why it is marked and the rest of their blocks, so you know whom to look in on. Placing a marked pair stays open to them.</p>
+    <p class="t-hint" style="margin-bottom:24px">Sometimes a student puts two blocks on their canvas that contradict each other: <em>chase and tag</em>, where everyone runs at once, with <em>take turns</em>, where players go one at a time. The game cannot do both. The tool still lets them, marks both blocks <em>unusual</em> on their screen, and shows them here with the two blocks, why they clash and the rest of their design, so you know whom to talk to. It may be a mistake, or the new idea in their game.</p>
     <section id="overviewBox" hidden>
       <span class="section-eyebrow">This class so far</span>
       <div class="t-scores">
         <div><b id="joined">0</b><span>students joined</span></div>
         <div><b id="changes">0</b><span>changes to their canvases</span></div>
-        <div><b id="flagged">0</b><span>students placed a marked pair</span></div>
+        <div><b id="flagged">0</b><span>students put two clashing blocks together</span></div>
       </div>
       <p class="t-since" id="since"></p>
     </section>
     <div class="t-bar" id="bar" hidden>
-      <span class="section-eyebrow">Students with a marked pair</span>
+      <span class="section-eyebrow">Students whose blocks clash</span>
       <div class="t-tabs" role="group" aria-label="Show">
         <button type="button" id="byStudent" aria-pressed="true">By student</button>
         <button type="button" id="byPair" aria-pressed="false">By pair</button>
@@ -203,7 +203,7 @@ function render() {
   $("bar").hidden = !cls;
   if (!cls) return;
   list.classList.toggle("pairs", view === "pair" && students.length > 0);
-  if (!students.length) { list.innerHTML = `<p class="empty">No student has a marked pair on their canvas.</p>`; return; }
+  if (!students.length) { list.innerHTML = `<p class="empty">No student has two clashing blocks on their canvas.</p>`; return; }
   const seen = seenStore();
   if (view === "pair") {
     const groups = {};

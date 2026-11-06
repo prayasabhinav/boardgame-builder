@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.18.2 — 6 November 2026
+
+- The teacher's page says what it shows in plain words, with an example, where it said *marked pair*: two blocks a student has put together that contradict each other, such as *chase and tag*, where everyone runs at once, with *take turns*. The student sees both marked *unusual*. The join dialog says *unusual pair*, the word students see.
+
 ## 0.18.1 — 6 November 2026
 
 - The teacher's page no longer says *This class has ended* when it opens on a class remembered from an earlier visit that had already ended, for instance in a restart. It clears it and shows the page ready to start a class; the message appears only when a class ends while the page is showing it.
