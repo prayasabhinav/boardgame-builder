@@ -821,6 +821,12 @@ function renderCompletionEntry(entry) {
   narration.className = "turn-narration";
   narration.textContent = entry.narration;
 
+  const develop = document.createElement("button");
+  develop.className = "k-btn-primary develop-further";
+  develop.type = "button";
+  develop.textContent = "Develop further";
+  develop.addEventListener("click", onDevelopFurther);
+
   const link = document.createElement("a");
   link.className = "start-again";
   link.textContent = "Start again";
@@ -829,6 +835,7 @@ function renderCompletionEntry(entry) {
 
   body.appendChild(header);
   body.appendChild(narration);
+  body.appendChild(develop);
   body.appendChild(link);
   block.appendChild(body);
 
@@ -842,6 +849,23 @@ function renderHistoryFromState() {
     if (entry.kind === "complete") renderCompletionEntry(entry);
     else renderTurnEntry(entry);
   }
+  if (!state.locked) document.querySelectorAll(".develop-further").forEach((b) => b.remove());
+}
+
+// Opens a completed design again, so it goes on from the turn it stopped at; its history, summary included, stays.
+function onDevelopFurther() {
+  state.locked = false;
+  document.querySelector(".app-main").classList.remove("locked");
+  document.getElementById("narrativeText").readOnly = false;
+  document.querySelector(".narrative").classList.remove("locked");
+  document.getElementById("feedbackActions").style.display = "";
+  document.querySelectorAll(".develop-further").forEach((b) => b.remove());
+  setButtonsEnabled(true);
+  renderPalette();
+  renderMechanicsGrid();
+  renderFeelingsShelf();
+  appendSystemMessage(`Developing further from turn ${state.turnNumber}. Change a block and press Iterate.`);
+  saveState();
 }
 
 function appendSystemMessage(msg) {

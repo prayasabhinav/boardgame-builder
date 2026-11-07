@@ -803,6 +803,8 @@ body {
   opacity: 0.55;
 }
 
+.develop-further { display: block; margin-top: 16px; }
+
 .start-again {
   display: inline-block;
   margin-top: 14px;

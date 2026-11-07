@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.syntax.prayasabhinav.net-2e7d32?style=flat-square)](https://boardgame.syntax.prayasabhinav.net)
-[![Version](https://img.shields.io/badge/version-0.19.0-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.20.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -52,7 +52,7 @@ The screen has three columns.
 - **Centre: the canvas.** A shelf for the feelings you want the game to have, one slot for each group of blocks, and a box below them for writing how the game plays.
 - **Right: the feedback.** Each press of **Iterate** reads the canvas and says what the combination tends to produce, what it brings, its trade-offs, any clash between blocks, whether the blocks serve the feelings you picked, and real games built on something similar where one has been checked.
 
-You change a block, press Iterate again and see what moved. **Mark complete** writes a closing summary and locks the canvas.
+You change a block, press Iterate again and see what moved. **Mark complete** writes a closing summary and locks the canvas; **Develop further**, under the summary, opens the same design again and carries on from the turn it stopped at.
 
 ## Using it
 
@@ -65,7 +65,7 @@ You change a block, press Iterate again and see what moved. **Mark complete** wr
 7. When a block has questions about how it works in your game, they open as you drop it; answer any you can, and change them later from the line under the block.
 8. **Test parts**, beside the feedback, has short tests of one block, or two together, to play with things at hand; say how each felt.
 9. Press **Play** to play the design on screen (see [Playing it on screen](#playing-it-on-screen)).
-10. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Start fresh** in the header clears everything.
+10. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Develop further** under it opens the design again; **Start fresh** in the header clears everything.
 
 Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file: the feelings, the blocks, how the game plays with its tags by box, and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
 

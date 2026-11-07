@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.20.0 — 7 November 2026
+
+- **Develop further.** Marking a design complete still writes the closing summary and greys out the canvas, and now the summary carries a **Develop further** button beside *Start again*. It opens the same design again: the blocks can be moved, Iterate and Mark complete come back, and the turn count goes on from where it stopped. The history, the summary included, stays in the feedback column.
+
 ## 0.19.0 — 6 November 2026
 
 - Exploration time. A student in a class can press **Explore for 2 hours** in the header. For two hours the teacher still sees any clashing blocks on their canvas, on a card marked *Exploring until* that time and *not for review*, with no button to mark it looked at and sorted below the students who need a look. The student can stop it early, or start it again when it ends. The server holds only the time it ends, in memory, gone when the class ends.
