@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.20.1 — 7 November 2026
+
+- Space between **Develop further** and *Start again* under the closing summary; the two touched.
+
 ## 0.20.0 — 7 November 2026
 
 - **Develop further.** Marking a design complete still writes the closing summary and greys out the canvas, and now the summary carries a **Develop further** button beside *Start again*. It opens the same design again: the blocks can be moved, Iterate and Mark complete come back, and the turn count goes on from where it stopped. The history, the summary included, stays in the feedback column.

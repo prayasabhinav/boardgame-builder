@@ -803,7 +803,8 @@ body {
   opacity: 0.55;
 }
 
-.develop-further { display: block; margin-top: 16px; }
+.turn-block .develop-further { margin: 16px 20px 0 0; vertical-align: middle; }
+.turn-block .develop-further + .start-again { vertical-align: middle; }
 
 .start-again {
   display: inline-block;
