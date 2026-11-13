@@ -1,7 +1,7 @@
 """Build interactions-drafted.json from the drafted/*.txt files and check them.
 
 Each line of a pairs file: a+b | tendency | pro | pro | con | con
-Each line of themes.txt:   theme-id | sentence
+Each line of themes.txt:   theme-id | sentence   (a kind of fun, fun-*, has one line here too, as a theme does)
 Run from the tool folder: python drafted/build.py   (exits 1 and says why if a check fails)
 """
 import itertools, json, pathlib, re, sys
@@ -10,13 +10,15 @@ sys.path.insert(0, ".")
 import palette
 
 STATUS = "drafted-20261016-unreviewed"
-STATUS_NEW = "drafted-20261106-unreviewed"  # 30-tentative-*.txt: pairs for the blocks added from the rule books
+STATUS_NEW = "drafted-20261106-unreviewed"
+STATUS_FUN = "drafted-20261113-unreviewed"  # the kinds of fun, one line each in themes.txt, from kinds-of-fun.json
+ONE_LINE = ("theme", "kind-of-fun")  # groups whose blocks get one line each instead of a line for every pair  # 30-tentative-*.txt: pairs for the blocks added from the rule books
 BANNED = re.compile(r"\b(should|must|good|bad|better|worse|best|worst|great|well done|amazing|perfect|excellent|awesome)\b", re.I)
 
 dim = {b["id"]: d["id"] for d in palette.DIMENSIONS for b in d["blocks"]}
 stacks = {d["id"] for d in palette.DIMENSIONS if d.get("multi")}
 curated = {frozenset(p["elements"]) for p in json.load(open("interactions.json"))["pairs"]}
-wanted = {frozenset(p) for p in itertools.combinations([b for b in dim if dim[b] != "theme"], 2)
+wanted = {frozenset(p) for p in itertools.combinations([b for b in dim if dim[b] not in ONE_LINE], 2)
           if (dim[p[0]] != dim[p[1]] or dim[p[0]] in stacks)} - curated
 
 problems, pairs, seen = [], [], set()
@@ -45,11 +47,11 @@ if tf.exists():
     for n, line in enumerate(tf.read_text().splitlines(), 1):
         if line.strip():
             tid, sentence = [c.strip() for c in line.split("|")]
-            if dim.get(tid) != "theme":
+            if dim.get(tid) not in ONE_LINE:
                 problems.append(f"themes.txt:{n}: {tid} is not a theme")
             for word in {m.lower() for m in BANNED.findall(sentence)}:
                 problems.append(f"themes.txt:{n}: banned word '{word}'")
-            themes.append({"theme": tid, "line": sentence, "verification_status": STATUS})
+            themes.append({"theme": tid, "line": sentence, "verification_status": STATUS_FUN if dim[tid] == "kind-of-fun" else STATUS})
 
 # feelings.txt: feeling | + blocks it supports | - blocks it works against; every other block is judged neither
 feeling_links = {}
@@ -87,7 +89,7 @@ for name in set(curated_feelings) - set(feeling_links):
     problems.append(f"feelings.txt: no line for {name}")
 
 missing = wanted - seen
-print(f"pairs written: {len(seen)} of {len(wanted)} | themes: {len(themes)} of {sum(v == 'theme' for v in dim.values())} | feelings: {len(feeling_links)} of {len(curated_feelings)}")
+print(f"pairs written: {len(seen)} of {len(wanted)} | themes: {len(themes)} of {sum(v in ONE_LINE for v in dim.values())} | feelings: {len(feeling_links)} of {len(curated_feelings)}")
 if missing:
     print(f"still missing ({len(missing)}): " + " ".join(sorted("+".join(sorted(m)) for m in missing))[:2000])
 for p in problems:

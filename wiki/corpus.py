@@ -87,8 +87,8 @@ def load():
 
     for bid, name in group_of.items():
         meta = meta_for(bid)
-        add(f"block:{bid}", "block", display[bid], "book" if meta.get("tentative") else "curated",
-            "tentative-20261106" if meta.get("tentative") else "written-for-the-tool",
+        add(f"block:{bid}", "block", display[bid], "book" if meta.get("tentative") or bid.startswith("fun-") else "curated",
+            "tentative-20261106" if meta.get("tentative") else "drafted-20261113-unreviewed" if bid.startswith("fun-") else "written-for-the-tool",
             group=name, text=meta["description"], svg=meta["svg"], elements=[bid], credit=meta.get("credit"))
 
     for fb in curated["feeling_blocks"]:

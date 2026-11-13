@@ -4,6 +4,11 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.21.0 — 13 November 2026
+
+- **Kind of fun**, a new group of 42 blocks, second after the core mechanic: the enjoyment a game is built to give, each named as the books on play and games name it (competition (agon), chance (alea), make-believe (mimicry), vertigo (ilinx), flow, hard fun, triumph (fiero), discovery, whimsy and the rest), with its definition and the books behind it under ? and in `kinds-of-fun.json`. A game can aim at several. The group is required: **Mark complete** asks for at least one before it writes the closing summary. Each kind has one line in the feedback, kept with the theme lines (`drafted/themes.txt`) and on the wiki; the lines are drafted and unreviewed.
+- **Save game** gives every file a name of its own: the core mechanics on the canvas and six characters worked out from the file, such as `drafting-set-collection-3k9x0a.md`, in place of `boardgame-design.md` every time.
+
 ## 0.20.1 — 7 November 2026
 
 - Space between **Develop further** and *Start again* under the closing summary; the two touched.

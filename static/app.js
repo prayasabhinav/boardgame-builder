@@ -250,6 +250,7 @@ function dimensionDisplayLabel(dim) {
 function dimensionLetter(dimId) {
   return {
     "core-mechanic": "C",
+    "kind-of-fun": "F",
     "victory-condition": "V",
     "player-interaction": "P",
     "chance-skill": "S",
@@ -731,6 +732,12 @@ async function onIterate() {
 
 async function onComplete() {
   if (state.locked || state.pending) return;
+  // A required group left empty stops Mark complete and says which (13 November 2026: "add a required group ... kind of fun")
+  const empty = state.dimensions.filter((d) => d.required && ![].concat(state.mechanics[d.id] || []).length);
+  if (empty.length) {
+    appendSystemMessage(`Before marking your game complete, choose at least one block from ${empty.map((d) => d.display.toLowerCase()).join(" and ")}: what kind of enjoyment is your game built to give?`);
+    return;
+  }
   state.pending = true;
   setButtonsEnabled(false);
   showThinking("Writing your game's summary...");
@@ -1714,6 +1721,16 @@ function displayOf(blockId) {
   return (state.feelings.find((f) => f.id === blockId) || {}).display || blockId;
 }
 
+// A file name of its own for every save: the core mechanics on the canvas, then six characters worked out from the whole
+// file, so two saves never share a name unless they are the same file (13 November 2026, his words: "allow md file
+// download - generate unique file names").
+function designFileName(text) {
+  let h = 2166136261;
+  for (const c of text) h = Math.imul(h ^ c.codePointAt(0), 16777619) >>> 0;
+  const core = [].concat(state.mechanics["core-mechanic"] || []).join("-") || "boardgame-design";
+  return `${core.slice(0, 50).replace(/-+$/, "")}-${h.toString(36).padStart(6, "0").slice(-6)}.md`;
+}
+
 async function onSaveGame() {
   const { tests, pairs } = await loadPartTests();
   const titles = Object.fromEntries([...pairs.map((p) => [p.blocks.join("+"), p.title]), ...Object.entries(tests).map(([b, t]) => [b, t.title])]);
@@ -1744,7 +1761,7 @@ async function onSaveGame() {
   lines.push("## Saved state", "", "boardgameBuilder reads this part back when the file is opened.", "", "```json", JSON.stringify(snapshot()), "```", "");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([lines.join("\n")], { type: "text/markdown" }));
-  a.download = "boardgame-design.md";
+  a.download = designFileName(lines.join("\n"));
   a.click();
   URL.revokeObjectURL(a.href);
 }

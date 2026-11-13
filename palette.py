@@ -34,6 +34,17 @@ DIMENSIONS = [
         ],
     },
     {
+        "id": "kind-of-fun",
+        "display": "Kind of fun",
+        "multi": True,
+        "colour": "violet",
+        "description": "The enjoyment the game is built to give, named as the books on play and games name it.",
+        "slot_label": "Kind of fun",
+        "need": "essential",
+        "required": True,
+        "blocks": [],
+    },
+    {
         "id": "victory-condition",
         "display": "Victory condition",
         "colour": "green",
@@ -177,6 +188,12 @@ DIMENSIONS = [
     },
 ]
 
+
+# Kinds of fun, from the play and game books (13 November 2026, his words: "add a required group with many elements of
+# "kind of fun" - term precisely - put elements from scraping ...", the path being the play and game research library). Each block's
+# ? text, books and lines are in kinds-of-fun.json; a design cannot be marked complete without one.
+next(d for d in DIMENSIONS if d["id"] == "kind-of-fun")["blocks"] = [
+    {"id": k["id"], "display": k["display"]} for k in __import__("json").loads((__import__("pathlib").Path(__file__).parent / "kinds-of-fun.json").read_text(encoding="utf-8"))]
 
 # Blocks proposed from the rule books on 6 November 2026 and added the same day, marked tentative (Prayas: "proposed
 # blocks are fine - key them tentatively"). They come after each group's own blocks; book-blocks.json holds their

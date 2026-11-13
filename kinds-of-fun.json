@@ -1,0 +1,1095 @@
+[
+ {
+  "id": "fun-competition",
+  "display": "competition (agon)",
+  "terms": "agon; agonistic games; competitive play",
+  "description": "The pleasure of testing your ability against a rival under rules built to make the contest fair, so that whoever wins has clearly shown superiority in one quality such as speed, memory or ingenuity.",
+  "books": [
+   "Roger Caillois, Man, Play and Games",
+   "Mihaly Csikszentmihalyi, Flow",
+   "Macklin and Sharp, Games, Design and Play"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "caillois_man-play-and-games.md",
+    "line": 573,
+    "their_term": "agon"
+   },
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 3656,
+    "their_term": "agonistic games"
+   },
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 2959,
+    "their_term": "competitive play"
+   }
+  ]
+ },
+ {
+  "id": "fun-chance",
+  "display": "chance (alea)",
+  "terms": "alea; games of chance; games of chance and uncertainty",
+  "description": "The pleasure of leaving the result to luck: waiting, hoping and risking a stake, with no skill able to change the outcome. In the milder sense Macklin and Sharp give, the pleasure of planning around unpredictable events.",
+  "books": [
+   "Roger Caillois, Man, Play and Games",
+   "Mihaly Csikszentmihalyi, Flow",
+   "Macklin and Sharp, Games, Design and Play"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "caillois_man-play-and-games.md",
+    "line": 683,
+    "their_term": "alea"
+   },
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 3670,
+    "their_term": "aleatory games"
+   },
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3362,
+    "their_term": "games of chance and uncertainty"
+   }
+  ]
+ },
+ {
+  "id": "fun-make-believe",
+  "display": "make believe (mimicry)",
+  "terms": "mimicry; make-believe",
+  "description": "The pleasure of accepting a pretended world, or of behaving as someone other than yourself, so that you feel more than your ordinary self through fantasy, disguise or pretence.",
+  "books": [
+   "Roger Caillois, Man, Play and Games",
+   "Mihaly Csikszentmihalyi, Flow",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "caillois_man-play-and-games.md",
+    "line": 777,
+    "their_term": "mimicry"
+   },
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 3698,
+    "their_term": "mimicry"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1404,
+    "their_term": "make-believe"
+   }
+  ]
+ },
+ {
+  "id": "fun-vertigo",
+  "display": "vertigo (ilinx)",
+  "terms": "ilinx; vertigo; intoxication",
+  "description": "The pleasure of deliberately unsettling your balance or perception, a short voluptuous panic in an otherwise clear mind, through spinning, falling, speed or other dizziness.",
+  "books": [
+   "Roger Caillois, Man, Play and Games",
+   "Mihaly Csikszentmihalyi, Flow",
+   "McKenzie Wark, Gamer Theory"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "caillois_man-play-and-games.md",
+    "line": 912,
+    "their_term": "ilinx"
+   },
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 3684,
+    "their_term": "vertigo"
+   },
+   {
+    "file": "wark_gamer-theory.md",
+    "line": 2375,
+    "their_term": "intoxication"
+   }
+  ]
+ },
+ {
+  "id": "fun-exuberance",
+  "display": "exuberance (paidia)",
+  "terms": "paidia; spontaneity; exhilaration",
+  "description": "The unplanned pleasure of free, noisy, improvised play with no purpose but itself, such as a kitten with wool or a baby with a rattle, tending to run to excess. Boyd names the same ground as spontaneity (acting freely as a whole person) plus exhilaration (a lift that is more than mere excitement).",
+  "books": [
+   "Roger Caillois, Man, Play and Games",
+   "Neva Boyd, Play and Game Theory in Group Work"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "caillois_man-play-and-games.md",
+    "line": 1092,
+    "their_term": "paidia"
+   },
+   {
+    "file": "boyd_play-and-game-theory-in-group-work.md",
+    "line": 3652,
+    "their_term": "spontaneity"
+   },
+   {
+    "file": "boyd_play-and-game-theory-in-group-work.md",
+    "line": 3656,
+    "their_term": "exhilaration"
+   }
+  ]
+ },
+ {
+  "id": "fun-challenge",
+  "display": "challenge (ludus)",
+  "terms": "ludus; enjoyment of challenge; obstacle",
+  "description": "The pleasure of working against a difficulty that has been set up for its own sake, an obstacle and not an opponent, and of reaching a satisfactory solution for no other reward.",
+  "books": [
+   "Roger Caillois, Man, Play and Games",
+   "Elias, Garfield and Gutschera, Characteristics of Games",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "caillois_man-play-and-games.md",
+    "line": 1146,
+    "their_term": "ludus"
+   },
+   {
+    "file": "caillois_man-play-and-games.md",
+    "line": 1160,
+    "their_term": "ludus (conflict with the obstacle)"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7375,
+    "their_term": "enjoyment of mental or physical challenge"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1404,
+    "their_term": "obstacle"
+   }
+  ]
+ },
+ {
+  "id": "fun-skill-mastery",
+  "display": "skill mastery",
+  "terms": "skill-based play; satisfaction from playing well",
+  "description": "The satisfaction of developing and using skill, whether quick bodily skill (timing, precision) or mental skill (planning, analysis), and of playing well in itself.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play",
+   "Elias, Garfield and Gutschera, Characteristics of Games"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3224,
+    "their_term": "skill-based play"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7374,
+    "their_term": "satisfaction from playing well"
+   }
+  ]
+ },
+ {
+  "id": "fun-learning",
+  "display": "learning",
+  "terms": "fun (as pattern learning); climbing the heuristics tree",
+  "description": "The pleasure of absorbing a pattern, understanding something new or seeing yourself improve, which the brain rewards. Koster restricts the word fun to this; Burgun and Elias describe the same pleasure as mastery or self-improvement over many plays.",
+  "books": [
+   "Raph Koster, A Theory of Fun for Game Design",
+   "Keith Burgun, Game Design Theory",
+   "Elias, Garfield and Gutschera, Characteristics of Games"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1412,
+    "their_term": "fun"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1489,
+    "their_term": "fun"
+   },
+   {
+    "file": "burgun_game-design-theory.md",
+    "line": 1250,
+    "their_term": "pursuit of mastery"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 1639,
+    "their_term": "climbing the heuristics tree"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7405,
+    "their_term": "pleasure of seeing improvement"
+   }
+  ]
+ },
+ {
+  "id": "fun-flow",
+  "display": "flow",
+  "terms": "flow; optimal experience; autotelic experience",
+  "description": "Complete absorption in an activity in which the challenge meets your skill, done for its own sake, with self-consciousness and sense of time dropping away.",
+  "books": [
+   "Mihaly Csikszentmihalyi, Flow",
+   "Raph Koster, A Theory of Fun for Game Design",
+   "Jane McGonigal, Reality Is Broken"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 206,
+    "their_term": "optimal experience"
+   },
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 3384,
+    "their_term": "autotelic experience"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1519,
+    "their_term": "flow; being in the zone"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 1736,
+    "their_term": "flow"
+   }
+  ]
+ },
+ {
+  "id": "fun-hard-fun",
+  "display": "hard fun",
+  "terms": "hard fun; eustress",
+  "description": "Enjoyable hard work: choosing a demanding task so that the stress you feel is energising and optimistic, not fearful, and leaves you stronger than you started.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 1586,
+    "their_term": "hard fun"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1409,
+    "their_term": "hard fun"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1523,
+    "their_term": "hard fun"
+   }
+  ]
+ },
+ {
+  "id": "fun-easy-fun",
+  "display": "easy fun",
+  "terms": "easy fun; pleasure",
+  "description": "Relaxing, low-effort enjoyment such as passive entertainment. McGonigal argues it leaves people feeling lower than hard fun does; Csikszentmihalyi's 'pleasure' is the same ground, contentment from needs being met, which restores order but does not make you grow.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken",
+   "Mihaly Csikszentmihalyi, Flow",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 1558,
+    "their_term": "relaxing kind of fun"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 1578,
+    "their_term": "easy fun"
+   },
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 2365,
+    "their_term": "pleasure"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1409,
+    "their_term": "easy fun"
+   }
+  ]
+ },
+ {
+  "id": "fun-triumph",
+  "display": "triumph (fiero)",
+  "terms": "fiero; pleasure from winning",
+  "description": "The surge of triumph after overcoming a real difficulty, often shown with arms thrown up. The harder the obstacle, the stronger it is. Elias lists the plain pleasure of winning as a reward.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken",
+   "Raph Koster, A Theory of Fun for Game Design",
+   "Elias, Garfield and Gutschera, Characteristics of Games"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 1654,
+    "their_term": "fiero"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1444,
+    "their_term": "fiero"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7373,
+    "their_term": "pleasure from winning"
+   }
+  ]
+ },
+ {
+  "id": "fun-hope-of-success",
+  "display": "hope of success",
+  "terms": "the hope of being successful; urgent optimism",
+  "description": "The feeling of confidence that you can succeed and are improving, and the charged moment of hope just before success when you try hardest.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 2490,
+    "their_term": "the experience, or at least the hope, of being successful"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 3541,
+    "their_term": "urgent optimism"
+   }
+  ]
+ },
+ {
+  "id": "fun-vicarious-pride",
+  "display": "vicarious pride (naches)",
+  "terms": "naches; kvell",
+  "description": "The bursting pride of seeing someone you taught or helped succeed, for example coaching a friend through a game you have mastered. Koster adds kvell, the feeling of bragging about someone you mentor.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 4448,
+    "their_term": "naches"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1447,
+    "their_term": "naches"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1450,
+    "their_term": "kvell"
+   }
+  ]
+ },
+ {
+  "id": "fun-happy-embarrassment",
+  "display": "happy embarrassment",
+  "terms": "happy embarrassment; teasing; trash-talking",
+  "description": "Playful teasing and trash-talking that stings a little and, because it is plainly not meant to hurt, confirms trust and warms the relationship.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 4265,
+    "their_term": "happy embarrassment"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 4327,
+    "their_term": "teasing"
+   }
+  ]
+ },
+ {
+  "id": "fun-gloating",
+  "display": "gloating (schadenfreude)",
+  "terms": "schadenfreude",
+  "description": "The pleasure of seeing a rival fail, in effect a put-down.",
+  "books": [
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1441,
+    "their_term": "schadenfreude"
+   }
+  ]
+ },
+ {
+  "id": "fun-cooperation",
+  "display": "cooperation",
+  "terms": "cooperative play",
+  "description": "The pleasure of working with others towards a shared goal, in step with them and doing what none of you could alone, like a pass that leads to a goal.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3133,
+    "their_term": "cooperative play"
+   }
+  ]
+ },
+ {
+  "id": "fun-sociability",
+  "display": "sociability",
+  "terms": "social interaction; social connection; people factor",
+  "description": "The pleasure of the company of other players: talk, give and take, belonging and the bonds that form around a game, before and after as well as during it.",
+  "books": [
+   "Elias, Garfield and Gutschera, Characteristics of Games",
+   "Jane McGonigal, Reality Is Broken",
+   "Germaine and Wake, Material Game Studies",
+   "Neva Boyd, Play and Game Theory in Group Work"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7385,
+    "their_term": "enjoyment of social interactions during the game"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7432,
+    "their_term": "social benefits"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 2502,
+    "their_term": "social connection"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 4227,
+    "their_term": "prosocial emotions"
+   },
+   {
+    "file": "germaine-wake_material-game-studies.md",
+    "line": 10175,
+    "their_term": "pleasure of group social interaction"
+   },
+   {
+    "file": "boyd_play-and-game-theory-in-group-work.md",
+    "line": 4581,
+    "their_term": "joy of another who has made a good play"
+   }
+  ]
+ },
+ {
+  "id": "fun-playing-well-together",
+  "display": "playing well together",
+  "terms": "the well-played game; playing well together",
+  "description": "Satisfaction in how a group plays, judged by the manner of playing together, not by who wins; choosing and changing games to suit what all are willing to play, and competing as a loving challenge to each other.",
+  "books": [
+   "Bernie DeKoven, The Well-Played Game"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "dekoven_the-well-played-game.md",
+    "line": 1115,
+    "their_term": "well-played game"
+   },
+   {
+    "file": "dekoven_the-well-played-game.md",
+    "line": 4336,
+    "their_term": "joy of competing"
+   }
+  ]
+ },
+ {
+  "id": "fun-negotiation",
+  "display": "negotiation",
+  "terms": "political games; alliance making",
+  "description": "The pleasure of social give-and-take in a game: persuading, forming and breaking alliances and bargaining.",
+  "books": [
+   "Elias, Garfield and Gutschera, Characteristics of Games"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 2535,
+    "their_term": "social interaction, give-and-take, alliance making and breaking"
+   }
+  ]
+ },
+ {
+  "id": "fun-status",
+  "display": "status",
+  "terms": "social status maneuvers; status rewards",
+  "description": "The satisfaction of standing, ranking or being seen as skilled within a group, including records of who won and by how much.",
+  "books": [
+   "Raph Koster, A Theory of Fun for Game Design",
+   "Elias, Garfield and Gutschera, Characteristics of Games"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1416,
+    "their_term": "social status maneuvers"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1435,
+    "their_term": "social status"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7432,
+    "their_term": "status"
+   }
+  ]
+ },
+ {
+  "id": "fun-delight",
+  "display": "delight",
+  "terms": "aesthetic appreciation; delight; sensawunda; aesthetic enjoyment",
+  "description": "The brief pleasure of recognising a pattern and being surprised by it, such as the end of a mystery when everything falls into place. Elias uses aesthetic enjoyment for the look of the game, its graphics and well-made pieces.",
+  "books": [
+   "Raph Koster, A Theory of Fun for Game Design",
+   "Elias, Garfield and Gutschera, Characteristics of Games",
+   "Johan Huizinga, Homo Ludens"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1459,
+    "their_term": "aesthetic appreciation, delight, sensawunda"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7377,
+    "their_term": "aesthetic enjoyment"
+   },
+   {
+    "file": "huizinga_homo-ludens.md",
+    "line": 520,
+    "their_term": "aesthetic qualities of play"
+   }
+  ]
+ },
+ {
+  "id": "fun-elegant-action",
+  "display": "elegant action",
+  "terms": "aesthetic striving play; functional beauty; harmony of practical fit",
+  "description": "The pleasure of acting, deciding or solving well: the elegance of a clean solution or a perfectly dodged obstacle, and the fit between your abilities and the task.",
+  "books": [
+   "C. Thi Nguyen, Games: Agency as Art"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "nguyen_games-agency-as-art.md",
+    "line": 667,
+    "their_term": "aesthetic striving play"
+   },
+   {
+    "file": "nguyen_games-agency-as-art.md",
+    "line": 721,
+    "their_term": "aesthetic pleasure"
+   },
+   {
+    "file": "nguyen_games-agency-as-art.md",
+    "line": 9436,
+    "their_term": "functional beauty"
+   }
+  ]
+ },
+ {
+  "id": "fun-touch",
+  "display": "touch",
+  "terms": "tactile; sensual pleasures",
+  "description": "The pleasure of handling the components: the weight of chess pieces, the feel of shuffling cards, rolling dice, punching out cardboard, a well-carved game piece.",
+  "books": [
+   "Germaine and Wake, Material Game Studies",
+   "Elias, Garfield and Gutschera, Characteristics of Games",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "germaine-wake_material-game-studies.md",
+    "line": 10175,
+    "their_term": "pleasures of touch, of feel"
+   },
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 4325,
+    "their_term": "tactile"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 2422,
+    "their_term": "aesthetic appreciation (well-carved game piece)"
+   }
+  ]
+ },
+ {
+  "id": "fun-excitement",
+  "display": "excitement",
+  "terms": "excitement or adrenaline rush; visceral reactions",
+  "description": "The bodily charge of fast, physical or risky play, such as an adrenaline rush, or the physical reactions of mastering a bodily problem.",
+  "books": [
+   "Elias, Garfield and Gutschera, Characteristics of Games",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7380,
+    "their_term": "excitement or adrenaline rush"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1414,
+    "their_term": "visceral reactions"
+   }
+  ]
+ },
+ {
+  "id": "fun-escape",
+  "display": "escape",
+  "terms": "escapism; escape from the everyday",
+  "description": "The relief of stepping out of everyday life and its cares for a time.",
+  "books": [
+   "Elias, Garfield and Gutschera, Characteristics of Games",
+   "Germaine and Wake, Material Game Studies"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "elias-garfield-gutschera_characteristics-of-games.md",
+    "line": 7383,
+    "their_term": "escapism"
+   },
+   {
+    "file": "germaine-wake_material-game-studies.md",
+    "line": 7853,
+    "their_term": "escape from the everyday"
+   }
+  ]
+ },
+ {
+  "id": "fun-discovery",
+  "display": "discovery",
+  "terms": "discovery; exploration; explorers; curiosity",
+  "description": "The pleasure of exploring a world or a space of possibilities, finding out how it works and what is in it, and of the sense of discovering something new.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play",
+   "Mihaly Csikszentmihalyi, Flow",
+   "Jane McGonigal, Reality Is Broken",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3295,
+    "their_term": "experience-based play (exploration)"
+   },
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 5353,
+    "their_term": "explorers"
+   },
+   {
+    "file": "csikszentmihalyi_flow.md",
+    "line": 3715,
+    "their_term": "a sense of discovery"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 2514,
+    "their_term": "curiosity"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1404,
+    "their_term": "discovery"
+   }
+  ]
+ },
+ {
+  "id": "fun-epic-meaning",
+  "display": "epic meaning",
+  "terms": "meaning; epic meaning; awe; wonder",
+  "description": "The satisfaction of belonging to, and contributing to, something larger and longer-lasting than yourself, felt with curiosity, awe and wonder at large scales.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 2514,
+    "their_term": "meaning"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 5046,
+    "their_term": "curiosity and wonder"
+   }
+  ]
+ },
+ {
+  "id": "fun-story",
+  "display": "story",
+  "terms": "role-playing; story experience; storytelling",
+  "description": "The pleasure of a story unfolding through your actions, whether you take on a character in a loose rule-set or move through a designed narrative.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3606,
+    "their_term": "role-playing"
+   },
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3295,
+    "their_term": "experience-based play (unfolding a story)"
+   }
+  ]
+ },
+ {
+  "id": "fun-performance",
+  "display": "performance",
+  "terms": "performative play",
+  "description": "The pleasure of acting, improvising and putting on a show, often as much fun to watch as to play, such as charades or a physical dance of bodies.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3739,
+    "their_term": "performative play"
+   }
+  ]
+ },
+ {
+  "id": "fun-expression",
+  "display": "expression",
+  "terms": "expressive play; self-discovery and expression",
+  "description": "The pleasure of expressing a feeling or idea through a game, as the maker or as the player.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play",
+   "Neva Boyd, Play and Game Theory in Group Work",
+   "Raph Koster, A Theory of Fun for Game Design"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3839,
+    "their_term": "expressive play"
+   },
+   {
+    "file": "boyd_play-and-game-theory-in-group-work.md",
+    "line": 3471,
+    "their_term": "play for aesthetic satisfaction"
+   },
+   {
+    "file": "koster_theory-of-fun-for-game-design.md",
+    "line": 1404,
+    "their_term": "self-discovery and expression"
+   }
+  ]
+ },
+ {
+  "id": "fun-simulation",
+  "display": "simulation",
+  "terms": "simulation-based play",
+  "description": "The pleasure of playing inside a model of a real system, for example as mayor or tycoon, and seeing its workings and the point of view it takes.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3912,
+    "their_term": "simulation-based play"
+   }
+  ]
+ },
+ {
+  "id": "fun-tension",
+  "display": "tension",
+  "terms": "tension",
+  "description": "The strain of an undecided outcome: wanting something to succeed or resolve and striving to decide it, strongest in contests and gambling.",
+  "books": [
+   "Johan Huizinga, Homo Ludens"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "huizinga_homo-ludens.md",
+    "line": 526,
+    "their_term": "tension"
+   }
+  ]
+ },
+ {
+  "id": "fun-rapture",
+  "display": "rapture",
+  "terms": "rapture; elation; ecstasy",
+  "description": "Complete absorption and devotion in play that passes into elation and abolishes the sense of 'only' playing; frivolity and ecstasy are the poles between which play moves.",
+  "books": [
+   "Johan Huizinga, Homo Ludens"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "huizinga_homo-ludens.md",
+    "line": 437,
+    "their_term": "rapture"
+   },
+   {
+    "file": "huizinga_homo-ludens.md",
+    "line": 935,
+    "their_term": "elation; frivolity and ecstasy"
+   }
+  ]
+ },
+ {
+  "id": "fun-whimsy",
+  "display": "whimsy",
+  "terms": "whimsical play; silliness; the pleasure of silliness",
+  "description": "The pleasure of silly actions, unexpected results and absurdity, a sense of euphoria that has to be felt to be understood; for DeKoven also a shared joke, savoured between players.",
+  "books": [
+   "Macklin and Sharp, Games, Design and Play",
+   "Bernie DeKoven, The Well-Played Game"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "macklin-sharp_games-design-and-play.md",
+    "line": 3484,
+    "their_term": "whimsical play"
+   },
+   {
+    "file": "dekoven_the-well-played-game.md",
+    "line": 4562,
+    "their_term": "silliness"
+   },
+   {
+    "file": "dekoven_the-well-played-game.md",
+    "line": 5376,
+    "their_term": "silliness"
+   }
+  ]
+ },
+ {
+  "id": "fun-fun-failure",
+  "display": "fun failure",
+  "terms": "fun failure",
+  "description": "The enjoyment of failing in an entertaining way, when failure shows your agency, makes you laugh and keeps hope and learning going.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 3268,
+    "their_term": "fun failure"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 3387,
+    "their_term": "enjoyable failure"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 3541,
+    "their_term": "fun failure"
+   }
+  ]
+ },
+ {
+  "id": "fun-blissful-productivity",
+  "display": "blissful productivity",
+  "terms": "satisfying work; blissful productivity",
+  "description": "The pleasure of being immersed in clear, demanding work that gives quick, visible results.",
+  "books": [
+   "Jane McGonigal, Reality Is Broken"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 2478,
+    "their_term": "satisfying work"
+   },
+   {
+    "file": "mcgonigal_reality-is-broken.md",
+    "line": 2662,
+    "their_term": "blissful productivity"
+   }
+  ]
+ },
+ {
+  "id": "fun-value-clarity",
+  "display": "value clarity",
+  "terms": "value clarity",
+  "description": "The satisfaction of goals that are clear, comparable and rankable, offering relief from the muddle of real-life values.",
+  "books": [
+   "C. Thi Nguyen, Games: Agency as Art"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "nguyen_games-agency-as-art.md",
+    "line": 9390,
+    "their_term": "value clarity"
+   },
+   {
+    "file": "nguyen_games-agency-as-art.md",
+    "line": 9436,
+    "their_term": "satisfactions of value clarity"
+   }
+  ]
+ },
+ {
+  "id": "fun-striving",
+  "display": "striving",
+  "terms": "striving play",
+  "description": "Taking up a goal only for the sake of the struggle to reach it, so that the activity is the point and the winning is a device; the reverse of ordinary practical life.",
+  "books": [
+   "C. Thi Nguyen, Games: Agency as Art"
+  ],
+  "doubtful": false,
+  "sources": [
+   {
+    "file": "nguyen_games-agency-as-art.md",
+    "line": 516,
+    "their_term": "striving play"
+   },
+   {
+    "file": "nguyen_games-agency-as-art.md",
+    "line": 485,
+    "their_term": "achievement play (contrast)"
+   }
+  ]
+ },
+ {
+  "id": "fun-mirth",
+  "display": "mirth",
+  "terms": "mirth; happiness; laughter",
+  "description": "Plain gladness in play, tending to break out in laughter.",
+  "books": [
+   "Neva Boyd, Play and Game Theory in Group Work",
+   "Johan Huizinga, Homo Ludens"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "boyd_play-and-game-theory-in-group-work.md",
+    "line": 3706,
+    "their_term": "happiness"
+   },
+   {
+    "file": "huizinga_homo-ludens.md",
+    "line": 205,
+    "their_term": "mirth"
+   }
+  ]
+ },
+ {
+  "id": "fun-subversion",
+  "display": "subversion",
+  "terms": "critical play; unplaying; reskinning; rewriting",
+  "description": "Playing against the expected script: acting out the forbidden or unexpected, redressing or reskinning, or rewriting the rules, in order to question conventions.",
+  "books": [
+   "Mary Flanagan, Critical Play"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "flanagan_critical-play.md",
+    "line": 1264,
+    "their_term": "critical play"
+   },
+   {
+    "file": "flanagan_critical-play.md",
+    "line": 1273,
+    "their_term": "unplaying"
+   },
+   {
+    "file": "flanagan_critical-play.md",
+    "line": 1284,
+    "their_term": "re-dressing or reskinning"
+   }
+  ]
+ },
+ {
+  "id": "fun-creative-playing",
+  "display": "creative playing",
+  "terms": "creative playing; precariousness of play",
+  "description": "The excitement of play that comes from the precarious meeting of inner reality and the real, shared world, Winnicott's account of children's playing.",
+  "books": [
+   "D. W. Winnicott, Playing and Reality"
+  ],
+  "doubtful": true,
+  "sources": [
+   {
+    "file": "winnicott_playing-and-reality.md",
+    "line": 2203,
+    "their_term": "play is immensely exciting"
+   },
+   {
+    "file": "winnicott_playing-and-reality.md",
+    "line": 2444,
+    "their_term": "playing is inherently exciting and precarious"
+   }
+  ]
+ }
+]

@@ -523,6 +523,10 @@ from pathlib import Path as _Path
 for _b in _json.loads((_Path(__file__).parent / "book-blocks.json").read_text(encoding="utf-8")):
     ALL_BLOCKS[_b["id"]] = {"description": _b["description"], "svg": _b["svg"], "credit": "; ".join(_b["books"]), "tentative": True}
 
+# The kinds of fun (palette.py): their ? text is the definition, and the credit names the books it is drawn from
+for _k in _json.loads((_Path(__file__).parent / "kinds-of-fun.json").read_text(encoding="utf-8")):
+    ALL_BLOCKS[_k["id"]] = {"description": f"{_k['description']} Named in the books as {_k['terms']}.", "svg": "", "credit": "; ".join(_k["books"])}
+
 
 def meta_for(block_id: str) -> dict:
     return ALL_BLOCKS.get(block_id, {"description": "", "svg": ""})

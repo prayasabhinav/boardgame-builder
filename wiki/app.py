@@ -63,6 +63,7 @@ STATUS_WORDS = {
     "book-20261106-unreviewed": "taken from a book on 6 November 2026, with its page, and not yet reviewed",
     "checked-against-book-20261106": "taken from a book on 6 November 2026; someone who did not write it found the passage it rests on",
     "tentative-20261106": "a block added from the rule books on 6 November 2026, tentative until it has been tried in a class",
+    "drafted-20261113-unreviewed": "a kind of fun, or its line, drafted on 13 November 2026 from the books on play and games, and not yet reviewed",
     "proposed-approved": "proposed by someone using the wiki and approved by an editor; not yet in the tool",
     "wiki-approved": "proposed on the wiki, approved by an editor, and added to the tool",
     "known-game": "a known game in the tool, to play with things at hand",

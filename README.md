@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.syntax.prayasabhinav.net-2e7d32?style=flat-square)](https://boardgame.syntax.prayasabhinav.net)
-[![Version](https://img.shields.io/badge/version-0.20.1-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.21.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -48,7 +48,7 @@ A small browser tool for designing a board game by putting blocks together and r
 
 The screen has three columns.
 
-- **Left: the palette.** The feelings at the top, then eight groups of blocks for the parts of a game. A search box above them shows only the blocks whose name or description holds the words typed, or a whole group when its name is typed; Esc clears it.
+- **Left: the palette.** The feelings at the top, then nine groups of blocks: the kind of fun the game is built to give, and eight for the parts of a game. A search box above them shows only the blocks whose name or description holds the words typed, or a whole group when its name is typed; Esc clears it.
 - **Centre: the canvas.** A shelf for the feelings you want the game to have, one slot for each group of blocks, and a box below them for writing how the game plays.
 - **Right: the feedback.** Each press of **Iterate** reads the canvas and says what the combination tends to produce, what it brings, its trade-offs, any clash between blocks, whether the blocks serve the feelings you picked, and real games built on something similar where one has been checked.
 
@@ -67,7 +67,7 @@ You change a block, press Iterate again and see what moved. **Mark complete** wr
 9. Press **Play** to play the design on screen (see [Playing it on screen](#playing-it-on-screen)).
 10. Press **Mark complete** for the summary, which ends with your answers and test notes in your own terms. **Develop further** under it opens the design again; **Start fresh** in the header clears everything.
 
-Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file: the feelings, the blocks, how the game plays with its tags by box, and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
+Your design is kept in your browser, so a refresh does not lose it. **Save game** in the header downloads it as a Markdown file, named for its core mechanics with six characters that make each file's name its own: the feelings, the blocks, how the game plays with its tags by box, and every turn of feedback, readable on its own, ending with the saved state. **Open game** reads that file back, in any browser or on another day, and carries on from the same turn. The steps also open on a first visit, and **How it works** in the header shows them again.
 
 Every view has its own address, so it can be linked, reloaded and reached with Back: `#games` for the known games, `#games/pig` for one of them, `#games/pig/watch` to watch it, `#how-it-works`, `#blocks/push-your-luck` for a block, `#tests` for the part tests, and `#play` to play the design on screen.
 
@@ -117,6 +117,8 @@ A share link also carries questions for whoever plays it, which makes it a playt
 - *Player interaction:* one against the rest, playing alone
 - *Information visibility:* a hand laid face up, secret scores
 - *Timing:* extra turn, staged game
+
+The 42 kinds of fun come from the books on play and games in the research library behind the Ideas tab (Caillois, Csikszentmihalyi, Huizinga, Koster, McGonigal, Macklin and Sharp, Nguyen, DeKoven, Elias, Garfield and Gutschera, and others); each block names its books under ?, and `kinds-of-fun.json` gives the line in each book. A design needs at least one before it can be marked complete.
 
 Fourteen of the blocks, from role-play to rehearse a future, come from ideas of Dhruv Jani's; the wiki credits him on each of their entries. Where each of the 31 blocks added on 16 October 2026 came from, with references checked against Crossref, is in [`docs/block-sources.md`](docs/block-sources.md).
 
@@ -235,7 +237,7 @@ Every entry in the knowledge base is also on a public wiki, https://boardgame-wi
 python check.py
 ```
 
-`check.py` builds every possible two-block canvas (3,419 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (51,285 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version. Each pass is written to `check-log.txt` with a fingerprint of the files the checks read; when none of them has changed since the last pass, `check.py` says so and does not check again (`python check.py --again` checks anyway).
+`check.py` builds every possible two-block canvas (18,182 of them) and confirms each gets text from the knowledge base, then picks each of the 15 feelings with every canvas (272,730 cases) and confirms each feeling is said. Larger canvases always contain a covered pair. It also confirms that every known game names only real blocks and that every marked question's answer is one of its options, and that `VERSION`, the newest entry in `CHANGELOG.md` and the version badge above agree. It exits with an error and names the first gaps if anything is missing, so run it after any change to the knowledge base, the blocks, the games or the version. Each pass is written to `check-log.txt` with a fingerprint of the files the checks read; when none of them has changed since the last pass, `check.py` says so and does not check again (`python check.py --again` checks anyway).
 
 ```bash
 curl -s http://localhost:8787/palette | node check_play.js 3000
