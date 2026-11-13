@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.21.1 — 13 November 2026
+
+- The model behind the teacher's *N% likely to clash* has a name, **khatka**, and is released on its own with its data at https://github.com/prayasabhinav/khatka (AGPL-3.0). It gives the same flags, reasons and probabilities as before. Kinds of fun are not paired with core mechanics: a kind of fun is the enjoyment a game aims at and cannot contradict how it is played.
+
 ## 0.21.0 — 13 November 2026
 
 - **Kind of fun**, a new group of 42 blocks, second after the core mechanic: the enjoyment a game is built to give, each named as the books on play and games name it (competition (agon), chance (alea), make-believe (mimicry), vertigo (ilinx), flow, hard fun, triumph (fiero), discovery, whimsy and the rest), with its definition and the books behind it under ? and in `kinds-of-fun.json`. A game can aim at several. The group is required: **Mark complete** asks for at least one before it writes the closing summary. Each kind has one line in the feedback, kept with the theme lines (`drafted/themes.txt`) and on the wiki; the lines are drafted and unreviewed.

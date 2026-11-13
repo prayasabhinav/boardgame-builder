@@ -55,7 +55,7 @@ core = [b["id"] for b in DIMENSIONS[0]["blocks"]]
 assert set(core) == set(MAKES), set(core) ^ set(MAKES)
 seen, keys = seen_pairs(), keyed()
 VOTES = {tuple(r["pair"].split("+")): r["share_no"] for r in map(json.loads, open("review-model/clash-votes.jsonl"))}
-pairs = [(c, b["id"]) for c in core for d in DIMENSIONS[1:] for b in d["blocks"]]
+pairs = [(c, b["id"]) for c in core for d in DIMENSIONS[1:] if d["id"] != "kind-of-fun" for b in d["blocks"]]   # khatka reads what can be true of one game at the table; a kind of fun is not that
 reasons = {}
 for c, b in pairs:
     k, by = keys.get((c, b), (None, None))
