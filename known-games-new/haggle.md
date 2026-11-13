@@ -1,7 +1,7 @@
 # Haggle — trade cards and secrets
 
 - From: Haggle, a party game by Sid Sackson, in Robert Schmittberger's card version
-- Players: 8 or more players (a class of 12 to 30 works)
+- Players: 8 or more players, and the more the better
 - Time: 20 min
 - Made by: Sid Sackson; this card version is by Robert Schmittberger
 - Rules from: New Rules for Classic Games, p. 142

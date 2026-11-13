@@ -1,7 +1,7 @@
 # What did you see? — act out the answer together
 
 - From: Charades for Kids, a children's party game
-- Players: 6 or more players, in teams of up to 5
+- Players: Any number of players, alone or in teams of up to 5
 - Time: 10 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 284

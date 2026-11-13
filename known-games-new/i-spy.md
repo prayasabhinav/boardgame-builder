@@ -1,6 +1,6 @@
 # I Spy — guess from the first letter
 
-- From: I Spy, a guessing game from the nursery
+- From: I Spy, a guessing game
 - Players: 2 or more players
 - Time: 5 to 10 min
 - Made by: Traditional
@@ -23,8 +23,7 @@ The Spy gives only one clue and then answers yes or no. It shows how a single hi
 1. **Choose.** The Spy silently picks an object in view of everyone.
 2. **Say the letter.** The Spy says, I spy with my little eye something that begins with, and the first letter.
 3. **Guess.** Each player takes a turn to guess an object, such as Is it a table?
-4. **Answer.** The Spy says yes or no.
-5. **Win.** The first player to guess right is the Spy next. For harder games, give a colour or a clue such as something that belongs to Bob.
+4. **Win.** The first player to guess right is the Spy next. For harder games, give a colour or a clue such as something that belongs to Bob.
 
 ## After playing, talk about
 

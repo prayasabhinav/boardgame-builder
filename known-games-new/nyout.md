@@ -5,7 +5,7 @@
 - Time: 15–20 min
 - Made by: Traditional; played in Korea, where a similar game is on record from the third century
 - Rules from: Board and Table Games from Many Civilizations, p. 2
-- This version: Two horses each, four coins in place of the four throwing sticks, and a horse leaves by reaching or passing the exit
+- This version: Two horses each, four coins in place of the four throwing sticks, and a horse leaves by reaching or passing the exit. The text gives only the 29 marks, so the number of small marks in each place is worked out to make that total
 
 Made with boardgameBuilder 1.x. To design from it, open boardgameBuilder and choose Open game: its blocks go on the canvas, and the feelings are left for you to pick.
 
@@ -23,7 +23,7 @@ One throw can mean a long safe walk round the ring or a short risky cut through 
 
 ## How to play
 
-1. **Draw the board.** Draw a ring of 20 marks. Make four of them bigger and put them at the top (A, the exit), left (B), bottom (C) and right (D). Put four small marks between each pair of big ones. Add a big mark in the centre. Draw a line from B, C and D to the centre with two small marks on each, and a line from the centre to A with two small marks. That makes 29 marks.
+1. **Draw the board.** Draw 29 marks on paper. The mark at the centre and the four at the quarters are bigger than the others, and the one at the top (A) is the exit. The book gives no more of the layout, so this version arranges them as a ring with a cross inside it: call the other big marks B (left), C (bottom) and D (right), put four small marks between each pair of big ones on the ring, draw a line from B, C and D to the centre with two small marks on each, and a line from the centre to A with two small marks.
 2. **Set out the horses.** Each player has two horses. Both start off the board. A horse enters on the small mark just left of A and travels anticlockwise, towards B.
 3. **Throw.** Toss all four coins. Heads count as white sides. One head scores 1, two score 2, three score 3. Four heads score 4 and no heads (all tails) score 5. After a 4 or a 5, throw again before you move.
 4. **Move.** Move one horse by the score. If you threw twice, you may split the scores between your two horses. Two horses of the same side may share a mark and move together.

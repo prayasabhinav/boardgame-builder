@@ -1,6 +1,6 @@
 # Go-Bang — five in a row on a big grid
 
-- From: Go-Bang (also called Gomoku), a paper and counter game from Japan
+- From: Go-Bang, a counter game from Japan
 - Players: 2 players
 - Time: 5–15 min
 - Made by: Traditional; played in Japan, and brought to Europe about 1885
@@ -17,12 +17,12 @@ The same winning pattern, a line, plays very differently when the board is large
 
 ## What you need
 
-- squared paper with a grid of at least 15 by 15 squares
+- squared paper with a grid of at least 18 by 18 squares
 - two pens of different colours, or X and O
 
 ## How to play
 
-1. **Draw the grid.** Use a grid of 15 by 15 squares. Decide who is X and who is O.
+1. **Draw the grid.** Use a grid of 18 by 18 squares, the size of the I-go board. Decide who is X and who is O.
 2. **Mark.** Take turns writing your mark in any one empty square.
 3. **Make five.** The first player with five of their own marks in an unbroken line wins. The line can run across, up and down, or diagonally.
 4. **Draw.** If every square is marked and nobody has five in a row, the game is a draw.

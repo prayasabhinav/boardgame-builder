@@ -1,7 +1,7 @@
 # Coffeepot — guess the verb with a stand-in word
 
 - From: Coffeepot, a spoken guessing game
-- Players: 3–8 players
+- Players: 3 or more players
 - Time: 5–10 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 69

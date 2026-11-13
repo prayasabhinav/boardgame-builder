@@ -1,6 +1,6 @@
 # Knock Poker — draw, discard, and knock when you are ready
 
-- From: Knock Poker, a Poker game that borrows from Rummy
+- From: Knock Poker, a card game of draw, discard and knock
 - Players: 3–5 players
 - Time: 15–25 min
 - Made by: Traditional

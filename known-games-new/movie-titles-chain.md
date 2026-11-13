@@ -5,7 +5,7 @@
 - Time: 10 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 125
-- This version: Titles can be films, songs or serials in any language the class shares; the opening word The does not count
+- This version: Titles can be films, songs or serials in any language the class shares; the opening word The does not count. The book does not say how the game is won, so the last player left wins
 
 Made with boardgameBuilder 1.x. To design from it, open boardgameBuilder and choose Open game: its blocks go on the canvas, and the feelings are left for you to pick.
 
@@ -25,8 +25,7 @@ A chain game shows how one shared rule (the last letter) and a clock can keep a 
 1. **Start.** One player names any film.
 2. **Chain.** The next player names a film whose title starts with the last letter of the title just named. The opening word The does not count.
 3. **Time limit.** A player has ten seconds to answer. If they cannot, they are out.
-4. **Repeat.** Titles cannot be used twice in one game.
-5. **Win.** Play goes round until one player is left. That player wins.
+4. **Win.** Play goes round until one player is left. That player wins.
 
 ## After playing, talk about
 

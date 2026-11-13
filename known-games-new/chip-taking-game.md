@@ -1,7 +1,7 @@
 # Chip-taking game — everyone takes from the leader
 
 - From: A thought example in Characteristics of Games, used to show how a game turns political
-- Players: 3 to 6 players
+- Players: Several players
 - Time: 10–15 min
 - Made by: Described by Elias, Garfield and Gutschera as an imagined example
 - Rules from: Characteristics of Games, p. 48

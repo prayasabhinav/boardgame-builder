@@ -1,7 +1,7 @@
 # The Block Game — dominoes in a line until nobody can play
 
-- From: Dominoes, a game from China brought to Italy in the fourteenth century
-- Players: 2 to 4 players
+- From: Dominoes, a game that may have come from China to Italy by the fourteenth century
+- Players: 2 or more players
 - Time: 15 min
 - Made by: Traditional; first reported in Europe from Italy
 - Rules from: Board and Table Games from Many Civilizations, p. 161

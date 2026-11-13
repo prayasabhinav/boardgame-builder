@@ -28,7 +28,7 @@ Everyone gets the same pieces but makes a different result. It shows how a game 
 4. **Pass the call.** The next player calls a letter. Everyone writes it. Go on until every grid has 25 letters.
 5. **Count words.** A word counts if it reads across or down in an unbroken line of squares in one row or column. The row PARWN holds PAR but not PAWN.
 6. **Score.** A three-letter word scores 10, a four-letter word 20 and a five-letter word 40. Words that overlap score separately. If one word sits wholly inside a longer one, such as CAT inside CATS, only the longer word counts.
-7. **Win.** The player with the highest total wins.
+7. **Scores.** Each player works out their own total. The book does not say who wins, so agree before you start, for example that the highest total wins.
 
 ## After playing, talk about
 

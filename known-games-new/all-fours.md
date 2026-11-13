@@ -25,7 +25,7 @@ One hand can give out several different prizes: the top trump, the bottom trump,
 1. **Deal.** Cut the cards, and the higher card deals. The dealer gives each player six cards, three at a time, then turns up the next card. Its suit is the trump suit.
 2. **Jack turned up.** If the turned-up card is a Jack, the dealer scores one point at once.
 3. **Stand or beg.** The player who is not dealing looks at the hand and says "I stand" to keep it, or "I beg" to ask for a change.
-4. **Answer a beg.** The dealer either gives the other player one point, or gives each player three more cards and turns up a new trump. If the new trump is the same suit, repeat. If the cards run out, deal again.
+4. **Answer a beg.** The dealer either gives the other player one point, or gives each player three more cards and turns up a new trump. If the new trump is the same suit, repeat. If the same suit keeps being turned until the cards run out, gather the cards and deal again.
 5. **Play tricks.** The player who is not dealing leads any card. The dealer plays one card to it. The higher card of the suit led wins, but any trump beats a card of another suit. You must follow suit if you can, or play a trump. The winner leads next.
 6. **Score four points.** High: the player dealt the highest trump scores one. Low: the player dealt the lowest trump scores one, even if the other player wins it. Jack: whoever wins the trick holding the Jack of trumps scores one. Game: each player adds up the cards they won, Ace 4, King 3, Queen 2, Jack 1, Ten 10. The higher total scores one, and a tie goes to the player who was not dealing.
 7. **Next hand.** The deal passes to the other player. The first to seven points wins.

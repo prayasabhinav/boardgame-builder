@@ -1,7 +1,7 @@
 # Napoleon — bid how many tricks you will take
 
 - From: Napoleon, a French card game related to Euchre
-- Players: 3–6 players
+- Players: Up to 6 players, each playing alone
 - Time: 20 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, pp. 105–106

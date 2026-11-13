@@ -1,6 +1,6 @@
 # Cribbage — count to thirty-one, then count your hand
 
-- From: Cribbage, an English card game for two
+- From: Cribbage, a card game that two people usually play
 - Players: 2 players
 - Time: 25–30 min
 - Made by: Traditional
@@ -29,7 +29,7 @@ Scoring comes from the shape of the cards, not from winning a trick. It also sho
 5. **Scoring in play.** Make exactly 15 and score 2. Play a card with the same number as the last card and score 2; a third in a row scores 6; a fourth scores 12. Play the third or later card of a run in any order, such as Four, Two, Five, Three, and score the length of the run. Scores for different combinations at once are added together.
 6. **Go.** If you cannot play without passing 31, say "Go". The other player may play if able. The last player to play scores 1, or 2 for making exactly 31. Then the play ends and the rest of the cards are not played.
 7. **The show.** The non-dealer shows their three cards first and counts them together with the start card. Then the dealer counts their hand, and then the crib.
-8. **Counting a hand.** Each different set of cards totalling 15 scores 2. Each pair scores 2. A run of three or more scores one point for each card. Four cards of one suit score 4, or 5 if the start card matches (a crib scores a flush only with the start card). A Jack of the same suit as the start card scores 1.
+8. **Counting a hand.** Each different set of cards totalling 15 scores 2. Each pair scores 2. A run of three or more scores one point for each card. A hand made entirely of one suit scores 3, or 4 if the start card is of that suit too. A crib scores a flush only when the start card is of its suit, and then it scores 5. A Jack of the same suit as the start card scores 1.
 9. **Next hand.** Swap who deals and play again. The first to reach 31 points wins.
 
 ## After playing, talk about

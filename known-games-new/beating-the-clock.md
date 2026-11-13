@@ -26,7 +26,7 @@ Here bidding is paid in time instead of money. It shows how an auction can be ad
 1. **Show the phrase.** One player from each team looks at the next phrase. Nobody else looks.
 2. **Bid.** Bidders take turns bidding a time, such as two minutes. Each new bid must be lower than the last by at least 10 or 15 seconds.
 3. **Stop.** When no one will bid lower, the lowest bidder becomes the actor for their team.
-4. **Act.** Start the clock. The actor mimes the phrase without speaking, and teammates guess aloud.
+4. **Act.** Start the clock. The actor acts out the phrase, and teammates try to name it.
 5. **Score.** If a teammate says the phrase within the bid, the team scores a point. If not, the team loses a point. Play until each team has had several turns; the highest score wins.
 
 ## After playing, talk about

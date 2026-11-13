@@ -1,9 +1,9 @@
 # Whist — win tricks with a partner you cannot talk to
 
-- From: Whist, an English card game and the ancestor of Bridge
+- From: Whist, a card game that Bridge developed from
 - Players: 4 players
 - Time: 20–30 min
-- Made by: Traditional; played in England and the United States
+- Made by: not named in the book
 - Rules from: Hoyle's Rules of Games, under 'Whist'
 - This version: Four deals only, and the side with the higher total of points after the fourth deal wins
 

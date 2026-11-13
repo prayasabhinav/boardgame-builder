@@ -5,7 +5,7 @@
 - Time: 20–30 min
 - Made by: Traditional; first played in Spain
 - Rules from: Hoyle's Rules of Games, under 'Solo (Ombre)'
-- This version: A short pack of 32 cards, one fixed trump order, three games to bid (Simple Game, Solo, Tout), and chip values for Solo and Tout set by me
+- This version: A short pack of 32 cards, one fixed trump order, three games to bid (Simple Game, Solo, Tout), and chip values for Solo and Tout set by me, and four deals with most chips winning are my own addition
 
 Made with boardgameBuilder 1.x. To design from it, open boardgameBuilder and choose Open game: its blocks go on the canvas, and the feelings are left for you to pick.
 
@@ -26,8 +26,8 @@ A secret partner changes what the other players know. Everyone watches each card
 2. **Bid.** The player to the dealer's left may pass or bid. A Simple Game, saying "I ask", is a promise to win five of the eight tricks with a partner. A Solo is a promise to win five tricks alone. A Tout is a promise to win all eight. Each bid must be higher than the one before. Bid only as high as you need to, so others cannot see your hand. If all four pass, redeal.
 3. **Name trumps.** The winning bidder names the trump suit. In a Simple Game they also call an ace they do not hold. The holder of that ace is their partner, and must not say so.
 4. **Play.** The player to the dealer's left leads. Everyone must follow suit if they can, and otherwise may play any card. The highest trump wins a trick, or else the highest card of the suit led. The winner leads next.
-5. **Settle.** In a Simple Game, the player and partner each win 2 chips from each opponent if they take five or more tricks, and pay 2 chips if they do not. In a Solo, each opponent pays or collects 4 chips. In a Tout, each pays or collects 8 chips.
-6. **Play four deals.** Pass the deal to the left. The player with the most chips wins.
+5. **Settle.** In a Simple Game, the player and partner each win 2 chips if they take five or more tricks, and each lose 2 chips if they do not, so 4 chips change hands in all. In a Solo, each opponent pays or collects 4 chips. In a Tout, each pays or collects 8 chips.
+6. **Play four deals.** Pass the deal to the left. The player with the most chips wins. The four deals, the passing of the deal and the winner by chips are this version's, not the book's.
 
 ## After playing, talk about
 

@@ -1,7 +1,7 @@
 # I went to the market — remember the growing list
 
 - From: I Went to the Market, a spoken memory game
-- Players: 4–10 players
+- Players: 2 or more players, most fun with at least 6
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 75

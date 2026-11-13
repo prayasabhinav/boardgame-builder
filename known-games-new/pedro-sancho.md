@@ -1,7 +1,7 @@
 # Pedro Sancho — bid for trumps, and the Five is worth five
 
 - From: Pedro Sancho, a card game that comes from Auction Pitch
-- Players: 4–8 players, six or eight is the usual number
+- Players: Any number of players, six or eight make the best game
 - Time: 20–30 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 41

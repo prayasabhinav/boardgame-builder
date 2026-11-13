@@ -25,7 +25,7 @@ A die that gives parts, not steps, makes a race where nobody can hurry another p
 2. **Roll.** On your turn, roll the die once. The number tells you which part you may draw.
 3. **Body first.** 1 is the body, 2 the head, 3 one leg, 4 one feeler, 5 one eye and 6 the tail. You cannot draw anything until you roll a 1 for the body.
 4. **Head before feelers.** You may add feelers (4) or eyes (5) only after you have drawn the head (2). A roll you cannot use is lost, and your turn ends.
-5. **Finish.** A complete beetle has a body, a head, six legs, two feelers, two eyes and a tail. The first player to finish wins.
+5. **Finish.** The first player to finish their beetle wins. The book does not list how many of each part make a complete beetle, so agree that before you start.
 
 ## After playing, talk about
 

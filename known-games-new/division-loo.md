@@ -1,6 +1,6 @@
 # Division Loo — share a pool, three cards each
 
-- From: Division Loo, an English card game for five or seven players
+- From: Division Loo, a card game best with five or seven players
 - Players: 5 players
 - Time: 15–20 min
 - Made by: Traditional
@@ -28,7 +28,7 @@ A pool that is paid for by failure and shared out by success gives every hand a 
 4. **Play.** The first player leads a card. Everyone who is playing puts one card on it. You must follow suit if you can. If you cannot, you must play a trump if you have one. If you have neither, play any card. The highest card of the suit led wins the trick, or the highest trump if any were played.
 5. **First trick.** The winner of the first trick leads a trump if they have one.
 6. **Share out.** After three tricks, each trick won earns a third of the pool. Win one trick for a third, two for two thirds, three for the whole pool.
-7. **Failing.** A player who said "I play" and wins no trick puts 3 chips in the next pool. The dealer adds the usual 3 to the next pool only if nobody owes chips.
+7. **Failing.** A player who said "I play" and wins no trick puts 3 chips in the next pool. After each share-out the dealer puts another 3 chips in the pool, and play goes on.
 
 ## After playing, talk about
 

@@ -1,6 +1,6 @@
 # Basic Rummy — make sets, lay them down, empty your hand
 
-- From: Rummy, a card game that grew from the Mexican game Conquian
+- From: Rummy, a card game that grew from Conquian, a Spanish game that crossed the Mexican border
 - Players: 2–6 players
 - Time: 15–25 min
 - Made by: Traditional; played across the United States after about 1850

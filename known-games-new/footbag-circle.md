@@ -1,7 +1,7 @@
 # Footbag circle — keep it in the air together
 
 - From: Hacky Sack (footbag)
-- Players: 3–8 players
+- Players: Several players
 - Time: 5–15 min
 - Made by: Traditional
 - Rules from: Characteristics of Games, p. 294
@@ -22,10 +22,10 @@ Nobody wins and nobody loses to anyone else. It shows a game where the only aim 
 
 ## How to play
 
-1. **Circle.** Stand in a circle, about two steps apart.
-2. **Start.** One player drops the bag and kicks it up.
+1. **Circle.** Stand in a circle.
+2. **Kick it up.** Players kick the bag up into the air with their feet.
 3. **Pass it on.** Anyone in the circle kicks it up again, using their feet only. Pass it to a different player each time if you can.
-4. **Drop.** If the bag touches the ground, it starts again.
+4. **Keep it up.** The aim is to keep the bag from touching the ground.
 5. **Count.** If you want, count kicks in a run and try to beat your last one. The book gives no scoring rule.
 
 ## After playing, talk about

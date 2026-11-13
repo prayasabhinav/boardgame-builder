@@ -1,7 +1,7 @@
 # Twenty questions — find it with yes-or-no questions
 
 - From: Twenty Questions, a guessing game that began on radio in the 1940s
-- Players: 3–8 players
+- Players: 2 or more players
 - Time: 10–15 min
 - Made by: Traditional; the book says it started as a radio show in the 1940s
 - Rules from: The Big Book of Rules, p. 84
@@ -24,7 +24,7 @@ A game can be only questions and answers, with a hidden fact in one person's hea
 1. **Think.** The answerer thinks of a specific person, place or thing and says when ready. Write nothing down yet.
 2. **Ask.** The others take turns asking a question that can be answered yes or no. A common first question is whether the thing is animal, vegetable or mineral. Another is whether it is bigger than a breadbox.
 3. **Answer truthfully.** The answerer says only yes or no. Count each question aloud.
-4. **Guess.** Any questioner may guess the secret instead of asking a question. A wrong guess uses up one of the twenty questions.
+4. **Guess.** Any questioner may try to guess the object.
 5. **A correct guess.** The player who names it wins the round and becomes the answerer for the next round.
 6. **Stumped.** If twenty questions pass with no correct guess, the answerer scores 20 points and stays the answerer. The first to 100 points wins, or play for as many rounds as you like.
 

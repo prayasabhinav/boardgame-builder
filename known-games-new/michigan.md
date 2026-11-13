@@ -1,7 +1,7 @@
 # Michigan — bid for the spare hand, then play the stops
 
 - From: Michigan (also Newmarket or Boodle), a traditional card game
-- Players: 3–6 players
+- Players: 3 to about 8 players
 - Time: 20–30 min
 - Made by: Traditional; played for buttons or counters at parties
 - Rules from: Hoyle's Rules of Games, under 'Michigan'

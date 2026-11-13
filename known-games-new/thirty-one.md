@@ -1,6 +1,6 @@
 # Thirty-One — gather one suit, then knock
 
-- From: Thirty-One, an old card game (also called Scat)
+- From: Thirty-One, a card game
 - Players: 2–7 players, best with 4 or more
 - Time: 15–20 min
 - Made by: Traditional

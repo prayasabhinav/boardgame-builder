@@ -1,7 +1,7 @@
 # Dice Twenty-One — stop before you pass twenty-one
 
 - From: a one-die game of the Twenty-One kind
-- Players: 2 to 6 players
+- Players: Several players
 - Time: 10 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 183

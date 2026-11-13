@@ -1,7 +1,7 @@
 # Rounce — play, pass, or take the dummy hand
 
 - From: Rounce, a trick-taking game
-- Players: 3–7 players
+- Players: Up to 9 players, five or seven make a good game
 - Time: 15–20 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, pp. 125–126

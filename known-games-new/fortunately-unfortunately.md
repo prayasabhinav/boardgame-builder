@@ -24,7 +24,7 @@ The story swings between luck and mischance, so each player sets up the next. It
 2. **Reply.** The next player says a sentence that follows from it and begins with Unfortunately, such as Unfortunately, the shop only sells onions.
 3. **Alternate.** The third player starts with Fortunately again, and each sentence has to follow from the one before.
 4. **Stumped.** Play goes on round the group until a player cannot think of a sentence.
-5. **Next round.** The player who was stumped starts the next story.
+5. **Next round.** The book does not say who starts the next story, so agree that before you start.
 
 ## After playing, talk about
 

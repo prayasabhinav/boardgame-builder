@@ -4,7 +4,7 @@
   "title": "Pig — the dice push",
   "parent_game": "Pig, a folk dice game",
   "credits": {
-   "by": "Folk game; first described in print by John Scarne, 1945",
+   "by": "Cited to John Scarne, Scarne on Dice, 1946, in Bell's list of sources",
    "version": "Played to 20 rather than 100"
   },
   "lesson": "Push your luck in its plainest form: after every roll, keep what you have or risk it for more. Change one number, the bust or the target, and the whole table plays more boldly or more carefully.",
@@ -304,7 +304,7 @@
   "parent_game": "Hanabi (a famous cooperative card game)",
   "credits": {
    "by": "Antoine Bauza, published 2010 as Hanabi",
-   "version": "A homemade cut-down: three colours, three players"
+   "version": "A homemade cut-down of the twenty-five cards in five ranks and five colours that Nguyen describes: three colours of four ranks, three players. Nguyen gives no rule for what a hint may say, for a misplayed card or for the ending, so those are this tool's own: a hint names one colour or one number, a misplayed card is discarded and costs one of three lives, and the game ends on the third lost life or when the draw pile is empty and everyone has had one more turn"
   },
   "lesson": "Hidden hands turned inside out: you see everyone's cards except your own, so the team depends on a few limited clues. It shows how a limit on talking can become the whole game.",
   "teaches": "hidden-hands + cooperative + restricted-communication",
@@ -338,19 +338,19 @@
    {
     "n": 2,
     "title": "Deal sideways",
-    "body": "Shuffle. Deal 2 cards to each of the 3 players and put the rest face down as a draw pile. Hold your cards FACING OUTWARD: your teammates see them, you don't. Put 4 clue tokens (coins or paper bits) in the middle. The player who dealt goes first; play goes clockwise.",
+    "body": "Shuffle. Deal 2 cards to each of the 3 players and put the rest face down as a draw pile. Hold your cards FACING OUTWARD: your teammates see them, you don't. The player who dealt goes first; play goes clockwise.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<g transform='translate(100,75)'><circle cx='0' cy='-25' r='10' fill='#2D3127'/>\n<line x1='0' y1='-15' x2='0' y2='15' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/>\n<line x1='-15' y1='-5' x2='15' y2='-5' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(60,30) rotate(-15)'><rect x='-12' y='-18' width='24' height='32' rx='2' fill='#C75B39' stroke='#2D3127' stroke-width='2'/>\n<text x='0' y='4' text-anchor='middle' font-family='Fraunces' font-size='14' fill='white'>?</text></g>\n<g transform='translate(140,30) rotate(15)'><rect x='-12' y='-18' width='24' height='32' rx='2' fill='#C75B39' stroke='#2D3127' stroke-width='2'/>\n<text x='0' y='4' text-anchor='middle' font-family='Fraunces' font-size='14' fill='white'>?</text></g>\n<text x='100' y='115' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#6B6960' letter-spacing='0.08em'>YOU CAN'T SEE YOUR OWN CARDS</text></svg>"
    },
    {
     "n": 3,
-    "title": "Three actions",
-    "body": "On your turn do ONE of three things. (a) GIVE A CLUE: spend a clue token and tell one teammate about one colour or one number in their hand, pointing to every card of it ('these two are red', 'this one is a 3'). No clue when the tokens are gone. (b) PLAY a card. (c) DISCARD a card face up and take a clue token back.",
+    "title": "Hint, then play",
+    "body": "On your turn you do two things in order. First give ONE teammate one hint about what they hold. Here a hint names one colour or one number, pointing to every card of it ('this one is red', 'this one is a 3'). Then play down one of your own cards, without having looked at its face.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<g transform='translate(40,60)'><circle cx='0' cy='-15' r='8' fill='#2D3127'/>\n<line x1='0' y1='-7' x2='0' y2='15' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/>\n<line x1='-10' y1='0' x2='10' y2='0' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(160,60)'><circle cx='0' cy='-15' r='8' fill='#2D3127'/>\n<line x1='0' y1='-7' x2='0' y2='15' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/>\n<line x1='-10' y1='0' x2='10' y2='0' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<rect x='70' y='35' width='60' height='30' fill='#FFF8E8' stroke='#D9883D' stroke-width='2' rx='15'/>\n<text x='100' y='55' text-anchor='middle' font-family='Fraunces' font-size='12' fill='#7A4A1F' font-style='italic'>\"two reds\"</text></svg>"
    },
    {
     "n": 4,
     "title": "Play in order",
-    "body": "Cards are played in order, one row per colour: red 1, then red 2, red 3, red 4, and the same for blue and green. When you play a card, put it face up: if it is the next number in its colour it joins that row; if not, it is discarded and the team loses a life. You have three lives. After playing or discarding, draw a card if any are left.",
+    "body": "Cards are laid in rows, one row per colour, in order: red 1, then red 2, red 3, red 4, and the same for blue and green. When you play a card, put it face up: if it is the next number in its colour it joins that row; if not, it is discarded and the team loses a life. You have three lives. After playing, draw a card if any are left.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<g><rect x='30' y='35' width='22' height='32' rx='2' fill='#C75B39' stroke='#2D3127' stroke-width='1.5'/><text x='41' y='58' text-anchor='middle' font-family='Fraunces' font-size='13' font-weight='600' fill='white'>1</text></g>\n<g><rect x='56' y='35' width='22' height='32' rx='2' fill='#C75B39' stroke='#2D3127' stroke-width='1.5'/><text x='67' y='58' text-anchor='middle' font-family='Fraunces' font-size='13' font-weight='600' fill='white'>2</text></g>\n<g><rect x='82' y='35' width='22' height='32' rx='2' fill='#C75B39' stroke='#2D3127' stroke-width='1.5'/><text x='93' y='58' text-anchor='middle' font-family='Fraunces' font-size='13' font-weight='600' fill='white'>3</text></g>\n<g><rect x='108' y='35' width='22' height='32' rx='2' fill='none' stroke='#C75B39' stroke-width='1.5' stroke-dasharray='3,2'/><text x='119' y='58' text-anchor='middle' font-family='Fraunces' font-size='13' fill='#C75B39' opacity='0.5'>4</text></g>\n<g transform='translate(160,50)'>\n<circle cx='-7' cy='0' r='4' fill='#C75B39'/>\n<circle cx='2' cy='0' r='4' fill='#C75B39'/>\n<circle cx='11' cy='0' r='4' fill='#6B6960' opacity='0.4'/>\n</g>\n<text x='160' y='75' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#6B6960'>2 LIVES LEFT</text>\n<text x='100' y='95' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#6B6960' letter-spacing='0.08em'>1 → 2 → 3 → 4 IN ORDER</text></svg>"
    },
    {
@@ -376,7 +376,7 @@
        "id": "P1",
        "cards": [
         {
-         "face": "r2"
+         "face": "r1"
         },
         {
          "face": "b3"
@@ -387,10 +387,10 @@
        "id": "P2",
        "cards": [
         {
-         "face": "g1"
+         "face": "r2"
         },
         {
-         "face": "r1"
+         "face": "g1"
         }
        ]
       },
@@ -409,18 +409,18 @@
     }
    },
    {
-    "narration": "P1 says: 'You have one red.' That's a clue to P2 about colour only.",
+    "narration": "P1 starts with a hint to P2: 'this card is a 2.'",
     "scene": {
      "layout": "triangle",
      "active": "P1",
      "to": "P2",
-     "speech": "\"you have one red\"",
+     "speech": "\"this is a 2\"",
      "actors": [
       {
        "id": "P1",
        "cards": [
         {
-         "face": "r2"
+         "face": "r1"
         },
         {
          "face": "b3"
@@ -431,10 +431,10 @@
        "id": "P2",
        "cards": [
         {
-         "face": "g1"
+         "face": "r2"
         },
         {
-         "face": "r1"
+         "face": "g1"
         }
        ]
       },
@@ -453,54 +453,12 @@
     }
    },
    {
-    "narration": "P2 thinks: 'one of my cards is red — but which?'",
+    "narration": "P1 now plays a card without looking: the first one. It is red 1, so it starts the red row. P1 draws a card.",
     "scene": {
      "layout": "triangle",
-     "thinking": "P2",
-     "actors": [
-      {
-       "id": "P1",
-       "cards": [
-        {
-         "face": "r2"
-        },
-        {
-         "face": "b3"
-        }
-       ]
-      },
-      {
-       "id": "P2",
-       "cards": [
-        {
-         "face": "g1"
-        },
-        {
-         "face": "r1"
-        }
-       ]
-      },
-      {
-       "id": "P3",
-       "cards": [
-        {
-         "face": "b2"
-        },
-        {
-         "face": "r3"
-        }
-       ]
-      }
-     ]
-    }
-   },
-   {
-    "narration": "P2 plays the second card — guesses it's red 1. Right!",
-    "scene": {
-     "layout": "triangle",
-     "active": "P2",
+     "active": "P1",
      "played": {
-      "who": "P2",
+      "who": "P1",
       "card": "r1",
       "ok": true
      },
@@ -512,16 +470,19 @@
        "id": "P1",
        "cards": [
         {
-         "face": "r2"
+         "face": "b3"
         },
         {
-         "face": "b3"
+         "face": "r4"
         }
        ]
       },
       {
        "id": "P2",
        "cards": [
+        {
+         "face": "r2"
+        },
         {
          "face": "g1"
         }
@@ -542,25 +503,175 @@
     }
    },
    {
-    "narration": "P3 plays a card — guesses red. But it was blue 2. Lose a life.",
+    "narration": "P2 gives P3 a hint: 'this card is a 3.'",
+    "scene": {
+     "layout": "triangle",
+     "active": "P2",
+     "to": "P3",
+     "speech": "\"this is a 3\"",
+     "fireworks": [
+      "r1"
+     ],
+     "actors": [
+      {
+       "id": "P1",
+       "cards": [
+        {
+         "face": "b3"
+        },
+        {
+         "face": "r4"
+        }
+       ]
+      },
+      {
+       "id": "P2",
+       "cards": [
+        {
+         "face": "r2"
+        },
+        {
+         "face": "g1"
+        }
+       ]
+      },
+      {
+       "id": "P3",
+       "cards": [
+        {
+         "face": "b2"
+        },
+        {
+         "face": "r3"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "narration": "P2 knows from P1's hint that one card is a 2, and plays it. It is red 2, the next in the red row. P2 draws a card.",
+    "scene": {
+     "layout": "triangle",
+     "active": "P2",
+     "played": {
+      "who": "P2",
+      "card": "r2",
+      "ok": true
+     },
+     "fireworks": [
+      "r1",
+      "r2"
+     ],
+     "actors": [
+      {
+       "id": "P1",
+       "cards": [
+        {
+         "face": "b3"
+        },
+        {
+         "face": "r4"
+        }
+       ]
+      },
+      {
+       "id": "P2",
+       "cards": [
+        {
+         "face": "g1"
+        },
+        {
+         "face": "b1"
+        }
+       ]
+      },
+      {
+       "id": "P3",
+       "cards": [
+        {
+         "face": "b2"
+        },
+        {
+         "face": "r3"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "narration": "P3 hints P1: 'this card is a 4.'",
+    "scene": {
+     "layout": "triangle",
+     "active": "P3",
+     "to": "P1",
+     "speech": "\"this is a 4\"",
+     "fireworks": [
+      "r1",
+      "r2"
+     ],
+     "actors": [
+      {
+       "id": "P1",
+       "cards": [
+        {
+         "face": "b3"
+        },
+        {
+         "face": "r4"
+        }
+       ]
+      },
+      {
+       "id": "P2",
+       "cards": [
+        {
+         "face": "g1"
+        },
+        {
+         "face": "b1"
+        }
+       ]
+      },
+      {
+       "id": "P3",
+       "cards": [
+        {
+         "face": "b2"
+        },
+        {
+         "face": "r3"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "narration": "P3 plays the card P2 called a 3. It is red 3, and it fits. P3 draws a card.",
     "scene": {
      "layout": "triangle",
      "active": "P3",
      "played": {
       "who": "P3",
-      "card": "b2",
-      "ok": false
+      "card": "r3",
+      "ok": true
      },
-     "lives": 2,
+     "fireworks": [
+      "r1",
+      "r2",
+      "r3"
+     ],
      "actors": [
       {
        "id": "P1",
        "cards": [
         {
-         "face": "r2"
+         "face": "b3"
         },
         {
-         "face": "b3"
+         "face": "r4"
         }
        ]
       },
@@ -569,6 +680,9 @@
        "cards": [
         {
          "face": "g1"
+        },
+        {
+         "face": "b1"
         }
        ]
       },
@@ -576,7 +690,10 @@
        "id": "P3",
        "cards": [
         {
-         "face": "r3"
+         "face": "b2"
+        },
+        {
+         "face": "b4"
         }
        ]
       }
@@ -584,21 +701,26 @@
     }
    },
    {
-    "narration": "P1 gives clue: 'two reds in your hand' — but only to P3.",
+    "narration": "Back to P1, who hints P2: 'these two cards are both 1s.'",
     "scene": {
      "layout": "triangle",
      "active": "P1",
-     "to": "P3",
-     "speech": "\"two reds\"",
+     "to": "P2",
+     "speech": "\"both 1s\"",
+     "fireworks": [
+      "r1",
+      "r2",
+      "r3"
+     ],
      "actors": [
       {
        "id": "P1",
        "cards": [
         {
-         "face": "r2"
+         "face": "b3"
         },
         {
-         "face": "b3"
+         "face": "r4"
         }
        ]
       },
@@ -607,6 +729,9 @@
        "cards": [
         {
          "face": "g1"
+        },
+        {
+         "face": "b1"
         }
        ]
       },
@@ -614,7 +739,10 @@
        "id": "P3",
        "cards": [
         {
-         "face": "r3"
+         "face": "b2"
+        },
+        {
+         "face": "b4"
         }
        ]
       }
@@ -622,29 +750,54 @@
     }
    },
    {
-    "narration": "The cards run out. The team has played four cards in order and kept two lives.",
+    "narration": "P1 plays the card P3 called a 4. It is red 4, which completes the red row. P1 draws a card. The game goes on with all three lives still unspent.",
     "scene": {
      "layout": "triangle",
-     "lives": 2,
+     "active": "P1",
+     "played": {
+      "who": "P1",
+      "card": "r4",
+      "ok": true
+     },
      "fireworks": [
       "r1",
       "r2",
       "r3",
-      "g1"
+      "r4"
      ],
-     "outcome": "win",
      "actors": [
       {
        "id": "P1",
-       "cards": []
+       "cards": [
+        {
+         "face": "b3"
+        },
+        {
+         "face": "g2"
+        }
+       ]
       },
       {
        "id": "P2",
-       "cards": []
+       "cards": [
+        {
+         "face": "g1"
+        },
+        {
+         "face": "b1"
+        }
+       ]
       },
       {
        "id": "P3",
-       "cards": []
+       "cards": [
+        {
+         "face": "b2"
+        },
+        {
+         "face": "b4"
+        }
+       ]
       }
      ]
     }
@@ -937,7 +1090,7 @@
     }
    },
    {
-    "narration": "P2 takes middle GOLD. P1 plays bottom WOOD, P2 bottom STONE. Final: P1 9, P2 8.",
+    "narration": "P2 takes middle GOLD. P1 plays bottom WOOD, P2 bottom STONE. Round one ends with P1 on 9 and P2 on 8. Two more rounds are still to play.",
     "scene": {
      "grid": [
       [
@@ -959,9 +1112,7 @@
      "scores": {
       "P1": 9,
       "P2": 8
-     },
-     "outcome": "win",
-     "winner": "P1"
+     }
     }
    }
   ],
@@ -1025,8 +1176,8 @@
   "title": "Werewolf-5 — find the traitor",
   "parent_game": "Werewolf / Mafia / Among Us",
   "credits": {
-   "by": "Dmitry Davidoff, 1986, as Mafia; also played as Werewolf",
-   "version": "A five-player cut-down"
+   "by": "D. Davidoff and A. Plotkin, 1986, as Werewolf; Mafia is a version of the same game",
+   "version": "A five-player cut-down with one wolf. Spadaccini's Mafia is for seven or more players, with the Mafia typically a quarter to a third of the group, and it has a Godfather and role slips that this version leaves out"
   },
   "lesson": "A game made almost entirely of what players say about each other. It shows hidden identity, and how a single liar changes every conversation at the table.",
   "teaches": "traitor + hidden-identity + deduction",
@@ -1040,7 +1191,7 @@
    ]
   },
   "duration": "7–10 min",
-  "players": "5 players",
+  "players": "5 players and a Moderator",
   "equipment": [
    "5 small paper slips — write 'wolf' on one, 'village' on four",
    "a quiet space to whisper"
@@ -1050,31 +1201,31 @@
    {
     "n": 1,
     "title": "Pass out roles",
-    "body": "Make 5 slips. One says 'wolf', four say 'village'. Players draw secretly. Read in private.",
+    "body": "Choose a Moderator, who does not play. Make 5 slips: one says 'wolf', four say 'village'. The five players draw secretly and read their slip in private.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<g><rect x='15' y='35' width='28' height='40' rx='2' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='29' y='60' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#6B6960'>VILLAGE</text></g>\n<g><rect x='52' y='35' width='28' height='40' rx='2' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='66' y='60' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#6B6960'>VILLAGE</text></g>\n<g><rect x='89' y='35' width='28' height='40' rx='2' fill='#FFE5DC' stroke='#C75B39' stroke-width='2'/><text x='103' y='60' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#C75B39' font-weight='600'>WOLF</text></g>\n<g><rect x='126' y='35' width='28' height='40' rx='2' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='140' y='60' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#6B6960'>VILLAGE</text></g>\n<g><rect x='163' y='35' width='28' height='40' rx='2' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='177' y='60' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#6B6960'>VILLAGE</text></g>\n<text x='100' y='105' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#6B6960' letter-spacing='0.08em'>5 SLIPS · DRAW SECRETLY</text></svg>"
    },
    {
     "n": 2,
-    "title": "Day round — discuss",
-    "body": "Everyone sits in a circle. Day comes first. Players talk: who seems suspicious? The wolf lies; villagers ask questions.",
+    "title": "Night",
+    "body": "The Moderator tells everyone to shut their eyes and sleep. The Moderator then wakes the wolf, who chooses a villager to kill by pointing as quietly as possible. The wolf then closes their eyes again.",
     "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'>\n<g><g transform='translate(110,30)'><circle cx='0' cy='0' r='9' fill='#2D3127'/><line x1='0' y1='9' x2='0' y2='25' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(195,90)'><circle cx='0' cy='0' r='9' fill='#2D3127'/><line x1='0' y1='9' x2='0' y2='25' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(160,180)'><circle cx='0' cy='0' r='9' fill='#2D3127'/><line x1='0' y1='9' x2='0' y2='25' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(60,180)'><circle cx='0' cy='0' r='9' fill='#2D3127'/><line x1='0' y1='9' x2='0' y2='25' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(25,90)'><circle cx='0' cy='0' r='9' fill='#2D3127'/><line x1='0' y1='9' x2='0' y2='25' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g></g>\n<g transform='translate(75,55)'><rect x='-22' y='-12' width='44' height='22' rx='10' fill='#FFF8E8' stroke='#D9883D' stroke-width='1.5'/><text x='0' y='3' text-anchor='middle' font-family='Fraunces' font-size='9' font-style='italic' fill='#7A4A1F'>\"who?\"</text></g>\n<g transform='translate(155,120)'><rect x='-22' y='-12' width='44' height='22' rx='10' fill='#FFF8E8' stroke='#D9883D' stroke-width='1.5'/><text x='0' y='3' text-anchor='middle' font-family='Fraunces' font-size='9' font-style='italic' fill='#7A4A1F'>\"hmm…\"</text></g></svg>"
    },
    {
     "n": 3,
-    "title": "Day vote",
-    "body": "After a few minutes, everyone points at once to who they think is the wolf. The player with most votes is out and shows their slip. If the vote ties, nobody goes out today.",
+    "title": "Day: the killing",
+    "body": "The Moderator wakes everyone and says who was killed in the night. That player is out. They can watch but may not take part.",
     "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'>\n<g transform='translate(110,110)'><circle cx='0' cy='0' r='14' fill='#FFE5DC' stroke='#C75B39' stroke-width='2.5'/><line x1='0' y1='14' x2='0' y2='30' stroke='#C75B39' stroke-width='3' stroke-linecap='round'/></g>\n<g><g transform='translate(35,40)'><circle cx='0' cy='0' r='8' fill='#2D3127'/></g>\n<g transform='translate(185,40)'><circle cx='0' cy='0' r='8' fill='#2D3127'/></g>\n<g transform='translate(35,180)'><circle cx='0' cy='0' r='8' fill='#2D3127'/></g>\n<g transform='translate(185,180)'><circle cx='0' cy='0' r='8' fill='#2D3127'/></g></g>\n<defs><marker id='wva' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M 0 0 L 10 5 L 0 10 Z' fill='#C75B39'/></marker></defs>\n<g stroke='#C75B39' stroke-width='1.5' fill='none' marker-end='url(#wva)'>\n<line x1='44' y1='48' x2='95' y2='100'/><line x1='176' y1='48' x2='125' y2='100'/>\n<line x1='44' y1='172' x2='95' y2='120'/><line x1='176' y1='172' x2='125' y2='120'/>\n</g>\n<text x='110' y='200' text-anchor='middle' font-family='IBM Plex Mono' font-size='10' fill='#C75B39' letter-spacing='0.08em' font-weight='500'>VOTED OUT</text></svg>"
    },
    {
     "n": 4,
-    "title": "Night — wolf eliminates",
-    "body": "Everyone closes their eyes. The wolf opens theirs and taps one player gently on the shoulder. Then everyone opens their eyes, and the tapped player says they are out, without showing their slip.",
+    "title": "Day: discuss and vote",
+    "body": "The players still in talk about who the wolf is. The wolf lies. Anyone who wants to protest or share something has to do it before the vote. Then the players still in vote. As soon as a majority names one player, that player is out and can only watch, and the Moderator says whether they were the wolf or a villager. Then night falls again.",
     "svg": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'>\n<rect x='0' y='0' width='220' height='160' fill='#2D3127'/>\n<g fill='none' stroke='#FFF8E8' stroke-width='1.5'>\n<path d='M 25 75 Q 35 70 45 75'/>\n<path d='M 60 75 Q 70 70 80 75'/>\n<path d='M 140 75 Q 150 70 160 75'/>\n<path d='M 175 75 Q 185 70 195 75'/>\n</g>\n<g transform='translate(110,80)'>\n<path d='M -18 -10 L -22 -22 L -10 -16 Z' fill='#C75B39'/>\n<path d='M 18 -10 L 22 -22 L 10 -16 Z' fill='#C75B39'/>\n<ellipse cx='0' cy='0' rx='20' ry='18' fill='#C75B39'/>\n<circle cx='-7' cy='-3' r='2.5' fill='#FFE15A'/>\n<circle cx='7' cy='-3' r='2.5' fill='#FFE15A'/>\n<path d='M -8 8 L -3 5 L 0 8 L 3 5 L 8 8' stroke='#FFF8E8' stroke-width='1.5' fill='none'/>\n</g>\n<text x='110' y='145' text-anchor='middle' font-family='IBM Plex Mono' font-size='10' fill='#FFF8E8' letter-spacing='0.1em'>NIGHT · WOLF MOVES</text></svg>"
    },
    {
     "n": 5,
     "title": "Repeat until end",
-    "body": "Repeat day and night. The villagers win as soon as they vote out the wolf. The wolf wins if only one villager is left.",
+    "body": "Repeat night and day. The villagers win as soon as they vote out the wolf. The wolf wins if only one villager is left.",
     "svg": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'>\n<g><g transform='translate(50,80)'><circle cx='0' cy='0' r='10' fill='#7A8B3F'/><line x1='0' y1='10' x2='0' y2='28' stroke='#7A8B3F' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(110,80)'><circle cx='0' cy='0' r='10' fill='#7A8B3F'/><line x1='0' y1='10' x2='0' y2='28' stroke='#7A8B3F' stroke-width='3' stroke-linecap='round'/></g></g>\n<g opacity='0.3'><g transform='translate(170,80)'><circle cx='0' cy='0' r='10' fill='#6B6960'/><line x1='-8' y1='-8' x2='8' y2='8' stroke='#C75B39' stroke-width='2'/><line x1='-8' y1='8' x2='8' y2='-8' stroke='#C75B39' stroke-width='2'/></g></g>\n<text x='110' y='30' text-anchor='middle' font-family='IBM Plex Mono' font-size='10' fill='#7A8B3F' letter-spacing='0.1em' font-weight='600'>VILLAGE WINS</text>\n<text x='170' y='130' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#6B6960'>OUT</text></svg>"
    }
   ],
@@ -1086,7 +1237,7 @@
   "animation_type": "social",
   "animation": [
    {
-    "narration": "Five players sit in a circle. One is the wolf. Nobody knows who.",
+    "narration": "Five players sit in a circle, with a Moderator beside them. One is the wolf. Nobody knows who. Night comes: everyone closes their eyes.",
     "scene": {
      "layout": "circle5",
      "actors": [
@@ -1110,36 +1261,9 @@
     }
    },
    {
-    "narration": "Day. Players talk. P1 says: 'P3 hasn't said anything.' Others nod.",
+    "narration": "The Moderator wakes the wolf, P3, who silently points at P5. Then P3 closes their eyes again.",
     "scene": {
      "layout": "circle5",
-     "speech": "\"P3 is quiet…\"",
-     "active": "P1",
-     "actors": [
-      {
-       "id": "P1"
-      },
-      {
-       "id": "P2"
-      },
-      {
-       "id": "P3",
-       "wolf": true
-      },
-      {
-       "id": "P4"
-      },
-      {
-       "id": "P5"
-      }
-     ]
-    }
-   },
-   {
-    "narration": "P3 (the wolf) defends: 'I'm just listening — like always.'",
-    "scene": {
-     "layout": "circle5",
-     "speech": "\"just listening\"",
      "active": "P3",
      "actors": [
       {
@@ -1162,7 +1286,89 @@
     }
    },
    {
-    "narration": "Vote. P1, P2, P5 vote P3. P3 is OUT — and revealed as the wolf!",
+    "narration": "Day. The Moderator says that P5 was killed in the night. P5 is out and can only watch.",
+    "scene": {
+     "layout": "circle5",
+     "out": "P5",
+     "actors": [
+      {
+       "id": "P1"
+      },
+      {
+       "id": "P2"
+      },
+      {
+       "id": "P3",
+       "wolf": true
+      },
+      {
+       "id": "P4"
+      },
+      {
+       "id": "P5",
+       "out": true
+      }
+     ]
+    }
+   },
+   {
+    "narration": "P1 says: 'P3 hasn't said anything.' Others nod.",
+    "scene": {
+     "layout": "circle5",
+     "speech": "\"P3 is quiet…\"",
+     "active": "P1",
+     "out": "P5",
+     "actors": [
+      {
+       "id": "P1"
+      },
+      {
+       "id": "P2"
+      },
+      {
+       "id": "P3",
+       "wolf": true
+      },
+      {
+       "id": "P4"
+      },
+      {
+       "id": "P5",
+       "out": true
+      }
+     ]
+    }
+   },
+   {
+    "narration": "P3 (the wolf) defends: 'I'm just listening — like always.'",
+    "scene": {
+     "layout": "circle5",
+     "speech": "\"just listening\"",
+     "active": "P3",
+     "out": "P5",
+     "actors": [
+      {
+       "id": "P1"
+      },
+      {
+       "id": "P2"
+      },
+      {
+       "id": "P3",
+       "wolf": true
+      },
+      {
+       "id": "P4"
+      },
+      {
+       "id": "P5",
+       "out": true
+      }
+     ]
+    }
+   },
+   {
+    "narration": "Vote. P1, P2 and P4 vote for P3, a majority of the four players still in. P3 is OUT, and the Moderator says P3 was the wolf. The villagers win.",
     "scene": {
      "layout": "circle5",
      "votes": {
@@ -1187,7 +1393,8 @@
        "id": "P4"
       },
       {
-       "id": "P5"
+       "id": "P5",
+       "out": true
       }
      ]
     }
@@ -1254,7 +1461,8 @@
   "title": "Paper auction — bid for the prize",
   "parent_game": "Auction / bidding games (For Sale, High Society)",
   "credits": {
-   "by": "Made for this tool, after the bidding in games such as For Sale and High Society"
+   "by": "Made for this tool, after the bidding in games such as For Sale and High Society",
+   "version": "Open bids raised in turn, as Burgun describes for bidding games. The tokens, the five prizes, who opens each prize, the scoring and the tie-break are this tool's own"
   },
   "lesson": "Bidding with a budget that never refills: every token spent now is gone later. It shows how players come to price the same prize differently as their money runs down.",
   "teaches": "bidding + most-points + chance-with-mitigation",
@@ -1293,19 +1501,19 @@
    {
     "n": 3,
     "title": "Bid",
-    "body": "Each player secretly writes a bid on a slip: any number of their tokens, 0 included. Reveal all at once.",
+    "body": "Going round the table, the first bidder names an amount of tokens, at least 1. The next player either passes or bids higher. A player who passes is out of the bidding for this prize.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<g transform='translate(45,60) rotate(-10)'>\n<rect x='-18' y='-22' width='36' height='44' rx='2' fill='#FFF1EA' stroke='#2D3127' stroke-width='1.5'/>\n<line x1='-12' y1='-12' x2='12' y2='-12' stroke='#6B6960' stroke-width='1' stroke-dasharray='2,2'/>\n<text x='0' y='6' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#C75B39'>?</text>\n</g>\n<g transform='translate(100,55)'>\n<rect x='-18' y='-22' width='36' height='44' rx='2' fill='#FFF1EA' stroke='#2D3127' stroke-width='1.5'/>\n<text x='0' y='6' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#C75B39'>?</text>\n</g>\n<g transform='translate(155,60) rotate(10)'>\n<rect x='-18' y='-22' width='36' height='44' rx='2' fill='#FFF1EA' stroke='#2D3127' stroke-width='1.5'/>\n<text x='0' y='6' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#C75B39'>?</text>\n</g>\n<text x='100' y='110' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#6B6960' letter-spacing='0.08em'>SECRET BIDS · REVEAL TOGETHER</text></svg>"
    },
    {
     "n": 4,
     "title": "Highest pays, takes the prize",
-    "body": "The highest bidder gives those tokens to the bank and takes the prize. If bids tie, the tied players bid again.",
+    "body": "When everyone else has passed, the last bidder gives those tokens to the bank and takes the prize. Only the winner pays.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<rect x='80' y='30' width='40' height='60' fill='white' stroke='#2D3127' stroke-width='2' rx='3'/>\n<text x='100' y='65' text-anchor='middle' font-family='Fraunces' font-size='14' font-weight='600' fill='#C75B39'>★</text>\n<g transform='translate(35,60)'><circle cx='0' cy='-12' r='7' fill='#2D3127'/><line x1='0' y1='-5' x2='0' y2='15' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<g transform='translate(165,60)'><circle cx='0' cy='-12' r='7' fill='#2D3127'/><line x1='0' y1='-5' x2='0' y2='15' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g>\n<text x='35' y='105' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#C75B39' font-weight='500'>5</text>\n<text x='165' y='105' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#C75B39' font-weight='500'>7</text></svg>"
    },
    {
     "n": 5,
     "title": "Repeat for all 5 prizes",
-    "body": "After 5 prizes, add up the values of the prizes you took. Most wins; if that ties, more tokens left wins.",
+    "body": "The player to the left of the one who opened the last prize opens the next. After 5 prizes, add up the values of the prizes you took. Most wins; if that ties, more tokens left wins.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<g><rect x='15' y='30' width='28' height='42' fill='white' stroke='#C75B39' stroke-width='1.5' rx='2'/><text x='29' y='55' text-anchor='middle' font-family='Fraunces' font-size='10' font-weight='600' fill='#C75B39'>1</text></g>\n<g><rect x='52' y='30' width='28' height='42' fill='white' stroke='#C75B39' stroke-width='1.5' rx='2'/><text x='66' y='55' text-anchor='middle' font-family='Fraunces' font-size='10' font-weight='600' fill='#C75B39'>2</text></g>\n<g><rect x='89' y='30' width='28' height='42' fill='white' stroke='#C75B39' stroke-width='1.5' rx='2'/><text x='103' y='55' text-anchor='middle' font-family='Fraunces' font-size='10' font-weight='600' fill='#C75B39'>3</text></g>\n<g><rect x='126' y='30' width='28' height='42' fill='white' stroke='#C75B39' stroke-width='1.5' rx='2'/><text x='140' y='55' text-anchor='middle' font-family='Fraunces' font-size='10' font-weight='600' fill='#C75B39'>4</text></g>\n<g><rect x='163' y='30' width='28' height='42' fill='#FFE5DC' stroke='#C75B39' stroke-width='2.5' rx='2'/><text x='177' y='55' text-anchor='middle' font-family='Fraunces' font-size='10' font-weight='600' fill='#C75B39'>5</text></g>\n<text x='103' y='90' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#6B6960' letter-spacing='0.08em'>VALUE − SPENT = SCORE</text>\n<text x='103' y='108' text-anchor='middle' font-family='IBM Plex Mono' font-size='8' fill='#C75B39'>FIVE ROUNDS</text></svg>"
    }
   ],
@@ -1338,24 +1546,24 @@
     }
    },
    {
-    "narration": "First prize: a 5. The biggest one. Players bid secretly.",
+    "narration": "First prize: a 5, the biggest one. P1 opens the bidding at 6, P2 raises to 9 and P3 raises to 12.",
     "scene": {
      "layout": "line3",
      "actors": [
       {
        "id": "P1",
        "tokens": 30,
-       "bid": 12
+       "bid": 6
       },
       {
        "id": "P2",
        "tokens": 30,
-       "bid": 8
+       "bid": 9
       },
       {
        "id": "P3",
        "tokens": 30,
-       "bid": 18
+       "bid": 12
       }
      ],
      "prize": 5,
@@ -1363,7 +1571,7 @@
     }
    },
    {
-    "narration": "P3 wins with 18 tokens. Pays 18. Takes the 5-prize.",
+    "narration": "P1 and P2 pass. P3 is the last bidder, pays 12 and takes the 5.",
     "scene": {
      "layout": "line3",
      "actors": [
@@ -1379,7 +1587,7 @@
       },
       {
        "id": "P3",
-       "tokens": 12,
+       "tokens": 18,
        "prizes": [
         5
        ]
@@ -1389,7 +1597,7 @@
     }
    },
    {
-    "narration": "Next prize: a 3. P3 has fewer tokens. P1 wins with 11.",
+    "narration": "Next prize: a 3. P2 opens at 4, P3 raises to 6 and P1 raises to 11. P2 and P3 pass, so P1 pays 11 and takes the 3.",
     "scene": {
      "layout": "line3",
      "actors": [
@@ -1407,7 +1615,7 @@
       },
       {
        "id": "P3",
-       "tokens": 12,
+       "tokens": 18,
        "prizes": [
         5
        ]
@@ -1417,7 +1625,7 @@
     }
    },
    {
-    "narration": "Three more rounds. P3 has only 12 tokens left, and P1 outbids them for the 4. P2 takes the 2, P3 the 1. Final prize values: P1 7, P2 2, P3 6. P1 wins.",
+    "narration": "Three more prizes. P1 outbids P3 for the 4 at 13, P2 takes the 2 for 5 and P3 the 1 for 9. Final prize values: P1 7, P2 2, P3 6. P1 wins.",
     "scene": {
      "layout": "line3",
      "actors": [
@@ -1445,6 +1653,7 @@
        ]
       }
      ],
+     "prize": null,
      "outcome": "win",
      "winner": "P1"
     }
@@ -1494,8 +1703,8 @@
     "id": "q4",
     "question": "If you wanted players to feel CLEVER, which change would you try?",
     "options": [
-     "Show all bids openly so others can see who's bidding what.",
-     "Keep bids secret and reveal simultaneously — players have to guess what others will do.",
+     "Make everyone write a bid in secret and show them all at once, so players have to guess what others will do.",
+     "Keep the open bids, raised one after another.",
      "Use random bids.",
      "Remove the auction."
     ],
@@ -1663,7 +1872,7 @@
     }
    },
    {
-    "narration": "After five picks, P1 has red 3, red 6, red 1, red 4 and red 5. Going hard on red.",
+    "narration": "After five picks, every player has five cards. P1 has red 3, red 6, red 1, red 4 and red 5. Going hard on red.",
     "scene": {
      "layout": "square4",
      "active": "P1",
@@ -1680,15 +1889,33 @@
       },
       {
        "id": "P2",
-       "kept": []
+       "kept": [
+        "b5",
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+       ]
       },
       {
        "id": "P3",
-       "kept": []
+       "kept": [
+        "g1",
+        "g2",
+        "g3",
+        "g5",
+        "g6"
+       ]
       },
       {
        "id": "P4",
-       "kept": []
+       "kept": [
+        "y2",
+        "y1",
+        "y3",
+        "y4",
+        "y5"
+       ]
       }
      ]
     }
@@ -1776,7 +2003,8 @@
   "title": "Last-card-out — race to empty your hand",
   "parent_game": "UNO (simplified)",
   "credits": {
-   "by": "A cut-down of the colour-or-number matching games, the family Uno belongs to"
+   "by": "A cut-down of the colour-or-number matching games, the family Uno belongs to",
+   "version": "30 cards with two wilds, where Spadaccini's Crazy Eights uses a 52-card deck with the eights wild; three rounds are played"
   },
   "lesson": "A race where what you hold limits what you can do. It shows hand management, and how one flexible card (the wild) changes every decision around it.",
   "teaches": "hand-management + race-to-finish",
@@ -1808,14 +2036,14 @@
    },
    {
     "n": 2,
-    "title": "Deal 5 to each",
-    "body": "Deal 5 cards to each player. Stack the rest face-down in the middle. Flip the top card face-up — that's the start of the discard pile.",
+    "title": "Deal",
+    "body": "With two players, deal 7 cards to each. With three or four players, deal 5 to each. Stack the rest face-down in the middle. Flip the top card face-up — that's the start of the discard pile.",
     "svg": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'>\n<rect x='10' y='25' width='32' height='52' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/>\n<rect x='50' y='25' width='32' height='52' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/>\n<rect x='90' y='25' width='32' height='52' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/>\n<rect x='130' y='25' width='32' height='52' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/>\n<text x='26' y='55' text-anchor='middle' font-family='Fraunces' font-size='14' font-weight='600' fill='#C75B39'>4</text>\n<text x='66' y='55' text-anchor='middle' font-family='Fraunces' font-size='14' font-weight='600' fill='#3A6E8F'>2</text>\n<text x='106' y='55' text-anchor='middle' font-family='Fraunces' font-size='14' font-weight='600' fill='#C75B39'>7</text>\n<text x='146' y='55' text-anchor='middle' font-family='Fraunces' font-size='14' font-weight='600' fill='#7A8B3F'>K</text></svg>"
    },
    {
     "n": 3,
     "title": "Match colour or number",
-    "body": "The youngest goes first, then clockwise. On your turn, play a card matching the top of the discard pile by colour OR number. A wild can be played on anything; say which colour it stands for. If you can't play, draw one card; if it matches, you may play it at once. When the draw pile runs out, shuffle the discard pile, all but its top card, to make a new one.",
+    "body": "The youngest goes first, then clockwise. On your turn, play a card of the same colour OR number as the card on top of the discard pile. A wild can be played on anything; say which colour it stands for. If you can't play, keep drawing from the pile, one card at a time, until you find a card you can play, and play it. When the draw pile runs out, you can only play from your hand, and you pass if you can't.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>\n<rect x='55' y='30' width='40' height='60' rx='3' fill='#C75B39' stroke='#2D3127' stroke-width='1.5'/>\n<text x='75' y='65' text-anchor='middle' font-family='Fraunces' font-size='20' font-weight='600' fill='white'>4</text>\n<g transform='translate(125,45) rotate(15)'>\n<rect x='-20' y='-30' width='40' height='60' rx='3' fill='#3A6E8F' stroke='#2D3127' stroke-width='1.5'/>\n<text x='0' y='5' text-anchor='middle' font-family='Fraunces' font-size='20' font-weight='600' fill='white'>4</text>\n</g>\n<path d='M 100 55 L 110 50' stroke='#2D3127' stroke-width='2' stroke-linecap='round' marker-end='url(#arr)'/>\n<defs><marker id='arr' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='5' markerHeight='5' orient='auto'><path d='M 0 0 L 10 5 L 0 10 Z' fill='#2D3127'/></marker></defs>\n<text x='100' y='110' text-anchor='middle' font-family='IBM Plex Mono' font-size='9' fill='#6B6960' letter-spacing='0.08em'>MATCH COLOUR OR NUMBER</text></svg>"
    },
    {
@@ -1839,18 +2067,20 @@
   "animation_type": "cards",
   "animation": [
    {
-    "narration": "Two players. Each holds 5 cards. Discard pile shows: red 4.",
+    "narration": "Two players, so each holds 7 cards. Discard pile shows: red 4.",
     "scene": {
      "layout": "two",
      "actors": [
       {
        "id": "P1",
        "hand": [
-        "b4",
         "r2",
+        "b4",
         "g7",
         "y1",
-        "wild"
+        "wild",
+        "g2",
+        "y6"
        ]
       },
       {
@@ -1858,9 +2088,11 @@
        "hand": [
         "r1",
         "b6",
-        "y3",
         "g3",
-        "r5"
+        "r5",
+        "b2",
+        "y7",
+        "r3"
        ]
       }
      ],
@@ -1868,37 +2100,7 @@
     }
    },
    {
-    "narration": "P1 plays red 2 (matches red).",
-    "scene": {
-     "layout": "two",
-     "active": "P1",
-     "play": "r2",
-     "actors": [
-      {
-       "id": "P1",
-       "hand": [
-        "b4",
-        "g7",
-        "y1",
-        "wild"
-       ]
-      },
-      {
-       "id": "P2",
-       "hand": [
-        "r1",
-        "b6",
-        "y3",
-        "g3",
-        "r5"
-       ]
-      }
-     ],
-     "discard": "r2"
-    }
-   },
-   {
-    "narration": "P2 plays red 1.",
+    "narration": "P1 plays red 2 (matches red). P2 plays red 1 (matches red).",
     "scene": {
      "layout": "two",
      "active": "P2",
@@ -1910,16 +2112,20 @@
         "b4",
         "g7",
         "y1",
-        "wild"
+        "wild",
+        "g2",
+        "y6"
        ]
       },
       {
        "id": "P2",
        "hand": [
         "b6",
-        "y3",
         "g3",
-        "r5"
+        "r5",
+        "b2",
+        "y7",
+        "r3"
        ]
       }
      ],
@@ -1927,37 +2133,94 @@
     }
    },
    {
-    "narration": "P1 has no red or 1 — draws a card. Now holds 5.",
+    "narration": "P1 plays yellow 1 (matches the 1). P2 plays yellow 7 (matches yellow).",
     "scene": {
      "layout": "two",
-     "active": "P1",
-     "draw": true,
+     "active": "P2",
+     "play": "y7",
      "actors": [
       {
        "id": "P1",
        "hand": [
         "b4",
         "g7",
-        "y1",
         "wild",
-        "b1"
+        "g2",
+        "y6"
        ]
       },
       {
        "id": "P2",
        "hand": [
         "b6",
-        "y3",
         "g3",
-        "r5"
+        "r5",
+        "b2",
+        "r3"
        ]
       }
      ],
-     "discard": "r1"
+     "discard": "y7"
     }
    },
    {
-    "narration": "P1 plays blue 1 (matches the 1). P2 plays blue 6.",
+    "narration": "P1 plays green 7 (matches the 7). P2 plays green 3 (matches green).",
+    "scene": {
+     "layout": "two",
+     "active": "P2",
+     "play": "g3",
+     "actors": [
+      {
+       "id": "P1",
+       "hand": [
+        "b4",
+        "wild",
+        "g2",
+        "y6"
+       ]
+      },
+      {
+       "id": "P2",
+       "hand": [
+        "b6",
+        "r5",
+        "b2",
+        "r3"
+       ]
+      }
+     ],
+     "discard": "g3"
+    }
+   },
+   {
+    "narration": "P1 plays green 2 (matches green). P2 plays blue 2 (matches the 2).",
+    "scene": {
+     "layout": "two",
+     "active": "P2",
+     "play": "b2",
+     "actors": [
+      {
+       "id": "P1",
+       "hand": [
+        "b4",
+        "wild",
+        "y6"
+       ]
+      },
+      {
+       "id": "P2",
+       "hand": [
+        "b6",
+        "r5",
+        "r3"
+       ]
+      }
+     ],
+     "discard": "b2"
+    }
+   },
+   {
+    "narration": "P1 plays blue 4 (matches blue). P2 plays blue 6 (matches blue).",
     "scene": {
      "layout": "two",
      "active": "P2",
@@ -1966,18 +2229,15 @@
       {
        "id": "P1",
        "hand": [
-        "b4",
-        "g7",
-        "y1",
-        "wild"
+        "wild",
+        "y6"
        ]
       },
       {
        "id": "P2",
        "hand": [
-        "y3",
-        "g3",
-        "r5"
+        "r5",
+        "r3"
        ]
       }
      ],
@@ -1985,25 +2245,54 @@
     }
    },
    {
-    "narration": "Race continues. P2 plays last cards first — wins by emptying hand.",
+    "narration": "P1 plays yellow 6 (matches the 6). P2 has no yellow or 6, so draws cards one by one: blue 1 does not fit, yellow 2 does, and P2 plays it.",
     "scene": {
      "layout": "two",
+     "active": "P2",
+     "play": "y2",
+     "draw": true,
      "actors": [
       {
        "id": "P1",
        "hand": [
-        "g7",
-        "y1",
         "wild"
        ]
       },
       {
        "id": "P2",
-       "hand": []
+       "hand": [
+        "r5",
+        "r3",
+        "b1"
+       ]
       }
      ],
+     "discard": "y2"
+    }
+   },
+   {
+    "narration": "P1 plays the last card, the wild, and wins by emptying their hand.",
+    "scene": {
+     "layout": "two",
+     "active": "P1",
+     "play": "wild",
+     "actors": [
+      {
+       "id": "P1",
+       "hand": []
+      },
+      {
+       "id": "P2",
+       "hand": [
+        "r5",
+        "r3",
+        "b1"
+       ]
+      }
+     ],
+     "discard": "wild",
      "outcome": "win",
-     "winner": "P2"
+     "winner": "P1"
     }
    }
   ],
@@ -2067,7 +2356,7 @@
   "title": "Nim — take the last stone",
   "parent_game": "Nim, an old strategy game for two",
   "credits": {
-   "by": "Traditional; named by Charles L. Bouton, who worked out its theory in 1901"
+   "by": "Invented by the mathematician Charles Bouton, 1902"
   },
   "lesson": "No luck and nothing hidden, yet the winner is often settled many moves before the end by a pattern the players can't yet see. It shows why designers add uncertainty to a game that can be solved.",
   "teaches": "full-information",
@@ -2675,7 +2964,7 @@
   "parent_game": "Gulaam Chor (Jack Thief), an Indian card game related to Old Maid",
   "credits": {
    "by": "Traditional",
-   "version": "24 cards, so that it fits in ten minutes"
+   "version": "21 cards, so that it fits in ten minutes. Taking out three jacks and leaving the jack of spades as the loser follows the French version of Old Maid that Spadaccini mentions"
   },
   "lesson": "One loser, no winner, and almost no choices, yet real tension, carried by a single card that can never pair. It shows how a game can work on feeling more than decision.",
   "teaches": "set-collection + hidden-hands + one-loser",
@@ -2693,14 +2982,14 @@
   "duration": "6–10 min",
   "players": "3–5 players",
   "equipment": [
-   "a standard deck: only Ace to 5 of each suit and the four Jacks (24 cards)"
+   "a standard deck: only Ace to 5 of each suit and the Jack of spades (21 cards)"
   ],
   "intro": "Pairs are thrown away, one card is drawn blind each turn, and one Jack has no partner. Nobody wins. The game finds the one player left holding that Jack, the Gulaam Chor.",
   "steps": [
    {
     "n": 1,
-    "title": "Take out one Jack",
-    "body": "Use Ace to 5 of every suit and the four Jacks. Take out one Jack without looking at it and put it aside. Shuffle and deal all the cards.",
+    "title": "Keep one Jack",
+    "body": "Use Ace to 5 of every suit and the four Jacks. Take out the hearts, diamonds and clubs Jacks. The spades Jack is the Gulaam Chor and has no partner. Shuffle and deal all the cards.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><g transform='rotate(-12.0 57 100)'><rect x='40' y='28' width='34' height='50' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='57' y='59' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#2D3127'>A</text></g><g transform='rotate(-6.0 91 100)'><rect x='74' y='28' width='34' height='50' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='91' y='59' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#2D3127'>3</text></g><g transform='rotate(0.0 125 100)'><rect x='108' y='28' width='34' height='50' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='125' y='59' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#2D3127'>5</text></g><g transform='rotate(6.0 159 100)'><rect x='142' y='28' width='34' height='50' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='159' y='59' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#C75B39'>J</text></g></svg>"
    },
    {
@@ -2712,7 +3001,7 @@
    {
     "n": 3,
     "title": "Draw blind",
-    "body": "Hold your cards fanned, face down to the others. The player to the dealer's left starts: draw one card from the next player's hand without seeing it. If it makes a pair, put the pair down. Then the next player draws, and so on round the circle.",
+    "body": "Hold your cards fanned, face down to the others. The player sitting left of the dealer offers their cards to the player on their left, who takes one without seeing it. If it makes a pair, they put the pair down. Then that player offers their cards to the player on their left, and so on round the circle.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><g transform='translate(55,55)'><circle cx='0' cy='-15' r='8' fill='#C75B39'/><line x1='0' y1='-7' x2='0' y2='15' stroke='#C75B39' stroke-width='3' stroke-linecap='round'/><line x1='-12' y1='0' x2='12' y2='0' stroke='#C75B39' stroke-width='3' stroke-linecap='round'/><line x1='0' y1='15' x2='-8' y2='30' stroke='#C75B39' stroke-width='3' stroke-linecap='round'/><line x1='0' y1='15' x2='8' y2='30' stroke='#C75B39' stroke-width='3' stroke-linecap='round'/></g><g transform='translate(145,55)'><circle cx='0' cy='-15' r='8' fill='#2D3127'/><line x1='0' y1='-7' x2='0' y2='15' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/><line x1='-12' y1='0' x2='12' y2='0' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/><line x1='0' y1='15' x2='-8' y2='30' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/><line x1='0' y1='15' x2='8' y2='30' stroke='#2D3127' stroke-width='3' stroke-linecap='round'/></g></svg>"
    },
    {
@@ -2736,106 +3025,75 @@
   "animation_type": "cards",
   "animation": [
    {
-    "narration": "The pairs are down. Three Jacks are left: two will pair up, one cannot. P1 draws from P2.",
+    "narration": "The pairs are down. Five cards are left: two 3s, two 5s and the Jack of spades, which cannot pair. P1 offers their cards and P2 draws one.",
     "scene": {
-     "active": "P1",
+     "active": "P2",
      "actors": [
       {
        "id": "P1",
        "hand": [
         "r3",
-        "rJ"
+        "sJ"
        ]
       },
       {
        "id": "P2",
        "hand": [
         "b3",
-        "g5",
-        "bJ"
+        "g5"
        ]
       },
       {
        "id": "P3",
        "hand": [
-        "y5",
-        "gJ"
+        "y5"
        ]
       }
      ]
     }
    },
    {
-    "narration": "P1 draws P2's 3, pairs it with the other 3 and puts the pair down.",
+    "narration": "P2 draws P1's 3, pairs it with the other 3 and puts the pair down.",
     "scene": {
-     "active": "P1",
+     "active": "P2",
      "discard": "b3",
      "actors": [
       {
        "id": "P1",
        "hand": [
-        "rJ"
+        "sJ"
        ]
       },
       {
        "id": "P2",
        "hand": [
-        "g5",
-        "bJ"
+        "g5"
        ]
       },
       {
        "id": "P3",
        "hand": [
-        "y5",
-        "gJ"
+        "y5"
        ]
       }
      ]
     }
    },
    {
-    "narration": "P2 draws P3's 5 and puts down a pair of 5s.",
+    "narration": "P2 offers the last card and P3 draws the 5, pairs it with their own and puts down the pair of 5s. P2 and P3 have empty hands and are safe.",
     "scene": {
-     "active": "P2",
+     "active": "P3",
      "discard": "y5",
      "actors": [
       {
        "id": "P1",
        "hand": [
-        "rJ"
+        "sJ"
        ]
       },
       {
        "id": "P2",
-       "hand": [
-        "bJ"
-       ]
-      },
-      {
-       "id": "P3",
-       "hand": [
-        "gJ"
-       ]
-      }
-     ]
-    }
-   },
-   {
-    "narration": "P3 draws P1's Jack and pairs it with their own. P1 and P3 have empty hands and are safe.",
-    "scene": {
-     "active": "P3",
-     "discard": "rJ",
-     "actors": [
-      {
-       "id": "P1",
        "hand": []
-      },
-      {
-       "id": "P2",
-       "hand": [
-        "bJ"
-       ]
       },
       {
        "id": "P3",
@@ -2845,19 +3103,19 @@
     }
    },
    {
-    "narration": "P2 is left holding the last Jack. P2 is the Gulaam Chor.",
+    "narration": "P1 is left holding the Jack of spades. P1 is the Gulaam Chor.",
     "scene": {
-     "active": "P2",
+     "active": "P1",
      "actors": [
       {
        "id": "P1",
-       "hand": []
+       "hand": [
+        "sJ"
+       ]
       },
       {
        "id": "P2",
-       "hand": [
-        "bJ"
-       ]
+       "hand": []
       },
       {
        "id": "P3",
@@ -2870,7 +3128,7 @@
   "questions": [
    {
     "id": "q1",
-    "question": "Why is one Jack taken out before dealing?",
+    "question": "Why are three Jacks taken out before dealing?",
     "options": [
      "To make the game shorter",
      "So one Jack can never be paired",
@@ -2878,8 +3136,8 @@
      "To help the dealer"
     ],
     "answer": 1,
-    "feedback_correct": "Right. Three Jacks make one pair and one left over.",
-    "feedback_wrong": "Count the Jacks: with one removed, three are left."
+    "feedback_correct": "Right. Only the Jack of spades is left, so it has no partner.",
+    "feedback_wrong": "Count the Jacks: with three removed, one is left."
    },
    {
     "id": "q2",
@@ -2903,8 +3161,8 @@
      "P3",
      "Nobody"
     ],
-    "answer": 1,
-    "feedback_correct": "Right. P2 held the last Jack.",
+    "answer": 0,
+    "feedback_correct": "Right. P1 held the last Jack.",
     "feedback_wrong": "Look at the last frame."
    },
    {
@@ -2933,7 +3191,7 @@
   "parent_game": "Satte pe Satta (Badam Satti), an Indian card game related to Sevens",
   "credits": {
    "by": "Traditional",
-   "version": "Only the 4 to 10 of each suit, 28 cards"
+   "version": "Only the 4 to 10 of each suit, 28 cards, where Hoyle's Fan Tan uses the full pack of 52. There are no chips: where Hoyle has a player who cannot play pay a forfeit, here they simply pass"
   },
   "lesson": "Everyone builds the same rows, and holding a card back blocks the others. It shows interaction through a shared board instead of direct attack.",
   "teaches": "hand-management + hidden-hands + indirect-via-board",
@@ -2965,7 +3223,7 @@
    {
     "n": 2,
     "title": "Open",
-    "body": "Whoever holds the 7 of hearts plays it first. That starts the hearts row.",
+    "body": "The player on the dealer's left goes first. They have to play a seven or pass. Sevens are always playable, and each seven starts a row for its suit.",
     "svg": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><g transform='rotate(-3.0 57 100)'><rect x='40' y='28' width='34' height='50' rx='3' fill='white' stroke='#2D3127' stroke-width='1.5'/><text x='57' y='59' text-anchor='middle' font-family='Fraunces' font-size='16' font-weight='600' fill='#C75B39'>7♥</text></g></svg>"
    },
    {
@@ -3051,7 +3309,7 @@
     }
    },
    {
-    "narration": "P1 holds the 7 of hearts and opens the hearts row.",
+    "narration": "P1 sits on the dealer's left, so goes first, and has to play a seven or pass. P1 holds the 7 of hearts and plays it, opening the hearts row.",
     "scene": {
      "active": "P1",
      "actors": [
@@ -3327,12 +3585,12 @@
     "question": "Who plays first?",
     "options": [
      "The dealer",
-     "Whoever holds the 7 of hearts",
+     "The player on the dealer's left",
      "The youngest",
      "Whoever holds the 10 of spades"
     ],
     "answer": 1,
-    "feedback_correct": "Right.",
+    "feedback_correct": "Right. They have to play a seven or pass.",
     "feedback_wrong": "Look again at step 2."
    },
    {
@@ -4486,10 +4744,10 @@
   "animation_type": "cards",
   "animation": [
    {
-    "narration": "P1 plays two cards face down and says 'Two 3s'. They really are 3s.",
+    "narration": "P1 plays two cards face down and says 'Two Aces'. They really are Aces.",
     "scene": {
      "active": "P1",
-     "discard": "b3",
+     "discard": "bA",
      "actors": [
       {
        "id": "P1",
@@ -4504,15 +4762,15 @@
        "hand": [
         "g6",
         "rA",
-        "y2",
+        "y3",
         "y8"
        ]
       },
       {
        "id": "P3",
        "hand": [
-        "g4",
-        "y4",
+        "g2",
+        "b2",
         "b8",
         "r6"
        ]
@@ -4521,7 +4779,7 @@
     }
    },
    {
-    "narration": "P2 must play 4s and has none. P2 plays the Ace face down and says 'One 4'. A lie.",
+    "narration": "P2 must play 2s and has none. P2 plays the Ace of hearts face down and says 'One 2'. A lie.",
     "scene": {
      "active": "P2",
      "discard": "rA",
@@ -4538,15 +4796,15 @@
        "id": "P2",
        "hand": [
         "g6",
-        "y2",
+        "y3",
         "y8"
        ]
       },
       {
        "id": "P3",
        "hand": [
-        "g4",
-        "y4",
+        "g2",
+        "b2",
         "b8",
         "r6"
        ]
@@ -4555,7 +4813,7 @@
     }
    },
    {
-    "narration": "P3 holds two of the four 4s, so a 4 from P2 seems less likely. P3 calls 'Cheat!' The card is an Ace. P2 takes the whole pile: the two 3s and the Ace.",
+    "narration": "P3 holds two of the four 2s, so a 2 from P2 seems less likely. P3 calls 'Cheat!' The card is an Ace. P2 takes the whole pile: the two Aces and the Ace of hearts.",
     "scene": {
      "active": "P3",
      "actors": [
@@ -4571,18 +4829,18 @@
        "id": "P2",
        "hand": [
         "g6",
-        "y2",
+        "y3",
         "y8",
-        "r3",
-        "b3",
+        "bA",
+        "gA",
         "rA"
        ]
       },
       {
        "id": "P3",
        "hand": [
-        "g4",
-        "y4",
+        "g2",
+        "b2",
         "b8",
         "r6"
        ]
@@ -4591,10 +4849,10 @@
     }
    },
    {
-    "narration": "P3 must play 5s, plays the two 4s and says 'Two 5s'. Nobody calls, so the lie stands.",
+    "narration": "P3 must play 3s, plays the two 2s and says 'Two 3s'. Nobody calls, so the lie stands.",
     "scene": {
      "active": "P3",
-     "discard": "y4",
+     "discard": "b2",
      "actors": [
       {
        "id": "P1",
@@ -4608,10 +4866,10 @@
        "id": "P2",
        "hand": [
         "g6",
-        "y2",
+        "y3",
         "y8",
-        "r3",
-        "b3",
+        "bA",
+        "gA",
         "rA"
        ]
       },
@@ -4645,7 +4903,7 @@
     "question": "Why did P3 doubt P2?",
     "options": [
      "P2 played quickly",
-     "P3 held two of the four 4s, so a 4 from P2 was less likely",
+     "P3 held two of the four 2s, so a 2 from P2 was less likely",
      "P2 always lies",
      "4s are not allowed"
     ],
@@ -4664,7 +4922,7 @@
     ],
     "answer": 1,
     "feedback_correct": "Right. P2 lied and was caught.",
-    "feedback_wrong": "The card was an Ace, not a 4."
+    "feedback_wrong": "The card was an Ace, not a 2."
    },
    {
     "id": "q4",
@@ -5638,8 +5896,7 @@
   "title": "Three Men's Morris — three in a row, then move",
   "parent_game": "Three Men's Morris, an old game related to tic-tac-toe",
   "credits": {
-   "by": "Traditional",
-   "rules": "The board as recorded by the US National Park Service"
+   "by": "Traditional"
   },
   "lesson": "Placing pieces, then moving them: a second phase keeps a tic-tac-toe-like game from ending in a draw. It shows phases as a design tool.",
   "teaches": "pattern-building + full-information + direct-confrontation",
@@ -5794,7 +6051,7 @@
     }
    },
    {
-    "narration": "P1 places bottom-left: two threats at once, the left side and the other diagonal.",
+    "narration": "P1 places bottom-left. Now sliding the centre piece to middle-left would make three down the left side.",
     "scene": {
      "grid": [
       [
@@ -5817,7 +6074,7 @@
     }
    },
    {
-    "narration": "P2 can block only one, and places top-right.",
+    "narration": "P2 places the last piece at top-right and does not block middle-left.",
     "scene": {
      "grid": [
       [
@@ -5881,16 +6138,16 @@
    },
    {
     "id": "q2",
-    "question": "Why could P2 not stop P1?",
+    "question": "What did P2 do that let P1 win?",
     "options": [
-     "P2 had no pieces left",
-     "P1 made two threats at once and P2 could block only one",
+     "P2 forgot to take a turn",
+     "P2 placed the last piece at top-right and left middle-left open",
      "P2 moved last",
      "P1 jumped"
     ],
     "answer": 1,
     "feedback_correct": "Right.",
-    "feedback_wrong": "Look at the frame where P1 places bottom-left."
+    "feedback_wrong": "Look at the frame where P2 places the last piece."
    },
    {
     "id": "q3",
@@ -6703,7 +6960,7 @@
   "parent_game": "Eleusis, a card game by Robert Abbott",
   "credits": {
    "by": "Robert Abbott, 1956",
-   "version": "Close to Eleusis Express, John Golden's short version: 7 cards each, no Prophet, fewest cards wins"
+   "version": "A short version: 7 cards each where Schmittberger deals 14, and the fewest cards in hand wins where Schmittberger scores each player as the highest hand count minus their own cards"
   },
   "lesson": "The rules themselves are what you discover. Players learn by testing guesses against right and wrong, which is how a designer learns what a rule does. The Rulemaker also feels the balance: a rule nobody finds is as dull as one everyone finds at once.",
   "teaches": "rules-you-discover",
@@ -6736,12 +6993,12 @@
    {
     "n": 3,
     "title": "Play",
-    "body": "Going clockwise, each player plays one card next to the last correct card. The Rulemaker says right or wrong. A right card stays in the line; a wrong card goes just below the last right card, and the player draws one card."
+    "body": "Going clockwise, each player plays one card and shows it to the Rulemaker, who says right or wrong. A right card goes to the right of the last card in the line; a wrong card goes below the last card played, and the Rulemaker deals that player two extra cards from the stock."
    },
    {
     "n": 4,
-    "title": "Guess",
-    "body": "After a right play, a player may say what they think the rule is. If it is right, discovery is over; if wrong, they draw a card."
+    "title": "Prophet",
+    "body": "Once you think you know the rule, you may declare yourself Prophet, but only straight after you have played, right or wrong, before the next player plays. No one else may be Prophet, at least two other players besides you and the Rulemaker must still be in the round, and you may be Prophet only once a round. Mark the last card you played. You play no more cards. When another player plays, you say right or wrong before the Rulemaker does. If the Rulemaker agrees with you, play goes on; if not, you are overthrown, take five cards from the stock and play as before."
    },
    {
     "n": 5,
@@ -7174,7 +7431,7 @@
   "title": "Sprouts — the drawing that ends itself",
   "parent_game": "Sprouts, a pencil-and-paper game by John Conway and Michael Paterson",
   "credits": {
-   "by": "John Horton Conway and Michael S. Paterson, Cambridge, 1967"
+   "by": "John H. Conway and M. S. Paterson, 1960"
   },
   "lesson": "The board is drawn by the players, and the moves close the board in. It shows how a game can be made of its own map, and how a growing picture can carry the state of a game.",
   "teaches": "drawing-the-map + full-information + indirect-via-board",
@@ -7381,36 +7638,36 @@
   "duration": "5 min a game",
   "players": "2 players",
   "equipment": [
-   "paper with a rectangle of squares, 5 by 6",
+   "paper with a rectangle of squares, 7 by 10",
    "a pen"
   ],
-  "intro": "A chocolate bar of squares, with the bottom-left square poisoned. Each bite takes a square and everything above and to the right of it. Whoever has to take the poisoned square loses.",
+  "intro": "A chocolate bar of squares, with the bottom-left square poisoned. Each turn you mark a square and cross out every row above it and every column to its right. Whoever is forced to take the poisoned square loses.",
   "steps": [
    {
     "n": 1,
-    "title": "The bar",
-    "body": "Draw a rectangle of 5 rows by 6 columns. Mark the bottom-left square as poison."
+    "title": "The grid",
+    "body": "Draw a grid of squares that is larger than 6 by 6 and not square, such as 7 rows by 10 columns. Mark the bottom-left square as poison."
    },
    {
     "n": 2,
-    "title": "A bite",
-    "body": "Take turns choosing any remaining square. Cross it out, along with every square above it and to its right."
+    "title": "A turn",
+    "body": "Take turns to draw an X in any square. Then cross out every row above the X and every column to the right of it, right across the grid. You may not mark a square in a crossed-out row or column."
    },
    {
     "n": 3,
     "title": "Lose",
-    "body": "Whoever crosses out the poisoned square loses."
+    "body": "Whoever has to take the poisoned square in the bottom-left corner loses."
    },
    {
     "n": 4,
     "title": "Again",
-    "body": "Play a few times, and try a 2 by 6 bar to look for a pattern."
+    "body": "Play a few times, then try a 10 by 13 grid to look for a pattern."
    }
   ],
   "what_to_notice": [
    "Is going first better here? Why?",
    "Did you find a shape you wanted to leave your opponent?",
-   "What did the 2 by 6 bar show you?"
+   "What did the bigger grid show you?"
   ],
   "animation_type": "",
   "animation": [],
@@ -7690,7 +7947,8 @@
   "title": "Mū Tōrere — the Māori star game",
   "parent_game": "Mū Tōrere, a game of the Māori of Aotearoa New Zealand",
   "credits": {
-   "by": "Traditional Māori game"
+   "by": "Traditional Māori game",
+   "version": "Flanagan's note gives the board, four pieces each starting on the outer points, and the aim of crossing to the opposite side. The moves, the centre rule and the draw are this tool's own"
   },
   "lesson": "A board with a single empty point makes every move a question of who gets stuck. It shows how one restriction, the centre rule, can keep a tiny game from being won at once.",
   "teaches": "full-information + direct-confrontation",
@@ -7733,13 +7991,13 @@
    },
    {
     "n": 5,
-    "title": "Win",
-    "body": "You win when your opponent cannot move. If the same position comes three times, call it a draw."
+    "title": "Aim",
+    "body": "Each player tries to get across to the far side of the star. If the same position comes three times, call it a draw."
    }
   ],
   "what_to_notice": [
    "Why does the centre rule exist? What happens without it?",
-   "How quickly can a game be lost?",
+   "How did it feel to try to cross to the other side?",
    "What does a board with only one empty space do to play?"
   ],
   "animation_type": "",
@@ -7900,10 +8158,10 @@
   "title": "The Royal Game of Ur — race through the shared middle",
   "parent_game": "The Royal Game of Ur, from ancient Mesopotamia",
   "credits": {
-   "by": "Ancient Mesopotamia, about 2600 BCE; rules reconstructed by Irving Finkel of the British Museum",
-   "version": "Four coins in place of the four-sided dice of the original"
+   "by": "The ancient Middle East, about 2600 BCE; the exact rules are not known",
+   "version": "Four coins in place of the tetrahedral dice Flanagan describes, whose throws run from zero to four. Burgun reports only a starting wager and a larger wager for landing on one of the four corner points; here those points are the four rosettes on the outer rows, and no amounts are fixed. The path, the moves and how the game is won are this tool's own"
   },
-  "lesson": "A race with a shared middle, where luck decides the distance and you decide which piece to risk. It shows how a few special squares, the rosettes, shape the whole flow of a game.",
+  "lesson": "A race with a shared middle, where luck decides the distance and there are few choices to make. It shows how a few special squares, the rosettes, shape the whole flow of a game.",
   "teaches": "roll-and-move + direct-confrontation + race-to-finish",
   "design": {
    "core-mechanic": [
@@ -7924,7 +8182,7 @@
    "7 pieces each, of two kinds",
    "4 coins"
   ],
-  "intro": "Two races share one road. Each player's pieces run their own short lane, cross a middle lane where they can knock each other off, and leave by their own lane. Rosette squares give another throw and keep a piece safe.",
+  "intro": "Two races share one road. Each player's pieces run their own short lane, cross a middle lane where they can knock each other off, and leave by their own lane. Before the game each player puts in a stake, and the four corner rosettes make you raise it.",
   "steps": [
    {
     "n": 1,
@@ -7948,13 +8206,13 @@
    },
    {
     "n": 5,
-    "title": "Rosettes and capture",
-    "body": "Landing on a rosette gives another throw, and a piece on a rosette can't be taken. Landing on an opponent's piece in the middle row sends it back off the board to start again."
+    "title": "Stake, rosettes and capture",
+    "body": "Before the first throw each player puts a stake into a pot. Landing on one of the four rosettes on the 1st and 7th squares of the top and bottom rows forces you to raise your stake. Landing on an opponent's piece in the middle row sends it back off the board to start again."
    },
    {
     "n": 6,
     "title": "Win",
-    "body": "The first to take all seven pieces off the board, each by an exact throw, wins."
+    "body": "The first to take all seven pieces off the board wins the pot."
    }
   ],
   "what_to_notice": [
@@ -8124,10 +8382,9 @@
   "title": "Liar's Dice — bid on dice you can't see",
   "parent_game": "Liar's Dice (Dudo, Perudo), a bluffing dice game",
   "credits": {
-   "by": "Traditional; played across South America as Dudo or Perudo",
-   "version": "Three dice each, paper in place of cups, and no wild ones"
+   "by": "Traditional; the genre has roots in South America, where games are known as Dudo, Cachito or Mexicali"
   },
-  "lesson": "Every bid is a claim you can't check without risking a die. It shows how bluffing works when information is shared but hidden, and how a game tightens as each loss shrinks what you know.",
+  "lesson": "Every announcement is a claim you can't check without lifting your screen, and lifting it is the risk. It shows how bluffing works when a game rewards a convincing lie.",
   "teaches": "bidding + bluffing + direct-confrontation",
   "design": {
    "core-mechanic": [
@@ -8142,48 +8399,48 @@
    ]
   },
   "duration": "10 min",
-  "players": "2–6 players",
+  "players": "2 players",
   "equipment": [
-   "3 dice for each player",
-   "a sheet of paper each, folded to hide your dice"
+   "5 dice for each player",
+   "a cup for each player, and a screen to stand between you"
   ],
-  "intro": "Everyone rolls in secret. Players take turns raising a bid on how many dice of a face are on the whole table, until someone calls the last bid a lie. Then all dice are shown and someone loses a die.",
+  "intro": "Two players roll five dice each behind a screen. The caller announces a poker hand that need not be true, and the other player must raise the claim, roll again or lift the screen to challenge it.",
   "steps": [
    {
     "n": 1,
-    "title": "Roll",
-    "body": "Each player rolls three dice behind a folded paper and looks only at their own."
+    "title": "Who calls",
+    "body": "Each player has five dice and a cup, with a screen standing between you. Roll one die each to see who calls first: the higher die calls, and an ace ranks above a six."
    },
    {
     "n": 2,
-    "title": "Bid",
-    "body": "The first player bids a number and a face: 'four 3s', meaning there are at least four 3s among all the dice on the table."
+    "title": "Roll and announce",
+    "body": "Each player rolls their five dice behind the screen. The caller announces a poker hand. Every announcement, the caller's and the answers, names all five dice, such as 'three threes and two aces'. The announcement does not have to be the true hand. The hands rank as in poker dice: five of a kind highest, then four of a kind, then a full house, then three of a kind, two pairs, a pair and last a single high card."
    },
    {
     "n": 3,
-    "title": "Raise or call",
-    "body": "Going clockwise, each player either raises the bid (more dice, or the same number of a higher face) or calls 'Liar'."
+    "title": "Answer",
+    "body": "The other player may do one of three things: announce a higher hand than the caller did, lift the screen to show their dice, or roll again."
    },
    {
     "n": 4,
-    "title": "Reveal",
-    "body": "On a call, everyone shows their dice. If there are fewer of that face than the bid, the bidder loses a die; otherwise the caller loses one."
+    "title": "Lifting the screen",
+    "body": "Lifting the screen ends the round. It says the other player overstated their hand. If that is true, the player who lifted wins the round; if the announced hand was as good as the claim or better, the announcer wins."
    },
    {
     "n": 5,
-    "title": "Next round",
-    "body": "Everyone rolls again. The player who lost a die starts the bidding."
+    "title": "Rolls",
+    "body": "Each player may roll up to three times in a round. After the first roll you may set aside any dice you like and roll the rest. Once you choose to roll again, you must then announce a higher hand than your opponent's. You may not lift the screen to save yourself."
    },
    {
     "n": 6,
-    "title": "Win",
-    "body": "A player with no dice left is out. The last player with dice wins."
+    "title": "Next round",
+    "body": "Each round goes to one player, as in the step above. Roll again and start a new round."
    }
   ],
   "what_to_notice": [
-   "How did you guess what others held from their bids?",
-   "When did you bid on something you didn't have?",
-   "How did the game change as dice ran out?"
+   "How did you guess what your opponent held from what they announced?",
+   "When did you announce a hand you didn't have?",
+   "What made you roll again rather than lift the screen?"
   ],
   "animation_type": "",
   "animation": [],

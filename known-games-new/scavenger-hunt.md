@@ -27,7 +27,7 @@ Because every team has the same list, the contest is about how teams split the w
 2. **Set the time.** Agree on a limit, such as twenty minutes.
 3. **Search.** Teams go off to find the items and put them in their bag.
 4. **Return.** A team that comes back after the time limit is out.
-5. **Win.** The first team back with every item wins. If none has everything, the team with the most items wins.
+5. **Win.** The first team back with every item wins.
 
 ## After playing, talk about
 

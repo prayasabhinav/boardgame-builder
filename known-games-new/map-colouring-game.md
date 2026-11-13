@@ -17,7 +17,7 @@ The board is made by the players, and the only rule is a ban on neighbours. It s
 
 ## What you need
 
-- a sheet of paper with an irregular map drawn on it: 15 to 25 regions of different shapes
+- a sheet of paper with an irregular map drawn on it: a number of regions of different shapes that touch each other in various ways
 - one pencil, or two of different colours
 
 ## How to play

@@ -1,7 +1,7 @@
 # Yacht — roll three times, then fill one box
 
 - From: Yacht, a dice game that Yahtzee grew from
-- Players: 2–6 players
+- Players: 2 to about 10 players
 - Time: 15–20 min
 - Made by: Traditional; sold as Yahtzee from the 1950s
 - Rules from: Hoyle's Rules of Games, under 'Yacht'

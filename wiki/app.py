@@ -448,8 +448,16 @@ async def edit(request: Request, key: str, text: str = Form(""), pros: str = For
         text = corpus.link_text(*e["elements"], judgement, C["display"]) if not error else text
     else:
         error = text_problem(text, pros, cons, games, evidence)
-        if not error and e["source"] in ("drafted", "book") and e["kind"] == "pair" and (len(lines(pros)), len(lines(cons))) != (2, 2):
-            error = "Drafted pairs and pairs from books keep exactly two points for what it brings and two for what it costs."
+        if not error and e["source"] == "drafted" and e["kind"] == "pair" and (len(lines(pros)), len(lines(cons))) != (2, 2):
+            error = "Drafted pairs keep exactly two points for what it brings and two for what it costs."
+        if not error and e["source"] == "book" and e["kind"] == "pair" and (len(lines(pros)) > 2 or len(lines(cons)) > 2):
+            error = "Pairs from books keep at most two points for what it brings and two for what it costs, each one the book states."
+        # an entry taken from a book changes only with the book's own words as evidence; they are checked against the
+        # book before the change reaches the tool (13 November 2026: "Books are authority")
+        if not error and (e["source"] == "book" or e["kind"] in ("term", "idea")) and not any(
+                3 <= len(q.split()) <= 12 for q in re.findall(r"[\"“]([^\"”]{8,200})[\"”]", evidence)):
+            error = ("This entry is taken from a book, so a change to it needs the book's own words: copy 3 to 12 words "
+                     "from the book that say what you propose, in quotation marks, with the page.")
     if not error and (text, lines(pros), lines(cons), lines(games), judgement) == (
             e["text"], e.get("pros", []), e.get("cons", []), e.get("exemplars", []), e.get("judgement", "")):
         error = "Nothing was changed."

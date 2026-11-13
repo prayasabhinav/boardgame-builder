@@ -1,7 +1,7 @@
 # Indian Poker — bet on a card only the others can see
 
 - From: Indian Poker, a small poker game
-- Players: 3–8 players
+- Players: 2 or more players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 311
@@ -24,7 +24,7 @@ The usual secret is turned around: everyone knows your card but you. It shows ho
 
 1. **Ante.** Everyone puts one chip in the pot.
 2. **Deal.** Give each player one card. Without looking, each holds it against their forehead so the others can see it.
-3. **Bet.** Starting left of the dealer, each player bets or folds. After a bet, others fold, call or raise in turn.
+3. **Bet.** Each player in turn bets or folds, judging by the cards the others are holding.
 4. **Show.** Players still in lower their cards. The highest card takes the pot.
 5. **Play on.** Play five deals. The player with the most chips wins.
 

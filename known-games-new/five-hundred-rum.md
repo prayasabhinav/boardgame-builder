@@ -1,7 +1,7 @@
 # Five Hundred Rum — score points for every set you lay down
 
 - From: Five Hundred Rum, also called Michigan Rum
-- Players: 2–4 players
+- Players: 2–8 players
 - Time: 20–30 min
 - Made by: Traditional; played in the United States
 - Rules from: Hoyle's Rules of Games, under 'Five Hundred Rum'

@@ -24,8 +24,8 @@ The hider knows exactly where the button is but is allowed to give only a little
 1. **Hide.** One player hides a button while the others wait outside or look away.
 2. **Search.** The others come in and start to look.
 3. **Hints.** The hider says warmer if a seeker is moving closer, colder if moving away, hot when very close, freezing when very far.
-4. **Find.** The first player to find the button gets to hide it next.
-5. **Play again.** The new hider picks a different spot and the hunt starts again.
+4. **Find.** The aim of the seekers is to find the button.
+5. **Play again.** If you play another round, agree before you start who hides next; the book does not say.
 
 ## After playing, talk about
 

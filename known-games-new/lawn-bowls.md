@@ -1,7 +1,7 @@
 # Lawn Bowls — land closest to the jack
 
 - From: Lawn Bowls, an old lawn game for two sides
-- Players: 2–8 players
+- Players: Any number of players, best between four and twenty
 - Time: 15–20 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 240

@@ -1,7 +1,7 @@
 # Ring Taw — knock the marbles out of the ring
 
 - From: Ring Taw, a traditional marbles game
-- Players: 2–5 players
+- Players: 2 or more players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 269

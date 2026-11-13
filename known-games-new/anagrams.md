@@ -23,7 +23,7 @@ Nobody waits for a turn, so quick eyes decide who gets words. It also shows how 
 ## How to play
 
 1. **Set up.** Mix the slips and put them face down on the table in a pile.
-2. **Turn letters.** One player turns a slip face up. Then the next player turns one, and so on round the table. Everyone watches the faceup letters.
+2. **Turn letters.** One player begins turning slips over, one at a time, until someone sees a word that can be made from the letters showing and calls it out. Everyone watches the faceup letters.
 3. **Call a word.** Anyone who sees a word that can be made from the faceup letters calls it out. They take those slips and set them in front of themselves in the right order. They go back to turning letters.
 4. **Steal.** A player can steal a word from in front of someone else. To do this, they add at least one faceup letter to all the letters of that word and call out a new word. They take the letters and the old word and put the new word in front of themselves.
 5. **Not a steal.** Adding only an ending such as -S or -ER, or a start such as RE-, is not enough. The root word has to change.

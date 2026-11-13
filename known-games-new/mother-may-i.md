@@ -1,7 +1,7 @@
 # Mother, May I? — ask first, and she decides
 
 - From: Mother, May I?, a children's party game
-- Players: 4–12 players
+- Players: Best with ten or more players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 277

@@ -1,7 +1,7 @@
 # Crazy Eights — match the suit or the number
 
 - From: Crazy Eights, a card game for children and adults
-- Players: 3–4 players
+- Players: 2 or more players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 69

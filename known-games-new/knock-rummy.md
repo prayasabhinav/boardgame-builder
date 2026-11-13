@@ -1,9 +1,9 @@
 # Knock Rummy — keep your sets hidden and knock first
 
 - From: Knock Rummy, the Rummy game that Gin Rummy grew from
-- Players: 2–4 players
+- Players: 2–6 players
 - Time: 15–25 min
-- Made by: Traditional; played in the United States
+- Made by: not named in the book
 - Rules from: Hoyle's Rules of Games, under 'Knock Rummy'
 - This version: Hands are paid in points from a running total, and the first player to win 5 hands wins the game
 
@@ -22,7 +22,7 @@ Keeping sets hidden removes the shared table of finished work. It shows how movi
 
 ## How to play
 
-1. **Deal.** Deal 10 cards each with two players, 7 each with three or four. Put the rest face down as the stock and turn the top card face up beside it.
+1. **Deal.** Deal 10 cards each with two players, 7 each with three or four, 6 each with five or six. Put the rest face down as the stock and turn the top card face up beside it.
 2. **Each turn.** Draw the top card of the stock or the top discard. Then discard one card. No one lays down sets.
 3. **Card values.** Face cards count 10, aces count 1, other cards count the number on them. Aces are low only.
 4. **Knock.** At any turn you may knock, which ends the play. Everyone shows their hand, with sets set apart from deadwood.

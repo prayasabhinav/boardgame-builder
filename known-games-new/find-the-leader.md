@@ -24,7 +24,7 @@ The group works as one without a signal. It shows how a hidden role (the leader)
 1. **Send out.** One player, the outsider, leaves the room. The others pick a leader.
 2. **Start moving.** The leader starts an action, such as tapping a foot or scratching a head. Everyone copies at once.
 3. **Return.** The outsider comes back and watches the group. The leader changes the action from time to time, and the others follow without looking at the leader too often.
-4. **Guess.** The outsider gets a few guesses to name the leader.
+4. **Guess.** The outsider tries to name the leader.
 5. **Next.** When the outsider guesses right, the leader leaves the room next.
 
 ## After playing, talk about

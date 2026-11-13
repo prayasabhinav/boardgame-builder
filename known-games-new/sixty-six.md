@@ -26,8 +26,8 @@ At any moment the leader may close the stock, ending all drawing and betting tha
 2. **Deal.** The dealer gives each player six cards, three at a time. Turn up the next card. Its suit is trump. Lay it face up beside the stock, which is the rest of the cards face down.
 3. **Play a trick.** The player who is not the dealer leads any card. The other player plays any card too, with no need to follow suit. The higher card of the suit led wins, but a trump beats any other suit.
 4. **Draw.** The winner puts the trick face down in front of them, takes the top card of the stock, and leads next. The other player takes the next card. The last card drawn is the turned-up trump.
-5. **Final tricks.** Once the stock is gone, you must follow suit if you can and must win the trick if you can. The winner of the last trick gets 10 extra points.
-6. **Declare 66.** As soon as you have 66 points in your tricks, say so. The hand ends. Your opponent may check your tricks. If you were wrong, your opponent scores 2 game points.
+5. **Final tricks.** Play on until all the cards are gone. The winner of the last trick gets 10 extra points.
+6. **Declare 66.** As soon as you have 66 points in your tricks, say so. The hand ends. Your opponent may check your tricks.
 7. **Close.** On your lead, before the stock is empty, you may turn the trump card face down. No more cards are drawn. If you do not then reach 66, your opponent scores 2 game points, or 3 if they had won no trick yet.
 8. **Score the hand.** The winner of a hand scores 1 game point. If both players end on 65, nobody scores and the winner of the next hand gets 1 extra. First to 3 game points wins.
 

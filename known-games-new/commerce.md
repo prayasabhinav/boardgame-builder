@@ -1,7 +1,7 @@
 # Commerce — swap one card for a table card
 
 - From: Commerce, an old card game for any number of players
-- Players: 3–6 players
+- Players: Any number of players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 66

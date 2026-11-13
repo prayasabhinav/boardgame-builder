@@ -1,7 +1,7 @@
 # Pick-up sticks — lift one without moving another
 
-- From: Pick-up sticks (Jackstraws), a table game of unknown age
-- Players: 2–4 players
+- From: Pick-up sticks (Jackstraws), a game played with a pile of sticks
+- Players: 2 or more players
 - Time: 5–10 min
 - Made by: Traditional; the book traces it to Native American players or to a Chinese game called Spillikins
 - Rules from: The Big Book of Rules, p. 79

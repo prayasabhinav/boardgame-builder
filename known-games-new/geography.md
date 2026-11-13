@@ -1,7 +1,7 @@
 # Geography — name a place that starts with the last letter
 
 - From: Geography, a spoken word game
-- Players: 3 or more players
+- Players: Any number of players
 - Time: 10–15 min
 - Made by: Traditional; played on long drives and quiet evenings
 - Rules from: The Everything Games Book, p. 285

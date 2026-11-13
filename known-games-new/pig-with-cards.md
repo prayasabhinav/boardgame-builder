@@ -1,7 +1,7 @@
 # Pig — pass cards fast and touch your nose
 
 - From: Pig (the card game), a party game
-- Players: 3–13 players
+- Players: Up to 13 players
 - Time: 5–10 min a round
 - Made by: Traditional
 - Rules from: Hoyle's Rules of Games, under 'Pig'

@@ -5,7 +5,7 @@
 - Time: 25–30 min
 - Made by: Traditional; played in palaces, homes and cafés across India
 - Rules from: Board and Table Games from Many Civilizations, p. 11
-- This version: Two pieces each instead of four, one piece to a square except on castles, and castles placed wherever the class chooses
+- This version: Two pieces each instead of four, one piece to a square except on castles, and castles placed wherever the class chooses, a cross of any size, and a win for the first team with all its pieces home, since the text gives no measurements or end of the game
 
 Made with boardgameBuilder 1.x. To design from it, open boardgameBuilder and choose Open game: its blocks go on the canvas, and the feelings are left for you to pick.
 
@@ -24,7 +24,7 @@ Partners share one fate but move separately. It shows how a team game gives a pl
 
 ## How to play
 
-1. **Draw the cross.** Draw a cross with four arms. Make each arm three squares wide and eight squares long, joined at a square in the middle. Mark the middle square as the centre. Mark some squares as castles, spread round the board; four to eight is enough.
+1. **Draw the cross.** Draw a cross with four arms, divided into squares and joined at a space in the middle. Mark the middle space as the centre (the Char-koni). Mark some squares as castles, spread round the board; four to eight is enough.
 2. **Sit and set up.** Partners sit opposite each other. Each player owns the arm in front of them and starts with both pieces in the centre.
 3. **Throw.** Toss all six coins. Count the heads. Two to five heads score that number. Six heads score 6, one head scores 10 and no heads score 25.
 4. **A turn.** After a 6, 10 or 25 you throw again. Your turn ends when you throw 2, 3, 4 or 5. Then play out your throws one at a time. Each throw moves one piece by that number. You cannot split a throw between two pieces. You may pass instead of using a throw.
@@ -32,7 +32,7 @@ Partners share one fate but move separately. It shows how a team game gives a pl
 6. **The route.** A piece goes down the middle row of its own arm. It then goes anticlockwise round the outer rows of the whole cross. At the end it goes up the middle row of its own arm to the centre. It has to reach the centre by an exact throw.
 7. **Hit.** If your piece lands on an enemy piece that is not on a castle, that piece goes back to the centre. It needs a 6, 10 or 25 to come out again. You throw again.
 8. **Castles.** Nobody can be hit on a castle. A castle with your piece on it is closed to enemy pieces but open to your partner's.
-9. **Win.** The first team to bring all four of its pieces home wins.
+9. **Win.** Partners win or lose together. This version counts the first team to bring all four of its pieces home as the winner.
 
 ## After playing, talk about
 

@@ -1,6 +1,6 @@
 # Coon Can — meld all your cards
 
-- From: Coon Can, an old card game and an early cousin of rummy
+- From: Coon Can, a card game for two
 - Players: 2 players
 - Time: 15–20 min
 - Made by: Traditional
@@ -25,7 +25,7 @@ You are not attacking the other player. You are racing to arrange your own cards
 3. **Sets and runs.** A set is three or four cards of the same number. A run is three or more cards in a row in the same suit.
 4. **Your turn.** Draw the top card of the stock. If it helps you make a set or run, lay that set or run face up on the table. Then throw one card from your hand on the discard pile. If you do not use the drawn card, throw it on the discard pile face up.
 5. **Take the discard.** Instead of drawing, you may take the card your opponent just threw away, if it lets you lay down a set or run.
-6. **Win.** The first player to lay down all 10 starting cards plus one more (11 cards in all) wins. If neither can, the game is a draw and the same dealer deals again.
+6. **Win.** The first player to lay down all 10 starting cards plus one more (11 cards in all) wins. If neither can, the game is a draw and the other player deals next.
 
 ## After playing, talk about
 

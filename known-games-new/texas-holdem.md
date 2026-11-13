@@ -1,9 +1,9 @@
 # Texas Hold'em — two cards of your own, five that everyone shares
 
-- From: Texas Hold'em, a Poker game now played in clubs around the world
-- Players: 3–8 players
+- From: Texas Hold'em, a Poker game
+- Players: 2 or more players
 - Time: 20–30 min
-- Made by: Traditional; played in the United States
+- Made by: not named in the book
 - Rules from: Hoyle's Rules of Games, under 'Texas Hold'em'
 - This version: Five deals, a fixed bet size of 2 chips, and most chips at the end wins
 

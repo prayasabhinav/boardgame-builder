@@ -26,7 +26,7 @@ Every player has a different card, but all of them are fed by the same caller. I
 1. **Make the cards.** Each player draws a 5 by 5 grid and writes B I N G O across the top. Fill column B with numbers from 1 to 20, I with 21 to 40, N with 41 to 60, G with 61 to 80 and O with 81 to 100. No number twice.
 2. **Choose a caller.** One player is the caller for this game. The caller shakes the bowl.
 3. **Call.** The caller draws one scrap and reads the number aloud. Anyone with that number on their card puts a marker on it.
-4. **Keep going.** The caller keeps drawing. Set the scraps aside once read, so nobody can claim a number that was not called.
+4. **Keep going.** The caller keeps drawing and reading numbers until a player has filled a row.
 5. **Win.** The first player to cover a whole row, a whole column or a whole diagonal shouts Bingo. The caller checks the card against the called numbers.
 
 ## After playing, talk about

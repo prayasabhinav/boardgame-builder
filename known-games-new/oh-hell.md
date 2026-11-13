@@ -22,7 +22,7 @@ Most trick games reward winning more. Here the target is exact, so a strong hand
 
 ## How to play
 
-1. **Deal.** In the first deal each player gets one card, in the second deal two, and so on up to six. The dealer then turns the next card face up. Its suit is trumps for the deal. Put the rest of the pack aside.
+1. **Deal.** In the first deal each player gets one card, in the second deal two, and so on up to six. The dealer then turns the next card face up. Its suit is trumps for the deal, except in the last deal (the sixth, in this version), when no card is turned and the hands are played with no trumps. Put the rest of the pack aside.
 2. **Bid.** Starting with the player on the dealer's left, everyone in turn says how many tricks they will win. You cannot pass, but you may say zero. Write each bid down so that anyone can ask what was said.
 3. **Play.** The player to the dealer's left leads. Everyone must follow suit if they can. The highest trump wins a trick, or else the highest card of the suit led. The winner leads next.
 4. **Score.** A player who won exactly the number they bid scores the bid plus 10. A player who won more or fewer scores nothing.

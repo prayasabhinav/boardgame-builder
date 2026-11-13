@@ -6,7 +6,7 @@
 then read the diff before deploying. It changes pairs, triads, conflicts, theme lines, feeling and block
 descriptions, and feeling-and-block judgements, and adds new triads, conflicts and known games. A change to an entry
 taken from a book (kb-books/), to a glossary term or key idea (ideas/), or to a tentative block (book-blocks.json) is
-written back into that file, keeping its page; then run python kb-books/build.py and python ideas/build.py too. A new game goes
+written back into that file, keeping its page, once the Mac's book check has passed it (wiki-book-checked.json); then run python kb-books/build.py and python ideas/build.py too. A new game goes
 into games.json without an animation or questions, so the tool offers it to play and to open as a design; a
 change to a game already there is listed for doing by hand, since its animation may need redrawing. A new block or feeling
 needs a drawing, a display name and pair entries, so it is listed for doing by hand. A drafted pair stays
@@ -27,6 +27,20 @@ DONE = Path("wiki-applied.json")
 KB = Path("interactions.json")
 GAMES = Path("games.json")
 STATUS = "wiki-approved"
+# A change to an entry taken from a book is carried in only after the Mac has checked it against the book
+# (book-checks/wiki-watch.py, 13 November 2026: "Books are authority", "Make this chain persist with wiki changes").
+BOOK_CHECKED = Path("wiki-book-checked.json")
+book_checked = json.loads(BOOK_CHECKED.read_text(encoding="utf-8")) if BOOK_CHECKED.exists() else {}
+
+
+def book_gate(p):
+    """'' when this proposal may change a book entry; otherwise why it waits or was refused."""
+    c = book_checked.get(str(p["id"]))
+    if not c:
+        return f"a change to {p['key']}, taken from a book: waiting for the book check on the Mac"
+    if c["result"] != "found":
+        return f"REFUSED a change to {p['key']}: {c['reason']}"
+    return ""
 
 
 def inline(v):
@@ -98,6 +112,15 @@ def add_game(p):
     return ""
 
 
+def in_books(kind, same):
+    """Whether a pair or conflict with these blocks is an entry taken from a book (kb-books/)."""
+    for f in sorted(Path("kb-books").glob("*.txt")):
+        for line in f.read_text(encoding="utf-8").splitlines():
+            if line.startswith(kind + ":") and set(line.split("|")[0].split(":", 1)[1].strip().split("+")) == same:
+                return True
+    return False
+
+
 def apply(p, kb):
     """Returns '' when applied, or why it was left for doing by hand."""
     els, kind = json.loads(p["elements"]), p["kind"]
@@ -122,9 +145,11 @@ def apply(p, kb):
             if set(e["elements"]) == same:
                 e.update(tendency=p["text"], pros=pros, cons=cons, exemplars=games, verification_status=STATUS)
                 return ""
+        if target == "pair" and in_books("pair", same) and (why := book_gate(p)):
+            return why
         if target == "pair" and rewrite_line(sorted(Path("kb-books").glob("*.txt")),
                                              lambda c: c[0].startswith("pair:") and set(c[0][5:].strip().split("+")) == same,
-                                             lambda c: " | ".join([c[0], p["text"], *pros, *cons, c[-1]])):
+                                             lambda c: " | ".join([c[0], p["text"], *(pros + ["-", "-"])[:2], *(cons + ["-", "-"])[:2], c[-1]])):
             return ""
         if target == "pair" and rewrite_line(sorted(Path("drafted").glob("[0-9]*.txt")),
                                              lambda c: set(c[0].split("+")) == same,
@@ -135,6 +160,8 @@ def apply(p, kb):
             if set(e["elements"]) == same:
                 e["student_note"] = p["text"]
                 return ""
+        if in_books("conflict", same) and (why := book_gate(p)):
+            return why
         if rewrite_line(sorted(Path("kb-books").glob("*.txt")),
                         lambda c: c[0].startswith("conflict:") and set(c[0][9:].strip().split("+")) == same,
                         lambda c: " | ".join([c[0], p["text"], c[-1]])):
@@ -151,6 +178,8 @@ def apply(p, kb):
                 seen[0] += 1
                 return seen[0] == nth
             return False
+        if books and (why := book_gate(p)):
+            return why
         if books and rewrite_line(sorted(Path("ideas").glob(f"{books[0]}*.txt")), match, lambda c: " | ".join([c[0], p["text"], c[-1]])):
             return ""
     elif target == "theme":
@@ -190,7 +219,10 @@ def main():
     by_hand = []
     for p in todo:
         why = apply(p, kb)
-        if why:
+        if why.startswith("REFUSED"):
+            done.add(p["id"])
+            by_hand.append(f"  #{p['id']} {why}")
+        elif why:
             by_hand.append(f"  #{p['id']} {why}")
         else:
             done.add(p["id"])

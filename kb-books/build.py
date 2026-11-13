@@ -3,7 +3,7 @@
 A file is named <book>.<chunk>.txt; the book's full reference and the short form the feedback cites come from
 sources.tsv (settled through Consensus, find-research-papers and Crossref, then library catalogues, 6 November 2026).
 Each line is one entry:
-    pair: block+block | what tends to happen | pro | pro | con | con | page
+    pair: block+block | what tends to happen | pro | pro | con | con | page   (a pro or con the book does not state is '-')
     conflict: block+block | the sentence a student reads | page
 Every sentence says what tends to happen, in our own words, and the page is where the book says it.
 Nothing here is reviewed; curated entries come first, then these, then the drafted ones.
@@ -43,7 +43,8 @@ for path in sorted(glob.glob(os.path.join(HERE, "*.txt"))):
             problems.append(f"{where}: banned word '{word}'")
         source = {"ref": head["source"], "short": head["short"], "page": cells[-1]}
         if kind == "pair":
-            pairs.append({"elements": elements, "tendency": cells[1], "pros": cells[2:4], "cons": cells[4:6], "exemplars": [],
+            # a pro or con the book gives no ground for is written "-" and left out (13 November 2026: books are the authority)
+            pairs.append({"elements": elements, "tendency": cells[1], "pros": [c for c in cells[2:4] if c != "-"], "cons": [c for c in cells[4:6] if c != "-"], "exemplars": [],
                           "source": source, "verification_status": STATUS})
         else:
             conflicts.append({"elements": elements, "note": cells[1], "student_note": cells[1], "source": source, "verification_status": STATUS})

@@ -1,10 +1,11 @@
 # Who Am I? — find out who is on your back
 
 - From: Who Am I?, a party icebreaker
-- Players: 6 or more players
+- Players: The guests at a party
 - Time: 15 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 132
+- This version: The book names no end and no winner, so there is none; players simply keep asking until they know who they are
 
 Made with boardgameBuilder 1.x. To design from it, open boardgameBuilder and choose Open game: its blocks go on the canvas, and the feelings are left for you to pick.
 
@@ -27,7 +28,6 @@ Here the secret is held by everyone except the person it is about. It shows how 
 2. **Stick them on.** As players arrive, the host sticks a tag on each player's back without letting them see it.
 3. **Ask.** Players walk round and ask others questions that can be answered yes or no, such as are you alive, are you a woman, are you in films.
 4. **Guess.** When you think you know, tell the host your guess. If it is right, take the tag off. If not, keep asking.
-5. **End.** Play until everyone has found out, or stop at a time you set. The first to guess correctly can be named the winner.
 
 ## After playing, talk about
 

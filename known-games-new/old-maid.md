@@ -1,7 +1,7 @@
 # Old Maid — don't be left holding the Queen
 
 - From: Old Maid, a card game
-- Players: 2–6 players
+- Players: 2 or more players
 - Time: 10 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, pp. 114–115

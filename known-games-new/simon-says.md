@@ -1,7 +1,7 @@
 # Simon Says — obey only when Simon says so
 
 - From: Simon Says, a children's party game
-- Players: 3–30 players
+- Players: Any number of players; ten to sixty make the best game
 - Time: 5–10 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 280

@@ -3,7 +3,7 @@
 - From: Five-Card Draw, the basic game of poker
 - Players: 2–8 players
 - Time: 15–25 min
-- Made by: Traditional; poker grew up in the United States in the 1800s
+- Made by: not named in the book
 - Rules from: The Big Book of Rules, p. 304
 - This version: Beans or coins for chips, five hands, and the player with the most chips at the end wins
 

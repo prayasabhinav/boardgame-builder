@@ -1,7 +1,7 @@
 # Hunt the Thimble — find the hidden thing by warm and cold
 
 - From: Hunt the Thimble, a traditional party game
-- Players: 3–10 players
+- Players: Any number of players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 251

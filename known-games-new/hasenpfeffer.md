@@ -24,7 +24,7 @@ A bid that is also a promise to a partner you cannot talk to. It shows how an au
 
 1. **Deal.** Partners sit opposite each other. Deal 6 cards to each player, three at a time. Put the last card face down as the widow.
 2. **Rank the cards.** The joker is the highest trump. Then comes the jack of the trump suit (right bower), then the other jack of the same colour (left bower), then ace, king, queen, ten, nine of trumps. In the other suits the order is ace, king, queen, jack, ten, nine; the left bower counts as a trump, not in its own suit.
-3. **Bid.** Starting at the dealer's left, each player has one bid or a pass. A bid is a number from one to six, and each bid has to be higher than the last. If all four pass, whoever holds the joker shows it and plays a bid of three.
+3. **Bid.** Starting at the dealer's left, each player has one bid or a pass. A bid is a number from one to six. If all four pass, whoever holds the joker shows it and plays a bid of three.
 4. **Take the widow.** The high bidder picks up the widow, names the trump suit and puts one card face down aside. They lead any card to the first trick.
 5. **Play tricks.** Follow suit if you can. The highest trump wins, or the highest card of the suit led if there is no trump. The winner leads next.
 6. **Score.** If the bidding side wins at least as many tricks as it bid, it scores one point for each trick it won. If not, it loses the number it bid, and may go below zero. The other side scores nothing.

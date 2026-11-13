@@ -1,7 +1,7 @@
 # Impressions — be someone without being told who
 
 - From: Impressions (If I Were a ...), a parlour game
-- Players: 4–10 players
+- Players: 2 or more players, better with 4 or more
 - Time: 10–15 min
 - Made by: Traditional; the book says a novel by John Updike featured it
 - Rules from: The Big Book of Rules, p. 52
@@ -24,7 +24,7 @@ An answer in a game can be a picture instead of a fact. It shows how asking for 
 1. **Choose.** One player is the guesser and leaves the room. The others pick a famous person, living or dead.
 2. **Return.** The guesser comes back and asks, "If I were a (kind of thing), what would I be?" Examples are a colour, a flower, a drink, an animal, a time of year or a building.
 3. **Answer with an impression.** Each answer should hint at the person's life or feeling, such as "a roller coaster" for a career. An answer that names something too specific, such as a book title the person wrote, is not allowed.
-4. **Guess.** The guesser may name the person at any time. The group may give more impressions if the guesser is stuck.
+4. **Guess.** From the impressions, the guesser works out which famous person the others chose.
 5. **Next round.** Whoever gave the answer that led to the right guess goes out next.
 
 ## After playing, talk about

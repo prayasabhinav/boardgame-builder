@@ -1,7 +1,7 @@
 # War — the highest card takes the pile
 
 - From: War, a children's card game
-- Players: 2–4 players
+- Players: 2 or more players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: Characteristics of Games, p. 278

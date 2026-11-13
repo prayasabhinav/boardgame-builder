@@ -31,7 +31,7 @@ Nobody chooses a move here, yet the game is full of things that happen to the tw
 5. **The torrent.** A runner who stops on the torrent goes back to START, and its team pays one counter to the other team.
 6. **The dry streams.** A runner who stops on a dry stream misses its team's next throw.
 7. **Meeting.** If a runner stops on the same space as the other runner, the one who arrived last sends the other back to START and wins a counter from the other team.
-8. **Laps.** The first runner back round to START wins a counter from the other team and the lap ends. Both runners go back to START to begin the next lap.
+8. **Laps.** The first runner back round to START wins a counter from the other team and the lap ends. If the throw takes the runner past START, it moves the extra points along the next lap.
 9. **The end.** After three laps, the team with more counters wins. If one team holds all eight counters sooner, it wins at once.
 
 ## After playing, talk about

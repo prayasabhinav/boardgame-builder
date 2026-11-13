@@ -1,7 +1,7 @@
 # Rummy — lay down sets, go out first
 
 - From: Rummy, a family of card games
-- Players: 2–4 players
+- Players: 2 or more players
 - Time: 20–25 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, pp. 128–129

@@ -1,11 +1,11 @@
 # Darts Cricket — close the numbers, then score on them
 
-- From: Cricket, a darts game from England
-- Players: 2–4 players
+- From: Cricket, a darts game
+- Players: Any number of players, in two equal teams
 - Time: 15–20 min
 - Made by: Traditional; the book says it began in England and is played in bars and family rooms
 - Rules from: The Everything Games Book, p. 226
-- This version: Coins tossed onto a sheet of paper in place of darts; seven boxes, with no double or triple scoring
+- This version: Coins tossed onto a sheet of paper in place of darts; seven boxes, with no double or triple scoring; written for two players, where the book has any number in two equal teams
 
 Made with boardgameBuilder 1.x. To design from it, open boardgameBuilder and choose Open game: its blocks go on the canvas, and the feelings are left for you to pick.
 

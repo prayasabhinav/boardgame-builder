@@ -1,11 +1,11 @@
 # The Royal Game of Goose — sixty-three spaces of dice
 
 - From: The Royal Game of Goose, an old spiral-board game that came to England from the continent
-- Players: 2–6 players
+- Players: Any number of players
 - Time: 20 min
 - Made by: Traditional; the printed rules in the book say it was invented at the Consistory in Rome
 - Rules from: Board and Table Games from Many Civilizations, pp. 15–16
-- This version: Counters stand for the stakes, the geese sit on spaces the class chooses, and the rule on being overtaken is my reading of the old wording
+- This version: Counters stand for the stakes, the geese sit on spaces the class chooses, and the rule on being overtaken is my reading of the old wording, and the goose rule is not in the book's twelve rules, so it is my addition
 
 Made with boardgameBuilder 1.x. To design from it, open boardgameBuilder and choose Open game: its blocks go on the canvas, and the feelings are left for you to pick.
 
@@ -28,7 +28,7 @@ Players only throw and move, yet the track is full of events. It shows how speci
 2. **Start.** Each player starts with twelve stake counters. Every stake you pay goes into a pool in the middle. The winner takes the pool.
 3. **First throw.** Throw both dice and add them. Put your counter on the space with that number. On later turns, add your throw to the space where you stand.
 4. **The bridge.** If you land on 6, pay one stake and go on to 12.
-5. **A goose.** If you land on a goose, move forward again by the same throw.
+5. **A goose.** The book's printed rules, as given here, have no rule for this.
 6. **The ale house.** On 19, pay one stake and miss your next throw.
 7. **The well.** On 31, stay until every other player has thrown twice. If someone else lands on 31 first, that player stays and you go to the space they came from.
 8. **The maze.** On 42, pay one stake and go back to 29.

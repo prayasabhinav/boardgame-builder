@@ -17,7 +17,7 @@ A game can end on its very first capture, so every move is both a threat and a r
 
 ## What you need
 
-- a sheet of paper with an irregular map drawn on it: 20 to 30 regions of different shapes that touch along edges
+- a sheet of paper with an irregular map drawn on it: regions of different shapes that touch along edges
 - two pencils or pens of different colours
 
 ## How to play

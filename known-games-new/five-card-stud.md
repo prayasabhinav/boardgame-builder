@@ -1,7 +1,7 @@
 # Five-Card Stud — one card hidden, the rest on show
 
 - From: Five-Card Stud, an old form of Poker
-- Players: 3–6 players
+- Players: 2–10 players
 - Time: 20–30 min
 - Made by: Traditional; played in the United States
 - Rules from: Hoyle's Rules of Games, under 'Five-Card Stud'

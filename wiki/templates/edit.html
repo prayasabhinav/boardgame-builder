@@ -17,16 +17,16 @@
   <label class="block">{{ 'What it tends to produce' if e.kind in ('pair', 'triad') else 'The text' }}
     <textarea name="text" required maxlength="4000" rows="3">{{ form.text }}</textarea></label>
   {% if e.kind in ('pair', 'triad') %}
-  <label class="block">What it brings, one point per line{% if e.source in ('drafted', 'book') %} (exactly two){% endif %}
+  <label class="block">What it brings, one point per line{% if e.source == 'drafted' %} (exactly two){% elif e.source == 'book' %} (at most two, each one the book states){% endif %}
     <textarea name="pros" maxlength="4000" rows="3">{{ form.pros }}</textarea></label>
-  <label class="block">What it costs, one point per line{% if e.source in ('drafted', 'book') %} (exactly two){% endif %}
+  <label class="block">What it costs, one point per line{% if e.source == 'drafted' %} (exactly two){% elif e.source == 'book' %} (at most two, each one the book states){% endif %}
     <textarea name="cons" maxlength="4000" rows="3">{{ form.cons }}</textarea></label>
   {% if e.source not in ('drafted', 'book') %}<label class="block">Example games, one per line (name only games you have checked)
     <textarea name="games" maxlength="4000" rows="2">{{ form.games }}</textarea></label>{% endif %}
   {% endif %}
   {% endif %}
   <label class="block">Why the change, and how you know
-    <textarea name="evidence" required maxlength="4000" rows="3" placeholder="A source, such as a rulebook or a BoardGameGeek entry, or a game you played and what happened.">{{ form.evidence }}</textarea></label>
+    <textarea name="evidence" required maxlength="4000" rows="3" placeholder="{% if e.source == 'book' or e.kind in ('term', 'idea') %}Copy 3 to 12 words from the book that say this, in quotation marks, with the page: &quot;…&quot; p. 12. They are checked against the book before the change reaches the tool.{% else %}A source, such as a rulebook or a BoardGameGeek entry, or a game you played and what happened.{% endif %}">{{ form.evidence }}</textarea></label>
   <p class="aside">It will be shown under the name {{ user.name }}{% if user.handle %} and the link to @{{ user.handle }}{% endif %}.</p>
   <button>Send the change</button>
 </form>

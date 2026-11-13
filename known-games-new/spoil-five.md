@@ -1,7 +1,7 @@
 # Spoil Five — win three tricks first, or spoil it for everyone
 
 - From: Spoil Five, an old card game
-- Players: 3 to 5 players
+- Players: 3 to 10 players, best with five
 - Time: 15–20 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 162

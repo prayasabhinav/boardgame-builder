@@ -1,7 +1,7 @@
 # Indian Dice — poker with five dice
 
 - From: Indian Dice, a dice game with five dice
-- Players: 2–6 players
+- Players: 2 or more players
 - Time: 5–10 min
 - Made by: Traditional
 - Rules from: Board and Table Games from Many Civilizations, p. 135

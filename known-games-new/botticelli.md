@@ -1,7 +1,7 @@
 # Botticelli — twenty questions with a trap
 
 - From: Botticelli, a parlour guessing game
-- Players: 3–8 players
+- Players: 2–8 players
 - Time: 15–20 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 45

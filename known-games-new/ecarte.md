@@ -1,6 +1,6 @@
 # Ecarte — swap cards, win three of five tricks
 
-- From: Ecarte, a French card game for two
+- From: Ecarte, a card game for two
 - Players: 2 players
 - Time: 15 min
 - Made by: Traditional

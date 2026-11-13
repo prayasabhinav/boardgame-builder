@@ -1,7 +1,7 @@
 # Fan Tan — build the sevens outwards
 
 - From: Fan Tan (also called Stops or Sevens), a traditional card game
-- Players: 3–6 players
+- Players: 3–8 players
 - Time: 15–20 min
 - Made by: Traditional
 - Rules from: Hoyle's Rules of Games, under 'Fan Tan'

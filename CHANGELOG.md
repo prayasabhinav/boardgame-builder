@@ -4,6 +4,11 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.22.0 — 13 November 2026
+
+- **The books are the authority.** Every entry taken from a book, every game template and the 47 known games were checked against the full texts of the books by readers who had not written them, each finding the book's own words for what it checked, and code confirming those words are in the book. Then everything was corrected to the books, and the corrections were checked again the same way. 388 book pair entries changed; where a book states no advantage or cost for a pair, the place is now empty rather than filled with our own reading (200 places); 4 entries the books do not support were taken out (kept, with the reason, in `kb-books/removed/`). 96 templates changed: rules, player counts and origins now say what their book says, and a template's own simplifications are named on its *This version* line. 18 known games changed: credits (Pig to Scarne, 1946; Nim to Bouton, 1902; Sprouts to 1960), rules where a book describes the game (Eleusis, Chomp, Mū Tōrere, the Royal Game of Ur, Liar's Dice and others), and the move-by-move play-throughs, redrawn wherever a move broke the game's rules or a count did not add up. The pages cited were not checked: the book texts carry no page marks.
+- **The check continues on the wiki.** A proposed change to an entry taken from a book now needs 3 to 12 of the book's own words in quotation marks; they are checked against the book, and a reader compares the change with that passage, before the change reaches the tool. `wiki/pull.py` waits for that check (`wiki-book-checked.json`) and sets aside a change that fails it. A pair from a book may now carry fewer than two points for what it brings or costs.
+
 ## 0.21.2 — 13 November 2026
 
 - The tool and its wiki have an icon in the browser tab and in search results: the first three rows of the board game syntax's family mark from SYNTAX. There was none before.
