@@ -64,7 +64,7 @@ jobs:
           CAPROVER_URL: ${{ vars.CAPROVER_URL }}
           TOOL_CAPROVER_URL: ${{ vars.TOOL_CAPROVER_URL || vars.CAPROVER_URL }}   # the tool and the wiki may live on different servers
         run: |
-          tar -cf tool.tar Dockerfile captain-definition requirements.txt VERSION app.py block_meta.py bridges.py known_games.py palette.py site_config.py rules.py templates.py interactions.json interactions-drafted.json interactions-books.json book-blocks.json ideas.json review.json block-questions.json part-tests.json games.json static
+          tar -cf tool.tar Dockerfile captain-definition requirements.txt VERSION app.py block_meta.py bridges.py known_games.py palette.py site_config.py rules.py templates.py interactions.json interactions-drafted.json interactions-books.json book-blocks.json kinds-of-fun.json ideas.json review.json block-questions.json part-tests.json games.json static
           wiki/make-caprover-tar.sh
           npx --yes caprover@2.4.4 deploy --caproverUrl "$TOOL_CAPROVER_URL" --appName "${{ vars.TOOL_APP }}" --appToken "${{ secrets.TOOL_APP_TOKEN }}" --tarFile tool.tar
           npx --yes caprover@2.4.4 deploy --caproverUrl "$CAPROVER_URL" --appName "${{ vars.WIKI_APP }}" --appToken "${{ secrets.WIKI_APP_TOKEN }}" --tarFile wiki/wiki.tar
