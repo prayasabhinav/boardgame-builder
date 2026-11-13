@@ -1,0 +1,1 @@
+conflict: roll-and-move+model-a-system | In a game meant to show how a real system works, dice that decide movement made students put outcomes down to luck instead of the system, so the designers took the dice out. | p. 2771

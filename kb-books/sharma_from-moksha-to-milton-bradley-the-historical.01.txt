@@ -1,0 +1,3 @@
+pair: special-squares+ritual-or-sacred | On a sacred board the squares carry meanings, so a step up a ladder or down a snake is also a small lesson about a virtue or a vice. | Each ascent or descent invites the player to reflect on their own actions | - | - | - | p. 27
+pair: special-squares+real-world-issue | A ladder-and-snake board can carry present-day concerns, with snakes standing for things like deforestation or corruption and ladders for things like recycling or schooling. | The same simple format can be re-dressed for a local issue | - | - | - | p. 31
+conflict: race-to-finish+ritual-or-sacred | When the aim of a sacred board, spiritual growth, is swapped for finishing first, the game moves from shared, reflective play towards personal achievement. | p. 29

@@ -3,6 +3,194 @@
   "pairs": [
     {
       "elements": [
+        "educational",
+        "model-a-system"
+      ],
+      "tendency": "In the print and play game Stop the Spread, students run a paper simulation of viral spread with dice, choose an intervention, run it again and compare the two results.",
+      "pros": [
+        "Students can follow cause and effect and put their attention on collecting and graphing data."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": " and Ford Morgan, H. (None). Not by chance: Developing tabletop games to increase awareness of data science. . https://doi.org/10.5204/thesis.eprints.239445 (Pages cited are those of the open-access PDF.)",
+        "short": " and Ford Morgan, None",
+        "page": "p. 111"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "deduction",
+        "most-points"
+      ],
+      "tendency": "In Virtual Reef Diver: Tabletop Edition a point is earned for each organism correctly categorised, and players can use what has already been revealed to work out what a card is likely to be.",
+      "pros": [
+        "Remembering and predicting leads to more points, which encourages simple analysis of the cards on the table."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": " and Ford Morgan, H. (None). Not by chance: Developing tabletop games to increase awareness of data science. . https://doi.org/10.5204/thesis.eprints.239445 (Pages cited are those of the open-access PDF.)",
+        "short": " and Ford Morgan, None",
+        "page": "p. 116"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "negotiation",
+        "set-collection"
+      ],
+      "tendency": "Players swap resources with each other so that one of them can complete a set.",
+      "pros": [
+        "Trading lets a player complete a set, and players talk to each other to do it."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Acar, A. P. and Güler, T. (2025). Board Game Design As Alternative Educational Material and Frequently Used Game Mechanics. Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi Dergisi, 1367–1398. https://doi.org/10.53444/deubefd.1463581",
+        "short": "Acar and Güler, 2025",
+        "page": "p. 1378"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "bidding",
+        "negotiation"
+      ],
+      "tendency": "Bidding is often run together with trading, so the value of what a player adds to a deal changes with the bids.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Acar, A. P. and Güler, T. (2025). Board Game Design As Alternative Educational Material and Frequently Used Game Mechanics. Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi Dergisi, 1367–1398. https://doi.org/10.53444/deubefd.1463581",
+        "short": "Acar and Güler, 2025",
+        "page": "p. 1378"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hand-management",
+        "set-collection"
+      ],
+      "tendency": "Hand management and set collection tend to be paired in educational games and support each other in passing on information.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Acar, A. P. and Güler, T. (2025). Board Game Design As Alternative Educational Material and Frequently Used Game Mechanics. Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi Dergisi, 1367–1398. https://doi.org/10.53444/deubefd.1463581",
+        "short": "Acar and Güler, 2025",
+        "page": "p. 1386"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "area-control",
+        "tile-placement"
+      ],
+      "tendency": "Tile placement is often combined with area majority, and each tile turned over scores a victory point for the player who opens it.",
+      "pros": [
+        "Tile placement is one of the easiest mechanics to learn."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Acar, A. P. and Güler, T. (2025). Board Game Design As Alternative Educational Material and Frequently Used Game Mechanics. Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi Dergisi, 1367–1398. https://doi.org/10.53444/deubefd.1463581",
+        "short": "Acar and Güler, 2025",
+        "page": "p. 1376"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hidden-hands",
+        "bluffing"
+      ],
+      "tendency": "When each player's letters are hidden, players work out what the other holds from what was played, and a play can be made to push the opponent into a wrong guess.",
+      "pros": [
+        "A play that threatens a word you cannot make can make the opponent block it, and the paper shows that mixing such bluffs in at random can be the sound play even against an opponent who reasons perfectly.",
+        "Reading the opponent's unseen tiles from their earlier plays gives bluffing something to work on."
+      ],
+      "cons": [
+        "The paper expects this kind of bluff to pay in few positions, and only where the circumstances are just right."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Ballard, N. and Chow, T. Y. (2025). Bluffing in Scrabble. arXiv preprint, not peer reviewed. https://doi.org/10.48550/arxiv.2509.10471 (Pages cited are those of the open-access PDF.)",
+        "short": "Ballard and Chow, 2025",
+        "page": "p. 11"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hidden-hands",
+        "skill-with-luck-tempering"
+      ],
+      "tendency": "When cards are dealt at random but each hand stays hidden, luck sets the start and players then keep updating what they believe the other hand holds, so experience tends to pay off.",
+      "pros": [
+        "Players with more experience tend to win more often",
+        "Hidden hands give play a belief-updating element that rewards skill"
+      ],
+      "cons": [
+        "The deal itself is left to chance"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Banerjee, T., De, A., Maitra, S. and Mukherjee, D. (2024). Skill vs. Chance Quantification for Popular Card &amp; Board Games. arXiv preprint, not peer reviewed. https://doi.org/10.48550/arxiv.2410.14363 (Pages cited are those of the open-access PDF.)",
+        "short": "Banerjee et al., 2024",
+        "page": "p. 3"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "roll-and-move",
+        "chance-with-mitigation"
+      ],
+      "tendency": "A dice roll decides which moves are open on each turn, but choosing well among them still makes a measurable difference.",
+      "pros": [
+        "Smart strategy gives an edge over players who lack it"
+      ],
+      "cons": [
+        "The roll dictates the choices on offer each turn"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Banerjee, T., De, A., Maitra, S. and Mukherjee, D. (2024). Skill vs. Chance Quantification for Popular Card &amp; Board Games. arXiv preprint, not peer reviewed. https://doi.org/10.48550/arxiv.2410.14363 (Pages cited are those of the open-access PDF.)",
+        "short": "Banerjee et al., 2024",
+        "page": "p. 3"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "betting-on-your-hand",
+        "hidden-hands"
+      ],
+      "tendency": "When players bet on cards nobody else can see, repeated play can reward judging odds and bluffing, though a single round is mostly decided by chance.",
+      "pros": [
+        "Repeated play may reward probabilistic thinking",
+        "Bluffing skill can pay off over many rounds"
+      ],
+      "cons": [
+        "Short-term results are heavily driven by chance because other players' cards cannot be seen",
+        "Little room for strategic depth within one round"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Banerjee, T., De, A., Maitra, S. and Mukherjee, D. (2024). Skill vs. Chance Quantification for Popular Card &amp; Board Games. arXiv preprint, not peer reviewed. https://doi.org/10.48550/arxiv.2410.14363 (Pages cited are those of the open-access PDF.)",
+        "short": "Banerjee et al., 2024",
+        "page": "p. 14"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "roll-and-move",
         "team-vs-team"
       ],
@@ -663,6 +851,136 @@
     },
     {
       "elements": [
+        "sowing-seeds",
+        "extra-turn"
+      ],
+      "tendency": "In two-row sowing games, dropping your last seed in your own store gives you another turn, so the pit you start from matters.",
+      "pros": [
+        "Planning where the last seed lands can give an early advantage."
+      ],
+      "cons": [
+        "The opening choice of pit can largely decide the outcome."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Bikić, V. and Vuković, J. (2010). Board Games Reconsidered: Mancala in the Balkans. Etnoantropološki problemi / Issues in Ethnology and Anthropology, 5(1), 183–209. https://doi.org/10.21301/eap.v5i1.10",
+        "short": "Bikić and Vuković, 2010",
+        "page": "p. 189"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "playing-in-silence",
+        "role-play"
+      ],
+      "tendency": "In a silent, music-led role-playing game with vaguely described characters, players tend to read the character through their own lives.",
+      "pros": [
+        "Players project themselves into the game, so the experience becomes personal."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Bowman, S. L., Lukka, L. and Baird, J. (2026). Losing and Finding Oneself: Duo- and Autoethnographic Study of \"Character\" in the Larp Superrealism. International Journal of Role-Playing, 74–91. https://doi.org/10.33063/ijrp.vi18.1193",
+        "short": "Bowman et al., 2026",
+        "page": "p. 74"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "fully-cooperative",
+        "special-squares"
+      ],
+      "tendency": "In Right 2 Roam, Sanctuary spaces let a player draw a card, pass a card to another player or roll on, so helping a team-mate costs the helper a round.",
+      "pros": [
+        "The choice gives players something to talk about, because safety for everyone depends on active choices by all."
+      ],
+      "cons": [
+        "It pits the shared goal against each player's wish to move ahead."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Bozdog, M., Rezk-Parker, A. M. and Sloan, R. (2026). ‘That’s what girls have to think about all the time’. Board games for civic engagement and perspective-taking. Games: Research and Practice, 4(2), 1–20. https://doi.org/10.1145/3795691",
+        "short": "Bozdog et al., 2026",
+        "page": "p. 7"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "roll-and-move",
+        "rules-make-an-argument"
+      ],
+      "tendency": "In Right 2 Roam players are given either a six-sided or a ten-sided die and different numbers of cards on purpose, so some move more freely than others.",
+      "pros": [
+        "Players noticed the imbalance and linked it to inequality in real life, building their own stories to explain it."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Bozdog, M., Rezk-Parker, A. M. and Sloan, R. (2026). ‘That’s what girls have to think about all the time’. Board games for civic engagement and perspective-taking. Games: Research and Practice, 4(2), 1–20. https://doi.org/10.1145/3795691",
+        "short": "Bozdog et al., 2026",
+        "page": "p. 13"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "extra-turn",
+        "sowing-seeds"
+      ],
+      "tendency": "In many two-player mancala games a player whose sowing ends in their own store moves again, so a run of sowings can gather the seeds from a whole stretch of the board into the store.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Brant Jones, Laura Taalman and Anthony Tongen (2013). Solitaire Mancala Games and the Chinese Remainder Theorem. The American Mathematical Monthly, 120(8), 706. https://doi.org/10.4169/amer.math.monthly.120.08.706 (Pages cited are those of the open-access PDF.)",
+        "short": "Brant Jones et al., 2013",
+        "page": "p. 1"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "irreversible-change",
+        "war-and-conquest"
+      ],
+      "tendency": "In a war game where ruined regions and lost pieces stay ruined in later games, play tends to be a one-off experience that makes players reflect on what they did.",
+      "pros": [
+        "players' decisions have a lasting effect on the game world",
+        "the game makes players reflect on their choices"
+      ],
+      "cons": [
+        "the game gives up replayability",
+        "the game can stop being playable as the damage builds"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Brenskott, K. (2021). Czy wojna w grach musi być zabawna? O wybranych grach planszowych z perspektywy poetologicznej. Załącznik Kulturoznawczy, 171–190. https://doi.org/10.21697/zk.2021.8.09",
+        "short": "Brenskott, 2021",
+        "page": "p. 185"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hidden-identity",
+        "traitor"
+      ],
+      "tendency": "When a small informed team hides among an uninformed majority, the majority has to work out who is on their side while the hidden team already knows each other",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Carminati, L., Zhang, B. H., Farina, G., Gatti, N. and Sandholm, T. (2024). Hidden-Role Games: Equilibrium Concepts and Computation. Proceedings of the 25th ACM Conference on Economics and Computation, 106–107. https://doi.org/10.1145/3670865.3673616 (Pages cited are those of the open-access PDF.)",
+        "short": "Carminati et al., 2024",
+        "page": "p. 3"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "roll-and-move",
         "negotiation"
       ],
@@ -706,6 +1024,247 @@
         "ref": "Chircop, D. (2017). An experiential comparative tool for board games. Replay. The Polish Journal of Game Studies, 3(1), 11–28. https://doi.org/10.18778/2391-8551.03.01",
         "short": "Chircop, 2017",
         "page": "p. 20"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "historical",
+        "rules-make-an-argument"
+      ],
+      "tendency": "In a game set in the past, the rules themselves can state a view of history, for instance by making cultural and economic means rather than war the way to win.",
+      "pros": [
+        "Players meet the designer's reading of history through play and not only through text"
+      ],
+      "cons": [
+        "Mechanics added only to make the game eventful can read as a historical claim nobody meant"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Cronkite, M. (None). \"Divided Kingdom, 561\" A Case Study: Communicating Historical Narratives Through Board Games. . https://doi.org/10.22215/etd/2021-14806 (Pages cited are those of the open-access PDF.)",
+        "short": "Cronkite, None",
+        "page": "p. 61"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "negotiation",
+        "hidden-hands"
+      ],
+      "tendency": "Players can bargain over cards that stay face down, and only what is actually handed over is binding, so a trade rests on reputation more than on checking.",
+      "pros": [
+        "The talking phase gives players a say over how their relationships develop"
+      ],
+      "cons": [
+        "Promises beyond what is handed over are not binding",
+        "Players need not be truthful afterwards about what was traded"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Cronkite, M. (None). \"Divided Kingdom, 561\" A Case Study: Communicating Historical Narratives Through Board Games. . https://doi.org/10.22215/etd/2021-14806 (Pages cited are those of the open-access PDF.)",
+        "short": "Cronkite, None",
+        "page": "p. 92"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "sowing-seeds",
+        "finish-on-exact-number"
+      ],
+      "tendency": "When the last seed of every sowing has to land in one store, with falling short or going past losing the game, the starting layout alone settles whether a win is possible and which moves win.",
+      "pros": [],
+      "cons": [
+        "The game can be unwinnable from the first layout, and a winnable one leaves a single series of moves."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Danaci, O., Zhang, W., Coleman, R., Djakam, W., Amoo, M., Glasser, R. T., Kirby, B. T., N'Gom, M. and Searles, T. A. (2023). ManQala: Game-inspired strategies for quantum state engineering. AVS Quantum Science, 5(3). https://doi.org/10.1116/5.0148240 (Pages cited are those of the open-access PDF.)",
+        "short": "Danaci et al., 2023",
+        "page": "p. 3"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "roll-and-move",
+        "special-squares"
+      ],
+      "tendency": "In a dice race with snakes and ladders, which squares carry them changes how long a game lasts, and a short ladder can matter more than a long one.",
+      "pros": [
+        "A short ladder on the right square can shorten the game a lot."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Dauenhauer, E. A. and Dauenhauer, P. J. (2024). Quantifying the Vices and Virtues of Snakes and Ladders Through Time. Board Game Studies Journal, 18(1), 1–38. https://doi.org/10.2478/bgs-2024-0001",
+        "short": "Dauenhauer and Dauenhauer, 2024",
+        "page": "p. 19"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "ritual-or-sacred",
+        "special-squares"
+      ],
+      "tendency": "When the special squares are named virtues and vices, moving along the board reads as a path of virtuous and wicked actions, as in Gyan Chaupar.",
+      "pros": [
+        "Climbing a ladder or sliding down a snake carries a meaning players can read straight from the board."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Dauenhauer, E. A. and Dauenhauer, P. J. (2024). Quantifying the Vices and Virtues of Snakes and Ladders Through Time. Board Game Studies Journal, 18(1), 1–38. https://doi.org/10.2478/bgs-2024-0001",
+        "short": "Dauenhauer and Dauenhauer, 2024",
+        "page": "p. 4"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "landing-sends-back",
+        "special-squares"
+      ],
+      "tendency": "In Chowka Bhara a piece landed on by an opponent goes back to its start, except on the marked safe squares, which also let any number of pieces share one square.",
+      "pros": [
+        "A piece on a safe square cannot be hit, and pieces of different players can sit together there."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "DAVOUDIAN, P. and NAGABHUSHAN, P. (2019). MACHINE AS ONE PLAYER IN INDIAN COWRY BOARD GAME: BASIC PLAYING STRATEGIES. INTERNATIONAL JOURNAL OF COMPUTER ENGINEERING &amp; TECHNOLOGY, 10(1). https://doi.org/10.34218/ijcet.10.1.2019.019 (Pages cited are those of the open-access PDF.)",
+        "short": "DAVOUDIAN and NAGABHUSHAN, 2019",
+        "page": "p. 4"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "extra-turn",
+        "landing-sends-back"
+      ],
+      "tendency": "In Chowka Bhara a player who hits an opponent's piece is paid with a bonus throw, so hitting leads straight into more movement.",
+      "pros": [
+        "A hit gives another throw in the same turn."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "DAVOUDIAN, P. and NAGABHUSHAN, P. (2019). MACHINE AS ONE PLAYER IN INDIAN COWRY BOARD GAME: BASIC PLAYING STRATEGIES. INTERNATIONAL JOURNAL OF COMPUTER ENGINEERING &amp; TECHNOLOGY, 10(1). https://doi.org/10.34218/ijcet.10.1.2019.019 (Pages cited are those of the open-access PDF.)",
+        "short": "DAVOUDIAN and NAGABHUSHAN, 2019",
+        "page": "p. 4"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "extra-turn",
+        "roll-and-move"
+      ],
+      "tendency": "In Chowka Bhara a throw of 4 or 8 on the cowry shells brings a bonus throw, and the values from one turn can be split between pieces.",
+      "pros": [
+        "A bonus throw lets a player move one piece several times or spread the moves over different pieces."
+      ],
+      "cons": [
+        "A third 4 or 8 in a row means no move at all and the turn passes."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "DAVOUDIAN, P. and NAGABHUSHAN, P. (2019). MACHINE AS ONE PLAYER IN INDIAN COWRY BOARD GAME: BASIC PLAYING STRATEGIES. INTERNATIONAL JOURNAL OF COMPUTER ENGINEERING &amp; TECHNOLOGY, 10(1). https://doi.org/10.34218/ijcet.10.1.2019.019 (Pages cited are those of the open-access PDF.)",
+        "short": "DAVOUDIAN and NAGABHUSHAN, 2019",
+        "page": "p. 4"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "finish-on-exact-number",
+        "roll-and-move"
+      ],
+      "tendency": "In Chowka Bhara a piece needs an exact throw to reach the finishing square, so throws that are too large cannot be used by that piece.",
+      "pros": [],
+      "cons": [
+        "A throw larger than the squares left cannot move that piece, and a player with only that piece left loses the turn."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "DAVOUDIAN, P. and NAGABHUSHAN, P. (2019). MACHINE AS ONE PLAYER IN INDIAN COWRY BOARD GAME: BASIC PLAYING STRATEGIES. INTERNATIONAL JOURNAL OF COMPUTER ENGINEERING &amp; TECHNOLOGY, 10(1). https://doi.org/10.34218/ijcet.10.1.2019.019 (Pages cited are those of the open-access PDF.)",
+        "short": "DAVOUDIAN and NAGABHUSHAN, 2019",
+        "page": "p. 4"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "sowing-seeds",
+        "abstract"
+      ],
+      "tendency": "Sowing games are only holes and counters, so different communities have given them their own meanings, such as sown seeds, fish-shaped boards, or counters called cows in a trade theme",
+      "pros": [
+        "Many local meanings can be projected onto the same set of holes and counters"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "de Voogt, A. (2021). Misconceptions in the History of Mancala Games: Antiquity and Ubiquity. Board Game Studies Journal, 15(1), 1–12. https://doi.org/10.2478/bgs-2021-0001",
+        "short": "de Voogt, 2021",
+        "page": "p. 2"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "build-your-own-side",
+        "spend-to-use"
+      ],
+      "tendency": "Where players pay for cards with mana from resource cards, building a deck means balancing how many resource cards go in and which kinds",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "e Silva Vieira, R., Tavares, A. R. and Chaimowicz, L. (2024). A Taxonomy of Collectible Card Games from a Game-Playing AI Perspective. Lecture Notes in Computer Science, 163–177. https://doi.org/10.1007/978-3-031-74353-5_12 (Pages cited are those of the open-access PDF.)",
+        "short": "e Silva Vieira et al., 2024",
+        "page": "p. 8"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "build-your-own-side",
+        "drafting"
+      ],
+      "tendency": "In collectible card games, drafting can be how each side is built: players pick one card from a small sample, turn after turn, and the picks become their deck",
+      "pros": [
+        "Players do not have to build their decks at the same time or together"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "e Silva Vieira, R., Tavares, A. R. and Chaimowicz, L. (2024). A Taxonomy of Collectible Card Games from a Game-Playing AI Perspective. Lecture Notes in Computer Science, 163–177. https://doi.org/10.1007/978-3-031-74353-5_12 (Pages cited are those of the open-access PDF.)",
+        "short": "e Silva Vieira et al., 2024",
+        "page": "p. 5"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "roll-and-move",
+        "educational"
+      ],
+      "tendency": "Roll and move is familiar to learners and is often used to deliver quiz questions, but on its own it usually adds nothing beyond that.",
+      "pros": [
+        "learners already understand the mechanic"
+      ],
+      "cons": [
+        "it does not usually add value in itself"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Edwards, S., Swamy, L., Cosimini, M., Watsjold, B. and Chan, T. M. (2023). Educator's blueprint: A how‐to guide for creating analog serious games for learning in medical education. AEM Education and Training, 7(6). https://doi.org/10.1002/aet2.10907 (Pages cited are those of the open-access PDF.)",
+        "short": "Edwards et al., 2023",
+        "page": "p. 5"
       },
       "verification_status": "book-20261106-unreviewed"
     },
@@ -3593,6 +4152,26 @@
     },
     {
       "elements": [
+        "negotiation",
+        "everyone-at-once"
+      ],
+      "tendency": "When players talk and make deals and then all give their orders at the same moment, alliances help the players in them while their allies keep their word, and fall apart when an ally betrays.",
+      "pros": [
+        "In the experiments, negotiation raised the performance of bots in alliances when all the allies were trustworthy."
+      ],
+      "cons": [
+        "Efficiency dropped sharply for a bot that was betrayed."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Ferreira, A., Lopes Cardoso, H. and Reis, L. P. (2015). DipBlue: A Diplomacy Agent with Strategic and Trust Reasoning. Proceedings of the International Conference on Agents and Artificial Intelligence, 54–65. https://doi.org/10.5220/0005205400540065 (Pages cited are those of the open-access PDF.)",
+        "short": "Ferreira et al., 2015",
+        "page": "p. 5"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "bidding",
         "trick-taking"
       ],
@@ -5194,6 +5773,325 @@
         "ref": "Fitzsimmons, T. and Liflander, P. (1996). The everything games book: hundreds of classic games for all ages. Holbrook, MA: Adams Media. ISBN 978-1-55850-643-5.",
         "short": "Fitzsimmons and Liflander, 1996",
         "page": "p. 287"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "most-points",
+        "pattern-building"
+      ],
+      "tendency": "When points come from the length of the diagonals each player builds, instead of counting tokens on the board, both players get nearly equal chances to fill the grid and the first-player advantage shrinks.",
+      "pros": [
+        "Scoring patterns gives players more to plan than counting pieces."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Ghosh, S. and Bokil, P. (2026). Translating Elementary Cellular Automata into Tangible Gameplay: Design of Shellmate. European Conference on Games Based Learning, 20(2), 1079–1086. https://doi.org/10.34190/ecgbl.20.2.5363",
+        "short": "Ghosh and Bokil, 2026",
+        "page": "p. 1083"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "game-master",
+        "role-play"
+      ],
+      "tendency": "In a matrix game players take the roles of the main parties in a crisis, and a game master runs the rounds while costly actions are argued out in front of adjudicators.",
+      "pros": [
+        "Players have to argue for expensive actions out loud, so what they say is part of play."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Gledhill, C., Zhu, L. and Zwarts, N. (2025). Polimatrix: Conversation Analysis as a Method for Evaluating Performance in Matrix Games. European Conference on Games Based Learning, 19(1), 302–310. https://doi.org/10.34190/ecgbl.19.1.3887",
+        "short": "Gledhill et al., 2025",
+        "page": "p. 303"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "role-play",
+        "debrief"
+      ],
+      "tendency": "After players act as characters, a talk that separates the player from the character lets them take away what they learned as themselves.",
+      "pros": [
+        "Combines structured questions with open discussion",
+        "Keeps attention on what each player learned"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Hartyándi, M. and Van Bilsen, G. (2024). Playing with Leadership: A Multiple Case Study of Leadership Development Larps. International Journal of Role-Playing, 142–177. https://doi.org/10.33063/ijrp.vi15.327",
+        "short": "Hartyándi and Van Bilsen, 2024",
+        "page": "p. 156"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "game-master",
+        "role-play"
+      ],
+      "tendency": "A facilitator who plays minor characters can hand the players new tasks inside the story without breaking it, but the work of doing so is heavy.",
+      "pros": [
+        "Tasks arrive inside the fiction, keeping the story flowing"
+      ],
+      "cons": [
+        "Facilitation workload proved very high and complex"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Hartyándi, M. and Van Bilsen, G. (2024). Playing with Leadership: A Multiple Case Study of Leadership Development Larps. International Journal of Role-Playing, 142–177. https://doi.org/10.33063/ijrp.vi15.327",
+        "short": "Hartyándi and Van Bilsen, 2024",
+        "page": "p. 154"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "counter-cycle",
+        "build-your-own-side"
+      ],
+      "tendency": "When players pick a bot or deck beforehand and each pick beats one other and loses to a third, the pick itself turns into a guessing contest about what the other player chooses.",
+      "pros": [
+        "A player who guesses the opponent's pick gains an edge",
+        "A designer can tune win chances so that no pick beats every other"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Hernandez, D., Toyin Gbadamosi, C. T., Goodman, J. and Walker, J. A. (2020). Metagame Autobalancing for Competitive Multiplayer Games. 2020 IEEE Conference on Games (CoG), 275–282. https://doi.org/10.1109/cog47356.2020.9231762",
+        "short": "Hernandez et al., 2020",
+        "page": "p. 279"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "connection",
+        "play-to-lose"
+      ],
+      "tendency": "Played like Hex but with the result turned over, a player who links their own two sides loses, so the aim shifts to getting the other player to complete a link",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Hockaday, J. (2026). The combinatorial game theory of Reverse Hex. arXiv preprint, not peer reviewed. https://doi.org/10.48550/arxiv.2604.22204 (Pages cited are those of the open-access PDF.)",
+        "short": "Hockaday, 2026",
+        "page": "p. 12"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "model-a-system",
+        "negotiation"
+      ],
+      "tendency": "In Catan: Global Warming a greenhouse gas tracker is added to a game built on trading, and some choices about it need the agreement of the players affected.",
+      "pros": [
+        "Choices such as intensifying production, leaving land fallow or paying a Green Tax need collective agreement, which turns the trading table into a place to talk about shared responsibility."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Illingworth, S. and Wake, P. (2019). Developing science tabletop games: ‘Catan’® and global warming. Journal of Science Communication, 18(04), A04. https://doi.org/10.22323/2.18040204 (Pages cited are those of the open-access PDF.)",
+        "short": "Illingworth and Wake, 2019",
+        "page": "p. 9"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "fully-cooperative",
+        "educational"
+      ],
+      "tendency": "In the educational game N.O.V.E.L. all players are scientists working against the disease, and they share time and money to get through the stages.",
+      "pros": [
+        "Players discuss the strengths and weaknesses of different strategies face to face, and the teamwork mirrors how real vaccine research is shared."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Kantorski, B., Bruzdewicz, K., Will, S. and Pollock, J. A. (2025). Cards, cubes, and collaboration: a case study of the development of an educational board game. Discover Education, 4(1). https://doi.org/10.1007/s44217-025-00472-z (Pages cited are those of the open-access PDF.)",
+        "short": "Kantorski et al., 2025",
+        "page": "p. 6"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "model-a-system",
+        "staged-game"
+      ],
+      "tendency": "N.O.V.E.L. splits vaccine development into five phases, and the result of one phase is carried into the next through a chart and a lab notebook.",
+      "pros": [
+        "Players see that what happens in one stage of vaccine development shapes the next, and each phase can be played in a single class period."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Kantorski, B., Bruzdewicz, K., Will, S. and Pollock, J. A. (2025). Cards, cubes, and collaboration: a case study of the development of an educational board game. Discover Education, 4(1). https://doi.org/10.1007/s44217-025-00472-z (Pages cited are those of the open-access PDF.)",
+        "short": "Kantorski et al., 2025",
+        "page": "p. 6"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hidden-identity",
+        "game-master"
+      ],
+      "tendency": "In a hidden-role game someone usually acts as moderator, privately handing out roles and secret information and announcing outcomes, which makes that person a trusted go-between.",
+      "pros": [],
+      "cons": [
+        "Needs a trusted third party who becomes a single point of failure",
+        "Raises the barrier to taking part"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Kitamura, N., Kiya, H. and Ono, H. (2026). A Moderatorless Protocol for WEREWOLF. arXiv preprint, not peer reviewed. https://doi.org/10.48550/arxiv.2606.00190 (Pages cited are those of the open-access PDF.)",
+        "short": "Kitamura et al., 2026",
+        "page": "p. 1"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "absent-player",
+        "ritual-or-sacred"
+      ],
+      "tendency": "A board game played against someone who has died, as senet was in tombs, can serve as a way of reaching the other world",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Konstantakos, I. M. (2022). Board Games in Ancient Fiction: Egypt, Iran, Greece. Board Game Studies Journal, 16(1), 449–490. https://doi.org/10.2478/bgs-2022-0016",
+        "short": "Konstantakos, 2022",
+        "page": "p. 466"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "build-your-own-side",
+        "spend-to-use"
+      ],
+      "tendency": "When each player builds their own deck and cards are called into play with resource cards, the share of resource cards in the deck decides whether play keeps moving",
+      "pros": [],
+      "cons": [
+        "A deck with too few resource cards leaves a player waiting for one to appear"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Kunzelman, C., Volz, K. and Roach, L. (2026). Edge Cases: Deckbuilding as Gameplay in On the Edge. Analog Game Studies, 13(3). https://doi.org/10.5070/v7.65716 (Pages cited are those of the open-access PDF.)",
+        "short": "Kunzelman et al., 2026",
+        "page": "p. 5"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "negotiation",
+        "everyone-at-once"
+      ],
+      "tendency": "Players can make deals that nobody is bound to keep and then all submit orders at the same moment, so alliances and betrayals both show up in the orders.",
+      "pros": [
+        "Players who negotiate well tend to get much more out of the game",
+        "Joint plans and support between players are possible"
+      ],
+      "cons": [
+        "Non-binding agreements allow betrayals and desertions",
+        "A move is hard to judge because its value depends on the social situation"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Marinheiro, J. and Lopes Cardoso, H. (2018). Towards General Cooperative Game Playing. Lecture Notes in Computer Science, 164–192. https://doi.org/10.1007/978-3-319-78301-7_8",
+        "short": "Marinheiro and Lopes Cardoso, 2018",
+        "page": "p. 166"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hidden-identity",
+        "team-vs-team"
+      ],
+      "tendency": "When two teams play against each other but players do not know who is on their own team, they have to decide whom to trust, and talking becomes the way to find out.",
+      "pros": [
+        "Encourages players to communicate and share information"
+      ],
+      "cons": [
+        "Players lack complete information about their own teammates, so trust is risky"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Marinheiro, J. and Lopes Cardoso, H. (2018). Towards General Cooperative Game Playing. Lecture Notes in Computer Science, 164–192. https://doi.org/10.1007/978-3-319-78301-7_8",
+        "short": "Marinheiro and Lopes Cardoso, 2018",
+        "page": "p. 166"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "game-master",
+        "role-play"
+      ],
+      "tendency": "When one person runs the world and the others play characters, players value it when their choices can shape the story, and feel powerless when they are steered into prepared scenes.",
+      "pros": [
+        "Players value the freedom to choose their paths and solve problems creatively",
+        "Making and developing a character adds to the sense of freedom"
+      ],
+      "cons": [
+        "Railroading by the game master left players feeling powerless and disengaged"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "McLaren, P. J., Oades, L. G. and Deery, B. (2026). How Do Dungeon Masters and Players Contribute to the Needs Satisfaction (or Frustration) in Dungeons &amp; Dragons 5th Edition?. International Journal of Role-Playing, 42–63. https://doi.org/10.33063/ijrp.vi17.676",
+        "short": "McLaren et al., 2026",
+        "page": "p. 53"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "game-master",
+        "chance-with-mitigation"
+      ],
+      "tendency": "A game master who can change a dice result can soften an unlucky roll, but players disagree about whether they want that.",
+      "pros": [
+        "Changing a roll can prevent a character's death, improve the story or adjust difficulty"
+      ],
+      "cons": [
+        "Players who see rolls changed against them feel they have lost their character's agency",
+        "The practice is a point of contention among players"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "McLaren, P. J., Oades, L. G. and Deery, B. (2026). How Do Dungeon Masters and Players Contribute to the Needs Satisfaction (or Frustration) in Dungeons &amp; Dragons 5th Edition?. International Journal of Role-Playing, 42–63. https://doi.org/10.33063/ijrp.vi17.676",
+        "short": "McLaren et al., 2026",
+        "page": "p. 54"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "sowing-seeds",
+        "capture-and-convert"
+      ],
+      "tendency": "In sowing games where captured seeds are fed into the capturer's own holes, the number of seeds in play stays constant, so the game does not run down towards a fixed end.",
+      "pros": [
+        "the paper names these the most complex and varied of the mancala games"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Mkondiwa, M. (2020). Mancala board games and origins of entrepreneurship in Africa. PLOS ONE, 15(10), e0240790. https://doi.org/10.1371/journal.pone.0240790 (Pages cited are those of the open-access PDF.)",
+        "short": "Mkondiwa, 2020",
+        "page": "p. 9"
       },
       "verification_status": "book-20261106-unreviewed"
     },
@@ -6998,6 +7896,203 @@
         "ref": "Morehead, A. H. and Mott-Smith, G. (eds) (1983). Hoyle's rules of games: descriptions of indoor games of skill and chance, with advice on skillful play. 2nd revised edition. New York: Signet. ISBN 978-0-451-16309-7.",
         "short": "Morehead and Mott-Smith, 1983",
         "page": "under 'Concentration'"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "indirect-via-board",
+        "deduction"
+      ],
+      "tendency": "When pieces change what each side can see instead of capturing, play turns to working out where the hidden king is while hiding your own",
+      "pros": [
+        "Attention stays on information, because there is no material to win"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Murphy, K. A. (2026). InfoChess: A Game of Adversarial Inference and a Laboratory for Quantifiable Information Control. arXiv preprint, not peer reviewed. https://doi.org/10.48550/arxiv.2604.15373 (Pages cited are those of the open-access PDF.)",
+        "short": "Murphy, 2026",
+        "page": "p. 1"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "roll-and-move",
+        "mostly-chance"
+      ],
+      "tendency": "In a race moved only by dice, the result tends to rest on chance, with no choices for players and no real interaction between them.",
+      "pros": [],
+      "cons": [
+        "no strategic interaction between players",
+        "players have no say in how they move"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Nautiyal, V. V., Silverio, S. A. and Salvador, E. E. P. (2024). Let’s get on-board: a practical framework for designing and implementing educational board games in K-12 classrooms. Frontiers in Education, 9. https://doi.org/10.3389/feduc.2024.1420515 (Pages cited are those of the open-access PDF.)",
+        "short": "Nautiyal et al., 2024",
+        "page": "p. 3"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "educational",
+        "roll-and-move"
+      ],
+      "tendency": "When question cards are added to a roll-and-move race, correct answers can earn cards that let players influence the game, which ties the topic to what happens on the board.",
+      "pros": [
+        "players influence play through problem-solving on the topic",
+        "the game rewards subject knowledge and skills"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Nautiyal, V. V., Silverio, S. A. and Salvador, E. E. P. (2024). Let’s get on-board: a practical framework for designing and implementing educational board games in K-12 classrooms. Frontiers in Education, 9. https://doi.org/10.3389/feduc.2024.1420515 (Pages cited are those of the open-access PDF.)",
+        "short": "Nautiyal et al., 2024",
+        "page": "p. 10"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "chance-read-as-a-sign",
+        "ritual-or-sacred"
+      ],
+      "tendency": "In a ritual setting, a dice throw can be taken as a sign of a deity's will, so the result is read as a message and not only counted.",
+      "pros": [
+        "Playing during ritual links everyday life with the sacred"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Nithya, V. and Saranya, V. (2024). Games in Ancient India -Indus Valley to Keeladi Excavations. ComFin Research, 12(S2-Feb), 151–163. https://doi.org/10.34293/commerce.v12is1-feb.7574",
+        "short": "Nithya and Saranya, 2024",
+        "page": "p. 161"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "different-powers",
+        "stakeholder-roles"
+      ],
+      "tendency": "When each real group in a game gets its own actions and limits, players end up acting under unequal powers that mirror the real imbalances between those groups",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "O’Donnell, H. (2025). Simulating Terror: An Affective Empathy Approach. Art and Society, 4(7), 1–25. https://doi.org/10.63593/as.2709-9830.2025.08.001",
+        "short": "O’Donnell, 2025",
+        "page": "p. 12"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "different-powers",
+        "fully-cooperative"
+      ],
+      "tendency": "In a co-operative game, powers that differ from player to player tend to be set up so that each player's strengths cover another player's weaknesses.",
+      "pros": [
+        "each player brings something different to the shared effort"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Pais, P., Gonçalves, D., Reis, D., Godinho, J. C. N., Morais, J. F., Piçarra, M., Trindade, P., Alexandrovsky, D., Gerling, K., Guerreiro, J. and Rodrigues, A. (2024). A Living Framework for Understanding Cooperative Games. Proceedings of the CHI Conference on Human Factors in Computing Systems, 1–17. https://doi.org/10.1145/3613904.3641953",
+        "short": "Pais et al., 2024",
+        "page": "p. 13"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "different-powers",
+        "fully-cooperative"
+      ],
+      "tendency": "When two players have different roles and each needs what the other does, they have to talk to each other outside the game to make progress",
+      "pros": [
+        "Players share information and learn how to play their roles together"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Pais, P., Gonçalves, D., Gerling, K., Romão, T., Guerreiro, T. and Rodrigues, A. (2024). Promoting Family Play through Asymmetric Game Design. Proceedings of the ACM on Human-Computer Interaction, 8(CSCW1), 1–24. https://doi.org/10.1145/3637392",
+        "short": "Pais et al., 2024",
+        "page": "p. 8"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "extra-turn",
+        "sowing-seeds"
+      ],
+      "tendency": "In Kalah a player whose last seed lands in their own store moves again, and these repeated moves can be chained.",
+      "pros": [
+        "A repeated move adds seeds to the store without touching the opponent's holes.",
+        "A chain of repeated moves can run to 17 moves on a six-hole board."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Pekař, L., Andrla, J. and Dolinay, J. (2020). Design and Software Implementation of Heuristic and Suboptimal Strategies for the Mancala/Kalah Game. Advances in Intelligent Systems and Computing, 44–53. https://doi.org/10.1007/978-3-030-51965-0_4",
+        "short": "Pekař et al., 2020",
+        "page": "p. 46"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "sowing-seeds",
+        "take-turns"
+      ],
+      "tendency": "In Kalah, where players take turns sowing, the player who moves first tends to hold an advantage.",
+      "pros": [],
+      "cons": [
+        "The player who moves second may start behind."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Pekař, L., Andrla, J. and Dolinay, J. (2020). Design and Software Implementation of Heuristic and Suboptimal Strategies for the Mancala/Kalah Game. Advances in Intelligent Systems and Computing, 44–53. https://doi.org/10.1007/978-3-030-51965-0_4",
+        "short": "Pekař et al., 2020",
+        "page": "p. 46"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "sowing-seeds",
+        "extra-turn"
+      ],
+      "tendency": "In Kalah, when the last seed of a sowing lands in your own store you move again, so a chain of several moves can be made in one turn",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Pekař, L., Matušů, R., Andrla, J. and Litschmannová, M. (2020). Review of Kalah Game Research and the Proposition of a Novel Heuristic–Deterministic Algorithm Compared to Tree-Search Solutions and Human Decision-Making. Informatics, 7(3), 34. https://doi.org/10.3390/informatics7030034 (Pages cited are those of the open-access PDF.)",
+        "short": "Pekař et al., 2020",
+        "page": "p. 9"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "take-turns",
+        "extra-turn"
+      ],
+      "tendency": "In Kalah, some studies found a slight edge for the player who moves first, and one put it down to the first player being first to gain several moves",
+      "pros": [],
+      "cons": [
+        "The player who starts can hold a small edge"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Pekař, L., Matušů, R., Andrla, J. and Litschmannová, M. (2020). Review of Kalah Game Research and the Proposition of a Novel Heuristic–Deterministic Algorithm Compared to Tree-Search Solutions and Human Decision-Making. Informatics, 7(3), 34. https://doi.org/10.3390/informatics7030034 (Pages cited are those of the open-access PDF.)",
+        "short": "Pekař et al., 2020",
+        "page": "p. 7"
       },
       "verification_status": "book-20261106-unreviewed"
     },
@@ -9193,6 +10288,80 @@
     },
     {
       "elements": [
+        "special-squares",
+        "ritual-or-sacred"
+      ],
+      "tendency": "On a sacred board the squares carry meanings, so a step up a ladder or down a snake is also a small lesson about a virtue or a vice.",
+      "pros": [
+        "Each ascent or descent invites the player to reflect on their own actions"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Sharma, M. (2025). From Moksha to Milton Bradley: The Historical Journey of Snakes and Ladders. SocioHumania: Journal of Social Humanities Studies, 2(1), 25–35. https://doi.org/10.70063/sociohumania.v2i1.90",
+        "short": "Sharma, 2025",
+        "page": "p. 27"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "special-squares",
+        "real-world-issue"
+      ],
+      "tendency": "A ladder-and-snake board can carry present-day concerns, with snakes standing for things like deforestation or corruption and ladders for things like recycling or schooling.",
+      "pros": [
+        "The same simple format can be re-dressed for a local issue"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Sharma, M. (2025). From Moksha to Milton Bradley: The Historical Journey of Snakes and Ladders. SocioHumania: Journal of Social Humanities Studies, 2(1), 25–35. https://doi.org/10.70063/sociohumania.v2i1.90",
+        "short": "Sharma, 2025",
+        "page": "p. 31"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "fully-cooperative",
+        "hidden-hands"
+      ],
+      "tendency": "In a game where everyone is on one team, hiding each player's cards makes it harder for one dominant player to run the group's decisions.",
+      "pros": [
+        "Each player has to take part and talk the choices through."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Sillaots, M. (2026). MitiGate: Risk Management Collaborative Tabletop Strategy Game. European Conference on Games Based Learning, 20(2), 747–755. https://doi.org/10.34190/ecgbl.20.2.5326",
+        "short": "Sillaots, 2026",
+        "page": "p. 753"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "chance-with-mitigation",
+        "cooperative-survival"
+      ],
+      "tendency": "In a team game that is lost if any objective falls too far, cards that soften a die roll's damage make the game easier to win when they are balanced against the risks.",
+      "pros": [
+        "Players accepted the uncertainty of the roll as part of the problem."
+      ],
+      "cons": [
+        "The game became less punitive and easier to win."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Sillaots, M. (2026). MitiGate: Risk Management Collaborative Tabletop Strategy Game. European Conference on Games Based Learning, 20(2), 747–755. https://doi.org/10.34190/ecgbl.20.2.5326",
+        "short": "Sillaots, 2026",
+        "page": "p. 754"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "worker-placement",
         "tile-placement"
       ],
@@ -10602,6 +11771,133 @@
         "page": "p. 301"
       },
       "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "game-master",
+        "role-play"
+      ],
+      "tendency": "A game master or actor who plays the non-player characters can answer what players do as the game runs, though not every player idea can be taken up while staying believable.",
+      "pros": [
+        "Can adopt an unforeseen player solution and act on it"
+      ],
+      "cons": [
+        "Turning down a player idea while staying believable is one of the hardest tasks",
+        "Open contributions can include some that do not fit the whole"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Stenros, J. (2023). Between Game Facilitation and Performance: Interactive Actors and Non-Player Characters in Larps. International Journal of Role-Playing, 76–93. https://doi.org/10.33063/ijrp.vi4.230",
+        "short": "Stenros, 2023",
+        "page": "p. 7"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "educational",
+        "sowing-seeds"
+      ],
+      "tendency": "In mancala and congklak, seeds are sown from hole to hole, and the players described use counting, patterns of distribution and probability as they choose where to sow.",
+      "pros": [
+        "Experienced players show mathematical thinking in their choices, and the authors see the games as a way to teach maths through local culture.",
+        "Players can use these ideas without knowing the mathematics behind them."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Suharti, R., Bhatt, K. P., Tolulope, O. Y. and Sambo, Y. A. (2025). Exploration Ethnomathematics in Traditional Games of Mancala in Africa and Congklak in Indonesia. Interval: Indonesian Journal of Mathematical Education, 3(1), 45–53. https://doi.org/10.37251/ijome.v3i1.1594 (Pages cited are those of the open-access PDF.)",
+        "short": "Suharti et al., 2025",
+        "page": "p. 4"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "shared-objective",
+        "different-powers"
+      ],
+      "tendency": "When a whole group works towards one goal and each player has an ability the others lack, players have to learn who can do what and pool what they know.",
+      "pros": [
+        "Everyone is pushed to contribute their own knowledge"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Wang, C. and Huang, L. (2021). A Systematic Review of Serious Games for Collaborative Learning: Theoretical Framework, Game Mechanic and Efficiency Assessment. International Journal of Emerging Technologies in Learning (iJET), 16(06), 88. https://doi.org/10.3991/ijet.v16i06.18495 (Pages cited are those of the open-access PDF.)",
+        "short": "Wang and Huang, 2021",
+        "page": "p. 11"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "team-vs-team",
+        "shared-objective"
+      ],
+      "tendency": "When teams each work on a shared goal and also compete against other teams, every member is pushed to carry out their own duties and adjust their approach.",
+      "pros": [
+        "Encourages all players to perform their duties",
+        "Lets each team check its progress against the others"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Wang, C. and Huang, L. (2021). A Systematic Review of Serious Games for Collaborative Learning: Theoretical Framework, Game Mechanic and Efficiency Assessment. International Journal of Emerging Technologies in Learning (iJET), 16(06), 88. https://doi.org/10.3991/ijet.v16i06.18495 (Pages cited are those of the open-access PDF.)",
+        "short": "Wang and Huang, 2021",
+        "page": "p. 10"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hidden-identity",
+        "team-vs-team"
+      ],
+      "tendency": "In a hidden-role game between two factions, each side's chance of winning depends on how many werewolves there are among all the players; in the studies the paper cites, the sides come out roughly even when the werewolves number about the square root of the players.",
+      "pros": [
+        "The size of the hidden faction is one number a designer can change to even out the sides."
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Wang, S. (2025). Optimal Strategy in the Werewolf Game: A Theoretical Study. Games: Research and Practice, 4(1), 1–25. https://doi.org/10.1145/3774646 (Pages cited are those of the open-access PDF.)",
+        "short": "Wang, 2025",
+        "page": "p. 2"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "most-points",
+        "landing-sends-back"
+      ],
+      "tendency": "In Zohn Ahl, a piece that lands on an opponent's piece sends it back to the start and takes a counter from its owner, so what one player gains the other loses.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Winkelman, P. M. (2016). Board to Page to Board. Board Game Studies Journal, 10(1), 17–31. https://doi.org/10.1515/bgs-2016-0002",
+        "short": "Winkelman, 2016",
+        "page": "p. 26"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "sowing-seeds",
+        "extra-turn"
+      ],
+      "tendency": "When the last piece of a sowing falls in your own storehouse you play again from any of your own holes, and when it falls in an opponent's hole the turn passes",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Zhang, J., Liu, Y., Yin, Z., Abbas, S. and Qin, S. (2023). Role of Mancala Games in Human Evolution, Cultural Development, and Education: An Anthropological Inquiry. Quality in Sport, 14(1), 23–36. https://doi.org/10.12775/qs.2023.14.01.002",
+        "short": "Zhang et al., 2023",
+        "page": "p. 27"
+      },
+      "verification_status": "book-20261106-unreviewed"
     }
   ],
   "conflicts": [
@@ -10616,6 +11912,20 @@
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
         "short": "Elias, Garfield and Gutschera, 2012",
         "page": "p. 215"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "roll-and-move",
+        "model-a-system"
+      ],
+      "note": "In a game meant to show how a real system works, dice that decide movement made students put outcomes down to luck instead of the system, so the designers took the dice out.",
+      "student_note": "In a game meant to show how a real system works, dice that decide movement made students put outcomes down to luck instead of the system, so the designers took the dice out.",
+      "source": {
+        "ref": "Vakulchai, C., Tabthong, S. and Prarokijjak, W. (2026). Designing a Board Game to Support Students’ Conceptual Change in Newton’s Laws: A Design-based Research Study. International Journal of Information and Education Technology, 16(10), 2767–2777. https://doi.org/10.18178/ijiet.2026.16.10.2731",
+        "short": "Vakulchai et al., 2026",
+        "page": "p. 2771"
       },
       "verification_status": "book-20261106-unreviewed"
     }

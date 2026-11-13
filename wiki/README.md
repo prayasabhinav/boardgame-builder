@@ -12,7 +12,7 @@ Every entry the tool's feedback is made from, read straight from the tool's own 
 |---|---|---|
 | Blocks, with their drawings (65 of them tentative, from the rule books) | `block_meta.py` and `book-blocks.json` | 151 |
 | Feelings | `interactions.json` | 15 |
-| Pairs, curated, from books (with their pages) and drafted: one per pair, the entry the tool uses, with a pair's other book entries shown on its page | `interactions.json`, `interactions-books.json` and `interactions-drafted.json` | 9,336 |
+| Pairs, curated, from books and research papers (with their pages) and drafted: one per pair, the entry the tool uses, with a pair's other book entries shown on its page | `interactions.json`, `interactions-books.json` and `interactions-drafted.json` | 9,346 |
 | Triads | `interactions.json` | 15 |
 | Conflicts | `interactions.json` and `interactions-books.json` | 6 |
 | Theme lines | `interactions-drafted.json` | 12 |

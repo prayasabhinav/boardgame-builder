@@ -1,0 +1,1 @@
+pair: sowing-seeds+capture-and-convert | In sowing games where captured seeds are fed into the capturer's own holes, the number of seeds in play stays constant, so the game does not run down towards a fixed end. | the paper names these the most complex and varied of the mancala games | - | - | - | p. 9

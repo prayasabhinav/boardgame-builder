@@ -1,0 +1,1 @@
+pair: most-points+pattern-building | When points come from the length of the diagonals each player builds, instead of counting tokens on the board, both players get nearly equal chances to fill the grid and the first-player advantage shrinks. | Scoring patterns gives players more to plan than counting pieces. | - | - | - | p. 1083

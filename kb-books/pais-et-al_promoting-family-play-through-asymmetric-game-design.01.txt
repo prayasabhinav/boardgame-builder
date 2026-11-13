@@ -1,0 +1,1 @@
+pair: different-powers+fully-cooperative | When two players have different roles and each needs what the other does, they have to talk to each other outside the game to make progress | Players share information and learn how to play their roles together | - | - | - | p. 8

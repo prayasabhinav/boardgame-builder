@@ -1,0 +1,2 @@
+pair: extra-turn+sowing-seeds | In Kalah a player whose last seed lands in their own store moves again, and these repeated moves can be chained. | A repeated move adds seeds to the store without touching the opponent's holes. | A chain of repeated moves can run to 17 moves on a six-hole board. | - | - | p. 46
+pair: sowing-seeds+take-turns | In Kalah, where players take turns sowing, the player who moves first tends to hold an advantage. | - | - | The player who moves second may start behind. | - | p. 46

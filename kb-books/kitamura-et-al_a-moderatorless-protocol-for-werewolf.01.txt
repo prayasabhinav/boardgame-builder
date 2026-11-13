@@ -1,0 +1,1 @@
+pair: hidden-identity+game-master | In a hidden-role game someone usually acts as moderator, privately handing out roles and secret information and announcing outcomes, which makes that person a trusted go-between. | - | - | Needs a trusted third party who becomes a single point of failure | Raises the barrier to taking part | p. 1

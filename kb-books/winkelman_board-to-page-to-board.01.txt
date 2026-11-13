@@ -1,0 +1,1 @@
+pair: most-points+landing-sends-back | In Zohn Ahl, a piece that lands on an opponent's piece sends it back to the start and takes a counter from its owner, so what one player gains the other loses. | - | - | - | - | p. 26

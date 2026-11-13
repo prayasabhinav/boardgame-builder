@@ -1,0 +1,1 @@
+pair: sowing-seeds+extra-turn | When the last piece of a sowing falls in your own storehouse you play again from any of your own holes, and when it falls in an opponent's hole the turn passes | - | - | - | - | p. 27

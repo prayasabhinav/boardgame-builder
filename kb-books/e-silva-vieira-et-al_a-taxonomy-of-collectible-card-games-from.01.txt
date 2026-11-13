@@ -1,0 +1,2 @@
+pair: build-your-own-side+spend-to-use | Where players pay for cards with mana from resource cards, building a deck means balancing how many resource cards go in and which kinds | - | - | - | - | p. 8
+pair: build-your-own-side+drafting | In collectible card games, drafting can be how each side is built: players pick one card from a small sample, turn after turn, and the picks become their deck | Players do not have to build their decks at the same time or together | - | - | - | p. 5

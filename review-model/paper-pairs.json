@@ -1,0 +1,520 @@
+{
+ "special-squares+ritual-or-sacred": [
+  "Moksha Patam (Sharma, 2025)",
+  "Gyan Chaupar (Vaisnava board) (Dauenhauer and Dauenhauer, 2024)",
+  "Senet (Konstantakos, 2022)"
+ ],
+ "special-squares+educational": [
+  "Moksha Patam (Sharma, 2025)",
+  "Stairs, Pits and Ropes (Nautiyal et al., 2024)",
+  "Race to Mars (Nautiyal et al., 2024)"
+ ],
+ "set-collection+hidden-hands": [
+  "Rummy (Banerjee et al., 2024)"
+ ],
+ "set-collection+take-turns": [
+  "Rummy (Banerjee et al., 2024)"
+ ],
+ "set-collection+skill-with-luck-tempering": [
+  "Rummy (Banerjee et al., 2024)",
+  "Agricola (Sousa, 2023)",
+  "Pandemic Legacy: Season 1 (Sousa, 2023)"
+ ],
+ "roll-and-move+full-information": [
+  "Ludo (Banerjee et al., 2024)"
+ ],
+ "roll-and-move+chance-with-mitigation": [
+  "Ludo (Banerjee et al., 2024)",
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "betting-on-your-hand+hidden-hands": [
+  "Teen Patti (Banerjee et al., 2024)"
+ ],
+ "betting-on-your-hand+bluffing": [
+  "Teen Patti (Banerjee et al., 2024)"
+ ],
+ "sowing-seeds+most-points": [
+  "Ayo (Broline and Loeb, 1995)",
+  "Kalah (Anonymous, 2022)",
+  "Mancala (two-row, twelve cupmarks) (Bikić and Vuković, 2010)",
+  "Kalah (Pekař et al., 2020)",
+  "Kalah (Pekař et al., 2020)"
+ ],
+ "sowing-seeds+take-turns": [
+  "Ayo (Broline and Loeb, 1995)",
+  "Kalah (Pekař et al., 2020)",
+  "Mancala (seven-hole version) (Zhang et al., 2023)",
+  "Kalah (Pekař et al., 2020)"
+ ],
+ "negotiation+everyone-at-once": [
+  "Diplomacy (Marinheiro and Lopes Cardoso, 2018)",
+  "Diplomacy (Ferreira et al., 2015)"
+ ],
+ "negotiation+war-and-conquest": [
+  "Diplomacy (Marinheiro and Lopes Cardoso, 2018)"
+ ],
+ "area-control+everyone-at-once": [
+  "Diplomacy (Marinheiro and Lopes Cardoso, 2018)",
+  "Diplomacy (Ferreira et al., 2015)"
+ ],
+ "area-control+war-and-conquest": [
+  "Diplomacy (Marinheiro and Lopes Cardoso, 2018)",
+  "Wallenstein (Cronkite, None)",
+  "Risk (Rossato et al., 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "role-play+game-master": [
+  "Dungeons & Dragons 5th Edition (McLaren et al., 2026)",
+  "7 Samurai (Hartyándi and Van Bilsen, 2024)",
+  "Apple Pie Factory, Housing Association and Launch Party (SPGR) (Hartyándi and Van Bilsen, 2024)",
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "area-control+most-points": [
+  "Wallenstein (Cronkite, None)"
+ ],
+ "area-control+historical": [
+  "Wallenstein (Cronkite, None)",
+  "Diplomacy (Ferreira et al., 2015)",
+  "Diplomacy (Jaidka et al., 2024)"
+ ],
+ "negotiation+historical": [
+  "Western Empires (Cronkite, None)",
+  "Divided Kingdom, 561 (Cronkite, None)",
+  "Diplomacy (Ferreira et al., 2015)",
+  "Diplomacy (Jaidka et al., 2024)"
+ ],
+ "set-collection+historical": [
+  "Western Empires (Cronkite, None)",
+  "Puerto Rico (Sousa, 2023)",
+  "Agricola (Sousa, 2023)"
+ ],
+ "worker-placement+historical": [
+  "A Feast for Odin (Cronkite, None)",
+  "Agricola (Sousa, 2023)"
+ ],
+ "negotiation+most-points": [
+  "Divided Kingdom, 561 (Cronkite, None)"
+ ],
+ "negotiation+hidden-personal-goal": [
+  "Divided Kingdom, 561 (Cronkite, None)"
+ ],
+ "negotiation+hidden-hands": [
+  "Divided Kingdom, 561 (Cronkite, None)",
+  "MitiGate (Sillaots, 2026)"
+ ],
+ "negotiation+staged-game": [
+  "Divided Kingdom, 561 (Cronkite, None)",
+  "Diplomacy (Ferreira et al., 2015)",
+  "Diplomacy (Jaidka et al., 2024)"
+ ],
+ "role-play+stakes-outside-the-game": [
+  "7 Samurai (Hartyándi and Van Bilsen, 2024)"
+ ],
+ "role-play+debrief": [
+  "7 Samurai (Hartyándi and Van Bilsen, 2024)",
+  "Apple Pie Factory, Housing Association and Launch Party (SPGR) (Hartyándi and Van Bilsen, 2024)",
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "role-play+shared-objective": [
+  "Apple Pie Factory, Housing Association and Launch Party (SPGR) (Hartyándi and Van Bilsen, 2024)"
+ ],
+ "sowing-seeds+extra-turn": [
+  "Kalah (Anonymous, 2022)",
+  "Mancala (two-row, twelve cupmarks) (Bikić and Vuković, 2010)",
+  "Kalah (Pekař et al., 2020)",
+  "Mancala (seven-hole version) (Zhang et al., 2023)",
+  "Kalah (Pekař et al., 2020)"
+ ],
+ "sowing-seeds+finish-on-exact-number": [
+  "Tchoukaillon (Danaci et al., 2023)"
+ ],
+ "sowing-seeds+beat-the-layout": [
+  "Tchoukaillon (Danaci et al., 2023)"
+ ],
+ "negotiation+mostly-skill": [
+  "Diplomacy (Ferreira et al., 2015)"
+ ],
+ "area-control+mostly-skill": [
+  "Diplomacy (Ferreira et al., 2015)"
+ ],
+ "area-control+staged-game": [
+  "Diplomacy (Ferreira et al., 2015)",
+  "Diplomacy (Jaidka et al., 2024)"
+ ],
+ "negotiation+fully-cooperative": [
+  "MitiGate (Sillaots, 2026)"
+ ],
+ "negotiation+take-turns": [
+  "MitiGate (Sillaots, 2026)",
+  "Catan: Global Warming (Illingworth and Wake, 2019)"
+ ],
+ "negotiation+cooperative-survival": [
+  "MitiGate (Sillaots, 2026)"
+ ],
+ "negotiation+chance-with-mitigation": [
+  "MitiGate (Sillaots, 2026)"
+ ],
+ "negotiation+educational": [
+  "MitiGate (Sillaots, 2026)"
+ ],
+ "pattern-building+most-points": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "pattern-building+take-turns": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "pattern-building+staged-game": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "pattern-building+direct-confrontation": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "capture-and-convert+most-points": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "capture-and-convert+take-turns": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "capture-and-convert+staged-game": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "capture-and-convert+direct-confrontation": [
+  "Shellmate (Ghosh and Bokil, 2026)"
+ ],
+ "roll-and-move+race-to-finish": [
+  "Chutes and Ladders (100 squares) (Dauenhauer and Dauenhauer, 2024)",
+  "Gyan Chaupar (Vaisnava board) (Dauenhauer and Dauenhauer, 2024)",
+  "Phanjika (Schmidt-Madsen, 2022)",
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)",
+  "Snakes and Ladders (Nautiyal et al., 2024)",
+  "Duodecim Scripta (Durnagölü and Söğüt, 2025)"
+ ],
+ "roll-and-move+finish-on-exact-number": [
+  "Chutes and Ladders (100 squares) (Dauenhauer and Dauenhauer, 2024)",
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "special-squares+race-to-finish": [
+  "Chutes and Ladders (100 squares) (Dauenhauer and Dauenhauer, 2024)",
+  "Gyan Chaupar (Vaisnava board) (Dauenhauer and Dauenhauer, 2024)",
+  "Phanjika (Schmidt-Madsen, 2022)",
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "special-squares+finish-on-exact-number": [
+  "Chutes and Ladders (100 squares) (Dauenhauer and Dauenhauer, 2024)",
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "roll-and-move+ritual-or-sacred": [
+  "Gyan Chaupar (Vaisnava board) (Dauenhauer and Dauenhauer, 2024)"
+ ],
+ "roll-and-move+mostly-chance": [
+  "Gyan Chaupar (Vaisnava board) (Dauenhauer and Dauenhauer, 2024)",
+  "Snakes and Ladders (Nautiyal et al., 2024)",
+  "Duodecim Scripta (Durnagölü and Söğüt, 2025)"
+ ],
+ "special-squares+mostly-chance": [
+  "Gyan Chaupar (Vaisnava board) (Dauenhauer and Dauenhauer, 2024)"
+ ],
+ "landing-sends-back+race-to-finish": [
+  "Phanjika (Schmidt-Madsen, 2022)",
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)",
+  "Duodecim Scripta (Durnagölü and Söğüt, 2025)"
+ ],
+ "set-collection+most-points": [
+  "Cytosis: A Cell Biology Board Game (Acar and Güler, 2025)",
+  "Ticket to Ride (Sato and Haan, 2016)"
+ ],
+ "set-collection+educational": [
+  "Cytosis: A Cell Biology Board Game (Acar and Güler, 2025)"
+ ],
+ "hand-management+most-points": [
+  "Cytosis: A Cell Biology Board Game (Acar and Güler, 2025)"
+ ],
+ "hand-management+educational": [
+  "Cytosis: A Cell Biology Board Game (Acar and Güler, 2025)"
+ ],
+ "worker-placement+most-points": [
+  "Cytosis: A Cell Biology Board Game (Acar and Güler, 2025)"
+ ],
+ "worker-placement+educational": [
+  "Cytosis: A Cell Biology Board Game (Acar and Güler, 2025)"
+ ],
+ "connection+take-turns": [
+  "Hex (Hockaday, 2026)",
+  "Reverse Hex (Rex) (Hockaday, 2026)"
+ ],
+ "connection+play-to-lose": [
+  "Reverse Hex (Rex) (Hockaday, 2026)"
+ ],
+ "build-your-own-side+direct-confrontation": [
+  "On the Edge (Kunzelman et al., 2026)"
+ ],
+ "spend-to-use+everyone-at-once": [
+  "Marvel Snap (e Silva Vieira et al., 2024)"
+ ],
+ "spend-to-use+most-points": [
+  "Marvel Snap (e Silva Vieira et al., 2024)"
+ ],
+ "build-your-own-side+take-turns": [
+  "Magic: the Gathering (e Silva Vieira et al., 2024)",
+  "Hearthstone (e Silva Vieira et al., 2024)"
+ ],
+ "drafting+take-turns": [
+  "Magic: the Gathering (e Silva Vieira et al., 2024)"
+ ],
+ "spend-to-use+take-turns": [
+  "Magic: the Gathering (e Silva Vieira et al., 2024)",
+  "Hearthstone (e Silva Vieira et al., 2024)",
+  "Catan: Global Warming (Illingworth and Wake, 2019)"
+ ],
+ "special-squares+absent-player": [
+  "Senet (Konstantakos, 2022)"
+ ],
+ "different-powers+historical": [
+  "The Troubles: Shadow War in Northern Ireland (O’Donnell, 2025)"
+ ],
+ "different-powers+stakeholder-roles": [
+  "The Troubles: Shadow War in Northern Ireland (O’Donnell, 2025)"
+ ],
+ "different-powers+fully-cooperative": [
+  "Koala Boutique (Pais et al., 2024)"
+ ],
+ "different-powers+shared-objective": [
+  "Koala Boutique (Pais et al., 2024)"
+ ],
+ "roll-and-move+extra-turn": [
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "roll-and-move+take-turns": [
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)",
+  "Right 2 Roam (Bozdog et al., 2026)",
+  "Snakes and Ladders (Nautiyal et al., 2024)"
+ ],
+ "special-squares+extra-turn": [
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "special-squares+take-turns": [
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)",
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "landing-sends-back+extra-turn": [
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "landing-sends-back+finish-on-exact-number": [
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "landing-sends-back+take-turns": [
+  "Chowka Bhara (Cowry game) (DAVOUDIAN and NAGABHUSHAN, 2019)"
+ ],
+ "sowing-seeds+playing-alone": [
+  "Tchoukaillon (Brant Jones et al., 2013)"
+ ],
+ "negotiation+model-a-system": [
+  "Catan: Global Warming (Illingworth and Wake, 2019)"
+ ],
+ "negotiation+real-world-issue": [
+  "Catan: Global Warming (Illingworth and Wake, 2019)"
+ ],
+ "spend-to-use+model-a-system": [
+  "Catan: Global Warming (Illingworth and Wake, 2019)"
+ ],
+ "spend-to-use+real-world-issue": [
+  "Catan: Global Warming (Illingworth and Wake, 2019)"
+ ],
+ "roll-and-move+shared-objective": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "roll-and-move+fully-cooperative": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "roll-and-move+real-world-issue": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "roll-and-move+rules-make-an-argument": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "special-squares+shared-objective": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "special-squares+fully-cooperative": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "special-squares+chance-with-mitigation": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "special-squares+real-world-issue": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "special-squares+rules-make-an-argument": [
+  "Right 2 Roam (Bozdog et al., 2026)"
+ ],
+ "role-play+stakeholder-roles": [
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "negotiation+game-master": [
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "negotiation+stakeholder-roles": [
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "negotiation+debrief": [
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "spend-to-use+game-master": [
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "spend-to-use+stakeholder-roles": [
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "spend-to-use+debrief": [
+  "Polimatrix (Russia-Ukraine matrix game) (Gledhill et al., 2025)"
+ ],
+ "area-control+direct-confrontation": [
+  "Risk (Rossato et al., 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "area-control+take-turns": [
+  "Risk (Rossato et al., 2023)"
+ ],
+ "roll-and-move+solo-in-parallel": [
+  "Snakes and Ladders (Nautiyal et al., 2024)"
+ ],
+ "special-squares+direct-confrontation": [
+  "Stairs, Pits and Ropes (Nautiyal et al., 2024)"
+ ],
+ "roll-and-move+last-standing": [
+  "Monopoly (Politopoulos et al., 2023)"
+ ],
+ "landing-sends-back+most-points": [
+  "Zohn Ahl (Winkelman, 2016)"
+ ],
+ "special-squares+most-points": [
+  "Zohn Ahl (Winkelman, 2016)"
+ ],
+ "making-words+hidden-hands": [
+  "Scrabble (Ballard and Chow, 2025)"
+ ],
+ "making-words+bluffing": [
+  "Scrabble (Ballard and Chow, 2025)"
+ ],
+ "making-words+take-turns": [
+  "Scrabble (Ballard and Chow, 2025)"
+ ],
+ "landing-sends-back+mostly-chance": [
+  "Duodecim Scripta (Durnagölü and Söğüt, 2025)"
+ ],
+ "hand-management+direct-confrontation": [
+  "Paths of Glory (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "hand-management+war-and-conquest": [
+  "Paths of Glory (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "hand-management+model-a-system": [
+  "Paths of Glory (Sousa, 2023)",
+  "Agricola (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "tile-placement+direct-confrontation": [
+  "Paths of Glory (Sousa, 2023)",
+  "Tigris and Euphrates (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "tile-placement+war-and-conquest": [
+  "Paths of Glory (Sousa, 2023)",
+  "Tigris and Euphrates (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "tile-placement+model-a-system": [
+  "Paths of Glory (Sousa, 2023)",
+  "Agricola (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "set-collection+direct-confrontation": [
+  "Tigris and Euphrates (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "set-collection+war-and-conquest": [
+  "Tigris and Euphrates (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "set-collection+mostly-skill": [
+  "Puerto Rico (Sousa, 2023)"
+ ],
+ "tile-placement+mostly-skill": [
+  "Puerto Rico (Sousa, 2023)"
+ ],
+ "tile-placement+historical": [
+  "Puerto Rico (Sousa, 2023)",
+  "Agricola (Sousa, 2023)"
+ ],
+ "worker-placement+skill-with-luck-tempering": [
+  "Agricola (Sousa, 2023)"
+ ],
+ "worker-placement+model-a-system": [
+  "Agricola (Sousa, 2023)"
+ ],
+ "tile-placement+skill-with-luck-tempering": [
+  "Agricola (Sousa, 2023)",
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "hand-management+skill-with-luck-tempering": [
+  "Agricola (Sousa, 2023)",
+  "Pandemic Legacy: Season 1 (Sousa, 2023)",
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "hand-management+historical": [
+  "Agricola (Sousa, 2023)"
+ ],
+ "set-collection+model-a-system": [
+  "Agricola (Sousa, 2023)",
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "area-control+model-a-system": [
+  "Twilight Struggle (Sousa, 2023)"
+ ],
+ "set-collection+fully-cooperative": [
+  "Pandemic Legacy: Season 1 (Sousa, 2023)"
+ ],
+ "set-collection+cooperative-survival": [
+  "Pandemic Legacy: Season 1 (Sousa, 2023)"
+ ],
+ "set-collection+irreversible-change": [
+  "Pandemic Legacy: Season 1 (Sousa, 2023)"
+ ],
+ "hand-management+fully-cooperative": [
+  "Pandemic Legacy: Season 1 (Sousa, 2023)",
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "hand-management+cooperative-survival": [
+  "Pandemic Legacy: Season 1 (Sousa, 2023)",
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "hand-management+irreversible-change": [
+  "Pandemic Legacy: Season 1 (Sousa, 2023)"
+ ],
+ "hand-management+fantasy": [
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "tile-placement+fully-cooperative": [
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "tile-placement+cooperative-survival": [
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "tile-placement+fantasy": [
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "grow-stronger+fully-cooperative": [
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "grow-stronger+cooperative-survival": [
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "grow-stronger+fantasy": [
+  "Gloomhaven (Sousa, 2023)"
+ ],
+ "grow-stronger+skill-with-luck-tempering": [
+  "Gloomhaven (Sousa, 2023)"
+ ]
+}

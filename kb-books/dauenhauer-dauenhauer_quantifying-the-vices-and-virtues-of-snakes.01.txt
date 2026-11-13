@@ -1,0 +1,2 @@
+pair: roll-and-move+special-squares | In a dice race with snakes and ladders, which squares carry them changes how long a game lasts, and a short ladder can matter more than a long one. | A short ladder on the right square can shorten the game a lot. | - | - | - | p. 19
+pair: ritual-or-sacred+special-squares | When the special squares are named virtues and vices, moving along the board reads as a path of virtuous and wicked actions, as in Gyan Chaupar. | Climbing a ladder or sliding down a snake carries a meaning players can read straight from the board. | - | - | - | p. 4

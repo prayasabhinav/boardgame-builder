@@ -1,0 +1,4 @@
+pair: negotiation+set-collection | Players swap resources with each other so that one of them can complete a set. | Trading lets a player complete a set, and players talk to each other to do it. | - | - | - | p. 1378
+pair: bidding+negotiation | Bidding is often run together with trading, so the value of what a player adds to a deal changes with the bids. | - | - | - | - | p. 1378
+pair: hand-management+set-collection | Hand management and set collection tend to be paired in educational games and support each other in passing on information. | - | - | - | - | p. 1386
+pair: area-control+tile-placement | Tile placement is often combined with area majority, and each tile turned over scores a victory point for the player who opens it. | Tile placement is one of the easiest mechanics to learn. | - | - | - | p. 1376

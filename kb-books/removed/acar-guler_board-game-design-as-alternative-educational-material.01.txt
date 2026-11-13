@@ -1,0 +1,2 @@
+checker found no passage	pair: drafting+set-collection | In the educational games reviewed, set collection, hand management and card drafting tended to be used together, mostly in science-themed games. | The three support each other in passing on the information the game teaches. | - | - | - | p. 21
+checker found no passage	pair: drafting+hand-management | Card drafting and hand management often appear in the same educational game and support each other in passing on information. | - | - | - | - | p. 21

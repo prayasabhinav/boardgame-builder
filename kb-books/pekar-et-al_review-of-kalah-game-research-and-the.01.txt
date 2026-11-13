@@ -1,0 +1,2 @@
+pair: sowing-seeds+extra-turn | In Kalah, when the last seed of a sowing lands in your own store you move again, so a chain of several moves can be made in one turn | - | - | - | - | p. 9
+pair: take-turns+extra-turn | In Kalah, some studies found a slight edge for the player who moves first, and one put it down to the first player being first to gain several moves | - | - | The player who starts can hold a small edge | - | p. 7

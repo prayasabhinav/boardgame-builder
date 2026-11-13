@@ -1,0 +1,1 @@
+pair: sowing-seeds+finish-on-exact-number | When the last seed of every sowing has to land in one store, with falling short or going past losing the game, the starting layout alone settles whether a win is possible and which moves win. | - | - | The game can be unwinnable from the first layout, and a winnable one leaves a single series of moves. | - | p. 3

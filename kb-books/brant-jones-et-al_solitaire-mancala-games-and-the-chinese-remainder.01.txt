@@ -1,0 +1,1 @@
+pair: extra-turn+sowing-seeds | In many two-player mancala games a player whose sowing ends in their own store moves again, so a run of sowings can gather the seeds from a whole stretch of the board into the store. | - | - | - | - | p. 1

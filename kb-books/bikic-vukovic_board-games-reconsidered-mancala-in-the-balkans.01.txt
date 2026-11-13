@@ -1,0 +1,1 @@
+pair: sowing-seeds+extra-turn | In two-row sowing games, dropping your last seed in your own store gives you another turn, so the pit you start from matters. | Planning where the last seed lands can give an early advantage. | - | The opening choice of pit can largely decide the outcome. | - | p. 189

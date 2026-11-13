@@ -1,0 +1,1 @@
+pair: build-your-own-side+spend-to-use | When each player builds their own deck and cards are called into play with resource cards, the share of resource cards in the deck decides whether play keeps moving | - | - | A deck with too few resource cards leaves a player waiting for one to appear | - | p. 5

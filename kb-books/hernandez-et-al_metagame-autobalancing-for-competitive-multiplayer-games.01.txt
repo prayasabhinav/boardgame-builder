@@ -1,0 +1,1 @@
+pair: counter-cycle+build-your-own-side | When players pick a bot or deck beforehand and each pick beats one other and loses to a third, the pick itself turns into a guessing contest about what the other player chooses. | A player who guesses the opponent's pick gains an edge | A designer can tune win chances so that no pick beats every other | - | - | p. 279

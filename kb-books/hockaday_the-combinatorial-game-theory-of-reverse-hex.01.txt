@@ -1,0 +1,1 @@
+pair: connection+play-to-lose | Played like Hex but with the result turned over, a player who links their own two sides loses, so the aim shifts to getting the other player to complete a link | - | - | - | - | p. 12

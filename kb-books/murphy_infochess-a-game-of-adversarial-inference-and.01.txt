@@ -1,0 +1,1 @@
+pair: indirect-via-board+deduction | When pieces change what each side can see instead of capturing, play turns to working out where the hidden king is while hiding your own | Attention stays on information, because there is no material to win | - | - | - | p. 1

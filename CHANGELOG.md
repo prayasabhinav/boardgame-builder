@@ -4,6 +4,11 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.22.3 — 13 November 2026
+
+- **More of the feedback comes from research.** 146 more open-access papers on board games, play and game design were read for what two blocks do together. 48 of them gave 70 entries, among them Chowka Bhara's bonus throws, the extra turn in sowing games, hidden roles with teams in Werewolf, and a classroom game whose designers removed dice because students put outcomes down to luck rather than to the system the game showed. Each entry was checked as the books' are: a reader who had not written it found the passage, code found the reader's copied words in the paper, and the page was taken from the PDF in code (printed pages where the PDF matches the journal's, the PDF's own otherwise, and the reference says which). Two entries that failed are kept aside in `kb-books/removed/`; one clash the papers name was not kept, because a known game, Moksha Patam, has both blocks.
+- The clash model was checked against 115 games those papers read from their rules. Of the 88 pairs they show that no known game does, it flags none and gives each 4% or less. Added to its training, they did not improve its held-out score (Brier 0.0111 before, 0.0113 after), so it was not retrained.
+
 ## 0.22.2 — 13 November 2026
 
 - **Six research papers join the books.** Samarasinghe and others (2021), Björk, Lundgren and Holopainen (2003), Olsson, Björk and Dahlskog (2014), Sousa (2023), Chircop (2017) and Abu Makhadi (2025), each settled through Crossref, add 160 lines to the Ideas tab and 8 entries on what two blocks do together. Every line was checked against its paper as the books' lines were: a reader who had not written it found the passage, code found the reader's copied words in the paper, and the page was taken from the PDF in code. Three lines that failed are kept aside in `ideas/removed/`.
