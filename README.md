@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.syntax.prayasabhinav.net-2e7d32?style=flat-square)](https://boardgame.syntax.prayasabhinav.net)
-[![Version](https://img.shields.io/badge/version-0.22.1-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.22.2-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -73,7 +73,7 @@ Every view has its own address, so it can be linked, reloaded and reached with B
 
 ## Ideas, and feedback from books
 
-The **Ideas** tab sits beside the feedback. It holds an alphabetical glossary and the key ideas of 25 books on play, games and their rules, in plain words, each with the book and the page or chapter it comes from. A search box finds a word or an idea, and the books are listed in full at the end of the tab. Every line was checked against its book by a reader who had not written it. A line stayed only if that reader found the passage and code then found the reader's copied words in the book's text; the lines that failed are kept aside in `ideas/removed/`. Six of these books, on game rules and their effects, also supply some of the feedback, with the same kind of citation. They describe 65 blocks the palette did not have, such as a trump suit, sowing seeds and the pie rule. Those blocks are in the palette now, under *From the rule books, tentative* in each group, and stay there until they have been tried in a class. Every pair they make has a drafted entry. All of it is on the wiki to be checked.
+The **Ideas** tab sits beside the feedback. It holds an alphabetical glossary and the key ideas of 25 books and 6 research papers on play, games and their rules, in plain words, each with the book or paper and the page or chapter it comes from. A search box finds a word or an idea, and the books are listed in full at the end of the tab. Every line was checked against its source by a reader who had not written it. A line stayed only if that reader found the passage and code then found the reader's copied words in the book's text; the lines that failed are kept aside in `ideas/removed/`. Six of these books, on game rules and their effects, also supply some of the feedback, with the same kind of citation. They describe 65 blocks the palette did not have, such as a trump suit, sowing seeds and the pie rule. Those blocks are in the palette now, under *From the rule books, tentative* in each group, and stay there until they have been tried in a class. Every pair they make has a drafted entry. All of it is on the wiki to be checked.
 
 ## Teaching remotely
 

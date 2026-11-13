@@ -1,6 +1,18 @@
 {
  "terms": [
   {
+   "name": "400 Design Rules",
+   "text": "A project to collect game design rules that have proved useful, written as instructions. Each rule has an imperative statement, a domain of application, dominated and dominating rules, and examples.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 4"
+  },
+  {
+   "name": "The 400 Project",
+   "text": "Hal Barwood and Noah Falstein's effort to collect 400 game design rules, which reached 112 in five years. Each rule has an identifier, title, short description, a domain and a contributor.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 164"
+  },
+  {
    "name": "80/20 rule",
    "text": "The rough pattern that about 80 percent of effects come from 20 percent of causes. Pareto saw it in incomes around 1900.",
    "short": "Érdi, 2020",
@@ -143,6 +155,12 @@
    "text": "A pairing of one action and the result it brings, which then leads to the next action. Play is a long chain of these.",
    "short": "Macklin and Sharp, 2016",
    "page": "p. 31"
+  },
+  {
+   "name": "Action/event",
+   "text": "The player plays a card that shows both action points and an event, and chooses to use one or the other.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
   },
   {
    "name": "Active skill",
@@ -497,6 +515,12 @@
    "text": "A story or scene whose parts stand for something else, so that one thing can mean another. Wark says games work as allegories of the world around them.",
    "short": "Wark, 2007",
    "page": "p. 31"
+  },
+  {
+   "name": "Alliances",
+   "text": "Players keep formal relationships with one another.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114064"
   },
   {
    "name": "Ally",
@@ -881,6 +905,12 @@
    "text": "The smallest complete unit of play that players feel is really playing the game, such as two possessions in football or one level of Donkey Kong.",
    "short": "Elias, Garfield and Gutschera, 2012",
    "page": "p. 13"
+  },
+  {
+   "name": "Atomic and compound ludeme",
+   "text": "In the definition the paper uses, a ludeme can be a single element (atomic) or a combination of elements (compound).",
+   "short": "Sousa, 2023",
+   "page": "p. 207"
   },
   {
    "name": "Atopia",
@@ -1393,6 +1423,12 @@
    "page": "p. 59"
   },
   {
+   "name": "BGG rank",
+   "text": "A ranking built from a Bayesian average of user ratings, which pulls games with very few votes towards the overall average so that a handful of high scores cannot push a game to the top. A game needs at least 30 ratings before it is ranked.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114054"
+  },
+  {
    "name": "Bid",
    "text": "A statement of the points a player will win. In Forty-two, each bid has to beat the one before.",
    "short": "Bell, 1960",
@@ -1639,6 +1675,12 @@
    "page": "under 'Poker'"
   },
   {
+   "name": "Board game experience profile",
+   "text": "The set of scores a game receives on the paper's traits, shown as a bar graph so two games can be compared at a glance. Each trait is scored low, medium or high, and a trait that is absent is scored nil, which still counts as a score.",
+   "short": "Chircop, 2017",
+   "page": "p. 21"
+  },
+  {
    "name": "Bold stand",
    "text": "In Division Loo, a round in which every player has to play their hand, and only the eldest hand may swap for the dummy.",
    "short": "Fitzsimmons and Liflander, 1996",
@@ -1763,6 +1805,12 @@
    "text": "Herbert Simon's idea that people decide within limits of time, information, money and thinking, so they cannot search for the exact optimum.",
    "short": "Érdi, 2020",
    "page": "p. 69"
+  },
+  {
+   "name": "Bounding, temporal and objective components",
+   "text": "Bounding components are goals, rules and game modes, and say what is allowed. Temporal components are actions, events, end conditions, evaluation functions and closures, and cover what happens over time. Objective components are players, interfaces and game elements such as tokens, dice, cards and tiles.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 6"
   },
   {
    "name": "Bourd (bourding)",
@@ -2093,6 +2141,12 @@
    "text": "A way of dealing where players take a card from a hand and pass the rest on. Passing the hand can deny a card to the next player.",
    "short": "Germaine and Wake, 2023",
    "page": "p. 156"
+  },
+  {
+   "name": "Card play conflict resolution",
+   "text": "Players play one or more cards, together or one after another, to change the outcome of a conflict and to trigger special abilities.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114058"
   },
   {
    "name": "Card sleeve",
@@ -2695,6 +2749,12 @@
    "page": "p. 118"
   },
   {
+   "name": "Co-occurrence of mechanics",
+   "text": "How often two mechanics are tagged on the same game. The paper counts the pairs found together in more than 1% of its games, and notes that the most popular mechanics dominate the result simply because they are popular.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114062"
+  },
+  {
    "name": "Co-op mode",
    "text": "A way of playing in which players work together against computer-controlled opponents rather than against each other. Rock Band and Left 4 Dead are examples.",
    "short": "McGonigal, 2011",
@@ -2995,6 +3055,12 @@
    "page": "p. 51"
   },
   {
+   "name": "Competitive and collaborative interaction",
+   "text": "The paper scores interaction on two separate scales, one for competition and one for collaboration, instead of one scale running from one to the other. A game can be high on both, as in Tichu, where partners cooperate in order to compete against the other team.",
+   "short": "Chircop, 2017",
+   "page": "p. 19"
+  },
+  {
    "name": "Competitive examination",
    "text": "A test used to choose officials by ability and not by birth. Caillois counts it as agon spreading from games into the state.",
    "short": "Caillois, 2001",
@@ -3043,6 +3109,12 @@
    "page": "ch. 2"
   },
   {
+   "name": "Complexity rating",
+   "text": "The average score from 1 to 5 that BoardGameGeek users give for how hard a game is to understand. It takes in the rulebook, the play time, the technical skill needed and how much time goes on planning rather than acting.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114054"
+  },
+  {
    "name": "Compliance",
    "text": "Going along with other people's pattern or game without adding anything of one's own. It looks like taking part, but the player is absent.",
    "short": "Winnicott, 1971",
@@ -3065,6 +3137,12 @@
    "text": "Järvinen's name for a token that stands in for the player, so that the player's own skills and body become part of what the game has to take into account.",
    "short": "Germaine and Wake, 2023",
    "page": "p. 55"
+  },
+  {
+   "name": "Compound mechanics",
+   "text": "Sicart's name for a set of related mechanics that work together inside one limited mode of interaction. Driving is his example, made up of several mechanics that together model driving.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 4"
   },
   {
    "name": "Comprehensive and heterogeneous",
@@ -3145,6 +3223,12 @@
    "page": "under 'Tailpiece'"
   },
   {
+   "name": "Conceptual relationship model",
+   "text": "The authors' model of how the parts of game design relate. General patterns are instantiated through contextualization, which is broken down into mechanics, which developers turn into code. Players then read the finished code through the patterns they already know.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 11"
+  },
+  {
    "name": "Conceptualize",
    "text": "The first step of the game design cycle: forming an idea for the game and its play experience.",
    "short": "Macklin and Sharp, 2016",
@@ -3193,6 +3277,12 @@
    "page": "p. 244"
   },
   {
+   "name": "Conflicting patterns",
+   "text": "One of the three kinds of relation a pattern can have, the other two being superior patterns and subpatterns. A conflicting pattern is one that is difficult to put into a game together with the given pattern.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 7"
+  },
+  {
    "name": "Confrontation",
    "text": "A grown-up standing up, claiming a personal view, and meeting a young person's challenge without anger or revenge. The book sets it against explaining at length.",
    "short": "Winnicott, 1971",
@@ -3239,6 +3329,12 @@
    "text": "A game answering the same action in the same way each time, so players can learn from its feedback.",
    "short": "Macklin and Sharp, 2016",
    "page": "p. 95"
+  },
+  {
+   "name": "Consolidated pattern template",
+   "text": "The paper's proposed set of required fields: name, keywords, description, related patterns and reference. Any other fields, such as an image, a confidence level or an example, are optional, so a pattern from any of the six collections can be fitted to it without losing information.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 172"
   },
   {
    "name": "Constitutive rules",
@@ -3299,6 +3395,12 @@
    "text": "When, where and with whom a game is played, and on what device or in what setting.",
    "short": "Macklin and Sharp, 2016",
    "page": "p. 43"
+  },
+  {
+   "name": "Contextualization layer",
+   "text": "The layer the authors add between patterns and mechanics. It holds scenarios that show how a pattern is meant to be used in a particular design and why that is a sound idea for the game.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 7"
   },
   {
    "name": "Continuous space",
@@ -3431,6 +3533,12 @@
    "text": "The simple central action a game is built around, such as jumping, bidding, deduction, pushing or aiming. Everything else is meant to support it.",
    "short": "Burgun, 2013",
    "page": "p. 25"
+  },
+  {
+   "name": "Core mechanism and auxiliary mechanism",
+   "text": "A core mechanism is what the players activate directly, as their main action in the game. Auxiliary mechanisms are the others, which set the system in motion and help the game progress.",
+   "short": "Sousa, 2023",
+   "page": "p. 212"
   },
   {
    "name": "Corn husking",
@@ -4021,6 +4129,12 @@
    "page": "p. 31"
   },
   {
+   "name": "Decisive randomness",
+   "text": "Randomness that makes the decision for the player. Rolling a die to move in Snakes and Ladders is the example, since the die settles where the piece goes.",
+   "short": "Chircop, 2017",
+   "page": "p. 14"
+  },
+  {
    "name": "Deck-building game",
    "text": "A game where each player starts with a small deck, buys cards to add to it, and draws from it in later turns.",
    "short": "Burgun, 2013",
@@ -4189,6 +4303,18 @@
    "page": "p. 254"
   },
   {
+   "name": "Design language",
+   "text": "What a field of design uses to talk about its work. The paper, following Rheinfrank and Evenson, gives three parts: a collection of available design elements, information on how they can be used together, and descriptions of when elements or combinations suit or cause trouble.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 3"
+  },
+  {
+   "name": "Design pattern",
+   "text": "In the sense taken from the architect Christopher Alexander, a description of a design problem followed by a description of its solution. The structure is plain: if problem A exists, solution B can be applied to solve it.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 158"
+  },
+  {
    "name": "Design stance",
    "text": "Attending to the design of the game itself and how it supports many different playings, not to one session.",
    "short": "Nguyen, 2020",
@@ -4235,6 +4361,12 @@
    "text": "A move across the corners of squares, along a diagonal of the board.",
    "short": "Bell, 1960",
    "page": "p. vii"
+  },
+  {
+   "name": "Dice rolling",
+   "text": "A die is used to bring randomness into the game.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114060"
   },
   {
    "name": "Dice simulation",
@@ -4565,6 +4697,12 @@
    "text": "The author's three types for how a person relates to racial inequality: the dolphin holds fair values but does not change the system, the ostrich looks away to follow self-interest, and the shark wants a ladder with themselves on top.",
    "short": "Livingston, 2025",
    "page": "p. 32"
+  },
+  {
+   "name": "Domains",
+   "text": "The eight broad groups BoardGameGeek places games in: abstract, children's, customisable, family, party, strategy, thematic and war games. The paper uses them to see which mechanics turn up in which kinds of game.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114065"
   },
   {
    "name": "Dominance hierarchy",
@@ -6349,6 +6487,18 @@
    "page": "p. 116"
   },
   {
+   "name": "Formal Abstract Design Tools",
+   "text": "Doug Church's short descriptions of design tools, each with a name and a brief description, kept as a list. They describe how elements of a game interact, not what elements a game has.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 164"
+  },
+  {
+   "name": "Formal Abstract Design Tools",
+   "text": "Doug Church's attempt at a shared design vocabulary for designers. Each tool is a one-sentence description, for example Perceivable Consequences, a clear reaction from the game world to what the player does.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 4"
+  },
+  {
    "name": "Formal system",
    "text": "A set of explicit rules, usually mathematical, that leaves out the loose details of real life. Koster says most games are formal systems, which makes them clear to learn from and also limited.",
    "short": "Koster, 2005",
@@ -6467,6 +6617,12 @@
    "text": "A game with unequal sides, in which one player is the fox and the others play many geese or sheep; the goals of the two sides differ.",
    "short": "Flanagan, 2009",
    "page": "p. 73"
+  },
+  {
+   "name": "Fragmentation of pattern collections",
+   "text": "The state of game design patterns where each collection uses its own template and conventions, so patterns overlap or contradict across collections and cannot be used as one language.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 159"
   },
   {
    "name": "Frame",
@@ -6593,6 +6749,12 @@
    "text": "A situation where every element of the game state is visible to every player, as with the pieces in chess.",
    "short": "Macklin and Sharp, 2016",
    "page": "p. 88"
+  },
+  {
+   "name": "Fully cooperative game",
+   "text": "A game with no traitor mechanic where everybody wins or everybody loses, so every interaction is aimed at the shared result. Pandemic and ...and then we held hands are the examples.",
+   "short": "Chircop, 2017",
+   "page": "p. 20"
   },
   {
    "name": "Fumage",
@@ -6727,6 +6889,18 @@
    "page": "p. xiv"
   },
   {
+   "name": "Game design pattern",
+   "text": "A description of interaction that keeps coming up in game play. The authors build their model on such patterns, and use them to design, analyse and compare games.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 2"
+  },
+  {
+   "name": "Game design patterns",
+   "text": "In this paper, semi-formal, linked descriptions of parts of a game's design that keep coming up and that concern game play, with alarms, fog of war and grinding as examples.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 2"
+  },
+  {
    "name": "Game developer playtest",
    "text": "A test with fellow game makers, who give detailed feedback but may describe the game they would make.",
    "short": "Macklin and Sharp, 2016",
@@ -6773,6 +6947,12 @@
    "text": "In a tabletop role-playing game, the person who runs the opposing forces, sets scenes and picks the campaign. Burgun calls the job a real-time game designer.",
    "short": "Burgun, 2013",
    "page": "p. 141"
+  },
+  {
+   "name": "Game mechanic",
+   "text": "A part of a game's rule system that covers one general or specific aspect of the game. Roll and move is the example given: it says a die is rolled and something is moved by the result, but not how it moves or why.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 4"
   },
   {
    "name": "Game modification",
@@ -7447,6 +7627,12 @@
    "page": "p. 38"
   },
   {
+   "name": "Hand management",
+   "text": "Use of cards in which players are rewarded for playing them in certain sequences set by the rules.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114058"
+  },
+  {
    "name": "Hand ranking",
    "text": "The fixed order of card combinations, from five in a row of one suit down to a single high card, used to decide who wins.",
    "short": "Morehead and Mott-Smith, 1983",
@@ -7589,6 +7775,12 @@
    "text": "The fit between a move and the problem it answers, such as a chess move that escapes a trap. A spectator can see it as well as the player.",
    "short": "Nguyen, 2020",
    "page": "ch. 5"
+  },
+  {
+   "name": "Harvesting patterns",
+   "text": "The authors' way of finding patterns by analysing existing games and other fields: recognise a candidate, analyse it in example games, describe it, test it in a small prototype, and evaluate it. In practice the steps became loose and repeated, with candidates fusing, changing and being created at almost any stage.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 5"
   },
   {
    "name": "Having the move",
@@ -8479,6 +8671,18 @@
    "page": "ch. 2"
   },
   {
+   "name": "Intentionality",
+   "text": "The direction of meaning in what someone does. The paper separates original intentionality, when a person means something by an action, from derived intentionality, which is another person's reading of that action. It uses the idea to explain why design decisions are hard for others to read.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 7"
+  },
+  {
+   "name": "Interaction level",
+   "text": "A game's level of conflict between players, scored in the paper as direct conflict, low conflict or no conflict. It is read together with whether a player can be eliminated.",
+   "short": "Sousa, 2023",
+   "page": "p. 219"
+  },
+  {
    "name": "Interactive fiction",
    "text": "A playable story told mostly in text, in the line of early text adventures like Zork. Alabaster is an example.",
    "short": "Macklin and Sharp, 2016",
@@ -8567,6 +8771,12 @@
    "text": "Kimberlé Crenshaw's word for the way several social categories overlap, so that a Black woman faces different treatment from a Black man or a White woman.",
    "short": "Livingston, 2025",
    "page": "p. 65"
+  },
+  {
+   "name": "Intersubjectivity",
+   "text": "Schutz's name for shared meaning, which has two parts: the medium used to communicate, such as scenarios, prototypes, speech, writing or drawing, and the shared ways of using that medium that grow up during communication.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 10"
   },
   {
    "name": "Interval scale",
@@ -8861,6 +9071,12 @@
    "text": "In Guggenheim, a five-letter word whose letters give the starting letters for each column of the grid.",
    "short": "Morehead and Mott-Smith, 1983",
    "page": "under 'Guggenheim'"
+  },
+  {
+   "name": "Keywords",
+   "text": "Short labels on a pattern for the parts of a game it relates to, used to find it. The paper treats the domains of The 400 Project as the same thing as keywords.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 171"
   },
   {
    "name": "Kicker",
@@ -9241,6 +9457,12 @@
    "page": "ch. 7"
   },
   {
+   "name": "Lens",
+   "text": "Jesse Schell's form of a design tool: a numbered title, a description and a set of questions the designer asks about their game from one point of view. His book has 113 lenses.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 168"
+  },
+  {
    "name": "Leopard",
    "text": "In Cows and Leopards, one of the two pieces that kill cows by jumping over them.",
    "short": "Bell, 1960",
@@ -9419,6 +9641,12 @@
    "text": "The spot where the last runner was tagged, from which the next play starts.",
    "short": "Spadaccini, 2005",
    "page": "p. 257"
+  },
+  {
+   "name": "List and network collections",
+   "text": "A list is a plain set of patterns. A network is a set in which patterns have relationships to each other, such as parent, child or related.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 163"
   },
   {
    "name": "Listen",
@@ -9653,6 +9881,12 @@
    "text": "Ben Cousins's name for a basic unit of play, such as get to the other side or visit every location. Koster says checkers has just two.",
    "short": "Koster, 2005",
    "page": "p. 118"
+  },
+  {
+   "name": "Ludeme",
+   "text": "A conceptual element of a game, usually a rule rather than a physical component. The paper adopts Browne's wording: a unit of information that can be moved from one game to another and changes how the game works in at least one plausible case.",
+   "short": "Sousa, 2023",
+   "page": "p. 207"
   },
   {
    "name": "Ludi inhonesti",
@@ -10220,9 +10454,21 @@
   },
   {
    "name": "Mechanic",
+   "text": "A feature of a board game, as tagged on BoardGameGeek, that captures one side of how the game works: how it is set up, how resources and powers are shared out, what triggers a win, how turns run, or how actions are carried out. The paper works with 182 of these tags.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114059"
+  },
+  {
+   "name": "Mechanic",
    "text": "In Swain's use, both what a player does in a game (run, jump, negotiate) and how the game responds. The mechanics are where the player meets the game (chapter by Chris Swain).",
    "short": "Schrier and Gibson, 2010",
    "page": "p. 217"
+  },
+  {
+   "name": "Mechanism and mechanic",
+   "text": "The paper treats a mechanism as the smallest mechanical element of a game, and a mechanic as a combination of mechanisms in motion. It says the literature often uses the two words as if they meant the same.",
+   "short": "Sousa, 2023",
+   "page": "p. 209"
   },
   {
    "name": "Mechanistic fallacy",
@@ -10657,6 +10903,12 @@
    "page": "p. 139"
   },
   {
+   "name": "Modern board games",
+   "text": "The recent hobby games that the paper studies. They can contain cards, boards, dice, pawns, miniatures and even electronic devices, and they centre on the players and their face-to-face decisions.",
+   "short": "Sousa, 2023",
+   "page": "p. 208"
+  },
+  {
    "name": "Modular design",
    "text": "A design where the core play can take in new elements such as extra characters, places or modes. Booth finds that crowdfunding favours it.",
    "short": "Germaine and Wake, 2023",
@@ -10831,6 +11083,12 @@
    "page": "p. 21"
   },
   {
+   "name": "Multiplayer solitaire",
+   "text": "Games where players can do very little to each other through the rules, so each plays almost alone, and the scores are compared at the end.",
+   "short": "Chircop, 2017",
+   "page": "p. 18"
+  },
+  {
    "name": "Multiple capture",
    "text": "Capturing more than one piece in one move by a chain of jumps, with a change of direction allowed.",
    "short": "Bell, 1960",
@@ -10883,6 +11141,12 @@
    "text": "A mid-nineteenth-century belief, brought from England, that team sport builds both the body and moral character.",
    "short": "Oriard, 1991",
    "page": "p. 11"
+  },
+  {
+   "name": "Mutual information between mechanics",
+   "text": "A score from -1 to 1 for how much seeing one mechanic in a game tells you about another, with the popularity of each taken out. The paper looks at pairs scoring above 0.65, which it reads as mechanics that turn up together because of something they share.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
   },
   {
    "name": "Mutual regard",
@@ -11111,6 +11375,12 @@
    "text": "A resting state with no aim, a kind of ticking over, from which a creative reaching-out can start. It differs from rest taken after work.",
    "short": "Winnicott, 1971",
    "page": "p. 89"
+  },
+  {
+   "name": "Non-transitivity",
+   "text": "The logic behind Paper Rock Scissors: even if A beats B and B beats C, A does not beat C. The authors say designers sometimes call this triangularity.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 8"
   },
   {
    "name": "Nonlinear",
@@ -11689,6 +11959,12 @@
    "page": "p. 227"
   },
   {
+   "name": "Paper Rock Scissors",
+   "text": "A pattern taken from the children's game, where players try to outwit each other by guessing what the other will do. There is no winning strategy, and that is the point of the pattern.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 8"
+  },
+  {
    "name": "Paper-rock-scissors",
    "text": "A hand game where paper wraps rock, rock breaks scissors and scissors cut paper. Caillois uses it as a simple case in the mathematics of strategy.",
    "short": "Caillois, 2001",
@@ -11863,6 +12139,12 @@
    "page": "p. 60"
   },
   {
+   "name": "Pasted-on theme",
+   "text": "A theme added late in development that has almost no effect on how the game plays.",
+   "short": "Chircop, 2017",
+   "page": "p. 16"
+  },
+  {
    "name": "Pat hand",
    "text": "A hand in poker to which no cards are drawn.",
    "short": "Morehead and Mott-Smith, 1983",
@@ -11891,6 +12173,30 @@
    "text": "A regularity the brain can notice and store, such as the way a tic-tac-toe line wins or how cars move forward. Koster treats a game as a pattern the player learns.",
    "short": "Koster, 2005",
    "page": "p. 14"
+  },
+  {
+   "name": "Pattern consolidation",
+   "text": "A process in which different pattern collections are joined into a single one with a consistent template, naming and structure. The paper says it is hard because templates differ, patterns can overlap or contradict, and a joined collection might be too large to move around in.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 160"
+  },
+  {
+   "name": "Pattern language",
+   "text": "A set of patterns joined in a network, where each pattern points to others that complement it. Alexander held that this lets a user see the language as a whole.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 160"
+  },
+  {
+   "name": "Pattern movement",
+   "text": "Pieces that can move only in a set pattern on the board.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
+  },
+  {
+   "name": "Pattern template",
+   "text": "The fixed headings each pattern is written under: name, description, consequences, using the pattern, and relations. The description can note the game where it was found and examples of games that show it.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 7"
   },
   {
    "name": "Patterned family interaction",
@@ -12149,6 +12455,12 @@
    "text": "A change in how a new arrival is seen. At first she is welcomed and treated kindly, then, as she rises, she is treated as a danger to the existing order.",
    "short": "Livingston, 2025",
    "page": "p. 66"
+  },
+  {
+   "name": "Petty diplomacy",
+   "text": "In a competitive game for three players with interaction, the two trailing players always pull down the leader, which can produce a never-ending stalemate. Race games, where players can do little to each other, do not have this.",
+   "short": "Chircop, 2017",
+   "page": "p. 18"
   },
   {
    "name": "Petty diplomacy",
@@ -12563,6 +12875,12 @@
    "text": "Magic designer Mark Rosewater's three kinds of player: one who wants a feeling, one who wants to express something, one who wants to prove something.",
    "short": "Nguyen, 2020",
    "page": "ch. 7"
+  },
+  {
+   "name": "Player reliance",
+   "text": "How far a game needs input from the players that the game itself does not supply, such as conversation, a hint, a story or earned trust. A game where players choose from a set of options has low player reliance.",
+   "short": "Chircop, 2017",
+   "page": "p. 13"
   },
   {
    "name": "Player-centered design",
@@ -13255,10 +13573,22 @@
    "page": "p. 236"
   },
   {
+   "name": "Productive randomness",
+   "text": "Randomness that hands the player a set of options to choose from. The paper's example is rolling three dice and choosing which one to use for the move.",
+   "short": "Chircop, 2017",
+   "page": "p. 15"
+  },
+  {
    "name": "Progression",
    "text": "The rule by which winners and losers move between tables after each round, so everyone meets new partners and opponents.",
    "short": "Morehead and Mott-Smith, 1983",
    "page": "under 'Progressive Bridge'"
+  },
+  {
+   "name": "Progression as growth or movement",
+   "text": "The paper groups the ways its games show progress into two kinds: growth or accumulation, where pieces are added to fill adjacent spaces, and moving or advancing, where pieces are added and removed to show movement. Both depend on a board divided into connected sections.",
+   "short": "Sousa, 2023",
+   "page": "p. 222"
   },
   {
    "name": "Prohibited move",
@@ -13993,6 +14323,12 @@
    "page": "ch. 4"
   },
   {
+   "name": "Related patterns field",
+   "text": "A field in a pattern's description that lists other patterns it contradicts or complements. The paper recommends it for consolidated collections, following the network structure of Alexander.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 171"
+  },
+  {
    "name": "Relative and absolute winning",
    "text": "Winning relative to others means having more than they have. Winning in absolute terms means having enough for yourself. The author says relative winning leaves no way to get both sides to work on equality.",
    "short": "Livingston, 2025",
@@ -14569,6 +14905,12 @@
    "page": "p. 8"
   },
   {
+   "name": "Rule complexity",
+   "text": "The length, difficulty and intricacy of a game's rules, which sets how much time and effort a player puts in before they can play. Mage Knight, with two 20-page rulebooks, is high, and Dixit, with a two-page rulebook, is low.",
+   "short": "Chircop, 2017",
+   "page": "p. 12"
+  },
+  {
    "name": "Rule lawyering",
    "text": "Using little-known rules of a complex game to one's advantage, often only when it helps.",
    "short": "Elias, Garfield and Gutschera, 2012",
@@ -15071,6 +15413,12 @@
    "text": "The part of a game that needs a person to interpret it: the pictures, sounds, story and setting that tell the player what state the game is in (chapter by Miguel Sicart).",
    "short": "Schrier and Gibson, 2010",
    "page": "p. 4"
+  },
+  {
+   "name": "Semi-cooperative game",
+   "text": "A game in which players work together for nearly the whole game, usually to stop a condition that makes everyone lose, but only one player wins at the end. Archipelago and CO2 are examples, and they tend to give each player a secret winning objective.",
+   "short": "Chircop, 2017",
+   "page": "p. 20"
   },
   {
    "name": "Sensate culture",
@@ -15919,6 +16267,12 @@
    "page": "p. 140"
   },
   {
+   "name": "Specialist and maximalist profiles",
+   "text": "A specialist game concentrates on a few traits, as The Resistance does on player reliance and interaction. A maximalist game pushes all its traits high, as Mage Knight Board Game does.",
+   "short": "Chircop, 2017",
+   "page": "p. 24"
+  },
+  {
    "name": "Spectacula",
    "text": "Latin for public shows. The early church wrote against three kinds: chariot races in the circus, gladiator fights in the amphitheatre, and mimes and actors in the theatrum.",
    "short": "Clopper, 2001",
@@ -16279,6 +16633,12 @@
    "page": "p. 111"
   },
   {
+   "name": "Static capture",
+   "text": "A piece is captured by another piece passing over it or landing on its space. The paper points out that this only works if the pieces have some pattern of movement.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
+  },
+  {
    "name": "Status-size hypothesis",
    "text": "The claim that physical size and social status go together, and that people judge higher-status people to be taller.",
    "short": "Érdi, 2020",
@@ -16579,6 +16939,12 @@
    "page": "p. 158"
   },
   {
+   "name": "Structural framework",
+   "text": "The companion half of the model, which describes the parts of a game. At the top it separates a game instance, a game session and a play session, and below that it sorts the parts of a game into bounding, temporal and objective components.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 6"
+  },
+  {
    "name": "Structured goal",
    "text": "A goal that is specific, measurable, achievable, personally relevant and time-bound. Balzac says such goals raise commitment, enjoyment and learning in games (chapter by Stephen R. Balzac).",
    "short": "Schrier and Gibson, 2010",
@@ -16669,6 +17035,12 @@
    "page": "ch. 9"
   },
   {
+   "name": "Subtractive pattern",
+   "text": "Barney's name for a pattern that mitigates or weakens the effect of another pattern. The paper takes it as the same idea as the conflicting patterns of Björk and Holopainen.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 169"
+  },
+  {
    "name": "Subversion",
    "text": "An action that turns a rule, system or institution upside down from inside, in this book a creative act more than a destructive one.",
    "short": "Flanagan, 2009",
@@ -16709,6 +17081,12 @@
    "text": "A person who feels both hopeful about the future and personally able to change it, helped by networked tools. Shortened to SEHI.",
    "short": "McGonigal, 2011",
    "page": "ch. 14"
+  },
+  {
+   "name": "Superior patterns and subpatterns",
+   "text": "A superior pattern describes a more abstract characteristic and can be brought about by applying the given pattern. A subpattern is a more specific pattern that can be used to bring the given one about.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 7"
   },
   {
    "name": "Superstructure",
@@ -17245,6 +17623,12 @@
    "page": "p. 39"
   },
   {
+   "name": "Theme synergy",
+   "text": "How closely a game's theme, aesthetics and mechanics fit together. When it is high, taking the theme away leaves the mechanics without meaning, and when it is low the game would play much the same without it.",
+   "short": "Chircop, 2017",
+   "page": "p. 16"
+  },
+  {
    "name": "Theriomorphic",
    "text": "Shaped like an animal. Huizinga uses it of gods, spirits and masks that take animal form.",
    "short": "Huizinga, 1955",
@@ -17725,6 +18109,12 @@
    "page": "p. 272"
   },
   {
+   "name": "Tug of war",
+   "text": "A sliding marker on a track decides who wins.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
+  },
+  {
    "name": "Turn",
    "text": "A block of game time during which one player acts, so that taking two seconds or two minutes makes no difference to the rules.",
    "short": "Burgun, 2013",
@@ -18035,6 +18425,12 @@
    "text": "Fahlström's painting made of loose magnetic pieces on a metal board, played by rules written on it, so players can rearrange the picture.",
    "short": "Flanagan, 2009",
    "page": "p. 102"
+  },
+  {
+   "name": "Variable player powers",
+   "text": "Each player has a special action only they can take, or a power that changes one of the standard actions.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114062"
   },
   {
    "name": "Vates",
@@ -18355,6 +18751,12 @@
    "page": "ch. 7"
   },
   {
+   "name": "Wicked problem",
+   "text": "A problem with many possible solutions and many personal readings of them. Each one is unique, hard to define formally, without a natural stopping point, and every test of a solution affects the people who use it. The paper places game design among them.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 2"
+  },
+  {
    "name": "Wicket",
    "text": "A small hoop pushed into the ground in croquet. Players score by knocking their ball through it.",
    "short": "Spadaccini, 2005",
@@ -18479,6 +18881,12 @@
    "text": "A mechanism where players put tokens on action spaces; some games let several players share a space and some do not.",
    "short": "Burgun, 2013",
    "page": "p. 144"
+  },
+  {
+   "name": "Worker placement",
+   "text": "Players pick single actions from a pool of available ones, usually by putting a token that stands for a worker on the action they want.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114058"
   },
   {
    "name": "Working memory",
@@ -18614,6 +19022,90 @@
   }
  ],
  "ideas": [
+  {
+   "name": "Three findings",
+   "text": "The paper reports that collections with different templates can still extend each other, that keywords are a reliable way to find patterns, and that a related patterns field can hold both conflicting and complementing patterns.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 155"
+  },
+  {
+   "name": "Patterns are often called rules or tools",
+   "text": "Because Kreimeier brought patterns to game designers in 2002, when only design rules and tools existed, patterns are often reworded as tools or rules. The paper says this confuses what a game design pattern is.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 158"
+  },
+  {
+   "name": "A missing field adds to the fragmentation",
+   "text": "Kreimeier's template left out the related patterns field that his own examples had. The paper says this omission is one reason collections do not refer to each other or avoid overlap, and that inconsistent templates are another.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 160"
+  },
+  {
+   "name": "Too many patterns overwhelm new designers",
+   "text": "Barney's criticism, cited by the paper, is that novice designers who learn patterns are given too many tools, and find them hard to find, organise and apply.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 159"
+  },
+  {
+   "name": "Keywords are the most suitable way to find patterns",
+   "text": "Of the approaches in the six works, the paper favours keywords. They are the one approach used by both collections that have many patterns and take contributions from outside.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 171"
+  },
+  {
+   "name": "Search software and mnemonic names fall short",
+   "text": "Kreimeier names search software without saying what it would search on, and Björk and Holopainen's mnemonic names do not hold up with hundreds of patterns. Schell's deck of cards works only for a collection that does not grow.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 171"
+  },
+  {
+   "name": "Lenses avoid contradiction by asking questions",
+   "text": "Schell gives questions instead of solutions, so his lenses do not contradict each other and the final decision stays with the designer. The cost is that a lens no longer pairs a problem with a solution.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 168"
+  },
+  {
+   "name": "Conflicts are one kind of relation",
+   "text": "Collections that are networks need fields for relations between patterns, and the paper treats a contradiction as one kind of relation. Barney lists four kinds: parent, child, additive and subtractive.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 169"
+  },
+  {
+   "name": "Optional fields make joining easier",
+   "text": "Barney's template, the widest of the six, lets a contributor leave out fields such as example games or an image. The paper takes this as a reason for optional fields in a consolidated template, with a few fields required.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 171"
+  },
+  {
+   "name": "A contributor field is required",
+   "text": "The collections that accept outside contributions record who wrote or sourced each pattern, as a contributor, references or authors field. The paper makes a reference field required in its template for that reason.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 172"
+  },
+  {
+   "name": "Predictable Consequence and Surprise pull against each other",
+   "text": "In the paper's worked example, Predictable Consequence, where the game world reacts the same way under the same conditions, is complemented by Intention and Rules. Surprise contradicts it, and Indirect Control can break it.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 173"
+  },
+  {
+   "name": "The selection of works is intuitive",
+   "text": "The six works compared were chosen by intuition, which the paper names as an obvious limit of its method.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 162"
+  },
+  {
+   "name": "Validation and platform stay open",
+   "text": "The paper leaves open how patterns in a consolidated collection would be validated and what platform would hold it.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 173"
+  },
+  {
+   "name": "A joined collection is for students",
+   "text": "The author says a consolidated collection would need to be more compact than the collections added together to be offered to students. The open question is whether novices find a game design theory easier to learn as a pattern language.",
+   "short": "Abu Makhadi, 2025",
+   "page": "p. 174"
+  },
   {
    "name": "Many games are the same board with changes",
    "text": "Bell finds that Nyout, Patolli and Pachisi are one idea altered. Take the circle away and you have Patolli, take the cross away and you have the Kiowa game Zohn Ahl, fold the circle into the cross and you have Pachisi. A designer can treat a board as a part that is kept while rules and pieces are changed.",
@@ -19585,6 +20077,102 @@
    "text": "Thomas Hyde, interpreter in oriental languages to the English court under three kings, met envoys from eastern countries and gathered their games without leaving England. His two books on chess and on backgammon-type games came from these conversations.",
    "short": "Bell, 1960",
    "page": "p. 182"
+  },
+  {
+   "name": "Genres are a weak base for a common language",
+   "text": "Genres mostly follow what is popular and come from game journalism rather than careful study, and sorting by interaction alone can give 42 genres. The authors look instead for the components that could describe genres.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 4"
+  },
+  {
+   "name": "Mechanics need relations to be useful",
+   "text": "The idea that a game is put together from smaller components is useful, but the authors argue that mechanics need a clearer structure, with information on how they relate to each other and how to apply them.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 4"
+  },
+  {
+   "name": "Build the language on interaction, not story",
+   "text": "Most earlier game research borrowed from literature, theatre and film, which risks losing sight of interaction. The authors take interaction, between players and between player and game, as the more defining feature of games.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 5"
+  },
+  {
+   "name": "Patterns are not only problem and solution",
+   "text": "The authors do not define patterns as problem and solution pairs. They give two reasons: that would treat patterns only as a way to remove unwanted effects, and many patterns describe a characteristic that automatically brings other characteristics with it.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 7"
+  },
+  {
+   "name": "Names are for remembering",
+   "text": "Pattern names are meant to be short, specific and idiomatic, to help recall once the description has been read rather than to explain it. Aliases are left out to keep the number of names small, and references to similar ideas in other models do that job.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 7"
+  },
+  {
+   "name": "Test a pattern by taking it out",
+   "text": "In analysing a candidate pattern, the authors describe how it is used in example games and then try removing it from those games to explain how the play would change.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 6"
+  },
+  {
+   "name": "Designers use few named mechanics",
+   "text": "In interviews with nine professional designers, all used genre, theme and mechanisms easily but named few mechanics. The exceptions for board and card game makers were Bluff, Tension, Action Cards, Storytelling, Trading, Action Points and Cooperation.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 6"
+  },
+  {
+   "name": "Paper Rock Scissors keeps choices open",
+   "text": "The pattern promotes tension, either until the choices are revealed or until the result of a long-term strategy shows. It brings randomness unless players can learn about others' activity or keep a record of their behaviour.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 8"
+  },
+  {
+   "name": "Ways to use patterns",
+   "text": "The authors list uses without picking one method: idea generation, developing a concept, explaining a design in pre-production, finding competition and patent issues, solving problems, analysing games, sorting games and genres, and exploring new platforms.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 9"
+  },
+  {
+   "name": "Patterns for idea generation",
+   "text": "A designer can pick a few patterns at random and try to imagine a game that uses them, or take one pattern and look for a new way to build it.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 9"
+  },
+  {
+   "name": "Patterns for developing a concept",
+   "text": "A game concept can be described as a small set of patterns, then fleshed out by choosing subpatterns and studying how the patterns interact, repeating until the detail is enough.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 9"
+  },
+  {
+   "name": "Patterns for analysing games",
+   "text": "A pattern collection can be gone through one pattern at a time to see whether, and to what degree, each one is present in an existing game. Games can then be sorted by what they share and differ in.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 10"
+  },
+  {
+   "name": "The same pattern shows up in different games",
+   "text": "The authors found the same patterns in very different games, such as Carcassonne and Qix, and Pac-Man and King of the Hill variants of first-person shooters. They take this as a sign that patterns help in understanding interaction.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 11"
+  },
+  {
+   "name": "A pattern collection is a network",
+   "text": "The patterns do not form a strict hierarchy but a network with several base nodes. The authors also say that some groups of patterns are normally used together to bring each other about, which sub and superior relations do not cover.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 11"
+  },
+  {
+   "name": "Finding the right pattern is hard",
+   "text": "With over 200 candidates, finding the relevant ones for a given situation is a problem, especially for new users. The authors look at ways to sort patterns by use, theme and the structural framework.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 11"
+  },
+  {
+   "name": "Patterns do not take the creativity out",
+   "text": "The authors answer the fear that patterns make designers copy each other by saying it comes from mixing up the everyday meaning of pattern with the one used by Alexander. They compare it to an artist who has a greater chance of making something new when familiar with the basic elements of the craft.",
+   "short": "Björk, Lundgren and Holopainen, 2003",
+   "page": "p. 12"
   },
   {
    "name": "Prizes separate players",
@@ -21931,6 +22519,102 @@
    "text": "A writer on American football shows that a mistake in adapting a game to a new place or need can become a new rule or even a new game. Caillois cites this to show how games change.",
    "short": "Caillois, 2001",
    "page": "p. 201"
+  },
+  {
+   "name": "Four traits, each on a scale",
+   "text": "The tool rests on four traits of a board game: rules, randomness, representational backdrop (theme) and interaction. Each runs along a continuum, scored low, medium or high, with finer marks such as medium-low or 0 to 10 allowed.",
+   "short": "Chircop, 2017",
+   "page": "p. 12"
+  },
+  {
+   "name": "Seven scores in use",
+   "text": "To classify a game, the tool has the user score it on seven differentiators: rule complexity, player reliance, decisive randomness, productive randomness, theme synergy, competitive interaction and collaborative interaction.",
+   "short": "Chircop, 2017",
+   "page": "p. 20"
+  },
+  {
+   "name": "Choice is what makes luck feel like agency",
+   "text": "The paper follows Knizia in saying that games of luck differ mainly in how much control the player has over the result. Choosing which bet to place is one thing that gives the player agency even when luck decides the outcome.",
+   "short": "Chircop, 2017",
+   "page": "p. 14"
+  },
+  {
+   "name": "Luck and skill are not opposites",
+   "text": "Following Garfield, the paper treats randomness as separate from skill, so a game can need a lot of skill and also depend a lot on luck. Skill comes from several things, such as rule complexity, player reliance, or the need to draw or sing.",
+   "short": "Chircop, 2017",
+   "page": "p. 15"
+  },
+  {
+   "name": "Decisive randomness is usually softened",
+   "text": "In modern board games decisive randomness rarely appears without some softening. When it is not softened it tends to be a global effect that hits all players equally, such as which resources Catan produces each turn.",
+   "short": "Chircop, 2017",
+   "page": "p. 16"
+  },
+  {
+   "name": "A theme can be tested by taking it away",
+   "text": "A game has high theme synergy if the experience is altered a lot when the theme is removed, so that fighting becomes a matter of who rolls higher. Miniatures, maps and rules written to evoke the theme often point to high synergy.",
+   "short": "Chircop, 2017",
+   "page": "p. 17"
+  },
+  {
+   "name": "Eurogames play down theme",
+   "text": "Games with low theme synergy are more common among Eurogames, which tend to use symbolic wooden pieces such as pawns and meeples so as to bring forward the mechanical side.",
+   "short": "Chircop, 2017",
+   "page": "p. 18"
+  },
+  {
+   "name": "Competition and collaboration are not opposites",
+   "text": "The paper calls the split between competitive and collaborative games a false dichotomy, as luck and skill are. In Diplomacy a collaborating ally can turn into a rival, and in Tichu partners cooperate to beat the other team.",
+   "short": "Chircop, 2017",
+   "page": "p. 19"
+  },
+  {
+   "name": "Interaction in a two-player conflict",
+   "text": "A two-player war simulation such as the Commands and Colors series is high on competitive interaction and has none on collaborative, because the two players are always competing and each move is planned to help one side or hurt the other.",
+   "short": "Chircop, 2017",
+   "page": "p. 19"
+  },
+  {
+   "name": "Trading adds cooperation",
+   "text": "A classic Euro-style game has medium competitive interaction, with few chances for direct attack. The paper says that adding a trading mechanic immediately raises the level of cooperative interaction, since fair trades almost always benefit both sides.",
+   "short": "Chircop, 2017",
+   "page": "p. 20"
+  },
+  {
+   "name": "Multiplayer solitaire divides opinion",
+   "text": "Two reviewers cited by the paper call Agricola multiplayer solitaire, and one calls that a design failure. The paper notes Agricola has held a top-ten place on BoardGameGeek for over half a decade, and that five of the top ten have strong multiplayer solitaire elements.",
+   "short": "Chircop, 2017",
+   "page": "p. 19"
+  },
+  {
+   "name": "Eurogame and Ameritrash profiles differ",
+   "text": "Agricola scores mostly medium, with no high extremes, while Descent: Journeys in the Dark is high on more than half its traits, with very high interaction on both scales and more theme synergy. The paper reads Ameritrash games as skewed to the extremes, especially in theme and interaction.",
+   "short": "Chircop, 2017",
+   "page": "p. 22"
+  },
+  {
+   "name": "Similar games can be told apart",
+   "text": "The tool can also separate two games of the same type. The Castles of Burgundy has the same moderated profile as Agricola but less theme synergy and more randomness, which the paper traces to its dice and less representative pieces.",
+   "short": "Chircop, 2017",
+   "page": "p. 23"
+  },
+  {
+   "name": "Mass-market games pair a simple move with a loose overlay",
+   "text": "Monopoly and Clue combine a simple roll-and-move mechanic with a loosely player-reliant one, trading in Monopoly and deduction in Clue. The paper says Exploding Kittens has a very similar profile to Monopoly.",
+   "short": "Chircop, 2017",
+   "page": "p. 23"
+  },
+  {
+   "name": "A profile can show intended and actual experience",
+   "text": "The author suggests designers can use the profile to sketch the experience they want for a prototype and, afterwards, to compare it with how players plot their own experience, so differences show up.",
+   "short": "Chircop, 2017",
+   "page": "p. 25"
+  },
+  {
+   "name": "Scores are the author's judgement",
+   "text": "The profiles in the paper come from the author's own analysis and are described as subjective, a first step towards a typology specific to board games.",
+   "short": "Chircop, 2017",
+   "page": "p. 25"
   },
   {
    "name": "Old words mislead modern readers",
@@ -33555,6 +34239,72 @@
    "page": "ch. 10"
   },
   {
+   "name": "Patterns and mechanics overlap in meaning",
+   "text": "Pairs such as area control and conquer, bidding and bidding, or aim and shoot and aiming and shooting appear in both collections. The paper concludes that separating the two by level of abstraction does not work.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 5"
+  },
+  {
+   "name": "Both patterns and mechanics can serve design and analysis",
+   "text": "An earlier view held patterns to be for design and mechanics for analysis. The authors point out that published work uses patterns mainly to analyse games, while mechanics have been used for design insight, so both serve both purposes.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 5"
+  },
+  {
+   "name": "Relations between patterns are tendencies",
+   "text": "The paper says the relations between patterns are to be read as general consequences or possible combinations, not hard links. They may occur in the mechanics that carry out the patterns, but players are not guaranteed to see them.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 5"
+  },
+  {
+   "name": "Mechanics lose meaning outside their game",
+   "text": "Mechanics found in two different games are only alike in the way family members are, because a small change in a design can change the play. The paper advises treating mechanics named outside a specific game with care.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 6"
+  },
+  {
+   "name": "Patterns, mechanics and a layer between",
+   "text": "The authors give patterns the place of social interaction and mechanics the place of the physical space where interaction happens, with contextualization as the layer where the two meet.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 8"
+  },
+  {
+   "name": "Players and designers care about different layers",
+   "text": "Players are mostly concerned with mechanics and use patterns without noticing. Designers study other games on purpose to find the patterns in them, and use that study as a frame of reference so their design does not drift without their choosing.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 9"
+  },
+  {
+   "name": "Developers and researchers care about different layers",
+   "text": "Developers work directly with mechanics to turn them into code, and the paper says they always add their own readings of what the designer meant. Design researchers sit mostly between general patterns and the relations among them.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 10"
+  },
+  {
+   "name": "A shared language is not enough",
+   "text": "A shared design language does not remove differences in how designers, developers and players picture a game. The authors say it works as a base for conversation that builds shared understanding.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 10"
+  },
+  {
+   "name": "First impressions decide whether players stay",
+   "text": "Because players read a new game through patterns they already know, the paper says the first impression carries weight: a player without a favourable first impression is likely to move on to another game.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 9"
+  },
+  {
+   "name": "Same mechanic, different verdict by context",
+   "text": "Quickscoping in the Call of Duty games is used to show that a mechanic can be nearly identical in two games and still be judged differently, depending on the context it sits in and the tactics it is compared with.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 12"
+  },
+  {
+   "name": "Contextualization is a process of communication",
+   "text": "The authors do not think contextualization can be broken down into a template. They see it as a process of communication, described through shared cues such as language, gestures and illustrations.",
+   "short": "Olsson, Björk and Dahlskog, 2014",
+   "page": "p. 13"
+  },
+  {
    "name": "A game sits between work and play",
    "text": "Oriard sees work and play as the two ends of a line, with games between them. A game is play with effort and rules in it, or work done in a playful way. His example is the Virginian in Wister's novel, who runs a cattle business as a game and so stays a boy at heart while working.",
    "short": "Oriard, 1991",
@@ -35011,6 +35761,132 @@
    "text": "The Grand Inquisitor in Dostoyevsky would have people work and, in their free hours, live like children with songs and dances. The book reads this as a picture of a consumer culture.",
    "short": "Oriard, 1991",
    "page": "p. 483"
+  },
+  {
+   "name": "Complexity is not a count of mechanics",
+   "text": "The paper reports that how complex and engaging a game is does not follow simply from the set of mechanics it uses. What counts more is how the mechanics interact and how each one is carried out in that particular game.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114051"
+  },
+  {
+   "name": "Few mechanics, deep game",
+   "text": "Chess is tagged with four mechanics and Go with two, yet both open up a huge range of strategies. A six-year-old can learn the moves and an adult can spend years on the tactics, so a short mechanic list says little about how hard a game is to play well.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114058"
+  },
+  {
+   "name": "Same mechanic, different weight",
+   "text": "Worker placement is simple in Agricola, where each action space holds only one family member in a round. It is harder in Stone Age, where spaces need different numbers of workers and a die decides the reward, and harder again in Paladins of the West Kingdom, where workers come in several types.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114058"
+  },
+  {
+   "name": "Same number of mechanics, different complexity",
+   "text": "A game that pairs hand management with card play conflict resolution can be more complex than one that pairs acting with card drafting, although both use cards and both carry two mechanics.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114058"
+  },
+  {
+   "name": "Complexity and rating move together only a little",
+   "text": "Across the top 10,000 games, a higher complexity rating goes with a higher average rating, with a correlation of 0.48. The paper adds that BoardGameGeek mostly hears from keen players, so this cannot be read as true of all players.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114056"
+  },
+  {
+   "name": "Number of mechanics is moderately tied to complexity and rating",
+   "text": "The number of mechanics a game has correlates at about 0.34 with its complexity and 0.33 with its rating. Some highly rated games, such as Gloomhaven with 19 mechanics, carry a lot of them.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114057"
+  },
+  {
+   "name": "The type of mechanic does not change the rating",
+   "text": "When the paper averages the ratings of the games that use each mechanic, it sees no clear difference between mechanics. It concludes that which mechanics a game has does not decide how well it is rated.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114062"
+  },
+  {
+   "name": "Mechanics that go with higher complexity",
+   "text": "Of the 182 mechanics, 25 have an average complexity above 3 out of 5 across the games that use them. Order counters, loans and ownership have the highest averages.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114062"
+  },
+  {
+   "name": "Hand management is rising and dice rolling is falling",
+   "text": "The share of games using hand management grew from 4.4% in 1980 to 25.7% by 2020. More than 55% of the 1980 games used dice rolling, and the share has fallen since, even though dice rolling is still the most common mechanic overall.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114062"
+  },
+  {
+   "name": "Popular mechanics bias co-occurrence counts",
+   "text": "The pairs that turn up most often together are made of the mechanics that turn up most often anyway: dice rolling, hand management and variable player powers. The paper therefore turns to mutual information, which removes that effect.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114062"
+  },
+  {
+   "name": "Worker placement is the most connected mechanic",
+   "text": "Worker placement appears in 48 of the 66 pairs with mutual information above 0.65. It is most often paired with auction and turn-order mechanics, which the paper reads as games where players choose single actions also tend to bid for items or resources that improve their position.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
+  },
+  {
+   "name": "Worker placement leans on other mechanics",
+   "text": "The paper reads worker placement's many links as reliance on other mechanics: turn order, auction, pattern movement, pieces as map and physical removal help settle the order of turns, how the action spaces are built and what the outcomes are.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114067"
+  },
+  {
+   "name": "Auctions and turn order depend on each other",
+   "text": "The paper explains the high link between auction types and turn-order mechanics by the fact that the order of bidding is usually set by a turn-order structure. Five Tribes, Keyflower and Railways of the World are named as examples.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
+  },
+  {
+   "name": "Pattern movement and static capture go together",
+   "text": "Their mutual information is 0.77. Chess and Onitama are given as games that use both.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114063"
+  },
+  {
+   "name": "Alliances and negotiation go together",
+   "text": "The pair has a mutual information of 0.68 and appears in games such as Rising Sun and Cosmic Encounter.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114064"
+  },
+  {
+   "name": "Most strongly linked mechanics concern actions",
+   "text": "Most pairs with mutual information above 0.65 are about what players can do and how it is resolved, rather than about how the game is laid out.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114064"
+  },
+  {
+   "name": "Mutual dependency between mechanics does not predict appeal",
+   "text": "The average mutual information of the mechanic pairs in a game shows no clear link to its rating, complexity or BGG rank. The paper finds no relationship between using mechanics that depend on each other and how appealing a game is.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114065"
+  },
+  {
+   "name": "Some mechanics are for all kinds of game",
+   "text": "Dice rolling, hand management and variable player powers sit in the cluster of mechanics used in every domain. The paper explains this by the many ways each can be set up, and by the fact that each fits both simple and complex designs.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114067"
+  },
+  {
+   "name": "Abstract games leave out some mechanics",
+   "text": "Mechanics used in every domain except abstract games, such as worker placement and network and route building, tend to rely on hidden information, a theme or randomisers like dice, which games such as Chess and Go do without.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114066"
+  },
+  {
+   "name": "Mechanics that suit one domain only",
+   "text": "Pattern movement appears only in abstract games, ownership only in strategy games, and singing and hot potato only in party games.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114067"
+  },
+  {
+   "name": "Mechanics are coarse labels",
+   "text": "A single mechanic name covers many different ways of setting it up, so the label alone does not settle how a game feels. The paper also notes that its data comes from avid players, not casual ones.",
+   "short": "Samarasinghe et al., 2021",
+   "page": "p. 114068"
   },
   {
    "name": "People change rules because they like a game",
@@ -37263,6 +38139,90 @@
    "page": "p. 328"
   },
   {
+   "name": "Which games reached number one",
+   "text": "Paths of Glory, Tigris and Euphrates, Puerto Rico, Agricola, Twilight Struggle, Pandemic Legacy: Season 1 and Gloomhaven are the seven games that held first place on BoardGameGeek between 2001 and 2022. The author could not check the source list against other records, since none were public.",
+   "short": "Sousa, 2023",
+   "page": "p. 212"
+  },
+  {
+   "name": "Reading the rules gives more than the database",
+   "text": "BoardGameGeek's tags were not complete enough for the analysis, so the author read the rules and played the games. Set collection is not tagged for every game, and the author added it for Puerto Rico and Twilight Struggle after reading the rules. The paper recommends analysing games directly.",
+   "short": "Sousa, 2023",
+   "page": "p. 219"
+  },
+  {
+   "name": "Card play is the common core",
+   "text": "Card play is the core mechanism in three of the seven games and tile placement records players' decisions on the board. Dice rolling is less common among these games, although it is the most common mechanism on BoardGameGeek as a whole.",
+   "short": "Sousa, 2023",
+   "page": "p. 218"
+  },
+  {
+   "name": "Players handle mostly cards",
+   "text": "Cards are the components players handle most and they dictate the actions available. They are played from the hand to add or remove tiles and bits on the board, as in Twilight Struggle, Pandemic Legacy and Gloomhaven.",
+   "short": "Sousa, 2023",
+   "page": "p. 217"
+  },
+  {
+   "name": "Hexagons suit realistic territory",
+   "text": "Hexagonal grids appear in games that model territory more realistically, because the distance between the centres of adjacent hexagons is always the same. Square grids are simpler and appear in many older games.",
+   "short": "Sousa, 2023",
+   "page": "p. 217"
+  },
+  {
+   "name": "Agricola shows chained mechanisms",
+   "text": "In Agricola the core action is worker placement. A worker on a shared space leads the player on to tile placement, managing bits, playing cards and collecting resources, and set collection comes in during production, conversion and scoring.",
+   "short": "Sousa, 2023",
+   "page": "p. 221"
+  },
+  {
+   "name": "Randomness is low or medium and asymmetry recurs",
+   "text": "The seven games have low or medium randomness, and player asymmetry comes up again and again. The author reads this as support for player agency and strategic depth.",
+   "short": "Sousa, 2023",
+   "page": "p. 219"
+  },
+  {
+   "name": "Conflict is shrinking",
+   "text": "The paper says that apart from the two wargames, the games have no direct conflict between players: Puerto Rico and Agricola compete constructively, and Pandemic Legacy and Gloomhaven are cooperative, so all players can lose together. The author reads this as a move away from the classic form of player elimination.",
+   "short": "Sousa, 2023",
+   "page": "p. 219"
+  },
+  {
+   "name": "Games are getting shorter, and complexity stays high",
+   "text": "The more recent number one games tend to play in one to two hours, while complexity is usually above 3.5 out of 5.",
+   "short": "Sousa, 2023",
+   "page": "p. 216"
+  },
+  {
+   "name": "Game type labels are contested",
+   "text": "The paper notes doubts about calling Tigris and Euphrates a Eurogame because of its constant conflict, and about Gloomhaven, which BoardGameGeek treats as thematic. Some players also say Twilight Struggle is not a wargame because it lacks military tactics.",
+   "short": "Sousa, 2023",
+   "page": "p. 215"
+  },
+  {
+   "name": "Progression runs through connected spaces",
+   "text": "The author proposes that showing progress through networks and grids of connected, ranked spaces is a possible compound ludeme in modern board games, handed from game to game and changing the play.",
+   "short": "Sousa, 2023",
+   "page": "p. 224"
+  },
+  {
+   "name": "Components and themes fit the ludeme idea less well",
+   "text": "Physical components, colour schemes and themes seemed less related to the ludemic approach than board structure did, but they matter for analysing a game as a system.",
+   "short": "Sousa, 2023",
+   "page": "p. 224"
+  },
+  {
+   "name": "Ludemes pull a system apart",
+   "text": "The paper found it confusing to analyse a game as a system when the ludemic approach tends to isolate single elements, and that the ludemic approach gave less clear results than expected.",
+   "short": "Sousa, 2023",
+   "page": "p. 225"
+  },
+  {
+   "name": "BoardGameGeek leans towards long games",
+   "text": "BoardGameGeek users tend to prefer long, complex games, some taking over two hours to play and nearly an hour to explain, which the paper treats as a bias in the ratings.",
+   "short": "Sousa, 2023",
+   "page": "p. 210"
+  },
+  {
    "name": "Rules vary by place and household",
    "text": "The author found that rules differ from country to country, region to region and even street to street, so she drew on family memories as well as official rulebooks. Only tournament and gambling games have fixed rules. The rest is settled by the people at the table, as when a family agrees what happens if a Charades player says the word aloud.",
    "short": "Spadaccini, 2005",
@@ -38812,10 +39772,13 @@
   }
  ],
  "references": [
+  "Abu Makhadi, A. M. (2025). Game design patterns consolidation. Galactica Media: Journal of Media Studies, 7(3), 155–176. https://doi.org/10.46539/gmd.v7i3.571",
   "Bell, R. C. (1960). Board and table games from many civilizations. London: Oxford University Press. (The copy read is this first volume; the Dover one-volume revised edition of 1979, ISBN 978-0-486-23855-5, keeps its page numbers.)",
+  "Björk, S., Lundgren, S. and Holopainen, J. (2003). Game design patterns. In Level Up: Digital Games Research Conference (DiGRA 2003). DiGRA Digital Library. https://doi.org/10.26503/dl.v2003i1.60",
   "Boyd, N. L. (1971). Play and game theory in group work: a collection of papers. Edited by P. Simon. Chicago: Jane Addams Graduate School of Social Work, University of Illinois at Chicago Circle. (Published by the Office of Publications of the university; no ISBN or DOI established.)",
   "Burgun, K. (2013). Game design theory: a new philosophy for understanding games. Boca Raton, FL: CRC Press. ISBN 978-1-4665-5421-4 (eBook PDF). DOI 10.1201/b12734. (The copy's copyright line reads 2013; Crossref dates the online release 13 August 2012.)",
   "Caillois, R. (2001). Man, play and games. Translated by M. Barash. Urbana and Chicago: University of Illinois Press. ISBN 978-0-252-07033-4. (First Illinois paperback, 2001. The translation first appeared New York: Free Press of Glencoe, 1961, from Les jeux et les hommes, Paris: Gallimard, 1958. No DOI.)",
+  "Chircop, D. (2017). An experiential comparative tool for board games. Replay. The Polish Journal of Game Studies, 3(1), 11–28. https://doi.org/10.18778/2391-8551.03.01",
   "Clopper, L. M. (2001). Drama, play, and game: English festive culture in the medieval and early modern period. Chicago: University of Chicago Press. ISBN 0-226-11030-3. (No DOI.)",
   "Csikszentmihalyi, M. (1990). Flow: the psychology of optimal experience. New York: Harper & Row. (Edition of the copy read not established: the text file has no title or copyright page. Open Library gives 1990, Harper & Row, as the first edition; the Harper Perennial paperback of 1991 is ISBN 978-0-06-092043-2. No DOI.)",
   "De Koven, B. (2013). The well-played game: a player's philosophy. Cambridge, MA: MIT Press. ISBN 978-0-262-01917-0. DOI 10.7551/mitpress/9722.001.0001. (Written in 1978; the copy is the 2013 MIT Press edition, with a foreword by Eric Zimmerman and a new preface.)",
@@ -38830,9 +39793,12 @@
   "McGonigal, J. (2011). Reality is broken: why games make us better and how they can change the world. New York: Penguin Press. ISBN 978-1-59420-285-8 (hardcover). (The copy is an e-book whose text file has no copyright page; its file identifier is 9781101475492, not matched in Open Library. No DOI.)",
   "Morehead, A. H. and Mott-Smith, G. (eds) (1983). Hoyle's rules of games: descriptions of indoor games of skill and chance, with advice on skillful play. 2nd revised edition. New York: Signet. ISBN 978-0-451-16309-7.",
   "Nguyen, C. T. (2020). Games: agency as art. New York: Oxford University Press. ISBN 9780190052089 (hardback). DOI 10.1093/oso/9780190052089.001.0001.",
+  "Olsson, C. M., Björk, S. and Dahlskog, S. (2014). The conceptual relationship model: understanding patterns and mechanics in game design. In DiGRA 2014. DiGRA Digital Library. https://doi.org/10.26503/dl.v2014i1.625",
   "Oriard, M. (1991). Sporting with the gods: the rhetoric of play and game in American culture. Cambridge: Cambridge University Press. ISBN 0-521-39113-X. (The copy is the digital printing of 2007, ISBN 978-0-521-39113-9. No DOI found.)",
+  "Samarasinghe, D., Barlow, M., Lakshika, E., Lynar, T., Moustafa, N., Townsend, T. and Turnbull, B. (2021). A data driven review of board game design and interactions of their mechanics. IEEE Access, 9, 114051–114069. https://doi.org/10.1109/ACCESS.2021.3103198",
   "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
   "Schrier, K. and Gibson, D. (eds) (2010). Ethics and game design: teaching values through play. Hershey, PA: Information Science Reference (IGI Global). ISBN 978-1-61520-845-6. DOI 10.4018/978-1-61520-845-6.",
+  "Sousa, M. (2023). Finding ludemes in modern board games: analyzing the top number one games of Board Game Geek. Board Game Studies Journal, 17(1), 205–229. https://doi.org/10.2478/bgs-2023-0006",
   "Spadaccini, S. (2005). The big book of rules: board games, kids' games, card games, from backgammon and bocce to tiddlywinks and stickball. New York: Plume. ISBN 978-0-452-28644-3.",
   "Wark, M. (2007). Gamer theory. Cambridge, MA: Harvard University Press. ISBN 978-0-674-02519-6. DOI 10.4159/9780674044838.",
   "Winnicott, D. W. (1971). Playing and reality. London: Tavistock Publications. (Edition of the copy read not established: the text file begins at the Introduction, with no title or copyright page. Later Routledge editions exist, among them ISBN 9780415345460 and the e-book DOI 10.4324/9780203441022. No DOI for the 1971 edition.)",

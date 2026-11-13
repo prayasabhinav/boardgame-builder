@@ -18,7 +18,7 @@ Every entry the tool's feedback is made from, read straight from the tool's own 
 | Theme lines | `interactions-drafted.json` | 12 |
 | Feeling and block judgements | both | 2,265 |
 | Known games, with their rules, credits, blocks and what each shows a designer | `games.json` | 47 |
-| Glossary terms and key ideas from 25 books, each with its page (the tool's Ideas tab) | `ideas.json` | 3,102 and 3,366 |
+| Glossary terms and key ideas from 25 books and 6 research papers, each with its page (the tool's Ideas tab) | `ideas.json` | 3,170 and 3,458 |
 
 Pairs and triads also show the BoardGameGeek check of their example games (`drafted/bgg-verdicts.json`) and the games removed after it. The two working notes, `mechanics-shortlist.md` and `feeling-blocks.md`, are on it too.
 

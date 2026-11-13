@@ -1,0 +1,2 @@
+pair: worker-placement+bidding | Games in which players choose single actions from a set tend to use auctions as well, so players bid for items or resources that improve their position. | Bids give players a way to win items or resources that improve their position | - | - | - | p. 114063
+pair: worker-placement+take-turns | Worker placement is often found with turn-order mechanics, because the order in which players take turns helps decide who gets to the available actions. | - | - | - | - | p. 114063

@@ -663,6 +663,54 @@
     },
     {
       "elements": [
+        "roll-and-move",
+        "negotiation"
+      ],
+      "tendency": "In older mass-market games a simple roll-and-move mechanic is often given a loose layer that depends on the players, such as trading in Monopoly.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Chircop, D. (2017). An experiential comparative tool for board games. Replay. The Polish Journal of Game Studies, 3(1), 11–28. https://doi.org/10.18778/2391-8551.03.01",
+        "short": "Chircop, 2017",
+        "page": "p. 23"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "roll-and-move",
+        "deduction"
+      ],
+      "tendency": "In older mass-market games a simple roll-and-move mechanic is often given a loose layer that depends on the players, such as deduction in Clue.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Chircop, D. (2017). An experiential comparative tool for board games. Replay. The Polish Journal of Game Studies, 3(1), 11–28. https://doi.org/10.18778/2391-8551.03.01",
+        "short": "Chircop, 2017",
+        "page": "p. 23"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "semi-cooperative",
+        "hidden-personal-goal"
+      ],
+      "tendency": "In semi-cooperative games players work together nearly all game against a shared way of losing, and each tends to hold a secret winning objective that is only revealed at the end.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Chircop, D. (2017). An experiential comparative tool for board games. Replay. The Polish Journal of Game Studies, 3(1), 11–28. https://doi.org/10.18778/2391-8551.03.01",
+        "short": "Chircop, 2017",
+        "page": "p. 20"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "last-standing",
         "take-turns"
       ],
@@ -6955,6 +7003,40 @@
     },
     {
       "elements": [
+        "worker-placement",
+        "bidding"
+      ],
+      "tendency": "Games in which players choose single actions from a set tend to use auctions as well, so players bid for items or resources that improve their position.",
+      "pros": [
+        "Bids give players a way to win items or resources that improve their position"
+      ],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Samarasinghe, D., Barlow, M., Lakshika, E., Lynar, T., Moustafa, N., Townsend, T. and Turnbull, B. (2021). A data driven review of board game design and interactions of their mechanics. IEEE Access, 9, 114051–114069. https://doi.org/10.1109/ACCESS.2021.3103198",
+        "short": "Samarasinghe et al., 2021",
+        "page": "p. 114063"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "worker-placement",
+        "take-turns"
+      ],
+      "tendency": "Worker placement is often found with turn-order mechanics, because the order in which players take turns helps decide who gets to the available actions.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Samarasinghe, D., Barlow, M., Lakshika, E., Lynar, T., Moustafa, N., Townsend, T. and Turnbull, B. (2021). A data driven review of board game design and interactions of their mechanics. IEEE Access, 9, 114051–114069. https://doi.org/10.1109/ACCESS.2021.3103198",
+        "short": "Samarasinghe et al., 2021",
+        "page": "p. 114063"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "bidding",
         "take-turns"
       ],
@@ -9106,6 +9188,54 @@
         "ref": "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
         "short": "Schmittberger, 1992",
         "page": "p. 199"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "worker-placement",
+        "tile-placement"
+      ],
+      "tendency": "In Agricola a worker put on a shared board space leads the player on to place tiles, along with managing pieces, playing cards and collecting resources.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Sousa, M. (2023). Finding ludemes in modern board games: analyzing the top number one games of Board Game Geek. Board Game Studies Journal, 17(1), 205–229. https://doi.org/10.2478/bgs-2023-0006",
+        "short": "Sousa, 2023",
+        "page": "p. 221"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "worker-placement",
+        "set-collection"
+      ],
+      "tendency": "In Agricola, sets of resources come into play in production, conversion costs and scoring, which affects what players collect and which actions they take.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Sousa, M. (2023). Finding ludemes in modern board games: analyzing the top number one games of Board Game Geek. Board Game Studies Journal, 17(1), 205–229. https://doi.org/10.2478/bgs-2023-0006",
+        "short": "Sousa, 2023",
+        "page": "p. 221"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "hand-management",
+        "tile-placement"
+      ],
+      "tendency": "Cards played from the hand are used to change the board by adding or removing tiles and pieces, as in Twilight Struggle, Pandemic Legacy and Gloomhaven.",
+      "pros": [],
+      "cons": [],
+      "exemplars": [],
+      "source": {
+        "ref": "Sousa, M. (2023). Finding ludemes in modern board games: analyzing the top number one games of Board Game Geek. Board Game Studies Journal, 17(1), 205–229. https://doi.org/10.2478/bgs-2023-0006",
+        "short": "Sousa, 2023",
+        "page": "p. 217"
       },
       "verification_status": "book-20261106-unreviewed"
     },

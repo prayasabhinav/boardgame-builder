@@ -1,0 +1,3 @@
+pair: roll-and-move+negotiation | In older mass-market games a simple roll-and-move mechanic is often given a loose layer that depends on the players, such as trading in Monopoly. | - | - | - | - | p. 23
+pair: roll-and-move+deduction | In older mass-market games a simple roll-and-move mechanic is often given a loose layer that depends on the players, such as deduction in Clue. | - | - | - | - | p. 23
+pair: semi-cooperative+hidden-personal-goal | In semi-cooperative games players work together nearly all game against a shared way of losing, and each tends to hold a secret winning objective that is only revealed at the end. | - | - | - | - | p. 20

@@ -1,0 +1,1 @@
+checker found no passage	idea: Patterns in one collection can contradict | Some patterns in the same collection can weaken or contradict each other. Barwood says some of his rules contradict each other, and he expects they will still do so as patterns. | p. 159

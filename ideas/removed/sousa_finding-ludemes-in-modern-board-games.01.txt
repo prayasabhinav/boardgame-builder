@@ -1,0 +1,1 @@
+checker found no passage	idea: Complexity comes from many mechanisms together | The high complexity of the top games, about 4 on a scale of 5, comes from combining many mechanisms and their interactive effects. The players activate core mechanisms to change the board, and the board in turn affects their decisions. | p. 221

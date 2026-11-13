@@ -1,0 +1,3 @@
+pair: worker-placement+tile-placement | In Agricola a worker put on a shared board space leads the player on to place tiles, along with managing pieces, playing cards and collecting resources. | - | - | - | - | p. 221
+pair: worker-placement+set-collection | In Agricola, sets of resources come into play in production, conversion costs and scoring, which affects what players collect and which actions they take. | - | - | - | - | p. 221
+pair: hand-management+tile-placement | Cards played from the hand are used to change the board by adding or removing tiles and pieces, as in Twilight Struggle, Pandemic Legacy and Gloomhaven. | - | - | - | - | p. 217

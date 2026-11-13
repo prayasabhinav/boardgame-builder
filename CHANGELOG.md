@@ -4,6 +4,11 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.22.2 — 13 November 2026
+
+- **Six research papers join the books.** Samarasinghe and others (2021), Björk, Lundgren and Holopainen (2003), Olsson, Björk and Dahlskog (2014), Sousa (2023), Chircop (2017) and Abu Makhadi (2025), each settled through Crossref, add 160 lines to the Ideas tab and 8 entries on what two blocks do together. Every line was checked against its paper as the books' lines were: a reader who had not written it found the passage, code found the reader's copied words in the paper, and the page was taken from the PDF in code. Three lines that failed are kept aside in `ideas/removed/`.
+- The clash model was checked against the seven games whose rules Sousa read: of the nine pairs they show and no known game does, it flags none and gives each 1% or less. Added to its training, they left its held-out score unchanged, so it was not retrained.
+
 ## 0.22.1 — 13 November 2026
 
 - **The books win where they speak, not where they are silent.** 0.22.0 kept only what a book states, and so took out true and useful text the books simply do not mention. That is put back: the 201 points for what a pair brings or costs that had been left empty, the 4 book entries taken out, 61 template lines (player counts, makers such as *Traditional*, origins, and five rule steps) and the game credits and phrases removed for that reason (Irving Finkel's rules for the Royal Game of Ur, Eleusis Express, the US National Park Service board for Three Men's Morris, and others). Everything a book contradicted stays corrected. The standard now: the book wins where it says otherwise; where it is silent, a logical inference that supports the entry stays. A BoardGameGeek entry alone backs nothing, being written by its users.
