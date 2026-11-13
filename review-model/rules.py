@@ -62,14 +62,25 @@ for c, b in pairs:
     r = "a teacher has marked this pair for a look" if by == "Prayas" and k == "r" else "" if by == "Prayas" or (c, b) in seen else reason(c, b)
     if r:
         reasons[f"{c}+{b}"] = r
-labelled = VOTES | {p: int(k == "r") for p, (k, by) in keys.items() if by == "Prayas" and k != "?"}
+# Labels on the pairs khatka was unsure of (13 November 2026, his words: "parse and interpret more from the papers and books.
+# Label more"): one reader per pair searched the books and papers (source-labels-*.jsonl). A label resting on a source whose
+# copied words code found (source-labels-checked.json) is settled and outranks the readers' votes; one resting on inference
+# counts for a pair nobody voted on, weighted by how often one reader agreed with the three readers' majority. Measured
+# before they went in (label-eval.py, held out): on the voted pairs Brier 0.0111 without them, 0.0098 with them.
+FOUND = json.load(open("review-model/source-labels-checked.json"))
+NEW = {tuple(r["pair"].split("+")): (int(r["label"] == "clashes"), bool(FOUND.get(r["pair"])))
+       for f in sorted(__import__("glob").glob("review-model/source-labels-*.jsonl")) for r in map(json.loads, open(f)) if r["label"] in ("holds", "clashes")}
+both = [p for p in NEW if p in VOTES and VOTES[p] != 0.5]
+REL = sum(NEW[p][0] == (VOTES[p] > 0.5) for p in both) / len(both)
+NEW_LABELS = {p: float(y) for p, (y, src) in NEW.items() if src} | {p: (REL if y else 1 - REL) for p, (y, src) in NEW.items() if not src and p not in VOTES}
+labelled = VOTES | NEW_LABELS | {p: int(k == "r") for p, (k, by) in keys.items() if by == "Prayas" and k != "?"}
 w = fit([(features(*p), y) for p, y in labelled.items()])
 p_clash = {f"{c}+{b}": round(prob(w, features(c, b)), 3) for c, b in pairs}
 json.dump({"made": datetime.date.today().isoformat(), "from": "review-model/rules.py", "flagged": list(reasons), "reasons": reasons, "p_clash": p_clash},
           open("review.json", "w"), indent=1)
 agree = sum((y >= 0.5) == bool(reason(*p)) for p, y in VOTES.items())
 known = [p for p in seen if p[0] in MAKES and reason(*p)]
-print(f"wrote review.json: {len(reasons)} of {len(pairs)} pairs flagged")
+print(f"wrote review.json: {len(reasons)} of {len(pairs)} pairs flagged; trained on {len(VOTES)} voted pairs and {len(NEW_LABELS)} new labels (one reader agreed with the three on {100 * REL:.0f}%)")
 print(f"against the readers: {agree} of {len(VOTES)} pairs where the table flags exactly those most readers said no to")
 print("flagged pairs by probability:", sorted(__import__("collections").Counter(round(p_clash[k], 1) for k in reasons).items()))
 print(f"known-game pairs the table would flag (never flagged on screen): {len(known)}")
