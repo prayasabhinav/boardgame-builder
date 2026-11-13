@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.21.2 — 13 November 2026
+
+- The tool and its wiki have an icon in the browser tab and in search results: the first three rows of the board game syntax's family mark from SYNTAX. There was none before.
+
 ## 0.21.1 — 13 November 2026
 
 - The model behind the teacher's *N% likely to clash* has a name, **khatka**, and is released on its own with its data at https://github.com/prayasabhinav/khatka (AGPL-3.0). It gives the same flags, reasons and probabilities as before. Kinds of fun are not paired with core mechanics: a kind of fun is the enjoyment a game aims at and cannot contradict how it is played.
