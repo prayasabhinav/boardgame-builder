@@ -3,7 +3,7 @@
 - From: Whist, a card game that Bridge developed from
 - Players: 4 players
 - Time: 20–30 min
-- Made by: not named in the book
+- Made by: Traditional; played in England and the United States
 - Rules from: Hoyle's Rules of Games, under 'Whist'
 - This version: Four deals only, and the side with the higher total of points after the fourth deal wins
 

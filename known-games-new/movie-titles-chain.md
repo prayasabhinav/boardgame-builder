@@ -26,6 +26,7 @@ A chain game shows how one shared rule (the last letter) and a clock can keep a 
 2. **Chain.** The next player names a film whose title starts with the last letter of the title just named. The opening word The does not count.
 3. **Time limit.** A player has ten seconds to answer. If they cannot, they are out.
 4. **Win.** Play goes round until one player is left. That player wins.
+5. **Win.** Play goes round until one player is left. That player wins.
 
 ## After playing, talk about
 

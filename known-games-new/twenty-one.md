@@ -1,6 +1,6 @@
 # Twenty-One — get close, but not over
 
-- From: Twenty-One, a card game
+- From: Twenty-One, a card game also played as blackjack
 - Players: Any number of players
 - Time: 10–15 min
 - Made by: Traditional
@@ -29,6 +29,7 @@ Each extra card is a small bet that you will not go over. It shows how a game ca
 5. **Dealer draws.** When everyone has played, the dealer turns over their cards and may draw more. If the dealer busts, the dealer pays every player still in.
 6. **Pay.** Otherwise each player still in shows their hand. A total nearer twenty-one than the dealer's wins the stake; a lower total loses it; equal totals change nothing.
 7. **Natural.** An Ace and a ten-card as your first two cards is a natural twenty-one. It wins double the stake, unless the dealer also has one.
+8. **Next dealer.** The deal passes to the left.
 
 ## After playing, talk about
 

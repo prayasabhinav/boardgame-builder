@@ -1,7 +1,7 @@
 # Indian Poker — bet on a card only the others can see
 
 - From: Indian Poker, a small poker game
-- Players: 2 or more players
+- Players: 3–8 players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 311

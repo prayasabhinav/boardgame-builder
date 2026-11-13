@@ -26,6 +26,7 @@ A game of making a row is easy to learn, but the book says the player who goes f
 2. **Place.** Take turns putting one counter on any empty square.
 3. **Five wins.** The first player to have five of their own counters side by side in a line wins. The line can run across, up and down, or on a slant.
 4. **Slide.** If all 24 counters are down and nobody has five in a row, take turns moving one of your counters to a neighbouring empty square, in any direction.
+5. **Block.** You will often use a placed counter to stop the other player's line rather than to build your own.
 
 ## After playing, talk about
 

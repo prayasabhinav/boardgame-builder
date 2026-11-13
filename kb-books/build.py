@@ -5,7 +5,7 @@ sources.tsv (settled through Consensus, find-research-papers and Crossref, then 
 Each line is one entry:
     pair: block+block | what tends to happen | pro | pro | con | con | page   (a pro or con the book does not state is '-')
     conflict: block+block | the sentence a student reads | page
-Every sentence says what tends to happen, in our own words, and the page is where the book says it.
+Every sentence says what tends to happen, in our own words, and the page is where the book describes the game. The book wins where it says otherwise; where it is silent, a pro or con that follows from the game as the book describes it stays (13 November 2026).
 Nothing here is reviewed; curated entries come first, then these, then the drafted ones.
 Usage: python kb-books/build.py
 """

@@ -1,7 +1,7 @@
 # Martinetti — climb to twelve and back with three dice
 
 - From: Martinetti, an old dice game
-- Players: 2 or more players
+- Players: 2–6 players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: Board and Table Games from Many Civilizations, p. 134

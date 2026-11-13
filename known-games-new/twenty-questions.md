@@ -1,7 +1,7 @@
 # Twenty questions — find it with yes-or-no questions
 
 - From: Twenty Questions, a guessing game that began on radio in the 1940s
-- Players: 2 or more players
+- Players: 3–8 players
 - Time: 10–15 min
 - Made by: Traditional; the book says it started as a radio show in the 1940s
 - Rules from: The Big Book of Rules, p. 84

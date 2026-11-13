@@ -1,6 +1,6 @@
 # Slobberhannes — dodge three tricks
 
-- From: Slobberhannes, a trick-taking game
+- From: Slobberhannes, a German trick-taking game
 - Players: 4 players
 - Time: 15–20 min
 - Made by: Traditional
@@ -26,7 +26,7 @@ Only three tricks matter, and you want none of them. It shows how a game can be 
 3. **Penalty tricks.** Take a point if you win the first trick, a point if you win the last trick, and a point if you win the trick holding the Queen of Clubs.
 4. **Slobberhannes.** If one player wins all three of those tricks in the same hand, they score one more point.
 5. **Revoke.** If you fail to follow suit when you could, add a point to your score.
-6. **Next hand.** The deal moves to the left. Keep a running score.
+6. **Next hand.** The deal moves to the left, and the same player leads again. Keep a running score.
 7. **Lose.** The first player to reach ten points loses, and pays an agreed stake, such as a sweet, to each other player.
 
 ## After playing, talk about

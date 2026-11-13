@@ -3,7 +3,7 @@
 - From: Knock Rummy, the Rummy game that Gin Rummy grew from
 - Players: 2–6 players
 - Time: 15–25 min
-- Made by: not named in the book
+- Made by: Traditional; played in the United States
 - Rules from: Hoyle's Rules of Games, under 'Knock Rummy'
 - This version: Hands are paid in points from a running total, and the first player to win 5 hands wins the game
 

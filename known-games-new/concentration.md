@@ -1,7 +1,7 @@
 # Concentration — remember where the pairs are
 
 - From: Concentration, a memory card game
-- Players: 2 or more players
+- Players: 2–5 players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 67

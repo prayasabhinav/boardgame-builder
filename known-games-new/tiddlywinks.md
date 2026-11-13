@@ -1,6 +1,6 @@
 # Tiddlywinks — flick a counter into the cup
 
-- From: Tiddlywinks, a table game
+- From: Tiddlywinks, a table game from England
 - Players: 2 players
 - Time: 10–15 min
 - Made by: Joseph Fincher filed the first patent for it in 1888; Cambridge students made it popular in the 1950s

@@ -1,7 +1,7 @@
 # Two-minute alphabet — talk through the alphabet
 
 - From: Two-Minute Alphabet, a spoken scene game
-- Players: 2 or more players
+- Players: 2–6 players
 - Time: 10–15 min
 - Made by: Traditional; the book links it to the TV show Whose Line Is It Anyway?
 - Rules from: The Big Book of Rules, p. 58

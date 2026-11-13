@@ -1,7 +1,7 @@
 # Ghost — add a letter, but never finish the word
 
 - From: Ghost, a spoken word game
-- Players: 2 or more players
+- Players: 3–8 players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 48

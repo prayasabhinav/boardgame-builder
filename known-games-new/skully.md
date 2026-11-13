@@ -1,6 +1,6 @@
 # Skully — flick a bottle cap round the boxes
 
-- From: Skully (Skelly, Bottlecaps), a street game
+- From: Skully (Skelly, Bottlecaps), a New York street game
 - Players: 2 to 6 players
 - Time: 15 min
 - Made by: Traditional; played on city pavements in the United States

@@ -1,6 +1,6 @@
 # Draw Poker — bet on hidden cards, then swap some
 
-- From: Draw Poker, a card game
+- From: Draw Poker, a card game played across America
 - Players: 2–8 players
 - Time: 20–30 min
 - Made by: Traditional; played in the United States

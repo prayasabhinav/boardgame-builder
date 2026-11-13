@@ -1,7 +1,7 @@
 # Hopscotch — hop the boxes, kicking the stone ahead
 
 - From: Hopscotch, a popular children's game
-- Players: 2 or more players
+- Players: 2–6 players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 252

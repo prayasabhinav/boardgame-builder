@@ -1,6 +1,6 @@
 # Go-Bang — five in a row on a big grid
 
-- From: Go-Bang, a counter game from Japan
+- From: Go-Bang (also called Gomoku), a paper and counter game from Japan
 - Players: 2 players
 - Time: 5–15 min
 - Made by: Traditional; played in Japan, and brought to Europe about 1885

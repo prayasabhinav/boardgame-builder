@@ -21,7 +21,7 @@ Nobody wins or loses. It shows what happens to a message when each person has to
 ## How to play
 
 1. **Think.** The first player thinks of a message of at least ten words and tells no one.
-2. **Whisper.** The first player whispers it to the player next to them.
+2. **Whisper.** The first player whispers it once to the player next to them. No repeating.
 3. **Pass.** Each player whispers what they heard to the next player.
 4. **Say it.** The last player says the message aloud, and everyone hears how it has changed.
 5. **Try two.** For a second round, send two different messages round at once, one to the right and one to the left.

@@ -1,7 +1,7 @@
 # The Hyena Game — mothers walk to the well
 
 - From: Li'b el Merafib (the Hyena Game), a game of the Baggara Arabs of the Sudan
-- Players: 2 or more players
+- Players: 2–4 players
 - Time: 25–30 min
 - Made by: Traditional; played by the Baggara Arabs of the Sudan, with the track drawn in sand
 - Rules from: Board and Table Games from Many Civilizations, p. 13

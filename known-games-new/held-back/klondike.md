@@ -1,7 +1,7 @@
 # Klondike — sort the pack into four suits
 
 - From: Klondike, the best-known solitaire (also called Fascination or Demon Patience)
-- Players: 1 player
+- Players: 1 player, or two side by side comparing results
 - Time: 15–25 min
 - Made by: Traditional
 - Rules from: Hoyle's Rules of Games, under 'Klondike'

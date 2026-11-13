@@ -1,7 +1,7 @@
 # HORSE — match the shot or earn a letter
 
 - From: HORSE, a basketball shooting game
-- Players: 2 or more players
+- Players: 2–6 players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: Characteristics of Games, p. 294

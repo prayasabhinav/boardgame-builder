@@ -1,7 +1,7 @@
 # Buzz — count, but say buzz for every five
 
 - From: Buzz, a counting game for children
-- Players: 2 or more players
+- Players: 3–8 players
 - Time: 5–10 min
 - Made by: Traditional
 - Rules from: The Big Book of Rules, p. 66

@@ -56,7 +56,8 @@
         "The extra throw ends only on a low score, so the run has an edge"
       ],
       "cons": [
-        "A capture also earns the capturer an extra turn"
+        "A capture also earns the capturer an extra turn",
+        "One long run can decide a short game"
       ],
       "exemplars": [],
       "source": {
@@ -231,7 +232,8 @@
         "Later copies were coloured by hand and mounted on canvas"
       ],
       "cons": [
-        "Each throw is added to the counter's place, so the dice fix where it lands"
+        "Each throw is added to the counter's place, so the dice fix where it lands",
+        "A player may pass over some spaces without learning them"
       ],
       "exemplars": [],
       "source": {
@@ -252,7 +254,8 @@
         "Throws of one pass a piece on, so trouble moves round the table"
       ],
       "cons": [
-        "A throw of two means a drink and another throw"
+        "A throw of two means a drink and another throw",
+        "The dice decide who pays"
       ],
       "exemplars": [],
       "source": {
@@ -555,7 +558,8 @@
       ],
       "tendency": "In Put and Take, a spin tells each player to take counters or add them, and a player with none left retires.",
       "pros": [
-        "Each player starts by putting the same number of counters into the pool"
+        "Each player starts by putting the same number of counters into the pool",
+        "Everyone can see the pool grow and shrink"
       ],
       "cons": [
         "After the first stake, players make no choices",
@@ -686,6 +690,7 @@
       ],
       "tendency": "When every player can see how far everyone has got, a player far behind can tell early that they cannot win the race.",
       "pros": [
+        "Nobody has to guess who leads.",
         "A rule that lets one turn gain any distance keeps every player in the running."
       ],
       "cons": [
@@ -733,6 +738,7 @@
         "A team on one side is the team version of a single-player game."
       ],
       "cons": [
+        "Players who learn the pattern of the deck can use up its surprise.",
         "A team that wins every time tends to lose interest."
       ],
       "exemplars": [],
@@ -772,10 +778,12 @@
       ],
       "tendency": "A team game can be played with no fixed sides by giving one point to each member of the winning team and mixing the teams every round.",
       "pros": [
-        "Everyone has a score of their own."
+        "Everyone has a score of their own.",
+        "A large group can play without fixed sides."
       ],
       "cons": [
-        "Players who like keeping the same teammates tend to turn it down."
+        "Players who like keeping the same teammates tend to turn it down.",
+        "The final winner can feel far from any one round."
       ],
       "exemplars": [],
       "source": {
@@ -796,7 +804,8 @@
         "A rule that shows the hidden pieces of a player with no army ends the game soon after."
       ],
       "cons": [
-        "Finding the last hidden piece can take a long time."
+        "Finding the last hidden piece can take a long time.",
+        "The winner may wait with nothing to do."
       ],
       "exemplars": [],
       "source": {
@@ -817,6 +826,7 @@
         "Short rounds suit a game whose length no one knows in advance."
       ],
       "cons": [
+        "It needs enough people to turn up.",
         "More rounds in the same time mean more pauses between rounds."
       ],
       "exemplars": [],
@@ -834,7 +844,8 @@
       ],
       "tendency": "A role-playing game with no winner and no ending has no clear game, only evenings of play and a long campaign that links them.",
       "pros": [
-        "Paper role-playing games are rarely completed in one session, so play carries on across sessions."
+        "Paper role-playing games are rarely completed in one session, so play carries on across sessions.",
+        "The same story and characters can run for months."
       ],
       "cons": [
         "Nobody can say who did well.",
@@ -881,7 +892,8 @@
         "Players keep a record from game to game."
       ],
       "cons": [
-        "Players with no chance may just play for a small gain."
+        "Players with no chance may just play for a small gain.",
+        "Chasing money can pull attention from beating the others."
       ],
       "exemplars": [],
       "source": {
@@ -990,7 +1002,8 @@
         "The game can stop as soon as one player drops out."
       ],
       "cons": [
-        "The player who is behind becomes the target."
+        "The player who is behind becomes the target.",
+        "A slow start is hard to recover from."
       ],
       "exemplars": [],
       "source": {
@@ -1121,7 +1134,8 @@
         "Players in a lost position can aim for something more definite."
       ],
       "cons": [
-        "A player out of the running can still decide who wins."
+        "A player out of the running can still decide who wins.",
+        "Players need to read the board to know who is ahead."
       ],
       "exemplars": [],
       "source": {
@@ -1274,7 +1288,8 @@
         "Players learn a shared system of meanings."
       ],
       "cons": [
-        "Partners need to agree the meanings before they play."
+        "Partners need to agree the meanings before they play.",
+        "A bid read the wrong way can mislead a partner."
       ],
       "exemplars": [],
       "source": {
@@ -1291,7 +1306,8 @@
       ],
       "tendency": "When everyone sees everything and no clock runs, the strongest player tends to tell the others what to play.",
       "pros": [
-        "Modest amounts of advice from an experienced player can help teammates."
+        "Modest amounts of advice from an experienced player can help teammates.",
+        "Everyone can follow the plan."
       ],
       "cons": [
         "A beginner can be left with nothing to decide.",
@@ -1316,7 +1332,8 @@
         "Players need ways to share without simply telling."
       ],
       "cons": [
-        "Players have to hold back what they know."
+        "Players have to hold back what they know.",
+        "The team may waste moves from missing information."
       ],
       "exemplars": [],
       "source": {
@@ -1336,7 +1353,10 @@
         "Each player's moves matter.",
         "Where speed is needed an experienced player can advise, yet what the other players do still counts."
       ],
-      "cons": [],
+      "cons": [
+        "Hurried players make mistakes that fall on teammates.",
+        "Beginners may feel pushed."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -1378,7 +1398,8 @@
         "In bridge, much of the interest lies in how partners signal within the limits on talk."
       ],
       "cons": [
-        "Partners cannot simply tell each other what they hold."
+        "Partners cannot simply tell each other what they hold.",
+        "The team cannot fix a plan with a quick word."
       ],
       "exemplars": [],
       "source": {
@@ -1421,7 +1442,8 @@
         "Players have less urge to throw the game to a rival."
       ],
       "cons": [
-        "Players have little reason to chase points that are worth nothing."
+        "Players have little reason to chase points that are worth nothing.",
+        "Players ahead and behind may want different things from one game."
       ],
       "exemplars": [],
       "source": {
@@ -1464,6 +1486,7 @@
         "Players can find the game satisfying in different ways."
       ],
       "cons": [
+        "Players may pick different aims at the same table.",
         "Nobody can say for certain who won."
       ],
       "exemplars": [],
@@ -1485,7 +1508,8 @@
         "A roll that moves every player forward is likely to help the one who is behind."
       ],
       "cons": [
-        "Who is winning is hard to read from the board."
+        "Who is winning is hard to read from the board.",
+        "Choices made before a roll change the result very little."
       ],
       "exemplars": [],
       "source": {
@@ -1506,6 +1530,7 @@
         "The lead works as an intuitive kind of victory point."
       ],
       "cons": [
+        "Without a catch-up rule, the lead stays where the rolls put it.",
         "Real races sometimes slow the leader, but a plain dice race does not."
       ],
       "exemplars": [],
@@ -1703,7 +1728,8 @@
         "Reading your opponents becomes part of the skill."
       ],
       "cons": [
-        "Players with more expertise often dislike chance in a game, since it costs them wins."
+        "Players with more expertise often dislike chance in a game, since it costs them wins.",
+        "A result can turn on a single guess."
       ],
       "exemplars": [],
       "source": {
@@ -1768,7 +1794,8 @@
         "Players learn general ways of thinking instead of fixed openings."
       ],
       "cons": [
-        "Players with more expertise often dislike chance in a game, since it costs them wins."
+        "Players with more expertise often dislike chance in a game, since it costs them wins.",
+        "Planning ahead is harder when the layout is unknown."
       ],
       "exemplars": [],
       "source": {
@@ -1811,7 +1838,8 @@
         "Snowball effects like these can help when a game drags on or elimination causes trouble."
       ],
       "cons": [
-        "The player in trouble has to keep playing a game they expect to lose."
+        "The player in trouble has to keep playing a game they expect to lose.",
+        "Nobody who has finished has reason to help the last player."
       ],
       "exemplars": [],
       "source": {
@@ -1832,7 +1860,8 @@
         "The same model covers how points are spread when designing a character or unit."
       ],
       "cons": [
-        "Putting everything in one area ends the guessing."
+        "Putting everything in one area ends the guessing.",
+        "Results can feel like a coin flip."
       ],
       "exemplars": [],
       "source": {
@@ -1893,7 +1922,8 @@
       ],
       "tendency": "Learning how to play is itself hidden information, and the line between a secret and plain knowledge of the game is blurry.",
       "pros": [
-        "New players find interest in exploring what the game allows."
+        "New players find interest in exploring what the game allows.",
+        "Players share the feeling of finding something out."
       ],
       "cons": [
         "Once the secret is known, the first interest does not come back.",
@@ -2068,6 +2098,7 @@
       ],
       "tendency": "When players interact in pairs, the others wait while two of them settle things, as in the duels in Titan.",
       "pros": [
+        "The two players in the duel have a sharp moment of play.",
         "Waiting players watch with interest, because the result affects them."
       ],
       "cons": [
@@ -2111,7 +2142,8 @@
       ],
       "tendency": "Real-time play with no turns removes waiting, but it asks for quick hands or clicks.",
       "pros": [
-        "Nobody waits for another player."
+        "Nobody waits for another player.",
+        "The game has a quick pace."
       ],
       "cons": [
         "Speed of hands decides more than planning.",
@@ -2242,6 +2274,7 @@
       ],
       "tendency": "In a game like a slot machine, nothing a player does changes the result, so there is no effort to put in.",
       "pros": [
+        "Anyone can play from the first minute.",
         "The thrill of risk is a main reward of gambling games."
       ],
       "cons": [
@@ -2263,6 +2296,7 @@
       ],
       "tendency": "Rolling the die and moving along a track with no branches asks for no decision and has no skilful way to do it.",
       "pros": [
+        "Beginners can play at once.",
         "The routine is rarely felt as a burden."
       ],
       "cons": [
@@ -2288,7 +2322,8 @@
         "The rules take less time to learn."
       ],
       "cons": [
-        "A new invented world gives players no such help."
+        "A new invented world gives players no such help.",
+        "Players may expect more from a card than its rules give."
       ],
       "exemplars": [],
       "source": {
@@ -2327,6 +2362,7 @@
       ],
       "tendency": "When players are knocked out in a real-time game, those who are less skilled sit out more, as in Counterstrike.",
       "pros": [
+        "All players who are still in act at the same time.",
         "Real-time play has no waiting at all."
       ],
       "cons": [
@@ -2370,6 +2406,7 @@
       ],
       "tendency": "The more is hidden, the less a crowd can follow. Watching a game where hands are secret tends to feel less interesting.",
       "pros": [
+        "Players keep their secrets.",
         "Showing the hands to the crowd can make the game more exciting to watch."
       ],
       "cons": [
@@ -2395,7 +2432,8 @@
         "Both players can check every move."
       ],
       "cons": [
-        "Players have to pay attention to each other's moves."
+        "Players have to pay attention to each other's moves.",
+        "Simple mistakes show up quickly."
       ],
       "exemplars": [],
       "source": {
@@ -2411,7 +2449,10 @@
         "hidden-hands"
       ],
       "tendency": "When play runs at its own pace and some cards are private, a broken rule is easier to hide because there is less chance to notice it.",
-      "pros": [],
+      "pros": [
+        "Play stays fast.",
+        "Secrets stay secret."
+      ],
       "cons": [
         "Cheating becomes more practical when it is less likely to be detected.",
         "Real-time pace gives opponents less chance to spot a broken rule."
@@ -2435,6 +2476,7 @@
         "The game keeps feeling new."
       ],
       "cons": [
+        "Players may disagree about which version is the real one.",
         "The game can turn into a different game."
       ],
       "exemplars": [],
@@ -2473,7 +2515,10 @@
         "narrative-completion"
       ],
       "tendency": "A story built on one or two heroes leaves few characters for many players. Someone may have to play a smaller part.",
-      "pros": [],
+      "pros": [
+        "Players act inside a story they know.",
+        "The story keeps a clear shape."
+      ],
       "cons": [
         "Not everyone gets to be the hero.",
         "A player who is not the hero may feel less important."
@@ -2497,7 +2542,8 @@
         "Play can continue as long as the group wants."
       ],
       "cons": [
-        "One person has to make new material all the time."
+        "One person has to make new material all the time.",
+        "That person does more work than the others."
       ],
       "exemplars": [],
       "source": {
@@ -2514,6 +2560,7 @@
       ],
       "tendency": "A story with an ending gives players a natural place to stop. A game with no ending has no such place.",
       "pros": [
+        "A finished story feels complete.",
         "Games with no explicit end tend to rest on varied play rather than content that runs out."
       ],
       "cons": [
@@ -2583,7 +2630,8 @@
         "Guessing a rival's plan is the whole game."
       ],
       "cons": [
-        "No single choice wins every time."
+        "No single choice wins every time.",
+        "A player who is easy to read tends to lose."
       ],
       "exemplars": [],
       "source": {
@@ -2622,7 +2670,8 @@
       ],
       "tendency": "When each player gains points by taking more from a common pile, each has a reason to take extra, though everyone loses out if all do it.",
       "pros": [
-        "Each player can profit individually from the common pile."
+        "Each player can profit individually from the common pile.",
+        "The cost to everyone becomes clear as the pile shrinks."
       ],
       "cons": [
         "The cost of taking too much falls on everyone, not only on the taker.",
@@ -2643,7 +2692,8 @@
       ],
       "tendency": "When two players need to pick the same thing at the same moment without talking, there may be two equally likely answers and no sign of which one.",
       "pros": [
-        "The game is a simple model of a coordination problem."
+        "The game is a simple model of a coordination problem.",
+        "Players need to read each other."
       ],
       "cons": [
         "Both can pick different answers and miss each other.",
@@ -2681,15 +2731,39 @@
     },
     {
       "elements": [
+        "negotiation",
+        "shared-resource"
+      ],
+      "tendency": "Talks, promises and penalties can change what a player gains from taking too much, so players may agree to take less.",
+      "pros": [
+        "Players can agree limits on use.",
+        "Penalties can be set for those who break the deal."
+      ],
+      "cons": [
+        "Agreements need someone to check them.",
+        "Players can break a promise when no one is looking."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
+        "short": "Elias, Garfield and Gutschera, 2012",
+        "page": "p. 250"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "trick-taking",
         "push-your-luck"
       ],
       "tendency": "In a hearts-style game, taking every penalty card turns the lowest score into the highest, so a player far behind can gamble.",
       "pros": [
-        "A player behind has a way back."
+        "A player behind has a way back.",
+        "The game can stay open until the last hand."
       ],
       "cons": [
-        "A failed gamble leaves the player further behind."
+        "A failed gamble leaves the player further behind.",
+        "Players ahead have to watch for one long shot."
       ],
       "exemplars": [],
       "source": {
@@ -2706,9 +2780,13 @@
       ],
       "tendency": "If the cards that cost points change from one deal to the next, players have to learn a new aim each round.",
       "pros": [
+        "Each deal feels like a new puzzle.",
         "The same cards are worth different things at different times."
       ],
-      "cons": [],
+      "cons": [
+        "Players need to remember which round they are in.",
+        "New players can lose track of what counts."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -2723,7 +2801,10 @@
         "trick-taking"
       ],
       "tendency": "When players name how many tricks they will take, and need to hit that number exactly, a bid becomes a promise.",
-      "pros": [],
+      "pros": [
+        "Taking extra tricks can cost as much as taking too few.",
+        "Players weigh their hand against what the bid says."
+      ],
       "cons": [
         "A bid that is only a little wrong still loses points.",
         "Bidding adds a step before play starts."
@@ -2746,7 +2827,10 @@
         "The side that won the bid knows all its own cards.",
         "Elaborate bidding systems let partners tell each other about a hand while making it hard for opponents to bid well."
       ],
-      "cons": [],
+      "cons": [
+        "Less hidden information means fewer surprises for the bidding side.",
+        "One player plays two hands, so the partners no longer sit equal."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -2766,7 +2850,8 @@
         "Some cards are communal, so every player can use them in a final hand."
       ],
       "cons": [
-        "Players act without knowing the full picture."
+        "Players act without knowing the full picture.",
+        "A player with few high cards can still stay in the hand."
       ],
       "exemplars": [],
       "source": {
@@ -2783,9 +2868,13 @@
       ],
       "tendency": "Poker players call, raise or fold in turn during rounds of betting, and the book gives occasional bluffing as a rule of thumb so that rivals will call you when your hand is strong.",
       "pros": [
+        "Bets let players signal about cards nobody else can see.",
         "A player can drop out at a cost."
       ],
-      "cons": [],
+      "cons": [
+        "A big bet can scare a rival with the stronger hand.",
+        "Nerve counts as much as the cards held."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -2801,10 +2890,12 @@
       ],
       "tendency": "Moving round a board by dice, and asking questions about other players' cards when you arrive, mixes luck of movement with clue work.",
       "pros": [
-        "Rolling and moving along a track is busywork that players rarely find a burden."
+        "Rolling and moving along a track is busywork that players rarely find a burden.",
+        "Each place reached is a chance to ask about other players' cards."
       ],
       "cons": [
-        "A solved puzzle seldom draws players back; once the secret is known, they move on."
+        "A solved puzzle seldom draws players back; once the secret is known, they move on.",
+        "Players waiting for the right room fall behind in the hunt."
       ],
       "exemplars": [],
       "source": {
@@ -2821,7 +2912,8 @@
       ],
       "tendency": "When the aim is to bankrupt opponents, a board and dice decide where pieces land, and landing on rivals' property costs money.",
       "pros": [
-        "A player gains when rivals land on their property, and that happens on the rivals' turns, so watching stays interesting."
+        "A player gains when rivals land on their property, and that happens on the rivals' turns, so watching stays interesting.",
+        "Players slowly drop out as money runs out."
       ],
       "cons": [
         "Money gives a leading player more power to make more, so a lead tends to snowball.",
@@ -2845,7 +2937,10 @@
         "Teammates share the work of earning each roll.",
         "A whole team moves forward together."
       ],
-      "cons": [],
+      "cons": [
+        "Teams that guess slowly seldom get a roll.",
+        "Players who draw poorly can hold the team back."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -2865,7 +2960,8 @@
         "Everyone learns who kept their word at the same time."
       ],
       "cons": [
-        "Cooperation is expected to end in eventual betrayal."
+        "Cooperation is expected to end in eventual betrayal.",
+        "A single betrayal can undo a long agreement."
       ],
       "exemplars": [],
       "source": {
@@ -2886,7 +2982,8 @@
         "Cooperation and betrayal both belong to the game."
       ],
       "cons": [
-        "In Cosmic Encounter each turn's attack falls on a random opponent, so long-term alliances are hard to keep."
+        "In Cosmic Encounter each turn's attack falls on a random opponent, so long-term alliances are hard to keep.",
+        "Trust built over many turns can end in one move."
       ],
       "exemplars": [],
       "source": {
@@ -2906,7 +3003,10 @@
         "Several players can win at the same time, giving shared victories.",
         "Alliances can end in a shared victory."
       ],
-      "cons": [],
+      "cons": [
+        "Players may argue over how to split a win.",
+        "A partner may drop the deal when a solo win appears."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -2921,8 +3021,12 @@
         "deduction"
       ],
       "tendency": "When teams are chosen in secret, one side tries to work out who the others are while those others hide.",
-      "pros": [],
+      "pros": [
+        "Every player has something to work out.",
+        "Talk and watching carry the game."
+      ],
       "cons": [
+        "A wrongly accused player can be removed early.",
         "An eliminated player may go off and do something else."
       ],
       "exemplars": [],
@@ -2940,9 +3044,11 @@
       ],
       "tendency": "A moderator can keep the choices of one side private when each player's secret role needs to be known by someone.",
       "pros": [
-        "Secret decisions stay secret."
+        "Secret decisions stay secret.",
+        "The moderator can also hold special powers for some players."
       ],
       "cons": [
+        "One person does not get to play like the rest.",
         "The game cannot start without that extra person."
       ],
       "exemplars": [],
@@ -2959,8 +3065,12 @@
         "real-time-span"
       ],
       "tendency": "In Killer, a live game played over days or weeks, each player has a target to eliminate, a player who knocks someone out takes on that person's target, and the last player left wins.",
-      "pros": [],
+      "pros": [
+        "The game fits into ordinary days.",
+        "Players stay in the game while they are away from the table."
+      ],
       "cons": [
+        "The game can last longer than players want.",
         "A player who is out has less fun than one still in."
       ],
       "exemplars": [],
@@ -2978,9 +3088,13 @@
       ],
       "tendency": "When the group votes one player out each round, each player needs to win enough support from others to stay.",
       "pros": [
+        "Social standing counts as much as skill at tasks.",
         "Players who are out can still affect the end."
       ],
-      "cons": [],
+      "cons": [
+        "Voting can shut one player out for reasons outside the game.",
+        "Eliminated players may feel left out of the finish."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -3000,7 +3114,8 @@
         "Short games keep the waiting short."
       ],
       "cons": [
-        "Players out early can only watch."
+        "Players out early can only watch.",
+        "A long game makes the wait harder."
       ],
       "exemplars": [],
       "source": {
@@ -3017,9 +3132,13 @@
       ],
       "tendency": "When a group works together to keep one object in the air as long as possible, the only aim is to carry on.",
       "pros": [
-        "Everyone has the same aim."
+        "Everyone has the same aim.",
+        "Nobody is left out for being weaker."
       ],
-      "cons": [],
+      "cons": [
+        "A slip by one player stops it for all.",
+        "The game can end suddenly and with no winner."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -3034,9 +3153,13 @@
         "mostly-chance"
       ],
       "tendency": "In a race between two raindrops down a window, onlookers name the winner, and no player makes any choice.",
-      "pros": [],
+      "pros": [
+        "Onlookers can join in at any moment.",
+        "Nobody needs to learn rules."
+      ],
       "cons": [
-        "Players have nothing to decide."
+        "Players have nothing to decide.",
+        "The result tells no one anything about skill."
       ],
       "exemplars": [],
       "source": {
@@ -3079,7 +3202,8 @@
         "The rule-maker holds the knowledge in the game."
       ],
       "cons": [
-        "The rule-maker can only answer yes or no."
+        "The rule-maker can only answer yes or no.",
+        "The guessers may take a long time to find the rule."
       ],
       "exemplars": [],
       "source": {
@@ -3095,8 +3219,12 @@
         "hidden-hands"
       ],
       "tendency": "Asking a named player for a card of one rank gives a player a reason to remember who holds what.",
-      "pros": [],
+      "pros": [
+        "Memory of earlier asks helps a player.",
+        "A player who asks for a rank has to hold one."
+      ],
       "cons": [
+        "A player who forgets asks without a plan.",
         "The asker loses the turn after one wrong guess."
       ],
       "exemplars": [],
@@ -3114,7 +3242,8 @@
       ],
       "tendency": "If cards are matched in pairs and discarded, the one card without a partner decides who loses.",
       "pros": [
-        "Everyone but one player is safe at the end."
+        "Everyone but one player is safe at the end.",
+        "Matching pairs gives each draw some meaning."
       ],
       "cons": [
         "The loser is decided by where the odd card ends up.",
@@ -3135,9 +3264,13 @@
       ],
       "tendency": "When the aim is to avoid being the last with cards, players choose when to play and when to keep.",
       "pros": [
+        "Players choose which cards to keep and which to play.",
         "Different stages can use different rules."
       ],
-      "cons": [],
+      "cons": [
+        "The game ends with only one loser, so others stop caring.",
+        "The last player holds cards for a long time."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -3153,7 +3286,8 @@
       ],
       "tendency": "In a card game where a player may draw more cards, counting what is left and working out the odds can give a skilled player an edge.",
       "pros": [
-        "Played optimally, the game tends to favour the player."
+        "Played optimally, the game tends to favour the player.",
+        "The player still faces luck each hand."
       ],
       "cons": [
         "The edge can be hard to use in real play.",
@@ -3173,8 +3307,14 @@
         "set-collection"
       ],
       "tendency": "Rolling dice again, up to two more times, lets a player keep the dice that fit the combination they want.",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "Players can soften some unlucky rolls.",
+        "Each throw gives a new decision."
+      ],
+      "cons": [
+        "Choosing which dice to keep takes thought.",
+        "Some turns end with nothing useful."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -3212,6 +3352,7 @@
       ],
       "tendency": "When the aim is to empty your hand first and each play has to beat the one before, players choose when to hold high cards.",
       "pros": [
+        "Players decide when to hold cards back.",
         "The last player to play leads the next round."
       ],
       "cons": [
@@ -3233,7 +3374,8 @@
       ],
       "tendency": "In a game where the player can only lose in the end, the aim becomes a higher score than last time.",
       "pros": [
-        "Scores let a player compare today's play with last week's, or with another player's."
+        "Scores let a player compare today's play with last week's, or with another player's.",
+        "Each game is a new try at the same thing."
       ],
       "cons": [
         "There is no moment of winning.",
@@ -3276,9 +3418,11 @@
       ],
       "tendency": "When one player makes a hard shot and the next has to copy it, each throw sets a task for the others.",
       "pros": [
-        "Each player sets a challenge for the next."
+        "Each player sets a challenge for the next.",
+        "Each throw is a task anyone can see."
       ],
       "cons": [
+        "A hard shot can leave all others out of the game.",
         "A player who misses collects a letter."
       ],
       "exemplars": [],
@@ -3296,9 +3440,11 @@
       ],
       "tendency": "If a player gets a letter for each missed shot and drops out when the word is spelt, players leave one by one.",
       "pros": [
-        "Skill at the shot decides who stays."
+        "Skill at the shot decides who stays.",
+        "Players keep trying until the end."
       ],
       "cons": [
+        "Players out early watch the rest.",
         "A slip of the hand in one throw costs a letter."
       ],
       "exemplars": [],
@@ -3315,8 +3461,14 @@
         "team-vs-team"
       ],
       "tendency": "When a teammate may only use gestures or drawing to get a word across, the rest of the team has to read the clue.",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "Teams cheer each other on.",
+        "Players find new ways to say things."
+      ],
+      "cons": [
+        "Clues can be misread.",
+        "A player who draws or acts unclearly can hold the team back."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -3332,9 +3484,13 @@
       ],
       "tendency": "In the sandbox mode of a city-building game, players try different actions and watch what follows.",
       "pros": [
-        "Players learn by trying."
+        "Players learn by trying.",
+        "Nothing is lost by experiment."
       ],
-      "cons": [],
+      "cons": [
+        "There is no score to tell a player how it went.",
+        "Players may lose interest without a goal."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Elias, G. S., Garfield, R. and Gutschera, K. R. (2012). Characteristics of games. Cambridge, MA: MIT Press. ISBN 978-0-262-01713-8.",
@@ -3350,7 +3506,8 @@
       ],
       "tendency": "When all moves can be seen but one exact move is right, a beginner cannot tell a helpful move from a useless one and plays like chance.",
       "pros": [
-        "An expert can play every game without a mistake."
+        "An expert can play every game without a mistake.",
+        "Nothing is hidden."
       ],
       "cons": [
         "A beginner has no way to tell if a move helped.",
@@ -3375,7 +3532,8 @@
         "The other player may leave and keep their loss small."
       ],
       "cons": [
-        "Played without money, backgammon has less use for its doubling cube."
+        "Played without money, backgammon has less use for its doubling cube.",
+        "The money at risk changes how players think."
       ],
       "exemplars": [],
       "source": {
@@ -3506,6 +3664,7 @@
         "The refill cards are dealt face up, starting from the winner of the trick"
       ],
       "cons": [
+        "The planning gain ends once the stock is used up",
         "Players still have to guess what the other hand holds"
       ],
       "exemplars": [],
@@ -3593,6 +3752,7 @@
         "Riskier bids pay more, so the rules put a price on risk"
       ],
       "cons": [
+        "Other players can read part of your hand from what you bid",
         "A bidder who falls short pays all three of the other players an amount that grows with the tricks missed"
       ],
       "exemplars": [],
@@ -3635,7 +3795,10 @@
         "Every discard helps one score and costs another",
         "The dealer and the other player discard for opposite reasons"
       ],
-      "cons": [],
+      "cons": [
+        "Players learn many scoring combinations before a first hand",
+        "Counting a hand takes time and can start arguments over missed points"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Fitzsimmons, T. and Liflander, P. (1996). The everything games book: hundreds of classic games for all ages. Holbrook, MA: Adams Media. ISBN 978-1-55850-643-5.",
@@ -3655,7 +3818,8 @@
         "A wild card gives a way out when you are stuck"
       ],
       "cons": [
-        "A player unable to match is left with two moves, a skipped turn or an Eight"
+        "A player unable to match is left with two moves, a skipped turn or an Eight",
+        "With two players and the whole deck dealt, the game runs long"
       ],
       "exemplars": [],
       "source": {
@@ -3716,7 +3880,8 @@
       ],
       "tendency": "When a turn shows cards that everyone sees, a failed turn gives the next player information the first player paid for.",
       "pros": [
-        "Each later player in turn tries to find a matching pair"
+        "Each later player in turn tries to find a matching pair",
+        "The rules are short enough for a child to learn"
       ],
       "cons": [
         "A player later in the order can use what earlier players showed",
@@ -3763,7 +3928,8 @@
         "A player who is behind has a reason to try bold plays"
       ],
       "cons": [
-        "A player who is behind and pairs risks handing the other a pair royal"
+        "A player who is behind and pairs risks handing the other a pair royal",
+        "One lucky deal can close a gap that skill built"
       ],
       "exemplars": [],
       "source": {
@@ -3806,7 +3972,8 @@
         "When a player goes alone, his partner puts his hand face down and keeps quiet for the five tricks"
       ],
       "cons": [
-        "A card a player lets others know he holds can be called by the opponents"
+        "A card a player lets others know he holds can be called by the opponents",
+        "Partners who do not know each other's habits lose points"
       ],
       "exemplars": [],
       "source": {
@@ -3893,7 +4060,8 @@
         "Grand Ouverte outranks every other bid in Skat"
       ],
       "cons": [
-        "The lone player has no secret left."
+        "The lone player has no secret left.",
+        "A wrong guess about the first trick cannot be taken back."
       ],
       "exemplars": [],
       "source": {
@@ -4020,10 +4188,12 @@
       ],
       "tendency": "In Go Fish each player in turn asks a single opponent for a rank, to build sets of four called books; an opponent holding that rank gives up every card of it, and otherwise the reply is go fish and the asker draws from the fish pile.",
       "pros": [
-        "A player whose request is met may ask again, of the same player or a different one"
+        "A player whose request is met may ask again, of the same player or a different one",
+        "Remembering who asked for what becomes part of play."
       ],
       "cons": [
-        "A refused request sends the asker to the fish pile, and the turn ends unless the card drawn is the one asked for"
+        "A refused request sends the asker to the fish pile, and the turn ends unless the card drawn is the one asked for",
+        "Players who forget earlier questions lose chances."
       ],
       "exemplars": [],
       "source": {
@@ -4062,7 +4232,8 @@
       ],
       "tendency": "In Old Maid, pairs are thrown away until one card with no partner is left, and its holder loses.",
       "pros": [
-        "A player who completes a pair sets it aside and takes another pick"
+        "A player who completes a pair sets it aside and takes another pick",
+        "Nobody is out until the very end."
       ],
       "cons": [
         "The loser is simply the player left holding that card.",
@@ -4149,6 +4320,7 @@
       ],
       "tendency": "In Grabouche, partners may not speak about a play, and a word or gesture lets the other side place cards on the offender's pile.",
       "pros": [
+        "Partners learn to read each other from the cards they play.",
         "The table stays quiet."
       ],
       "cons": [
@@ -4390,6 +4562,7 @@
       ],
       "tendency": "In a tile game where players draw from a stock and some tiles stay out of play, nobody knows exactly what the other holds.",
       "pros": [
+        "Players can guess from what is drawn and played",
         "Leaving tiles unused keeps the guess open"
       ],
       "cons": [
@@ -4411,7 +4584,8 @@
       ],
       "tendency": "Each tile you lay changes which tiles the next player can use, so you shape their options without touching them.",
       "pros": [
-        "A player can block without any attack"
+        "A player can block without any attack",
+        "The rules stay short"
       ],
       "cons": [
         "A closed end can stall both players at once",
@@ -4784,7 +4958,8 @@
       ],
       "tendency": "In silent acting between teams, only the actor's own team guesses, so the team guesses together from one actor's movements.",
       "pros": [
-        "Teammates learn each other's signs"
+        "Teammates learn each other's signs",
+        "Rivals can enjoy the show without helping"
       ],
       "cons": [
         "After the start a team may not talk, not even to settle what its agreed signs mean",
@@ -4849,7 +5024,8 @@
       ],
       "tendency": "When one player knows the answer and a clock runs, that player picks which part of the idea to show first.",
       "pros": [
-        "The knower decides what to share"
+        "The knower decides what to share",
+        "The clock stops long waiting"
       ],
       "cons": [
         "The actor performs for his own team only",
@@ -4918,6 +5094,7 @@
         "Both players watch the same page"
       ],
       "cons": [
+        "The setter has no choices once the word is chosen",
         "Wrong letters are written off to the side while the hangman is built up"
       ],
       "exemplars": [],
@@ -4957,10 +5134,12 @@
       ],
       "tendency": "In tick-tack-toe two players take turns placing X or O in a square, and the first to line up three of their symbols wins; the book prefers games between players of equal skill.",
       "pros": [
+        "The rules take a minute to learn",
         "A line of three can run across, down or diagonally"
       ],
       "cons": [
-        "A game can end drawn when neither player gets a line of three"
+        "A game can end drawn when neither player gets a line of three",
+        "A player who sees the pattern early rarely loses"
       ],
       "exemplars": [],
       "source": {
@@ -4977,9 +5156,13 @@
       ],
       "tendency": "Each player plays a hand the others cannot see, but the score belongs to the side: the side with more tricks scores a point for each trick above six.",
       "pros": [
-        "Tricks won by either partner count together towards the side's score."
+        "Tricks won by either partner count together towards the side's score.",
+        "A low hand still helps the side through a partner's tricks"
       ],
-      "cons": [],
+      "cons": [
+        "Partners cannot talk about their cards",
+        "One partner's slip can cost the pair a trick they needed"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Morehead, A. H. and Mott-Smith, G. (eds) (1983). Hoyle's rules of games: descriptions of indoor games of skill and chance, with advice on skillful play. 2nd revised edition. New York: Signet. ISBN 978-0-451-16309-7.",
@@ -5039,9 +5222,13 @@
       ],
       "tendency": "Each player holds a closed hand and plays it alone, aiming at as large a share of the tricks as he can take.",
       "pros": [
-        "The dealer's last card is shown to everyone and names the trump suit."
+        "The dealer's last card is shown to everyone and names the trump suit.",
+        "Every choice is made without certainty"
       ],
-      "cons": [],
+      "cons": [
+        "The same cards look different depending on who holds the rest",
+        "A player who loses count can misjudge the whole deal"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Morehead, A. H. and Mott-Smith, G. (eds) (1983). Hoyle's rules of games: descriptions of indoor games of skill and chance, with advice on skillful play. 2nd revised edition. New York: Signet. ISBN 978-0-451-16309-7.",
@@ -5167,7 +5354,8 @@
       ],
       "tendency": "Bidders in Ombre bid only high enough to overcall the last bid, so each keeps their hand secret.",
       "pros": [
-        "Low bids keep your plan hidden from rivals"
+        "Low bids keep your plan hidden from rivals",
+        "Rivals cannot tell how many high cards you hold"
       ],
       "cons": [
         "When nobody bids, the hand is played as the game Spadilla.",
@@ -5235,7 +5423,10 @@
         "The eldest hand opens the play, and the dealer's last card fixes trumps.",
         "The winner chooses what is led next"
       ],
-      "cons": [],
+      "cons": [
+        "Players who go last see the most before choosing",
+        "Waiting is long when the hands are large"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Morehead, A. H. and Mott-Smith, G. (eds) (1983). Hoyle's rules of games: descriptions of indoor games of skill and chance, with advice on skillful play. 2nd revised edition. New York: Signet. ISBN 978-0-451-16309-7.",
@@ -5629,7 +5820,8 @@
         "The next dealer is free to choose differently from the previous one."
       ],
       "cons": [
-        "A dealer's own game has to be simple enough to explain without losing much time."
+        "A dealer's own game has to be simple enough to explain without losing much time.",
+        "Each new deal brings rules to explain quickly, and a few players can lose track"
       ],
       "exemplars": [],
       "source": {
@@ -5914,7 +6106,8 @@
         "Each still gains from winning tricks, so neither is only a helper."
       ],
       "cons": [
-        "Every trick an opponent wins is worth 10 to him alone, whether or not the contract is made."
+        "Every trick an opponent wins is worth 10 to him alone, whether or not the contract is made.",
+        "Neither opponent can see the other's hand, so help is guesswork."
       ],
       "exemplars": [],
       "source": {
@@ -6045,7 +6238,8 @@
         "Keeping a card for the last play gives first chance at it next deal."
       ],
       "cons": [
-        "Following every card takes a lot of memory and attention."
+        "Following every card takes a lot of memory and attention.",
+        "A card kept too long may be lost to a build the opponent makes."
       ],
       "exemplars": [],
       "source": {
@@ -6524,7 +6718,8 @@
       ],
       "tendency": "When the shuffle decides everything, a game to win every card can run very long, and some groups never name a winner.",
       "pros": [
-        "The book offers it for filling idle time."
+        "The book offers it for filling idle time.",
+        "Children and adults play on equal terms"
       ],
       "cons": [
         "No turn holds a real decision",
@@ -6857,6 +7052,7 @@
         "The lie can be saved for the moment it hurts most"
       ],
       "cons": [
+        "One false answer can send a guesser the wrong way for many turns",
         "A second lie needs a lot of time and scratch paper"
       ],
       "exemplars": [],
@@ -6877,7 +7073,10 @@
         "Players pick guesses that learn a lot and give away little",
         "More interaction between the players is added"
       ],
-      "cons": [],
+      "cons": [
+        "Learning and hiding work against each other, which can slow play",
+        "A second hidden word has to be kept and tracked"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
@@ -6897,7 +7096,8 @@
         "The code-maker can choose answers that reveal as little as possible"
       ],
       "cons": [
-        "A code-maker whose change makes an earlier answer false loses the game"
+        "A code-maker whose change makes an earlier answer false loses the game",
+        "Cracking the code takes more guesses"
       ],
       "exemplars": [],
       "source": {
@@ -7182,6 +7382,7 @@
         "A runaway score is checked by the others"
       ],
       "cons": [
+        "Players need a score chart to follow what each result is worth",
         "A hand where everyone takes some points is thrown in and does not count"
       ],
       "exemplars": [],
@@ -7203,7 +7404,8 @@
         "No single hand dominates"
       ],
       "cons": [
-        "Players keep a record of which hands scored"
+        "Players keep a record of which hands scored",
+        "Values change between sessions, so players recall which numbers apply"
       ],
       "exemplars": [],
       "source": {
@@ -7242,7 +7444,8 @@
       ],
       "tendency": "When a place is struck by an accident, its armies vanish and later armies entering it are halved, so the damage stays all game.",
       "pros": [
-        "Players avoid piling armies into one place"
+        "Players avoid piling armies into one place",
+        "The map looks different as the game goes on"
       ],
       "cons": [
         "Marked places no longer count towards holding a continent",
@@ -7399,6 +7602,7 @@
         "Experts can keep finding new ideas on a larger board"
       ],
       "cons": [
+        "A very small board shows little of the game",
         "The standard board takes time to play on, so novices begin on a smaller one"
       ],
       "exemplars": [],
@@ -7420,7 +7624,8 @@
         "Players meet unfamiliar situations that leave experts and beginners alike unsure"
       ],
       "cons": [
-        "Players agree in advance how new suits rank and score"
+        "Players agree in advance how new suits rank and score",
+        "Marking extra cards by hand takes effort"
       ],
       "exemplars": [],
       "source": {
@@ -7463,7 +7668,8 @@
         "The less skilled player can try a plan and undo it"
       ],
       "cons": [
-        "A second move you regret in the same turn cannot be undone"
+        "A second move you regret in the same turn cannot be undone",
+        "The more skilled player's reply can be wasted"
       ],
       "exemplars": [],
       "source": {
@@ -7502,7 +7708,8 @@
       ],
       "tendency": "When each player makes two moves in a turn in a game about holding space, a group needs more room to stay safe.",
       "pros": [
-        "Fights go differently from the usual game"
+        "Fights go differently from the usual game",
+        "The same board and stones are used"
       ],
       "cons": [
         "Habits from the usual game stop working",
@@ -7527,6 +7734,7 @@
         "Tactics are very different from the usual game"
       ],
       "cons": [
+        "Players have to learn which shapes are allowed",
         "The first player needs a limit on the first turn to stay level"
       ],
       "exemplars": [],
@@ -7592,7 +7800,8 @@
         "A group that holds a ring of six points is permanently safe from capture"
       ],
       "cons": [
-        "Where pieces can move, breaking the ring ends the safety"
+        "Where pieces can move, breaking the ring ends the safety",
+        "Players have to learn the ring rule before play"
       ],
       "exemplars": [],
       "source": {
@@ -7613,7 +7822,8 @@
         "A piece may jump over any adjacent piece, whoever it belongs to"
       ],
       "cons": [
-        "A rule is needed so one piece cannot stall the game for ever"
+        "A rule is needed so one piece cannot stall the game for ever",
+        "Players may spend turns blocking instead of racing"
       ],
       "exemplars": [],
       "source": {
@@ -7634,7 +7844,8 @@
         "The game can end suddenly"
       ],
       "cons": [
-        "A player who copies the other in mirror image can force a draw, so an extra rule is needed"
+        "A player who copies the other in mirror image can force a draw, so an extra rule is needed",
+        "Players have to watch the whole board every turn"
       ],
       "exemplars": [],
       "source": {
@@ -7720,7 +7931,10 @@
         "Lines can run off one edge and return on the other",
         "Every starting point is alike"
       ],
-      "cons": [],
+      "cons": [
+        "Players find it hard to picture a line that leaves one edge and comes back",
+        "A flat sheet of paper needs a rule for the wrap"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
@@ -7740,7 +7954,8 @@
         "Draws are very rare"
       ],
       "cons": [
-        "A ring is almost never completed, so it works mostly as a threat"
+        "A ring is almost never completed, so it works mostly as a threat",
+        "Three winning shapes are more to learn than one"
       ],
       "exemplars": [],
       "source": {
@@ -7761,7 +7976,8 @@
         "Overlapping words score separately"
       ],
       "cons": [
-        "Only the longer word counts when one word sits inside another"
+        "Only the longer word counts when one word sits inside another",
+        "A score table is needed"
       ],
       "exemplars": [],
       "source": {
@@ -7804,6 +8020,7 @@
         "A win comes from capturing five pieces whose numbers form a run"
       ],
       "cons": [
+        "Players have to track the numbers taken and left",
         "Taking any piece is not enough to win"
       ],
       "exemplars": [],
@@ -7847,7 +8064,8 @@
         "Key squares such as corners fall late in the game"
       ],
       "cons": [
-        "Taking many pieces early tends to give the other player more moves"
+        "Taking many pieces early tends to give the other player more moves",
+        "Players are drawn to the move that takes the most pieces"
       ],
       "exemplars": [],
       "source": {
@@ -7912,7 +8130,8 @@
         "The same rules suit longer and shorter boards, and the 2x3 game is far from trivial"
       ],
       "cons": [
-        "A player has far more moves to weigh each turn"
+        "A player has far more moves to weigh each turn",
+        "Beads of several values have to be kept straight"
       ],
       "exemplars": [],
       "source": {
@@ -7933,7 +8152,8 @@
         "The first-move edge can be adjusted by where the marker starts"
       ],
       "cons": [
-        "A separate track has to be drawn"
+        "A separate track has to be drawn",
+        "Players have to learn to add the marker points"
       ],
       "exemplars": [],
       "source": {
@@ -7954,7 +8174,8 @@
         "Filling a shelter can block another player"
       ],
       "cons": [
-        "One slow piece decides the whole game"
+        "One slow piece decides the whole game",
+        "A large board and many pieces take a long time"
       ],
       "exemplars": [],
       "source": {
@@ -7975,6 +8196,7 @@
         "There are several ways to score"
       ],
       "cons": [
+        "A series takes more time",
         "Players have to keep a running tally"
       ],
       "exemplars": [],
@@ -7996,7 +8218,8 @@
         "A player can skip a roll that does not help"
       ],
       "cons": [
-        "A lucky double can hurt the other side heavily"
+        "A lucky double can hurt the other side heavily",
+        "Four players take a long time over one game"
       ],
       "exemplars": [],
       "source": {
@@ -8017,7 +8240,8 @@
         "Allies can plan together"
       ],
       "cons": [
-        "Players have to keep track of the turn order"
+        "Players have to keep track of the turn order",
+        "A mistake in order cannot be blamed on a roll"
       ],
       "exemplars": [],
       "source": {
@@ -8126,7 +8350,8 @@
         "Any number of teams can take part"
       ],
       "cons": [
-        "One player's boast can cost every teammate a point"
+        "One player's boast can cost every teammate a point",
+        "Each team needs a bidder who can judge how hard a phrase is"
       ],
       "exemplars": [],
       "source": {
@@ -8146,7 +8371,10 @@
         "Bidders bid with the answer in front of them",
         "Both bidders see the same phrase, so bids compare judgement"
       ],
-      "cons": [],
+      "cons": [
+        "The actor can only mime, so a low bid is hard to keep",
+        "A low bid tells rival bidders the phrase looks easy"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
@@ -8188,7 +8416,8 @@
         "Two sheets read together tell more than either alone"
       ],
       "cons": [
-        "The host has to write rules that do not contradict one another"
+        "The host has to write rules that do not contradict one another",
+        "A player may trade away a sheet that was worth a lot"
       ],
       "exemplars": [],
       "source": {
@@ -8230,7 +8459,10 @@
         "Trading softens a first hand with little use",
         "Caps on the highest cards stop a lucky deal from deciding the winner"
       ],
-      "cons": [],
+      "cons": [
+        "Players who are dealt useful information sheets still start ahead",
+        "The host has to design the caps with care"
+      ],
       "exemplars": [],
       "source": {
         "ref": "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
@@ -8360,6 +8592,7 @@
         "Tactics and psychology both matter"
       ],
       "cons": [
+        "Players slow down to weigh what to offer",
         "A single legal move cannot be refused"
       ],
       "exemplars": [],
@@ -8403,7 +8636,8 @@
         "Each letter carries two moves"
       ],
       "cons": [
-        "Check and checkmate are dropped, so the king needs watching on every move"
+        "Check and checkmate are dropped, so the king needs watching on every move",
+        "Moving into check is allowed, which changes habits learned from ordinary chess"
       ],
       "exemplars": [],
       "source": {
@@ -8424,7 +8658,8 @@
         "Extra colours make the game harder to work out"
       ],
       "cons": [
-        "Giving each player their own colour makes it harder still"
+        "Giving each player their own colour makes it harder still",
+        "Touching regions can end the game suddenly"
       ],
       "exemplars": [],
       "source": {
@@ -8511,7 +8746,8 @@
         "Finished players stay in the game and threaten others"
       ],
       "cons": [
-        "A poison ball that hits the stake is out"
+        "A poison ball that hits the stake is out",
+        "Knocked-out players wait while the game goes on"
       ],
       "exemplars": [],
       "source": {
@@ -8664,7 +8900,8 @@
         "The same gift can serve as a handicap between players of unequal skill"
       ],
       "cons": [
-        "Both players need to keep count of the rethrow options they have left"
+        "Both players need to keep count of the rethrow options they have left",
+        "A player with fewer re-throws has less to fall back on after an unwanted roll."
       ],
       "exemplars": [],
       "source": {
@@ -8685,7 +8922,8 @@
         "More choices give a player more chance to control the outcome and show skill"
       ],
       "cons": [
-        "A change that seems promising can have unwanted consequences that are hard to foresee"
+        "A change that seems promising can have unwanted consequences that are hard to foresee",
+        "Moves become less of a surprise."
       ],
       "exemplars": [],
       "source": {
@@ -8727,7 +8965,10 @@
         "Attacks come faster.",
         "The game can end sooner."
       ],
-      "cons": [],
+      "cons": [
+        "The other player waits through two moves before replying.",
+        "A plan can be finished before the other player can answer."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
@@ -8747,7 +8988,8 @@
         "Both players start with a say in who moves first."
       ],
       "cons": [
-        "A fully even balance is impossible when forces are unequal and draws cannot happen"
+        "A fully even balance is impossible when forces are unequal and draws cannot happen",
+        "Players need some way to measure what going first is worth."
       ],
       "exemplars": [],
       "source": {
@@ -8790,7 +9032,8 @@
         "The game is challenging psychologically as well as tactically"
       ],
       "cons": [
-        "A player can be pushed into a move they did not first choose."
+        "A player can be pushed into a move they did not first choose.",
+        "Each turn takes longer."
       ],
       "exemplars": [],
       "source": {
@@ -8810,7 +9053,10 @@
         "The other player has a hand in every move.",
         "The idea can be added to nearly any strategy game for two"
       ],
-      "cons": [],
+      "cons": [
+        "Each turn needs two usable ideas instead of one.",
+        "The strongest move may never be on the table."
+      ],
       "exemplars": [],
       "source": {
         "ref": "Schmittberger, R. W. (1992). New rules for classic games. New York: John Wiley & Sons. ISBN 978-0-471-53621-5.",
@@ -8896,7 +9142,8 @@
         "A shot that leaves the side of the table gives the other player the next shot from where it left"
       ],
       "cons": [
-        "A shot that goes right past the far end gives the other player a three-point kick"
+        "A shot that goes right past the far end gives the other player a three-point kick",
+        "Players cannot attack directly, only leave things in a spot"
       ],
       "exemplars": [],
       "source": {
@@ -8917,7 +9164,8 @@
         "A clean run lets one player keep going"
       ],
       "cons": [
-        "A slip ends the turn at once, however it began"
+        "A slip ends the turn at once, however it began",
+        "Waiting players have little to do but watch"
       ],
       "exemplars": [],
       "source": {
@@ -8938,7 +9186,8 @@
         "Different objects can be worth different amounts"
       ],
       "cons": [
-        "A turn is over the moment another stick moves"
+        "A turn is over the moment another stick moves",
+        "A single slip early on can cost a whole turn's worth"
       ],
       "exemplars": [],
       "source": {
@@ -9280,6 +9529,28 @@
     },
     {
       "elements": [
+        "call-and-response",
+        "absurd"
+      ],
+      "tendency": "A scene that has to follow a strict rule, like starting each line with the next letter, tends to head somewhere odd.",
+      "pros": [
+        "The rule gives players a reason to say unusual things",
+        "Odd turns are accepted because the rule forces them"
+      ],
+      "cons": [
+        "The scene can lose its thread",
+        "Not every player finds nonsense easy"
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Spadaccini, S. (2005). The big book of rules: board games, kids' games, card games, from backgammon and bocce to tiddlywinks and stickball. New York: Plume. ISBN 978-0-452-28644-3.",
+        "short": "Spadaccini, 2005",
+        "page": "p. 59"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
         "hidden-identity",
         "bluffing"
       ],
@@ -9377,7 +9648,8 @@
         "The game can be adapted to TV shows and song titles"
       ],
       "cons": [
-        "A player who cannot name a movie within the time limit is out"
+        "A player who cannot name a movie within the time limit is out",
+        "A slow thinker leaves early, whatever they know"
       ],
       "exemplars": [],
       "source": {
@@ -9398,7 +9670,8 @@
         "The sample chain runs from The Godfather to Revenge of the Nerds and on to Sabrina"
       ],
       "cons": [
-        "The time limit is agreed beforehand, for instance ten seconds"
+        "The time limit is agreed beforehand, for instance ten seconds",
+        "Easier words come up again and again"
       ],
       "exemplars": [],
       "source": {
@@ -9573,7 +9846,8 @@
         "The players may agree a time limit before they start"
       ],
       "cons": [
-        "A prisoner can be freed only while one hand or foot is on the Jail"
+        "A prisoner can be freed only while one hand or foot is on the Jail",
+        "The count of prisoners is easy to dispute"
       ],
       "exemplars": [],
       "source": {
@@ -9836,7 +10110,8 @@
         "A catch puts the thrower out"
       ],
       "cons": [
-        "Stepping across the centre line, or out of bounds, while dodging puts a player out"
+        "Stepping across the centre line, or out of bounds, while dodging puts a player out",
+        "The game can run long if both sides catch often"
       ],
       "exemplars": [],
       "source": {
@@ -10121,7 +10396,8 @@
         "The first player to cover the pile with a hand takes it all"
       ],
       "cons": [
-        "The game runs until one player holds every card"
+        "The game runs until one player holds every card",
+        "Tied slaps need a rule to settle them."
       ],
       "exemplars": [],
       "source": {
@@ -10150,6 +10426,50 @@
         "ref": "Spadaccini, S. (2005). The big book of rules: board games, kids' games, card games, from backgammon and bocce to tiddlywinks and stickball. New York: Plume. ISBN 978-0-452-28644-3.",
         "short": "Spadaccini, 2005",
         "page": "p. 335"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "trick-taking",
+        "hidden-hands"
+      ],
+      "tendency": "Each player sees only their own cards, so the leader plays without knowing who can follow suit or trump.",
+      "pros": [
+        "Every trick holds a small surprise.",
+        "Remembering played cards pays off."
+      ],
+      "cons": [
+        "An uneven deal limits what a player can do.",
+        "Players who track every card may take longer on each play."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Spadaccini, S. (2005). The big book of rules: board games, kids' games, card games, from backgammon and bocce to tiddlywinks and stickball. New York: Plume. ISBN 978-0-452-28644-3.",
+        "short": "Spadaccini, 2005",
+        "page": "p. 328"
+      },
+      "verification_status": "book-20261106-unreviewed"
+    },
+    {
+      "elements": [
+        "push-your-luck",
+        "bluffing"
+      ],
+      "tendency": "In poker each bet, call or raise can be a bluff, so players decide how much to risk on a hand others cannot see.",
+      "pros": [
+        "Betting limits keep risk small.",
+        "Folding lets a player stop losing."
+      ],
+      "cons": [
+        "A big bet can win a pot with a low-ranked hand.",
+        "Players who bluff often lose chips fast."
+      ],
+      "exemplars": [],
+      "source": {
+        "ref": "Spadaccini, S. (2005). The big book of rules: board games, kids' games, card games, from backgammon and bocce to tiddlywinks and stickball. New York: Plume. ISBN 978-0-452-28644-3.",
+        "short": "Spadaccini, 2005",
+        "page": "p. 301"
       },
       "verification_status": "book-20261106-unreviewed"
     }

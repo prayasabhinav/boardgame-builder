@@ -1,7 +1,7 @@
 # Ship, Captain, Mate and Crew — find three numbers in order, then score the rest
 
-- From: Ship, Captain, Mate and Crew, a dice game
-- Players: 2 or more players
+- From: Ship, Captain, Mate and Crew, an old dice game played by sailors
+- Players: 2 to 6 players
 - Time: 10 min
 - Made by: Traditional
 - Rules from: Board and Table Games from Many Civilizations, p. 136

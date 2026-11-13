@@ -1,6 +1,6 @@
 # The Clock — follow each card to its hour
 
-- From: The Clock, a solitaire
+- From: The Clock, a solitaire of pure chance
 - Players: 1 player
 - Time: 5–10 min
 - Made by: Traditional

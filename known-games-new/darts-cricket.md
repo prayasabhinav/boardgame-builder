@@ -1,6 +1,6 @@
 # Darts Cricket — close the numbers, then score on them
 
-- From: Cricket, a darts game
+- From: Cricket, a darts game from England
 - Players: Any number of players, in two equal teams
 - Time: 15–20 min
 - Made by: Traditional; the book says it began in England and is played in bars and family rooms

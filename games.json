@@ -4,7 +4,7 @@
   "title": "Pig — the dice push",
   "parent_game": "Pig, a folk dice game",
   "credits": {
-   "by": "Cited to John Scarne, Scarne on Dice, 1946, in Bell's list of sources",
+   "by": "Folk game; described in print by John Scarne, Scarne on Dice, 1946",
    "version": "Played to 20 rather than 100"
   },
   "lesson": "Push your luck in its plainest form: after every roll, keep what you have or risk it for more. Change one number, the bust or the target, and the whole table plays more boldly or more carefully.",
@@ -1219,7 +1219,7 @@
    {
     "n": 4,
     "title": "Day: discuss and vote",
-    "body": "The players still in talk about who the wolf is. The wolf lies. Anyone who wants to protest or share something has to do it before the vote. Then the players still in vote. As soon as a majority names one player, that player is out and can only watch, and the Moderator says whether they were the wolf or a villager. Then night falls again.",
+    "body": "The players still in talk about who the wolf is. The wolf lies; villagers ask questions. Anyone who wants to protest or share something has to do it before the vote. Then the players still in vote. As soon as a majority names one player, that player is out and can only watch, and the Moderator says whether they were the wolf or a villager. Then night falls again.",
     "svg": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'>\n<rect x='0' y='0' width='220' height='160' fill='#2D3127'/>\n<g fill='none' stroke='#FFF8E8' stroke-width='1.5'>\n<path d='M 25 75 Q 35 70 45 75'/>\n<path d='M 60 75 Q 70 70 80 75'/>\n<path d='M 140 75 Q 150 70 160 75'/>\n<path d='M 175 75 Q 185 70 195 75'/>\n</g>\n<g transform='translate(110,80)'>\n<path d='M -18 -10 L -22 -22 L -10 -16 Z' fill='#C75B39'/>\n<path d='M 18 -10 L 22 -22 L 10 -16 Z' fill='#C75B39'/>\n<ellipse cx='0' cy='0' rx='20' ry='18' fill='#C75B39'/>\n<circle cx='-7' cy='-3' r='2.5' fill='#FFE15A'/>\n<circle cx='7' cy='-3' r='2.5' fill='#FFE15A'/>\n<path d='M -8 8 L -3 5 L 0 8 L 3 5 L 8 8' stroke='#FFF8E8' stroke-width='1.5' fill='none'/>\n</g>\n<text x='110' y='145' text-anchor='middle' font-family='IBM Plex Mono' font-size='10' fill='#FFF8E8' letter-spacing='0.1em'>NIGHT · WOLF MOVES</text></svg>"
    },
    {
@@ -5896,7 +5896,8 @@
   "title": "Three Men's Morris — three in a row, then move",
   "parent_game": "Three Men's Morris, an old game related to tic-tac-toe",
   "credits": {
-   "by": "Traditional"
+   "by": "Traditional",
+      "rules": "The board as recorded by the US National Park Service"
   },
   "lesson": "Placing pieces, then moving them: a second phase keeps a tic-tac-toe-like game from ending in a draw. It shows phases as a design tool.",
   "teaches": "pattern-building + full-information + direct-confrontation",
@@ -6960,7 +6961,7 @@
   "parent_game": "Eleusis, a card game by Robert Abbott",
   "credits": {
    "by": "Robert Abbott, 1956",
-   "version": "A short version: 7 cards each where Schmittberger deals 14, and the fewest cards in hand wins where Schmittberger scores each player as the highest hand count minus their own cards"
+   "version": "Close to Eleusis Express, John Golden's short version: 7 cards each where Schmittberger deals 14, and the fewest cards in hand wins where Schmittberger scores each player as the highest hand count minus their own cards"
   },
   "lesson": "The rules themselves are what you discover. Players learn by testing guesses against right and wrong, which is how a designer learns what a rule does. The Rulemaker also feels the balance: a rule nobody finds is as dull as one everyone finds at once.",
   "teaches": "rules-you-discover",
@@ -8158,7 +8159,7 @@
   "title": "The Royal Game of Ur — race through the shared middle",
   "parent_game": "The Royal Game of Ur, from ancient Mesopotamia",
   "credits": {
-   "by": "The ancient Middle East, about 2600 BCE; the exact rules are not known",
+   "by": "Ancient Mesopotamia, about 2600 BCE; the exact rules are not known, and the rules played today follow Irving Finkel of the British Museum",
    "version": "Four coins in place of the tetrahedral dice Flanagan describes, whose throws run from zero to four. Burgun reports only a starting wager and a larger wager for landing on one of the four corner points; here those points are the four rosettes on the outer rows, and no amounts are fixed. The path, the moves and how the game is won are this tool's own"
   },
   "lesson": "A race with a shared middle, where luck decides the distance and there are few choices to make. It shows how a few special squares, the rosettes, shape the whole flow of a game.",
@@ -8212,7 +8213,7 @@
    {
     "n": 6,
     "title": "Win",
-    "body": "The first to take all seven pieces off the board wins the pot."
+    "body": "The first to take all seven pieces off the board, each by an exact throw, wins the pot."
    }
   ],
   "what_to_notice": [

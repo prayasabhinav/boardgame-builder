@@ -1,7 +1,7 @@
 # Gin Rummy — keep your sets hidden in your hand
 
 - From: Gin Rummy, a Rummy game
-- Players: 2 or more players
+- Players: 2–4 players
 - Time: 15–20 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 130

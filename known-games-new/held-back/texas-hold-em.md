@@ -3,7 +3,7 @@
 - From: Texas Hold'em, a community card form of poker
 - Players: 2–8 players
 - Time: 15–25 min
-- Made by: not named in the book
+- Made by: Traditional; poker grew up in the United States in the 1800s
 - Rules from: The Big Book of Rules, p. 309
 - This version: Beans or coins for chips, five hands, and the player with the most chips at the end wins
 

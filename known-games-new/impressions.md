@@ -1,7 +1,7 @@
 # Impressions — be someone without being told who
 
 - From: Impressions (If I Were a ...), a parlour game
-- Players: 2 or more players, better with 4 or more
+- Players: 4–10 players
 - Time: 10–15 min
 - Made by: Traditional; the book says a novel by John Updike featured it
 - Rules from: The Big Book of Rules, p. 52

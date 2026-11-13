@@ -1,7 +1,7 @@
 # Go Fish — ask for the card you need
 
 - From: Go Fish, a card game
-- Players: 2 or more players
+- Players: 2–5 players
 - Time: 10–15 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 107

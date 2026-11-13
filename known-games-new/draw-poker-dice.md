@@ -1,7 +1,7 @@
 # Draw Poker Dice — keep some dice, throw the rest
 
 - From: Draw Poker, played with dice
-- Players: Several players
+- Players: 2 to 6 players
 - Time: 10 min
 - Made by: Traditional
 - Rules from: The Everything Games Book, p. 182

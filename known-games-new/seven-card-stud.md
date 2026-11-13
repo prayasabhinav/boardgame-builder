@@ -3,7 +3,7 @@
 - From: Seven-Card Stud, a stud form of poker
 - Players: 2–10 players
 - Time: 15–25 min
-- Made by: not named in the book
+- Made by: Traditional; poker grew up in the United States in the 1800s
 - Rules from: The Big Book of Rules, p. 306
 - This version: Beans or coins for chips, three hands, and the player with the most chips at the end wins
 
@@ -22,7 +22,7 @@ Because some cards are open, every bet is made with partly known information. It
 
 ## How to play
 
-1. **Deal.** Deal two cards face down and then one face up to each player.
+1. **Ante and deal.** Everyone puts one chip in the pot. Deal two cards face down and then one face up to each player.
 2. **First bet.** The player showing the highest card bets first. Others fold, call or raise in turn.
 3. **Three more cards.** Deal one more card face up to each player still in, and bet again. Do this three times. Each time, the player whose open cards make the best hand bets first.
 4. **Last card.** Deal one more card face down to each player and bet for the last time. Each player now has three cards hidden and four showing.
