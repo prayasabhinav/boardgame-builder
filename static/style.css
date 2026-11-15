@@ -306,6 +306,8 @@ body {
   transform: translateY(-1px);
 }
 .block:active { cursor: grabbing; }
+.block { touch-action: none; }   /* a finger drags the block instead of scrolling */
+.ghost { position: fixed; z-index: 1000; pointer-events: none; transform: translate(-50%, -50%); opacity: .9; }
 .block.dragging { opacity: 0.4; transform: none; }
 
 .block[data-dim="feeling"] {

@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.23.0 — 15 November 2026
+
+- Blocks can be dragged with a finger or a pen, so the tool works on a phone: a copy of the block follows the finger and drops into the slot or onto the feelings shelf where it lifts. A mouse drags as before. Blocks are placed only by dragging, and the canvas hint and How it works say so (his choice, 15 November 2026, to bring every builder to ungli's drag-only rule).
+
 ## 0.22.4 — 13 November 2026
 
 - **The clash model learnt from the pairs it was unsure of.** 212 pairs were labelled: the 17 where the three readers had split, the 194 the tool flags, and others it put between 10% and 90%. For each, a reader searched the books and research papers for a game with both blocks, or a passage saying they cannot go together, and otherwise decided by logical inference, saying so. 9 labels rest on a source whose words code found (among them Hoyle on craps, that there is little skill in it beyond knowing the odds); 201 on inference. One reader agreed with the three earlier readers' majority on 78% of the pairs both covered, so an inference label counts with that weight, and a source label counts as settled. Measured before it went in, each pair held out of its own training: on the newly labelled pairs, Brier 0.237 before and 0.196 after (17% better); on the readers' votes, 0.0111 before and 0.0098 after (12% better), correlation 0.812 to 0.830. The flags and their reasons are unchanged; the teacher's page shows the new probabilities. Training now runs on a separate machine (`review-model/train-remote.sh`).

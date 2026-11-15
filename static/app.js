@@ -312,7 +312,31 @@ function createBlock(id, display, dim, { inSlot = false, meta = null } = {}) {
     el.classList.add("dragging");
   });
   el.addEventListener("dragend", () => el.classList.remove("dragging"));
+  touchDrag(el, { id, dim, fromCanvas: inSlot });
   return el;
+}
+
+// A finger or a pen drags a copy of the block and it drops where it lifts, into the slot or shelf under it (15 November 2026,
+// his choice, as in ungli: blocks are placed only by dragging, and a phone could not drag before). A mouse keeps the native
+// drag above. Both end in the zone's acceptBlock.
+function touchDrag(el, data) {
+  el.addEventListener("pointerdown", (e) => {
+    if (e.pointerType === "mouse" || state.locked || e.target.closest(".info-btn, .remove-x")) return;
+    e.preventDefault();
+    const ghost = el.cloneNode(true); ghost.classList.add("ghost"); document.body.appendChild(ghost);
+    let over = null;
+    const move = (ev) => {
+      ghost.style.left = ev.clientX + "px"; ghost.style.top = ev.clientY + "px";
+      ghost.hidden = true; const z = document.elementFromPoint(ev.clientX, ev.clientY)?.closest("[data-drop]"); ghost.hidden = false;
+      if (over !== z) { over?.classList.remove("drop-active"); z?.classList.add("drop-active"); over = z; }
+    };
+    const end = (ev) => {
+      removeEventListener("pointermove", move); removeEventListener("pointerup", end); removeEventListener("pointercancel", end);
+      ghost.remove(); over?.classList.remove("drop-active");
+      if (ev.type === "pointerup" && over) over.acceptBlock(data);
+    };
+    move(e); addEventListener("pointermove", move); addEventListener("pointerup", end); addEventListener("pointercancel", end);
+  });
 }
 
 // ── Block info modal ──────────────────────────────────────────────
@@ -446,8 +470,12 @@ function renderMechanicsGrid() {
       if (state.locked) return;
       e.preventDefault();
       slot.classList.remove("drop-active");
-      const data = JSON.parse(e.dataTransfer.getData("application/x-gc-block") || "{}");
-      if (!data.id || data.dim !== dim.id) return;
+      slot.acceptBlock(JSON.parse(e.dataTransfer.getData("application/x-gc-block") || "{}"));
+    });
+    // What a drop does, called by a mouse drop above and by a finger's drag (touchDrag), 15 November 2026
+    slot.dataset.drop = dim.id;
+    slot.acceptBlock = (data) => {
+      if (state.locked || !data.id || data.dim !== dim.id) return;
       if (multi) {
         const current = Array.isArray(state.mechanics[dim.id]) ? state.mechanics[dim.id] : [];
         // Append unless block is already present in this slot.
@@ -462,7 +490,7 @@ function renderMechanicsGrid() {
       saveState();
       pingSaved();
       if ((lookupBlockMeta(data.id).questions || []).length && !state.answers[data.id]) openQuestions(data.id);
-    });
+    };
 
     grid.appendChild(slot);
   }
@@ -621,15 +649,18 @@ function setupFeelingsDropZone() {
     if (state.locked) return;
     e.preventDefault();
     shelf.classList.remove("drop-active");
-    const data = JSON.parse(e.dataTransfer.getData("application/x-gc-block") || "{}");
-    if (!data.id || data.dim !== "feeling") return;
+    shelf.acceptBlock(JSON.parse(e.dataTransfer.getData("application/x-gc-block") || "{}"));
+  });
+  shelf.dataset.drop = "feeling";
+  shelf.acceptBlock = (data) => {
+    if (state.locked || !data.id || data.dim !== "feeling") return;
     if (!state.chosenFeelings.includes(data.id)) {
       state.chosenFeelings.push(data.id);
     }
     renderFeelingsShelf();
     saveState();
     pingSaved();
-  });
+  };
 }
 
 // ── Remove block handlers ─────────────────────────────────────────
