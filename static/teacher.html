@@ -66,6 +66,9 @@
   .slots { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 3px 14px; margin: 6px 0 14px; font-size: 14.5px; }
   .slots dt { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink2); padding-top: 3px; }
   .slots dd { margin: 0; color: var(--ink); }
+  .history-step { display: flex; align-items: center; gap: 12px; margin: 4px 0 10px; font-family: var(--font-mono); font-size: 12px; color: var(--ink2); }
+  .history-step input { flex: 1; accent-color: var(--accent); }
+  .history-text { margin: 0; font-size: 14px; color: var(--ink2); white-space: pre-wrap; overflow-wrap: anywhere; }
   .look { font-size: 13px; padding: 9px 16px; }
   .card.seen .look { background: transparent; color: var(--ink2); border: 1px solid var(--surface-border); }
   .t-full { position: fixed; inset: 0; z-index: 20; background: var(--surface); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; padding: 48px 24px; text-align: center; }
@@ -108,9 +111,16 @@
       <ol class="t-steps" id="steps">
         <li>Press <b>Start a class</b>.</li>
         <li>Students open the link, or open boardgameBuilder and press <b>Join a class</b> in the header.</li>
-        <li>They type their name and design as usual.</li>
+        <li>They type their name and choose a four-digit PIN; with the code, their name and the PIN they get their design back on any device.</li>
       </ol>
       <p style="margin:18px 0 0"><button class="k-btn-primary t-start" id="start" type="button">Start a class</button></p>
+      <form id="openForm" style="margin:22px 0 0">
+        <label class="t-hint" for="openCode">Or open a class that is already running, by its code or its join link</label>
+        <input id="openCode" autocomplete="off" spellcheck="false" placeholder="five letters" style="width:100%;margin:8px 0;padding:10px 12px;font-family:var(--font-mono);font-size:15px;letter-spacing:0.12em;text-transform:uppercase">
+        <button class="k-btn-outline" id="open" type="submit" style="width:100%">Open this class</button>
+        <p class="t-hint" id="openMsg" role="status"></p>
+      </form>
+      <div id="allClasses" hidden style="margin:22px 0 0"><span class="section-eyebrow">Every running class · admin</span><div id="allList"></div></div>
     </section>
     <section id="live" hidden>
       <span class="section-eyebrow eyebrow-accent">Class · open</span>
@@ -125,8 +135,9 @@
       </div>
       <p class="t-status" id="status" style="margin-top:14px"></p>
       <p style="margin:14px 0 0"><button class="k-btn-outline t-end" id="end" type="button">End the class</button></p>
+      <p class="t-hint" id="ownerNote" hidden></p>
     </section>
-    <p class="t-foot">Nothing is written to disk, and it all goes when the class ends. A student leaves the list when the pair leaves their canvas or they leave the class. The counts are for the class as a whole. Which students you have looked at is kept in this browser only.</p>
+    <p class="t-foot">The class is kept on the server until a teacher ends it, or for four months at most, and ending it deletes it, with every student's history. Any signed-in teacher can open it by its code. A student leaves the list when the pair leaves their canvas or they leave the class. The counts are for the class as a whole. Which students you have looked at is kept in this browser only.</p>
   </aside>
   <main class="t-body">
     <span class="section-eyebrow">Teacher's page</span>
@@ -142,10 +153,11 @@
       <p class="t-since" id="since"></p>
     </section>
     <div class="t-bar" id="bar" hidden>
-      <span class="section-eyebrow">Students whose blocks clash</span>
+      <span class="section-eyebrow" id="barTitle">Students whose blocks clash</span>
       <div class="t-tabs" role="group" aria-label="Show">
         <button type="button" id="byStudent" aria-pressed="true">By student</button>
         <button type="button" id="byPair" aria-pressed="false">By pair</button>
+        <button type="button" id="byHistory" aria-pressed="false">History</button>
       </div>
     </div>
     <div class="list" id="list"><p class="empty">Start a class to see your students here.</p></div>
@@ -160,6 +172,7 @@
 <script>
 const KEY = "bgb-teacher";
 let cls = null, names = {}, slots = {}, timer = null, students = [], view = "student", armed = null;
+let histories = [], step = {}, myName = "", isAdmin = false, resetDone = {};   // every student's kept versions, and which version each history card shows
 let live = false;   // the server has answered for this class since the page opened
 
 const $ = (id) => document.getElementById(id);
@@ -201,11 +214,28 @@ function slotsHtml(mechanics) {
   return `<dl class="slots">${rows.map(([slot, p]) => `<dt>${esc(slots[slot] || slot)}</dt><dd>${p.map((b) => esc(nameOf(b))).join(" · ")}</dd>`).join("")}</dl>`;
 }
 
+function historyCard(h) {
+  const n = h.versions.length;
+  const i = Math.min(step[h.name] ?? n - 1, n - 1);
+  const v = h.versions[i];
+  if (!v) return `<article class="card"><div class="card-head"><h3>${esc(h.name)}</h3><span class="when">no design yet</span></div></article>`;
+  return `<article class="card" data-name="${esc(h.name)}"><div class="card-head"><h3>${esc(h.name)}</h3>
+      <span class="when">${new Date(v.at * 1000).toLocaleString([], { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}</span></div>
+    ${n > 1 ? `<label class="history-step"><span>Version ${i + 1} of ${n}</span><input type="range" min="0" max="${n - 1}" value="${i}" data-name="${esc(h.name)}"></label>` : ""}
+    ${slotsHtml(v.mechanics)}${v.narrative ? `<p class="history-text">${esc(v.narrative)}</p>` : ""}
+    <p style="margin:12px 0 0"><button class="k-btn-outline reset-pin" type="button" data-name="${esc(h.name)}">${resetDone[h.name] ? `Reset: the PIN ${esc(h.name)} types next time becomes their new one` : "Forgot their PIN? Reset it"}</button></p></article>`;
+}
+
+function renderHistory() {
+  $("list").innerHTML = histories.length ? histories.map(historyCard).join("") : `<p class="empty">No student has joined yet.</p>`;
+}
+
 function render() {
   const list = $("list");
   $("bar").hidden = !cls;
   if (!cls) return;
   list.classList.toggle("pairs", view === "pair" && students.length > 0);
+  if (view === "history") return renderHistory();
   if (!students.length) { list.innerHTML = `<p class="empty">No student has two clashing blocks on their canvas.</p>`; return; }
   const seen = seenStore();
   if (view === "pair") {
@@ -240,12 +270,16 @@ async function refresh() {
   students = await resp.json();
   const ov = await fetch(`/class/${cls.code}/overview?key=${encodeURIComponent(cls.key)}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   if (ov) {
+    const mine = !ov.owner || ov.owner === myName || isAdmin;   // only the teacher who started the class, or an admin, can end it
+    $("end").hidden = !mine; $("ownerNote").hidden = mine;
+    $("ownerNote").textContent = mine ? "" : `Started by ${ov.owner}; only they can end it.`;
     $("joined").textContent = ov.joined; $("changes").textContent = ov.changes; $("flagged").textContent = ov.flagged;
     const min = Math.floor((Date.now() / 1000 - ov.made) / 60);
     cls.made = ov.made * 1000;
     $("since").textContent = `For the whole class, since it started ${min < 1 ? "under a minute" : min === 1 ? "a minute" : min < 60 ? `${min} minutes` : `${Math.floor(min / 60)} h ${min % 60} min`} ago. A change is a block placed, moved or taken off. Nothing here is counted per student.`;
   }
-  const ends = cls.made ? ` The class ends at ${new Date(cls.made + 24 * 3600 * 1000).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" })} unless you end it first.` : "";
+  if (view === "history") histories = await fetch(`/class/${cls.code}/history?key=${encodeURIComponent(cls.key)}`).then((r) => (r.ok ? r.json() : histories)).catch(() => histories);
+  const ends = ov ? ` The class ends on ${new Date(ov.ends * 1000).toLocaleDateString([], { day: "numeric", month: "long", year: "numeric" })} unless a teacher ends it first.` : "";
   $("status").textContent = `Up to date at ${new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}; checked every five seconds.${ends}`;
   render();
 }
@@ -265,6 +299,7 @@ function stop(message) {
   clearInterval(timer);
   try { localStorage.removeItem(`${KEY}-seen-${cls.code}`); localStorage.removeItem(KEY); } catch (_) {}
   cls = null; students = []; live = false;
+  if (isAdmin) listClasses();
   $("live").hidden = true; $("none").hidden = false; $("steps").hidden = false; $("intro").hidden = false; $("full").hidden = true;
   $("bar").hidden = true; $("overviewBox").hidden = true; $("list").classList.remove("pairs");
   $("list").innerHTML = `<p class="empty">${esc(message || "Start a class to see your students here.")}</p>`;
@@ -276,6 +311,29 @@ $("start").addEventListener("click", async () => {
   if (!resp || !resp.ok) { $("list").innerHTML = `<p class="empty">Could not start a class. Try again.</p>`; return; }
   cls = { ...(await resp.json()), made: Date.now() };
   try { localStorage.setItem(KEY, JSON.stringify(cls)); } catch (_) {}
+  show();
+});
+// An admin sees every running class and opens any of them with one press
+async function listClasses() {
+  const all = await fetch("/classes").then((r) => (r.ok ? r.json() : [])).catch(() => []);
+  $("allClasses").hidden = false;
+  $("allList").innerHTML = all.length ? all.map((c) => `<p style="margin:8px 0 0"><button class="k-btn-outline" type="button" data-open="${esc(c.code)}" style="width:100%;text-align:left">${esc(c.code)} · started by ${esc(c.owner || "?")} · ${c.joined} joined</button></p>`).join("")
+    : `<p class="t-hint">No class is running.</p>`;
+}
+$("allList").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-open]");
+  if (b) { $("openCode").value = b.dataset.open; $("openForm").requestSubmit(); }
+});
+$("openForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const code = $("openCode").value.trim().split("/").pop().replace(/^#/, "").toUpperCase();
+  if (!code) return;
+  const resp = await fetch(`/class/${encodeURIComponent(code)}/key`).catch(() => null);
+  if (resp && resp.status === 401) return location.reload();
+  if (!resp || !resp.ok) { $("openMsg").textContent = resp && resp.status === 404 ? `No class is running with the code ${code}.` : "Could not reach the server. Try again."; return; }
+  cls = { ...(await resp.json()), made: Date.now() };
+  try { localStorage.setItem(KEY, JSON.stringify(cls)); } catch (_) {}
+  $("openMsg").textContent = ""; $("openCode").value = "";
   show();
 });
 $("end").addEventListener("click", async (e) => {
@@ -297,9 +355,31 @@ $("copyLink").addEventListener("click", async () => {
 $("showFull").addEventListener("click", () => { $("full").hidden = false; $("closeFull").focus(); });
 $("closeFull").addEventListener("click", () => { $("full").hidden = true; $("showFull").focus(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("full").hidden = true; });
-$("byStudent").addEventListener("click", () => { view = "student"; $("byStudent").setAttribute("aria-pressed", "true"); $("byPair").setAttribute("aria-pressed", "false"); render(); });
-$("byPair").addEventListener("click", () => { view = "pair"; $("byPair").setAttribute("aria-pressed", "true"); $("byStudent").setAttribute("aria-pressed", "false"); render(); });
-$("list").addEventListener("click", (e) => {
+function setView(v) {
+  view = v;
+  for (const [id, name] of [["byStudent", "student"], ["byPair", "pair"], ["byHistory", "history"]]) $(id).setAttribute("aria-pressed", String(view === name));
+  $("barTitle").textContent = view === "history" ? "Every student who joined, and each version of their design" : "Students whose blocks clash";
+  if (view === "history") refresh(); else render();
+}
+$("byStudent").addEventListener("click", () => setView("student"));
+$("byPair").addEventListener("click", () => setView("pair"));
+$("byHistory").addEventListener("click", () => setView("history"));
+// Stepping through a student's versions; the card keeps its place when the page refreshes
+$("list").addEventListener("input", (e) => {
+  if (!e.target.matches(".history-step input")) return;
+  const name = e.target.dataset.name, h = histories.find((x) => x.name === name);
+  step[name] = Number(e.target.value) === h.versions.length - 1 ? undefined : Number(e.target.value);
+  e.target.closest(".card").outerHTML = historyCard(h);
+  document.querySelector(`.history-step input[data-name="${CSS.escape(name)}"]`)?.focus();
+});
+$("list").addEventListener("click", async (e) => {
+  const reset = e.target.closest(".reset-pin");
+  if (reset) {
+    const resp = await fetch(`/class/${cls.code}/reset-pin?key=${encodeURIComponent(cls.key)}`, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: reset.dataset.name }) }).catch(() => null);
+    if (resp && resp.ok) { resetDone[reset.dataset.name] = true; renderHistory(); } else reset.textContent = "Could not reset it. Try again.";
+    return;
+  }
   const b = e.target.closest(".look");
   if (!b) return;
   const s = students.find((x) => x.name === b.dataset.name);
@@ -310,7 +390,8 @@ $("signOut").addEventListener("click", async (e) => {
   e.preventDefault(); await fetch("/teacher/logout", { method: "POST" }).catch(() => {}); location.reload(); });
 
 (async () => {
-  fetch("/teacher/me").then((r) => r.json()).then((me) => { $("me").textContent = `Signed in as ${me.name}`; }).catch(() => {});
+  await fetch("/teacher/me").then((r) => r.json()).then((me) => { myName = me.name; isAdmin = me.admin; $("me").textContent = `Signed in as ${me.name}${me.admin ? " · admin" : ""}`; }).catch(() => {});
+  if (isAdmin) listClasses();
   const palette = await (await fetch("/palette")).json();
   for (const d of palette.dimensions) { slots[d.id] = d.display; for (const b of d.blocks) names[b.id] = b.display; }
   try { cls = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (_) {}

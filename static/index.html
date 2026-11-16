@@ -121,9 +121,10 @@
     <dialog class="class-dialog" id="classDialog">
       <form id="classForm">
         <h3>Join a class</h3>
-        <p>Your teacher gives you a code. Some pairs of blocks are unusual; you can still place them. While you are in the class, when your canvas has an unusual pair, your name, your blocks and the pair go to your teacher. Your teacher also sees, for the whole class, how many students joined, how many changes they made and how many put an unusual pair together; nothing is counted for you alone. Once you are in, <b>Explore for 2 hours</b> in the header gives you two hours to try things out: your teacher still sees any unusual pair, marked as exploration, and does not review it. Nothing is written down, and it all goes when the class ends, after a day at most.</p>
+        <p>Your teacher gives you a code. The first time, choose a four-digit PIN: with the code, your name and the PIN you can come back to your design from any device while the class runs. Every version of your design is kept for the class, so your teacher can see how it grew. Some pairs of blocks are unusual; you can still place them. When your canvas has an unusual pair, your name, your blocks and the pair go to your teacher. Your teacher also sees, for the whole class, how many students joined, how many changes they made and how many put an unusual pair together. Once you are in, <b>Explore for 2 hours</b> in the header gives you two hours to try things out: your teacher still sees any unusual pair, marked as exploration, and does not review it. It is all deleted when your teacher ends the class, or after four months at most.</p>
         <label>Class code <input id="classCode" required maxlength="5" autocomplete="off" spellcheck="false"></label>
         <label>Your name <input id="className" required maxlength="60" autocomplete="name"></label>
+        <label>PIN, four digits <input id="classPin" required inputmode="numeric" pattern="[0-9]{4}" maxlength="4" autocomplete="off"></label>
         <p class="class-error" id="classError" hidden></p>
         <div class="class-actions"><button class="k-btn-primary" type="submit">Join</button><button class="k-btn-outline" type="button" id="classCancel">Cancel</button></div>
         <p class="class-teach">Teaching? <a href="/teacher" target="_blank" rel="noopener">Open the teacher's page</a> to start a class.</p>

@@ -4,6 +4,17 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.27.0 — 16 November 2026
+
+- **A class survives a restart.** It was held only in the server's memory, so every deploy ended every running class; on 16 November two deploys during a class ended it (his words: *"when two teachers login - the class crashes!"*, then *"classes should be held in persistent storage"*). A class is now kept in a file on the server (`CLASS_FILE`), rewritten on every change, and lasts a semester, about four months, unless a teacher ends it. Ending it deletes it, with everything in it.
+- **Any signed-in teacher can open a running class** by its code or its join link, under *Start a class* on the teacher's page (his words: *"let me join ongoing class"*). Before, only the browser that started a class could see it.
+- **Students come back from any device** (his words: *"students should be able to login anytime - store each student's history once they join class"*). The first time, a student chooses a four-digit PIN; with the class code, their name and the PIN they get their latest design back, here or on another device. Another student cannot open their work by typing their name.
+- **Every version of a student's design is kept for the class**: a new version when the last is more than a minute old, up to 500. The teacher's page has a **History** view listing every student who joined, with a slider to step through their versions, each with its blocks and its how-it-plays text.
+- **Only the teacher who started a class can end it** (his words: *"only I can end class"*); another teacher who opens it sees who started it, and the server refuses their *End*.
+- **Admins** (his words: *"all teachers are not equal - I am super admin"*): a teacher named in the server's `TEACHER_ADMINS` setting sees every running class on the teacher's page, opens any with one press, and can end any class.
+- **A forgotten PIN**: a student does not get a PIN from anyone, they choose it. If they forget it, a teacher presses *Forgot their PIN? Reset it* on their card in *History*, and the PIN they type at their next join becomes their new one.
+- The join dialog, the teacher's page, its sign-in page and the README's privacy section say what is kept and for how long. A page opened before this version is asked to join again, since its class carries no PIN.
+
 ## 0.26.0 — 16 November 2026
 
 - Fifteen more known games name their core mechanic (his words: *"fix all games next"*). Eleven take blocks the palette had: Hex connection; Aadu Puli Attam jumping over pieces and capture by surrounding; Battleship and Raja Mantri Chor Sipahi hide and find; Cheat and Eleusis hand management; Penney's game betting on a throw; Exquisite Corpse and Consequences passing a message; Werewolf-5 role-play. Five take three new tentative blocks from the rule books: **take away** (Nim, Kayles, Chomp; Schmittberger, 1992, Nim p. 130 and Chomp p. 133; Elias, Garfield and Gutschera, 2012), **complete a square, go again** (Dots and Boxes; Schmittberger, 1992, p. 134) and **told how close** (Bulls and Cows; Spadaccini, 2005, Mastermind Jotto p. 54). Each new block has its `?` text, drawing and 489 drafted pair entries between them, unreviewed.

@@ -48,6 +48,9 @@ function saveState() {
   } catch (err) {
     console.warn("Could not save state:", err);
   }
+  // In a class, the design also goes to the class's history a few seconds after the last change
+  clearTimeout(saveState.timer);
+  saveState.timer = setTimeout(sendDesign, 3000);
 }
 
 function loadState() {
@@ -534,11 +537,32 @@ function markUnusual() {
   });
 }
 
+// A class remembered without a valid token (from before PINs, or a class that has ended) is dropped, so "Join a class" shows again
+function dropClass(resp) {
+  if (!resp || (resp.status !== 401 && resp.status !== 404)) return;
+  try { localStorage.removeItem(CLASS_KEY); } catch (_) {}
+  sentFlags = false;
+  lastCanvas = null;
+  renderClassLink();
+  markUnusual();
+}
+
 async function sendFlags(cls, unusual, changed = false) {
-  return fetch(`/class/${encodeURIComponent(cls.code)}/flags`, {
+  const resp = await fetch(`/class/${encodeURIComponent(cls.code)}/flags`, {
     method: "POST", headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ name: cls.name, mechanics: state.mechanics, unusual, changed }),
+    body: JSON.stringify({ name: cls.name, token: cls.token || "", mechanics: state.mechanics, unusual, changed }),
   });
+  dropClass(resp);
+  return resp;
+}
+
+function sendDesign() {
+  const cls = readClass();
+  if (!cls) return;
+  fetch(`/class/${encodeURIComponent(cls.code)}/design`, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name: cls.name, token: cls.token || "", design: snapshot() }),
+  }).then(dropClass).catch(() => {});
 }
 
 function reportFlags() {
@@ -570,7 +594,7 @@ async function toggleExplore(e) {
   const cls = readClass();
   if (!cls) return;
   const resp = await fetch(`/class/${encodeURIComponent(cls.code)}/explore`, {
-    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: cls.name, on: !exploring(cls) }),
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: cls.name, token: cls.token || "", on: !exploring(cls) }),
   }).catch(() => null);
   if (!resp || !resp.ok) return;
   const { until } = await resp.json();
@@ -600,15 +624,28 @@ function setupClass() {
   document.getElementById("classCancel").addEventListener("click", () => dialog.close());
   document.getElementById("classForm").addEventListener("submit", async (e) => {
     e.preventDefault();
-    const cls = { code: document.getElementById("classCode").value.trim().toUpperCase(), name: document.getElementById("className").value.trim() };
-    const unusual = unusualOnCanvas();
-    const resp = await sendFlags(cls, unusual).catch(() => null);
+    const code = document.getElementById("classCode").value.trim().toUpperCase();
+    const resp = await fetch(`/class/${encodeURIComponent(code)}/join`, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: document.getElementById("className").value, pin: document.getElementById("classPin").value }),
+    }).catch(() => null);
     if (!resp || !resp.ok) {
-      error.textContent = resp && resp.status === 404 ? "No class has that code. Check it with your teacher." : "Could not reach the class. Try again.";
+      const detail = resp ? (await resp.json().catch(() => ({}))).detail : "";
+      error.textContent = resp && resp.status === 404 ? "No class has that code. Check it with your teacher." : typeof detail === "string" && detail ? `${detail}.` : "Could not reach the class. Try again.";
       error.hidden = false;
       return;
     }
+    const { design, ...cls } = await resp.json();
     try { localStorage.setItem(CLASS_KEY, JSON.stringify(cls)); } catch (_) {}
+    // Coming back: the last version kept in the class replaces what is on this canvas
+    if (design) {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(design)); } catch (_) {}
+      location.reload();
+      return;
+    }
+    sendDesign();
+    const unusual = unusualOnCanvas();
+    await sendFlags(cls, unusual).catch(() => null);
     sentFlags = unusual.length > 0;
     lastCanvas = JSON.stringify(state.mechanics);
     dialog.close();
