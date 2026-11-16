@@ -1182,7 +1182,9 @@
   "lesson": "A game made almost entirely of what players say about each other. It shows hidden identity, and how a single liar changes every conversation at the table.",
   "teaches": "traitor + hidden-identity + deduction",
   "design": {
-   "core-mechanic": ["role-play"],
+   "core-mechanic": [
+    "role-play"
+   ],
    "player-interaction": "traitor",
    "chance-skill": "mostly-skill",
    "information": "hidden-identity",
@@ -2362,7 +2364,9 @@
   "lesson": "No luck and nothing hidden, yet the winner is often settled many moves before the end by a pattern the players can't yet see. It shows why designers add uncertainty to a game that can be solved.",
   "teaches": "full-information",
   "design": {
-   "core-mechanic": ["take-away"],
+   "core-mechanic": [
+    "take-away"
+   ],
    "chance-skill": "mostly-skill",
    "information": "full-information",
    "theme": "abstract",
@@ -2720,7 +2724,9 @@
   "lesson": "Four hidden roles and one guess: the whole game is reading faces. It shows how little rule a hidden-identity game needs, and how points can give each role a different stake.",
   "teaches": "hidden-identity + most-points",
   "design": {
-   "core-mechanic": ["hide-and-find"],
+   "core-mechanic": [
+    "hide-and-find"
+   ],
    "victory-condition": "most-points",
    "information": "hidden-identity",
    "timing": [
@@ -3652,7 +3658,9 @@
   "lesson": "A rule that lets you move again after closing a box turns a simple drawing game into one of sacrifice and long chains. It shows how one rule can create deep strategy.",
   "teaches": "full-information + indirect-via-board + most-points",
   "design": {
-   "core-mechanic": ["complete-a-square"],
+   "core-mechanic": [
+    "complete-a-square"
+   ],
    "victory-condition": "most-points",
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
@@ -3942,7 +3950,9 @@
   "lesson": "Each yes-or-no answer narrows where the ships can be. It shows deduction on a hidden map, and how the size of the board sets how much luck there is at the start.",
   "teaches": "deduction + direct-confrontation + race-to-finish",
   "design": {
-   "core-mechanic": ["hide-and-find"],
+   "core-mechanic": [
+    "hide-and-find"
+   ],
    "victory-condition": "race-to-finish",
    "player-interaction": "direct-confrontation",
    "chance-skill": "skill-with-luck-tempering",
@@ -4407,7 +4417,9 @@
   "lesson": "Pure deduction from counted clues. It shows how much information a single answer can carry, and how a guess can be made to learn rather than to win.",
   "teaches": "deduction + solo-in-parallel + race-to-finish",
   "design": {
-   "core-mechanic": ["told-how-close"],
+   "core-mechanic": [
+    "told-how-close"
+   ],
    "victory-condition": "race-to-finish",
    "player-interaction": "solo-in-parallel",
    "chance-skill": "mostly-skill",
@@ -4697,7 +4709,9 @@
   "lesson": "Every claim may be false, and calling a lie costs whoever is wrong. It shows how risk on both sides keeps bluffing honest.",
   "teaches": "bluffing + direct-confrontation + race-to-finish",
   "design": {
-   "core-mechanic": ["hand-management"],
+   "core-mechanic": [
+    "hand-management"
+   ],
    "victory-condition": "race-to-finish",
    "player-interaction": "direct-confrontation",
    "information": "bluffing",
@@ -5904,7 +5918,7 @@
   "parent_game": "Three Men's Morris, an old game related to tic-tac-toe",
   "credits": {
    "by": "Traditional",
-      "rules": "The board as recorded by the US National Park Service"
+   "rules": "The board as recorded by the US National Park Service"
   },
   "lesson": "Placing pieces, then moving them: a second phase keeps a tic-tac-toe-like game from ending in a draw. It shows phases as a design tool.",
   "teaches": "pattern-building + full-information + direct-confrontation",
@@ -6201,9 +6215,7 @@
   "teaches": "full-information + indirect-via-board + most-points",
   "design": {
    "core-mechanic": [
-
-     "set-collection"
-
+    "set-collection"
    ],
    "victory-condition": "most-points",
    "player-interaction": "indirect-via-board",
@@ -6978,7 +6990,9 @@
   "lesson": "The rules themselves are what you discover. Players learn by testing guesses against right and wrong, which is how a designer learns what a rule does. The Rulemaker also feels the balance: a rule nobody finds is as dull as one everyone finds at once.",
   "teaches": "rules-you-discover",
   "design": {
-   "core-mechanic": ["hand-management"],
+   "core-mechanic": [
+    "hand-management"
+   ],
    "information": "rules-you-discover",
    "chance-skill": "mostly-skill",
    "theme": "abstract",
@@ -7259,7 +7273,9 @@
   "lesson": "Concealment makes collaboration surprising. It shows how hiding information between players can produce something nobody could have made alone, and a game with no winner that people still want to play again.",
   "teaches": "fully-cooperative + no-objective",
   "design": {
-   "core-mechanic": ["passing-a-message"],
+   "core-mechanic": [
+    "passing-a-message"
+   ],
    "victory-condition": "no-objective",
    "player-interaction": "fully-cooperative",
    "theme": "absurd",
@@ -7324,7 +7340,9 @@
   "lesson": "A fixed sequence of prompts is a story's structure; the players only fill it in. It shows how much of a narrative game comes from its frame rather than its players.",
   "teaches": "no-objective",
   "design": {
-   "core-mechanic": ["passing-a-message"],
+   "core-mechanic": [
+    "passing-a-message"
+   ],
    "victory-condition": "no-objective",
    "theme": "absurd",
    "timing": [
@@ -7522,7 +7540,9 @@
   "lesson": "Every move is both an attack and a defence, because the same chain that connects one player blocks the other. It shows how a geometric fact can rule out draws, and how the swap rule balances first-player advantage.",
   "teaches": "full-information + indirect-via-board",
   "design": {
-   "core-mechanic": ["connection"],
+   "core-mechanic": [
+    "connection"
+   ],
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
    "information": "full-information",
@@ -7584,6 +7604,9 @@
   "lesson": "A game about avoiding, not achieving. It shows a misère goal, and a mathematical guarantee: with six dots someone must make a triangle, so the game always ends.",
   "teaches": "full-information + one-loser",
   "design": {
+   "core-mechanic": [
+    "area-control"
+   ],
    "victory-condition": "one-loser",
    "chance-skill": "mostly-skill",
    "information": "full-information",
@@ -7644,7 +7667,9 @@
   "lesson": "The first player can always win, yet on most bars nobody knows how. It shows the difference between knowing a strategy exists and finding it, which is often where play lives.",
   "teaches": "full-information + one-loser",
   "design": {
-   "core-mechanic": ["take-away"],
+   "core-mechanic": [
+    "take-away"
+   ],
    "victory-condition": "one-loser",
    "chance-skill": "mostly-skill",
    "information": "full-information",
@@ -7705,7 +7730,9 @@
   "lesson": "Each move can break one game into several smaller games. It shows how a position can be a sum of separate parts, a way of thinking that helps in designing any game with independent areas.",
   "teaches": "full-information",
   "design": {
-   "core-mechanic": ["take-away"],
+   "core-mechanic": [
+    "take-away"
+   ],
    "chance-skill": "mostly-skill",
    "information": "full-information",
    "theme": "abstract",
@@ -7972,6 +7999,9 @@
   "lesson": "A board with a single empty point makes every move a question of who gets stuck. It shows how one restriction, the centre rule, can keep a tiny game from being won at once.",
   "teaches": "full-information + direct-confrontation",
   "design": {
+   "core-mechanic": [
+    "worker-placement"
+   ],
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
    "information": "full-information",
@@ -8039,7 +8069,10 @@
   "lesson": "Two sides with different pieces, different moves and different goals. It shows asymmetric design: balance comes from tuning numbers such as goats needed and capture counts, not from giving both sides the same thing.",
   "teaches": "full-information + direct-confrontation",
   "design": {
-   "core-mechanic": ["jumping-over-pieces", "capture-by-surrounding"],
+   "core-mechanic": [
+    "jumping-over-pieces",
+    "capture-by-surrounding"
+   ],
    "player-interaction": "direct-confrontation",
    "chance-skill": "mostly-skill",
    "information": "full-information",
@@ -8617,7 +8650,9 @@
   "lesson": "A game that looks fair and isn't. It shows how probability can surprise players, and why designers test balance instead of trusting how a rule looks.",
   "teaches": "full-information",
   "design": {
-   "core-mechanic": ["betting-on-a-throw"],
+   "core-mechanic": [
+    "betting-on-a-throw"
+   ],
    "chance-skill": "mostly-chance",
    "information": "full-information",
    "theme": "educational",

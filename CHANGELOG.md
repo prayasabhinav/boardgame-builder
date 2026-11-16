@@ -7,7 +7,8 @@ To add an entry: raise `VERSION` (the middle number for something people can use
 ## 0.26.0 — 16 November 2026
 
 - Fifteen more known games name their core mechanic (his words: *"fix all games next"*). Eleven take blocks the palette had: Hex connection; Aadu Puli Attam jumping over pieces and capture by surrounding; Battleship and Raja Mantri Chor Sipahi hide and find; Cheat and Eleusis hand management; Penney's game betting on a throw; Exquisite Corpse and Consequences passing a message; Werewolf-5 role-play. Five take three new tentative blocks from the rule books: **take away** (Nim, Kayles, Chomp; Schmittberger, 1992, Nim p. 130 and Chomp p. 133; Elias, Garfield and Gutschera, 2012), **complete a square, go again** (Dots and Boxes; Schmittberger, 1992, p. 134) and **told how close** (Bulls and Cows; Spadaccini, 2005, Mastermind Jotto p. 54). Each new block has its `?` text, drawing and 489 drafted pair entries between them, unreviewed.
-- Sim and Mū Tōrere still name none: no rule book describes Sim, and the one that describes Mū Tōrere (Flanagan) has its pieces crossing to the opposite side, where the known game is won by leaving the other player no move. Both are his to rule on.
+- Sim and Mū Tōrere name theirs by his ruling: Sim is area control (his words: *"sim is area capture"*) and Mū Tōrere is worker placement (*"torere is worker placement"*). No rule book names either.
+- The three new blocks have empty rows in `review-model/properties.json`, so the table flags no clash for them until he states what each one makes or settles.
 - The 23 Simulation blocks of 0.24.0 had no line for the people at the table, so a design with one played on screen without it. Each now has one under *You play at the table*. 3,000 random canvases with the new blocks played to the end without failing.
 - The README's block counts were behind since 0.24.0: 55 of 109 blocks have a rule on screen, and the rule books' tentative blocks are 68.
 

@@ -221,7 +221,10 @@
   "wraparound-board": [],
   "yes-or-no-questions": [
    "hidden"
-  ]
+  ],
+  "take-away": [],
+  "complete-a-square": [],
+  "told-how-close": []
  },
  "partners": {
   "playing-alone": {
