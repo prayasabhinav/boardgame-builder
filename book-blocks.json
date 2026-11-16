@@ -902,5 +902,50 @@
   ],
   "games": [],
   "tentative": true
+ },
+ {
+  "id": "take-away",
+  "slot": "core-mechanic",
+  "display": "take away",
+  "description": "On your turn you take away as many pieces as you like from one pile or one part of the board. Nothing is ever added back, so every move leaves less, and the last move decides the game.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"60\" r=\"5\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><circle cx=\"24\" cy=\"48\" r=\"5\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><circle cx=\"24\" cy=\"36\" r=\"5\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><circle cx=\"52\" cy=\"60\" r=\"5\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><circle cx=\"52\" cy=\"48\" r=\"5\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><circle cx=\"80\" cy=\"60\" r=\"5\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><path d=\"M88 30 l14 -10 M96 18 l6 2 l-2 6\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"80\" cy=\"34\" r=\"5\" fill=\"#C75B39\" stroke=\"none\"/></svg>",
+  "books": [
+   "Schmittberger, 1992",
+   "Elias, Garfield and Gutschera, 2012"
+  ],
+  "games": [
+   "Nim",
+   "Chomp",
+   "Kayles"
+  ],
+  "tentative": true
+ },
+ {
+  "id": "complete-a-square",
+  "slot": "core-mechanic",
+  "display": "complete a square, go again",
+  "description": "Players take turns drawing one line between two dots. Whoever draws the line that closes a square writes their initial in it and draws again, so a move that closes one square can lead to a run of them.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><circle cx=\"30\" cy=\"20\" r=\"2.5\" fill=\"#2D3436\"/><circle cx=\"60\" cy=\"20\" r=\"2.5\" fill=\"#2D3436\"/><circle cx=\"90\" cy=\"20\" r=\"2.5\" fill=\"#2D3436\"/><circle cx=\"30\" cy=\"50\" r=\"2.5\" fill=\"#2D3436\"/><circle cx=\"60\" cy=\"50\" r=\"2.5\" fill=\"#2D3436\"/><circle cx=\"90\" cy=\"50\" r=\"2.5\" fill=\"#2D3436\"/><path d=\"M30 20 h30 v30 h-30 z\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"33\" y=\"23\" width=\"24\" height=\"24\" fill=\"#fbe4d8\" stroke=\"none\"/><path d=\"M60 20 h30\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M90 20 v30\" stroke=\"#C75B39\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>",
+  "books": [
+   "Schmittberger, 1992"
+  ],
+  "games": [
+   "Dots-and-Boxes"
+  ],
+  "tentative": true
+ },
+ {
+  "id": "told-how-close",
+  "slot": "core-mechanic",
+  "display": "told how close",
+  "description": "One player hides a word or a code, and the other guesses it. Each guess is answered with how many parts are right, and how many are in the right place, so every answer narrows what it could be.",
+  "svg": "<svg viewBox=\"0 0 120 80\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><rect x=\"14\" y=\"16\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"34\" y=\"16\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"54\" y=\"16\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"74\" y=\"16\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"14\" y=\"44\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><rect x=\"34\" y=\"44\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"54\" y=\"44\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#fbe4d8\"/><rect x=\"74\" y=\"44\" width=\"16\" height=\"16\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"102\" cy=\"48\" r=\"4\" fill=\"#C75B39\" stroke=\"none\"/><circle cx=\"102\" cy=\"58\" r=\"4\" stroke=\"#2D3436\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+  "books": [
+   "Spadaccini, 2005"
+  ],
+  "games": [
+   "Mastermind Jotto"
+  ],
+  "tentative": true
  }
 ]
