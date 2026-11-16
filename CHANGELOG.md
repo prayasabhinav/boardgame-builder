@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.25.0 — 16 November 2026
+
+- **Open in the builder** on every known game's card puts its blocks on the canvas straight away, without downloading its file and opening it (his words: *"add to boardgamebuilder an ability to open known games in biuilder with a button - not requiring download and open"*). It reads the game's file from the server through the same code as *Open game*, so both ask before replacing a design on the canvas. The game's address (`#games/…`) is dropped as the builder opens. Download as a design stays, for keeping a game as a file.
+
 ## 0.24.0 — 16 November 2026
 
 - Twenty-three Simulation blocks from the research on gaming-simulation, on his words: *"add a simulation section of elements to boardgamebuilder - researched with consensus -- comprehensive"*, then *"industrial simulation too"* and *"build all"*. How the system behaves: feedback loop, tipping point, stocks build up, the world takes a turn, events and shocks, a round is a year, visible indicators. Who holds what: unequal starting positions, the powerful make the rules, conflicting goals. How a session runs: a starting situation, argued moves, pause to reflect, play again, compare, says what it leaves out, made with the people it models. Industrial: supply chain, only your own corner, bottleneck, push or pull, batch size, machines break down, cost of too much and too little. Each has its `?` text and icon. The Simulation group now holds 34 blocks.

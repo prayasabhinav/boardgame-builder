@@ -156,7 +156,7 @@
           <li><strong>Change something and press Iterate again.</strong> Each press is one turn. When you are done, press <em>Mark complete</em> for a closing summary.</li>
           <li><strong>Press Play to play it.</strong> The screen plays every block it has a rule for, with people or with players it moves by fixed rules, and lists what the people at the table do themselves.</li>
         </ol>
-        <p class="onboarding-note"><em>Known games</em> in the header has short games to play with things at hand, then watch and answer questions about. <em>Test parts</em> beside the feedback has quick tests of one block at a time.</p>
+        <p class="onboarding-note"><em>Known games</em> in the header has short games to play with things at hand, then watch and answer questions about, or open in the builder to change. <em>Test parts</em> beside the feedback has quick tests of one block at a time.</p>
         <p class="onboarding-note">Press <strong>?</strong> on any block to see what it means (the feelings have none). Your design stays in this browser; <em>Save game</em> downloads it as a file you can open again later, and <em>Start fresh</em> clears it.</p>
         <button class="k-btn-primary onboarding-start" id="onboardingStart" type="button">Start designing</button>
       </div>
@@ -189,12 +189,13 @@
         <div id="gamesList">
           <div class="phase-eyebrow">Known games</div>
           <h1 class="phase-title">Play a known game, then watch it</h1>
-          <p class="phase-intro">Most take 5 to 10 minutes with paper, dice, coins or cards; a few need pieces you print. Each says what it shows a designer; play it to feel that. Some can then be watched being played, with a few questions about it, and every one can be downloaded as a design to open and change: pick a game, then <em>Download as a design (.md)</em> at the top of its card; <em>Open game</em> in the header puts its blocks on the canvas.</p>
+          <p class="phase-intro">Most take 5 to 10 minutes with paper, dice, coins or cards; a few need pieces you print. Each says what it shows a designer; play it to feel that. Some can then be watched being played, with a few questions about it, and every one can be opened in the builder to change: pick a game, then <em>Open in the builder</em> at the foot of its card. <em>Download as a design (.md)</em> keeps it as a file, which <em>Open game</em> in the header opens later.</p>
           <div class="games-grid" id="gamesGrid"></div>
         </div>
         <div id="famCardWrap" hidden></div>
         <div class="phase-actions" id="famActions" hidden>
           <button class="k-btn-primary" id="famWatchBtn" type="button">Watch it and answer</button>
+          <button class="k-btn-outline" id="famOpenBtn" type="button" title="Puts this game's blocks on the canvas, in place of the design there">Open in the builder</button>
           <a class="k-btn-outline" id="famDownload" href="#" download title="Its rules and blocks as a Markdown file; Open game puts the blocks on the canvas">Download as a design (.md)</a>
         </div>
         <div class="analysis-stage" id="analysisStage" hidden>

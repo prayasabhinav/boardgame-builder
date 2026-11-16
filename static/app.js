@@ -1797,25 +1797,37 @@ async function onSaveGame() {
   URL.revokeObjectURL(a.href);
 }
 
-async function onOpenGame(e) {
-  const file = e.target.files[0];
-  e.target.value = "";
-  if (!file) return;
-  const found = (await file.text()).match(/```json\n([\s\S]*?)\n```\s*$/);
+// A design file (one saved here, or a known game's .md) ends with the design as JSON; put it on the canvas and reload
+function openDesignText(text, name) {
+  const found = text.match(/```json\n([\s\S]*?)\n```\s*$/);
   let saved = null;
   try { saved = found && JSON.parse(found[1]); } catch (_) {}
   if (!saved || typeof saved !== "object") {
-    appendSystemMessage(`${file.name} is not a game saved from boardgameBuilder, so nothing was opened.`);
+    appendSystemMessage(`${name} is not a game saved from boardgameBuilder, so nothing was opened.`);
     return;
   }
-  if ((flattenMechanics(state.mechanics).length || state.chosenFeelings.length) && !confirm("Replace the design on screen with the one in this file?")) return;
+  if ((flattenMechanics(state.mechanics).length || state.chosenFeelings.length) && !confirm(`Replace the design on screen with ${name}?`)) return;
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
   } catch (_) {
-    appendSystemMessage("This browser is not letting the page store anything, so the file could not be opened.");
+    appendSystemMessage("This browser is not letting the page store anything, so the design could not be opened.");
     return;
   }
-  window.location.reload();
+  window.location.replace(window.location.pathname + window.location.search);   // without the #games/… address, so the builder opens, not the game
+}
+
+async function onOpenGame(e) {
+  const file = e.target.files[0];
+  e.target.value = "";
+  if (file) openDesignText(await file.text(), file.name);
+}
+
+// A known game opened straight in the builder, without downloading its file (16 November 2026)
+async function openKnownGame() {
+  const g = analysisState.data;
+  const r = await fetch(`/games/${encodeURIComponent(g.id)}.md`);
+  if (!r.ok) { appendSystemMessage(`${g.title} could not be fetched, so nothing was opened.`); return; }
+  openDesignText(await r.text(), g.title);
 }
 
 // ── Start fresh ───────────────────────────────────────────────────
@@ -1850,6 +1862,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   setupNarrative();
   document.getElementById("iterateBtn").addEventListener("click", onIterate);
   document.getElementById("completeBtn").addEventListener("click", onComplete);
+  document.getElementById("famOpenBtn").addEventListener("click", openKnownGame);
   document.getElementById("gamesCloseBtn").addEventListener("click", leave);
   document.getElementById("playCloseBtn").addEventListener("click", leave);
   document.getElementById("playFullBtn").addEventListener("click", toggleFullScreen);
