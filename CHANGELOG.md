@@ -4,6 +4,10 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.25.1 — 16 November 2026
+
+- Set's design had no core mechanic; it now has set collection (his words: *"the set game in known games does not have set collection mechanic!"*). Sixteen other known games also have none; which blocks they take is his to say.
+
 ## 0.25.0 — 16 November 2026
 
 - **Open in the builder** on every known game's card puts its blocks on the canvas straight away, without downloading its file and opening it (his words: *"add to boardgamebuilder an ability to open known games in biuilder with a button - not requiring download and open"*). It reads the game's file from the server through the same code as *Open game*, so both ask before replacing a design on the canvas. The game's address (`#games/…`) is dropped as the builder opens. Download as a design stays, for keeping a game as a file.

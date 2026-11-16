@@ -6193,6 +6193,11 @@
   "lesson": "Everyone looks at the same cards at once, with no turns, so perception wins over planning. It shows simultaneous play, and how a single matching rule can carry a whole game.",
   "teaches": "full-information + indirect-via-board + most-points",
   "design": {
+   "core-mechanic": [
+
+     "set-collection"
+
+   ],
    "victory-condition": "most-points",
    "player-interaction": "indirect-via-board",
    "chance-skill": "mostly-skill",
