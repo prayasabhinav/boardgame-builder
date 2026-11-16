@@ -4,6 +4,13 @@ What changed in boardgameBuilder and its wiki, newest first. The version is in `
 
 To add an entry: raise `VERSION` (the middle number for something people can use, the last for a fix), add a section at the top with the same number, the date and what changed, change the badge in `README.md`, and run `python check.py`.
 
+## 0.24.0 — 16 November 2026
+
+- Twenty-three Simulation blocks from the research on gaming-simulation, on his words: *"add a simulation section of elements to boardgamebuilder - researched with consensus -- comprehensive"*, then *"industrial simulation too"* and *"build all"*. How the system behaves: feedback loop, tipping point, stocks build up, the world takes a turn, events and shocks, a round is a year, visible indicators. Who holds what: unequal starting positions, the powerful make the rules, conflicting goals. How a session runs: a starting situation, argued moves, pause to reflect, play again, compare, says what it leaves out, made with the people it models. Industrial: supply chain, only your own corner, bottleneck, push or pull, batch size, machines break down, cost of too much and too little. Each has its `?` text and icon. The Simulation group now holds 34 blocks.
+- 3,450 drafted pair entries for them (`drafted/31-simulation-*.txt`, status `drafted-20261116-unreviewed`), one for every pair they make, written by Claude Sonnet readers against the house style and the tool's banned verdict words; none is reviewed.
+- The README's Simulation section gives the papers behind each new block. The sources were found through Consensus and checked through find-research-papers and Crossref; one, a handbook chapter whose DOI does not exist, was left out. The wiki's about page says where the blocks came from.
+- No clash rule for khatka covers the new blocks yet; which of them clash with which core mechanics is his to say.
+
 ## 0.23.0 — 15 November 2026
 
 - Blocks can be dragged with a finger or a pen, so the tool works on a phone: a copy of the block follows the finger and drops into the slot or onto the feelings shelf where it lifts. A mouse drags as before. Blocks are placed only by dragging, and the canvas hint and How it works say so (his choice, 15 November 2026, to bring every builder to ungli's drag-only rule).

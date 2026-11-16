@@ -11,7 +11,8 @@ import palette
 
 STATUS = "drafted-20261016-unreviewed"
 STATUS_NEW = "drafted-20261106-unreviewed"
-STATUS_FUN = "drafted-20261113-unreviewed"  # the kinds of fun, one line each in themes.txt, from kinds-of-fun.json
+STATUS_FUN = "drafted-20261113-unreviewed"
+STATUS_SIM = "drafted-20261116-unreviewed"  # 31-simulation-*.txt: pairs for the 23 simulation blocks added 16 November 2026  # the kinds of fun, one line each in themes.txt, from kinds-of-fun.json
 ONE_LINE = ("theme", "kind-of-fun")  # groups whose blocks get one line each instead of a line for every pair  # 30-tentative-*.txt: pairs for the blocks added from the rule books
 BANNED = re.compile(r"\b(should|must|good|bad|better|worse|best|worst|great|well done|amazing|perfect|excellent|awesome)\b", re.I)
 
@@ -39,7 +40,7 @@ for f in sorted(pathlib.Path("drafted").glob("[0-9]*.txt")):
         for word in {m.lower() for c in cells[1:] for m in BANNED.findall(c)}:
             problems.append(f"{where}: banned word '{word}'")
         pairs.append({"elements": cells[0].split("+"), "tendency": cells[1], "pros": cells[2:4], "cons": cells[4:6],
-                      "exemplars": [], "verification_status": STATUS_NEW if f.name.startswith("30-") else STATUS})
+                      "exemplars": [], "verification_status": STATUS_NEW if f.name.startswith("30-") else STATUS_SIM if f.name.startswith("31-") else STATUS})
 
 themes = []
 tf = pathlib.Path("drafted/themes.txt")

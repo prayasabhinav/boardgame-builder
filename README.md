@@ -1,7 +1,7 @@
 # boardgameBuilder
 
 [![Live](https://img.shields.io/badge/live-boardgame.syntax.prayasabhinav.net-2e7d32?style=flat-square)](https://boardgame.syntax.prayasabhinav.net)
-[![Version](https://img.shields.io/badge/version-0.23.0-555555?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.24.0-555555?style=flat-square)](CHANGELOG.md)
 [![Licence: AGPL v3](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -108,7 +108,7 @@ A share link also carries questions for whoever plays it, which makes it a playt
 | Theme | abstract, historical, fantasy, science fiction, everyday life, absurd, educational, real-world issue, poetic, ritual or sacred, mortality and loss, war and conquest | one |
 | Information visibility | full information, hidden hands, hidden identity, deduction, bluffing, rules you discover, one knows, cannot say, map revealed as you go | one |
 | Timing | take turns, everyone at once, no turns, timed turns, real-time span, sedated, accelerated | many |
-| Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, rules make an argument, stakes outside the game, points stand for values, rehearse a future | many |
+| Simulation | model a system, stakeholder roles, shared resource, delayed effects, try a rule, debrief, irreversible change, rules make an argument, stakes outside the game, points stand for values, rehearse a future, feedback loop, tipping point, stocks build up, the world takes a turn, events and shocks, a round is a year, visible indicators, unequal starting positions, the powerful make the rules, conflicting goals, a starting situation, argued moves, pause to reflect, play again, compare, says what it leaves out, made with the people it models, supply chain, only your own corner, bottleneck, push or pull, batch size, machines break down, cost of too much and too little | many |
 
 **From the rule books, tentative (65):** added on 6 November 2026 from six books of game rules. `book-blocks.json` gives the books and pages behind each one.
 
@@ -140,6 +140,44 @@ These are for games that model a real problem so that the people playing can wor
 | debrief | After play, players compare what happened with the real problem. |
 
 I checked the six against the literature before building them. Roles, the model, policies and the debriefing are among the elements Duke lists for a gaming-simulation (Duke, 2011). Games used to test a draft regulation show consequences that in real life arrive with a long delay, and let people try a rule before it applies (Olejniczak, Wolański and Widawski, 2018). The shared resource is the common-pool resource game, with four decades of experiments behind it (Malézieux and Spiegelman, 2025). Villages in Andhra Pradesh played collective-action games about their groundwater, followed by a community debrief, and more of them took up water registers and rules afterwards than comparable villages (Meinzen-Dick et al., 2018). Role-play is at the centre of serious games for natural resource management (Edwards et al., 2019), and the debriefing is where play is connected back to the real situation (Peters and Vissers, 2004). The debrief block's four questions are Duke's: what happened, why, how it compares with the real world, and what would happen if something changed.
+
+### Twenty-three more, from the research (16 November 2026)
+
+The first eleven rest on a handful of papers. On 16 November 2026 I read further into the research on gaming-simulation, in social, ecological and industrial games. Where it named an element the tool did not have, I added a block. Their pair entries are drafted and not yet reviewed, like the rest of the drafted knowledge base.
+
+| Block | What it means for the players |
+|---|---|
+| feedback loop | An effect feeds back into its own cause, so a gain makes the next gain easier. |
+| tipping point | A slow change does little until it crosses a line, and then the game changes fast. |
+| stocks build up | Something piles up turn by turn, and the pile matters more than any one turn. |
+| the world takes a turn | Between players' turns, the system moves by its own rule. |
+| events and shocks | Sudden outside changes that no player chose and every player must answer. |
+| a round is a year | Each round stands for a long stretch of real time. |
+| visible indicators | Gauges show how the whole system is doing, not who is ahead. |
+| unequal starting positions | Players begin with different amounts, and the game does not even it out. |
+| the powerful make the rules | Whoever is ahead gets to write the rules for everyone else. |
+| conflicting goals | Each role wins by its own measure, and the measures pull against each other. |
+| a starting situation | Play opens on a described situation that everyone reads first. |
+| argued moves | A player may try anything and explain why it would work; a judge or the table decides. |
+| pause to reflect | Play stops at set points so players can say what they notice. |
+| play again, compare | The same game is played again with one thing changed, and the runs are compared. |
+| says what it leaves out | The game tells players what it simplified or left out. |
+| made with the people it models | The people the game is about help design it and check it. |
+| supply chain | Each player is one link in a chain, passing goods one way and orders the other. |
+| only your own corner | Each player sees only their own stock and the orders that reach them. |
+| bottleneck | The slowest step sets the pace of everything after it. |
+| push or pull | Goods are made ahead to a guess, or only when an order pulls them. |
+| batch size | Players choose how many to make or move at once, and pay in waiting or setting up. |
+| machines break down | Equipment fails at random and has to be repaired. |
+| cost of too much and too little | Holding stock costs something each round, and running out costs more. |
+
+**How the system behaves.** In one account, dynamic complexity has four elements: accumulation, feedback loops, nonlinearity and delay (Yasarcan, 2023). *Delayed effects* was already here. *Stocks build up* and *feedback loop* add two more, and *tipping point* stands in for nonlinearity. The rules of a board game can act as the sensors and switches of its feedback loops (Nicula and Constantinescu, 2017). In a game built around a tipping point, players went from short-term choices for themselves to long-term shared ones over repeated play and debriefs (Irabor et al., 2025). Some boards are joined to computer models that move the system on between rounds, which is *the world takes a turn* (den Haan et al., 2020; Ruankaew et al., 2010). *Events and shocks* comes from climate-adaptation and disaster-risk games (Solinska-Nowak et al., 2018). In the climate game, political shocks drew stronger reactions than environmental ones, and five decades passed in one session (Sommerauer et al., 2026). That is *a round is a year*. How much time a game step stands for is one of the measures of a gaming-simulation (Raghothama and Meijer, 2018). *Visible indicators* draws on a game scored on several dimensions of a project at once (Barnabè et al., 2023).
+
+**Who holds what.** Two blocks come from simulations about inequality. In two quasi-experimental studies, a tabletop game that starts players unequal increased students' recognition of structural barriers (McFarland et al., 2026). In *Star Power*, an older simulation, the group that comes out ahead is given the power to make the rules (Dundes and Harlow, 2005; Fisher, 2008). Those are *unequal starting positions* and *the powerful make the rules*. *Conflicting goals* follows a mangrove role-play in which twenty stakeholders have to separate what they cannot give up from what they can (Dahdouh-Guebas et al., 2022). It also draws on modelling a real system as game-theoretic payoffs (Roungas, Bekius and Meijer, 2019).
+
+**How a session runs.** *A starting situation* is the background and role instructions that set up a classroom simulation (Shaw and Switky, 2018). *Argued moves* comes from wargaming, where adjudication is one of five features that set the method apart (Banks, 2023). In most wargames a control cell, a team of umpires, judges each move; one design does without it (Bell and Bollfrass, 2022). *Pause to reflect* is debriefing during play, not only after it (Schwägele et al., 2021). Crookall (2010) makes the case for debriefing itself. *Play again, compare* follows the repeated play in Irabor et al. (2025), and lean games that start from an unbalanced line and bring in one change per run (Ruano et al., 2019; Da Silva, Xambre and Lopes, 2013). *Says what it leaves out* responds to the question of how far a simplified game stays true to what it models (van Haaften et al., 2024). *Made with the people it models* comes from companion modelling. In the case it rests on, villagers co-designed a game about their own land (Perrotton et al., 2017).
+
+**Industrial.** *Supply chain* and *only your own corner* come from the beer distribution game, made at MIT in the early 1960s. It shows the bullwhip effect, in which small changes in demand grow larger at each step up a supply chain, and most of the 53 behavioural studies in one review build on it (Yang et al., 2021; Roser, Sato and Nakano, 2021). Each role decides on what it can see locally (Abreu Lopes Ramos and Gigante, 2025). When players can see the whole chain, the bullwhip effect can fail to appear (Gjeldum, Crnjac and Bilic, 2017). In the game, holding stock and running out both cost money, which is *cost of too much and too little* (Soliani et al., 2024). *Bottleneck*, *push or pull* and *batch size* come from lean-manufacturing games (Pekarcikova et al., 2021; Schroer, 2004; Herakovic, Metlikovic and Debevec, 2014; Hardcopf, Kannan and Ebbeler, 2025; Ncube, 2010). *Machines break down* comes from a training factory whose stations fail at random, to bring the training closer to real work (De Vin and Jacobsson, 2017).
 
 ## How the feedback is made
 
@@ -289,17 +327,85 @@ The easiest way is the [wiki](https://boardgame-wiki.syntax.prayasabhinav.net): 
 
 ## References
 
+Abreu Lopes Ramos, E. A. de, and Gigante, R. L. (2025). Teaching the bullwhip effect through the online Beer Game: A practical approach to supply chain dynamics. *Proceedings of the International Conference on Industrial Engineering and Operations Management*. https://doi.org/10.46254/sa6.20250174
+
+Banks, D. E. (2023). The methodological machinery of wargaming: A path toward discovering wargaming's epistemological foundations. *International Studies Review*, 26(1), viae002. https://doi.org/10.1093/isr/viae002
+
+Barnabè, F., Armenia, S., Nazir, S., and Pompei, A. (2023). Critical thinking skills enhancement through system dynamics-based games: Insights from the Project Management Board Game project. *Systems*, 11(11), 554. https://doi.org/10.3390/systems11110554
+
+Bell, A., and Bollfrass, A. (2022). To hell with the cell: The case for immersive statecraft education. *International Studies Perspectives*, 23(2), 129–150. https://doi.org/10.1093/isp/ekab004
+
+Crookall, D. (2010). Serious games, debriefing, and simulation/gaming as a discipline. *Simulation, and Gaming*, 41(6), 898–920. https://doi.org/10.1177/1046878110390784
+
+Dahdouh-Guebas, F., Mafaziya Nijamdeen, T. W. G. F., Hugé, J., Dahdouh-Guebas, Y., Di Nitto, D., Hamza, A. J., Kodikara Arachchilage, S., Koedam, N., Mancilla García, M., Mohamed, M. O. S., Mostert, L., Munga, C. N., Poti, M., Satyanarayana, B., Stiers, I., Van Puyvelde, K., Vanhove, M. P. M., Vande Velde, K., and Ratsimbazafy, H. A. (2022). The Mangal Play: A serious game to experience multi-stakeholder decision-making in complex mangrove social-ecological systems. *Frontiers in Marine Science*, 9, 909793. https://doi.org/10.3389/fmars.2022.909793
+
 Duke, R. D. (2011). Origin and evolution of policy simulation: A personal journey. *Simulation & Gaming*, 42(3), 342–358. https://doi.org/10.1177/1046878110367570
+
+Dundes, L., and Harlow, R. (2005). Illustrating the nature of social inequality with the simulation Star Power. *Teaching Sociology*, 33(1), 32–43. https://doi.org/10.1177/0092055x0503300103
 
 Edwards, P., Sharma-Wallace, L., Wreford, A., Holt, L., Cradock-Henry, N. A., Flood, S., and Velarde, S. J. (2019). Tools for adaptive governance for complex social-ecological systems: A review of role-playing-games as serious games at the community-policy interface. *Environmental Research Letters*, 14(11), 113002. https://doi.org/10.1088/1748-9326/ab4036
 
+Fisher, E. M. (2008). USA stratified monopoly: A simulation game about social class stratification. *Teaching Sociology*, 36(3), 272–282. https://doi.org/10.1177/0092055x0803600307
+
+Gjeldum, N., Crnjac, M., and Bilic, B. (2017). Simulation of bullwhip effect in a supply chain for lean learning factory purposes. *International Journal of Simulation Modelling*, 16(4), 576–589. https://doi.org/10.2507/ijsimm16(4)2.390
+
+van Haaften, M. A., Lefter, I., van Kooten, O., and Brazier, F. M. T. (2024). The validity of simplifying gaming simulations. *Computers in Human Behavior Reports*, 14, 100384. https://doi.org/10.1016/j.chbr.2024.100384
+
+den Haan, R. J., van der Voort, M. C., Baart, F., Berends, K. D., van den Berg, M. C., Straatsma, M. W., Geenen, A. J. P., and Hulscher, S. J. M. H. (2020). The Virtual River Game: Gaming using models to collaboratively explore river management complexity. *Environmental Modelling, and Software*, 134, 104855. https://doi.org/10.1016/j.envsoft.2020.104855
+
+Hardcopf, R., Kannan, V., and Ebbeler, J. (2025). Brawny Brackets: Connecting the dots from layout design to pull flow. *Decision Sciences Journal of Innovative Education*, 23(1), e12329. https://doi.org/10.1111/dsji.12329
+
+Herakovic, N., Metlikovic, P., and Debevec, M. (2014). Motivational lean game to support decision between push and pull production strategy. *International Journal of Simulation Modelling*, 13(4), 433–446. https://doi.org/10.2507/ijsimm13(4)4.275
+
+Irabor, T.-J., Yameogo, P. S. A., Perrin, L., Pétré, B., Faulx, D., Ruëgg, S. R., and Antoine-Moussiaux, N. (2025). Gaming for change - exploring systems thinking and sustainable practices through complexity-inspired game mechanics. *Humanities and Social Sciences Communications*, 12(1), 680. https://doi.org/10.1057/s41599-025-04990-x
+
 Malézieux, A., and Spiegelman, E. (2025). An anatomical review of the common pool resource game. *Experimental Economics*, 28(3), 468–491. https://doi.org/10.1017/eec.2024.6
+
+McFarland, A., Hill, I., Doden, W., and Benassi, C. (2026). The *Equality of Life* game: Examining class-based privilege and inequality in workforce entry through experiential learning. *Journal of Management Education*, 50(1), 71–101. https://doi.org/10.1177/10525629251374683
 
 Meinzen-Dick, R., Janssen, M. A., Kandikuppa, S., Chaturvedi, R., Rao, K., and Theis, S. (2018). Playing games to save water: Collective action games for groundwater management in Andhra Pradesh, India. *World Development*, 107, 40–53. https://doi.org/10.1016/j.worlddev.2018.02.006
 
+Ncube, L. B. (2010). A simulation of lean manufacturing: The Lean Lemonade Tycoon 2. *Simulation, and Gaming*, 41(4), 568–586. https://doi.org/10.1177/1046878109334336
+
+Nicula, D., and Constantinescu, S. (2017). A board game and cybernetics. *Annals of the "Constantin Brâncuşi" University of Târgu Jiu, Economy Series*, Special Issue, 2/2017, 182–187. https://ideas.repec.org/a/cbu/jrnlec/y2017v2specialp182-187.html
+
 Olejniczak, K., Wolański, M., and Widawski, I. (2018). Regulation crash-test: Applying serious games to policy design. *Policy Design and Practice*, 1(3), 194–214. https://doi.org/10.1080/25741292.2018.1504372
 
+Pekarcikova, M., Trebuna, P., Kliment, M., and Dic, M. (2021). Solution of bottlenecks in the logistics flow by applying the Kanban module in the Tecnomatix Plant Simulation software. *Sustainability*, 13(14), 7989. https://doi.org/10.3390/su13147989
+
+Perrotton, A., de Garine-Wichatitsky, M., Valls-Fox, H., and Le Page, C. (2017). My cattle and your park: Codesigning a role-playing game with rural communities to promote multistakeholder dialogue at the edge of protected areas. *Ecology and Society*, 22(1), 35. https://doi.org/10.5751/es-08962-220135
+
 Peters, V. A. M., and Vissers, G. A. N. (2004). A simple classification model for debriefing simulation games. *Simulation & Gaming*, 35(1), 70–84. https://doi.org/10.1177/1046878103253719
+
+Raghothama, J., and Meijer, S. (2018). Rigor in gaming for design: Conditions for transfer between game and reality. *Simulation, and Gaming*, 49(3), 246–262. https://doi.org/10.1177/1046878118770220
+
+Roser, C., Sato, M., and Nakano, M. (2021). Would you like some wine? Introducing variants to the beer game. *Production Planning, and Control*, 32(6), 454–462. https://doi.org/10.1080/09537287.2020.1742370
+
+Roungas, B., Bekius, F., and Meijer, S. (2019). The game between game theory and gaming simulations: Design choices. *Simulation, and Gaming*, 50(2), 180–201. https://doi.org/10.1177/1046878119827625
+
+Ruankaew, N., Le Page, C., Dumrongrojwattana, P., Barnaud, C., Gajaseni, N., van Paassen, A., and Trébuil, G. (2010). Companion modelling for integrated renewable resource management: A new collaborative approach to create common values for sustainable development. *International Journal of Sustainable Development, and World Ecology*, 17(1), 15–23. https://doi.org/10.1080/13504500903481474
+
+Ruano, J. P., Hoyuelos, I., Mateo, M., and Gento, A. M. (2019). Lean School: A learning factory for training lean manufacturing in a physical simulation environment. *Management and Production Engineering Review*, 10(1), 4–13. https://doi.org/10.24425/mper.2019.128239
+
+Schroer, B. J. (2004). Simulation as a tool in understanding the concepts of lean manufacturing. *SIMULATION*, 80(3), 171–175. https://doi.org/10.1177/0037549704045049
+
+Schwägele, S., Zürn, B., Lukosch, H. K., and Freese, M. (2021). Design of an Impulse-Debriefing-Spiral for simulation game facilitation. *Simulation, and Gaming*, 52(3), 364–365. https://doi.org/10.1177/10468781211006752
+
+Shaw, C. M., and Switky, B. (2018). Designing and using simulations in the international relations classroom. *Journal of Political Science Education*, 14(4), 523–534. https://doi.org/10.1080/15512169.2018.1433543
+
+Da Silva, I., Xambre, A. R., and Lopes, R. B. (2013). A simulation game framework for teaching lean production. *International Journal of Industrial Engineering and Management*, 4(2), 81–86. https://doi.org/10.24867/ijiem-2013-2-110
+
+Soliani, R. D., Pereira, R. dos S., De Freitas, C. G., and Pereira, F. S. (2024). Gamification in supply chain management (SCM) education: A practical experience with the Beer Game. *Caderno Pedagógico*, 21(2), e2865. https://doi.org/10.54033/cadpedv21n2-104
+
+Solinska-Nowak, A., Magnuszewski, P., Curl, M., French, A., Keating, A., Mochizuki, J., Liu, W., Mechler, R., Kulakowska, M., and Jarzabek, L. (2018). An overview of serious games for disaster risk management – Prospects and limitations for informing actions to arrest increasing risk. *International Journal of Disaster Risk Reduction*, 31, 1013–1029. https://doi.org/10.1016/j.ijdrr.2018.09.001
+
+Sommerauer, W. J.-W., van der Bolt, B., Werners, S., Smolenaars, W. J., van Ree, M., and Ludwig, F. (2026). Gaming the unknown: Learning to differentiate and respond to uncertainty through a serious game. *npj Climate Action*, 5(1), 5. https://doi.org/10.1038/s44168-025-00331-5
+
+De Vin, L. J., and Jacobsson, L. (2017). Karlstad lean factory: An instructional factory for game-based lean manufacturing training. *Production, and Manufacturing Research*, 5(1), 268–283. https://doi.org/10.1080/21693277.2017.1374886
+
+Yang, Y., Lin, J., Liu, G., and Zhou, L. (2021). The behavioural causes of bullwhip effect in supply chains: A systematic literature review. *International Journal of Production Economics*, 236, 108120. https://doi.org/10.1016/j.ijpe.2021.108120
+
+Yasarcan, H. (2023). The four main elements of dynamic complexity. *System Dynamics Review*, 39(2), 171–179. https://doi.org/10.1002/sdr.1731
 
 ## Licence
 

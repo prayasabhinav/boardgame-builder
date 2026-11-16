@@ -417,7 +417,7 @@ FEELINGS_META = {
 
 
 # ─────────────────────────────────────────────────────────────────────
-# SIMULATION (12) — added 16 October 2026
+# SIMULATION — 11 added 16 October 2026, 23 on 16 November 2026
 # ─────────────────────────────────────────────────────────────────────
 
 SIMULATION = {
@@ -468,6 +468,99 @@ SIMULATION = {
         "description": "Players practise a way of living or working that does not exist yet, such as a village that shares everything, to see how it might feel before anyone tries it for real.",
         "svg": svg(f'<path d="M14 66 h92" {_S}/><path d="M22 66 v-18 l12 -10 l12 10 v18" {_S} stroke-dasharray="3 4"/><path d="M52 66 v-22 l12 -10 l12 10 v22" {_S} stroke-dasharray="3 4"/><path d="M82 66 v-16 l10 -8 l10 8 v16" {_S} stroke-dasharray="3 4"/><circle cx="92" cy="20" r="7" {_FILL} stroke="none"/><path d="M92 6 v4 M106 20 h-4 M80 20 h-4" {_S}/>'),
         "credit": "Dhruv Jani",
+    },
+    # 23 added 16 November 2026 from the research in simulation-proposal.md, his words: "build all"
+    "feedback-loop": {
+        "description": 'What happens feeds back into its own cause, so a gain makes the next gain easier, or a loss the next loss. More farms bring more money, which buys more farms.',
+        "svg": svg(f'<path d="M30 40 a22 22 0 1 1 22 22" {_S}/><path d="M46 56 l6 6 l-6 6" {_S}/><circle cx="30" cy="40" r="5" {_FILL} stroke="none"/><path d="M80 24 h26 M80 40 h20 M80 56 h14" {_S}/>'),
+    },
+    "tipping-point": {
+        "description": 'A slow change goes on with little effect until a line is crossed, and then everything changes at once, the way a lake can stay clear for years and then turn green in a summer.',
+        "svg": svg(f'<path d="M14 62 h40 q14 0 20 -14 l8 -30" {_S}/><path d="M62 14 v52" {_S} stroke-dasharray="3 4"/><circle cx="62" cy="48" r="5" {_FILL} stroke="none"/><path d="M82 18 l18 0 M96 14 l4 4 l-4 4" {_S}/>'),
+    },
+    "stocks-build-up": {
+        "description": 'Some things pile up turn by turn, like debt, soil or trust, and the size of the pile matters more than any single turn. Work waiting between two steps of a factory line piles up the same way.',
+        "svg": svg(f'<rect x="20" y="54" width="22" height="12" {_S} {_TINT}/><rect x="48" y="44" width="22" height="22" {_S} {_TINT}/><rect x="76" y="28" width="22" height="38" {_S} {_TINT}/><path d="M87 16 v8" {_S}/><circle cx="87" cy="12" r="3" {_FILL} stroke="none"/>'),
+    },
+    "world-takes-a-turn": {
+        "description": "Between the players' turns, the system itself moves by a fixed rule: the river rises, prices change, an illness spreads. Nobody decides it; the rule does.",
+        "svg": svg(f'<circle cx="34" cy="40" r="20" {_S} {_TINT}/><path d="M18 34 q8 -6 16 0 q8 6 16 0" {_S}/><path d="M18 46 q8 -6 16 0 q8 6 16 0" {_S}/><path d="M66 40 h20 M80 34 l6 6 l-6 6" {_S}/><circle cx="100" cy="40" r="6" {_FILL} stroke="none"/>'),
+    },
+    "events-and-shocks": {
+        "description": 'Cards or rolls bring sudden outside changes, such as a flood, an election or a price crash, which no player chose and every player must respond to.',
+        "svg": svg(f'<rect x="16" y="14" width="34" height="50" rx="3" {_S} {_TINT}/><path d="M36 22 l-8 16 h10 l-8 16" {_S}/><path d="M60 46 h46" {_S}/><path d="M66 46 l8 -18 l8 18 l8 -10 l8 10" {_S}/><circle cx="74" cy="28" r="3" {_FILL} stroke="none"/>'),
+    },
+    "round-is-a-year": {
+        "description": 'Each round stands for a long stretch of real time, a season, a year or a decade, so a lifetime of change fits into an afternoon.',
+        "svg": svg(f'<circle cx="34" cy="40" r="20" {_S}/><path d="M34 26 v14 l10 6" {_S}/><path d="M62 40 h10 M68 36 l4 4 l-4 4" {_S}/><rect x="80" y="22" width="28" height="36" rx="2" {_S} {_TINT}/><path d="M80 32 h28" {_S}/><circle cx="94" cy="45" r="4" {_FILL} stroke="none"/>'),
+    },
+    "visible-indicators": {
+        "description": 'Gauges on the board show how the whole system is doing, such as the water level, trust or pollution, and every move shows up on them. They describe the world, not who is ahead.',
+        "svg": svg(f'<path d="M18 58 a20 20 0 0 1 40 0" {_S}/><path d="M38 58 l10 -14" {_S}/><circle cx="38" cy="58" r="3" {_FILL} stroke="none"/><rect x="70" y="20" width="10" height="40" {_S}/><rect x="70" y="40" width="10" height="20" {_TINT} stroke="none"/><rect x="90" y="20" width="10" height="40" {_S}/><rect x="90" y="30" width="10" height="30" {_TINT} stroke="none"/>'),
+    },
+    "unequal-starting-positions": {
+        "description": 'Players begin with different amounts of money, land or connections, the way people do, and the game does not even it out.',
+        "svg": svg(f'<circle cx="26" cy="22" r="6" {_S}/><path d="M18 64 h16" {_S}/><rect x="20" y="58" width="12" height="6" {_S} {_TINT}/><circle cx="60" cy="22" r="6" {_S}/><path d="M52 64 h16" {_S}/><rect x="54" y="46" width="12" height="18" {_S} {_TINT}/><circle cx="94" cy="22" r="6" {_S}/><path d="M86 64 h16" {_S}/><rect x="88" y="32" width="12" height="32" {_S} {_TINT}/><circle cx="94" cy="22" r="3" {_FILL} stroke="none"/>'),
+    },
+    "powerful-make-the-rules": {
+        "description": 'Partway through, whoever is ahead gets to write or change the rules for everyone else, and the others play by them.',
+        "svg": svg(f'<rect x="58" y="14" width="40" height="52" rx="3" {_S} {_TINT}/><path d="M66 26 h24 M66 36 h24 M66 46 h14" {_S}/><path d="M22 66 v-22 h16 v22" {_S}/><path d="M22 44 l8 -10 l8 10" {_S}/><path d="M42 38 l12 -6" {_S}/><circle cx="30" cy="28" r="4" {_FILL} stroke="none"/>'),
+    },
+    "conflicting-goals": {
+        "description": "Each role wins by its own measure, and the measures pull against each other: the fisher wants the catch, the conservationist wants the fish. Everyone knows the others' goals.",
+        "svg": svg(f'<circle cx="32" cy="40" r="10" {_S} {_TINT}/><circle cx="88" cy="40" r="10" {_S} {_TINT}/><path d="M42 40 h36" {_S}/><path d="M52 34 l-8 6 l8 6 M68 34 l8 6 l-8 6" {_S}/><circle cx="60" cy="40" r="3" {_FILL} stroke="none"/>'),
+    },
+    "starting-situation": {
+        "description": 'Play opens on a described situation, who is where, what has just happened and what is at stake, which every player reads before the first move.',
+        "svg": svg(f'<rect x="24" y="12" width="44" height="56" rx="3" {_S} {_TINT}/><path d="M32 24 h28 M32 34 h28 M32 44 h20" {_S}/><path d="M80 40 h16 M90 34 l6 6 l-6 6" {_S}/><circle cx="104" cy="40" r="4" {_FILL} stroke="none"/>'),
+    },
+    "argued-moves": {
+        "description": 'A player may try anything, explains why it would work, and a judge or the whole table decides what happens, instead of the rules covering every action.',
+        "svg": svg(f'<path d="M14 18 h44 a6 6 0 0 1 6 6 v16 a6 6 0 0 1 -6 6 h-28 l-10 8 v-8 h-6 a6 6 0 0 1 -6 -6 v-16 a6 6 0 0 1 6 -6 z" {_S} {_TINT}/><path d="M78 60 h28 M92 60 v-28 M80 32 h24" {_S}/><path d="M80 32 l-6 14 h12 z M104 32 l-6 14 h12 z" {_S}/><circle cx="92" cy="28" r="3" {_FILL} stroke="none"/>'),
+    },
+    "pause-to-reflect": {
+        "description": 'Play stops at set points so players can say what they notice before going on, not only at the end.',
+        "svg": svg(f'<path d="M14 40 h26" {_S}/><rect x="46" y="24" width="8" height="32" {_S} {_TINT}/><rect x="60" y="24" width="8" height="32" {_S} {_TINT}/><path d="M74 40 h32" {_S}/><circle cx="57" cy="14" r="4" {_FILL} stroke="none"/>'),
+    },
+    "play-again-compare": {
+        "description": 'The same game is played more than once with one thing changed, and players compare what happened each time.',
+        "svg": svg(f'<rect x="14" y="20" width="36" height="40" rx="3" {_S} {_TINT}/><rect x="70" y="20" width="36" height="40" rx="3" {_S} {_TINT}/><path d="M22 50 l8 -12 l8 6 l6 -14" {_S}/><path d="M78 50 l8 -4 l8 -10 l6 -6" {_S}/><path d="M56 34 h8 M56 46 h8" {_S}/><circle cx="60" cy="14" r="3" {_FILL} stroke="none"/>'),
+    },
+    "says-what-it-leaves-out": {
+        "description": 'The game tells players what it simplified or left out of the real situation, so they know where it stops being true.',
+        "svg": svg(f'<rect x="16" y="16" width="56" height="48" rx="3" {_S}/><rect x="24" y="24" width="18" height="14" {_TINT} stroke="none"/><rect x="48" y="40" width="16" height="16" {_S} stroke-dasharray="3 3"/><path d="M78 48 h12 M84 42 l6 6 l-6 6" {_S}/><circle cx="100" cy="48" r="4" {_FILL} stroke="none"/>'),
+    },
+    "made-with-the-people": {
+        "description": 'The people whose situation the game is about help design it, and play it to check that it rings true.',
+        "svg": svg(f'<circle cx="26" cy="26" r="7" {_S} {_TINT}/><path d="M16 56 q10 -22 20 0" {_S}/><circle cx="50" cy="26" r="7" {_S} {_TINT}/><path d="M40 56 q10 -22 20 0" {_S}/><rect x="72" y="20" width="34" height="36" rx="3" {_S}/><path d="M80 32 h18 M80 42 h12" {_S}/><circle cx="66" cy="38" r="3" {_FILL} stroke="none"/>'),
+    },
+    "supply-chain": {
+        "description": "Each player is one link in a chain, such as maker, wholesaler, distributor and shop, passing goods one way and orders the other, so one player's choice reaches all the others.",
+        "svg": svg(f'<rect x="10" y="30" width="18" height="18" {_S} {_TINT}/><rect x="38" y="30" width="18" height="18" {_S} {_TINT}/><rect x="66" y="30" width="18" height="18" {_S} {_TINT}/><rect x="94" y="30" width="18" height="18" {_S} {_TINT}/><path d="M28 36 h10 M56 36 h10 M84 36 h10" {_S}/><path d="M38 44 h-10 M66 44 h-10 M94 44 h-10" {_S} stroke-dasharray="2 3"/><circle cx="103" cy="20" r="3" {_FILL} stroke="none"/>'),
+    },
+    "only-your-own-corner": {
+        "description": 'Each player sees only their own stock and the orders that reach them, never the whole system, and has to guess the rest.',
+        "svg": svg(f'<rect x="14" y="14" width="92" height="52" rx="3" {_S} stroke-dasharray="3 4"/><rect x="22" y="22" width="30" height="24" {_S} {_TINT}/><circle cx="37" cy="34" r="4" {_FILL} stroke="none"/><path d="M64 30 h30 M64 42 h22 M64 54 h30" {_S} stroke-dasharray="2 4"/>'),
+    },
+    "bottleneck": {
+        "description": 'The slowest step sets the pace of everything after it, so speeding up any other step changes nothing.',
+        "svg": svg(f'<path d="M10 20 h34 l14 10 h4 l14 -10 h34 M10 60 h34 l14 -10 h4 l14 10 h34" {_S}/><circle cx="22" cy="40" r="4" {_TINT} stroke="#2D3436"/><circle cx="34" cy="40" r="4" {_TINT} stroke="#2D3436"/><circle cx="46" cy="40" r="4" {_TINT} stroke="#2D3436"/><circle cx="60" cy="40" r="4" {_FILL} stroke="none"/><circle cx="94" cy="40" r="4" {_S}/>'),
+    },
+    "push-or-pull": {
+        "description": 'Goods are made ahead to a guess and pushed down the line, or made only when an order pulls them, and players feel the difference.',
+        "svg": svg(f'<path d="M14 30 h40 M46 24 l8 6 l-8 6" {_S}/><rect x="60" y="22" width="16" height="16" {_S} {_TINT}/><path d="M106 50 h-40 M74 44 l-8 6 l8 6" {_S}/><rect x="40" y="42" width="16" height="16" {_S} {_TINT}/><circle cx="100" cy="30" r="4" {_FILL} stroke="none"/>'),
+    },
+    "batch-size": {
+        "description": 'Players choose how many to make or move at once, a big batch now or one at a time, and pay for the choice in waiting or in setting up.',
+        "svg": svg(f'<rect x="14" y="40" width="10" height="10" {_S} {_TINT}/><rect x="26" y="40" width="10" height="10" {_S} {_TINT}/><rect x="14" y="52" width="10" height="10" {_S} {_TINT}/><rect x="26" y="52" width="10" height="10" {_S} {_TINT}/><path d="M46 50 h14 M54 44 l6 6 l-6 6" {_S}/><rect x="72" y="46" width="10" height="10" {_S}/><path d="M86 51 h6" {_S}/><rect x="96" y="46" width="10" height="10" {_S}/><circle cx="77" cy="34" r="3" {_FILL} stroke="none"/>'),
+    },
+    "machines-break-down": {
+        "description": 'Equipment fails at random and must be repaired, so a plan that assumes everything works will not hold.',
+        "svg": svg(f'<circle cx="40" cy="40" r="16" {_S} {_TINT}/><circle cx="40" cy="40" r="5" {_S}/><path d="M40 18 v6 M40 56 v6 M18 40 h6 M56 40 h6" {_S}/><path d="M74 24 l10 12 l-6 4 l12 16" {_S}/><circle cx="96" cy="58" r="4" {_FILL} stroke="none"/>'),
+    },
+    "cost-of-too-much-and-too-little": {
+        "description": 'Holding stock costs something every round, and running out costs more, so players keep balancing between the two.',
+        "svg": svg(f'<path d="M20 50 h80" {_S}/><path d="M60 50 l-8 14 h16 z" {_S}/><rect x="22" y="32" width="22" height="18" {_S} {_TINT}/><rect x="80" y="44" width="12" height="6" {_S}/><circle cx="60" cy="26" r="4" {_FILL} stroke="none"/>'),
     },
 }
 
